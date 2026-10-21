@@ -65,6 +65,13 @@ for ref in ["AGENTS.md", "AI全能力自主工程执行总指令.md"]:
 if "IMPLEMENTED" not in main or "VERIFIED" not in main or "COMPLETED" not in main:
     errors.append("main instruction missing evidence-based state gates")
 
+section_numbers = re.findall(r"^## ([一二三四五六七八九十百零]+)、", main, re.M)
+seen = set()
+for number in section_numbers:
+    if number in seen:
+        errors.append(f"duplicate section number: {number}")
+    seen.add(number)
+
 if errors:
     print("Instruction audit FAILED:")
     for e in errors:
