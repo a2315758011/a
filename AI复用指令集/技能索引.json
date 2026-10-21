@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "description": "跨 AI 复用技能索引，调用前先 find，匹配后 show，参数确认后 run；禁止自动运行未知脚本",
+  "skills": [
+    {
+      "id": "project-bootstrap",
+      "title": "读取工作站项目上下文",
+      "keywords": [
+        "恢复",
+        "上下文",
+        "项目",
+        "bootstrap",
+        "recover"
+      ],
+      "script": "脚本/项目恢复.js",
+      "requiresApproval": false,
+      "timeoutMs": 15000,
+      "usage": "node 复用管理器.js run project-bootstrap --arg win-unpacked",
+      "success": "输出 recover 结果与返回码",
+      "failure": "失败时读取协议及项目记忆，不循环提交"
+    },
+    {
+      "id": "file-inventory",
+      "title": "快速枚举目录文件",
+      "keywords": [
+        "扫描",
+        "文件",
+        "目录",
+        "统计",
+        "清单"
+      ],
+      "script": "脚本/目录清单.js",
+      "requiresApproval": false,
+      "timeoutMs": 20000,
+      "usage": "node 复用管理器.js run file-inventory --arg C:\\路径",
+      "success": "输出文件数和前100条相对文件路径",
+      "failure": "目录不存在时停止，不创建或删除文件"
+    }
+  ]
+}
