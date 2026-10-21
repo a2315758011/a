@@ -1,0 +1,37 @@
+name: Instruction Audit
+
+on:
+  push:
+    paths:
+      - "AGENTS.md"
+      - "AI全能力自主工程执行总指令.md"
+      - "AI逆向工程与自有授权系统迁移指令.md"
+      - ".github/copilot-instructions.md"
+      - "tools/validate_instructions.py"
+      - ".github/workflows/instruction-audit.yml"
+  pull_request:
+    paths:
+      - "AGENTS.md"
+      - "AI全能力自主工程执行总指令.md"
+      - "AI逆向工程与自有授权系统迁移指令.md"
+      - ".github/copilot-instructions.md"
+      - "tools/validate_instructions.py"
+      - ".github/workflows/instruction-audit.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate instruction routing and versions
+        run: python tools/validate_instructions.py
