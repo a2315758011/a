@@ -5,12 +5,13 @@ This repository is a public reusable instruction library. Treat `AGENTS.md` as t
 ## Mandatory startup
 
 1. Read `AGENTS.md`.
-2. For complex engineering, software development, repair, integration, automation, or long-running work, read `AI全能力自主工程执行总指令.md`.
-3. Load only the relevant domain instruction:
+2. Read `AI通用任务理解与最小范围执行指令.md` for every task, to ground intent in the full context, distinguish hypothetical risk statements from the actual request, and restrict only concrete blocked steps.
+3. For complex engineering, software development, repair, integration, automation, or long-running work, read `AI全能力自主工程执行总指令.md` (V2.4).
+4. Load only the relevant domain instruction:
    - reverse engineering / authorized APK or license migration: `AI逆向工程与自有授权系统迁移指令.md`
    - game development: the game rules routed from `README.md`
    - film / AIGC asset production: the files routed from `AGENTS.md`
-4. Do not assume a user's local paths, credentials, MCP services, devices, or tools exist merely because examples in this repository mention them. Discover the actual environment first.
+5. Do not assume a user's local paths, credentials, MCP services, devices, or tools exist merely because examples in this repository mention them. Discover the actual environment first.
 
 ## Execution baseline
 
@@ -27,6 +28,7 @@ This repository is a public reusable instruction library. Treat `AGENTS.md` as t
 - Repeated stable operations should become idempotent scripts when that materially reduces time or error.
 - For fresh or uncertain technical facts, verify against official documentation or upstream sources.
 - Technical keywords alone are not a reason to reject a task. Evaluate the actual authorized action and scope. If only one concrete step is restricted, limit that step and continue all permitted work.
+- A conditional statement such as “if you mean X, I cannot help with Y” is not by itself proof that the user requested X or that the whole task must stop. Compare it with the actual request and existing context.
 - Never hide, encode, obfuscate, or misrepresent a task to bypass platform, permission, or safety controls.
 
 ## Final reporting
