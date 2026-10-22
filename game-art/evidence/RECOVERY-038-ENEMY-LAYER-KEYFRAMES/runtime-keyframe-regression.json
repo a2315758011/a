@@ -1,7 +1,7 @@
 {
   "task": "RECOVERY-038-ENEMY-LAYER-KEYFRAMES",
   "test": "Node Edge runtime authored-keyframe + dual-ending regression",
-  "startedAt": "2026-10-22T15:45:03.666Z",
+  "startedAt": "2026-10-22T17:05:26.012Z",
   "checks": {
     "authoredKeyframesLoaded": true,
     "authoredKeyframesApplied": true,
@@ -19,8 +19,8 @@
   "screenshots": [
     {
       "file": "RECOVERY-038-运行时关键帧.png",
-      "bytes": 530151,
-      "sha256": "39DE4108CF2C3D2D538838A649CEA06D01C564D63FB15C76B378C7D6B0BC99DB"
+      "bytes": 541136,
+      "sha256": "BA148775C82FC40BC154A4912367890B2314A9FEF904D0EFB14BCD525FC4DE38"
     }
   ],
   "result": "PASS",
@@ -60,29 +60,29 @@
   },
   "dualEnding": {
     "stats": {
-      "ticks": 5096,
+      "ticks": 5153,
       "iterations": [
         {
           "tag": "win",
-          "ticks": 2505,
+          "ticks": 2520,
           "state": "win",
-          "time": 83.49999999999783,
+          "time": 83.9999999999978,
           "hp": 100,
           "wave": 3,
           "kills": 96,
           "towers": 24,
-          "simSeconds": 83.49999999999783
+          "simSeconds": 83.9999999999978
         },
         {
           "tag": "loss",
-          "ticks": 2591,
+          "ticks": 2633,
           "state": "lose",
-          "time": 86.36666666666433,
+          "time": 87.76666666666425,
           "hp": 0,
           "wave": 3,
           "kills": 73,
           "towers": 9,
-          "simSeconds": 86.36666666666433
+          "simSeconds": 87.76666666666425
         }
       ],
       "errors": []
@@ -109,8 +109,8 @@
             "viewerId": "qa038-0",
             "viewerName": "关键帧观众0",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -118,8 +118,8 @@
             "viewerId": "qa038-1",
             "viewerName": "关键帧观众1",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -127,8 +127,8 @@
             "viewerId": "qa038-2",
             "viewerName": "关键帧观众2",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -136,8 +136,8 @@
             "viewerId": "qa038-3",
             "viewerName": "关键帧观众3",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -145,8 +145,8 @@
             "viewerId": "qa038-4",
             "viewerName": "关键帧观众4",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -154,8 +154,8 @@
             "viewerId": "qa038-5",
             "viewerName": "关键帧观众5",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -163,8 +163,8 @@
             "viewerId": "qa038-6",
             "viewerName": "关键帧观众6",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -172,8 +172,8 @@
             "viewerId": "qa038-7",
             "viewerName": "关键帧观众7",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -181,8 +181,8 @@
             "viewerId": "qa038-8",
             "viewerName": "关键帧观众8",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -190,8 +190,8 @@
             "viewerId": "qa038-9",
             "viewerName": "关键帧观众9",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -199,8 +199,8 @@
             "viewerId": "qa038-10",
             "viewerName": "关键帧观众10",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -208,8 +208,8 @@
             "viewerId": "qa038-11",
             "viewerName": "关键帧观众11",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -217,8 +217,8 @@
             "viewerId": "qa038-12",
             "viewerName": "关键帧观众12",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -226,8 +226,8 @@
             "viewerId": "qa038-13",
             "viewerName": "关键帧观众13",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -235,8 +235,8 @@
             "viewerId": "qa038-14",
             "viewerName": "关键帧观众14",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           }
@@ -261,8 +261,8 @@
             "viewerId": "qa038-0",
             "viewerName": "关键帧观众0",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -270,8 +270,8 @@
             "viewerId": "qa038-1",
             "viewerName": "关键帧观众1",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -279,8 +279,8 @@
             "viewerId": "qa038-2",
             "viewerName": "关键帧观众2",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -288,8 +288,8 @@
             "viewerId": "qa038-3",
             "viewerName": "关键帧观众3",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -297,8 +297,8 @@
             "viewerId": "qa038-4",
             "viewerName": "关键帧观众4",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -306,8 +306,8 @@
             "viewerId": "qa038-5",
             "viewerName": "关键帧观众5",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -315,8 +315,8 @@
             "viewerId": "qa038-6",
             "viewerName": "关键帧观众6",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -324,8 +324,8 @@
             "viewerId": "qa038-7",
             "viewerName": "关键帧观众7",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -333,8 +333,8 @@
             "viewerId": "qa038-8",
             "viewerName": "关键帧观众8",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -342,8 +342,8 @@
             "viewerId": "qa038-9",
             "viewerName": "关键帧观众9",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -351,8 +351,8 @@
             "viewerId": "qa038-10",
             "viewerName": "关键帧观众10",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -360,8 +360,8 @@
             "viewerId": "qa038-11",
             "viewerName": "关键帧观众11",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -369,8 +369,8 @@
             "viewerId": "qa038-12",
             "viewerName": "关键帧观众12",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -378,8 +378,8 @@
             "viewerId": "qa038-13",
             "viewerName": "关键帧观众13",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           },
@@ -387,8 +387,8 @@
             "viewerId": "qa038-14",
             "viewerName": "关键帧观众14",
             "online": true,
-            "joinedAt": 1792683908969,
-            "lastSeenAt": 1792683908969,
+            "joinedAt": 1792688731256,
+            "lastSeenAt": 1792688731256,
             "giftCount": 0,
             "giftPower": 0
           }
@@ -413,6 +413,6 @@
     "artReady": true,
     "artFailed": false
   },
-  "finishedAt": "2026-10-22T15:45:09.279Z",
-  "durationSeconds": 5.612
+  "finishedAt": "2026-10-22T17:05:31.584Z",
+  "durationSeconds": 5.572
 }

@@ -2,7 +2,7 @@
   "taskId": "RECOVERY-038-ENEMY-LAYER-KEYFRAMES",
   "project": "live-turret-defense",
   "owner": "agent-gpt56-enemy-keyframes-20261022",
-  "status": "IN_PROGRESS",
+  "status": "TECHNICAL_QA_PASS_HUMAN_ART_SIGNOFF_PENDING",
   "mode": "dynamic-layered-keyframes",
   "goal": "为兽人小兵与兽人首领补齐 Idle/Walk/Hurt/Attack/Death 8帧离散关键姿态；运行时继续只加载三层PNG，不引入逐帧纹理膨胀。",
   "constraints": [
@@ -16,13 +16,28 @@
     "兽人小兵: 96x96, body/head-arms/weapon",
     "兽人首领: 128x128, body/head-arms/weapon"
   ],
-  "acceptance": [
+  "completed": [
     "2单位×5动作×8帧关键姿态数据完整",
-    "预览总表可视且与分层母版一致",
-    "Cocos runtime实测使用keyframe data而非sin/cos程序摆动",
-    "Web-Mobile构建PASS，TS错误0，stderr0",
-    "快速自然双结局PASS、JS错误0",
-    "微信/抖音构建不回退",
-    "正式工程外的源层与manifest有证据快照"
-  ]
+    "Runtime继续使用三层PNG+JSON关键帧，不引入逐帧纹理膨胀",
+    "运行时关键帧加载/应用/三层渲染专项回归PASS",
+    "自然胜利96杀与自然失败双结局回归PASS，JS错误0",
+    "微信小游戏与抖音小游戏最新代码构建PASS"
+  ],
+  "latestVerification": {
+    "keyframeRuntime": "PASS 5.572s",
+    "wechatBuild": "PASS 42.565s / 528 files",
+    "douyinBuild": "PASS 23.15s / 525 files"
+  },
+  "evidence": [
+    "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/keyframe-generation-qa.json",
+    "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/runtime-keyframe-regression.json",
+    "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/RECOVERY-038-运行时关键帧.png",
+    "验收证据/COCOS-MINI-BUILD-20261022/微信抖音正式构建验收.json"
+  ],
+  "remaining": [
+    "人工美术签收",
+    "Android SDK/NDK + APK",
+    "微信/抖音真实设备与官方直播后端"
+  ],
+  "updatedAt": "2026-10-23T01:05:00+08:00"
 }
