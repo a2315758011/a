@@ -1,0 +1,185 @@
+{
+  "status": "PASS",
+  "build": "real Cocos Creator 3.8.2 Web-Mobile official project",
+  "launchScene": "db://assets/场景/候选美术试玩.scene",
+  "screens": [
+    {
+      "target": [
+        540,
+        960
+      ],
+      "status": "PASS_FORMAL_COCOS_RUNTIME_PORTRAIT",
+      "consoleErrors": [],
+      "console": [
+        {
+          "type": "timeEnd",
+          "line": "Init Base: 10.56494140625 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init Infrastructure: 27.8818359375 ms"
+        },
+        {
+          "type": "log",
+          "line": "[PHYSICS2D]: register box2d."
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init SubSystem: 45.2470703125 ms"
+        },
+        {
+          "type": "log",
+          "line": "Cocos Creator v3.8.2"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init Project: 23.705078125 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "LoadScene db://assets/场景/候选美术试玩.scene: 17.85400390625 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "InitScene: 0.14697265625 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "AttachPersist: 0.08203125 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "AutoRelease: 0.14501953125 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Destroy: 0.196044921875 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Activate: 19.215087890625 ms"
+        },
+        {
+          "type": "log",
+          "line": "Success to load scene: db://assets/场景/候选美术试玩.scene"
+        },
+        {
+          "type": "log",
+          "line": "候选可玩战场：5组40帧已载入，已启用SpriteFrame覆盖"
+        }
+      ],
+      "viewport": {
+        "w": 540,
+        "h": 960,
+        "hidden": false
+      },
+      "initialSha": "214372d0c96b25578fd2b41c230131219c5d40afd4dc860608aadfd789dff352",
+      "afterSha": "0eea9d8865aad61e6ec66df683d459d9f05c54cd8a864f421032365a1a2cafca",
+      "visualPixelsChangedSampled": 1153,
+      "bottomButtonRGB": {
+        "start": [
+          92,
+          143,
+          183
+        ],
+        "join": [
+          143,
+          183,
+          147
+        ]
+      },
+      "webgl2": true,
+      "seconds": 8.2
+    },
+    {
+      "target": [
+        540,
+        1108
+      ],
+      "status": "PASS_FORMAL_COCOS_RUNTIME_PORTRAIT",
+      "consoleErrors": [],
+      "console": [
+        {
+          "type": "timeEnd",
+          "line": "Init Base: 7.8369140625 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init Infrastructure: 27.942138671875 ms"
+        },
+        {
+          "type": "log",
+          "line": "[PHYSICS2D]: register box2d."
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init SubSystem: 35.049072265625 ms"
+        },
+        {
+          "type": "log",
+          "line": "Cocos Creator v3.8.2"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init Project: 21.027099609375 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "LoadScene db://assets/场景/候选美术试玩.scene: 18.1240234375 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "InitScene: 0.14208984375 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "AttachPersist: 0.090087890625 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "AutoRelease: 0.09912109375 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Destroy: 0.18603515625 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Activate: 18.45703125 ms"
+        },
+        {
+          "type": "log",
+          "line": "Success to load scene: db://assets/场景/候选美术试玩.scene"
+        },
+        {
+          "type": "log",
+          "line": "候选可玩战场：5组40帧已载入，已启用SpriteFrame覆盖"
+        }
+      ],
+      "viewport": {
+        "w": 540,
+        "h": 1108,
+        "hidden": false
+      },
+      "initialSha": "4cbd0f1816aec16377e27929d6afe37e2f929cfa475e9d59890e35be58c3250a",
+      "afterSha": "9be4a7cc07407509a18d9e01e093dd222ee69ddccae54e061494885ab29dcdd1",
+      "visualPixelsChangedSampled": 1182,
+      "bottomButtonRGB": {
+        "start": [
+          92,
+          143,
+          183
+        ],
+        "join": [
+          143,
+          183,
+          147
+        ]
+      },
+      "webgl2": true,
+      "seconds": 7.7
+    }
+  ],
+  "manualHumanFullRunPreviously": true,
+  "phoneDeviceVerified": false
+}

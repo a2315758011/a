@@ -1,0 +1,754 @@
+{
+  "url": "local-hosted-cocos-build",
+  "console": [
+    {
+      "type": "Log.entryAdded",
+      "line": "<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> is deprecated. Please include <meta name=\"mobile-web-app-capable\" content=\"yes\">"
+    },
+    {
+      "type": "Log.entryAdded",
+      "line": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Base: 6.9150390625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Infrastructure: 26.637939453125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "[PHYSICS2D]: register box2d."
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init SubSystem: 46.19189453125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Cocos Creator v3.8.2"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Project: 22.160888671875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "LoadScene db://assets/场景/候选美术试玩.scene: 16.22998046875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "InitScene: 0.088134765625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AttachPersist: 0.06689453125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AutoRelease: 0.06103515625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Destroy: 0.0810546875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Activate: 15.677001953125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Success to load scene: db://assets/场景/候选美术试玩.scene"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "候选V5战场：9个炮塔图层、3个水晶图层、6个兽人分层、无缝地面和8款UI已载入"
+    }
+  ],
+  "errors": [],
+  "logs": [],
+  "navigate": {
+    "frameId": "A9BA0E411FC5D8C25C4C7105B059C309",
+    "loaderId": "8E45034F8C08C84F3D0590CFA34A3965"
+  },
+  "dom": {
+    "ready": "complete",
+    "title": "Cocos Creator | turret-playable-art-candidate-v5",
+    "bodyText": "",
+    "canvas": [
+      {
+        "w": 1056,
+        "h": 1748,
+        "css": ""
+      }
+    ],
+    "url": "http://127.0.0.1:51851/"
+  },
+  "webgl": {
+    "webgl2": true,
+    "webgl": false
+  },
+  "cc": {
+    "cc": "object",
+    "CocosEngine": "boolean",
+    "sys": "object"
+  },
+  "game": {
+    "root": true,
+    "components": [
+      "UITransform",
+      "Canvas",
+      "Widget",
+      "守城控制器",
+      "待审战场美术覆盖器"
+    ],
+    "controllerUse": true,
+    "state": "ready",
+    "artReady": true,
+    "artFailed": false,
+    "artChildren": [
+      {
+        "name": "UICamera_Canvas",
+        "active": true,
+        "layer": 524288,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": null,
+        "sprites": []
+      },
+      {
+        "name": "V5地面纹理层",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          0.9,
+          0.9
+        ],
+        "size": null,
+        "sprites": []
+      },
+      {
+        "name": "战场画笔",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 540,
+          "h": 960
+        },
+        "sprites": []
+      },
+      {
+        "name": "V5分层战场精灵层",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": null,
+        "sprites": []
+      },
+      {
+        "name": "V5战斗UI皮肤层",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          0
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": null,
+        "sprites": []
+      },
+      {
+        "name": "游戏状态",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          408.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 217.76721954345703,
+          "h": 30.239999999999995
+        },
+        "sprites": []
+      },
+      {
+        "name": "战场说明",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          377.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 322.5582504272461,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "操作提示",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          -410.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 283.0806281349876,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "按钮-开始/暂停",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          -205,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 59.87261685458097,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "按钮-观众+1",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          -103,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 43.94940896467729,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "按钮-升级",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          12,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 27.992040460759945,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "按钮-离场",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          101,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 27.992040460759945,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "按钮-重开",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          203,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 27.992040460759945,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "镜头-回核心",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          -170,
+          340.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 41.988060691139914,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "镜头-缩小",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          140,
+          340.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 27.992040460759945,
+          "h": 30.24
+        },
+        "sprites": []
+      },
+      {
+        "name": "镜头-放大",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          207,
+          340.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 27.992040460759945,
+          "h": 30.24
+        },
+        "sprites": []
+      }
+    ],
+    "ground": {
+      "name": "V5地面纹理层",
+      "active": true,
+      "layer": 33554432,
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        0.9,
+        0.9
+      ],
+      "size": null,
+      "sprites": []
+    },
+    "groundSprite": {
+      "name": "无缝战场地砖",
+      "active": true,
+      "layer": 33554432,
+      "position": [
+        0,
+        0
+      ],
+      "scale": [
+        1,
+        1
+      ],
+      "size": {
+        "w": 3200,
+        "h": 3200
+      },
+      "sprites": [
+        {
+          "enabled": true,
+          "frame": "战场地砖",
+          "type": 2,
+          "sizeMode": 0
+        }
+      ]
+    },
+    "ui": [
+      {
+        "name": "HUD顶部底板",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          393.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 480,
+          "h": 96
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "HUD顶部底板",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "生命值条外框",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          0,
+          377.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 192,
+          "h": 32
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "生命值条外框",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "波次徽章",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          -218,
+          393.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 44,
+          "h": 44
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "波次徽章",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "能量水晶图标",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          218,
+          393.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 44,
+          "h": 44
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "能量水晶图标",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "主操作按钮",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          -205,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 100,
+          "h": 42
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "主操作按钮",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "观众按钮",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          -103,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 100,
+          "h": 42
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "次操作按钮",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "升级按钮",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          -1,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 100,
+          "h": 42
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "次操作按钮",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "离场按钮",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          101,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 100,
+          "h": 42
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "离场按钮",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "重开按钮",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          203,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 100,
+          "h": 42
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "主操作按钮",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      },
+      {
+        "name": "炮塔升级图标",
+        "active": true,
+        "layer": 33554432,
+        "position": [
+          -31,
+          -350.9318181818182
+        ],
+        "scale": [
+          1,
+          1
+        ],
+        "size": {
+          "w": 28,
+          "h": 28
+        },
+        "sprites": [
+          {
+            "enabled": true,
+            "frame": "炮塔升级图标",
+            "type": 0,
+            "sizeMode": 0
+          }
+        ]
+      }
+    ],
+    "uiFrames": [
+      "HUD顶部底板",
+      "主操作按钮",
+      "次操作按钮",
+      "离场按钮",
+      "生命值条外框",
+      "波次徽章",
+      "能量水晶图标",
+      "炮塔升级图标"
+    ],
+    "towerFrames": [
+      {
+        "kind": "rapid",
+        "frames": [
+          "连珠速射塔_底座",
+          "连珠速射塔_主体",
+          "连珠速射塔_双炮管"
+        ]
+      },
+      {
+        "kind": "heavy",
+        "frames": [
+          "熔芯重炮塔_底座",
+          "熔芯重炮塔_主体",
+          "熔芯重炮塔_熔芯炮口"
+        ]
+      },
+      {
+        "kind": "frost",
+        "frames": [
+          "寒霜喷射塔_底座",
+          "寒霜喷射塔_主体",
+          "寒霜喷射塔_寒霜喷射器"
+        ]
+      }
+    ],
+    "enemyFrames": {
+      "grunt": [
+        "兽人小兵_身体护甲_母图层",
+        "兽人小兵_头部双臂_母图层",
+        "兽人小兵_武器配件_母图层"
+      ],
+      "boss": [
+        "兽人首领_身体护甲_母图层",
+        "兽人首领_头部双臂_母图层",
+        "兽人首领_武器配件_母图层"
+      ]
+    },
+    "camera": []
+  },
+  "screenshotBytes": 1164846,
+  "requestsTotal": 107,
+  "lastRequests": [
+    "/assets/resources/import/ab/ab26d195-a997-4afc-90d6-02074a10ac48.json",
+    "/assets/resources/import/c9/c96cfa68-0c5b-45a9-b8a2-22fb733be65e.json",
+    "/assets/resources/import/11/11788d72-3684-4e6d-8aa9-2888f268a5a0.json",
+    "/assets/resources/import/6c/6c61eec7-9911-4b94-b397-4cae13492058.json",
+    "/assets/resources/native/c4/c443eeae-82e9-4105-9f87-aef2c19d20bc.png",
+    "/assets/resources/import/da/da3966d3-7e2a-4a74-a840-9b536c5df1b2.json",
+    "/assets/resources/native/49/4929e820-89d8-483d-9650-a5d73a160d6c.png",
+    "/assets/resources/native/0f/0f7976dd-12bd-4d27-b164-a9d2184b4ebc.png",
+    "/assets/resources/native/4f/4f838935-17c9-4ec5-894f-15fdaf8ca816.png",
+    "/assets/resources/native/8a/8a2c0008-e021-41cc-8033-99449da5d2a5.png",
+    "/assets/resources/native/66/660ba2e3-e8bb-4feb-ab7f-f6cfa9deada3.png",
+    "/assets/resources/native/a6/a6328a32-d6c5-411a-a908-05c511debf9a.png",
+    "/assets/resources/native/71/71035032-1005-4742-afe0-4c838ea84774.png",
+    "/assets/resources/native/35/35a2ecd9-225a-43f6-9c46-ddac7f9f262d.png",
+    "/assets/resources/native/ca/ca9aa504-c216-4313-9484-212bf0c51949.png",
+    "/assets/resources/native/ab/ab26d195-a997-4afc-90d6-02074a10ac48.png",
+    "/assets/resources/native/c9/c96cfa68-0c5b-45a9-b8a2-22fb733be65e.png",
+    "/assets/resources/native/11/11788d72-3684-4e6d-8aa9-2888f268a5a0.png",
+    "/assets/resources/native/6c/6c61eec7-9911-4b94-b397-4cae13492058.png",
+    "/assets/resources/native/da/da3966d3-7e2a-4a74-a840-9b536c5df1b2.png"
+  ]
+}

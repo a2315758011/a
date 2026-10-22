@@ -1,0 +1,13 @@
+{
+  "taskId": "RECOVERY-034-TOPDOWN-BOSS-LAYERS-B1",
+  "status": "failed_pre_submit",
+  "jobId": "af30b59c-c77b-4797-9775-a84ccaee2392",
+  "stage": "upload-reference",
+  "code": "WEB_GENERATION_FAILED",
+  "message": "Could not find node with given id",
+  "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+  "submitted": false,
+  "submitLocked": false,
+  "artifacts": [],
+  "policy": "Do not retry B1. Preserve evidence and use a new task ID/account only after capability verification."
+}

@@ -1,0 +1,1307 @@
+{
+  "test": "Cocos Creator 3.8.2 V5 art candidate scale-iteration real-time mouse-only full playthrough with read-only component inspector",
+  "states": [
+    {
+      "wallTime": 8.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 0,
+      "zoom": 0.68,
+      "gameTime": 5.6999999999999895,
+      "enemies": 10,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 0,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 10.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 4,
+      "zoom": 0.68,
+      "gameTime": 7.699999999999982,
+      "enemies": 10,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 2,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 12.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 6,
+      "zoom": 0.68,
+      "gameTime": 9.73333333333331,
+      "enemies": 12,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 3,
+        "states": {
+          "walk": 2,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 14.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 12,
+      "zoom": 0.68,
+      "gameTime": 11.699999999999969,
+      "enemies": 10,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 1,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 1
+        },
+        "ghosts": 1,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 16.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 12,
+      "zoom": 0.68,
+      "gameTime": 12.266666666666634,
+      "enemies": 11,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 1,
+        "states": {
+          "walk": 0,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 18.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 16,
+      "zoom": 0.68,
+      "gameTime": 14.266666666666627,
+      "enemies": 8,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 1,
+        "states": {
+          "walk": 1,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 20.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 20,
+      "zoom": 0.68,
+      "gameTime": 16.266666666666634,
+      "enemies": 4,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 1,
+        "states": {
+          "walk": 1,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 22.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 18.266666666666733,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 24.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 20.266666666666833,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 26.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 22.300000000000267,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 1,
+        "states": {
+          "walk": 1,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 28.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 24.300000000000367,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 1,
+        "states": {
+          "walk": 0,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 30.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 26.300000000000466,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 1,
+        "states": {
+          "walk": 1,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 32.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 24,
+      "zoom": 0.68,
+      "gameTime": 28.300000000000566,
+      "enemies": 0,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 34.8,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 24,
+      "zoom": 0.68,
+      "gameTime": 30.500000000000675,
+      "enemies": 5,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 36.8,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 24,
+      "zoom": 0.68,
+      "gameTime": 32.50000000000072,
+      "enemies": 10,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 38.8,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 25,
+      "zoom": 0.68,
+      "gameTime": 34.500000000000604,
+      "enemies": 14,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 3,
+        "states": {
+          "walk": 1,
+          "hurt": 1,
+          "attack": 0,
+          "death": 1
+        },
+        "ghosts": 1,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 40.8,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 30,
+      "zoom": 0.68,
+      "gameTime": 36.53333333333382,
+      "enemies": 14,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 3,
+        "active": 1,
+        "states": {
+          "walk": 0,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 42.8,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 35,
+      "zoom": 0.68,
+      "gameTime": 38.53333333333371,
+      "enemies": 14,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 4,
+        "states": {
+          "walk": 1,
+          "hurt": 1,
+          "attack": 0,
+          "death": 2
+        },
+        "ghosts": 2,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 44.8,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 38,
+      "zoom": 0.68,
+      "gameTime": 40.533333333333594,
+      "enemies": 16,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 3,
+        "states": {
+          "walk": 2,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 46.8,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 44,
+      "zoom": 0.68,
+      "gameTime": 42.53333333333348,
+      "enemies": 12,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 2,
+        "states": {
+          "walk": 0,
+          "hurt": 2,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 48.9,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 49,
+      "zoom": 0.68,
+      "gameTime": 44.53333333333337,
+      "enemies": 7,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 3,
+        "states": {
+          "walk": 1,
+          "hurt": 2,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 50.9,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 53,
+      "zoom": 0.68,
+      "gameTime": 46.53333333333325,
+      "enemies": 3,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 1,
+        "states": {
+          "walk": 0,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 52.9,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 55,
+      "zoom": 0.68,
+      "gameTime": 48.53333333333314,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 54.9,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 55,
+      "zoom": 0.68,
+      "gameTime": 50.533333333333026,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 1,
+        "states": {
+          "walk": 0,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 56.9,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 55,
+      "zoom": 0.68,
+      "gameTime": 52.53333333333291,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 1,
+        "states": {
+          "walk": 0,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 58.9,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 56,
+      "zoom": 0.68,
+      "gameTime": 54.5333333333328,
+      "enemies": 0,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 61.0,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 56,
+      "zoom": 0.68,
+      "gameTime": 56.69999999999934,
+      "enemies": 4,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 63.0,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 56,
+      "zoom": 0.68,
+      "gameTime": 58.69999999999923,
+      "enemies": 10,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 1,
+        "states": {
+          "walk": 1,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 65.0,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 57,
+      "zoom": 0.68,
+      "gameTime": 60.699999999999115,
+      "enemies": 15,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 2,
+        "states": {
+          "walk": 1,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 67.0,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 61,
+      "zoom": 0.68,
+      "gameTime": 62.699999999999,
+      "enemies": 17,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 3,
+        "states": {
+          "walk": 2,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 69.0,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 66,
+      "zoom": 0.68,
+      "gameTime": 64.6999999999989,
+      "enemies": 18,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 5,
+        "states": {
+          "walk": 3,
+          "hurt": 1,
+          "attack": 0,
+          "death": 1
+        },
+        "ghosts": 1,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 71.0,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 72,
+      "zoom": 0.68,
+      "gameTime": 66.73333333333211,
+      "enemies": 18,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 5,
+        "states": {
+          "walk": 3,
+          "hurt": 1,
+          "attack": 0,
+          "death": 1
+        },
+        "ghosts": 1,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 73.0,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 78,
+      "zoom": 0.68,
+      "gameTime": 68.733333333332,
+      "enemies": 18,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 5,
+        "states": {
+          "walk": 4,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 75.1,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 84,
+      "zoom": 0.68,
+      "gameTime": 70.73333333333188,
+      "enemies": 12,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 5,
+        "states": {
+          "walk": 4,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 77.1,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 91,
+      "zoom": 0.68,
+      "gameTime": 72.73333333333177,
+      "enemies": 5,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 3,
+        "states": {
+          "walk": 1,
+          "hurt": 1,
+          "attack": 0,
+          "death": 1
+        },
+        "ghosts": 1,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 79.1,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 95,
+      "zoom": 0.68,
+      "gameTime": 74.73333333333166,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 81.1,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 95,
+      "zoom": 0.68,
+      "gameTime": 76.73333333333154,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 83.1,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 95,
+      "zoom": 0.68,
+      "gameTime": 78.76666666666476,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 85.1,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 95,
+      "zoom": 0.68,
+      "gameTime": 80.76666666666465,
+      "enemies": 1,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 1,
+        "states": {
+          "walk": 0,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    },
+    {
+      "wallTime": 87.1,
+      "state": "win",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 96,
+      "zoom": 0.68,
+      "gameTime": 81.83333333333125,
+      "enemies": 0,
+      "animation": {
+        "ready": true,
+        "failed": false,
+        "pool": 6,
+        "active": 0,
+        "states": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "ghosts": 0,
+        "upgradingTowers": 0,
+        "coreHit": false,
+        "crystalDeathElapsed": 0
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "actions": [
+    {
+      "clock": 3.0,
+      "name": "start"
+    },
+    {
+      "clock": 3.2,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 3.4,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 3.6,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 3.8,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.0,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.2,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.4,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.6,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.8,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.0,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.2,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.4,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.6,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.7,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.9,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 6.1,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 6.3,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 6.5,
+      "name": "zoom_out"
+    },
+    {
+      "clock": 8.2,
+      "name": "drag_camera"
+    },
+    {
+      "clock": 8.4,
+      "name": "recenter"
+    },
+    {
+      "clock": 87.4,
+      "name": "restart"
+    }
+  ],
+  "result": "win",
+  "startedAt": "2026-10-20T13:49:15",
+  "initial": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "towers": 9,
+    "kills": 0,
+    "zoom": 0.9,
+    "gameTime": 0,
+    "enemies": 0,
+    "animation": {
+      "ready": false,
+      "failed": false,
+      "pool": 0,
+      "active": 0,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0
+    }
+  },
+  "viewport": {
+    "w": 540,
+    "h": 960,
+    "hidden": false
+  },
+  "afterHumanSetup": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "towers": 24,
+    "kills": 0,
+    "zoom": 0.68,
+    "gameTime": 5.566666666666657,
+    "enemies": 10,
+    "animation": {
+      "ready": true,
+      "failed": false,
+      "pool": 0,
+      "active": 0,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0
+    }
+  },
+  "expectedTowersAfterSetup": 24,
+  "final": {
+    "state": "win",
+    "wave": 3,
+    "hp": 100,
+    "towers": 24,
+    "kills": 96,
+    "zoom": 0.68,
+    "gameTime": 81.83333333333125,
+    "enemies": 0,
+    "animation": {
+      "ready": true,
+      "failed": false,
+      "pool": 6,
+      "active": 0,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0
+    }
+  },
+  "afterRestart": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "towers": 9,
+    "kills": 0,
+    "zoom": 0.9,
+    "gameTime": 0,
+    "enemies": 0,
+    "animation": {
+      "ready": true,
+      "failed": false,
+      "pool": 6,
+      "active": 0,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0
+    }
+  },
+  "durationSeconds": 93.7,
+  "animationCoverage": {
+    "samples": 40,
+    "artReady": false,
+    "artFailed": false,
+    "observedEnemyStates": [
+      "walk",
+      "hurt",
+      "death"
+    ],
+    "maxActiveEnemies": 5,
+    "maxHurt": 2,
+    "maxAttack": 0,
+    "maxDeath": 2,
+    "maxGhosts": 2,
+    "upgradeObserved": false,
+    "coreHitObserved": false,
+    "crystalDeathObserved": false
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "enemy_orc_boss",
+  "name": "兽人巨锤首领",
+  "stage": "MASTER_SAMPLE_NOT_FINAL",
+  "accountId": "b362bb9f-d46d-44cc-9a0c-811bd0afb728",
+  "sourceTaskId": "ART-MASTER-ENEMY_ORC_BOSS-20261012",
+  "idempotencyKey": "live-turret-defense-ART-MASTER-ENEMY_ORC_BOSS-20261012-v05-once",
+  "promptSHA256": "0e5b4d48b1b4d6c9159dbd028f9ce49a79f0878697cd68cb825a24a4bc6649ee",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "submittedAt": "2026-10-12T14:40:43.523586+00:00",
+  "jobId": "8c2eb70a-9af6-4956-8574-20ea83ceecae",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "8c2eb70a-9af6-4956-8574-20ea83ceecae",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:40:43.661Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-ENEMY_ORC_BOSS-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Single original huge orc BOSS unit 2D native pixel art game sprite, true TOP DOWN game perspective. Heavy green orc brute with two huge tusks, spiked dark iron pauldron armor with RED warning trim, giant one-handed iron club / war hammer, h",
+        "model": "",
+        "accountId": "b362bb9f-d46d-44cc-9a0c-811bd0afb728",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:00.636407+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\enemy_orc_boss-母素材-原始.png",
+  "sha256": "faac0dc084dd5b7f2a28c71561dda15f2722590f683c17e7e860b12fac6a4702",
+  "size": [
+    2048,
+    2048
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "88125c092a06c1c97d29cc90",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816137294_doubao_work_豆包工作_·_网页账号_2_c7b34c88.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816137294_doubao_work_豆包工作_·_网页账号_2_c7b34c88.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816137294_doubao_work_豆包工作_·_网页账号_2_c7b34c88.png",
+      "name": "1791816137294_doubao_work_豆包工作_·_网页账号_2_c7b34c88.png",
+      "size": 1884111,
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "task": "RECOVERY-034-FX-001",
+  "sourceSize": [
+    1672,
+    941
+  ],
+  "grid": [
+    4,
+    2
+  ],
+  "generatedAt": "2026-10-22T04:19:06",
+  "sprites": [
+    {
+      "name": "连珠弹道",
+      "cell": [
+        0,
+        0
+      ],
+      "sourceCell": [
+        0,
+        0,
+        418,
+        470
+      ],
+      "sourceBbox": [
+        103,
+        217,
+        303,
+        268
+      ],
+      "runtimeSize": [
+        64,
+        64
+      ],
+      "contentBbox": [
+        6,
+        25,
+        58,
+        38
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "transparentRatio": 0.899658,
+      "opaqueRatio": 0.100342,
+      "magentaResidualRatio": 0.0,
+      "bytes": 1390,
+      "sha256": "13A70AFC3D9EA9F5ED2F3E92368E25FE631E496060972D301CDD7FD7E7C63289",
+      "pass": true
+    },
+    {
+      "name": "连珠枪口闪光",
+      "cell": [
+        1,
+        0
+      ],
+      "sourceCell": [
+        418,
+        0,
+        836,
+        470
+      ],
+      "sourceBbox": [
+        102,
+        145,
+        307,
+        336
+      ],
+      "runtimeSize": [
+        64,
+        64
+      ],
+      "contentBbox": [
+        6,
+        8,
+        58,
+        56
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "transparentRatio": 0.773193,
+      "opaqueRatio": 0.226807,
+      "magentaResidualRatio": 0.0,
+      "bytes": 3097,
+      "sha256": "F44A04DEEE578BB83D2357D38BE9CA31C4F71FBB63758490E431C85C7DB99461",
+      "pass": true
+    },
+    {
+      "name": "重炮炮弹",
+      "cell": [
+        2,
+        0
+      ],
+      "sourceCell": [
+        836,
+        0,
+        1254,
+        470
+      ],
+      "sourceBbox": [
+        96,
+        183,
+        316,
+        303
+      ],
+      "runtimeSize": [
+        64,
+        64
+      ],
+      "contentBbox": [
+        6,
+        18,
+        58,
+        46
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "transparentRatio": 0.707764,
+      "opaqueRatio": 0.292236,
+      "magentaResidualRatio": 0.0,
+      "bytes": 3282,
+      "sha256": "A2E3D74A38A019CDCD58C6396B50979454E84AF09E55E671C7DC5EA5FBDE46C2",
+      "pass": true
+    },
+    {
+      "name": "重炮命中特效",
+      "cell": [
+        3,
+        0
+      ],
+      "sourceCell": [
+        1254,
+        0,
+        1672,
+        470
+      ],
+      "sourceBbox": [
+        68,
+        116,
+        334,
+        374
+      ],
+      "runtimeSize": [
+        64,
+        64
+      ],
+      "contentBbox": [
+        6,
+        7,
+        58,
+        57
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "transparentRatio": 0.675537,
+      "opaqueRatio": 0.324463,
+      "magentaResidualRatio": 0.0,
+      "bytes": 4342,
+      "sha256": "3D35D0A0DFD2D4BA64505544F3234E0848DB67E37058237EA3926C1608E0A022",
+      "pass": true
+    },
+    {
+      "name": "寒霜弹道",
+      "cell": [
+        0,
+        1
+      ],
+      "sourceCell": [
+        0,
+        470,
+        418,
+        941
+      ],
+      "sourceBbox": [
+        95,
+        173,
+        309,
+        265
+      ],
+      "runtimeSize": [
+        64,
+        64
+      ],
+      "contentBbox": [
+        6,
+        21,
+        58,
+        43
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "transparentRatio": 0.849365,
+      "opaqueRatio": 0.150635,
+      "magentaResidualRatio": 0.0,
+      "bytes": 1976,
+      "sha256": "8C7DA6A3BFD48E07D890187999D86CF111385511FFBA617DB054EA894ABAA834",
+      "pass": true
+    },
+    {
+      "name": "寒霜命中特效",
+      "cell": [
+        1,
+        1
+      ],
+      "sourceCell": [
+        418,
+        470,
+        836,
+        941
+      ],
+      "sourceBbox": [
+        79,
+        93,
+        321,
+        332
+      ],
+      "runtimeSize": [
+        64,
+        64
+      ],
+      "contentBbox": [
+        6,
+        6,
+        58,
+        57
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "transparentRatio": 0.70459,
+      "opaqueRatio": 0.29541,
+      "magentaResidualRatio": 0.0,
+      "bytes": 4333,
+      "sha256": "4AE7CDAA84F390B285B98424A8FCBE31D44168CB5114AEAF8455FF44ACA393C0",
+      "pass": true
+    },
+    {
+      "name": "水晶受击碎片",
+      "cell": [
+        2,
+        1
+      ],
+      "sourceCell": [
+        836,
+        470,
+        1254,
+        941
+      ],
+      "sourceBbox": [
+        74,
+        93,
+        309,
+        344
+      ],
+      "runtimeSize": [
+        64,
+        64
+      ],
+      "contentBbox": [
+        7,
+        6,
+        56,
+        58
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "transparentRatio": 0.805664,
+      "opaqueRatio": 0.194336,
+      "magentaResidualRatio": 0.0,
+      "bytes": 2939,
+      "sha256": "FEB2E9AAF0630A9756CF8A8E530D7311EFE44192E23057CF00BC072408594080",
+      "pass": true
+    },
+    {
+      "name": "炮塔升级闪光",
+      "cell": [
+        3,
+        1
+      ],
+      "sourceCell": [
+        1254,
+        470,
+        1672,
+        941
+      ],
+      "sourceBbox": [
+        90,
+        86,
+        318,
+        355
+      ],
+      "runtimeSize": [
+        64,
+        64
+      ],
+      "contentBbox": [
+        10,
+        6,
+        54,
+        58
+      ],
+      "alphaMinMax": [
+        0,
+        255
+      ],
+      "transparentRatio": 0.883301,
+      "opaqueRatio": 0.116699,
+      "magentaResidualRatio": 0.0,
+      "bytes": 1979,
+      "sha256": "B83C42C34A09488173FF06AC9077EA729304574336F71E553E190BF65C416D37",
+      "pass": true
+    }
+  ],
+  "allPass": true
+}

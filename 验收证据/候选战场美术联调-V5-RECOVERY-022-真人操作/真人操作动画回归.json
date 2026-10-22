@@ -1,0 +1,15 @@
+{
+  "test": "RECOVERY-022 V5 real mouse animation regression",
+  "method": "Read-only component inspection; all game actions are real mouse clicks; no direct game-state mutation",
+  "startedAt": "2026-10-20T08:21:50.939Z",
+  "actions": [],
+  "samples": [],
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "screenshots": [],
+  "result": "ERROR",
+  "exception": "Error: CDP timeout: Runtime.evaluate",
+  "stack": "Error: CDP timeout: Runtime.evaluate\n    at Timeout._onTimeout (C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_mouse_anim_022.js:14:165)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)",
+  "finishedAt": "2026-10-20T08:22:21.868Z",
+  "durationSeconds": 30.93
+}

@@ -1,0 +1,63 @@
+{
+  "task": "RECOVERY-038",
+  "reason": "Edge 138 cold-start CDP can exceed legacy 12-15 second QA window",
+  "change": "startup poll count only; 100ms interval -> max 30 seconds; game/test assertions unchanged",
+  "records": [
+    {
+      "file": "qa_formal_fast_combat_20261022.py",
+      "oldLoop": 120,
+      "newLoop": 300,
+      "before": "48e62930c3b3a268870b9db39f7cbe7ed5c682164720fb532cc07e31687d9f44",
+      "after": "2330b24a801a9153815cac8c1f224f1215099220f5f9d35f8eb7d6dfc225e63f",
+      "backup": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/automation-before-edge138/qa_formal_fast_combat_20261022.py"
+    },
+    {
+      "file": "qa_formal_full_game_e2e_20261022.py",
+      "oldLoop": 150,
+      "newLoop": 300,
+      "before": "5c23e132f0e8025373ea5f8a9720c07b26d98d09b001bd4127e42e8b396ccc79",
+      "after": "c313689944f6166324503c140fdabce055f7b8cce890672c03969016e262f255",
+      "backup": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/automation-before-edge138/qa_formal_full_game_e2e_20261022.py"
+    },
+    {
+      "file": "qa_formal_liveplay_20261022.py",
+      "oldLoop": 140,
+      "newLoop": 300,
+      "before": "2c77154beee6dd1e8540691aad389419fcf1794039190f09dd20711aab843262",
+      "after": "17e80701b11dfe33cac66b8c12a76aaf6493d61fda1ecb47b844fdb218025c17",
+      "backup": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/automation-before-edge138/qa_formal_liveplay_20261022.py"
+    },
+    {
+      "file": "qa_formal_platform_socket_fallback_20261022.py",
+      "oldLoop": 120,
+      "newLoop": 300,
+      "before": "4ab86431d3d3b055deca897583779f83672e534491e78a98ebf468819688e18b",
+      "after": "1fcd32c12d12d1bfa883439d8f0658e7e6fd05f932e271a163f3e0fcfbdbf246",
+      "backup": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/automation-before-edge138/qa_formal_platform_socket_fallback_20261022.py"
+    },
+    {
+      "file": "qa_formal_shop_20261022.py",
+      "oldLoop": 130,
+      "newLoop": 300,
+      "before": "3d23bb1252c2ecf34f2f048cecb39a472ad1e28bb1ae2e58098ee9c3736c5bbf",
+      "after": "aaa885c661c6daf238301348db95c3cb79429c1e65878ed4f25c5f95d78617f4",
+      "backup": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/automation-before-edge138/qa_formal_shop_20261022.py"
+    },
+    {
+      "file": "qa_formal_shop_effects_20261022.py",
+      "oldLoop": 130,
+      "newLoop": 300,
+      "before": "3e8037ef9642af41a5b85fdb760771a020cfa06f3f40f7f30e92b9f06ea26984",
+      "after": "ce21e46d92bc2f5e9ccd2301514d2978d7525186955aaa015a53239381d0f5e7",
+      "backup": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/automation-before-edge138/qa_formal_shop_effects_20261022.py"
+    },
+    {
+      "file": "qa_formal_shop_persistence_20261022.py",
+      "oldLoop": 150,
+      "newLoop": 300,
+      "before": "d62131704221492792f0e661c08a55dbf3e2ef1c2a062f9cfc92256ce4f6ae0e",
+      "after": "be62f23dd676e0f75666ecfc6523148655c5efcd14258a34d888061ffa9c9090",
+      "backup": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/automation-before-edge138/qa_formal_shop_persistence_20261022.py"
+    }
+  ]
+}

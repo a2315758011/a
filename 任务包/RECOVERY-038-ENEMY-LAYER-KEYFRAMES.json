@@ -1,0 +1,28 @@
+{
+  "taskId": "RECOVERY-038-ENEMY-LAYER-KEYFRAMES",
+  "project": "live-turret-defense",
+  "owner": "agent-gpt56-enemy-keyframes-20261022",
+  "status": "IN_PROGRESS",
+  "mode": "dynamic-layered-keyframes",
+  "goal": "为兽人小兵与兽人首领补齐 Idle/Walk/Hurt/Attack/Death 8帧离散关键姿态；运行时继续只加载三层PNG，不引入逐帧纹理膨胀。",
+  "constraints": [
+    "严格90度俯视原生像素风",
+    "使用RECOVERY-037同源三层，不重新生图、不改变角色设计",
+    "8帧/动作，9fps，nearest-neighbor，整数位移",
+    "预览strip仅作Source/Evidence；Runtime只加载三层PNG+JSON关键帧",
+    "正式Cocos必须构建、快速双结局、平台socket、商店、直播玩法回归"
+  ],
+  "assets": [
+    "兽人小兵: 96x96, body/head-arms/weapon",
+    "兽人首领: 128x128, body/head-arms/weapon"
+  ],
+  "acceptance": [
+    "2单位×5动作×8帧关键姿态数据完整",
+    "预览总表可视且与分层母版一致",
+    "Cocos runtime实测使用keyframe data而非sin/cos程序摆动",
+    "Web-Mobile构建PASS，TS错误0，stderr0",
+    "快速自然双结局PASS、JS错误0",
+    "微信/抖音构建不回退",
+    "正式工程外的源层与manifest有证据快照"
+  ]
+}

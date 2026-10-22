@@ -1,0 +1,36 @@
+{
+  "taskId": "RECOVERY-037-LOCAL-SEGMENTATION-001",
+  "project": "live-turret-defense",
+  "owner": "agent-gpt6-layer-recovery-20261022",
+  "status": "TECHNICAL_QA_PASS_HUMAN_ART_SIGNOFF_PENDING",
+  "goal": "Recover editable top-down enemy layer sources without repeating failed reference-upload attempts.",
+  "completed": [
+    "Audited prior 544x544 layer assets and found they did not align with the top-down masters.",
+    "Generated native-resolution three-layer cutouts from existing master sprites.",
+    "Removed three magenta residual pixels from the grunt master copy.",
+    "Verified both three-layer composites with zero pixel mismatch.",
+    "Preserved pre-existing candidate assets and metadata backups.",
+    "Updated Cocos runtime to prefer layers and use composite masters only as fallback.",
+    "Built Cocos Web-Mobile, WeChat and Douyin targets; added runtime assertions for both grunt and boss."
+  ],
+  "modified": [
+    "CocosCreator工程/assets/脚本/待审战场美术覆盖器.ts",
+    "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人",
+    "game-art/manifest/art-manifest.json",
+    "自动化测试/qa_formal_fast_combat_20261022.py"
+  ],
+  "evidence": [
+    "game-art/evidence/RECOVERY-037-LOCAL-SEGMENTATION-001/layer-runtime-qa.json",
+    "验收证据/WHOLE-GAME-FAST-COMBAT-20261022/正式Cocos自然双结局高速回归.json",
+    "验收证据/WHOLE-GAME-FAST-REGRESSION-20261022/扩展回归.json",
+    "验收证据/COCOS-MINI-BUILD-20261022/微信抖音正式构建验收.json"
+  ],
+  "remaining": [
+    "Human art sign-off",
+    "Independently authored Idle/Walk/Hurt/Attack/Death keyframe sprite strips",
+    "Android SDK and signed APK",
+    "Official WeChat/Douyin live backend/device validation"
+  ],
+  "result": "PASS_TECHNICAL_QA_HUMAN_ART_SIGNOFF_PENDING",
+  "updatedAt": "2026-10-22T11:18:45.328663+00:00"
+}

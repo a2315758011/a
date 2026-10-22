@@ -1,0 +1,191 @@
+{
+  "schema": "animation-semantic-gate/0.1",
+  "timeUTC": "2026-10-12T15:54:55.740104+00:00",
+  "projectId": "live-turret-defense",
+  "sourceContractSha256": "278e5ef370e36dbd487500e89589e0eecb5d761d0e67a31e0eeb475488a59ba6",
+  "candidateRecordSha256": "5bc0b9594f62930f21d675400b66e83417b022fb5ba2dfa8872a3d9e6b1d4848",
+  "policy": "fail-closed; pixel/frame checks cannot replace action semantics or Cocos playback",
+  "publishApproved": false,
+  "results": [
+    {
+      "assetId": "enemy_boss",
+      "name": "兽人首领",
+      "action": "行走",
+      "expectedFrames": 8,
+      "actualFrames": 8,
+      "size": [
+        64,
+        64
+      ],
+      "frameDurationMs": 100,
+      "targetKeyPoses": [
+        "支撑姿态",
+        "左脚抬起",
+        "左脚前摆",
+        "左脚落地换重心",
+        "右脚抬起",
+        "右脚前摆",
+        "右脚落地",
+        "恢复循环起点"
+      ],
+      "frameSha256": {
+        "帧001.png": "47bb9c62d4f632f1e9c076577307308d531720abcb629e61feab0e7727c9fc72",
+        "帧002.png": "ecf1f3b356ea78af7130939390b483129998306b38dc8d8588f254fdea9eac41",
+        "帧003.png": "e762996e91c88012a92da4b9d19ea7d688fbd5462a72eed76523f561f2b78a45",
+        "帧004.png": "3faef227ff2058ddabf4c942e240e5b698ea329b2415bf2323a60b9c95dd5b1c",
+        "帧005.png": "fcf1abc6b68056b056411061a0100739ee3638b2557c1c79409729ede92cd3b5",
+        "帧006.png": "76ff02a8eb00c5b359855c81299d00aa1a61c4a3e62e15d9256b847974ebdbed",
+        "帧007.png": "0286eec018d8d7da97cf78deca789a0e19342ababfebf6b7e7c7ed7da68d896b",
+        "帧008.png": "458c99e01e6557a75ae2b0458ba8c59e2e2de14bd26e88e62d3930b04b6aac03"
+      },
+      "originalGenerationType": "single-master then procedural motion",
+      "semanticReview": "PENDING",
+      "engineImport": "PENDING",
+      "previewEvidence": [
+        "美术资源\\验收证据\\兽人首领与水晶-动画语义核验\\enemy_boss-行走.gif",
+        "美术资源\\验收证据\\兽人首领与水晶-动画语义核验\\enemy_boss-行走.png"
+      ],
+      "gate": "BLOCKED",
+      "reasons": [
+        "SEMANTIC_REVIEW_NOT_PASSED",
+        "COCOS_IMPORT_NOT_VERIFIED",
+        "KEY_POSE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "assetId": "enemy_boss",
+      "name": "兽人首领",
+      "action": "攻击",
+      "expectedFrames": 8,
+      "actualFrames": 8,
+      "size": [
+        64,
+        64
+      ],
+      "frameDurationMs": 83,
+      "targetKeyPoses": [
+        "站稳预备",
+        "向后蓄力",
+        "战锤举过肩/头",
+        "躯干转动开始挥击",
+        "战锤击中明确目标点",
+        "随挥惯性和重心前移",
+        "战锤从目标点回收",
+        "回归待机"
+      ],
+      "frameSha256": {
+        "帧001.png": "02a547614df88b95ea63682385badace1515083f299bde1c7f0fac20a677e866",
+        "帧002.png": "cc90cd3caa8db833663bebc26ae5e57c24d9eb19f84bb7b835b0efbd3970aa63",
+        "帧003.png": "d51d8dc07f578768fec4730a21169e738317006834ff26b691d3affe7ee4a9c3",
+        "帧004.png": "3a7e018cbdeb9cb1aa8d8cea26004115c9962a7e5772bd07d44af34cf16010e5",
+        "帧005.png": "068c7ff5cdb4fadd487b75831110410b02feabe140fecb43ed48ed24c741a1cd",
+        "帧006.png": "43095d2bf829d5c5dc04a1b100f14edf5e91735a6fa2c8270f705e95cb51eafe",
+        "帧007.png": "a7d8b22b5654733b4a2d44d19265b569207522bae47e8489fb010b1e76da8778",
+        "帧008.png": "b26fe48b2b4c3a696eb850c71762776346e7ee0f2e3b634ba07efc5163ab216b"
+      },
+      "originalGenerationType": "single-master then procedural motion",
+      "semanticReview": "PENDING",
+      "engineImport": "PENDING",
+      "previewEvidence": [
+        "美术资源\\验收证据\\兽人首领与水晶-动画语义核验\\enemy_boss-攻击.gif",
+        "美术资源\\验收证据\\兽人首领与水晶-动画语义核验\\enemy_boss-攻击.png"
+      ],
+      "gate": "BLOCKED",
+      "reasons": [
+        "SEMANTIC_REVIEW_NOT_PASSED",
+        "COCOS_IMPORT_NOT_VERIFIED",
+        "KEY_POSE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "assetId": "enemy_boss",
+      "name": "兽人首领",
+      "action": "死亡",
+      "expectedFrames": 8,
+      "actualFrames": 8,
+      "size": [
+        64,
+        64
+      ],
+      "frameDurationMs": 83,
+      "targetKeyPoses": [
+        "受到致命冲击",
+        "身体后仰失衡",
+        "腿部无力/跪倒",
+        "倒地进行中",
+        "身体接触地面",
+        "肢体与武器落地",
+        "保持倒地",
+        "死亡姿态稳定结束"
+      ],
+      "frameSha256": {
+        "帧001.png": "9b35c625964b1c9cc1df93b9fd08f49a0d2308ccefd4d199591a92dc04605b6f",
+        "帧002.png": "4331bf00f2667a1d95af831224bdb5fc41b49db9479ff19c0ec689b6b4704cd2",
+        "帧003.png": "f09f1a16545d1d4974ec53d3c2bccf79b1182a8e55d7433875bbebb4b20b93f4",
+        "帧004.png": "c1d886da7495ddf09441a61b80b51f7e49e7be29c5c129b39b690f91ce36e1c8",
+        "帧005.png": "aae06cefbd20a5064138998778f4d8ec60cf06cf4f0c3f9f98861c0539bf2996",
+        "帧006.png": "b5e3f8c2c6ff0aa1a1679cfdbba4a60c4b6cd7db5ad0b67944abe2c9c3d8598d",
+        "帧007.png": "4aa2794276975b4ad0d87a213257e6e10f59569d6f84d7738eba7744886b4164",
+        "帧008.png": "b4c9ebf892bc1d29e9068cf5716f08b9419e365fd6ed1401eeeaf47c3725d04f"
+      },
+      "originalGenerationType": "single-master then procedural motion",
+      "semanticReview": "PENDING",
+      "engineImport": "PENDING",
+      "previewEvidence": [
+        "美术资源\\验收证据\\兽人首领与水晶-动画语义核验\\enemy_boss-死亡.gif",
+        "美术资源\\验收证据\\兽人首领与水晶-动画语义核验\\enemy_boss-死亡.png"
+      ],
+      "gate": "BLOCKED",
+      "reasons": [
+        "SEMANTIC_REVIEW_NOT_PASSED",
+        "COCOS_IMPORT_NOT_VERIFIED",
+        "KEY_POSE_EVIDENCE_MISSING"
+      ]
+    },
+    {
+      "assetId": "objective_energy_core",
+      "name": "城防能量水晶",
+      "action": "破碎",
+      "expectedFrames": 8,
+      "actualFrames": 8,
+      "size": [
+        96,
+        96
+      ],
+      "frameDurationMs": 83,
+      "targetKeyPoses": [
+        "完好水晶",
+        "产生清晰裂纹",
+        "裂纹扩散",
+        "局部碎片开始分离",
+        "主体破裂",
+        "碎片飞散并旋转",
+        "较小碎片下落",
+        "残骸落地与能量散去"
+      ],
+      "frameSha256": {
+        "帧001.png": "011d339a4ac7b1b074786b991bd146c59a303b6840572031aefaa5e5a986dba1",
+        "帧002.png": "61dd0a3a1a94369bab4f2cdf17cf85c8ca670b563b4e7c04add87c67f50de2cd",
+        "帧003.png": "83edb2de36e213a92d0d8fca89a85007fbd99bfedb4ba8b3c2958636c0917bae",
+        "帧004.png": "1a16cab3012e42884bf3a17a8de18127eadfe7af39431ff13e5879a1d664ce45",
+        "帧005.png": "7cecd4fa6ef2786e6683664c60c9434637a23fc972b6b47589e3dad31296c24b",
+        "帧006.png": "fe3bd7a6e6ca076f51951cd58e95c70e66f607ea1b52a182feaa89897e418a53",
+        "帧007.png": "c822660054bf53824c4064f30e60d1639b540f9082e87647b701ab4536053362",
+        "帧008.png": "f18d3a6f681840a4a867a9c95720a8e02b93367d490c700573be1bdb0f50b8d8"
+      },
+      "originalGenerationType": "single-master then procedural motion",
+      "semanticReview": "PENDING",
+      "engineImport": "PENDING",
+      "previewEvidence": [
+        "美术资源\\验收证据\\兽人首领与水晶-动画语义核验\\objective_energy_core-破碎.gif",
+        "美术资源\\验收证据\\兽人首领与水晶-动画语义核验\\objective_energy_core-破碎.png"
+      ],
+      "gate": "BLOCKED",
+      "reasons": [
+        "SEMANTIC_REVIEW_NOT_PASSED",
+        "COCOS_IMPORT_NOT_VERIFIED",
+        "KEY_POSE_EVIDENCE_MISSING"
+      ]
+    }
+  ]
+}

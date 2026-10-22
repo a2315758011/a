@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "taskId": "RECOVERY-035",
+  "assetId": "td-v5-ui-settlement-panel",
+  "title": "结算弹层专用像素面板底板",
+  "mode": "static",
+  "sourceOfTruth": "game-art/style/art-style.json",
+  "design": {
+    "camera": "front-facing orthographic UI surface",
+    "providerCanvas": [
+      1024,
+      1024
+    ],
+    "panelSilhouetteRatio": "4:5",
+    "silhouetteOccupancy": "72–76% canvas width and 88–92% canvas height; crop by silhouette after keying",
+    "colors": {
+      "navy": "#18283B",
+      "navyInset": "#273E56",
+      "brass": "#C78D3B",
+      "brassHighlight": "#F0C46B",
+      "cyan": "#42D8EE"
+    },
+    "pixelGrid": 3,
+    "antiAliasing": false,
+    "text": "none; Cocos Label owns all Chinese text",
+    "background": "#FF00FF chroma-key only; remove to true alpha before runtime",
+    "silhouette": "single symmetrical rounded rectangular panel, complete silhouette with clear margins",
+    "runtime": "crop transparent canvas to panel silhouette, normalize to 4:5 RGBA master, resize by Cocos Sprite CUSTOM; responsive dimensions remain driven by Cocos layout"
+  },
+  "rejectedApproaches": [
+    "Do not retry the failed RECOVERY-024 panel job ID.",
+    "Do not use generated text/buttons as baked art.",
+    "Do not use the entire generated image directly as a runtime atlas.",
+    "Do not modify formal scene or Prefab before human art sign-off."
+  ]
+}

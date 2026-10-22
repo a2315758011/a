@@ -1,0 +1,161 @@
+{
+  "projectId": "live-turret-defense",
+  "type": "EDITABLE_SOURCE_PILOT",
+  "status": "CANDIDATE_NEEDS_ART_REVIEW",
+  "camera": "2D_topdown",
+  "authoringFormat": "OpenRaster multilayer .ora (editable in Krita/GIMP) + independent transparent PNG layers",
+  "style": "native pixel-art hand-authored editable parts, not AI source extraction",
+  "sourceOfTruth": "This program constructs every layer independently; existing AI art untouched",
+  "sheetSpec": {
+    "size": [
+      384,
+      192
+    ],
+    "cells": [
+      96,
+      96
+    ],
+    "columns": 4,
+    "rows": 2,
+    "fps": 9.09
+  },
+  "notes": "Mechanism and phase differences are programmatically verifiable only; action semantics and final artistic quality need visual review. Do not promote into Cocos/assets/Art without acceptance.",
+  "assets": [
+    {
+      "assetId": "rapid",
+      "name": "连珠速射塔",
+      "masterSize": [
+        96,
+        96
+      ],
+      "layers": 6,
+      "ORA": "美术资源/分层源文件/首批原创样板-v1/连珠速射塔/连珠速射塔-可编辑分层.ora",
+      "preview": "美术资源/分层源文件/首批原创样板-v1/连珠速射塔/合成预览-非正式.png",
+      "animationCandidate": [
+        {
+          "action": "attack",
+          "frames": 8,
+          "durationMs": 110,
+          "allAdjacentDifferent": false,
+          "semantics": "CANDIDATE_NEEDS_HUMAN_REVIEW",
+          "preview": "动作预览_attack.gif"
+        }
+      ],
+      "oraSHA256": "0b64d79ce778ff18bdba53d067f02540e3e7156d747d859865b474f3f5362cb4",
+      "noBakeGround": true,
+      "formalApproval": false
+    },
+    {
+      "assetId": "heavy",
+      "name": "熔芯重炮塔",
+      "masterSize": [
+        96,
+        96
+      ],
+      "layers": 5,
+      "ORA": "美术资源/分层源文件/首批原创样板-v1/熔芯重炮塔/熔芯重炮塔-可编辑分层.ora",
+      "preview": "美术资源/分层源文件/首批原创样板-v1/熔芯重炮塔/合成预览-非正式.png",
+      "animationCandidate": [
+        {
+          "action": "attack",
+          "frames": 8,
+          "durationMs": 110,
+          "allAdjacentDifferent": false,
+          "semantics": "CANDIDATE_NEEDS_HUMAN_REVIEW",
+          "preview": "动作预览_attack.gif"
+        }
+      ],
+      "oraSHA256": "7adb2ee5b282bf0fae8e56dbb8e496701756b2a3f68e45b6a344c0e15838d67b",
+      "noBakeGround": true,
+      "formalApproval": false
+    },
+    {
+      "assetId": "frost",
+      "name": "寒霜喷射塔",
+      "masterSize": [
+        96,
+        96
+      ],
+      "layers": 6,
+      "ORA": "美术资源/分层源文件/首批原创样板-v1/寒霜喷射塔/寒霜喷射塔-可编辑分层.ora",
+      "preview": "美术资源/分层源文件/首批原创样板-v1/寒霜喷射塔/合成预览-非正式.png",
+      "animationCandidate": [
+        {
+          "action": "attack",
+          "frames": 8,
+          "durationMs": 110,
+          "allAdjacentDifferent": false,
+          "semantics": "CANDIDATE_NEEDS_HUMAN_REVIEW",
+          "preview": "动作预览_attack.gif"
+        }
+      ],
+      "oraSHA256": "bb63c6de643a5eb33d482acfcad13e7e79516a3456696ea41424f29d8597adc5",
+      "noBakeGround": true,
+      "formalApproval": false
+    },
+    {
+      "assetId": "core",
+      "name": "城防水晶",
+      "masterSize": [
+        96,
+        96
+      ],
+      "layers": 5,
+      "ORA": "美术资源/分层源文件/首批原创样板-v1/城防水晶/城防水晶-可编辑分层.ora",
+      "preview": "美术资源/分层源文件/首批原创样板-v1/城防水晶/合成预览-非正式.png",
+      "animationCandidate": [
+        {
+          "action": "shatter",
+          "frames": 8,
+          "durationMs": 110,
+          "allAdjacentDifferent": false,
+          "semantics": "CANDIDATE_NEEDS_HUMAN_REVIEW",
+          "preview": "动作预览_shatter.gif"
+        }
+      ],
+      "oraSHA256": "f4ffa020b191b52ed47d70684b2da69098e17d1b6c4172116c75c0ddc5ff6938",
+      "noBakeGround": true,
+      "formalApproval": false
+    },
+    {
+      "assetId": "orc",
+      "name": "兽人小兵",
+      "masterSize": [
+        96,
+        96
+      ],
+      "layers": 7,
+      "ORA": "美术资源/分层源文件/首批原创样板-v1/兽人小兵/兽人小兵-可编辑分层.ora",
+      "preview": "美术资源/分层源文件/首批原创样板-v1/兽人小兵/合成预览-非正式.png",
+      "animationCandidate": [
+        {
+          "action": "walk",
+          "frames": 8,
+          "durationMs": 110,
+          "allAdjacentDifferent": true,
+          "semantics": "CANDIDATE_NEEDS_HUMAN_REVIEW",
+          "preview": "动作预览_walk.gif"
+        },
+        {
+          "action": "attack",
+          "frames": 8,
+          "durationMs": 110,
+          "allAdjacentDifferent": true,
+          "semantics": "CANDIDATE_NEEDS_HUMAN_REVIEW",
+          "preview": "动作预览_attack.gif"
+        },
+        {
+          "action": "death",
+          "frames": 8,
+          "durationMs": 110,
+          "allAdjacentDifferent": false,
+          "semantics": "CANDIDATE_NEEDS_HUMAN_REVIEW",
+          "preview": "动作预览_death.gif"
+        }
+      ],
+      "oraSHA256": "6c498d7e005d78e1809cfc5f0c9de1d41bf7239aecab98e482fa546f22bf4b5b",
+      "noBakeGround": true,
+      "formalApproval": false
+    }
+  ]
+}

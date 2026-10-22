@@ -1,0 +1,130 @@
+{
+  "task": "RECOVERY-025",
+  "scope": "isolated Cocos V5 candidate only",
+  "build": {
+    "returnCode": 36,
+    "exitCodeMeaning": "Cocos Creator documented build-success exit code",
+    "effectiveSuccess": true,
+    "buildSuccessLogged": true,
+    "typescriptErrors": [],
+    "stderrBytes": 0,
+    "resourcePngCount": 89,
+    "missingMeta": []
+  },
+  "artifactAudit": {
+    "settlementMarkers": [
+      {
+        "file": "assets/main/index.js",
+        "markers": [
+          "V5结算弹层",
+          "守城成功",
+          "守城失败",
+          "再次守城",
+          "setBattleHudVisible"
+        ]
+      }
+    ],
+    "spineOrWasmFiles": []
+  },
+  "runtime": {
+    "win": {
+      "result": "PASS",
+      "consoleErrors": 0,
+      "final": {
+        "state": "win",
+        "hp": 100,
+        "wave": 3,
+        "towers": 24,
+        "kills": 96,
+        "enemies": 0
+      },
+      "settlement": {
+        "visible": true,
+        "title": "守城成功",
+        "subtitle": "三波兽人已被击退",
+        "button": "再次守城",
+        "battleHudActive": false
+      },
+      "restart": {
+        "state": "ready",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 0,
+        "battleHudActive": true
+      }
+    },
+    "loss": {
+      "result": "PASS",
+      "consoleErrors": 0,
+      "final": {
+        "state": "lose",
+        "hp": 0,
+        "wave": 1,
+        "towers": 1,
+        "kills": 23,
+        "enemies": 1
+      },
+      "settlement": {
+        "visible": true,
+        "title": "守城失败",
+        "subtitle": "城防水晶已被突破",
+        "button": "再次守城",
+        "battleHudActive": false
+      },
+      "restart": {
+        "state": "ready",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 0,
+        "battleHudActive": true
+      }
+    },
+    "fiveViewport": {
+      "overallPass": true,
+      "consoleErrors": 0,
+      "targets": [
+        [
+          360,
+          780
+        ],
+        [
+          393,
+          852
+        ],
+        [
+          540,
+          760
+        ],
+        [
+          540,
+          960
+        ],
+        [
+          540,
+          1108
+        ]
+      ]
+    }
+  },
+  "visualReview": {
+    "pass": true,
+    "findings": [
+      "终局时顶部、底部战斗HUD和镜头按钮已隐藏",
+      "战场背景保留并加深遮罩",
+      "深蓝、黄铜、青色视觉语言与V5候选UI一致",
+      "再次守城按钮复用现有V5按钮皮肤",
+      "胜负标题与统计由Cocos Label渲染"
+    ],
+    "winScreenshot": "验收证据/候选战场美术联调-V5-RECOVERY-025-胜利结算新目标回归/06-胜利结算弹层-精简HUD.png",
+    "lossScreenshot": "验收证据/候选战场美术联调-V5-RECOVERY-025-失败结算新目标回归/06-失败结算弹层-精简HUD.png"
+  },
+  "diagnosis": {
+    "staleSpineConsoleError": "RESOLVED_AS_STALE_BROWSER_TARGET",
+    "evidence": "Fresh CDP page target + disabled cache produced win/loss runtime with zero console errors; current build contains no Spine/WASM files."
+  },
+  "formalIntegration": false
+}

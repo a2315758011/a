@@ -1,0 +1,8093 @@
+{
+  "task": "RECOVERY-027",
+  "test": "current-code double ending full chain",
+  "checks": {
+    "initialMenuNoLive": true,
+    "noLiveNaturallyLoses": true,
+    "againKeepsRoomEmpty": true,
+    "supportSetup": true,
+    "supportedNaturallyWins": true,
+    "roomPersistsAcrossReturnMenu": true
+  },
+  "actions": [
+    {
+      "t": 4.17,
+      "name": "主界面开始",
+      "x": 180,
+      "y": 523
+    },
+    {
+      "t": 60.46,
+      "name": "失败结算再次守城",
+      "x": 180,
+      "y": 486
+    },
+    {
+      "t": 60.96,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "t": 61.09,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "t": 61.23,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "t": 61.36,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "t": 61.49,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "t": 61.63,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "t": 61.76,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "t": 61.89,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "t": 62.03,
+      "name": "礼物升级",
+      "x": 188,
+      "y": 716
+    },
+    {
+      "t": 62.18,
+      "name": "礼物升级",
+      "x": 188,
+      "y": 716
+    },
+    {
+      "t": 62.33,
+      "name": "礼物升级",
+      "x": 188,
+      "y": 716
+    },
+    {
+      "t": 62.48,
+      "name": "礼物升级",
+      "x": 188,
+      "y": 716
+    },
+    {
+      "t": 62.64,
+      "name": "开始支援局",
+      "x": 43,
+      "y": 716
+    },
+    {
+      "t": 151.36,
+      "name": "胜利结算返回主界面",
+      "x": 180,
+      "y": 534
+    }
+  ],
+  "samples": [
+    {
+      "phase": "no-live",
+      "t": 4.47,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.3,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 4.82,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.6666666666666666,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 5.18,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 1,
+        "time": 0.9999999999999999,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 5.53,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 1,
+        "time": 1.3666666666666676,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 5.88,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 2,
+        "time": 1.700000000000002,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 6.23,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 3,
+        "time": 2.066666666666669,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 6.58,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 3,
+        "time": 2.4000000000000012,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 6.93,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 4,
+        "time": 2.7666666666666666,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 7.29,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 5,
+        "time": 3.0999999999999988,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 7.64,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 6,
+        "time": 3.466666666666664,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 7.99,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 6,
+        "time": 3.7999999999999963,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 8.34,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 7,
+        "time": 4.166666666666662,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 8.69,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 8,
+        "time": 4.499999999999994,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 9.05,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 8,
+        "time": 4.866666666666659,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 9.4,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 9,
+        "time": 5.2333333333333245,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 9.75,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 10,
+        "time": 5.566666666666657,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 10.1,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 11,
+        "time": 5.933333333333322,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 10.46,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 11,
+        "time": 6.299999999999987,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 10.81,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 12,
+        "time": 6.6333333333333195,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 11.16,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 13,
+        "time": 6.999999999999985,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 11.51,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 13,
+        "time": 7.333333333333317,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 11.86,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 14,
+        "time": 7.699999999999982,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 12.21,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 15,
+        "time": 8.033333333333315,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 12.56,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 0,
+        "enemies": 15,
+        "time": 8.39999999999998,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 12.92,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 1,
+        "enemies": 15,
+        "time": 8.733333333333313,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 13.27,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 1,
+        "enemies": 16,
+        "time": 9.099999999999978,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 13.62,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 2,
+        "enemies": 16,
+        "time": 9.43333333333331,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 13.97,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 2,
+        "enemies": 16,
+        "time": 9.799999999999976,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 14.32,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 3,
+        "enemies": 16,
+        "time": 10.133333333333308,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 14.67,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 4,
+        "enemies": 16,
+        "time": 10.499999999999973,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 15.02,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 4,
+        "enemies": 16,
+        "time": 10.833333333333306,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 15.37,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 5,
+        "enemies": 16,
+        "time": 11.19999999999997,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 15.73,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 5,
+        "enemies": 17,
+        "time": 11.533333333333303,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 16.08,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 5,
+        "enemies": 17,
+        "time": 11.899999999999968,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 16.43,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 6,
+        "enemies": 17,
+        "time": 12.266666666666634,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 16.78,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 7,
+        "enemies": 17,
+        "time": 12.599999999999966,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 17.13,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 9,
+        "enemies": 15,
+        "time": 12.966666666666631,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 17.48,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 9,
+        "enemies": 15,
+        "time": 13.299999999999963,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 17.84,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 9,
+        "enemies": 15,
+        "time": 13.666666666666629,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 18.19,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 9,
+        "enemies": 15,
+        "time": 14.033333333333294,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 18.54,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 9,
+        "enemies": 15,
+        "time": 14.366666666666626,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 18.89,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 11,
+        "enemies": 13,
+        "time": 14.733333333333292,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 19.25,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 12,
+        "enemies": 12,
+        "time": 15.066666666666624,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 19.6,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 12,
+        "enemies": 12,
+        "time": 15.43333333333329,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 19.95,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 12,
+        "enemies": 12,
+        "time": 15.766666666666621,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 20.3,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 12,
+        "enemies": 12,
+        "time": 16.133333333333294,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 20.65,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 15,
+        "enemies": 9,
+        "time": 16.466666666666644,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 21.0,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.83333333333333,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 21.36,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 17,
+        "enemies": 7,
+        "time": 17.16666666666668,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 21.71,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 17,
+        "enemies": 7,
+        "time": 17.533333333333363,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 22.06,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 18,
+        "enemies": 6,
+        "time": 17.866666666666713,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 22.41,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 19,
+        "enemies": 5,
+        "time": 18.2333333333334,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 22.76,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 19,
+        "enemies": 5,
+        "time": 18.600000000000083,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 23.11,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 20,
+        "enemies": 4,
+        "time": 18.933333333333433,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 23.46,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 20,
+        "enemies": 4,
+        "time": 19.300000000000118,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 23.81,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 22,
+        "enemies": 2,
+        "time": 19.633333333333468,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 24.17,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 22,
+        "enemies": 2,
+        "time": 20.000000000000153,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 24.52,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 20.333333333333503,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 24.87,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 20.700000000000188,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 25.22,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 21.033333333333537,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 25.57,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 21.400000000000222,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 25.93,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 21.766666666666907,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 26.28,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 22.100000000000257,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 26.63,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 22.466666666666942,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 26.98,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 22.800000000000292,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 27.33,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 23.166666666666977,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 27.69,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 23.500000000000327,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 28.04,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 23.86666666666701,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 28.39,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 24.20000000000036,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 28.74,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 24.566666666667047,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 29.09,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 24.93333333333373,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 29.44,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 25.26666666666708,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 29.79,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 25.633333333333766,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 30.15,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 25.966666666667116,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 30.5,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 26.3333333333338,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 30.85,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 26.66666666666715,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 31.2,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 27.033333333333836,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 31.55,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 27.366666666667186,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 31.9,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 27.73333333333387,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 32.25,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 28.06666666666722,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 32.61,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 28.433333333333906,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 32.96,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 28.766666666667255,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 33.31,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 29.13333333333394,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 33.66,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 29.46666666666729,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 34.01,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 29.833333333333975,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 34.37,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 30.20000000000066,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 34.72,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 30.53333333333401,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 35.07,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 30.900000000000695,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 35.42,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 31.26666666666738,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 35.77,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 9,
+        "kills": 23,
+        "enemies": 1,
+        "time": 31.60000000000073,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 36.13,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 0,
+        "time": 31.966666666667415,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 36.48,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 0,
+        "time": 32.30000000000073,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 36.83,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 0,
+        "time": 32.666666666667375,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 37.18,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 0,
+        "time": 33.00000000000069,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 37.53,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 0,
+        "time": 33.366666666667335,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 37.88,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 0,
+        "time": 33.70000000000065,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 38.23,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 1,
+        "time": 34.066666666667295,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 38.59,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 2,
+        "time": 34.40000000000061,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 38.94,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 3,
+        "time": 34.766666666667255,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 39.29,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 4,
+        "time": 35.10000000000057,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 39.64,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 5,
+        "time": 35.466666666667216,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 39.99,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 5,
+        "time": 35.80000000000053,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 40.34,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 6,
+        "time": 36.166666666667176,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 40.7,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 7,
+        "time": 36.50000000000049,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 41.05,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 8,
+        "time": 36.866666666667136,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 41.4,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 9,
+        "time": 37.23333333333378,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 41.75,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 10,
+        "time": 37.60000000000043,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 42.1,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 11,
+        "time": 37.93333333333374,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 42.46,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 12,
+        "time": 38.30000000000039,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 42.81,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 12,
+        "time": 38.6333333333337,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 43.16,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 13,
+        "time": 39.00000000000035,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 43.51,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 14,
+        "time": 39.33333333333366,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 43.86,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 15,
+        "time": 39.70000000000031,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 44.21,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 16,
+        "time": 40.03333333333362,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 44.57,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 17,
+        "time": 40.40000000000027,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 44.92,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 18,
+        "time": 40.73333333333358,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 45.27,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 24,
+        "enemies": 19,
+        "time": 41.10000000000023,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 45.62,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 25,
+        "enemies": 18,
+        "time": 41.43333333333354,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 45.97,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 25,
+        "enemies": 19,
+        "time": 41.80000000000019,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 46.32,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 25,
+        "enemies": 20,
+        "time": 42.1333333333335,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 46.67,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 26,
+        "enemies": 20,
+        "time": 42.50000000000015,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 47.03,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 27,
+        "enemies": 20,
+        "time": 42.833333333333464,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 47.38,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 27,
+        "enemies": 21,
+        "time": 43.20000000000011,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 47.73,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 27,
+        "enemies": 22,
+        "time": 43.566666666666755,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 48.08,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 27,
+        "enemies": 23,
+        "time": 43.90000000000007,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 48.43,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 27,
+        "enemies": 24,
+        "time": 44.266666666666715,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 48.78,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 28,
+        "enemies": 23,
+        "time": 44.60000000000003,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 49.13,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 28,
+        "enemies": 24,
+        "time": 44.966666666666676,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 49.49,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 29,
+        "enemies": 24,
+        "time": 45.29999999999999,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 49.84,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 32,
+        "enemies": 22,
+        "time": 45.666666666666636,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 50.19,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 33,
+        "enemies": 22,
+        "time": 45.99999999999995,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 50.54,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 33,
+        "enemies": 23,
+        "time": 46.366666666666596,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 50.89,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 33,
+        "enemies": 23,
+        "time": 46.73333333333324,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 51.24,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 33,
+        "enemies": 23,
+        "time": 47.066666666666556,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 51.6,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 34,
+        "enemies": 22,
+        "time": 47.4333333333332,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 51.95,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 34,
+        "enemies": 22,
+        "time": 47.76666666666652,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 52.3,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 35,
+        "enemies": 21,
+        "time": 48.13333333333316,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 52.65,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 35,
+        "enemies": 21,
+        "time": 48.46666666666648,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 53.0,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 35,
+        "enemies": 21,
+        "time": 48.83333333333312,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 53.36,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 36,
+        "enemies": 20,
+        "time": 49.16666666666644,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 53.71,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 36,
+        "enemies": 20,
+        "time": 49.53333333333308,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 54.06,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 37,
+        "enemies": 19,
+        "time": 49.89999999999973,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 54.41,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 39,
+        "enemies": 17,
+        "time": 50.23333333333304,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 54.76,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 39,
+        "enemies": 17,
+        "time": 50.59999999999969,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 55.11,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 40,
+        "enemies": 16,
+        "time": 50.933333333333,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 55.46,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 40,
+        "enemies": 16,
+        "time": 51.29999999999965,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 55.82,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 41,
+        "enemies": 15,
+        "time": 51.63333333333296,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 56.17,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 41,
+        "enemies": 15,
+        "time": 51.99999999999961,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 56.52,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 41,
+        "enemies": 15,
+        "time": 52.333333333332924,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 56.87,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 41,
+        "enemies": 15,
+        "time": 52.69999999999957,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 57.22,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 9,
+        "kills": 42,
+        "enemies": 14,
+        "time": 53.033333333332884,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 57.57,
+      "game": {
+        "state": "running",
+        "hp": 76,
+        "wave": 2,
+        "towers": 9,
+        "kills": 44,
+        "enemies": 12,
+        "time": 53.39999999999953,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 57.92,
+      "game": {
+        "state": "running",
+        "hp": 52,
+        "wave": 2,
+        "towers": 9,
+        "kills": 45,
+        "enemies": 11,
+        "time": 53.733333333332844,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 58.28,
+      "game": {
+        "state": "running",
+        "hp": 52,
+        "wave": 2,
+        "towers": 9,
+        "kills": 45,
+        "enemies": 11,
+        "time": 54.09999999999949,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 58.63,
+      "game": {
+        "state": "running",
+        "hp": 52,
+        "wave": 2,
+        "towers": 9,
+        "kills": 45,
+        "enemies": 11,
+        "time": 54.433333333332804,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 58.98,
+      "game": {
+        "state": "running",
+        "hp": 4,
+        "wave": 2,
+        "towers": 9,
+        "kills": 47,
+        "enemies": 9,
+        "time": 54.79999999999945,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 59.33,
+      "game": {
+        "state": "running",
+        "hp": 4,
+        "wave": 2,
+        "towers": 9,
+        "kills": 47,
+        "enemies": 9,
+        "time": 55.133333333332764,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 59.68,
+      "game": {
+        "state": "running",
+        "hp": 4,
+        "wave": 2,
+        "towers": 9,
+        "kills": 48,
+        "enemies": 8,
+        "time": 55.49999999999941,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "no-live",
+      "t": 60.03,
+      "game": {
+        "state": "lose",
+        "hp": 0,
+        "wave": 2,
+        "towers": 9,
+        "kills": 49,
+        "enemies": 7,
+        "time": 55.79999999999939,
+        "inputBlocked": false
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 62.94,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.3,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 63.29,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.6333333333333333,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 63.64,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 1,
+        "time": 0.9999999999999999,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 63.99,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 1,
+        "time": 1.3333333333333341,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 64.34,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 2,
+        "time": 1.700000000000002,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 64.69,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 3,
+        "time": 2.033333333333336,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 65.05,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 3,
+        "time": 2.4000000000000012,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 65.4,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 4,
+        "time": 2.7333333333333334,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 65.75,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 5,
+        "time": 3.0999999999999988,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 66.1,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 6,
+        "time": 3.466666666666664,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 66.45,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 6,
+        "time": 3.7999999999999963,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 66.81,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 7,
+        "time": 4.166666666666662,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 67.16,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 8,
+        "time": 4.499999999999994,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 67.51,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 8,
+        "time": 4.866666666666659,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 67.86,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 9,
+        "time": 5.199999999999991,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 68.21,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 10,
+        "time": 5.566666666666657,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 68.56,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 10,
+        "time": 5.899999999999989,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 68.92,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 0,
+        "enemies": 11,
+        "time": 6.266666666666654,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 69.27,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 1,
+        "enemies": 11,
+        "time": 6.6333333333333195,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 69.65,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 1,
+        "enemies": 12,
+        "time": 6.999999999999985,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 70.0,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 2,
+        "enemies": 11,
+        "time": 7.36666666666665,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 70.36,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 2,
+        "enemies": 12,
+        "time": 7.699999999999982,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 70.72,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 3,
+        "enemies": 11,
+        "time": 7.766666666666649,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 71.07,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 4,
+        "enemies": 11,
+        "time": 8.266666666666648,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 71.42,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 4,
+        "enemies": 12,
+        "time": 8.59999999999998,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 71.77,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 5,
+        "enemies": 12,
+        "time": 8.966666666666645,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 72.12,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 5,
+        "enemies": 12,
+        "time": 9.299999999999978,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 72.48,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 6,
+        "enemies": 12,
+        "time": 9.666666666666643,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 72.83,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 7,
+        "enemies": 12,
+        "time": 9.999999999999975,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 73.18,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 7,
+        "enemies": 12,
+        "time": 10.36666666666664,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 73.53,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 8,
+        "enemies": 12,
+        "time": 10.699999999999973,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 73.88,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 8,
+        "enemies": 13,
+        "time": 11.066666666666638,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 74.23,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 9,
+        "enemies": 12,
+        "time": 11.39999999999997,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 74.58,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 10,
+        "enemies": 12,
+        "time": 11.766666666666636,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 74.94,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 11,
+        "enemies": 12,
+        "time": 12.1333333333333,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 75.29,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 11,
+        "enemies": 13,
+        "time": 12.466666666666633,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 75.64,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 11,
+        "enemies": 13,
+        "time": 12.833333333333298,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 75.99,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 11,
+        "enemies": 13,
+        "time": 13.16666666666663,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 76.34,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 12,
+        "enemies": 12,
+        "time": 13.533333333333296,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 76.69,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 14,
+        "enemies": 10,
+        "time": 13.866666666666628,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 77.04,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 14,
+        "enemies": 10,
+        "time": 14.233333333333293,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 77.4,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 17,
+        "enemies": 7,
+        "time": 14.566666666666626,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 77.75,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 18,
+        "enemies": 6,
+        "time": 14.933333333333291,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 78.1,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 18,
+        "enemies": 6,
+        "time": 15.299999999999956,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 78.45,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 18,
+        "enemies": 6,
+        "time": 15.633333333333288,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 78.81,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 19,
+        "enemies": 5,
+        "time": 15.999999999999954,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 79.16,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 19,
+        "enemies": 5,
+        "time": 16.333333333333304,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 79.51,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 19,
+        "enemies": 5,
+        "time": 16.69999999999999,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 79.87,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 21,
+        "enemies": 3,
+        "time": 17.03333333333334,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 80.22,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 21,
+        "enemies": 3,
+        "time": 17.400000000000023,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 80.57,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 22,
+        "enemies": 2,
+        "time": 17.76666666666671,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 80.92,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 18.10000000000006,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 81.3,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 18.500000000000078,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 81.65,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 18.833333333333428,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 82.0,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 19.200000000000113,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 82.37,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 19.566666666666798,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 82.72,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 19.900000000000148,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 83.07,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 20.266666666666833,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 83.43,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 20.600000000000183,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 83.78,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 20.966666666666868,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 84.13,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 21.300000000000217,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 84.48,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 21.666666666666902,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 84.83,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 22.000000000000252,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 85.18,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 22.366666666666937,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 85.53,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 22.700000000000287,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 85.89,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 23.066666666666972,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 86.24,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 23.433333333333657,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 86.59,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 23.80000000000034,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 86.94,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 24.13333333333369,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 87.3,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 24.500000000000377,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 87.65,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 24.833333333333727,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 88.0,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 25.20000000000041,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 88.35,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 25.53333333333376,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 88.7,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 25.900000000000446,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 89.05,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 1,
+        "towers": 17,
+        "kills": 23,
+        "enemies": 1,
+        "time": 26.233333333333796,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 89.41,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 0,
+        "time": 26.60000000000048,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 89.76,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 0,
+        "time": 26.93333333333383,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 90.11,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 0,
+        "time": 27.300000000000516,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 90.46,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 0,
+        "time": 27.633333333333866,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 90.81,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 0,
+        "time": 28.00000000000055,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 91.16,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 0,
+        "time": 28.3333333333339,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 91.51,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 1,
+        "time": 28.700000000000585,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 91.87,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 2,
+        "time": 29.033333333333935,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 92.22,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 3,
+        "time": 29.40000000000062,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 92.57,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 4,
+        "time": 29.766666666667305,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 92.92,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 4,
+        "time": 30.100000000000655,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 93.27,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 5,
+        "time": 30.46666666666734,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 93.62,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 6,
+        "time": 30.80000000000069,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 93.97,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 7,
+        "time": 31.166666666667375,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 94.33,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 8,
+        "time": 31.500000000000725,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 94.68,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 9,
+        "time": 31.86666666666741,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 95.03,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 10,
+        "time": 32.200000000000735,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 95.38,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 11,
+        "time": 32.56666666666738,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 95.74,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 12,
+        "time": 32.933333333334026,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 96.09,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 24,
+        "enemies": 12,
+        "time": 33.26666666666734,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 96.44,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 25,
+        "enemies": 12,
+        "time": 33.63333333333399,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 96.79,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 25,
+        "enemies": 13,
+        "time": 33.9666666666673,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 97.14,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 25,
+        "enemies": 14,
+        "time": 34.33333333333395,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 97.49,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 26,
+        "enemies": 14,
+        "time": 34.66666666666726,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 97.85,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 26,
+        "enemies": 15,
+        "time": 35.03333333333391,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 98.2,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 27,
+        "enemies": 15,
+        "time": 35.36666666666722,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 98.55,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 27,
+        "enemies": 16,
+        "time": 35.73333333333387,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 98.9,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 28,
+        "enemies": 15,
+        "time": 36.10000000000051,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 99.25,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 28,
+        "enemies": 16,
+        "time": 36.43333333333383,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 99.6,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 29,
+        "enemies": 16,
+        "time": 36.80000000000047,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 99.95,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 29,
+        "enemies": 17,
+        "time": 37.13333333333379,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 100.31,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 30,
+        "enemies": 17,
+        "time": 37.50000000000043,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 100.66,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 31,
+        "enemies": 17,
+        "time": 37.83333333333375,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 101.01,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 32,
+        "enemies": 17,
+        "time": 38.200000000000394,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 101.36,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 32,
+        "enemies": 18,
+        "time": 38.53333333333371,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 101.71,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 32,
+        "enemies": 18,
+        "time": 38.900000000000354,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 102.07,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 34,
+        "enemies": 17,
+        "time": 39.266666666667,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 102.42,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 35,
+        "enemies": 17,
+        "time": 39.600000000000314,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 102.77,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 36,
+        "enemies": 17,
+        "time": 39.96666666666696,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 103.12,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 37,
+        "enemies": 17,
+        "time": 40.300000000000274,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 103.47,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 38,
+        "enemies": 17,
+        "time": 40.66666666666692,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 103.83,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 40,
+        "enemies": 16,
+        "time": 41.000000000000234,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 104.18,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 40,
+        "enemies": 16,
+        "time": 41.36666666666688,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 104.53,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 41,
+        "enemies": 15,
+        "time": 41.700000000000195,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 104.88,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 42,
+        "enemies": 14,
+        "time": 42.06666666666684,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 105.23,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 42,
+        "enemies": 14,
+        "time": 42.433333333333486,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 105.58,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 43,
+        "enemies": 13,
+        "time": 42.7666666666668,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 105.94,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 44,
+        "enemies": 12,
+        "time": 43.13333333333345,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 106.29,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 45,
+        "enemies": 11,
+        "time": 43.46666666666676,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 106.64,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 45,
+        "enemies": 11,
+        "time": 43.83333333333341,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 106.99,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 46,
+        "enemies": 10,
+        "time": 44.16666666666672,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 107.34,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 48,
+        "enemies": 8,
+        "time": 44.53333333333337,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 107.69,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 48,
+        "enemies": 8,
+        "time": 44.86666666666668,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 108.04,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 48,
+        "enemies": 8,
+        "time": 45.23333333333333,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 108.39,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 51,
+        "enemies": 5,
+        "time": 45.56666666666664,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 108.75,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 53,
+        "enemies": 3,
+        "time": 45.93333333333329,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 109.1,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 53,
+        "enemies": 3,
+        "time": 46.2666666666666,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 109.45,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 54,
+        "enemies": 2,
+        "time": 46.63333333333325,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 109.8,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 46.96666666666656,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 110.15,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 47.33333333333321,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 110.51,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 47.699999999999854,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 110.86,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 48.03333333333317,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 111.21,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 48.399999999999814,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 111.56,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 48.76666666666646,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 111.91,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 49.099999999999774,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 112.27,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 49.46666666666642,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 112.62,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 49.799999999999734,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 112.97,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 50.16666666666638,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 113.32,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 50.499999999999694,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 113.67,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 50.86666666666634,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 114.02,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 51.199999999999655,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 114.37,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 51.5666666666663,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 114.73,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 51.899999999999615,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 115.08,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 52.26666666666626,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 115.43,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 52.599999999999575,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 115.78,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 52.96666666666622,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 116.13,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 53.299999999999535,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 116.48,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 53.66666666666618,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 116.83,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 53.999999999999496,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 117.19,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 54.36666666666614,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 117.54,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 54.73333333333279,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 117.89,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 55.0666666666661,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 118.24,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 55.43333333333275,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 118.59,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 55.76666666666606,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 118.94,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 56.13333333333271,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 119.3,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 56.49999999999935,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 119.65,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 2,
+        "towers": 17,
+        "kills": 55,
+        "enemies": 1,
+        "time": 56.83333333333267,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 120.0,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 0,
+        "time": 57.199999999999314,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 120.35,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 0,
+        "time": 57.53333333333263,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 120.7,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 0,
+        "time": 57.899999999999274,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 121.06,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 0,
+        "time": 58.23333333333259,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 121.41,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 0,
+        "time": 58.599999999999234,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 121.76,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 0,
+        "time": 58.93333333333255,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 122.11,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 1,
+        "time": 59.299999999999194,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 122.46,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 2,
+        "time": 59.63333333333251,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 122.81,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 3,
+        "time": 59.999999999999154,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 123.17,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 4,
+        "time": 60.3666666666658,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 123.52,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 5,
+        "time": 60.699999999999115,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 123.87,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 6,
+        "time": 61.06666666666576,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 124.22,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 7,
+        "time": 61.399999999999075,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 124.57,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 8,
+        "time": 61.76666666666572,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 124.92,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 9,
+        "time": 62.099999999999035,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 125.27,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 11,
+        "time": 62.46666666666568,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 125.62,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 12,
+        "time": 62.799999999998995,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 125.98,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 13,
+        "time": 63.16666666666564,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 126.33,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 56,
+        "enemies": 14,
+        "time": 63.499999999998956,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 126.68,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 57,
+        "enemies": 14,
+        "time": 63.8666666666656,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 127.03,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 57,
+        "enemies": 15,
+        "time": 64.19999999999892,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 127.38,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 57,
+        "enemies": 16,
+        "time": 64.56666666666557,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 127.74,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 57,
+        "enemies": 17,
+        "time": 64.93333333333221,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 128.09,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 57,
+        "enemies": 18,
+        "time": 65.26666666666553,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 128.44,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 57,
+        "enemies": 19,
+        "time": 65.63333333333217,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 128.79,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 58,
+        "enemies": 19,
+        "time": 65.96666666666549,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 129.14,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 59,
+        "enemies": 19,
+        "time": 66.33333333333213,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 129.5,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 59,
+        "enemies": 20,
+        "time": 66.69999999999878,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 129.85,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 60,
+        "enemies": 20,
+        "time": 67.0333333333321,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 130.2,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 61,
+        "enemies": 20,
+        "time": 67.39999999999874,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 130.55,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 62,
+        "enemies": 20,
+        "time": 67.73333333333206,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 130.9,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 63,
+        "enemies": 20,
+        "time": 68.0999999999987,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 131.25,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 64,
+        "enemies": 20,
+        "time": 68.43333333333202,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 131.6,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 64,
+        "enemies": 22,
+        "time": 68.79999999999866,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 131.96,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 65,
+        "enemies": 22,
+        "time": 69.13333333333198,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 132.31,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 66,
+        "enemies": 22,
+        "time": 69.49999999999862,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 132.66,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 67,
+        "enemies": 22,
+        "time": 69.83333333333194,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 133.01,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 68,
+        "enemies": 22,
+        "time": 70.19999999999858,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 133.36,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 68,
+        "enemies": 23,
+        "time": 70.5333333333319,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 133.71,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 69,
+        "enemies": 23,
+        "time": 70.89999999999854,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 134.06,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 70,
+        "enemies": 23,
+        "time": 71.23333333333186,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 134.42,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 72,
+        "enemies": 22,
+        "time": 71.5999999999985,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 134.77,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 73,
+        "enemies": 22,
+        "time": 71.93333333333182,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 135.12,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 74,
+        "enemies": 22,
+        "time": 72.29999999999846,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 135.47,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 74,
+        "enemies": 22,
+        "time": 72.63333333333178,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 135.82,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 76,
+        "enemies": 20,
+        "time": 73.03333333333175,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 136.17,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 76,
+        "enemies": 20,
+        "time": 73.36666666666507,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 136.53,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 76,
+        "enemies": 20,
+        "time": 73.73333333333171,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 136.88,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 79,
+        "enemies": 17,
+        "time": 74.06666666666503,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 137.23,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 79,
+        "enemies": 17,
+        "time": 74.43333333333167,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 137.58,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 81,
+        "enemies": 15,
+        "time": 74.76666666666499,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 137.93,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 82,
+        "enemies": 14,
+        "time": 75.13333333333163,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 138.29,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 83,
+        "enemies": 13,
+        "time": 75.46666666666495,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 138.64,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 84,
+        "enemies": 12,
+        "time": 75.8333333333316,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 138.99,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 85,
+        "enemies": 11,
+        "time": 76.16666666666491,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 139.34,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 86,
+        "enemies": 10,
+        "time": 76.53333333333156,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 139.69,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 87,
+        "enemies": 9,
+        "time": 76.86666666666487,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 140.04,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 88,
+        "enemies": 8,
+        "time": 77.23333333333152,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 140.39,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 88,
+        "enemies": 8,
+        "time": 77.56666666666483,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 140.75,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 89,
+        "enemies": 7,
+        "time": 77.93333333333148,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 141.1,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 90,
+        "enemies": 6,
+        "time": 78.26666666666479,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 141.45,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 91,
+        "enemies": 5,
+        "time": 78.63333333333144,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 141.8,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 91,
+        "enemies": 5,
+        "time": 78.99999999999808,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 142.15,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 79.3333333333314,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 142.5,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 79.69999999999804,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 142.85,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 80.03333333333136,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 143.21,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 80.399999999998,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 143.56,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 80.73333333333132,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 143.91,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 81.09999999999796,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 144.26,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 81.43333333333128,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 144.61,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 81.79999999999792,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 144.96,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 82.16666666666457,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 145.32,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 82.49999999999788,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 145.67,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 82.86666666666453,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 146.02,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 83.19999999999784,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 146.37,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 83.56666666666449,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 146.72,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 83.8999999999978,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 147.08,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 84.26666666666445,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 147.43,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 84.59999999999776,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 147.78,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 84.96666666666441,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 148.13,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 85.33333333333105,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 148.48,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 85.66666666666437,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 148.83,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 86.03333333333102,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 149.18,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 86.36666666666433,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 149.54,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 86.73333333333098,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 149.89,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 87.06666666666429,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 150.24,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 87.43333333333094,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 150.59,
+      "game": {
+        "state": "running",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 95,
+        "enemies": 1,
+        "time": 87.76666666666425,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    },
+    {
+      "phase": "supported",
+      "t": 150.94,
+      "game": {
+        "state": "win",
+        "hp": 100,
+        "wave": 3,
+        "towers": 17,
+        "kills": 96,
+        "enemies": 0,
+        "time": 88.09999999999756,
+        "inputBlocked": false
+      },
+      "live": {
+        "online": 8,
+        "gifts": 4,
+        "power": 4,
+        "processed": 12,
+        "dupes": 0,
+        "rejected": 0
+      }
+    }
+  ],
+  "errors": [],
+  "screenshots": [
+    {
+      "file": "RECOVERY-027-00-主界面.png",
+      "bytes": 50162,
+      "sha256": "35404A94C0F86D48A11B21DCECF59A2B92ADAFD7989EA077A0401A9567E36472"
+    },
+    {
+      "file": "RECOVERY-027-01-无人互动失败结算.png",
+      "bytes": 214892,
+      "sha256": "97BB063CE4E9E7C301007FD94371974B378B57419F02D94619B1EA3843E67D34"
+    },
+    {
+      "file": "RECOVERY-027-02-直播支援胜利结算.png",
+      "bytes": 213298,
+      "sha256": "67F9D8557081C8509B68418092469487B6ACD12C34F4DF8F5E99DB1AE68452B6"
+    },
+    {
+      "file": "RECOVERY-027-03-直播会话保留主界面.png",
+      "bytes": 144951,
+      "sha256": "ADE6E618740127D109B7BDC14AE4F6C32BC94725C49A31CFF99F92C14D9767E1"
+    }
+  ],
+  "startedAt": "2026-10-21T22:00:17",
+  "transientReadErrors": [
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught",
+    "Uncaught"
+  ],
+  "initial": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": true
+    },
+    "live": {
+      "online": 0,
+      "gifts": 0,
+      "power": 0,
+      "processed": 0,
+      "dupes": 0,
+      "rejected": 0
+    },
+    "menu": {
+      "active": true
+    },
+    "settlement": {
+      "active": false,
+      "title": "label",
+      "again": "label",
+      "menu": "返回主界面"
+    },
+    "hud": {
+      "battle": false
+    }
+  },
+  "loss": {
+    "game": {
+      "state": "lose",
+      "hp": 0,
+      "wave": 2,
+      "towers": 9,
+      "kills": 49,
+      "enemies": 7,
+      "time": 55.79999999999939,
+      "inputBlocked": false
+    },
+    "live": {
+      "online": 0,
+      "gifts": 0,
+      "power": 0,
+      "processed": 0,
+      "dupes": 0,
+      "rejected": 0
+    },
+    "menu": {
+      "active": false
+    },
+    "settlement": {
+      "active": true,
+      "title": "守城失败",
+      "again": "再次守城",
+      "menu": "返回主界面"
+    },
+    "hud": {
+      "battle": false
+    }
+  },
+  "afterAgain": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": false
+    },
+    "live": {
+      "online": 0,
+      "gifts": 0,
+      "power": 0,
+      "processed": 0,
+      "dupes": 0,
+      "rejected": 0
+    },
+    "menu": {
+      "active": false
+    },
+    "settlement": {
+      "active": false,
+      "title": "守城失败",
+      "again": "再次守城",
+      "menu": "返回主界面"
+    },
+    "hud": {
+      "battle": true
+    }
+  },
+  "supportedSetup": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 17,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": false
+    },
+    "live": {
+      "online": 8,
+      "gifts": 4,
+      "power": 4,
+      "processed": 12,
+      "dupes": 0,
+      "rejected": 0
+    },
+    "menu": {
+      "active": false
+    },
+    "settlement": {
+      "active": false,
+      "title": "守城失败",
+      "again": "再次守城",
+      "menu": "返回主界面"
+    },
+    "hud": {
+      "battle": true
+    }
+  },
+  "win": {
+    "game": {
+      "state": "win",
+      "hp": 100,
+      "wave": 3,
+      "towers": 17,
+      "kills": 96,
+      "enemies": 0,
+      "time": 88.09999999999756,
+      "inputBlocked": false
+    },
+    "live": {
+      "online": 8,
+      "gifts": 4,
+      "power": 4,
+      "processed": 12,
+      "dupes": 0,
+      "rejected": 0
+    },
+    "menu": {
+      "active": false
+    },
+    "settlement": {
+      "active": true,
+      "title": "守城成功",
+      "again": "再次守城",
+      "menu": "返回主界面"
+    },
+    "hud": {
+      "battle": false
+    }
+  },
+  "afterReturnMenu": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 17,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": true
+    },
+    "live": {
+      "online": 8,
+      "gifts": 4,
+      "power": 4,
+      "processed": 12,
+      "dupes": 0,
+      "rejected": 0
+    },
+    "menu": {
+      "active": true
+    },
+    "settlement": {
+      "active": false,
+      "title": "守城成功",
+      "again": "再次守城",
+      "menu": "返回主界面"
+    },
+    "hud": {
+      "battle": false
+    }
+  },
+  "result": "PASS",
+  "durationSeconds": 152.78,
+  "finishedAt": "2026-10-21T22:02:51"
+}

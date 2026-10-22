@@ -1,0 +1,62 @@
+{
+  "id": "fx_frost",
+  "name": "冰雾特效",
+  "sourceTaskId": "ART-MASTER-FX_FROST-20261012",
+  "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+  "promptSHA256": "c607046ee82130952723174816d909a59e7c342739ca90c89647eaa58aa1b2fb",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "jobId": "4afdda99-07d4-4abd-9c6c-c575d12e5900",
+  "submittedAt": "2026-10-12T14:47:11.830245+00:00",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "4afdda99-07d4-4abd-9c6c-c575d12e5900",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:47:12.004Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-FX_FROST-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Generate ONE isolated original 2D top-down native pixel art sprite for a fantasy tower defense mobile game. Subject: single ring-like translucent icy frost clouds with blue snow and tiny crystal pixels, flat overhead icy slow zone effect. S",
+        "model": "",
+        "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:00.803150+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\fx_frost-母素材-原始.png",
+  "sha256": "64d162237b8ee8231fec4f46176e14d6de43f7538b406dfebafeed6506854e44",
+  "size": [
+    2048,
+    2048
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "c720cd8872d995c20ee3f241",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816494333_doubao_豆包_·_网页账号_5_ad5840ad.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816494333_doubao_豆包_·_网页账号_5_ad5840ad.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816494333_doubao_豆包_·_网页账号_5_ad5840ad.png",
+      "name": "1791816494333_doubao_豆包_·_网页账号_5_ad5840ad.png",
+      "size": 451468,
+      "mimeType": "image/png"
+    }
+  ]
+}

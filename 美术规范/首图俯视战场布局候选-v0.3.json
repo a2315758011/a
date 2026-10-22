@@ -1,0 +1,241 @@
+{
+  "version": "0.3-DRAFT",
+  "projectId": "live-turret-defense",
+  "type": "playfield-layout-probe-only-not-runtime",
+  "referenceId": "BEN-001",
+  "referenceFact": [
+    "top-down-2d-pixel-art",
+    "free-placement",
+    "central-crystal",
+    "all-directions-orc-waves"
+  ],
+  "screen": {
+    "width": 1080,
+    "height": 1920,
+    "designLogicalWidth": 540,
+    "designLogicalHeight": 960,
+    "scaleInteger": 2,
+    "scaleFilter": "nearest-neighbor"
+  },
+  "uiZones": {
+    "top": [
+      0,
+      0,
+      540,
+      106
+    ],
+    "playfield": [
+      24,
+      116,
+      516,
+      812
+    ],
+    "bottom": [
+      0,
+      826,
+      540,
+      960
+    ]
+  },
+  "map": {
+    "camera": "topdown",
+    "tileNativePx": 32,
+    "terrainSeparateFromTowers": true,
+    "cornerCliffsAndGrass": true,
+    "copyExistingOrcdomGraphics": false
+  },
+  "objective": {
+    "id": "objective_energy_core",
+    "name": "城防能量水晶",
+    "center": [
+      270,
+      455
+    ],
+    "clearRadius": 62,
+    "hpMaxPrototype": 100,
+    "visibleHUD": [
+      335,
+      22,
+      518,
+      85
+    ],
+    "spriteNativePx": [
+      96,
+      96
+    ],
+    "giftUpgradable": false,
+    "playerAssigned": false
+  },
+  "enemySpawns": [
+    {
+      "dir": "north",
+      "at": [
+        270,
+        122
+      ],
+      "vector": [
+        0,
+        1
+      ]
+    },
+    {
+      "dir": "east",
+      "at": [
+        504,
+        460
+      ],
+      "vector": [
+        -1,
+        0
+      ]
+    },
+    {
+      "dir": "south",
+      "at": [
+        270,
+        798
+      ],
+      "vector": [
+        0,
+        -1
+      ]
+    },
+    {
+      "dir": "west",
+      "at": [
+        34,
+        460
+      ],
+      "vector": [
+        1,
+        0
+      ]
+    }
+  ],
+  "towerSourceSpriteCanvasPx": [
+    64,
+    64
+  ],
+  "towerPlacement": {
+    "referenceFreePlacement": true,
+    "viewerAutoPlacementCandidate": true,
+    "minDistanceFromCoreCenter": 80,
+    "minTowerSpacingLogicalPx": 55,
+    "mustNotOverlapSpawnOrUI": true,
+    "viewerIdIsStableKey": true,
+    "towersAreSpriteTransparent": true,
+    "towerGrassFloorAttached": false
+  },
+  "sceneSamples": [
+    {
+      "id": "t01",
+      "kind": "tower_repeater",
+      "at": [
+        176,
+        300
+      ],
+      "viewer": "阿风",
+      "lv": 3
+    },
+    {
+      "id": "t02",
+      "kind": "tower_mortar",
+      "at": [
+        360,
+        299
+      ],
+      "viewer": "小虎",
+      "lv": 2
+    },
+    {
+      "id": "t03",
+      "kind": "tower_frost",
+      "at": [
+        431,
+        384
+      ],
+      "viewer": "阿宁",
+      "lv": 1
+    },
+    {
+      "id": "t04",
+      "kind": "tower_repeater",
+      "at": [
+        395,
+        552
+      ],
+      "viewer": "青禾",
+      "lv": 1
+    },
+    {
+      "id": "t05",
+      "kind": "tower_mortar",
+      "at": [
+        325,
+        650
+      ],
+      "viewer": "北北",
+      "lv": 4
+    },
+    {
+      "id": "t06",
+      "kind": "tower_frost",
+      "at": [
+        197,
+        643
+      ],
+      "viewer": "小舟",
+      "lv": 1
+    },
+    {
+      "id": "t07",
+      "kind": "tower_repeater",
+      "at": [
+        102,
+        545
+      ],
+      "viewer": "橘子",
+      "lv": 2
+    },
+    {
+      "id": "t08",
+      "kind": "tower_mortar",
+      "at": [
+        98,
+        387
+      ],
+      "viewer": "禾苗",
+      "lv": 3
+    },
+    {
+      "id": "t09",
+      "kind": "tower_frost",
+      "at": [
+        274,
+        250
+      ],
+      "viewer": "花生",
+      "lv": 1
+    }
+  ],
+  "gameplayProposals": {
+    "monsterDirection": "every spawn follows traversable route to central objective",
+    "spawnRatePerWave": "unverified",
+    "towerCountBasedOnKnownParticipantIds": "platform access to enter/leave unverified",
+    "dedupeGiftEvent": "eventId",
+    "freeParticipation": "comment JOIN or joystick team join if enabled",
+    "paidProgress": "gift +1 on viewers own tower, requires official approval"
+  },
+  "draftImage": {
+    "path": "00-项目玩法总览图.png",
+    "state": "BLOCKED_MEDIA",
+    "instructions": "scene image may show grass/stone terrain and UI but runtime tower/crystal assets must be separate transparent RGBA; never cut scene PNG into sprites"
+  },
+  "qa": [
+    "4 spawn directions with vectors pointing inward",
+    "all towers spaced and outside core",
+    "3 stable tower IDs",
+    "core not viewer assigned",
+    "scene map and sprites separate"
+  ]
+}

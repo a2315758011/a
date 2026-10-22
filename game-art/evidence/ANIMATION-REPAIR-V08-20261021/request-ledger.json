@@ -1,0 +1,104 @@
+{
+  "createdAt": "2026-10-21T00:15:39.754Z",
+  "status": "failed",
+  "request": {
+    "kind": "image",
+    "feature": "freedom_image",
+    "transport": "web",
+    "pool": false,
+    "accountId": "36efa2bf-4e52-488f-95e3-9690cef0a82e",
+    "sourceProjectId": "live-turret-defense",
+    "sourceTaskId": "ANIMATION-REPAIR-V08-20261021-BOSS-ATTACK-KEYPOSES",
+    "idempotencyKey": "ANIMATION-REPAIR-V08-20261021-BOSS-ATTACK-KEYPOSES-once",
+    "referenceImages": [
+      "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\evidence\\ANIMATION-REPAIR-V08-20261021\\reference-boss.png"
+    ],
+    "aspectRatio": "1:1",
+    "returnTo": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\evidence\\ANIMATION-REPAIR-V08-20261021",
+    "prompt": "请依据上传的兽人首领母版制作游戏逐帧攻击关键姿态小样。保留该母版的绿色皮肤、棕红盾牌/护具、尖刺肩甲、棕色毛发、原武器结构与身体比例，先识别母版真实装备，不要擅自换成新角色。严格90度正交俯视，朝屏幕下方，与母版相同。原生16位像素游戏精灵，有限调色板、清楚的方形像素色块、硬边，不要插画、平滑渐变、抗锯齿或3D质感。只输出一张2x2等大区域的四关键姿态生产板：左上1准备，手臂武器收在身侧；右上2蓄力，持武器手臂后摆/举起、躯干蓄势；左下3出手，肩肘明显转动，武器向屏幕下方目标挥动，另一手护具随重心变化；右下4命中，武器到达身体前方，躯干前倾、身体重心跟进。四格必须有真实关节与武器相对身体的位置变化，不能复制同一立绘后平移旋转缩放。保持体积与角色身份一致、全身和装备完整、格间留白无交叠。每格按96x96逻辑像素创作，最终整数倍最近邻放大；不加文字数字边框。纯品红#FF00FF背景便于安全分离，不画地面和投影。此输出仅为四姿态可行性审查，不冒充完整8帧动画。"
+  },
+  "promptSHA256": "c4181d016622ad614ea739e9f45650380c1abae3a7a0ebc8fea32c58e3a581b7",
+  "referenceSHA256": "896c915a564e42242591e39e4517a509fc66954ec928fef31c9d033f22cb3449",
+  "createResponse": {
+    "ok": true,
+    "job": {
+      "id": "e5ceea17-83bc-4b1c-b10c-0878458e8cd1",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-21T00:15:39.875Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ANIMATION-REPAIR-V08-20261021-BOSS-ATTACK-KEYPOSES",
+      "returnTo": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\evidence\\ANIMATION-REPAIR-V08-20261021",
+      "businessContext": null,
+      "request": {
+        "promptPreview": "请依据上传的兽人首领母版制作游戏逐帧攻击关键姿态小样。保留该母版的绿色皮肤、棕红盾牌/护具、尖刺肩甲、棕色毛发、原武器结构与身体比例，先识别母版真实装备，不要擅自换成新角色。严格90度正交俯视，朝屏幕下方，与母版相同。原生16位像素游戏精灵，有限调色板、清楚的方形像素色块、硬边，不要插画、平滑渐变、抗锯齿或3D质感。只输出一张2x2等大区域的四关键姿态生产板：左上1准备，手臂武器收在身侧；右上2蓄力，持武器手臂后摆/举起、躯干蓄势；左下3出手，肩肘明显转动，武器向屏幕下方目标",
+        "model": "",
+        "accountId": "36efa2bf-4e52-488f-95e3-9690cef0a82e",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 1
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "jobId": "e5ceea17-83bc-4b1c-b10c-0878458e8cd1",
+  "lastCheckedAt": "2026-10-21T00:29:33.732Z",
+  "lastJob": {
+    "id": "e5ceea17-83bc-4b1c-b10c-0878458e8cd1",
+    "status": "failed",
+    "kind": "image",
+    "feature": "freedom_image",
+    "createdAt": "2026-10-21T00:15:39.875Z",
+    "startedAt": "2026-10-21T00:15:39.876Z",
+    "completedAt": "2026-10-21T00:19:06.632Z",
+    "source": "external",
+    "sourceProjectId": "live-turret-defense",
+    "sourceTaskId": "ANIMATION-REPAIR-V08-20261021-BOSS-ATTACK-KEYPOSES",
+    "returnTo": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\evidence\\ANIMATION-REPAIR-V08-20261021",
+    "businessContext": null,
+    "request": {
+      "promptPreview": "请依据上传的兽人首领母版制作游戏逐帧攻击关键姿态小样。保留该母版的绿色皮肤、棕红盾牌/护具、尖刺肩甲、棕色毛发、原武器结构与身体比例，先识别母版真实装备，不要擅自换成新角色。严格90度正交俯视，朝屏幕下方，与母版相同。原生16位像素游戏精灵，有限调色板、清楚的方形像素色块、硬边，不要插画、平滑渐变、抗锯齿或3D质感。只输出一张2x2等大区域的四关键姿态生产板：左上1准备，手臂武器收在身侧；右上2蓄力，持武器手臂后摆/举起、躯干蓄势；左下3出手，肩肘明显转动，武器向屏幕下方目标",
+      "model": "",
+      "accountId": "36efa2bf-4e52-488f-95e3-9690cef0a82e",
+      "pool": false,
+      "aspectRatio": "1:1",
+      "resolution": null,
+      "duration": null,
+      "referenceCount": 1
+    },
+    "result": null,
+    "error": {
+      "name": "Error",
+      "message": "网页生成失败：1163556352：Could not find node with given id",
+      "code": "WEB_GENERATION_FAILED",
+      "stage": "upload-reference",
+      "accountId": "36efa2bf-4e52-488f-95e3-9690cef0a82e",
+      "accountName": "",
+      "platformId": "chatgpt",
+      "platformLabel": "",
+      "submitted": false,
+      "submitLocked": false,
+      "submittedUrl": "",
+      "chatId": "",
+      "failures": []
+    },
+    "artifacts": []
+  },
+  "outputs": [],
+  "confirmedEndpoint": "http://127.0.0.1:18130",
+  "discoveryIncident": "Shared runtime was overwritten by another instance PID182804 port18131, then removed. Original service still owns this job.",
+  "queryRecovery": {
+    "baseUrl": "http://127.0.0.1:18130",
+    "recoveredFromOriginal": false,
+    "persistentSubtask": false,
+    "failures": []
+  }
+}

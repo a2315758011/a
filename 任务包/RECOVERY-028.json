@@ -1,0 +1,25 @@
+{
+  "taskId": "RECOVERY-028",
+  "title": "基础阵容与直播互动战斗平衡",
+  "status": "CANDIDATE_QA_PASS",
+  "scope": "仅隔离候选 Cocos V5；正式 CocosCreator工程 不修改",
+  "problem": "修正直播观众语义后，原9座基础塔在0在线/0礼物下会自动三波胜利且HP70，失败结局基本不可达，直播互动价值不足。",
+  "modification": "仅把9座基础塔初始等级从1/2/3级混合改为全部1级；敌人数量、生命、伤害和直播事件协议不变。",
+  "completed": [
+    "0在线/0礼物真实对局：第2波失败，47杀，HP0",
+    "4观众/4礼物真实对局：第3波失败，88杀，HP0",
+    "6观众/4礼物真实对局：第3波胜利，96杀，HP76",
+    "RECOVERY-027直播事件桥19项语义检查继续PASS",
+    "主界面五视口真实输入5/5继续PASS",
+    "Cocos Web-Mobile build success，Creator exit36，TS错误0，stderr0"
+  ],
+  "conclusion": "基础阵容有真实失败压力；中等直播互动可以把同一套战斗从失败翻成胜利，直播互动不再只是展示。",
+  "evidence": [
+    "验收证据/RECOVERY-028-基础阵容与直播平衡/基础阵容-0在线-0礼物.json",
+    "验收证据/RECOVERY-028-基础阵容与直播平衡/直播增强-4观众-4礼物.json",
+    "验收证据/RECOVERY-028-基础阵容与直播平衡/直播增强-6观众-4礼物.json",
+    "game-art/evidence/RECOVERY-028-live-event-build.json",
+    "验收证据/RECOVERY-027-直播事件桥/直播事件桥接口与真实按钮回归.json",
+    "验收证据/RECOVERY-026-主界面纵向切片/主界面五视口真实输入回归.json"
+  ]
+}

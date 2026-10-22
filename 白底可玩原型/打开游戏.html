@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<title>直播炮塔守城｜白底离线可玩骨架</title>
+<style>
+:root{color-scheme:light;font-family:"Microsoft YaHei","PingFang SC","Noto Sans SC",sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:#f6f7f9;color:#293747}
+.shell{max-width:540px;margin:auto;padding:0}
+canvas{display:block;width:100%;height:auto;aspect-ratio:9/16;image-rendering:pixelated;touch-action:manipulation;cursor:crosshair;background:#fff;border:1px solid #e3e7ee}
+.bar{display:flex;flex-wrap:wrap;gap:7px;padding:10px;background:#fff;border:1px solid #e7eaf0}
+button{padding:10px 12px;border:1px solid #bfcbd8;border-radius:8px;background:#fff;color:#24334c;font-size:13px;cursor:pointer}
+button.primary{background:#2579d0;color:#fff;border-color:#2579d0}
+button:disabled{opacity:.45;cursor:not-allowed}
+.row{display:flex;gap:8px;align-items:center;padding:0 10px 9px;background:white;font-size:13px}
+input{min-width:0;flex:1;padding:9px 10px;border-radius:7px;border:1px solid #c9d3dd;font-size:14px}
+.note{font-size:12px;line-height:1.65;background:white;color:#607083;padding:10px 12px 25px}
+@media(max-width:540px){.bar{gap:5px}.bar button{flex:1;padding:10px 4px}}
+html.overview,html.overview body{margin:0!important;padding:0!important;background:white!important;overflow:hidden}
+html.overview .shell{width:540px;max-width:none;padding:0;margin:0}
+html.overview canvas{width:540px;height:960px;border:0}
+html.overview .bar,html.overview .row,html.overview .note{display:none!important}
+</style>
+</head>
+<body>
+<main class="shell">
+<canvas id="battle" width="540" height="960" role="img" aria-label="中央水晶受保护，九座玩家炮塔布阵，兽人从东南西北四侧靠近的白底俯视战场示意"></canvas>
+<div class="bar" id="controls">
+ <button class="primary" id="start">开始战斗</button>
+ <button id="pause">暂停</button>
+ <button id="upgrade">模拟礼物 +1 级</button>
+ <button id="leave">模拟离场撤塔</button>
+ <button id="reset">重新开始</button>
+</div>
+<div class="row">
+ <label for="viewer">模拟观众昵称</label><input id="viewer" placeholder="如：小明" value="小明" maxlength="8"/>
+ <button id="join">模拟进场加塔</button>
+</div>
+<div class="note">点击任意炮塔方块可选中。礼物、进场、离场均为本地模拟，不对接抖音直播事件；无需联网、无需任何游戏素材。按空格暂停/继续，R重开，U升级。白色背景只是原型示意，正式资源仍须透明PNG。</div>
+</main>
+<script src="./规则引擎.js"></script>
+<script src="./游戏界面.js"></script>
+</body></html>

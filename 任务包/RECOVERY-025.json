@@ -1,0 +1,34 @@
+{
+  "taskId": "RECOVERY-025",
+  "title": "V5结算弹层视觉收敛与双结局回归",
+  "status": "CANDIDATE_QA_PASS_ART_APPROVAL_PENDING",
+  "scope": "isolated Cocos V5 candidate only",
+  "completed": [
+    "终局战斗HUD隐藏及重开恢复",
+    "终局背景遮罩增强",
+    "隔离候选关闭未使用Spine引擎模块",
+    "自然胜利结算与真实再次守城 PASS",
+    "自然失败结算与真实再次守城 PASS",
+    "五视口输入/重开 smoke 5/5 PASS",
+    "新建CDP Page target隔离旧浏览器控制台事件"
+  ],
+  "acceptance": {
+    "build": true,
+    "win": true,
+    "loss": true,
+    "fiveViewport": true,
+    "consoleErrors": 0,
+    "visualReview": true
+  },
+  "formalIntegration": false,
+  "blockers": [
+    "用户V5整体美术签收",
+    "Android/微信/抖音真机",
+    "真实直播观众与礼物网络接口",
+    "1000塔低端设备性能"
+  ],
+  "evidence": [
+    "验收证据/RECOVERY-025-V5结算弹层视觉与双结局回归.md",
+    "game-art/evidence/RECOVERY-025-settlement-ui-runtime-audit.json"
+  ]
+}

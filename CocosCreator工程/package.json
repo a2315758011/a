@@ -1,0 +1,9 @@
+{
+  "name": "live-turret-defense",
+  "version": "0.0.1",
+  "description": "Cocos Creator 3.8.2 tower defense",
+  "creator": {
+    "version": "3.8.2"
+  },
+  "uuid": "e58f62f9-a76d-4a87-9bc8-38b0ba61e472"
+}

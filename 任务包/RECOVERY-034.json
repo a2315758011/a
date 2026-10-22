@@ -1,0 +1,55 @@
+{
+  "taskId": "RECOVERY-034",
+  "title": "V5美术资源审计与缺口补全",
+  "status": "CANDIDATE_QA_PASS_WITH_EXTERNAL_GATES",
+  "mode": "dynamic",
+  "scope": "game-art + 隔离候选Cocos资源；正式工程只读，未签收前不覆盖",
+  "goals": [
+    "盘点V4/V5/正式资源库全部PNG尺寸、Alpha、哈希、目录、Cocos meta",
+    "把实际存在的V5资源与art-manifest对应，修正planned假状态",
+    "识别动态单位缺失的Master/分层/动画/Atlas/Prefab绑定",
+    "只补缺口，不重复生成已存在资产",
+    "生成资源先进入候选目录并QA，不直接覆盖正式工程"
+  ],
+  "acceptance": [
+    "完整资源库存JSON落盘",
+    "候选与正式V5差异清单落盘",
+    "manifest与真实文件一致",
+    "明确哪些资产可复用、哪些必须重做/补做",
+    "所有新增候选Runtime Sprite满足Alpha硬门",
+    "正式工程不因未签收美术被覆盖"
+  ],
+  "completed": [
+    "V5/V4/formal resource inventory, dimensions, alpha, hashes and Cocos meta audited",
+    "art-manifest synchronized to current runtime assets and rejected legacy enemy perspective",
+    "AI-generated pixel FX 8/8 alpha/import/build/runtime QA PASS",
+    "standalone center rune platform generated, alpha/pixel QA PASS and candidate runtime bound",
+    "new top-down grunt Master A normalized and candidate runtime QA PASS",
+    "boss Master A rejected by visual camera gate; boss Master B generated, normalized and candidate runtime QA PASS",
+    "real Cocos battle confirms top-down grunt/boss master frames loaded and active, legacy enemy layers hidden, JS errors 0",
+    "2048 runtime atlas candidate generated/QA PASS but deliberately not promoted before art sign-off",
+    "editable source provenance audited; exact conversion recipe remains unverified rather than falsely marked complete",
+    "顶视Master绑定后完成自然三波失败长局与15观众强化三波胜利长局双向回归，JS错误0"
+  ],
+  "blockers": [
+    "Human V5 art sign-off is required before formal Cocos scene/Prefab promotion",
+    "Reference-image upload automation is broken at upload-reference on two ChatGPT accounts; editable enemy layer production remains blocked without a safe reference-locked generation path",
+    "Android real APK/device validation and real Douyin live backend remain separate external gates"
+  ],
+  "evidence": [
+    "验收证据/RECOVERY-034-V5美术资源审计/V5资源库存与Alpha哈希审计.json",
+    "验收证据/RECOVERY-034-V5美术资源审计/V5美术缺口矩阵.json",
+    "验收证据/RECOVERY-034-V5美术资源审计/V5-FX-Cocos构建回归.json",
+    "验收证据/RECOVERY-034-V5美术资源审计/V5像素FX真实战斗回归.json",
+    "验收证据/RECOVERY-034-V5美术资源审计/中心符文平台离线生成QA.json",
+    "验收证据/RECOVERY-034-V5美术资源审计/顶视敌人Master运行时回归/顶视敌人Master运行时回归.json",
+    "game-art/evidence/RECOVERY-034-TOPDOWN-ENEMY-MASTER-A/normalize-qa.json",
+    "game-art/evidence/RECOVERY-034-TOPDOWN-BOSS-MASTER-B/normalize-qa.json",
+    "game-art/evidence/RECOVERY-034-TOPDOWN-BOSS-LAYERS-B1/generation-failure.json",
+    "game-art/evidence/RECOVERY-034-TOPDOWN-BOSS-LAYERS-B2/generation-failure.json",
+    "验收证据/RECOVERY-034-V5美术资源审计与缺口补全.md",
+    "验收证据/RECOVERY-034-V5美术资源审计/顶视敌人Master强化胜利回归/顶视Master强化胜利完整回归.json",
+    "验收证据/RECOVERY-034-V5美术资源审计/顶视敌人Master三波自然失败回归.json"
+  ],
+  "updatedAt": "2026-10-21T21:28:33.655Z"
+}

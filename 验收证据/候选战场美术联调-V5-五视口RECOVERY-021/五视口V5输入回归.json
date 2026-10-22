@@ -1,0 +1,266 @@
+{
+  "test": "V5 scale iteration 5 viewport smoke; CDP resize; actual mouse input; no direct state mutation",
+  "startedAt": "2026-10-20T13:05:57",
+  "viewports": [
+    {
+      "target": [
+        360,
+        780
+      ],
+      "metrics": {
+        "innerWidth": 360,
+        "innerHeight": 780,
+        "visibleWidth": 540,
+        "visibleHeight": 1170,
+        "state": "ready",
+        "hp": 100,
+        "towers": 9,
+        "artReady": true,
+        "artFailed": false,
+        "hudHalf": 585,
+        "titleY": 557,
+        "subY": 498,
+        "buttonY": -489
+      },
+      "checks": {
+        "exactViewport": true,
+        "artLoaded": true,
+        "hudWithinView": true,
+        "startButton": true,
+        "viewerAddsOneTower": true,
+        "restartRestoresInitial": true
+      },
+      "interaction": {
+        "afterStart": {
+          "state": "running",
+          "towers": 9,
+          "lastClick": "-205,-489"
+        },
+        "afterViewerAdd": {
+          "state": "running",
+          "towers": 10,
+          "lastClick": "-105,-489"
+        },
+        "afterRestart": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "towers": 9,
+          "kills": 0,
+          "lastClick": "173,-489"
+        }
+      },
+      "pass": true
+    },
+    {
+      "target": [
+        393,
+        852
+      ],
+      "metrics": {
+        "innerWidth": 393,
+        "innerHeight": 852,
+        "visibleWidth": 540,
+        "visibleHeight": 1170.6870229007634,
+        "state": "ready",
+        "hp": 100,
+        "towers": 9,
+        "artReady": true,
+        "artFailed": false,
+        "hudHalf": 585,
+        "titleY": 557,
+        "subY": 498,
+        "buttonY": -489
+      },
+      "checks": {
+        "exactViewport": true,
+        "artLoaded": true,
+        "hudWithinView": true,
+        "startButton": true,
+        "viewerAddsOneTower": true,
+        "restartRestoresInitial": true
+      },
+      "interaction": {
+        "afterStart": {
+          "state": "running",
+          "towers": 9,
+          "lastClick": "-205,-489"
+        },
+        "afterViewerAdd": {
+          "state": "running",
+          "towers": 10,
+          "lastClick": "-105,-489"
+        },
+        "afterRestart": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "towers": 9,
+          "kills": 0,
+          "lastClick": "172,-489"
+        }
+      },
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        760
+      ],
+      "metrics": {
+        "innerWidth": 540,
+        "innerHeight": 760,
+        "visibleWidth": 540,
+        "visibleHeight": 760,
+        "state": "ready",
+        "hp": 100,
+        "towers": 9,
+        "artReady": true,
+        "artFailed": false,
+        "hudHalf": 380,
+        "titleY": 352,
+        "subY": 293,
+        "buttonY": -284
+      },
+      "checks": {
+        "exactViewport": true,
+        "artLoaded": true,
+        "hudWithinView": true,
+        "startButton": true,
+        "viewerAddsOneTower": true,
+        "restartRestoresInitial": true
+      },
+      "interaction": {
+        "afterStart": {
+          "state": "running",
+          "towers": 9,
+          "lastClick": "-206,-284"
+        },
+        "afterViewerAdd": {
+          "state": "running",
+          "towers": 10,
+          "lastClick": "-105,-284"
+        },
+        "afterRestart": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "towers": 9,
+          "kills": 0,
+          "lastClick": "172,-284"
+        }
+      },
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        960
+      ],
+      "metrics": {
+        "innerWidth": 540,
+        "innerHeight": 960,
+        "visibleWidth": 540,
+        "visibleHeight": 960,
+        "state": "ready",
+        "hp": 100,
+        "towers": 9,
+        "artReady": true,
+        "artFailed": false,
+        "hudHalf": 480,
+        "titleY": 452,
+        "subY": 393,
+        "buttonY": -384
+      },
+      "checks": {
+        "exactViewport": true,
+        "artLoaded": true,
+        "hudWithinView": true,
+        "startButton": true,
+        "viewerAddsOneTower": true,
+        "restartRestoresInitial": true
+      },
+      "interaction": {
+        "afterStart": {
+          "state": "running",
+          "towers": 9,
+          "lastClick": "-206,-384"
+        },
+        "afterViewerAdd": {
+          "state": "running",
+          "towers": 10,
+          "lastClick": "-105,-384"
+        },
+        "afterRestart": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "towers": 9,
+          "kills": 0,
+          "lastClick": "172,-384"
+        }
+      },
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        1108
+      ],
+      "metrics": {
+        "innerWidth": 540,
+        "innerHeight": 1108,
+        "visibleWidth": 540,
+        "visibleHeight": 1108,
+        "state": "ready",
+        "hp": 100,
+        "towers": 9,
+        "artReady": true,
+        "artFailed": false,
+        "hudHalf": 554,
+        "titleY": 526,
+        "subY": 467,
+        "buttonY": -458
+      },
+      "checks": {
+        "exactViewport": true,
+        "artLoaded": true,
+        "hudWithinView": true,
+        "startButton": true,
+        "viewerAddsOneTower": true,
+        "restartRestoresInitial": true
+      },
+      "interaction": {
+        "afterStart": {
+          "state": "running",
+          "towers": 9,
+          "lastClick": "-206,-458"
+        },
+        "afterViewerAdd": {
+          "state": "running",
+          "towers": 10,
+          "lastClick": "-105,-458"
+        },
+        "afterRestart": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "towers": 9,
+          "kills": 0,
+          "lastClick": "172,-458"
+        }
+      },
+      "pass": true
+    }
+  ],
+  "consoleErrors": [],
+  "networkFailures": [],
+  "badResponses": [
+    {
+      "url": "http://127.0.0.1:53199/favicon.ico",
+      "status": 404
+    }
+  ],
+  "durationSeconds": 13.8,
+  "overallPass": true
+}

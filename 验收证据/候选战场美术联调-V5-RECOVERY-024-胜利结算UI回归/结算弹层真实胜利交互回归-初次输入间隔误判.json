@@ -1,0 +1,228 @@
+{
+  "test": "RECOVERY-024 real-input V5 natural win, settlement overlay and restart",
+  "method": "Real mouse actions only; read-only in-page observer samples animation states every 40ms; isolated candidate build; no controller/game state writes",
+  "startedAt": "2026-10-20T19:16:06",
+  "actions": [
+    {
+      "atSeconds": 3.144,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.197,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.249,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.305,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.358,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.41,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.462,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.514,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.567,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.619,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.674,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.726,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.778,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.83,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 3.882,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    }
+  ],
+  "hostSamples": [],
+  "events": [],
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "screenshots": [
+    {
+      "file": "00-胜利回归-资源就绪.png",
+      "bytes": 548421,
+      "sha256": "91C626201F9299EA63BABBB01C5E3AF19787ABD09C70B2622371339D581AAF17"
+    }
+  ],
+  "result": "ERROR",
+  "initial": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "pool": 0,
+      "active": 0,
+      "towerPool": 9,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "upgradeTimers": [],
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    "ui": {
+      "visible": false,
+      "title": "label",
+      "subtitle": "label",
+      "stats": "label",
+      "button": "label",
+      "buttonEnabled": true
+    }
+  },
+  "viewport": {
+    "width": 360,
+    "height": 780,
+    "hidden": false
+  },
+  "observerInstalled": {
+    "ok": true,
+    "intervalMs": 40
+  },
+  "afterAdd": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 17,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "pool": 0,
+      "active": 0,
+      "towerPool": 15,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "upgradeTimers": [],
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    "ui": {
+      "visible": false,
+      "title": "label",
+      "subtitle": "label",
+      "stats": "label",
+      "button": "label",
+      "buttonEnabled": true
+    }
+  },
+  "exception": "RuntimeError(\"Real mouse input did not add 15 towers: {'game': {'state': 'ready', 'hp': 100, 'wave': 1, 'towers': 17, 'kills': 0, 'enemies': 0, 'time': 0}, 'art': {'ready': True, 'failed': False, 'pool': 0, 'active': 0, 'towerPool': 15, 'states': {'walk': 0, 'hurt': 0, 'attack': 0, 'death': 0}, 'ghosts': 0, 'upgradingTowers': 0, 'upgradeTimers': [], 'coreHitTimer': 0, 'coreHit': False, 'crystalDeathElapsed': 0, 'crystalScale': [0.5940000000000001, 0.5940000000000001], 'crystalColor': [255, 255, 255, 255]}, 'ui': {'visible': False, 'title': 'label', 'subtitle': 'label', 'stats': 'label', 'button': 'label', 'buttonEnabled': True}}\")",
+  "stack": "Traceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_settlement_win_ui_024.py\", line 111, in <module>\n    raise RuntimeError(\"Real mouse input did not add 15 towers: \"+str(report.get(\"afterAdd\")))\nRuntimeError: Real mouse input did not add 15 towers: {'game': {'state': 'ready', 'hp': 100, 'wave': 1, 'towers': 17, 'kills': 0, 'enemies': 0, 'time': 0}, 'art': {'ready': True, 'failed': False, 'pool': 0, 'active': 0, 'towerPool': 15, 'states': {'walk': 0, 'hurt': 0, 'attack': 0, 'death': 0}, 'ghosts': 0, 'upgradingTowers': 0, 'upgradeTimers': [], 'coreHitTimer': 0, 'coreHit': False, 'crystalDeathElapsed': 0, 'crystalScale': [0.5940000000000001, 0.5940000000000001], 'crystalColor': [255, 255, 255, 255]}, 'ui': {'visible': False, 'title': 'label', 'subtitle': 'label', 'stats': 'label', 'button': 'label', 'buttonEnabled': True}}\n",
+  "durationSeconds": 5.25,
+  "finishedAt": "2026-10-20T19:16:11",
+  "summary": {
+    "hostPollCount": 0,
+    "events": [],
+    "coverage": {},
+    "coverageFlags": {},
+    "consoleErrorCount": 0,
+    "lastGame": null,
+    "settlementUI": null,
+    "restartUI": null
+  }
+}

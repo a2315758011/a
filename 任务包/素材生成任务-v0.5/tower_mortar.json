@@ -1,0 +1,64 @@
+{
+  "id": "tower_mortar",
+  "name": "熔芯重炮塔",
+  "stage": "MASTER_SAMPLE_NOT_FINAL",
+  "accountId": "b362bb9f-d46d-44cc-9a0c-811bd0afb728",
+  "sourceTaskId": "ART-MASTER-TOWER_MORTAR-20261012",
+  "idempotencyKey": "live-turret-defense-ART-MASTER-TOWER_MORTAR-20261012-v05-once",
+  "promptSHA256": "25eac70d415fb788dc9e7f8e6978bda36b5db408996d930d5ab4e3f67f3586ca",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "submittedAt": "2026-10-12T14:40:22.408828+00:00",
+  "jobId": "dae0f888-0d5e-49d0-8d04-fb2020846eb7",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "dae0f888-0d5e-49d0-8d04-fb2020846eb7",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:40:22.688Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-TOWER_MORTAR-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "An original top-down 2D pixel-art unit MASTER sprite for fantasy tower defense. RED-BRONZE heavy single-barrel artillery cannon tower: one VERY LARGE short black bore aiming to canvas bottom (south), red iron armor, amber molten orange furn",
+        "model": "",
+        "accountId": "b362bb9f-d46d-44cc-9a0c-811bd0afb728",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:01.132600+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\tower_mortar-母素材-原始.png",
+  "sha256": "24169681a7c9d9ad17dca4a0a9e456ff0230621429ed96151cc50ac6bfe916ac",
+  "size": [
+    384,
+    384
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "a6c7bdd53f310dc45fd640b7",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816115889_doubao_work_豆包工作_·_网页账号_2_c0945c1d.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816115889_doubao_work_豆包工作_·_网页账号_2_c0945c1d.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816115889_doubao_work_豆包工作_·_网页账号_2_c0945c1d.png",
+      "name": "1791816115889_doubao_work_豆包工作_·_网页账号_2_c0945c1d.png",
+      "size": 110052,
+      "mimeType": "image/png"
+    }
+  ]
+}

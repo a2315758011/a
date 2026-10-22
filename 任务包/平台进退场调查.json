@@ -1,0 +1,42 @@
+{
+  "taskId": "PLAT-002",
+  "projectId": "live-turret-defense",
+  "status": "BLOCKED",
+  "assignee": null,
+  "dependsOn": [
+    "PLAT-001"
+  ],
+  "inputHash": "UNKNOWN",
+  "instructionRefs": [
+    {
+      "absolutePath": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.1",
+      "sha256": "UNKNOWN",
+      "blobSha": "13816e8bb3f780515c7826b175285fa20df2861d",
+      "chapters": [
+        "00",
+        "01",
+        "02",
+        "09",
+        "11",
+        "12",
+        "14"
+      ]
+    }
+  ],
+  "allowedRead": [
+    "对标与平台核查.md"
+  ],
+  "writeAllowlist": [
+    "对标与平台核查.md",
+    "验收证据/直播事件/"
+  ],
+  "resource": "project:live-turret-defense:platform-events",
+  "acceptance": "实际拿到官方开放的进退房事件schema/样本和权限证明，或证实需评论加入/退出的合规后备交互",
+  "blockedBy": "公开接口未证实全员进退房且当前无本项目审核授权",
+  "nextAction": "继续查证官方事件细节和账号测试权限，若不支持则记录降级设计",
+  "forbidden": [
+    "不用非法抓包或非公开API",
+    "不冒充已连抖音"
+  ]
+}

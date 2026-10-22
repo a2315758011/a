@@ -1,0 +1,11 @@
+{
+  "task": "WHOLE-GAME-FORMAL-PLATFORM-ADAPTER-20261022",
+  "test": "platform adapter web runtime and live-source contract",
+  "checks": {},
+  "errors": [],
+  "startedAt": "2026-10-22T23:21:16",
+  "result": "ERROR",
+  "exception": "RuntimeError('CDP not ready')",
+  "stack": "Traceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\自动化测试\\qa_formal_fast_combat_20261022.py\", line 40, in <module>\n    if not pages:raise RuntimeError(\"CDP not ready\")\n                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: CDP not ready\n",
+  "finishedAt": "2026-10-22T23:21:45"
+}

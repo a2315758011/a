@@ -1,0 +1,24 @@
+{
+  "task": "RECOVERY-028",
+  "scenario": {
+    "viewers": 0,
+    "gifts": 0
+  },
+  "executedAt": "2026-10-21T22:09:03",
+  "qaReturnCode": 0,
+  "result": "PASS",
+  "terminal": {
+    "state": "lose",
+    "hp": 0,
+    "wave": 3,
+    "towers": 9,
+    "kills": 72,
+    "enemies": 24,
+    "time": 87.26666666666428,
+    "online": 0,
+    "menu": false
+  },
+  "errors": [],
+  "exception": null,
+  "sourceScript": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_base9_natural_outcome_RECOVERY_027.py"
+}

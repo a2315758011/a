@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "ratio": "16:9",
+  "sheets": [
+    {
+      "id": "td-v5-tower-layer-sheet",
+      "grid": {
+        "columns": 4,
+        "rows": 3
+      },
+      "columns": [
+        "连珠速射塔",
+        "熔芯重炮塔",
+        "寒霜喷射塔",
+        "城防能量水晶"
+      ],
+      "rows": [
+        "base/platform",
+        "body/housing",
+        "weapon/emitter/crystal-core"
+      ],
+      "requirements": [
+        "all layers align to same pivot within each column",
+        "solid chroma-magenta background",
+        "no cell border or labels",
+        "each layer isolated and centered",
+        "strict top-down orthographic",
+        "hand-authored native pixel art"
+      ]
+    },
+    {
+      "id": "td-v5-enemy-layer-sheet",
+      "grid": {
+        "columns": 3,
+        "rows": 2
+      },
+      "columns": [
+        "body/armor",
+        "head-and-arms",
+        "weapon/accessory"
+      ],
+      "rows": [
+        "兽人小兵",
+        "兽人首领"
+      ],
+      "requirements": [
+        "same character pose and coordinate frame across the three layer cells in each row",
+        "isolated body parts",
+        "magenta background",
+        "no text"
+      ]
+    },
+    {
+      "id": "td-v5-ui-sheet",
+      "grid": {
+        "columns": 4,
+        "rows": 2
+      },
+      "columns": [
+        "header plaque",
+        "primary button",
+        "secondary button",
+        "danger button"
+      ],
+      "rows": [
+        "health bar shell",
+        "wave badge",
+        "crystal currency icon",
+        "tower upgrade icon"
+      ],
+      "requirements": [
+        "one object per cell",
+        "magenta background",
+        "no letters, numbers, labels, or watermark"
+      ]
+    }
+  ]
+}

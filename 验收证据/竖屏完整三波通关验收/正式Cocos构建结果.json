@@ -1,0 +1,11 @@
+{
+  "project": "正式CocosCreator工程",
+  "Cocos": "3.8.2",
+  "stdoutBuildSuccess": true,
+  "exitCode": 36,
+  "duration": 20.6,
+  "hasEntry": true,
+  "files": 366,
+  "stdoutTail": "ocos-service:(onAfterBuild) start..., progress: 60%\n\n2026-10-19 09:33:25 - debug: // ---- build task cocos-service：onAfterBuild ----\n\n2026-10-19 09:33:25 - debug: // ---- build task cocos-service：onAfterBuild ---- (5ms)\n\n2026-10-19 09:33:25 - debug: cocos-service:(onAfterBuild) in 5 ms ✓, progress: 62%\n\n2026-10-19 09:33:25 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%\n\n2026-10-19 09:33:25 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----\n\n2026-10-19 09:33:25 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (1ms)\n\n2026-10-19 09:33:25 - debug: adsense-h5g-plugin:(onAfterBuild) in 1 ms ✓, progress: 64%\n\n2026-10-19 09:33:25 - log: Asset DB is resume!\n\n2026-10-19 09:33:25 - debug: builder:build-project-total (5568ms)\n\n2026-10-19 09:33:25 - debug: build success in 5568!\n\n2026-10-19 09:33:25 - debug: [Build Memory track]: builder:build-project-total start:265.89MB, end 255.43MB, increase: -10705.32KB\n\n2026-10-19 09:33:25 - debug: ================================ build Task (web-mobile) Finished in (5 s)ms ================================\n\n",
+  "stderrTail": ""
+}

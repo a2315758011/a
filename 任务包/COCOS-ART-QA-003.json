@@ -1,0 +1,90 @@
+{
+  "taskId": "COCOS-ART-QA-003",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-artpreview-20261019",
+  "status": "QA_RUNTIME_PASS__ART_STYLE_NOT_APPROVED",
+  "reviewMode": "SELF_REVIEW",
+  "scope": "仅在正式Cocos项目内创建隔离候选演示场景与资源，独立临时Cocos工程运行验证；不提升资源为正式游戏美术",
+  "prerequisites": [
+    {
+      "taskId": "LAYER-ART-ANIM-V2-002",
+      "status": "STRUCTURAL_QA_PASS_SEMANTIC_REVIEW_PENDING",
+      "reason": "本任务属于其引擎兼容性测试闭环，不放行正式美术绑定"
+    }
+  ],
+  "instructionRefs": [
+    {
+      "url": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.7",
+      "chapters": [
+        "RULE-03",
+        "RULE-06",
+        "RULE-07",
+        "RULE-09",
+        "RULE-10",
+        "RULE-13"
+      ]
+    }
+  ],
+  "read": [
+    "美术资源/分层源文件/动作与分层修订-v2/**",
+    "CocosCreator工程/assets/场景/守城主场景.scene",
+    "CocosCreator工程/assets/脚本/守城控制器.ts",
+    "CocosCreator工程/package.json",
+    "settings/v2/packages/engine.json"
+  ],
+  "write": [
+    "CocosCreator工程/assets/场景/待审美术演示.scene*",
+    "CocosCreator工程/assets/脚本/待审美术测试控制器.ts*",
+    "CocosCreator工程/assets/resources/待审核-分层动画测试/**",
+    "美术资源/分层源文件/动画引擎验收隔离/**",
+    "_assistant-temp/美术候选Cocos隔离构建工程/**",
+    "_assistant-temp/*Cocos*.py",
+    "任务包/COCOS-ART-QA-003.json",
+    "验收证据/COCOS-ART-QA-003-Cocos资源实机位加载.md",
+    "任务榜单.md"
+  ],
+  "assets": {
+    "sources": 56,
+    "resourcePNG": 56,
+    "animations": 7,
+    "SpriteFrameImports": 56,
+    "SpriteFrameFilter": "nearest",
+    "scene": "CocosCreator工程/assets/场景/待审美术演示.scene",
+    "script": "CocosCreator工程/assets/脚本/待审美术测试控制器.ts",
+    "evidence": "美术资源/分层源文件/动画引擎验收隔离/Cocos候选美术最终验收数据.json",
+    "runtimeScreenshot": "美术资源/分层源文件/动画引擎验收隔离/Cocos浏览器CDP场景运行图.png",
+    "browserScreenshotSize": [
+      1056,
+      1748
+    ],
+    "buildOutput": "_assistant-temp/美术候选Cocos隔离构建工程/build/web-mobile/index.html"
+  },
+  "gates": {
+    "CocosImport56of56": "PASS",
+    "PNGBytesEqualOriginal56of56": "PASS",
+    "nearestFiltering": "PASS",
+    "isolationOfGameSceneAndLogic": "PASS",
+    "editorBuildLog": "build success",
+    "editorExitCode": 36,
+    "webMobileIndexExists": true,
+    "WebGL2": "PASS",
+    "runtimeCocosLoad7Groups56Frames": "PASS",
+    "runtimeJavaScriptErrors": 0,
+    "brokenURLfaviconOnly": true,
+    "visualMotionSemantics": "FAIL_PENDING_ART_REWORK",
+    "userArtApproval": "NOT_RECEIVED",
+    "formalGamePrefabBinding": "NOT_DONE",
+    "DouyinMobileRuntime": "NOT_VERIFIED"
+  },
+  "rework": [
+    "V2 兽人行走腿部交替动作不够自然，足部/重心需重新设计关键帧",
+    "攻击动画战斧掠过面部且姿态跳变，重设分层武器与挥击弧线",
+    "死亡逐件旋转仍缺乏可信倒地停姿及地面接触",
+    "水晶破碎呈机械六等分形态，应重画不规则裂纹与碎片",
+    "单个96x96源图与v0.3炮塔64x64、兽人32x32的规格尚未统一",
+    "Cocos正式角色/炮塔Prefab、血条昵称及真实战斗画面未绑定"
+  ],
+  "handoff": "验收证据/COCOS-ART-QA-003-Cocos资源实机位加载.md",
+  "nextAction": "先锁定统一造型/规格并针对失败的关键姿态重画候选v3，Cocos隔离场景回归，再经审美签收后才把合格资源接入正式守城主场景。"
+}

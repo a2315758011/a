@@ -1,0 +1,128 @@
+{
+  "taskId": "RECOVERY-035",
+  "assetId": "td-v5-ui-settlement-panel",
+  "title": "结算弹层专用像素面板底板",
+  "status": "CANDIDATE_QA_PASS_ART_APPROVAL_PENDING",
+  "owner": "agent-gpt56-ui-panel-20261022",
+  "projectId": "live-turret-defense",
+  "mode": "static",
+  "scope": "仅隔离Cocos候选工程与game-art候选资源；正式Cocos主场景、正式Prefab及正式运行资源保持不变。",
+  "sourceOfTruth": "game-art/style/art-style.json",
+  "targetAsset": {
+    "format": "PNG RGBA runtime master after chroma-key removal",
+    "providerCanvas": [
+      1024,
+      1024
+    ],
+    "panelSilhouetteRatio": "4:5",
+    "runtimePanelApprox": [
+      440,
+      540
+    ],
+    "backgroundBeforeKey": "#FF00FF",
+    "backgroundAfterKey": "alpha=0 outside the panel",
+    "interior": "opaque dark navy; labels and controls remain Cocos nodes"
+  },
+  "implementation": {
+    "candidateRuntimePath": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/resources/候选战斗美术-v5-RECOVERY-004/UI/面板/结算面板底板.png",
+    "candidateScript": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/脚本/待审战场美术覆盖器.ts",
+    "replace": "procedural central settlement card body only",
+    "preserve": "separate dim backdrop, header, crystal icon, labels, buttons, event handlers and responsive layout",
+    "doNotPromote": "formal project assets or Prefab until human V5 art sign-off"
+  },
+  "acceptance": [
+    "Generation Gateway produces a new artifact for this unique task; no reuse or overwrite of RECOVERY-024 job.",
+    "Provider output preserved immutably with SHA-256 evidence.",
+    "RGBA output has real transparency outside the panel; opaque panel interior remains intact; magenta-edge QA passes.",
+    "Panel silhouette, colors and pixel clusters meet art-style.json; no baked text or icons.",
+    "Cocos Creator Web-Mobile build succeeds (exit 0 or 36, build success log, TypeScript errors 0, stderr 0, valid PNG meta).",
+    "Real Edge/CDP Cocos runtime loads the panel and exercises natural win and lose settlement plus restart/return-menu; JS errors 0.",
+    "Formal project remains untouched; manifest labels asset as candidate and approved=false."
+  ],
+  "blockers": [],
+  "evidence": [
+    "game-art/briefs/RECOVERY-035-UI-PANEL-MASTER-A-prompt.txt",
+    "game-art/briefs/RECOVERY-035-UI-PANEL-MASTER-A-design-brief.json",
+    "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/gateway-job.json",
+    "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/provider-output.png",
+    "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/master.png",
+    "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/alpha-pixel-qa.json",
+    "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/cocos-build-qa.json",
+    "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/manifest.json",
+    "验收证据/RECOVERY-035-UI-PANEL/真实Cocos双结局与五视口回归.json",
+    "验收证据/RECOVERY-035-UI-PANEL/真实Cocos双结局与五视口回归-before-assertion-correction.json",
+    "验收证据/RECOVERY-035-UI-PANEL/RECOVERY-035-结算面板集成与回归.md"
+  ],
+  "updatedAt": "2026-10-22T02:45:35Z",
+  "completed": [
+    "Shared Generation Gateway job completed under unique RECOVERY-035 task ID; immutable provider output and gateway job record saved.",
+    "Dedicated settlement panel master normalized to RGBA; chroma-key removal, crop, 48-color no-dither palette reduction and nearest-neighbor resize completed.",
+    "Alpha/pixel QA PASS: 512x636 RGBA, true alpha, opaque interior, 48 unique opaque RGB colors, 0 opaque magenta fringe pixels.",
+    "Panel imported and bound as a real Sprite in isolated Cocos V5 candidate; procedural settlement-card body replaced while separate dim backdrop, labels, crystal, buttons and handlers remain.",
+    "Cocos Creator 3.8.2 Web-Mobile build PASS: exit 36 official success code, build success log, TypeScript errors 0, stderr 0, 108 PNG assets, missing Meta 0.",
+    "Real mouse-driven Cocos E2E PASS: natural win, return to menu, natural loss, restart; JS errors 0.",
+    "Both natural settlement states pass all five viewport sizes: 10/10 viewport checks; live-session persistence verified when returning to menu."
+  ],
+  "pending": [
+    "Human V5 art sign-off before formal asset/Prefab promotion.",
+    "Formal Cocos main scene/Prefab integration after art sign-off.",
+    "Android real-device, WeChat DevTools/device, Douyin DevTools/device, real platform live event permissions/backend remain external gates."
+  ],
+  "verification": {
+    "generation": {
+      "status": "completed",
+      "jobId": "e5e90483-d544-4e55-a3c7-2463294afec6",
+      "provider": "ChatGPT via shared Generation Gateway"
+    },
+    "alphaPixel": {
+      "status": "PASS",
+      "size": [
+        512,
+        636
+      ],
+      "mode": "RGBA",
+      "paletteColors": 48,
+      "residualMagentaOpaquePixels": 0,
+      "sha256": "AFC5887638F7F86E3D3AA28E0785BFD0AFE175478937FE79DC0CCF088B24E1DB"
+    },
+    "cocosBuild": {
+      "status": "PASS",
+      "exitCode": 36,
+      "buildSuccessLogged": true,
+      "typescriptErrors": 0,
+      "stderrBytes": 0,
+      "resourcePngCount": 108,
+      "missingMetaCount": 0
+    },
+    "realRuntime": {
+      "status": "PASS",
+      "naturalWin": {
+        "state": "win",
+        "hp": 100,
+        "wave": 3,
+        "towers": 24,
+        "kills": 96,
+        "enemies": 0,
+        "time": 83.19999999999784,
+        "inputBlocked": false,
+        "onlineViewers": 15
+      },
+      "naturalLoss": {
+        "state": "lose",
+        "hp": 0,
+        "wave": 3,
+        "towers": 9,
+        "kills": 74,
+        "enemies": 22,
+        "time": 88.06666666666423,
+        "inputBlocked": false,
+        "onlineViewers": 0
+      },
+      "viewportPasses": 10,
+      "viewportTotal": 10,
+      "consoleErrors": 0
+    },
+    "formalProjectModified": false,
+    "humanArtApproval": "pending"
+  }
+}

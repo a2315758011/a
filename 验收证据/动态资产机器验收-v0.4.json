@@ -1,0 +1,290 @@
+{
+  "formatOnly": true,
+  "formatStatus": "VERIFIED",
+  "semanticReview": "UNVERIFIED",
+  "enginePlayback": "UNVERIFIED",
+  "status": "NEEDS_ATTENTION",
+  "manifestSha256": "278e5ef370e36dbd487500e89589e0eecb5d761d0e67a31e0eeb475488a59ba6",
+  "structuralErrors": [],
+  "mediaErrors": [],
+  "assets": 11,
+  "actions": 23,
+  "details": [
+    {
+      "assetId": "tower_repeater",
+      "action": "待机",
+      "expected": 6,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "tower_repeater",
+      "action": "攻击",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "tower_repeater",
+      "action": "升级",
+      "expected": 10,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "tower_mortar",
+      "action": "待机",
+      "expected": 6,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "tower_mortar",
+      "action": "攻击",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "tower_mortar",
+      "action": "升级",
+      "expected": 10,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "tower_frost",
+      "action": "待机",
+      "expected": 6,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "tower_frost",
+      "action": "攻击",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "tower_frost",
+      "action": "升级",
+      "expected": 10,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "objective_energy_core",
+      "action": "待机",
+      "expected": 6,
+      "missing": 0,
+      "dimensions": [
+        [
+          96,
+          96
+        ]
+      ]
+    },
+    {
+      "assetId": "objective_energy_core",
+      "action": "受击",
+      "expected": 4,
+      "missing": 0,
+      "dimensions": [
+        [
+          96,
+          96
+        ]
+      ]
+    },
+    {
+      "assetId": "objective_energy_core",
+      "action": "破碎",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          96,
+          96
+        ]
+      ]
+    },
+    {
+      "assetId": "enemy_orc",
+      "action": "行走",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          32,
+          32
+        ]
+      ]
+    },
+    {
+      "assetId": "enemy_orc",
+      "action": "攻击",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          32,
+          32
+        ]
+      ]
+    },
+    {
+      "assetId": "enemy_orc",
+      "action": "死亡",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          32,
+          32
+        ]
+      ]
+    },
+    {
+      "assetId": "enemy_boss",
+      "action": "行走",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "enemy_boss",
+      "action": "攻击",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "enemy_boss",
+      "action": "死亡",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          64,
+          64
+        ]
+      ]
+    },
+    {
+      "assetId": "projectile_repeater",
+      "action": "飞行",
+      "expected": 6,
+      "missing": 0,
+      "dimensions": [
+        [
+          24,
+          24
+        ]
+      ]
+    },
+    {
+      "assetId": "projectile_mortar",
+      "action": "飞行",
+      "expected": 6,
+      "missing": 0,
+      "dimensions": [
+        [
+          24,
+          24
+        ]
+      ]
+    },
+    {
+      "assetId": "projectile_frost",
+      "action": "飞行",
+      "expected": 6,
+      "missing": 0,
+      "dimensions": [
+        [
+          48,
+          48
+        ]
+      ]
+    },
+    {
+      "assetId": "fx_explosion",
+      "action": "爆炸",
+      "expected": 10,
+      "missing": 0,
+      "dimensions": [
+        [
+          96,
+          96
+        ]
+      ]
+    },
+    {
+      "assetId": "fx_frost",
+      "action": "减速",
+      "expected": 8,
+      "missing": 0,
+      "dimensions": [
+        [
+          96,
+          96
+        ]
+      ]
+    }
+  ]
+}

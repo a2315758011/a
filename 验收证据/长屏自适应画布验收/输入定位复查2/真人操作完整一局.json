@@ -1,0 +1,111 @@
+{
+  "test": "Cocos Creator 3.8.2 real-time mouse-only full playthrough",
+  "states": [
+    {
+      "wallTime": 8.6,
+      "state": "ready",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 0,
+      "towers": 9,
+      "enemies": 0,
+      "spawned": 0,
+      "zoom": 0.68,
+      "canvasHalf": 554,
+      "viewHeight": 1108,
+      "lastClick": "-181,542",
+      "uiTransformH": 960
+    },
+    {
+      "wallTime": 10.6,
+      "state": "ready",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 0,
+      "towers": 9,
+      "enemies": 0,
+      "spawned": 0,
+      "zoom": 0.68,
+      "canvasHalf": 554,
+      "viewHeight": 1108,
+      "lastClick": "-181,542",
+      "uiTransformH": 960
+    }
+  ],
+  "consoleErrors": [],
+  "actions": [
+    {
+      "clock": 5.5,
+      "name": "start"
+    },
+    {
+      "clock": 5.7,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.9,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 6.1,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 6.3,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 6.5,
+      "name": "zoom_out"
+    },
+    {
+      "clock": 8.2,
+      "name": "drag_camera"
+    },
+    {
+      "clock": 8.4,
+      "name": "recenter"
+    }
+  ],
+  "result": "TIMEOUT",
+  "startedAt": "2026-10-19T18:53:24",
+  "initial": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "无",
+    "uiTransformH": 960
+  },
+  "viewport": {
+    "w": 540,
+    "h": 1108,
+    "hidden": false
+  },
+  "afterHumanSetup": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.68,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "-181,542",
+    "uiTransformH": 960
+  },
+  "expectedTowersAfterSetup": 9,
+  "durationSeconds": 16.2
+}

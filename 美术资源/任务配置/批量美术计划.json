@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "projectId": "live-turret-defense",
+  "reference": "美术规范/俯视像素塔防资源合同-v0.3.json",
+  "mode": "dynamic",
+  "style": "original-orthographic-top-down-native-pixel",
+  "engine": "HTML greybox/Cocos target",
+  "masterSize": "1:1 provider preview; source sprite 32/64/96 logical px",
+  "imageBackground": "pure-white #FFFFFF, source saved before matte",
+  "snapshotPolicy": "never overwrite same provider original; one submission per asset ID; fixed account/chatId; poll only",
+  "notApprovedForProduction": true,
+  "assets": [
+    {
+      "id": "tower_repeater",
+      "name": "连珠速射塔",
+      "kind": "tower",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "stage": "master",
+      "need": [
+        "idle",
+        "attack",
+        "upgrade"
+      ],
+      "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+      "prompt": "An original small top-down 2D pixel-art tower-defense unit MASTER character sprite only: a YELLOW brass and polished copper MECHANICAL rapid-fire twin-barrel sentry turret, visible from true overhead slightly seeing both barrel openings pointing toward bottom of canvas (south), chunky compact base, two SMALL short symmetrical gun barrels, unique silhouette. High-quality beautiful native pixel-art shading, no photo, no perspective/isometric, crisp square pixels, 1px pixel art outline, cohesive whimsical steampunk fantasy style. Isolated SINGLE full object centered on uniform PURE WHITE (#FFFFFF) background for precise cutting; generous blank margins, no ground/platform tiles, no grass, no floor, no stones, no shadow, no text, no watermark, no other items, no image grid. Not an illustration or UI, strictly one clean distinct game unit asset."
+    },
+    {
+      "id": "tower_mortar",
+      "name": "熔芯重炮塔",
+      "kind": "tower",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "stage": "master",
+      "need": [
+        "idle",
+        "attack",
+        "upgrade"
+      ],
+      "accountId": "b362bb9f-d46d-44cc-9a0c-811bd0afb728",
+      "prompt": "An original top-down 2D pixel-art unit MASTER sprite for fantasy tower defense. RED-BRONZE heavy single-barrel artillery cannon tower: one VERY LARGE short black bore aiming to canvas bottom (south), red iron armor, amber molten orange furnace chamber, squat compact mechanical body; DIFFERENT from a twin-gun tower and from a crystal. Professional crisp square-pixel game sprite, rich small-scale readable shape and palette, true overhead camera not 3D/isometric, 1px native pixel outlines, fits steampunk fantasy top-down pixel tower defense. One COMPLETE single object, centered with generous margins on perfectly PURE WHITE #FFFFFF uniform empty background. No grass, no stone tile, no landscape, no ground scenery, no text, no captions, no inventory card, no shadows or glow outside sprite, no watermark."
+    },
+    {
+      "id": "tower_frost",
+      "name": "寒霜喷射塔",
+      "kind": "tower",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "stage": "master",
+      "need": [
+        "idle",
+        "attack",
+        "upgrade"
+      ],
+      "accountId": "3701a471-2d32-4cb2-aab6-8b9980015842",
+      "prompt": "Original overhead pixel-art 2D fantasy tower-defense mechanical FREEZING SPRAYER turret master. Pale CYAN and silver metal ICE SPRAY NOZZLE, one wide frosty cylindrical cannon pointed toward canvas bottom (south), squat fat mechanical compact body with coolant tubes and blue liquid tanks, cold silver armor, frost vent only, mechanical emitter; absolutely NOT a standing crystal shard and NOT a main objective. Genuine top-down angle crisp nearest-neighbor-looking pixel sprite with deep rich color and clear 1px contours, whimsical pixelated steampunk fantasy cohesive with other towers. Isolated SINGLE complete turret centered on totally blank PURE WHITE #FFFFFF background. No ground, no grass, no stones, no platform floor, no scenery, no caption or labels, no shadow, no border, no additional objects."
+    },
+    {
+      "id": "objective_energy_core",
+      "name": "城防能量水晶",
+      "kind": "objective",
+      "sourceSize": [
+        96,
+        96
+      ],
+      "stage": "master",
+      "need": [
+        "idle",
+        "hit",
+        "cracked",
+        "destroyed"
+      ],
+      "accountId": "538465cc-e184-4e38-bdcd-684ab15a7bbf",
+      "prompt": "Original 2D top-down pixel-art crystal DEFENSE OBJECTIVE asset. A SINGLE large luminous CYAN BLUE tall faceted energy gem emerging from a compact golden brass and gray mechanical socket BASE belonging to the same OBJECT (not grassy ground), one unique vital crystal, crystal much taller than all turrets and never a gun. A magical collectible-looking bright blue crystal but it is static important object to protect. True orthographic TOP-DOWN 2D pixel game style, square sharp pixels, limited thoughtful color palette, readable strong silhouette at small size, matches steampunk fantasy pixel towers. Single full crystal+mechanical cradle centered, uniform PURE WHITE #FFFFFF background, generous empty space, no terrain, no scenery, no grass, no text, no watermark, no other characters, not a comic or poster."
+    },
+    {
+      "id": "enemy_orc_grunt",
+      "name": "兽人突袭者",
+      "kind": "enemy",
+      "sourceSize": [
+        32,
+        32
+      ],
+      "stage": "master",
+      "need": [
+        "walk",
+        "attack",
+        "hurt",
+        "death"
+      ],
+      "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+      "prompt": "Single independent original green ORC GRUNT unit for top-down 2D pixel-art tower-defense. Stocky small fantasy orc, green face, two small tusks, ragged brown leather armor, one iron cleaver held in his right hand, clear recognizable two legs feet and short arms seen at a true overhead game-camera angle, facing toward viewer bottom/south. Rich purposeful chunky pixel art, 1px hard pixel contours, strong silhouette when reduced to 32x32, no blurry pixels. One isolated full-body object on SOLID WHITE #FFFFFF backdrop for alpha segmentation. No background scenery, no grass, no floor tile, no pedestal, no shadow, no text, no more characters."
+    },
+    {
+      "id": "enemy_orc_boss",
+      "name": "兽人巨锤首领",
+      "kind": "boss",
+      "sourceSize": [
+        64,
+        64
+      ],
+      "stage": "master",
+      "need": [
+        "walk",
+        "attack",
+        "hurt",
+        "death"
+      ],
+      "accountId": "b362bb9f-d46d-44cc-9a0c-811bd0afb728",
+      "prompt": "Single original huge orc BOSS unit 2D native pixel art game sprite, true TOP DOWN game perspective. Heavy green orc brute with two huge tusks, spiked dark iron pauldron armor with RED warning trim, giant one-handed iron club / war hammer, hulking large silhouette unmistakably a Boss, dangerous and chunky compared to normal small orc. Crisp sharp 1px pixel art features, consistent whimsical medieval steampunk fantasy style. Character facing toward bottom of canvas, FULL BODY alone centered with large white margins, perfect solid PURE WHITE #FFFFFF background for cutting out. No terrain, no grass, no stone platform, no other enemies, no names labels, no UI or card, no watermark."
+    }
+  ]
+}

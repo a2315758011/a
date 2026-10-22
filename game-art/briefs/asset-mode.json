@@ -1,0 +1,21 @@
+{
+  "projectId": "live-turret-defense",
+  "taskId": "ART-PIPELINE-V5-001",
+  "mode": "dynamic",
+  "reason": "Tower defense includes moving enemies, attacking towers, hit/death feedback and a protected crystal with damage states.",
+  "staticAssetMode": [
+    "UI skins",
+    "buttons",
+    "icons",
+    "terrain tile"
+  ],
+  "dynamicUnitMode": [
+    "rapid turret",
+    "heavy mortar turret",
+    "frost turret",
+    "energy crystal",
+    "orc grunt",
+    "orc boss"
+  ],
+  "approvedMasterGate": "Each unit master must pass silhouette, alpha, size and in-game scale QA before it can replace formal assets."
+}

@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "job": {
+    "id": "969059f8-8eec-4d10-9fb4-4f5cdf8a7c19",
+    "status": "completed",
+    "kind": "image",
+    "feature": "character_generation",
+    "createdAt": "2026-10-21T20:47:56.806Z",
+    "startedAt": "2026-10-21T20:47:56.806Z",
+    "completedAt": "2026-10-21T20:52:51.084Z",
+    "source": "workstation-shared-cli",
+    "sourceProjectId": "live-turret-defense",
+    "sourceTaskId": "RECOVERY-034-TOPDOWN-BOSS-MASTER-A",
+    "returnTo": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-034-TOPDOWN-BOSS-MASTER-A\\provider-output.png",
+    "businessContext": null,
+    "request": {
+      "promptPreview": "原创手机塔防游戏敌人Boss母版小样，只生成一个“兽人首领”，不要其他角色，不要场景，不要文字。\n\n【绝对视角锁】\n摄像机严格位于角色正上方，90度垂直向下，正交俯视 true top-down orthographic。必须明显看到头顶/发冠、双肩肩甲上表面、背甲顶部、盾牌与武器上表面；脸部只允许极少量可见。禁止正面站立、侧面、3/4、45度俯视、等距/isometric、斜透视、地平线。\n\n【身份与层级】\n这是兽人首领，比普通兽人大约1.45倍视觉体量。深绿色皮肤，棕红圆",
+      "model": "",
+      "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+      "pool": false,
+      "aspectRatio": "1:1",
+      "resolution": null,
+      "duration": null,
+      "referenceCount": 0
+    },
+    "result": {
+      "ok": true,
+      "recoveryOnly": true,
+      "kind": "image",
+      "jobId": "orchestrator-recover:969059f8-8eec-4d10-9fb4-4f5cdf8a7c19",
+      "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+      "platformId": "chatgpt",
+      "conversationId": "6ad92503-b05c-83ec-891b-e2199a549b04",
+      "conversationUrl": "https://chatgpt.com/c/6ad92503-b05c-83ec-891b-e2199a549b04",
+      "url": "local-image://web-generation/image/1792615736230_chatgpt_2315758011_17438306.png",
+      "urls": [
+        "local-image://web-generation/image/1792615736230_chatgpt_2315758011_17438306.png"
+      ],
+      "businessContext": {
+        "masterTaskId": "gateway-969059f8-8eec-4d10-9fb4-4f5cdf8a7c19",
+        "subTaskId": "969059f8-8eec-4d10-9fb4-4f5cdf8a7c19"
+      },
+      "detached": false,
+      "artifacts": [
+        {
+          "id": "998eb7aa3fb545d5f1b2c0fe",
+          "kind": "image",
+          "localUrl": "local-image://web-generation/image/1792615736230_chatgpt_2315758011_17438306.png",
+          "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1792615736230_chatgpt_2315758011_17438306.png",
+          "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1792615736230_chatgpt_2315758011_17438306.png",
+          "name": "1792615736230_chatgpt_2315758011_17438306.png",
+          "size": 1670842,
+          "mimeType": "image/png"
+        }
+      ],
+      "reconciledFromOrchestrator": true
+    },
+    "error": null,
+    "artifacts": [
+      {
+        "id": "998eb7aa3fb545d5f1b2c0fe",
+        "kind": "image",
+        "localUrl": "local-image://web-generation/image/1792615736230_chatgpt_2315758011_17438306.png",
+        "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1792615736230_chatgpt_2315758011_17438306.png",
+        "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1792615736230_chatgpt_2315758011_17438306.png",
+        "name": "1792615736230_chatgpt_2315758011_17438306.png",
+        "size": 1670842,
+        "mimeType": "image/png"
+      }
+    ]
+  }
+}

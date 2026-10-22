@@ -1,0 +1,37 @@
+Create ONE 4-columns by 2-rows production sheet for an original mobile tower-defense game's projectile and impact FX, exact 16:9 landscape canvas.
+
+VISUAL STYLE LOCK:
+- strict hand-authored native pixel art, same visual family as premium mobile pixel-art tower-defense sprites;
+- strict 90-degree top-down orthographic 2D, no isometric, no perspective;
+- crisp 3-pixel cluster logic, nearest-neighbor appearance, no anti-aliasing, no smooth vector gradients;
+- dark selective pixel outline, compact high-contrast silhouettes;
+- palette limited to navy gunmetal, brass-gold, cyan energy, magma orange/red, cold cyan/white;
+- every effect readable at 24-48 px runtime size.
+
+GRID CONTRACT:
+- exactly 4 equal columns x 2 equal rows;
+- no borders, no gutters, no labels, no text, no numbers, no watermark;
+- each cell contains exactly ONE centered isolated effect;
+- all cells use the SAME perfectly uniform solid chroma-key magenta background #FF00FF;
+- no terrain, no units, no weapons, no UI panels, no shadows outside the effect.
+
+CELL CONTENT, left-to-right:
+Row 1:
+1. rapid-fire turret projectile: tiny brass-yellow energy bullet/tracer, short horizontal-ish top-down streak, compact;
+2. rapid-fire muzzle flash: small starburst, brass-yellow with pale core;
+3. heavy mortar projectile: compact dark metal shell with magma-orange hot core, top-down;
+4. heavy mortar impact: compact circular orange-red pixel explosion ring with hot center and a few square sparks.
+
+Row 2:
+1. frost projectile: small cyan-white energy bolt/orb, compact;
+2. frost impact: cyan crystalline burst / frost splash, radial, compact;
+3. crystal damage shards: 3-5 cyan faceted pixel shards with tiny glow fragments, no base crystal;
+4. tower upgrade sparkle: restrained cyan + brass upgrade flash, upward/radial spark cluster, no arrow icon and no text.
+
+PRODUCTION REQUIREMENTS:
+- center each effect with large clean magenta margin for reliable chroma removal;
+- do not let any effect touch cell edges;
+- no embedded text or symbols;
+- no duplicated effects;
+- no giant cinematic particles; these are runtime mobile game sprites;
+- keep style consistent across all eight cells.

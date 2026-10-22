@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "da3966d3-7e2a-4a74-a840-9b536c5df1b2",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "da3966d3-7e2a-4a74-a840-9b536c5df1b2@6c48a",
+      "displayName": "兽人小兵_武器配件_母图层",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "da3966d3-7e2a-4a74-a840-9b536c5df1b2",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "da3966d3-7e2a-4a74-a840-9b536c5df1b2@f9941",
+      "displayName": "兽人小兵_武器配件_母图层",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": -24.5,
+        "offsetY": -21.5,
+        "trimX": 11,
+        "trimY": 50,
+        "width": 25,
+        "height": 39,
+        "rawWidth": 96,
+        "rawHeight": 96,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -12.5,
+            -19.5,
+            0,
+            12.5,
+            -19.5,
+            0,
+            -12.5,
+            19.5,
+            0,
+            12.5,
+            19.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            11,
+            46,
+            36,
+            46,
+            11,
+            7,
+            36,
+            7
+          ],
+          "nuv": [
+            0.11458333333333333,
+            0.07291666666666667,
+            0.375,
+            0.07291666666666667,
+            0.11458333333333333,
+            0.4791666666666667,
+            0.375,
+            0.4791666666666667
+          ],
+          "minPos": [
+            -12.5,
+            -19.5,
+            0
+          ],
+          "maxPos": [
+            12.5,
+            19.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "da3966d3-7e2a-4a74-a840-9b536c5df1b2@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "da3966d3-7e2a-4a74-a840-9b536c5df1b2@f9941"
+  }
+}

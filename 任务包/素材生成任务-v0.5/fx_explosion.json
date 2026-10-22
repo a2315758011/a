@@ -1,0 +1,62 @@
+{
+  "id": "fx_explosion",
+  "name": "爆炸特效",
+  "sourceTaskId": "ART-MASTER-FX_EXPLOSION-20261012",
+  "accountId": "538465cc-e184-4e38-bdcd-684ab15a7bbf",
+  "promptSHA256": "5402feb704c2ab06d24be0d384fc76a02c58d752c9e3266cc2ae16c5bcc263b0",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "jobId": "7a032627-f6de-4dd0-99e5-af17d02a7f47",
+  "submittedAt": "2026-10-12T14:47:11.750485+00:00",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "7a032627-f6de-4dd0-99e5-af17d02a7f47",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:47:11.950Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-FX_EXPLOSION-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Generate ONE isolated original 2D top-down native pixel art sprite for a fantasy tower defense mobile game. Subject: one compact radial fiery explosion blast, orange and yellow ring of fire pixels, alpha-safe readable effects graphic, no en",
+        "model": "",
+        "accountId": "538465cc-e184-4e38-bdcd-684ab15a7bbf",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:00.775236+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\fx_explosion-母素材-原始.png",
+  "sha256": "0be4aba1f9ab77c64bba3ca81f2aad4a8b115d0cd3d0df1bf5fc4f09048278b0",
+  "size": [
+    384,
+    384
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "924090fd83c0f6969ae05a73",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816526875_doubao_work_豆包工作_·_网页账号_5_3bca1d77.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816526875_doubao_work_豆包工作_·_网页账号_5_3bca1d77.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816526875_doubao_work_豆包工作_·_网页账号_5_3bca1d77.png",
+      "name": "1791816526875_doubao_work_豆包工作_·_网页账号_5_3bca1d77.png",
+      "size": 108725,
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,5274 @@
+{
+  "task": "RECOVERY-034",
+  "test": "topdown enemy master runtime binding",
+  "startedAt": "2026-10-22T05:25:23",
+  "checks": {
+    "bothMasterFramesLoaded": true,
+    "gruntMasterActive": true,
+    "bossMasterActive": true,
+    "noJsErrors": true
+  },
+  "errors": [],
+  "screenshots": [
+    {
+      "file": "01-顶视小兵Master实际运行.png",
+      "bytes": 548261,
+      "sha256": "3734E6390B94B2C5BC142D7AD9596F1B05A70C5A662113B4A56ACC06DFC11F5E"
+    },
+    {
+      "file": "02-顶视BossMaster实际运行.png",
+      "bytes": 548980,
+      "sha256": "9E3630E4C326E049DCC01F0F3D6CEA8F09B9849E8FE986B09229AC73548ACB90"
+    }
+  ],
+  "samples": [
+    {
+      "t": 3.23,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.16666666666666666
+      },
+      "active": []
+    },
+    {
+      "t": 3.36,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.3
+      },
+      "active": []
+    },
+    {
+      "t": 3.48,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.4333333333333333
+      },
+      "active": []
+    },
+    {
+      "t": 3.6,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.5333333333333333
+      },
+      "active": []
+    },
+    {
+      "t": 3.72,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.6666666666666666
+      },
+      "active": []
+    },
+    {
+      "t": 3.84,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 0,
+        "time": 0.7999999999999999
+      },
+      "active": []
+    },
+    {
+      "t": 3.96,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 1,
+        "time": 0.9333333333333332
+      },
+      "active": []
+    },
+    {
+      "t": 4.08,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 1,
+        "time": 1.0333333333333332
+      },
+      "active": []
+    },
+    {
+      "t": 4.21,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 1,
+        "time": 1.166666666666667
+      },
+      "active": []
+    },
+    {
+      "t": 4.33,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 1,
+        "time": 1.2666666666666673
+      },
+      "active": []
+    },
+    {
+      "t": 4.45,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 1,
+        "time": 1.400000000000001
+      },
+      "active": []
+    },
+    {
+      "t": 4.57,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 2,
+        "time": 1.5333333333333348
+      },
+      "active": []
+    },
+    {
+      "t": 4.69,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 2,
+        "time": 1.633333333333335
+      },
+      "active": []
+    },
+    {
+      "t": 4.81,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 2,
+        "time": 1.7666666666666688
+      },
+      "active": []
+    },
+    {
+      "t": 4.94,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 2,
+        "time": 1.9000000000000026
+      },
+      "active": []
+    },
+    {
+      "t": 5.06,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 3,
+        "time": 2.0000000000000027
+      },
+      "active": []
+    },
+    {
+      "t": 5.18,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 3,
+        "time": 2.1333333333333355
+      },
+      "active": []
+    },
+    {
+      "t": 5.3,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 3,
+        "time": 2.2666666666666684
+      },
+      "active": []
+    },
+    {
+      "t": 5.42,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 3,
+        "time": 2.366666666666668
+      },
+      "active": []
+    },
+    {
+      "t": 5.55,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 4,
+        "time": 2.500000000000001
+      },
+      "active": []
+    },
+    {
+      "t": 5.67,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 4,
+        "time": 2.6333333333333337
+      },
+      "active": []
+    },
+    {
+      "t": 5.79,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 4,
+        "time": 2.7333333333333334
+      },
+      "active": []
+    },
+    {
+      "t": 5.91,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 4,
+        "time": 2.8666666666666663
+      },
+      "active": []
+    },
+    {
+      "t": 6.03,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 5,
+        "time": 2.966666666666666
+      },
+      "active": []
+    },
+    {
+      "t": 6.15,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 5,
+        "time": 3.0999999999999988
+      },
+      "active": []
+    },
+    {
+      "t": 6.27,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 5,
+        "time": 3.2333333333333316
+      },
+      "active": []
+    },
+    {
+      "t": 6.4,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 5,
+        "time": 3.3333333333333313
+      },
+      "active": []
+    },
+    {
+      "t": 6.52,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 6,
+        "time": 3.466666666666664
+      },
+      "active": []
+    },
+    {
+      "t": 6.64,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 6,
+        "time": 3.599999999999997
+      },
+      "active": []
+    },
+    {
+      "t": 6.76,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 6,
+        "time": 3.6999999999999966
+      },
+      "active": []
+    },
+    {
+      "t": 6.88,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 6,
+        "time": 3.8333333333333295
+      },
+      "active": []
+    },
+    {
+      "t": 7.0,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 7,
+        "time": 3.9666666666666623
+      },
+      "active": []
+    },
+    {
+      "t": 7.12,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 7,
+        "time": 4.066666666666662
+      },
+      "active": []
+    },
+    {
+      "t": 7.25,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 7,
+        "time": 4.199999999999995
+      },
+      "active": []
+    },
+    {
+      "t": 7.37,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 7,
+        "time": 4.2999999999999945
+      },
+      "active": []
+    },
+    {
+      "t": 7.49,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 8,
+        "time": 4.433333333333327
+      },
+      "active": []
+    },
+    {
+      "t": 7.61,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 8,
+        "time": 4.56666666666666
+      },
+      "active": []
+    },
+    {
+      "t": 7.73,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 8,
+        "time": 4.66666666666666
+      },
+      "active": []
+    },
+    {
+      "t": 7.85,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 8,
+        "time": 4.799999999999993
+      },
+      "active": []
+    },
+    {
+      "t": 7.97,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 9,
+        "time": 4.933333333333326
+      },
+      "active": []
+    },
+    {
+      "t": 8.1,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 9,
+        "time": 5.033333333333325
+      },
+      "active": []
+    },
+    {
+      "t": 8.22,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 9,
+        "time": 5.166666666666658
+      },
+      "active": []
+    },
+    {
+      "t": 8.34,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 9,
+        "time": 5.266666666666658
+      },
+      "active": []
+    },
+    {
+      "t": 8.46,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 9,
+        "time": 5.399999999999991
+      },
+      "active": []
+    },
+    {
+      "t": 8.58,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 10,
+        "time": 5.5333333333333234
+      },
+      "active": []
+    },
+    {
+      "t": 8.7,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 10,
+        "time": 5.633333333333323
+      },
+      "active": []
+    },
+    {
+      "t": 8.83,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 10,
+        "time": 5.766666666666656
+      },
+      "active": []
+    },
+    {
+      "t": 8.95,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 10,
+        "time": 5.899999999999989
+      },
+      "active": []
+    },
+    {
+      "t": 9.07,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 11,
+        "time": 5.9999999999999885
+      },
+      "active": []
+    },
+    {
+      "t": 9.19,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 11,
+        "time": 6.133333333333321
+      },
+      "active": []
+    },
+    {
+      "t": 9.31,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 11,
+        "time": 6.266666666666654
+      },
+      "active": []
+    },
+    {
+      "t": 9.43,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 11,
+        "time": 6.366666666666654
+      },
+      "active": []
+    },
+    {
+      "t": 9.55,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 12,
+        "time": 6.499999999999987
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 9.8,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 12,
+        "time": 6.733333333333319
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 9.92,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 12,
+        "time": 6.866666666666652
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 10.04,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 13,
+        "time": 6.999999999999985
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 10.16,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 13,
+        "time": 7.133333333333318
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 10.28,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 13,
+        "time": 7.233333333333317
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 10.41,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 13,
+        "time": 7.36666666666665
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 10.53,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 14,
+        "time": 7.46666666666665
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 10.65,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 14,
+        "time": 7.599999999999983
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 10.77,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 14,
+        "time": 7.733333333333316
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 10.89,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 14,
+        "time": 7.833333333333315
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.01,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 15,
+        "time": 7.966666666666648
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.13,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 15,
+        "time": 8.099999999999982
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.26,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 15,
+        "time": 8.199999999999982
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.38,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 15,
+        "time": 8.333333333333314
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.5,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 16,
+        "time": 8.466666666666647
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.62,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 16,
+        "time": 8.566666666666647
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.74,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 16,
+        "time": 8.69999999999998
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.86,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 16,
+        "time": 8.79999999999998
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 11.99,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 17,
+        "time": 8.933333333333312
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 12.11,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 17,
+        "time": 9.066666666666645
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 12.23,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 17,
+        "time": 9.166666666666645
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 12.35,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 1,
+        "enemies": 16,
+        "time": 9.299999999999978
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 12.47,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 1,
+        "enemies": 17,
+        "time": 9.43333333333331
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 12.59,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 2,
+        "enemies": 16,
+        "time": 9.53333333333331
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 12.72,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 2,
+        "enemies": 16,
+        "time": 9.666666666666643
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 12.84,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 3,
+        "enemies": 15,
+        "time": 9.799999999999976
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 12.96,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 3,
+        "enemies": 15,
+        "time": 9.899999999999975
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 13.08,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 3,
+        "enemies": 16,
+        "time": 10.033333333333308
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 13.2,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 3,
+        "enemies": 16,
+        "time": 10.133333333333308
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 13.32,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 15,
+        "time": 10.26666666666664
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 13.44,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 15,
+        "time": 10.399999999999974
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 13.57,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 16,
+        "time": 10.499999999999973
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 13.69,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 16,
+        "time": 10.633333333333306
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 13.81,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 16,
+        "time": 10.766666666666639
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 13.93,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 16,
+        "time": 10.866666666666639
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 14.05,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 17,
+        "time": 10.999999999999972
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 14.17,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 17,
+        "time": 11.133333333333304
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 14.29,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 17,
+        "time": 11.233333333333304
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 14.42,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 17,
+        "time": 11.366666666666637
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 14.54,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 18,
+        "time": 11.466666666666637
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 14.66,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 4,
+        "enemies": 18,
+        "time": 11.59999999999997
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 14.78,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 5,
+        "enemies": 17,
+        "time": 11.733333333333302
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 14.9,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 5,
+        "enemies": 17,
+        "time": 11.833333333333302
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 15.02,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 6,
+        "enemies": 17,
+        "time": 11.966666666666635
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 15.14,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 7,
+        "enemies": 16,
+        "time": 12.099999999999968
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 15.26,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 7,
+        "enemies": 16,
+        "time": 12.199999999999967
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 15.39,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 7,
+        "enemies": 16,
+        "time": 12.3333333333333
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 15.51,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 7,
+        "enemies": 17,
+        "time": 12.4333333333333
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 15.63,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 7,
+        "enemies": 17,
+        "time": 12.566666666666633
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 15.75,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 8,
+        "enemies": 16,
+        "time": 12.699999999999966
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 15.87,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 8,
+        "enemies": 16,
+        "time": 12.799999999999965
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 15.99,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 10,
+        "enemies": 14,
+        "time": 12.966666666666631
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 16.12,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 10,
+        "enemies": 14,
+        "time": 13.066666666666631
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 16.24,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 10,
+        "enemies": 14,
+        "time": 13.199999999999964
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 16.36,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 10,
+        "enemies": 14,
+        "time": 13.299999999999963
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 16.48,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 10,
+        "enemies": 14,
+        "time": 13.433333333333296
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 16.6,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 10,
+        "enemies": 14,
+        "time": 13.56666666666663
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 16.72,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 10,
+        "enemies": 14,
+        "time": 13.666666666666629
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 16.85,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 10,
+        "enemies": 14,
+        "time": 13.799999999999962
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 16.97,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 11,
+        "enemies": 13,
+        "time": 13.933333333333294
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 17.09,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 11,
+        "enemies": 13,
+        "time": 14.033333333333294
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 17.21,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 11,
+        "enemies": 13,
+        "time": 14.166666666666627
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 17.33,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 11,
+        "enemies": 13,
+        "time": 14.29999999999996
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 17.45,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 11,
+        "enemies": 13,
+        "time": 14.39999999999996
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 17.58,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 11,
+        "enemies": 13,
+        "time": 14.533333333333292
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 17.7,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 12,
+        "enemies": 12,
+        "time": 14.633333333333292
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 17.82,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 12,
+        "enemies": 12,
+        "time": 14.766666666666625
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 17.94,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 12,
+        "enemies": 12,
+        "time": 14.899999999999958
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 18.06,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 12,
+        "enemies": 12,
+        "time": 14.999999999999957
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 18.18,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 12,
+        "enemies": 12,
+        "time": 15.13333333333329
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 18.3,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 13,
+        "enemies": 11,
+        "time": 15.266666666666623
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 18.43,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 13,
+        "enemies": 11,
+        "time": 15.366666666666623
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 18.55,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 13,
+        "enemies": 11,
+        "time": 15.499999999999956
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 18.67,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 14,
+        "enemies": 10,
+        "time": 15.633333333333288
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 18.79,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 14,
+        "enemies": 10,
+        "time": 15.733333333333288
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 18.91,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 14,
+        "enemies": 10,
+        "time": 15.866666666666621
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 19.03,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 14,
+        "enemies": 10,
+        "time": 15.96666666666662
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 19.15,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.09999999999996
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 19.28,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.2333333333333
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 19.4,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.333333333333304
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 19.52,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.466666666666644
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 19.64,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.599999999999984
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 19.76,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.69999999999999
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 19.88,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.83333333333333
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 20.01,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 16.96666666666667
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 20.13,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 16,
+        "enemies": 8,
+        "time": 17.066666666666674
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 20.25,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 17,
+        "enemies": 7,
+        "time": 17.200000000000014
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 20.37,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 17,
+        "enemies": 7,
+        "time": 17.30000000000002
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 20.49,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 17,
+        "enemies": 7,
+        "time": 17.43333333333336
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 20.61,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 17,
+        "enemies": 7,
+        "time": 17.5666666666667
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 20.74,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 17,
+        "enemies": 7,
+        "time": 17.666666666666703
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 20.86,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 18,
+        "enemies": 6,
+        "time": 17.800000000000043
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 20.98,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 18,
+        "enemies": 6,
+        "time": 17.933333333333383
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 21.1,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 18,
+        "enemies": 6,
+        "time": 18.03333333333339
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 21.22,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 19,
+        "enemies": 5,
+        "time": 18.16666666666673
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 21.34,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 19,
+        "enemies": 5,
+        "time": 18.300000000000068
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 21.46,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 19,
+        "enemies": 5,
+        "time": 18.400000000000073
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 21.59,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 19,
+        "enemies": 5,
+        "time": 18.533333333333413
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 21.71,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 19,
+        "enemies": 5,
+        "time": 18.633333333333418
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "hurt"
+        }
+      ]
+    },
+    {
+      "t": 21.83,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 20,
+        "enemies": 4,
+        "time": 18.766666666666758
+      },
+      "active": []
+    },
+    {
+      "t": 21.95,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 20,
+        "enemies": 4,
+        "time": 18.900000000000098
+      },
+      "active": []
+    },
+    {
+      "t": 22.07,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 20,
+        "enemies": 4,
+        "time": 19.033333333333438
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 22.19,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 20,
+        "enemies": 4,
+        "time": 19.133333333333443
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    {
+      "t": 22.31,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 20,
+        "enemies": 4,
+        "time": 19.266666666666783
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "boss",
+          "masterActive": true,
+          "masterFrame": "兽人首领_顶视MasterB",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    }
+  ],
+  "result": "PASS",
+  "initial": {
+    "ready": true,
+    "failed": false,
+    "game": {
+      "state": "ready",
+      "wave": 1,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "masterLoaded": {
+      "grunt": true,
+      "boss": true,
+      "gruntName": "兽人小兵_顶视MasterA",
+      "bossName": "兽人首领_顶视MasterB"
+    },
+    "active": []
+  },
+  "gruntObserved": {
+    "snapshot": {
+      "ready": true,
+      "failed": false,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 0,
+        "enemies": 12,
+        "time": 6.499999999999987
+      },
+      "masterLoaded": {
+        "grunt": true,
+        "boss": true,
+        "gruntName": "兽人小兵_顶视MasterA",
+        "bossName": "兽人首领_顶视MasterB"
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    "enemy": {
+      "kind": "grunt",
+      "masterActive": true,
+      "masterFrame": "兽人小兵_顶视MasterA",
+      "layerActive": [
+        false,
+        false,
+        false
+      ],
+      "state": "walk"
+    }
+  },
+  "bossObserved": {
+    "snapshot": {
+      "ready": true,
+      "failed": false,
+      "game": {
+        "state": "running",
+        "wave": 1,
+        "kills": 20,
+        "enemies": 4,
+        "time": 19.266666666666783
+      },
+      "masterLoaded": {
+        "grunt": true,
+        "boss": true,
+        "gruntName": "兽人小兵_顶视MasterA",
+        "bossName": "兽人首领_顶视MasterB"
+      },
+      "active": [
+        {
+          "kind": "grunt",
+          "masterActive": true,
+          "masterFrame": "兽人小兵_顶视MasterA",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        },
+        {
+          "kind": "boss",
+          "masterActive": true,
+          "masterFrame": "兽人首领_顶视MasterB",
+          "layerActive": [
+            false,
+            false,
+            false
+          ],
+          "state": "walk"
+        }
+      ]
+    },
+    "enemy": {
+      "kind": "boss",
+      "masterActive": true,
+      "masterFrame": "兽人首领_顶视MasterB",
+      "layerActive": [
+        false,
+        false,
+        false
+      ],
+      "state": "walk"
+    }
+  },
+  "durationSeconds": 23.21,
+  "finishedAt": "2026-10-22T05:25:48"
+}

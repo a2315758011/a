@@ -1,0 +1,124 @@
+{
+  "url": "local-hosted-cocos-build",
+  "console": [
+    {
+      "type": "Log.entryAdded",
+      "line": "<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> is deprecated. Please include <meta name=\"mobile-web-app-capable\" content=\"yes\">"
+    },
+    {
+      "type": "Log.entryAdded",
+      "line": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Base: 9.90087890625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Infrastructure: 36.85498046875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "[PHYSICS2D]: register box2d."
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init SubSystem: 37.781982421875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Cocos Creator v3.8.2"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Project: 20.129150390625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "LoadScene db://assets/场景/候选美术试玩.scene: 20.536865234375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "InitScene: 0.138916015625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AttachPersist: 0.10791015625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AutoRelease: 0.112060546875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Destroy: 0.1611328125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Activate: 19.8408203125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Success to load scene: db://assets/场景/候选美术试玩.scene"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "候选可玩战场：5组40帧已载入，已启用SpriteFrame覆盖"
+    }
+  ],
+  "errors": [],
+  "logs": [],
+  "navigate": {
+    "frameId": "974966ABD9FF229CFC2840C119A82D5C",
+    "loaderId": "C94FC57F391753173061F89F6C6FCC6E"
+  },
+  "beforeInputScreenshotBytes": 112153,
+  "sentKeyboardActions": "none: mouse only",
+  "clickedButtons": "start + 12 addViewer + zoom out 3 via CDP mouse",
+  "dom": {
+    "ready": "complete",
+    "title": "Cocos Creator | turret-playable-art-candidate-v4",
+    "bodyText": "",
+    "canvas": [
+      {
+        "w": 1056,
+        "h": 1748,
+        "css": ""
+      }
+    ],
+    "url": "http://127.0.0.1:61374/"
+  },
+  "webgl": {
+    "webgl2": true,
+    "webgl": false
+  },
+  "cc": {
+    "cc": "object",
+    "CocosEngine": "boolean",
+    "sys": "object"
+  },
+  "screenshotBytes": 124450,
+  "requestsTotal": 146,
+  "lastRequests": [
+    "/assets/resources/import/e0/e063e12a-3694-4092-bb8c-a87916da6340.json",
+    "/assets/resources/native/e2/e21388e8-a531-43ff-89c5-3e9619a92580.png",
+    "/assets/resources/native/2c/2c40b762-7860-4c81-a2fd-3cb7fde1c6ef.png",
+    "/assets/resources/native/aa/aa03237a-fee8-4cce-976f-8878cf8ffaef.png",
+    "/assets/resources/native/72/7280df57-07e3-43ee-bb65-d6e81734610d.png",
+    "/assets/resources/native/4a/4aecde07-274b-4bee-87b5-0f9647630e42.png",
+    "/assets/resources/native/7e/7e969d89-ae8b-408e-ad62-226634f2d027.png",
+    "/assets/resources/import/a3/a35bac93-e988-4da4-9751-3b818572578a@f9941.json",
+    "/assets/resources/import/55/550a4e12-8797-4548-8fb1-87159a99f031@f9941.json",
+    "/assets/resources/native/e4/e42d24ee-7479-4f6e-b04a-6a4c3efe33c5.png",
+    "/assets/resources/native/75/759adae5-8025-48a8-8a3c-217a936a7686.png",
+    "/assets/resources/import/a3/a35bac93-e988-4da4-9751-3b818572578a.json",
+    "/assets/resources/native/1a/1a48e1f4-d98f-4f84-96da-9269e5f0861b.png",
+    "/assets/resources/import/55/550a4e12-8797-4548-8fb1-87159a99f031.json",
+    "/assets/resources/native/68/682f528c-4801-4234-81b5-44c3f99a8c65.png",
+    "/assets/resources/native/f4/f4ec0b79-8470-4b07-a053-62d6eacd03bc.png",
+    "/assets/resources/native/e0/e040fada-b457-4328-96a9-aaa300aa9ace.png",
+    "/assets/resources/native/e0/e063e12a-3694-4092-bb8c-a87916da6340.png",
+    "/assets/resources/native/a3/a35bac93-e988-4da4-9751-3b818572578a.png",
+    "/assets/resources/native/55/550a4e12-8797-4548-8fb1-87159a99f031.png"
+  ]
+}

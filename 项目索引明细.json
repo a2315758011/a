@@ -1,0 +1,30 @@
+{
+  "projectId": "live-turret-defense",
+  "name": "直播炮塔守城",
+  "createdDate": "2026-10-12",
+  "projectRoot": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城",
+  "benchmark": {
+    "url": "https://tap.cn/lqs3Qu7pC",
+    "identity": "UNVERIFIED",
+    "visuals": "UNVERIFIED"
+  },
+  "platform": {
+    "type": "douyin_live_play",
+    "officialGiftEventAvailableToApply": true,
+    "projectPermission": "UNKNOWN",
+    "viewerJoinLeave": "UNVERIFIED"
+  },
+  "state": "G0_BLOCKED",
+  "instruction": {
+    "version": "V5.1",
+    "githubBlobSha": "13816e8bb3f780515c7826b175285fa20df2861d",
+    "fullRead": true,
+    "applied": "PARTIAL",
+    "note": "SHA-256 NOT VERIFIED"
+  },
+  "game": {
+    "dynamic2d": true,
+    "basicTowerCount": 3,
+    "giftUpgrade": true
+  }
+}

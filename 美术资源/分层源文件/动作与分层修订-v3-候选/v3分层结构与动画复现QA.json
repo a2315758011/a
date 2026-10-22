@@ -1,0 +1,39 @@
+{
+  "status": "V3_LAYERED_STRUCTURAL_PASS_ART_REVIEW_PENDING",
+  "objectsReworked": 2,
+  "actionsReworked": 4,
+  "editableFrameORAs": 32,
+  "framesInPackage": 56,
+  "towersReusedUnchanged": true,
+  "all32EditableFramesRecomposedFromOwnLayers": true,
+  "all32FramesMatchSourceAnimationRecipe": true,
+  "all4ChangedActionsHave8UniqueFrames": true,
+  "artQualityUserReviewed": false,
+  "CocosImported": false,
+  "results": [
+    {
+      "object": "兽人小兵",
+      "action": "walk",
+      "editableOra": 8,
+      "uniqueFrames": 8
+    },
+    {
+      "object": "兽人小兵",
+      "action": "attack",
+      "editableOra": 8,
+      "uniqueFrames": 8
+    },
+    {
+      "object": "兽人小兵",
+      "action": "death",
+      "editableOra": 8,
+      "uniqueFrames": 8
+    },
+    {
+      "object": "城防水晶",
+      "action": "shatter",
+      "editableOra": 8,
+      "uniqueFrames": 8
+    }
+  ]
+}

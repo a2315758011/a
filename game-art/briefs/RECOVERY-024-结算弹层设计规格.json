@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "taskId": "RECOVERY-024",
+  "title": "候选失败结算弹层",
+  "status": "design_spec_ready_asset_blocked",
+  "sourceOfTruth": "game-art/style/art-style.json",
+  "visualStyle": "native pixel-art; dark navy stone-metal; restrained brass edge; cyan energy highlights; no generated text",
+  "viewportReference": [
+    360,
+    780
+  ],
+  "states": {
+    "lose": {
+      "title": "守城失败",
+      "secondaryText": "城防水晶已被突破",
+      "stats": [
+        "本局击退数量",
+        "到达波次"
+      ],
+      "primaryAction": {
+        "label": "再次守城",
+        "behavior": "invoke the existing game reset path and restore ready/HP100/9 towers/0 kills"
+      },
+      "secondaryAction": null,
+      "animation": "fade in, slight scale-up; crystal collapse remains in the battle layer behind the modal"
+    },
+    "win": {
+      "title": "守城成功",
+      "secondaryText": "三波兽人已被击退",
+      "stats": [
+        "本局击退数量",
+        "剩余水晶生命"
+      ],
+      "primaryAction": {
+        "label": "再次守城",
+        "behavior": "invoke the existing game reset path and restore ready/HP100/9 towers/0 kills"
+      },
+      "secondaryAction": null,
+      "animation": "fade in with restrained cyan energy sparkle"
+    }
+  },
+  "interactionConstraints": [
+    "Render Chinese text with Cocos Label, never bake text into generated art.",
+    "The settlement primary action must be a real Cocos interaction wired to the controller reset path.",
+    "Do not add a Return-to-Menu action until an actual menu scene/state and navigation path exist.",
+    "Keep the existing bottom-row controls from overlapping or remaining confusingly active under the modal.",
+    "Do not integrate into the formal main scene/Prefab before V5 art sign-off."
+  ],
+  "currentBlocker": "The shared Generation Gateway image task failed at mode-prepare before submission. Per project no-retry rule, do not resubmit the same panel task.",
+  "nextSafeStep": "Wait for an authorized healthy generation route or proceed only with an existing-asset prototype; validate the modal in the isolated Cocos candidate and preserve formal project isolation."
+}

@@ -1,0 +1,121 @@
+{
+  "url": "local-hosted-cocos-build",
+  "console": [
+    {
+      "type": "Log.entryAdded",
+      "line": "<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> is deprecated. Please include <meta name=\"mobile-web-app-capable\" content=\"yes\">"
+    },
+    {
+      "type": "Log.entryAdded",
+      "line": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Base: 7.286865234375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Infrastructure: 27.75390625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "[PHYSICS2D]: register box2d."
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init SubSystem: 30.782958984375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Cocos Creator v3.8.2"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Project: 21.317138671875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "LoadScene db://assets/场景/待审美术演示.scene: 25.68310546875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "InitScene: 0.156982421875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AttachPersist: 0.118896484375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AutoRelease: 0.116943359375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Destroy: 0.160888671875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Activate: 19.906005859375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Success to load scene: db://assets/场景/待审美术演示.scene"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "美术样例引擎加载完成 7 组56帧"
+    }
+  ],
+  "errors": [],
+  "logs": [],
+  "navigate": {
+    "frameId": "93D24A45CAE42BBFFFFC297F206EFA19",
+    "loaderId": "49CF4020C7E319B51F5C64B2549E27C8"
+  },
+  "dom": {
+    "ready": "complete",
+    "title": "Cocos Creator | turret-art-qa-v3",
+    "bodyText": "",
+    "canvas": [
+      {
+        "w": 1056,
+        "h": 1748,
+        "css": ""
+      }
+    ],
+    "url": "http://127.0.0.1:53978/"
+  },
+  "webgl": {
+    "webgl2": true,
+    "webgl": false
+  },
+  "cc": {
+    "cc": "object",
+    "CocosEngine": "boolean",
+    "sys": "object"
+  },
+  "screenshotBytes": 116105,
+  "requestsTotal": 194,
+  "lastRequests": [
+    "/assets/resources/native/b0/b0337e94-f043-4295-af62-6a0e083dba98.png",
+    "/assets/resources/import/95/95f99270-e09b-4dc6-94c0-c9e913603d5f@f9941.json",
+    "/assets/resources/import/e6/e6c0ba4c-47dd-4862-a7f8-e7b94d6545eb.json",
+    "/assets/resources/native/2c/2c0474e0-8fe1-4e44-9789-739f65d67145.png",
+    "/assets/resources/native/50/506dcd2d-2833-4cd9-a36d-93feceafbd85.png",
+    "/assets/resources/native/db/db5ae72c-a715-4dc8-89e5-6251f8f325fc.png",
+    "/assets/resources/import/03/030e837f-19bb-4918-bd8f-106ae4168dc3@f9941.json",
+    "/assets/resources/import/a7/a7f07e27-f5ce-47cb-8791-d0d52d62bdaa@f9941.json",
+    "/assets/resources/native/dd/dd84bece-ee72-4f3b-9857-21d5c3dfd4db.png",
+    "/assets/resources/import/95/95f99270-e09b-4dc6-94c0-c9e913603d5f.json",
+    "/assets/resources/native/3d/3d3ff1c2-25d5-4914-b0f9-523f99b18414.png",
+    "/assets/resources/import/03/030e837f-19bb-4918-bd8f-106ae4168dc3.json",
+    "/assets/resources/import/a7/a7f07e27-f5ce-47cb-8791-d0d52d62bdaa.json",
+    "/assets/resources/native/1f/1f3c3915-857d-412b-9448-687e717cc0ac.png",
+    "/assets/resources/native/92/9295193a-a52a-43a6-8ebe-8b68ae3972fb.png",
+    "/assets/resources/native/fc/fc66eaf6-f638-4bd7-92ab-b1dce3c3508d.png",
+    "/assets/resources/native/e6/e6c0ba4c-47dd-4862-a7f8-e7b94d6545eb.png",
+    "/assets/resources/native/95/95f99270-e09b-4dc6-94c0-c9e913603d5f.png",
+    "/assets/resources/native/03/030e837f-19bb-4918-bd8f-106ae4168dc3.png",
+    "/assets/resources/native/a7/a7f07e27-f5ce-47cb-8791-d0d52d62bdaa.png"
+  ]
+}

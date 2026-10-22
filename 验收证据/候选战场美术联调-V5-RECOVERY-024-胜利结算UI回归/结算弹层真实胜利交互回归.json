@@ -1,0 +1,179 @@
+{
+  "test": "RECOVERY-024 natural win settlement UI regression",
+  "method": "Actual visible game controls via CDP mouse events; runtime inspection is read-only; isolated V5 candidate only",
+  "startedAt": "2026-10-22T05:30:49",
+  "actions": [
+    {
+      "atSeconds": 4.756,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 4.888,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.02,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.152,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.284,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.416,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.549,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.682,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.813,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.945,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 6.076,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 6.208,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 6.339,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 6.471,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    },
+    {
+      "atSeconds": 6.603,
+      "name": "观众加入",
+      "x": 111,
+      "y": 716
+    }
+  ],
+  "samples": [],
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "screenshots": [
+    {
+      "file": "00-胜利回归-资源就绪.png",
+      "bytes": 148706,
+      "sha256": "19FAE998678FB7F933EC603691F5906883594000270C227D1B48ACD48B5B5593"
+    }
+  ],
+  "result": "ERROR",
+  "debugPort": 9237,
+  "initial": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "active": 0,
+      "upgradingTowers": 0
+    },
+    "ui": {
+      "visible": false,
+      "title": "label",
+      "subtitle": "label",
+      "stats": "label",
+      "button": "label",
+      "buttonEnabled": true
+    }
+  },
+  "viewport": {
+    "width": 360,
+    "height": 780,
+    "hidden": false
+  },
+  "afterAdd": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "active": 0,
+      "upgradingTowers": 0
+    },
+    "ui": {
+      "visible": false,
+      "title": "label",
+      "subtitle": "label",
+      "stats": "label",
+      "button": "label",
+      "buttonEnabled": true
+    }
+  },
+  "exception": "RuntimeError(\"expected 24 towers after 15 viewer clicks: {'game': {'state': 'ready', 'hp': 100, 'wave': 1, 'towers': 9, 'kills': 0, 'enemies': 0, 'time': 0}, 'art': {'ready': True, 'failed': False, 'active': 0, 'upgradingTowers': 0}, 'ui': {'visible': False, 'title': 'label', 'subtitle': 'label', 'stats': 'label', 'button': 'label', 'buttonEnabled': True}}\")",
+  "stack": "Traceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_settlement_win_ui_024.py\", line 156, in <module>\n    raise RuntimeError(\"expected 24 towers after 15 viewer clicks: \"+repr(after_add))\nRuntimeError: expected 24 towers after 15 viewer clicks: {'game': {'state': 'ready', 'hp': 100, 'wave': 1, 'towers': 9, 'kills': 0, 'enemies': 0, 'time': 0}, 'art': {'ready': True, 'failed': False, 'active': 0, 'upgradingTowers': 0}, 'ui': {'visible': False, 'title': 'label', 'subtitle': 'label', 'stats': 'label', 'button': 'label', 'buttonEnabled': True}}\n",
+  "durationSeconds": 8.05,
+  "finishedAt": "2026-10-22T05:30:58",
+  "summary": {
+    "sampleCount": 0,
+    "result": "ERROR",
+    "settlementPass": null,
+    "restartPass": null,
+    "finalGame": null,
+    "settlementUI": null,
+    "restartGame": null,
+    "restartUI": null,
+    "consoleErrorCount": 0
+  }
+}

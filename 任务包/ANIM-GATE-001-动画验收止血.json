@@ -1,0 +1,72 @@
+{
+  "taskId": "ANIM-GATE-001",
+  "taskVersion": 1,
+  "status": "VERIFIED",
+  "assignee": "agent-codex-animation-fix-20261012",
+  "attemptId": "20261012-live-audit-01",
+  "claimedAt": "2026-10-12T15:51:39.734Z",
+  "claimCount": 1,
+  "reviewMode": "SELF_REVIEW",
+  "scope": "修复动画候选误写正式目录与仅格式通过误标VERIFIED。不是最终动画生产完成。",
+  "dependencies": [],
+  "inputArtifacts": [
+    "任务包/素材生成任务-v0.5/enemy_orc_boss.json",
+    "美术资源/生成真实透明帧候选.py",
+    "美术资源/验证动态资产合同.py"
+  ],
+  "writeAllowlist": [
+    "美术资源/生成真实透明帧候选.py",
+    "美术资源/验证动态资产合同.py",
+    "验收证据/动态资产机器验收-v0.4.json",
+    "验收证据/动画管线止血验证.json",
+    "任务包/ANIM-GATE-001-动画验收止血.json",
+    "验收证据/动画管线止血备份-20261012"
+  ],
+  "instructionRefs": [
+    {
+      "path": "C:/Users/ide0007/Desktop/deliverable/AI小游戏实战营/专业指令集/AI小游戏制作总指令.md",
+      "version": "V5.4",
+      "sha256": "a8f9e756f0ac150be89eff78bc78c1c0d604035d36f2d743dfdac4b5778d97ab",
+      "chapters": [
+        "00",
+        "03",
+        "07",
+        "09",
+        "10",
+        "12",
+        "13",
+        "14"
+      ]
+    }
+  ],
+  "lock": "project:live-turret-defense:animation-pipeline",
+  "acceptance": [
+    "现有174帧不得仅凭格式标VERIFIED",
+    "候选生成器默认拒绝假步态/攻击/死亡/破碎且不得覆盖正式帧",
+    "旧PNG哈希保持一致"
+  ],
+  "nextAction": "该止血任务不等于最终动画完成。先审定角色母版与真实关键姿态，再制作与播放验收，最后Cocos加载。",
+  "pending": [
+    "Approved Master和真实关键姿态重制",
+    "动作播放视觉审查",
+    "Cocos加载测试"
+  ],
+  "prohibit": [
+    "重复提交已有11个job",
+    "将程序变换作为动作完成",
+    "重启基础设施"
+  ],
+  "lastSuccessfulStep": "两个拒收用例真实执行，174张PNG哈希前后保持一致",
+  "completed": [
+    "已确认母图请求与旧整图变换逻辑",
+    "格式验收不再误标最终VERIFIED",
+    "阻止旧生成器覆盖正式动画"
+  ],
+  "reviewEvidence": "验收证据/动画管线止血验证.json",
+  "handoff": {
+    "mode": "SELF_REVIEW",
+    "acceptedByDownstream": false,
+    "engineValidation": "UNVERIFIED",
+    "externalJobsRepeated": 0
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "version": "v4 candidate",
+  "projectId": "live-turret-defense",
+  "frame": [
+    160,
+    144
+  ],
+  "visibleBodySize": "unchanged from source 96px",
+  "originOffset": [
+    32,
+    20
+  ],
+  "pivot": [
+    0.5,
+    0.5
+  ],
+  "groundLineYFromTop": 105,
+  "frameDurationMs": 110,
+  "sheet": {
+    "columns": 4,
+    "rows": 2,
+    "size": [
+      640,
+      288
+    ]
+  },
+  "textureFilter": "nearest",
+  "approved": false,
+  "artQuality": "PENDING",
+  "sourceVersion": "v3 original editable ORA",
+  "sourceUnchanged": true,
+  "renderingNotes": "sprites 160x144 UITransform to preserve native original 96 body actual size",
+  "actions": [
+    {
+      "subject": "兽人小兵",
+      "action": "walk",
+      "frames": 8,
+      "editableORA": 8,
+      "hashes": [
+        "e54adec0ef0d19e88b4ec9cb3e13d2f5b2e2c08829f025ace547ba2ec7a1cc38",
+        "5d15391b2c07fa700449f9377b98a7d4c9467912526898f714c5bbac24e2c1df",
+        "5c5ddba3a7a7ca7e4072703e6d7a5f3a71900bfb19f10f848e9b35967c30eb48",
+        "3bc99174e3f6a329685d56bf205d5325e38410e5a8cfd0b02d2758906b48e03c",
+        "98404cecd1dc6d1d9564cda4bd153e12f2c1f9cb0c9f2f92dba82c48ee8524af",
+        "d65d95bc7f190eea14c0c822c62b8828ea6b34096f749b36674a9bb0d7e3c1fe",
+        "55995b097da3a6710f0c6d50114bfe3491ff17ec9dfb84dce610c811911f2b27",
+        "6f604f9d17c4b30c5f81ebe144c8dfa821257e6ab9f12670db3689b749e5823c"
+      ]
+    },
+    {
+      "subject": "兽人小兵",
+      "action": "attack",
+      "frames": 8,
+      "editableORA": 8,
+      "hashes": [
+        "408afbc61c90b6f9de06281161394ab8920f2c5cd8504bb6053d75595e53f583",
+        "77051ec6bde014a4ea9538b91d6694c66741d14ea46e7ee4c95700ee87b5fb73",
+        "257dddb854b13943da5a5dd58b3602039fca55bc9cb99f1852f5cd53675cb2db",
+        "858dc4d60bd3061a248012521aa6f58856cc6389a5fb8d99feacb646960a152a",
+        "2aa20022e8123485713025d6728fddbc0820feb9de06f313a58464fddbb6cd4b",
+        "4bfa62a3c4dc98041224a06444276347bdc09439f6f3291aa57e2f6d06c463c7",
+        "5a76e8210ca8c3ebbb97c2cb37ff68d891f3674740fc016a9362363c75d6a7b4",
+        "5badfa2544bed78ed112a7b6e1914269c1bcbde7ce2250b7702496c065109418"
+      ]
+    },
+    {
+      "subject": "兽人小兵",
+      "action": "death",
+      "frames": 8,
+      "editableORA": 8,
+      "hashes": [
+        "6f717aa4796be2fe5f51d578d88a31d794518777fb77361dcf1ab34f39774cf3",
+        "2eba510efe76ac2e417a31dc420d1f9056064ed636aa5e91d59b5fa2bb2740a2",
+        "2529afe003736a732ae3d624deb7e24fca5338d059f2ecace933b3d6db6b95b5",
+        "ac6699a4260a5406cd5a48887d520da641a4f2279cc6e48ee3dc17e9c632a7ff",
+        "7996afe9d192acfbe5d84584dcdf9eb37323f90d0bb86a725c2a5af3914b21e6",
+        "2da83c01f56486489a4c78314cfa520e0769228e8954ba90f6937563e572937f",
+        "9593ae73c4a893537aaff9f82eb1d2215014dec36c4c44c9dc82cf1097c12d9c",
+        "8880b09c57e5312fb00c66d6f3b97622f107a828bc836eeeb1e6bfc3562fc7ca"
+      ]
+    },
+    {
+      "subject": "城防水晶",
+      "action": "shatter",
+      "frames": 8,
+      "editableORA": 8,
+      "hashes": [
+        "f0c39924b6d70ed4905e515f91f708be5719dfdf1049d21825cd6481aa70e36b",
+        "452e59f0cb17015d2066f29cd649570cd2af5c1a4aca6f260e79710413a482b0",
+        "947f86778e2515db4dd44a8378be246247cf65d69fcb32c1f17c58b5a7215785",
+        "c5b8759f42e4bb3d39f22a53af08293694e36d66f43e8a593568f67ee27d888a",
+        "80a1cc784f5e2fd147c491a939e2acccd21259f29a844c51b4e8a045b6883b0b",
+        "ba92aae0a677a558232e7c37f12844653f4b485bc0bcfcf2e140e8fa62e97c64",
+        "923dd58a89ef72ce9781d7044bbdbb4f216151033c676e91c80dd3ff03a9e719",
+        "1b8e3f18a85c5416e96585f00afde3f7db6f55a39f7f02273c47bb04e5452d5b"
+      ]
+    },
+    {
+      "subject": "连珠速射塔",
+      "action": "attack",
+      "frames": 8,
+      "editableORA": 0,
+      "sourceORA": "连珠速射塔-基础分层.ora",
+      "derivedFrom": "v3 unchanged art, padded only"
+    },
+    {
+      "subject": "熔芯重炮塔",
+      "action": "attack",
+      "frames": 8,
+      "editableORA": 0,
+      "sourceORA": "熔芯重炮塔-基础分层.ora",
+      "derivedFrom": "v3 unchanged art, padded only"
+    },
+    {
+      "subject": "寒霜喷射塔",
+      "action": "attack",
+      "frames": 8,
+      "editableORA": 0,
+      "sourceORA": "寒霜喷射塔-基础分层.ora",
+      "derivedFrom": "v3 unchanged art, padded only"
+    }
+  ]
+}

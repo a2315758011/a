@@ -1,0 +1,418 @@
+{
+  "task": "RECOVERY-038-ENEMY-LAYER-KEYFRAMES",
+  "test": "Node Edge runtime authored-keyframe + dual-ending regression",
+  "startedAt": "2026-10-22T15:45:03.666Z",
+  "checks": {
+    "authoredKeyframesLoaded": true,
+    "authoredKeyframesApplied": true,
+    "threeLayerRuntime": true,
+    "naturalWin96": true,
+    "sessionRetained": true,
+    "naturalLoss": true,
+    "restartReset": true,
+    "artHealthy": true,
+    "qaRunErrors": true,
+    "jsErrors": true
+  },
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "screenshots": [
+    {
+      "file": "RECOVERY-038-运行时关键帧.png",
+      "bytes": 530151,
+      "sha256": "39DE4108CF2C3D2D538838A649CEA06D01C564D63FB15C76B378C7D6B0BC99DB"
+    }
+  ],
+  "result": "PASS",
+  "ready": {
+    "ready": true,
+    "failed": false,
+    "state": "ready",
+    "menu": true
+  },
+  "keyframeRuntimeProbe": {
+    "ready": true,
+    "failed": false,
+    "gruntLoaded": true,
+    "bossLoaded": true,
+    "gruntFrameCount": 8,
+    "bossFrameCount": 8,
+    "gruntStates": [
+      "idle",
+      "walk",
+      "hurt",
+      "attack",
+      "death"
+    ],
+    "bossStates": [
+      "idle",
+      "walk",
+      "hurt",
+      "attack",
+      "death"
+    ],
+    "gruntApplied": true,
+    "bossApplied": true,
+    "gruntLayers": 3,
+    "bossLayers": 3,
+    "gruntMaster": false,
+    "bossMaster": false
+  },
+  "dualEnding": {
+    "stats": {
+      "ticks": 5096,
+      "iterations": [
+        {
+          "tag": "win",
+          "ticks": 2505,
+          "state": "win",
+          "time": 83.49999999999783,
+          "hp": 100,
+          "wave": 3,
+          "kills": 96,
+          "towers": 24,
+          "simSeconds": 83.49999999999783
+        },
+        {
+          "tag": "loss",
+          "ticks": 2591,
+          "state": "lose",
+          "time": 86.36666666666433,
+          "hp": 0,
+          "wave": 3,
+          "kills": 73,
+          "towers": 9,
+          "simSeconds": 86.36666666666433
+        }
+      ],
+      "errors": []
+    },
+    "startedTowers": 24,
+    "win": {
+      "state": "win",
+      "hp": 100,
+      "wave": 3,
+      "kills": 96,
+      "towers": 24,
+      "live": {
+        "onlineViewers": 15,
+        "knownViewers": 15,
+        "queueDepth": 0,
+        "processedEvents": 15,
+        "duplicateEvents": 0,
+        "rejectedEvents": 0,
+        "giftEvents": 0,
+        "giftPower": 0,
+        "lastEvent": "viewer_join:qa038-14",
+        "viewers": [
+          {
+            "viewerId": "qa038-0",
+            "viewerName": "关键帧观众0",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-1",
+            "viewerName": "关键帧观众1",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-2",
+            "viewerName": "关键帧观众2",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-3",
+            "viewerName": "关键帧观众3",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-4",
+            "viewerName": "关键帧观众4",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-5",
+            "viewerName": "关键帧观众5",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-6",
+            "viewerName": "关键帧观众6",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-7",
+            "viewerName": "关键帧观众7",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-8",
+            "viewerName": "关键帧观众8",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-9",
+            "viewerName": "关键帧观众9",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-10",
+            "viewerName": "关键帧观众10",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-11",
+            "viewerName": "关键帧观众11",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-12",
+            "viewerName": "关键帧观众12",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-13",
+            "viewerName": "关键帧观众13",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-14",
+            "viewerName": "关键帧观众14",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          }
+        ]
+      }
+    },
+    "menu": {
+      "state": "ready",
+      "towers": 24,
+      "live": {
+        "onlineViewers": 15,
+        "knownViewers": 15,
+        "queueDepth": 0,
+        "processedEvents": 15,
+        "duplicateEvents": 0,
+        "rejectedEvents": 0,
+        "giftEvents": 0,
+        "giftPower": 0,
+        "lastEvent": "viewer_join:qa038-14",
+        "viewers": [
+          {
+            "viewerId": "qa038-0",
+            "viewerName": "关键帧观众0",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-1",
+            "viewerName": "关键帧观众1",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-2",
+            "viewerName": "关键帧观众2",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-3",
+            "viewerName": "关键帧观众3",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-4",
+            "viewerName": "关键帧观众4",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-5",
+            "viewerName": "关键帧观众5",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-6",
+            "viewerName": "关键帧观众6",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-7",
+            "viewerName": "关键帧观众7",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-8",
+            "viewerName": "关键帧观众8",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-9",
+            "viewerName": "关键帧观众9",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-10",
+            "viewerName": "关键帧观众10",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-11",
+            "viewerName": "关键帧观众11",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-12",
+            "viewerName": "关键帧观众12",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-13",
+            "viewerName": "关键帧观众13",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          },
+          {
+            "viewerId": "qa038-14",
+            "viewerName": "关键帧观众14",
+            "online": true,
+            "joinedAt": 1792683908969,
+            "lastSeenAt": 1792683908969,
+            "giftCount": 0,
+            "giftPower": 0
+          }
+        ]
+      }
+    },
+    "lossStart": 9,
+    "loss": {
+      "state": "lose",
+      "hp": 0,
+      "wave": 3,
+      "kills": 73,
+      "towers": 9
+    },
+    "replay": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "towers": 9
+    },
+    "artReady": true,
+    "artFailed": false
+  },
+  "finishedAt": "2026-10-22T15:45:09.279Z",
+  "durationSeconds": 5.612
+}

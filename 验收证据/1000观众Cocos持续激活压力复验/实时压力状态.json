@@ -1,0 +1,29 @@
+{
+  "label": "eight-seconds-running-focused",
+  "wallSeconds": 22.35,
+  "sample": {
+    "game": {
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "kills": 13,
+      "time": 7.4,
+      "towers": 1009,
+      "enemies": 0,
+      "spawned": 13,
+      "zoom": 0.9
+    },
+    "frameProbe": 1014,
+    "screen": {
+      "w": 540,
+      "h": 926,
+      "hidden": false
+    }
+  },
+  "metrics": {
+    "Nodes": 137,
+    "ScriptDuration": 2.38031,
+    "TaskDuration": 4.50818,
+    "JSHeapUsedSize": 22024592
+  }
+}

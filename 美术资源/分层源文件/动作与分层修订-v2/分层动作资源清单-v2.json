@@ -1,0 +1,819 @@
+{
+  "status": "CANDIDATE_QA_NOT_GAME_READY",
+  "projectId": "live-turret-defense",
+  "source": "rebuild from independent layer PNG in verified v1 ORA, not fake whole-image transforms",
+  "notes": "Frames are export cache; editable layers + transform recipe are source. Do not load formal Cocos assets without human art review.",
+  "canvas": [
+    96,
+    96
+  ],
+  "fps": 9.09,
+  "entries": [
+    {
+      "object": "连珠速射塔",
+      "sourceOra": "美术资源/分层源文件/动作与分层修订-v2/连珠速射塔/连珠速射塔-可编辑分层.ora",
+      "layerCount": 6,
+      "motions": {
+        "attack": {
+          "frameCount": 8,
+          "uniqueFrames": 8,
+          "adjacentDuplicatePairs": 0,
+          "frames": [
+            {
+              "frame": 0,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_左炮管（独立可后坐）",
+                "04_右炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "4cad300e213f850a4280f0046a67ec7766b49b07d2358be0d1e78273d86d1e91"
+            },
+            {
+              "frame": 1,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_左炮管（独立可后坐）",
+                "04_右炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "01281dedb854ce41b89fec83faf7df1671af2e10318267aca7aba3c97742ac3a"
+            },
+            {
+              "frame": 2,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_左炮管（独立可后坐）",
+                "04_右炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "双口火焰"
+              ],
+              "sha256": "5fc1a1585e104df52a17df36b506d1ea4b04188732b246da916cbd725f9920a5"
+            },
+            {
+              "frame": 3,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_左炮管（独立可后坐）",
+                "04_右炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "双口火焰"
+              ],
+              "sha256": "c877ad0bcf339ea90549655a6abf99c02d3bf885ca43b482143ecad85593b148"
+            },
+            {
+              "frame": 4,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_左炮管（独立可后坐）",
+                "04_右炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "双口火焰",
+                "飞出弹丸"
+              ],
+              "sha256": "b5976a7b69f3b79d500b87673c65815fb20c8ed9e134fef99f9729bbac440173"
+            },
+            {
+              "frame": 5,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_左炮管（独立可后坐）",
+                "04_右炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "双口火焰",
+                "飞出弹丸"
+              ],
+              "sha256": "edbdbe038a0ccf89d8ea83c77d5fd65c115f83d1a3511e6e0d9949ee86eb50ff"
+            },
+            {
+              "frame": 6,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_左炮管（独立可后坐）",
+                "04_右炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "飞出弹丸"
+              ],
+              "sha256": "a7d348df5d736a304b2f42f782a7ba395c432fdc773b0cc8876e90e359c83b63"
+            },
+            {
+              "frame": 7,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_左炮管（独立可后坐）",
+                "04_右炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "飞出弹丸"
+              ],
+              "sha256": "6607694300120e1ed7bcc59ca44832a801c1e2b77236d3bf1b3b9c2c04dff4e6"
+            }
+          ],
+          "status": "PENDING_SEMANTICS_REVIEW"
+        }
+      }
+    },
+    {
+      "object": "熔芯重炮塔",
+      "sourceOra": "美术资源/分层源文件/动作与分层修订-v2/熔芯重炮塔/熔芯重炮塔-可编辑分层.ora",
+      "layerCount": 5,
+      "motions": {
+        "attack": {
+          "frameCount": 8,
+          "uniqueFrames": 8,
+          "adjacentDuplicatePairs": 0,
+          "frames": [
+            {
+              "frame": 0,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_粗炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "8fa3876e5ed6e9348f468ac4ba15cc405c23987f428cd942d7501f89102d1891"
+            },
+            {
+              "frame": 1,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_粗炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "蓄能核心"
+              ],
+              "sha256": "e3ed63ea599659b0a6972966799d3f21b3902c6a884300f49d13823d831a1e49"
+            },
+            {
+              "frame": 2,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_粗炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "蓄能核心"
+              ],
+              "sha256": "947f12bfe4bf091d0876695cfe6ca8d22e6c5913bc58d7f40117c1b5beef0841"
+            },
+            {
+              "frame": 3,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_粗炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "蓄能核心",
+                "重炮炮口焰"
+              ],
+              "sha256": "9d4dd4deda07cd2f7d6ef507d6cf036f4225c49a711bd78cbeca8e1d3b30fb12"
+            },
+            {
+              "frame": 4,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_粗炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "蓄能核心",
+                "重炮炮口焰"
+              ],
+              "sha256": "1ec044c8b3d05a030f4a9198921be4e746e7d9d1d47edf89be490a3ea81263c5"
+            },
+            {
+              "frame": 5,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_粗炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "蓄能核心",
+                "重炮炮口焰"
+              ],
+              "sha256": "06b0de7519c7dcc509c79517b10e568b69354f8b154386ae87f644a513aae7d5"
+            },
+            {
+              "frame": 6,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_粗炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "蓄能核心",
+                "重炮炮口焰"
+              ],
+              "sha256": "3f5d089af62b415a44e7a6b1e7598f245c2d9e09b380e7fe957533efb3488469"
+            },
+            {
+              "frame": 7,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "03_粗炮管（独立可后坐）"
+              ],
+              "dynamicEffects": [
+                "蓄能核心"
+              ],
+              "sha256": "7d72c4c84cf37456143d079166fade91aef6a6a5de00f550926f5c9dd0918613"
+            }
+          ],
+          "status": "PENDING_SEMANTICS_REVIEW"
+        }
+      }
+    },
+    {
+      "object": "寒霜喷射塔",
+      "sourceOra": "美术资源/分层源文件/动作与分层修订-v2/寒霜喷射塔/寒霜喷射塔-可编辑分层.ora",
+      "layerCount": 6,
+      "motions": {
+        "attack": {
+          "frameCount": 8,
+          "uniqueFrames": 8,
+          "adjacentDuplicatePairs": 0,
+          "frames": [
+            {
+              "frame": 0,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "05_独立喷嘴（可抬起）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "252f8a70ffde74dd8bdef805099a81d0a56b0bb4578c58a46c6eaf8d2e725386"
+            },
+            {
+              "frame": 1,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "05_独立喷嘴（可抬起）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "10073758f0500b98c984fff612ba61e5d355ae3b2e0faa0f0f554fca4a84a76d"
+            },
+            {
+              "frame": 2,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "05_独立喷嘴（可抬起）"
+              ],
+              "dynamicEffects": [
+                "动态冰雾"
+              ],
+              "sha256": "30caa5a9bbf9c41f7c3d32c861503c896f155ed07adc37df4df7f5f4a0c1cfe0"
+            },
+            {
+              "frame": 3,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "05_独立喷嘴（可抬起）"
+              ],
+              "dynamicEffects": [
+                "动态冰雾"
+              ],
+              "sha256": "d94625ab3f8c699928c26d4366cd1760f9cf041a2088a0fe04951db80bae07b8"
+            },
+            {
+              "frame": 4,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "05_独立喷嘴（可抬起）"
+              ],
+              "dynamicEffects": [
+                "动态冰雾"
+              ],
+              "sha256": "24c24bf611c7305b4f7bb8703b23d29afc9aab1832de199d3e66b2a9790bc91f"
+            },
+            {
+              "frame": 5,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "05_独立喷嘴（可抬起）"
+              ],
+              "dynamicEffects": [
+                "动态冰雾"
+              ],
+              "sha256": "68779bdf056fe907aedb8fc87e8c35a2bc7fbd7d9ed1be3cc40b67091483f674"
+            },
+            {
+              "frame": 6,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "05_独立喷嘴（可抬起）"
+              ],
+              "dynamicEffects": [
+                "动态冰雾"
+              ],
+              "sha256": "e7fc24ede695c7063ce299d06e8aae0048702a3d008fc6038004aa11239c721c"
+            },
+            {
+              "frame": 7,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "05_独立喷嘴（可抬起）"
+              ],
+              "dynamicEffects": [
+                "动态冰雾"
+              ],
+              "sha256": "098472ab4a089ce0173620f37cd37db74ce99ebc05d939d1e1982b50e8c5073a"
+            }
+          ],
+          "status": "PENDING_SEMANTICS_REVIEW"
+        }
+      }
+    },
+    {
+      "object": "城防水晶",
+      "sourceOra": "美术资源/分层源文件/动作与分层修订-v2/城防水晶/城防水晶-可编辑分层.ora",
+      "layerCount": 5,
+      "motions": {
+        "shatter": {
+          "frameCount": 8,
+          "uniqueFrames": 8,
+          "adjacentDuplicatePairs": 0,
+          "frames": [
+            {
+              "frame": 0,
+              "durationMs": 110,
+              "rigPartTransitions": [],
+              "dynamicEffects": [],
+              "sha256": "691b045900002d39a9cbd554e40f2ceec403b1285cf8209ab365b2b9109b9e7a"
+            },
+            {
+              "frame": 1,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "02_完整主晶体（独立）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "5b4a0b73f9a8674c34c3d3df4fb7d2dce1fce34fee92d477bfa62d6ec13abbb6"
+            },
+            {
+              "frame": 2,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "02_完整主晶体（独立）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "40a2e6dc1b41e5a710802c426daddd3b8c34389046c635a4dd72bec1a7adc161"
+            },
+            {
+              "frame": 3,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "02_完整主晶体（独立）"
+              ],
+              "dynamicEffects": [
+                "独立晶尘"
+              ],
+              "sha256": "bee1a148f1084e0ac87011731e2d2e64450fefa39b3b1fe5af87711c064ba9b4"
+            },
+            {
+              "frame": 4,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "02_完整主晶体（独立）"
+              ],
+              "dynamicEffects": [
+                "独立晶尘"
+              ],
+              "sha256": "9e2b0b17130bcffd1b5c2a4464171cb0f80e8446dd468990ede9942a34972ccc"
+            },
+            {
+              "frame": 5,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "02_完整主晶体（独立）"
+              ],
+              "dynamicEffects": [
+                "独立晶尘"
+              ],
+              "sha256": "f836ce146b20b527517974246e94ca077a2a910b29ac1d31b43d6a5d1e84791e"
+            },
+            {
+              "frame": 6,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "02_完整主晶体（独立）"
+              ],
+              "dynamicEffects": [
+                "独立晶尘"
+              ],
+              "sha256": "f35d7156202f2db09c1dbfa3ce18b247038da6fac957ac426838f72250fadcdd"
+            },
+            {
+              "frame": 7,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "02_完整主晶体（独立）"
+              ],
+              "dynamicEffects": [
+                "独立晶尘"
+              ],
+              "sha256": "490516a1e62d47e0d76db0800686843c969cd6696e8783c8a644215b2afd1e2c"
+            }
+          ],
+          "status": "PENDING_SEMANTICS_REVIEW"
+        }
+      }
+    },
+    {
+      "object": "兽人小兵",
+      "sourceOra": "美术资源/分层源文件/动作与分层修订-v2/兽人小兵/兽人小兵-可编辑分层.ora",
+      "layerCount": 7,
+      "motions": {
+        "walk": {
+          "frameCount": 8,
+          "uniqueFrames": 8,
+          "adjacentDuplicatePairs": 0,
+          "frames": [
+            {
+              "frame": 0,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "e2f03c1780738235cb3f6cac0d230f7c54497e36132b0e7556b911ffe0ce1740"
+            },
+            {
+              "frame": 1,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "d44afc12b7d7cfe9070e28e34f7f78106cc61daf3b5b957a126f01b7c2df03e7"
+            },
+            {
+              "frame": 2,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "6f1af1b60885e638fe5a9fd49f9b20096f32adaedaa8cb606077918bbcee28d1"
+            },
+            {
+              "frame": 3,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "dfeda4cb8fa59f6a074db8e91a1f3e29fa9249aee15211cab4d726aaaa6bde3b"
+            },
+            {
+              "frame": 4,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "69146d6311576fcefc0d871871d838f60e0cc3256bdaebb20d4fb223de344308"
+            },
+            {
+              "frame": 5,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "8174a2b3c97acc6b47367ac6c10237b2c7eae9254d81ba549dd102f8bf3993bc"
+            },
+            {
+              "frame": 6,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "f5c9068ca88808a1b0645d3399376ce13ba119d9f267eef2efda42b1a9a15e28"
+            },
+            {
+              "frame": 7,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "5d95910b859a54def099b69dc83923ee9bff6f0d2d7d91718564d360f6a04209"
+            }
+          ],
+          "status": "PENDING_SEMANTICS_REVIEW"
+        },
+        "attack": {
+          "frameCount": 8,
+          "uniqueFrames": 8,
+          "adjacentDuplicatePairs": 0,
+          "frames": [
+            {
+              "frame": 0,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "c9b82df5d3335913d42efb4fb4ebf1e1eca53caf917bdc1988bb1bee3f35fda9"
+            },
+            {
+              "frame": 1,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "01c9eee3a5380dae5b98704361dea874fda0deb305b830a21e30805aa9d274f5"
+            },
+            {
+              "frame": 2,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "c65cfccff833b8fb69fa84c19e3bd68b42881752ee700593785a96ffc6c1e653"
+            },
+            {
+              "frame": 3,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [
+                "挥斧轨迹"
+              ],
+              "sha256": "7dd250a7104331fa34c48ba26943ce317a6d601e5c0a90999a6da22de4f07636"
+            },
+            {
+              "frame": 4,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [
+                "挥斧轨迹"
+              ],
+              "sha256": "76cb29f1da82c9262c0f3bec7e31035afa7ba6d654bdc4a2d80b03fedfffe0d2"
+            },
+            {
+              "frame": 5,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [
+                "挥斧轨迹"
+              ],
+              "sha256": "7754aa6a80a9c94e5f32568cdfe7fbb65939ed3159a1e1e15cb835acb2023664"
+            },
+            {
+              "frame": 6,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "f0416fd63f3a94ca616a8680aeb9b444d248327a2d7e4543bf51c85275015910"
+            },
+            {
+              "frame": 7,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "4f9be1d017ed9e98b3b53d824742baa6ee443e67b66656e2c8c05b62703c5466"
+            }
+          ],
+          "status": "PENDING_SEMANTICS_REVIEW"
+        },
+        "death": {
+          "frameCount": 8,
+          "uniqueFrames": 8,
+          "adjacentDuplicatePairs": 0,
+          "frames": [
+            {
+              "frame": 0,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "4f9be1d017ed9e98b3b53d824742baa6ee443e67b66656e2c8c05b62703c5466"
+            },
+            {
+              "frame": 1,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "fe1c5e18cf921d3e4181a7d7b809eaa596fb1d14ceab7cf1f7478ce4e106030f"
+            },
+            {
+              "frame": 2,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "2de43212b4b01adc6ef5e928104d8b3ea719a7844e7a87d7491151672b3ec620"
+            },
+            {
+              "frame": 3,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [],
+              "sha256": "526581e0e57ee88e5ac24b35fcf9626bb78f4590f5cc661a0d0f3a1340d0052b"
+            },
+            {
+              "frame": 4,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [
+                "倒地扬尘"
+              ],
+              "sha256": "ff637346dd904c2f868168400fa153c1a2d350693ee37f238cf03341720a08ee"
+            },
+            {
+              "frame": 5,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [
+                "倒地扬尘"
+              ],
+              "sha256": "fab6e4bb89df87630d52cc3bb12b3d09bc6f6163998e2058738e7120111cfda9"
+            },
+            {
+              "frame": 6,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [
+                "倒地扬尘"
+              ],
+              "sha256": "a671bbe166f566250dbede7348102a1c74fd5a5cf1344345fd569cfeb2f35909"
+            },
+            {
+              "frame": 7,
+              "durationMs": 110,
+              "rigPartTransitions": [
+                "01_左腿（独立骨骼部件）",
+                "02_右腿（独立骨骼部件）",
+                "03_盔甲身体（不跟手臂烘焙）",
+                "04_左臂（独立）",
+                "05_右臂（独立）",
+                "06_头部（独立）",
+                "07_武器战斧（独立挥击）"
+              ],
+              "dynamicEffects": [
+                "倒地扬尘"
+              ],
+              "sha256": "636e3eedc9575d7e11e78931dc6dc150025daccabb1b50a5c587fc86625e4494"
+            }
+          ],
+          "status": "PENDING_SEMANTICS_REVIEW"
+        }
+      }
+    }
+  ],
+  "qa": "FRAME_UNIQUENESS_PASS; SEMANTIC_REVIEW_PENDING; ART_STYLE_REVIEW_PENDING"
+}

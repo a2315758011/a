@@ -1,0 +1,25 @@
+{
+  "task": "RECOVERY-034",
+  "asset": "中心符文平台",
+  "size": [
+    128,
+    128
+  ],
+  "contentBbox": [
+    14,
+    14,
+    114,
+    114
+  ],
+  "alphaMinMax": [
+    0,
+    255
+  ],
+  "transparentRatio": 0.520752,
+  "opaqueRatio": 0.479248,
+  "sha256": "D6AAACF77F94C7AA11475335BC1985A5F3B3E30BFEA35553EC717C20E276E5C8",
+  "pixelPolicy": "logical 128px direct integer drawing; no antialias; transparent RGBA",
+  "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\环境\\中心符文平台.png",
+  "candidate": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\环境\\中心符文平台.png",
+  "pass": true
+}

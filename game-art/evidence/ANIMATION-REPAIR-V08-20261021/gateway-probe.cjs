@@ -1,0 +1,1 @@
+if(process.argv[2]==='submit')throw Error('Existing V08 ledger: no automatic resubmit');require('./recover-query.cjs');\n

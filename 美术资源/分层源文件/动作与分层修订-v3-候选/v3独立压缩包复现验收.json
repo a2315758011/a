@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "isolatedUnpack": true,
+  "standaloneRecipeWorking": true,
+  "independentAnimationFramesRecomposed": 32,
+  "zipBytes": 570964,
+  "zipSHA256": "93aa94dc8bd54cad9a84dafa17fcb9f042e6d1b994d1cb8df606f92058fa6385",
+  "v1v2Untouched": true,
+  "artQualityReviewed": false
+}

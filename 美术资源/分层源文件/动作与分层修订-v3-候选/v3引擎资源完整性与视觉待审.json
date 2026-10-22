@@ -1,0 +1,186 @@
+{
+  "status": "COCOS_V3_RUNTIME_TECH_PASS__ART_QA_PENDING",
+  "pngSpriteFrameValid": 56,
+  "animatedGroups": 7,
+  "editablePoseORA": 32,
+  "masterORA": 5,
+  "zipBytes": 570964,
+  "zipSHA256": "93aa94dc8bd54cad9a84dafa17fcb9f042e6d1b994d1cb8df606f92058fa6385",
+  "buildLogSuccess": true,
+  "builderExitCode": 36,
+  "webMobileBuildFiles": 196,
+  "CocosEditorVersion": "3.8.2",
+  "browser": "Edge WebGL2 headless local",
+  "browserScreenshot": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\分层源文件\\动作与分层修订-v3-候选\\引擎验收证据\\Cocos浏览器CDP场景运行图.png",
+  "screenshotDims": [
+    1056,
+    1748
+  ],
+  "screenshotSHA256": "a4eb80ac1e9df0684073ba2347adf8842305d7e911dcb6d725cf6ea6cfeb9db9",
+  "runtimeLoaded56": true,
+  "runtimeExceptions": 0,
+  "nearestFilteringAssets": 56,
+  "mainGameHashUnchanged": true,
+  "v1v2ShaUnchanged": true,
+  "edgeTouchCount": 32,
+  "edgeTouchExamples": [
+    {
+      "asset": "兽人小兵",
+      "action": "walk",
+      "frame": 1,
+      "bbox": [
+        16,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "walk",
+      "frame": 2,
+      "bbox": [
+        16,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "walk",
+      "frame": 3,
+      "bbox": [
+        15,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "walk",
+      "frame": 4,
+      "bbox": [
+        13,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "walk",
+      "frame": 5,
+      "bbox": [
+        12,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "walk",
+      "frame": 6,
+      "bbox": [
+        14,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "walk",
+      "frame": 7,
+      "bbox": [
+        15,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "walk",
+      "frame": 8,
+      "bbox": [
+        16,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "attack",
+      "frame": 1,
+      "bbox": [
+        16,
+        0,
+        95,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "attack",
+      "frame": 2,
+      "bbox": [
+        16,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "attack",
+      "frame": 3,
+      "bbox": [
+        16,
+        0,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "attack",
+      "frame": 4,
+      "bbox": [
+        16,
+        3,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "attack",
+      "frame": 5,
+      "bbox": [
+        14,
+        3,
+        96,
+        85
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "action": "attack",
+      "frame": 6,
+      "bbox": [
+        15,
+        3,
+        96,
+        85
+      ]
+    }
+  ],
+  "graphicalQuality": "NOT_APPROVED",
+  "motionSemantics": "PENDING_VISUAL_MANUAL_REVIEW",
+  "douyinWechatAndroidTested": false,
+  "mainGameSpritesBound": false
+}

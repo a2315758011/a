@@ -1,0 +1,21 @@
+{
+  "taskId": "ART-REPLACE-V06",
+  "status": "IN_PROGRESS",
+  "owner": "agent-codex-art-replace-20261013",
+  "userAuthorized": "重新生成并覆盖替换不合格旧资源",
+  "method": "审定母版→参考图真实动作图集→核查布局切帧→透明规范化→实际播放与Cocos→备份替换",
+  "prerequisites": {
+    "current": "MASTER_REWORK",
+    "bulkAnimation": "必须先审定母版和代表动作",
+    "promotion": "必须同版本播放语义及Cocos验收"
+  },
+  "outputs": "美术资源/重制批次-v0.6",
+  "writeAllowlist": [
+    "任务包/新方法批量重制.cjs",
+    "任务包/ART-REPLACE-V06-重制替换.json",
+    "美术资源/重制批次-v0.6"
+  ],
+  "readRefs": "总指令V5.5 RULE-13 已读",
+  "oldJobPolicy": "11个旧任务均不重发；本批次是独立纠错版本请求",
+  "accepted": false
+}

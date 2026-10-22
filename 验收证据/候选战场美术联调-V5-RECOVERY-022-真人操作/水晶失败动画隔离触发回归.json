@@ -1,0 +1,225 @@
+{
+  "test": "RECOVERY-022 isolated synthetic crystal-defeat animation and real restart click",
+  "method": "Synthetic state fixture ONLY in isolated candidate; no formal source/build edits; restart is a real mouse click; runtime inspection read-only",
+  "startedAt": "2026-10-20T18:17:22",
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "screenshots": [
+    {
+      "file": "09-水晶失败动画隔离触发.png",
+      "bytes": 542816,
+      "sha256": "DE8DD31B603B7279C0BD8147BEC486C5378418450C860E4D7D933E603D2E3EA8"
+    },
+    {
+      "file": "09-失败后真实按钮重开.png",
+      "bytes": 548422,
+      "sha256": "98BAB97D7344CA6B417F80FDA61BF0BC5B2483B18478C75DB5AEEC77EA4ABB29"
+    }
+  ],
+  "actions": [
+    {
+      "atSeconds": 5.257,
+      "name": "重开",
+      "x": 315,
+      "y": 716
+    }
+  ],
+  "result": "PASS",
+  "initial": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "active": 0,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    }
+  },
+  "fixtureInstalled": true,
+  "beforeLethalTick": {
+    "game": {
+      "state": "paused",
+      "hp": 6,
+      "wave": 1,
+      "towers": 0,
+      "kills": 0,
+      "enemies": 1,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "active": 1,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 1,
+        "death": 0
+      },
+      "ghosts": 0,
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    }
+  },
+  "terminalSnapshot": {
+    "game": {
+      "state": "lose",
+      "hp": 0,
+      "wave": 1,
+      "towers": 0,
+      "kills": 1,
+      "enemies": 0,
+      "time": 0.06666666666666667
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "active": 0,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0.7014999999999998,
+      "crystalScale": [
+        0.14850000000000002,
+        0.14850000000000002
+      ],
+      "crystalColor": [
+        175,
+        175,
+        175,
+        255
+      ]
+    }
+  },
+  "defeatAnimationPass": true,
+  "afterRestart": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "active": 0,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    }
+  },
+  "restartPass": true,
+  "durationSeconds": 6.99,
+  "finishedAt": "2026-10-20T18:17:29",
+  "summary": {
+    "defeatAnimationPass": true,
+    "restartPass": true,
+    "terminalGame": {
+      "state": "lose",
+      "hp": 0,
+      "wave": 1,
+      "towers": 0,
+      "kills": 1,
+      "enemies": 0,
+      "time": 0.06666666666666667
+    },
+    "terminalArt": {
+      "ready": true,
+      "failed": false,
+      "active": 0,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0.7014999999999998,
+      "crystalScale": [
+        0.14850000000000002,
+        0.14850000000000002
+      ],
+      "crystalColor": [
+        175,
+        175,
+        175,
+        255
+      ]
+    },
+    "restartGame": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "consoleErrorCount": 0
+  }
+}

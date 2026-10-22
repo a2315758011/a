@@ -1,0 +1,45 @@
+{
+  "taskId": "COCOS-PORTRAIT-E2E-007",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-multiscreen-qa-20261019",
+  "status": "PASS_STRICT_9_16_DESKTOP_ENGINE",
+  "sourceEngine": "Cocos Creator 3.8.2",
+  "scope": "独立Cocos Web-Mobile测试工程使用真人鼠标操作从开局完成三波结算与重开；修正Edge截图视口后重测",
+  "deliverables": {
+    "rawResult": "验收证据/严格9比16截图校正后三波通关/真人操作完整一局.json",
+    "assertionReport": "验收证据/严格9比16截图校正后三波通关/截图修复后严格9比16技术复核.json",
+    "screenshots": "验收证据/严格9比16截图校正后三波通关/{00-开局,01-玩家进场布塔,03-第2波,04-第3波,99-结局,100-重新开始}.png",
+    "validationScript": "_assistant-temp/严格9比16截图证据验收.py",
+    "report": "验收证据/COCOS-PORTRAIT-E2E-007-严格9比16三波通关.md"
+  },
+  "validation": {
+    "reportedViewport": [
+      540,
+      960
+    ],
+    "actualScreenshotSizesSixOfSix": [
+      540,
+      960
+    ],
+    "allThreeWavesVisited": true,
+    "win": true,
+    "wave": 3,
+    "kills": 96,
+    "crystalHP": 100,
+    "activeEnemies": 0,
+    "restartReady": true,
+    "restartWave": 1,
+    "restartTowers": 9,
+    "restartHP": 100,
+    "JSExceptions": 0,
+    "sourceCodeParityAfterStrippingQAInspector": true,
+    "formalMainSceneUnchanged": true
+  },
+  "knownLimitations": [
+    "旧截图测试首帧540x960而后续帧540x926，已通过重新执行完整严格截图测试修复。旧结论只作为历史。",
+    "真实Android、微信和抖音容器以及真机安全区未验收",
+    "美术仍是待审V4，尚无用户画风签收",
+    "1000观众压力及长屏比例由另一个并行任务维护"
+  ],
+  "next": "继续专项复测长屏安全区和手机真机输入，正式资源Prefab签收后升级正式场景"
+}

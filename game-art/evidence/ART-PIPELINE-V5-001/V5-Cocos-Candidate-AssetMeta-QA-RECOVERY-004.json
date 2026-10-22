@@ -1,0 +1,91 @@
+{
+  "taskId": "ART-PIPELINE-V5-CANDIDATE-UI-GROUND-004",
+  "status": "PASS_CANDIDATE_UI_GROUND_META",
+  "assetCount": 9,
+  "uniqueImageUUIDs": 9,
+  "textureFilter": "nearest",
+  "spriteCanvas": "variable-size candidate sprites",
+  "assets": [
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\波次徽章.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\波次徽章.png.meta",
+      "uuid": "8a2c0008-e021-41cc-8033-99449da5d2a5",
+      "sha256": "8d0389244376568df8c661a20b243c6b34b62de81abbb8f77ef1075c96fdb988",
+      "width": 96,
+      "height": 96,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\炮塔升级图标.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\炮塔升级图标.png.meta",
+      "uuid": "4929e820-89d8-483d-9650-a5d73a160d6c",
+      "sha256": "80c4ce656e873b9f1f42545183e8654cde73f82a4166f6b5880d53504871d095",
+      "width": 96,
+      "height": 96,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\能量水晶图标.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\能量水晶图标.png.meta",
+      "uuid": "4f838935-17c9-4ec5-894f-15fdaf8ca816",
+      "sha256": "37a6617a635aa2d1236cb2ba7326da66af5b4f8725e00908feae50fd51cfbe6c",
+      "width": 96,
+      "height": 96,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\主操作按钮.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\主操作按钮.png.meta",
+      "uuid": "35a2ecd9-225a-43f6-9c46-ddac7f9f262d",
+      "sha256": "598837eccfe8b84dbb520531c767e4d940f0fc6f372a7a76e52a1120e6149d4a",
+      "width": 160,
+      "height": 64,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\次操作按钮.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\次操作按钮.png.meta",
+      "uuid": "71035032-1005-4742-afe0-4c838ea84774",
+      "sha256": "a0968dd5053bc0fe62d6cd3bfc9ee8236f00430524b08a939ec862baba3e18b9",
+      "width": 160,
+      "height": 64,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\离场按钮.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\离场按钮.png.meta",
+      "uuid": "660ba2e3-e8bb-4feb-ab7f-f6cfa9deada3",
+      "sha256": "2613aa94731576ef555679fb61cd266fb5fb128fe6011e33a1fd410aa1e7ff67",
+      "width": 160,
+      "height": 64,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\面板\\HUD顶部底板.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\面板\\HUD顶部底板.png.meta",
+      "uuid": "ca9aa504-c216-4313-9484-212bf0c51949",
+      "sha256": "156842d915f44b0e7cdfdb115ca3e487bb4b71b4dd4cf1fbc4facf0fd9796bfa",
+      "width": 256,
+      "height": 96,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\面板\\生命值条外框.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\面板\\生命值条外框.png.meta",
+      "uuid": "a6328a32-d6c5-411a-a908-05c511debf9a",
+      "sha256": "154c3a3f2b9e720102814393eff84ef7ffad7c7d1f138bf32ae906149239d0e3",
+      "width": 256,
+      "height": 96,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\环境\\战场地砖.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\环境\\战场地砖.png.meta",
+      "uuid": "ab26d195-a997-4afc-90d6-02074a10ac48",
+      "sha256": "d784ad44692536da60d5075d61da33b128b1dbadce5dd86d23f1ab720af0f60f",
+      "width": 256,
+      "height": 256,
+      "reused": false
+    }
+  ]
+}

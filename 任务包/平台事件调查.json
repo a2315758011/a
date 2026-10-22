@@ -1,0 +1,37 @@
+{
+  "taskId": "PLAT-002",
+  "status": "BLOCKED",
+  "assignee": null,
+  "claimCount": 0,
+  "projectId": "live-turret-defense",
+  "dependsOn": [
+    "PLAT-001"
+  ],
+  "writeAllowlist": [
+    "对标与平台核查.md",
+    "验收证据/直播平台/*"
+  ],
+  "instructionRefs": [
+    {
+      "name": "AI小游戏制作总指令",
+      "url": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.1",
+      "blobSha": "13816e8bb3f780515c7826b175285fa20df2861d",
+      "sha256": "UNKNOWN",
+      "chapters": [
+        "01",
+        "02",
+        "09",
+        "11",
+        "12",
+        "14"
+      ]
+    }
+  ],
+  "nextAction": "在官方开发者文档和获授权的测试账号中验证是否有准确的进房和离房事件；如不支持，定为评论指令进退的适配层并记录平台限制",
+  "acceptance": "获得实际事件schema及测试日志，或证实后备交互路径并保留未支持声明",
+  "forbidden": [
+    "不得使用未授权抓包",
+    "不得把礼物/点赞事件冒充进房事件"
+  ]
+}

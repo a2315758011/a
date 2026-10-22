@@ -1,0 +1,129 @@
+{
+  "events": [
+    {
+      "method": "Network.loadingFailed",
+      "params": {
+        "requestId": "8B44FAF6D49BA736825E5F2AB222D935",
+        "timestamp": 21049.310924,
+        "type": "Document",
+        "errorText": "net::ERR_ABORTED",
+        "canceled": true
+      }
+    }
+  ],
+  "evals": [
+    {
+      "expr": "location.href",
+      "response": {
+        "id": 8,
+        "result": {
+          "result": {
+            "type": "string",
+            "value": "chrome-extension://iikmkjmpaadaobahmlepeloendndfphd/offscreen.html"
+          }
+        }
+      }
+    },
+    {
+      "expr": "document.readyState",
+      "response": {
+        "id": 9,
+        "result": {
+          "result": {
+            "type": "string",
+            "value": "complete"
+          }
+        }
+      }
+    },
+    {
+      "expr": "document.body&&document.body.innerText",
+      "response": {
+        "id": 10,
+        "result": {
+          "result": {
+            "type": "string",
+            "value": ""
+          }
+        }
+      }
+    },
+    {
+      "expr": "Array.from(document.scripts).map(s=>s.src)",
+      "response": {
+        "id": 11,
+        "result": {
+          "result": {
+            "type": "object",
+            "value": [
+              "chrome-extension://iikmkjmpaadaobahmlepeloendndfphd/offscreen.js"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "expr": "typeof cc",
+      "response": {
+        "id": 12,
+        "result": {
+          "result": {
+            "type": "string",
+            "value": "undefined"
+          }
+        }
+      }
+    },
+    {
+      "expr": "typeof System",
+      "response": {
+        "id": 13,
+        "result": {
+          "result": {
+            "type": "string",
+            "value": "undefined"
+          }
+        }
+      }
+    },
+    {
+      "expr": "!!document.querySelector('canvas')",
+      "response": {
+        "id": 14,
+        "result": {
+          "result": {
+            "type": "boolean",
+            "value": false
+          }
+        }
+      }
+    },
+    {
+      "expr": "typeof cc!=='undefined'&&cc.director?String(cc.director.getScene()&&cc.director.getScene().name):'no-director'",
+      "response": {
+        "id": 15,
+        "result": {
+          "result": {
+            "type": "string",
+            "value": "no-director"
+          }
+        }
+      }
+    },
+    {
+      "expr": "(()=>{try{const s=cc.director.getScene(),n=s&&s.getChildByName('候选美术战场画布');return {scene:s&&s.name,node:!!n,children:n&&n.children.map(x=>x.name),components:n&&n.components.map(c=>c.__classname__||c.constructor?.name)}}catch(e){return {caught:String(e),stack:e.stack}}})()",
+      "response": {
+        "id": 16,
+        "result": {
+          "result": {
+            "type": "object",
+            "value": {
+              "caught": "ReferenceError: cc is not defined",
+              "stack": "ReferenceError: cc is not defined\n    at <anonymous>:1:19\n    at <anonymous>:1:271"
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+* text=auto
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.webp -text
+*.gif -text
+*.mp4 -text
+*.mov -text
+*.wav -text
+*.mp3 -text
+*.zip -text
+*.7z -text
+*.psd -text

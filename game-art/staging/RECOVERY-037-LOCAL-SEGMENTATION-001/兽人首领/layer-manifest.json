@@ -1,0 +1,97 @@
+{
+  "assetId": "td-v5-boss-offline-layers-001",
+  "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\evidence\\RECOVERY-034-TOPDOWN-BOSS-MASTER-B\\兽人首领_顶视MasterB_128.png",
+  "sourceSha256": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4",
+  "cleanedMagentaPixels": 0,
+  "canvas": [
+    128,
+    128
+  ],
+  "anchor": {
+    "x": 64.0,
+    "y": 99.84,
+    "meaning": "bottom-center ground contact; verify in engine before promotion"
+  },
+  "layers": [
+    {
+      "name": "兽人首领_身体护甲_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人首领\\兽人首领_身体护甲_母图层.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        45,
+        57,
+        85,
+        94
+      ],
+      "opaquePixels": 958,
+      "sha256": "a35f585df0f91e0840d5caa74e91568f46ac2b18cb34b29a899fc093791f0a2b"
+    },
+    {
+      "name": "兽人首领_头部双臂_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人首领\\兽人首领_头部双臂_母图层.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        20,
+        27,
+        113,
+        85
+      ],
+      "opaquePixels": 2609,
+      "sha256": "dc0f31750c6d931cf130a163f50c9704c865f92e6ffc63cce6ce60b3eb427029"
+    },
+    {
+      "name": "兽人首领_武器配件_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人首领\\兽人首领_武器配件_母图层.png",
+      "size": [
+        128,
+        128
+      ],
+      "bbox": [
+        8,
+        52,
+        120,
+        101
+      ],
+      "opaquePixels": 1199,
+      "sha256": "e0c25b31e014382e5e9ec5aebd151b6c88457e752fe6daffdfd0282d2a40be90"
+    }
+  ],
+  "detachedBodyComponentsReassigned": [
+    {
+      "area": 1,
+      "centroid": [
+        93.0,
+        41.0
+      ],
+      "to": "head_arms"
+    },
+    {
+      "area": 33,
+      "centroid": [
+        92.33,
+        83.73
+      ],
+      "to": "weapon_accessory"
+    },
+    {
+      "area": 46,
+      "centroid": [
+        10.67,
+        94.85
+      ],
+      "to": "weapon_accessory"
+    }
+  ],
+  "composite": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人首领\\兽人首领_三层重组.png",
+  "compositeSha256": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4",
+  "pixelMismatchCount": 0,
+  "technicalStatus": "PASS_EXACT_RECOMPOSITION",
+  "preview": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人首领\\兽人首领_三层预览.png",
+  "note": "Editable semantic segmentation derived offline from existing top-down master. Recomposition is pixel-exact after clearing known magenta residue. This is a layer-source candidate, not a completed animation set or human-approved art."
+}

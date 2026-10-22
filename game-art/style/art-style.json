@@ -1,0 +1,127 @@
+{
+  "version": "1.0",
+  "projectId": "live-turret-defense",
+  "visualIdentity": "original-topdown-native-pixel-art",
+  "status": "V5 production candidate; human art sign-off pending",
+  "camera": {
+    "type": "orthographic 2D",
+    "view": "strict 90-degree overhead",
+    "forbid": [
+      "isometric",
+      "45-degree oblique",
+      "3D perspective"
+    ]
+  },
+  "rendering": {
+    "medium": "hand-authored native pixel art",
+    "pixelGrid": 3,
+    "nearestNeighbor": true,
+    "crispClusters": true,
+    "outline": "dark 1-2px selective outline",
+    "antiAliasing": false
+  },
+  "palette": {
+    "background": [
+      "#243B32",
+      "#354D3A",
+      "#536348"
+    ],
+    "stone": [
+      "#4B5557",
+      "#737A70"
+    ],
+    "metal": [
+      "#343D4A",
+      "#727A80"
+    ],
+    "brass": [
+      "#C78D3B",
+      "#F0C46B"
+    ],
+    "energyCyan": [
+      "#42D8EE",
+      "#83F6FF"
+    ],
+    "magma": [
+      "#E95E37",
+      "#FFB34A"
+    ],
+    "orcSkin": [
+      "#69934D",
+      "#9FCB67"
+    ],
+    "ui": [
+      "#18283B",
+      "#273E56",
+      "#E8B85D",
+      "#48D7EB"
+    ]
+  },
+  "unitScale": {
+    "towerFootprintPx": [
+      40,
+      64
+    ],
+    "gruntBodyPx": [
+      28,
+      40
+    ],
+    "bossBodyPx": [
+      42,
+      60
+    ],
+    "coreBodyPx": [
+      56,
+      78
+    ],
+    "rule": "The view is a window into a larger world; do not scale all units up to fill a phone screen."
+  },
+  "battlefield": {
+    "mapLargerThanViewport": true,
+    "protectedObjective": "one cyan faceted energy crystal on a low stone-metal plinth",
+    "towerTypes": [
+      "yellow twin-barrel rapid-fire turret",
+      "red-orange single-barrel heavy mortar",
+      "short squat cyan frost sprayer; never a crystal tower"
+    ],
+    "enemyFlow": "four cardinal directions toward the protected core",
+    "terrain": "seamless dark mossy stone and grass, subtle low-contrast texture"
+  },
+  "ui": {
+    "language": "Chinese labels are rendered by Cocos Label, never baked into generated art",
+    "shape": "compact beveled stone-metal panels, navy base, brass edge, cyan energy highlights",
+    "avoid": [
+      "web-style flat rectangles",
+      "giant buttons",
+      "AI-generated text",
+      "watermarks"
+    ]
+  },
+  "referenceLock": {
+    "file": "game-art/evidence/ART-PIPELINE-V5-001/references/玩法总览图-v0.4.png",
+    "use": "palette richness and handcrafted pixel quality only",
+    "doNotCopy": [
+      "exact scene composition",
+      "camera perspective",
+      "existing UI",
+      "any exact sprite design"
+    ]
+  },
+  "targetPlatforms": [
+    "Cocos Creator 3.8.2",
+    "Android",
+    "WeChat Mini Game",
+    "Douyin Mini Game"
+  ],
+  "targetViewport": [
+    540,
+    960
+  ],
+  "runtime": {
+    "atlasSize": 2048,
+    "transparentSprites": true,
+    "paddingPx": 2,
+    "extrudePx": 1,
+    "rotation": false
+  }
+}

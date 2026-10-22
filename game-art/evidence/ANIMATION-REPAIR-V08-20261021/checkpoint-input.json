@@ -1,0 +1,31 @@
+{
+  "status": "blocked",
+  "task": "V08 animation upload repair; retain RECOVERY-024 settlement recovery",
+  "resumePoint": "V08 animation upload: actual Gateway e5ceea17-83bc-4b1c-b10c-0878458e8cd1 failed before submit at upload-reference: Could not find node with given id. Candidate based on live0f5c3a6e upload-only patch;10 regression +3 real local Edge DOM +4 query tests PASS. No website generation acceptance or replacement. Candidate50915b94 not deployed:6 severe incidents unverified and no image-to-canvas proof. Original117948/18130 job recovered after other isolated duplicate overwrote discovery; no resubmit. Read AI小游戏实战营/AI小游戏制作工程文件/直播炮塔守城/game-art/evidence/ANIMATION-REPAIR-V08-20261021/HANDOFF.md. Next: satisfy official release gate, controlled deploy merged current candidate, real reference upload/keypose validation, then batch and Cocos playback before promotion.\n\nPreserved prior recovery: RECOVERY-024 is design-ready but asset-blocked. Existing V5 style bible reviewed; current battle result screen only changes top title and lacks a dedicated settlement modal. Wrote game-art/briefs/RECOVERY-024-结算弹层设计规格.json and prompt game-art/briefs/RECOVERY-024-结算面板底板提示词.txt. Shared Gateway job 869b6e0c-0b92-40ab-b28b-10b3c1485a1d failed at mode-prepare with NO_ROUTE_AFTER_PRE_SUBMIT_FAILURE because Doubao Work mode was not ready; submitted=false, no artifacts. Project rule forbids retrying this same image task after mode-prepare failure, so no duplicate submit was made. Next safe choice: prototype using existing approved candidate assets or wait for a separately authorized generation route; do not integrate into formal scene/Prefab before user art sign-off.",
+  "modifiedFiles": [
+    "game-art/briefs/RECOVERY-024-结算面板底板提示词.txt",
+    "game-art/briefs/RECOVERY-024-结算弹层设计规格.json",
+    "game-art/evidence/RECOVERY-024-结算UI生图失败记录.json",
+    "AI小游戏实战营/AI小游戏制作工程文件/直播炮塔守城/game-art/evidence/ANIMATION-REPAIR-V08-20261021/HANDOFF.md",
+    "AI小游戏实战营/AI小游戏制作工程文件/直播炮塔守城/game-art/evidence/ANIMATION-REPAIR-V08-20261021/task-contract.json"
+  ],
+  "completed": [
+    "Reviewed V5 art style and identified missing dedicated settlement UI",
+    "Wrote settlement modal design spec with win/lose states and real reset interaction contract",
+    "Checked shared Generation Gateway health",
+    "Recorded image-generation failure and confirmed no artifact/no submission",
+    "Did not retry failed mode-prepare task",
+    "Formal scene/Prefab/source untouched",
+    "V08 upload failure reproduced, upload candidate and17 targeted checks complete; not deployed"
+  ],
+  "pending": [
+    "Choose an existing-asset prototype or wait for separately authorized image-generation route",
+    "Implement settlement modal in isolated Cocos candidate only",
+    "Test win/lose modal interactions and restart",
+    "Get V5 art sign-off before formal integration",
+    "Android/WeChat/Douyin real-device and livestream tests",
+    "1000-tower performance",
+    "V08 official release gate, real provider upload/generation, semantic animation review, Cocos replacement pending"
+  ],
+  "note": "V08 animation upload: actual Gateway e5ceea17-83bc-4b1c-b10c-0878458e8cd1 failed before submit at upload-reference: Could not find node with given id. Candidate based on live0f5c3a6e upload-only patch;10 regression +3 real local Edge DOM +4 query tests PASS. No website generation acceptance or replacement. Candidate50915b94 not deployed:6 severe incidents unverified and no image-to-canvas proof. Original117948/18130 job recovered after other isolated duplicate overwrote discovery; no resubmit. Read AI小游戏实战营/AI小游戏制作工程文件/直播炮塔守城/game-art/evidence/ANIMATION-REPAIR-V08-20261021/HANDOFF.md. Next: satisfy official release gate, controlled deploy merged current candidate, real reference upload/keypose validation, then batch and Cocos playback before promotion."
+}

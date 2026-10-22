@@ -1,0 +1,13 @@
+{
+  "taskId": "RECOVERY-034-TOPDOWN-BOSS-LAYERS-B2",
+  "status": "failed_pre_submit",
+  "jobId": "fb4413ec-560a-4d92-9f2c-2f61730744a8",
+  "stage": "upload-reference",
+  "code": "WEB_GENERATION_FAILED",
+  "message": "Could not find node with given id",
+  "accountId": "3543a1e7-d6ee-42d4-9fcf-4c4187657973",
+  "submitted": false,
+  "submitLocked": false,
+  "artifacts": [],
+  "conclusion": "Two independent ChatGPT accounts failed at the same pre-submit upload-reference stage; stop account-churn retries. Layer production remains blocked by reference-upload automation."
+}

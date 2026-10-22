@@ -1,0 +1,1857 @@
+{
+  "task": "RECOVERY-034",
+  "test": "V5 pixel FX real battle runtime",
+  "viewport": [
+    360,
+    780
+  ],
+  "checks": {
+    "allFxLoaded": true,
+    "upgradeFxRealClick": true,
+    "realShotFx": true,
+    "naturalCoreDamage": true,
+    "crystalHitFxOnNaturalDamage": true,
+    "noJsErrors": true
+  },
+  "errors": [],
+  "samples": [
+    {
+      "t": 9.27,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 9.39,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 9.52,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 9.64,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 9.76,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 9.88,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 10.0,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 10.12,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 10.25,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 10.37,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 10.49,
+      "hp": 100,
+      "wave": 1,
+      "kills": 0,
+      "coreFx": false
+    },
+    {
+      "t": 10.61,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 10.73,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 10.85,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 10.97,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 11.1,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 11.22,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 11.34,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 11.46,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 11.58,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 11.71,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 11.83,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 11.95,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 12.07,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 12.2,
+      "hp": 100,
+      "wave": 1,
+      "kills": 1,
+      "coreFx": false
+    },
+    {
+      "t": 12.32,
+      "hp": 100,
+      "wave": 1,
+      "kills": 3,
+      "coreFx": false
+    },
+    {
+      "t": 12.44,
+      "hp": 100,
+      "wave": 1,
+      "kills": 3,
+      "coreFx": false
+    },
+    {
+      "t": 12.56,
+      "hp": 100,
+      "wave": 1,
+      "kills": 3,
+      "coreFx": false
+    },
+    {
+      "t": 12.68,
+      "hp": 100,
+      "wave": 1,
+      "kills": 3,
+      "coreFx": false
+    },
+    {
+      "t": 12.8,
+      "hp": 100,
+      "wave": 1,
+      "kills": 3,
+      "coreFx": false
+    },
+    {
+      "t": 12.93,
+      "hp": 100,
+      "wave": 1,
+      "kills": 3,
+      "coreFx": false
+    },
+    {
+      "t": 13.05,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 13.17,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 13.29,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 13.41,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 13.53,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 13.65,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 13.77,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 13.9,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 14.02,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 14.14,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 14.26,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 14.38,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 14.5,
+      "hp": 100,
+      "wave": 1,
+      "kills": 4,
+      "coreFx": false
+    },
+    {
+      "t": 14.62,
+      "hp": 100,
+      "wave": 1,
+      "kills": 5,
+      "coreFx": false
+    },
+    {
+      "t": 14.75,
+      "hp": 100,
+      "wave": 1,
+      "kills": 6,
+      "coreFx": false
+    },
+    {
+      "t": 14.87,
+      "hp": 100,
+      "wave": 1,
+      "kills": 6,
+      "coreFx": false
+    },
+    {
+      "t": 14.99,
+      "hp": 100,
+      "wave": 1,
+      "kills": 7,
+      "coreFx": false
+    },
+    {
+      "t": 15.11,
+      "hp": 100,
+      "wave": 1,
+      "kills": 7,
+      "coreFx": false
+    },
+    {
+      "t": 15.23,
+      "hp": 100,
+      "wave": 1,
+      "kills": 7,
+      "coreFx": false
+    },
+    {
+      "t": 15.36,
+      "hp": 100,
+      "wave": 1,
+      "kills": 8,
+      "coreFx": false
+    },
+    {
+      "t": 15.48,
+      "hp": 100,
+      "wave": 1,
+      "kills": 9,
+      "coreFx": false
+    },
+    {
+      "t": 15.61,
+      "hp": 100,
+      "wave": 1,
+      "kills": 9,
+      "coreFx": false
+    },
+    {
+      "t": 15.73,
+      "hp": 100,
+      "wave": 1,
+      "kills": 10,
+      "coreFx": false
+    },
+    {
+      "t": 15.85,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 15.97,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 16.09,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 16.22,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 16.34,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 16.46,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 16.58,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 16.7,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 16.82,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 16.94,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 17.06,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 17.19,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 17.31,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 17.43,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 17.55,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 17.67,
+      "hp": 100,
+      "wave": 1,
+      "kills": 11,
+      "coreFx": false
+    },
+    {
+      "t": 17.79,
+      "hp": 100,
+      "wave": 1,
+      "kills": 12,
+      "coreFx": false
+    },
+    {
+      "t": 17.92,
+      "hp": 100,
+      "wave": 1,
+      "kills": 12,
+      "coreFx": false
+    },
+    {
+      "t": 18.04,
+      "hp": 100,
+      "wave": 1,
+      "kills": 12,
+      "coreFx": false
+    },
+    {
+      "t": 18.16,
+      "hp": 100,
+      "wave": 1,
+      "kills": 12,
+      "coreFx": false
+    },
+    {
+      "t": 18.28,
+      "hp": 100,
+      "wave": 1,
+      "kills": 12,
+      "coreFx": false
+    },
+    {
+      "t": 18.4,
+      "hp": 100,
+      "wave": 1,
+      "kills": 12,
+      "coreFx": false
+    },
+    {
+      "t": 18.53,
+      "hp": 100,
+      "wave": 1,
+      "kills": 13,
+      "coreFx": false
+    },
+    {
+      "t": 18.65,
+      "hp": 100,
+      "wave": 1,
+      "kills": 13,
+      "coreFx": false
+    },
+    {
+      "t": 18.77,
+      "hp": 100,
+      "wave": 1,
+      "kills": 13,
+      "coreFx": false
+    },
+    {
+      "t": 18.89,
+      "hp": 100,
+      "wave": 1,
+      "kills": 14,
+      "coreFx": false
+    },
+    {
+      "t": 19.01,
+      "hp": 100,
+      "wave": 1,
+      "kills": 15,
+      "coreFx": false
+    },
+    {
+      "t": 19.13,
+      "hp": 100,
+      "wave": 1,
+      "kills": 15,
+      "coreFx": false
+    },
+    {
+      "t": 19.25,
+      "hp": 100,
+      "wave": 1,
+      "kills": 16,
+      "coreFx": false
+    },
+    {
+      "t": 19.38,
+      "hp": 100,
+      "wave": 1,
+      "kills": 17,
+      "coreFx": false
+    },
+    {
+      "t": 19.5,
+      "hp": 100,
+      "wave": 1,
+      "kills": 17,
+      "coreFx": false
+    },
+    {
+      "t": 19.62,
+      "hp": 100,
+      "wave": 1,
+      "kills": 17,
+      "coreFx": false
+    },
+    {
+      "t": 19.74,
+      "hp": 100,
+      "wave": 1,
+      "kills": 17,
+      "coreFx": false
+    },
+    {
+      "t": 19.86,
+      "hp": 100,
+      "wave": 1,
+      "kills": 17,
+      "coreFx": false
+    },
+    {
+      "t": 19.98,
+      "hp": 100,
+      "wave": 1,
+      "kills": 17,
+      "coreFx": false
+    },
+    {
+      "t": 20.11,
+      "hp": 100,
+      "wave": 1,
+      "kills": 17,
+      "coreFx": false
+    },
+    {
+      "t": 20.23,
+      "hp": 100,
+      "wave": 1,
+      "kills": 18,
+      "coreFx": false
+    },
+    {
+      "t": 20.35,
+      "hp": 100,
+      "wave": 1,
+      "kills": 18,
+      "coreFx": false
+    },
+    {
+      "t": 20.47,
+      "hp": 100,
+      "wave": 1,
+      "kills": 18,
+      "coreFx": false
+    },
+    {
+      "t": 20.59,
+      "hp": 100,
+      "wave": 1,
+      "kills": 18,
+      "coreFx": false
+    },
+    {
+      "t": 20.71,
+      "hp": 100,
+      "wave": 1,
+      "kills": 19,
+      "coreFx": false
+    },
+    {
+      "t": 20.84,
+      "hp": 100,
+      "wave": 1,
+      "kills": 19,
+      "coreFx": false
+    },
+    {
+      "t": 20.96,
+      "hp": 100,
+      "wave": 1,
+      "kills": 19,
+      "coreFx": false
+    },
+    {
+      "t": 21.08,
+      "hp": 100,
+      "wave": 1,
+      "kills": 19,
+      "coreFx": false
+    },
+    {
+      "t": 21.2,
+      "hp": 100,
+      "wave": 1,
+      "kills": 19,
+      "coreFx": false
+    },
+    {
+      "t": 21.32,
+      "hp": 100,
+      "wave": 1,
+      "kills": 19,
+      "coreFx": false
+    },
+    {
+      "t": 21.44,
+      "hp": 100,
+      "wave": 1,
+      "kills": 20,
+      "coreFx": false
+    },
+    {
+      "t": 21.57,
+      "hp": 100,
+      "wave": 1,
+      "kills": 20,
+      "coreFx": false
+    },
+    {
+      "t": 21.69,
+      "hp": 100,
+      "wave": 1,
+      "kills": 20,
+      "coreFx": false
+    },
+    {
+      "t": 21.81,
+      "hp": 100,
+      "wave": 1,
+      "kills": 20,
+      "coreFx": false
+    },
+    {
+      "t": 21.93,
+      "hp": 100,
+      "wave": 1,
+      "kills": 20,
+      "coreFx": false
+    },
+    {
+      "t": 22.05,
+      "hp": 100,
+      "wave": 1,
+      "kills": 20,
+      "coreFx": false
+    },
+    {
+      "t": 22.17,
+      "hp": 100,
+      "wave": 1,
+      "kills": 21,
+      "coreFx": false
+    },
+    {
+      "t": 22.3,
+      "hp": 100,
+      "wave": 1,
+      "kills": 21,
+      "coreFx": false
+    },
+    {
+      "t": 22.42,
+      "hp": 100,
+      "wave": 1,
+      "kills": 21,
+      "coreFx": false
+    },
+    {
+      "t": 22.54,
+      "hp": 100,
+      "wave": 1,
+      "kills": 21,
+      "coreFx": false
+    },
+    {
+      "t": 22.66,
+      "hp": 100,
+      "wave": 1,
+      "kills": 21,
+      "coreFx": false
+    },
+    {
+      "t": 22.79,
+      "hp": 100,
+      "wave": 1,
+      "kills": 21,
+      "coreFx": false
+    },
+    {
+      "t": 22.91,
+      "hp": 100,
+      "wave": 1,
+      "kills": 22,
+      "coreFx": false
+    },
+    {
+      "t": 23.03,
+      "hp": 100,
+      "wave": 1,
+      "kills": 22,
+      "coreFx": false
+    },
+    {
+      "t": 23.15,
+      "hp": 100,
+      "wave": 1,
+      "kills": 22,
+      "coreFx": false
+    },
+    {
+      "t": 23.27,
+      "hp": 100,
+      "wave": 1,
+      "kills": 22,
+      "coreFx": false
+    },
+    {
+      "t": 23.39,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 23.51,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 23.64,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 23.76,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 23.88,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.0,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.12,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.24,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.37,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.49,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.61,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.73,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.85,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 24.97,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 25.1,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 25.22,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 25.34,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 25.46,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 25.58,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 25.7,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 25.83,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 25.95,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 26.07,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 26.19,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 26.31,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 26.43,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 26.55,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 26.68,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 26.8,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 26.92,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 27.04,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 27.16,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 27.28,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 27.41,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 27.53,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 27.65,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 27.77,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 27.89,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.01,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.14,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.26,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.38,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.5,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.62,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.74,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.86,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 28.98,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 29.11,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 29.23,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 29.35,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 29.47,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 29.59,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 29.71,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 29.84,
+      "hp": 100,
+      "wave": 1,
+      "kills": 23,
+      "coreFx": false
+    },
+    {
+      "t": 29.96,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 30.08,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 30.2,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 30.32,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 30.44,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 30.57,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 30.69,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 30.81,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 30.93,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 31.05,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 31.17,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 31.3,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 31.42,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 31.54,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 31.66,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 31.78,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 31.9,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 32.03,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 32.15,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 32.27,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 32.39,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 32.51,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 32.63,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 32.75,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 32.87,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.0,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.12,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.24,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.36,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.49,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.61,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.73,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.85,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 33.97,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 34.09,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 34.22,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 34.34,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 34.46,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 34.58,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 34.7,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 34.82,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 34.95,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 35.07,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 35.19,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 35.31,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 35.43,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 35.55,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 35.68,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 35.8,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 35.92,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 36.04,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 36.16,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 36.28,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 36.41,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 36.53,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 36.65,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 36.77,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 36.89,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 37.02,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 37.14,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 37.26,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 37.38,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 37.5,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 37.62,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 37.74,
+      "hp": 100,
+      "wave": 2,
+      "kills": 24,
+      "coreFx": false
+    },
+    {
+      "t": 37.87,
+      "hp": 100,
+      "wave": 2,
+      "kills": 25,
+      "coreFx": false
+    },
+    {
+      "t": 37.99,
+      "hp": 100,
+      "wave": 2,
+      "kills": 25,
+      "coreFx": false
+    },
+    {
+      "t": 38.11,
+      "hp": 100,
+      "wave": 2,
+      "kills": 25,
+      "coreFx": false
+    },
+    {
+      "t": 38.23,
+      "hp": 100,
+      "wave": 2,
+      "kills": 25,
+      "coreFx": false
+    },
+    {
+      "t": 38.35,
+      "hp": 100,
+      "wave": 2,
+      "kills": 25,
+      "coreFx": false
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "01-真实点击升级FX.png",
+      "bytes": 364221,
+      "sha256": "22EFA83FBAF3B4B0EC32D31161C0FECDE5538814F3F1FB705F5D4D30A0C27DDD"
+    },
+    {
+      "file": "02-真实战斗像素弹道FX.png",
+      "bytes": 367328,
+      "sha256": "F0571F72E16A6348AF70ED014E3721760BF5BE912337E04ED6F9BEC4145B9FDB"
+    },
+    {
+      "file": "03-自然水晶受击FX.png",
+      "bytes": 369602,
+      "sha256": "D9EA9BB3C64A120ABFD24AE8202DDBA8AC21E870FCA264D179D22ED99899E095"
+    }
+  ],
+  "startedAt": "2026-10-22T04:34:19",
+  "transient": [
+    "Uncaught"
+  ],
+  "initial": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "maxHP": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "shots": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "useCandidate": true,
+      "fxLoaded": 8,
+      "shotPool": 0,
+      "activeShotFx": 0,
+      "projectiles": 0,
+      "muzzles": 0,
+      "impacts": 0,
+      "upgradeFx": 0,
+      "crystalHitFx": false
+    },
+    "menu": true
+  },
+  "actions": [
+    {
+      "name": "开始守城",
+      "x": 180,
+      "y": 527,
+      "t": 3.08
+    },
+    {
+      "name": "缩小镜头",
+      "x": 273,
+      "y": 71,
+      "t": 3.38
+    },
+    {
+      "name": "观众加入",
+      "x": 111,
+      "y": 716,
+      "t": 3.51
+    },
+    {
+      "name": "礼物升级",
+      "x": 188,
+      "y": 716,
+      "t": 3.73
+    }
+  ],
+  "upgradeObserved": {
+    "game": {
+      "state": "running",
+      "hp": 100,
+      "maxHP": 100,
+      "wave": 1,
+      "towers": 10,
+      "kills": 0,
+      "enemies": 0,
+      "shots": 0,
+      "time": 0.7
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "useCandidate": true,
+      "fxLoaded": 8,
+      "shotPool": 0,
+      "activeShotFx": 0,
+      "projectiles": 0,
+      "muzzles": 0,
+      "impacts": 0,
+      "upgradeFx": 1,
+      "crystalHitFx": false
+    },
+    "menu": false
+  },
+  "firingObserved": {
+    "game": {
+      "state": "running",
+      "hp": 100,
+      "maxHP": 100,
+      "wave": 1,
+      "towers": 10,
+      "kills": 0,
+      "enemies": 11,
+      "shots": 1,
+      "time": 6.066666666666655
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "useCandidate": true,
+      "fxLoaded": 8,
+      "shotPool": 1,
+      "activeShotFx": 1,
+      "projectiles": 1,
+      "muzzles": 1,
+      "impacts": 0,
+      "upgradeFx": 0,
+      "crystalHitFx": false
+    },
+    "menu": false
+  },
+  "coreHitObserved": {
+    "game": {
+      "state": "running",
+      "hp": 94,
+      "maxHP": 100,
+      "wave": 2,
+      "towers": 10,
+      "kills": 45,
+      "enemies": 11,
+      "shots": 3,
+      "time": 47.066666666666556
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "useCandidate": true,
+      "fxLoaded": 8,
+      "shotPool": 7,
+      "activeShotFx": 3,
+      "projectiles": 2,
+      "muzzles": 1,
+      "impacts": 2,
+      "upgradeFx": 0,
+      "crystalHitFx": true
+    },
+    "menu": false
+  },
+  "result": "PASS",
+  "durationSeconds": 51.26,
+  "finishedAt": "2026-10-22T04:35:13"
+}

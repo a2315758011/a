@@ -1,0 +1,82 @@
+{
+  "taskId": "CORE-DESIGN-001",
+  "taskVersion": 1,
+  "projectId": "live-turret-defense",
+  "status": "IMPLEMENTED",
+  "assignee": "agent-gpt6-turret-core-fix-20261012",
+  "plannedOwner": "AI玩法与美术总管",
+  "attemptId": "CORE-DESIGN-001-20261012-01",
+  "reviewMode": "SELF_REVIEW",
+  "intent": "解决玩家没有要守护的对象、晶体炮塔与守护水晶形象混淆",
+  "inputArtifacts": [
+    {
+      "path": "立项规则草案.md"
+    },
+    {
+      "path": "美术规范/三款基础炮塔-正式美术规格候选-v0.1.md",
+      "sha256": "f7cd8be4ba5880b8be96c041e85423ea8afac3d8e59c989195d44f0bffcfb85a"
+    },
+    {
+      "path": "美术规范/炮塔资源合同-v0.1.json",
+      "sha256": "6fa0a4b55f57e7535b9b64846ef8330364b0e965d9034bca45662b241cf57e19"
+    }
+  ],
+  "instructionRefs": [
+    {
+      "source": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.3",
+      "gitBlobSha": "5d7e40c3a34873314eed9285313332243a9fa6db",
+      "chapters": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "09",
+        "10",
+        "12",
+        "13",
+        "14"
+      ],
+      "sha256": "NOT_AVAILABLE_AS_IMMUTABLE_PROJECT_SNAPSHOT"
+    }
+  ],
+  "predecessors": [],
+  "note": "这是G0前的非制作性策划缺陷补救；正式源码、实图和资源量产仍由G0/G1质量门约束。",
+  "writeAllowlist": [
+    "美术规范/三炮塔与城防能量水晶完整设计-v0.2.md",
+    "美术规范/炮塔与守护目标资源合同-v0.2.json",
+    "美术规范/保护目标规格校验.py",
+    "项目索引.md",
+    "任务榜单.md",
+    "立项规则草案.md",
+    "决策记录.md",
+    "接管记录.md",
+    "工程目录说明.md",
+    "验收证据/保护目标设计修订核查.md",
+    "任务包/CORE-DESIGN-001-保护目标纠偏.json"
+  ],
+  "conflictResources": [
+    "project:live-turret-defense:art-spec",
+    "project:live-turret-defense:project-index",
+    "project:live-turret-defense:task-board",
+    "project:live-turret-defense:handoff",
+    "project:live-turret-defense:decisions"
+  ],
+  "output": [
+    "美术规范/三炮塔与城防能量水晶完整设计-v0.2.md",
+    "美术规范/炮塔与守护目标资源合同-v0.2.json",
+    "美术规范/保护目标规格校验.py"
+  ],
+  "tests": {
+    "newContract": "PASS_STATIC_ONLY",
+    "oldContract": "FAIL_EXPECTED_MISSING_CORE",
+    "engineRuntime": "UNVERIFIED",
+    "artAssets": "NOT_PRODUCED",
+    "userVisualApproval": "UNVERIFIED",
+    "handOff": "documented_not_downstream_accepted"
+  },
+  "decision": "3 tower types remain, core is separate fourth object, frost tower becomes mechanical cold sprayer, ID tower_frost preserved",
+  "readmeGate": "G0 remains blocked until reference and actual gameplay PNG",
+  "nextAction": "完成BEN-001/真实项目玩法总览图并核实官方平台进退场权限。不能先产生炮塔量产任务。"
+}

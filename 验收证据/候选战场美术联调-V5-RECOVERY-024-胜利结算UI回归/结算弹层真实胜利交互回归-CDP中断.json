@@ -1,0 +1,26 @@
+{
+  "test": "RECOVERY-024 real-input V5 natural win, settlement overlay and restart",
+  "method": "Real mouse actions only; read-only in-page observer samples animation states every 40ms; isolated candidate build; no controller/game state writes",
+  "startedAt": "2026-10-20T19:18:30",
+  "actions": [],
+  "hostSamples": [],
+  "events": [],
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "screenshots": [],
+  "result": "ERROR",
+  "exception": "ConnectionClosedError(None, None, None)",
+  "stack": "Traceback (most recent call last):\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\websockets\\sync\\connection.py\", line 814, in recv_events\n    data = self.socket.recv(self.recv_bufsize)\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_settlement_win_ui_024.py\", line 96, in <module>\n    initial=wait_for(lambda q:q and q.get(\"game\",{}).get(\"state\")==\"ready\" and q.get(\"art\",{}).get(\"ready\"),35,.25)\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_settlement_win_ui_024.py\", line 79, in wait_for\n    q=state()\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_settlement_win_ui_024.py\", line 75, in state\n    def state():return evaljs(state_expr)\n                       ~~~~~~^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_settlement_win_ui_024.py\", line 70, in evaljs\n    response=call(\"Runtime.evaluate\",{\"expression\":expression,\"returnByValue\":True},timeout=timeout)\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_settlement_win_ui_024.py\", line 57, in call\n    msg=json.loads(sock.recv(timeout=max(.05,deadline-time.monotonic())))\n                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\websockets\\sync\\connection.py\", line 336, in recv\n    raise self.protocol.close_exc from self.recv_exc\nwebsockets.exceptions.ConnectionClosedError: no close frame received or sent\n",
+  "durationSeconds": 2.25,
+  "finishedAt": "2026-10-20T19:18:33",
+  "summary": {
+    "hostPollCount": 0,
+    "events": [],
+    "coverage": {},
+    "coverageFlags": {},
+    "consoleErrorCount": 0,
+    "lastGame": null,
+    "settlementUI": null,
+    "restartUI": null
+  }
+}

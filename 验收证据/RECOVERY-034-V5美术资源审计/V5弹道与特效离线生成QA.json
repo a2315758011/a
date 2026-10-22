@@ -1,0 +1,113 @@
+{
+  "task": "RECOVERY-034",
+  "generator": "offline-pillow-pixel-vfx",
+  "style": "V5 palette, integer pixel clusters, RGBA transparent",
+  "assets": [
+    {
+      "name": "连珠能量弹",
+      "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\特效\\连珠能量弹.png",
+      "candidate": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\特效\\连珠能量弹.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "D6C1484138562AE77E5AFAE56A278373D60700402B010C130760CB128CBC134B",
+      "transparentRatio": 0.94971,
+      "opaqueRatio": 0.05029,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "pass": true
+    },
+    {
+      "name": "熔芯炮弹",
+      "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\特效\\熔芯炮弹.png",
+      "candidate": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\特效\\熔芯炮弹.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "256C8A959E9CB3FB5BB655B6D0FF6BA5256A985C21167837A4C478B5877FA1C5",
+      "transparentRatio": 0.93311,
+      "opaqueRatio": 0.06689,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "pass": true
+    },
+    {
+      "name": "寒霜弹",
+      "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\特效\\寒霜弹.png",
+      "candidate": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\特效\\寒霜弹.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "6D40F6D56DE1C6CED2109EB8BE61F8226B34B0527385EC1FD8443C869260BA32",
+      "transparentRatio": 0.93359,
+      "opaqueRatio": 0.06641,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "pass": true
+    },
+    {
+      "name": "枪口火花",
+      "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\特效\\枪口火花.png",
+      "candidate": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\特效\\枪口火花.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "463794A59EFA876679F0B77FB6D0CBA015AF05830BEEEA802DF7132FB8DD8D56",
+      "transparentRatio": 0.78613,
+      "opaqueRatio": 0.21387,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "pass": true
+    },
+    {
+      "name": "命中火花",
+      "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\特效\\命中火花.png",
+      "candidate": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\特效\\命中火花.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "09734062DDF9398D3D61FE8A7B6F1E615A8FE36B4305AF5BBA1605EFB5F2DB68",
+      "transparentRatio": 0.88477,
+      "opaqueRatio": 0.11523,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "pass": true
+    },
+    {
+      "name": "熔芯爆炸环",
+      "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\特效\\熔芯爆炸环.png",
+      "candidate": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\特效\\熔芯爆炸环.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "995BF7F71FF5A1875906E787FF73758D8886D296F172094066CBC367C533A9AE",
+      "transparentRatio": 0.86426,
+      "opaqueRatio": 0.13574,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "pass": true
+    },
+    {
+      "name": "寒霜爆裂",
+      "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\特效\\寒霜爆裂.png",
+      "candidate": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\特效\\寒霜爆裂.png",
+      "size": [
+        64,
+        64
+      ],
+      "sha256": "86E28CE42700BB3DF090B0D68D510C50E47F5B58F208E370BC04874D7F5A9DCE",
+      "transparentRatio": 0.84277,
+      "opaqueRatio": 0.15723,
+      "alphaMin": 0,
+      "alphaMax": 255,
+      "pass": true
+    }
+  ],
+  "pass": true
+}

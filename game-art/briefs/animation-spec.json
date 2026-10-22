@@ -1,0 +1,44 @@
+{
+  "version": 1,
+  "frameRate": 9,
+  "frameDurationMs": 110,
+  "units": {
+    "rapid-turret": [
+      "idle: glow pulse",
+      "attack: barrel recoil + muzzle flash",
+      "hurt: brief red/white flash",
+      "death: disabled-state darken + short collapse"
+    ],
+    "heavy-mortar": [
+      "idle: heat pulse",
+      "attack: recoil + orange shell/impact",
+      "hurt: flash",
+      "death: disabled-state collapse"
+    ],
+    "frost-turret": [
+      "idle: cyan emitter pulse",
+      "attack: emitter rotation + frost burst",
+      "hurt: flash",
+      "death: disabled-state darken"
+    ],
+    "energy-crystal": [
+      "idle: slow energy pulse",
+      "hurt: shake + shard flash at health threshold",
+      "death: 8-step shatter effect"
+    ],
+    "orc-grunt": [
+      "idle: breathing bob",
+      "walk: 4-step body bob/foot phase",
+      "attack: weapon swing",
+      "hurt: knockback flash",
+      "death: collapse/fade"
+    ],
+    "orc-boss": [
+      "idle: heavy breathing",
+      "walk: slower body bob",
+      "attack: wide weapon swing",
+      "hurt: knockback flash",
+      "death: longer collapse"
+    ]
+  }
+}

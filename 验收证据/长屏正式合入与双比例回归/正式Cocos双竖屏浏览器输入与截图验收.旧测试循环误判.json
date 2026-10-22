@@ -1,0 +1,33 @@
+{
+  "status": "FAIL",
+  "build": "real Cocos Creator 3.8.2 Web-Mobile official project",
+  "launchScene": "db://assets/场景/候选美术试玩.scene",
+  "screens": [
+    {
+      "target": [
+        540,
+        960
+      ],
+      "status": "FAIL",
+      "consoleErrors": [],
+      "console": [],
+      "error": "CANDIDATE_SPRITES_NOT_READY",
+      "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\合入后正式Cocos双竖屏真实运行.py\", line 90, in <module>\n    assert loaded, 'CANDIDATE_SPRITES_NOT_READY'\n           ^^^^^^\nAssertionError: CANDIDATE_SPRITES_NOT_READY\n",
+      "seconds": 32.5
+    },
+    {
+      "target": [
+        540,
+        1108
+      ],
+      "status": "FAIL",
+      "consoleErrors": [],
+      "console": [],
+      "error": "CANDIDATE_SPRITES_NOT_READY",
+      "trace": "Traceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\合入后正式Cocos双竖屏真实运行.py\", line 90, in <module>\n    assert loaded, 'CANDIDATE_SPRITES_NOT_READY'\n           ^^^^^^\nAssertionError: CANDIDATE_SPRITES_NOT_READY\n",
+      "seconds": 32.7
+    }
+  ],
+  "manualHumanFullRunPreviously": true,
+  "phoneDeviceVerified": false
+}

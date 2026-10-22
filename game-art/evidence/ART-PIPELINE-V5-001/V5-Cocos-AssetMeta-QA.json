@@ -1,0 +1,154 @@
+{
+  "taskId": "ART-PIPELINE-V5-001",
+  "status": "PASS_V5_COCOS_IMAGE_META",
+  "assetCount": 16,
+  "uniqueImageUUIDs": 16,
+  "textureFilter": "nearest",
+  "spriteCanvas": "128x128",
+  "assets": [
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶.png.meta",
+      "uuid": "60ad24d3-8b96-464a-85f3-91ea677b2a59",
+      "sha256": "90e571c8f305aecbfc89071b116f75cea118b6b533a4d86d260d077fa6779309",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_基座.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_基座.png.meta",
+      "uuid": "0244c0cb-b42d-4e75-9eea-9de3cc02f8a8",
+      "sha256": "b21f5f3b3c10f1eaa449ccd9c623cdad022715bcf164e91d688e08c125171c86",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_晶体.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_晶体.png.meta",
+      "uuid": "bc7e967e-e89d-438c-9721-87b00193d553",
+      "sha256": "d1f0e16f56fa1ab8164d6ad15647931a2595121b5458c5929522ef9646093a3d",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_能量符文.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_能量符文.png.meta",
+      "uuid": "80d9f34d-1755-43b4-b694-ea0ba8327e7d",
+      "sha256": "ee6f22d131c76cac13a5e9878b925a92028790808d69c282b1b82ebd5db3e707",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔.png.meta",
+      "uuid": "63002225-70dd-46a8-af6c-0caf323173a5",
+      "sha256": "793117a85bd574adec46e5c19eab0b273d8b2a2cae7e0fb24743b698de3bb308",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_主体.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_主体.png.meta",
+      "uuid": "b01f2f83-f716-4526-b8ac-d20f7391da9a",
+      "sha256": "a4550d8a5e72616b940392677ecd8aa0d5ec8a98267d38c7138d57090d575f6c",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_寒霜喷射器.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_寒霜喷射器.png.meta",
+      "uuid": "77c4dee1-5aec-47e0-984a-e0b0b095e588",
+      "sha256": "327dbca2f0b85be5207ed26b2b6eb11ee49c7142026e469a44eed0499f9f9a4a",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_底座.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_底座.png.meta",
+      "uuid": "488a4e53-1cfd-4861-a283-124c7262849c",
+      "sha256": "2dad4f44fa410ce4762bdbe542c4ab034eae9a558be673b55d7b7010209dc195",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔.png.meta",
+      "uuid": "94e5581e-0a11-4ec3-be88-fca08c70234e",
+      "sha256": "f67a2a6fdc8d419928db82060f5d0cbf6ac64c274c816164f9aecbb310aad4e6",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_主体.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_主体.png.meta",
+      "uuid": "52287bd2-abdd-41d3-a31d-d8ab1a96ec66",
+      "sha256": "9e4628f433cf39a2dbcf9c4708c43eb937da542736dc7bc1771234ee2b9f84ca",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_底座.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_底座.png.meta",
+      "uuid": "166caae8-1496-45e7-bbac-97efe3c6552f",
+      "sha256": "0f8b7aa4453def7f07a72e0ca822904d3101a261fe00ac5611c08bcdfb58801a",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_熔芯炮口.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_熔芯炮口.png.meta",
+      "uuid": "79433fde-ad9f-40f9-bac1-ebf26410fb5b",
+      "sha256": "d99800337f0e342b8c648d1f1e61b48e9ff62244f34d954be7fabeb082851f1d",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔.png.meta",
+      "uuid": "336bb653-0559-43f0-b0f9-3806372d0f6a",
+      "sha256": "0b521c815ea7135c4bbbf74244a804b3590ed3e7989e07b53e0abab0739f0c3c",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_主体.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_主体.png.meta",
+      "uuid": "7f816c83-a97f-45f4-91d5-152f1537f2c2",
+      "sha256": "23a83527b00e5117164a3e14ecf72d9cad7e57201c9353f41561677caae7df4a",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_双炮管.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_双炮管.png.meta",
+      "uuid": "7b5248c2-96c4-4610-ad0a-9b9265812cb7",
+      "sha256": "29f516a84b263f3c6b79e201bc504a3e8536442e28b670203c1d164c3166b886",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_底座.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_底座.png.meta",
+      "uuid": "fc46720a-0058-4b03-8ed8-b95d81f8d50a",
+      "sha256": "3e95efebd55e0c3b108740293ed21afa390d3cad43bfde00cffa87a14dd7698c",
+      "width": 128,
+      "height": 128,
+      "reused": false
+    }
+  ]
+}

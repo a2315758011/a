@@ -1,0 +1,102 @@
+{
+  "taskId": "LAYER-ART-ANIM-V2-002",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-animation-refine-20261018",
+  "status": "STRUCTURAL_QA_PASS_SEMANTIC_REVIEW_PENDING",
+  "reviewMode": "SELF_REVIEW",
+  "dependsOn": [
+    "LAYER-ART-PILOT-001"
+  ],
+  "instructionRefs": [
+    {
+      "uri": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.7",
+      "chapters": [
+        "RULE-03",
+        "RULE-07",
+        "RULE-09",
+        "RULE-10",
+        "RULE-13"
+      ]
+    }
+  ],
+  "allowedWrites": [
+    "美术资源/分层源文件/动作与分层修订-v2/**",
+    "美术资源/分层源文件/分层源文件及动作关键姿态-v2-待审核.zip",
+    "_assistant-temp/修订分层关键姿态-v2.py",
+    "_assistant-temp/修复裁切并打包分层源-v2.py",
+    "_assistant-temp/分层v2全动作复现验收.py",
+    "_assistant-temp/分层v2最终打包隔离复验.py",
+    "任务包/LAYER-ART-ANIM-V2-002.json",
+    "验收证据/LAYER-ART-ANIM-V2-002-关键姿态和分层复现.md"
+  ],
+  "artifacts": {
+    "sourceRoot": "美术资源/分层源文件/动作与分层修订-v2",
+    "package": "美术资源/分层源文件/分层源文件及动作关键姿态-v2-待审核.zip",
+    "packageBytes": 462728,
+    "packageSha256": "feb6839114447b9a9ffc5208276d60c87de5b0c065248311281f9752184575b0",
+    "qaJson": "美术资源/分层源文件/动作与分层修订-v2/导出与图层复现验收.json",
+    "sourceArchiveCount": 5,
+    "realIndependentLayers": 29,
+    "actions": [
+      {
+        "asset": "连珠速射塔",
+        "action": "attack",
+        "frames": 8
+      },
+      {
+        "asset": "熔芯重炮塔",
+        "action": "attack",
+        "frames": 8
+      },
+      {
+        "asset": "寒霜喷射塔",
+        "action": "attack",
+        "frames": 8
+      },
+      {
+        "asset": "城防水晶",
+        "action": "shatter",
+        "frames": 8
+      },
+      {
+        "asset": "兽人小兵",
+        "action": "walk",
+        "frames": 8
+      },
+      {
+        "asset": "兽人小兵",
+        "action": "attack",
+        "frames": 8
+      },
+      {
+        "asset": "兽人小兵",
+        "action": "death",
+        "frames": 8
+      }
+    ]
+  },
+  "acceptance": {
+    "editorSourceFileExist": true,
+    "allORAStructurallyValid": true,
+    "zippedBundleExtractedIntoIsolatedDirectory": true,
+    "animationPNGFrameCount": 56,
+    "uniqueFrameCountPerAction": 8,
+    "completeReconstructionFromExtractedSourceMatch": true,
+    "testRuntime": "Python Pillow 11.3.0 Windows",
+    "criticalFXUpperClip": 0,
+    "legacyV1ZipSHAUnchanged": true,
+    "animationSemantics": "PENDING_ART_REVIEW",
+    "artisticStyle": "PENDING_USER_APPROVAL",
+    "cocosResourceImport": "NOT_DONE",
+    "prefabBinding": "NOT_DONE",
+    "mobileRuntime": "NOT_VERIFIED"
+  },
+  "whyNotApproved": "V2 solves reproducible editable layers and duplicate frames, not final motion aesthetics or Cocos binding. Do not mark G2/G3 passed.",
+  "handoff": "验收证据/LAYER-ART-ANIM-V2-002-关键姿态和分层复现.md",
+  "nextActions": [
+    "Review contact sheet and all 7 GIFs for pose correctness and coherent game style",
+    "Refine any rejected actions in a new separate version, leaving V1/V2 intact",
+    "Once art sample approved, perform isolated Cocos SpriteFrame/Animation integration and runtime screenshot QA"
+  ]
+}

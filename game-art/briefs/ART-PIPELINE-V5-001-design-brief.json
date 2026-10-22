@@ -1,0 +1,37 @@
+{
+  "taskId": "ART-PIPELINE-V5-001",
+  "projectId": "live-turret-defense",
+  "mode": "dynamic",
+  "goal": "Replace visually weak placeholder combat art with a coherent original pixel-art asset family and actually bind it in the Cocos Creator game, without deleting the old V4 assets.",
+  "camera": "Strict 90-degree top-down orthographic 2D; no isometric view.",
+  "artDirection": "Premium handcrafted native pixel-art tower defense; compact readable silhouettes, deep moss/stone terrain, cyan protected crystal, three visually distinct turrets, green orcs, controlled brass/magma accents.",
+  "sourceReference": "game-art/evidence/ART-PIPELINE-V5-001/references/玩法总览图-v0.4.png",
+  "sourceProductionSheets": [
+    {
+      "id": "td-v5-tower-layer-sheet",
+      "ratio": "16:9",
+      "layout": "4 columns × 3 rows",
+      "content": "3 towers and crystal, each composed from 3 aligned layers"
+    },
+    {
+      "id": "td-v5-enemy-layer-sheet",
+      "ratio": "16:9",
+      "layout": "3 columns × 2 rows",
+      "content": "orc grunt and orc boss, each composed from body, head/arms, weapon/accessory"
+    },
+    {
+      "id": "td-v5-ui-sheet",
+      "ratio": "16:9",
+      "layout": "4 columns × 2 rows",
+      "content": "8 blank UI skins/icons, no embedded text"
+    },
+    {
+      "id": "td-v5-ground-tile",
+      "ratio": "1:1",
+      "layout": "single seamless tile",
+      "content": "repeatable top-down battlefield floor"
+    }
+  ],
+  "engine": "Cocos Creator 3.8.2; resources under CocosCreator工程/assets/resources/正式战斗美术-v5; keep all existing V4 files untouched.",
+  "acceptance": "Generated images exist locally; layer cells split into RGBA PNGs with alpha QA; Cocos resource metadata/import succeeds; V5 sprites are visible in a real Cocos battle screenshot; gameplay input, wave, tower count and crystal state remain functional."
+}

@@ -1,0 +1,104 @@
+{
+  "taskId": "ART-PIPELINE-V5-001",
+  "recovery": "RECOVERY-016",
+  "owner": "agent-gpt6-art-recovery-20261020",
+  "projectId": "live-turret-defense",
+  "recordedAt": "2026-10-20T11:40:00+08:00",
+  "candidateOnly": true,
+  "formalMainSceneModified": false,
+  "changedFile": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/脚本/待审战场美术覆盖器.ts",
+  "backupFile": "_assistant-temp/backup-overlay-v5-RECOVERY-016.ts",
+  "scaleChanges": {
+    "tower": {
+      "before": {
+        "base": 0.255,
+        "perLevel": 0.014
+      },
+      "after": {
+        "base": 0.4,
+        "perLevel": 0.018
+      }
+    },
+    "gruntEnemy": {
+      "before": 0.3,
+      "after": 0.42
+    },
+    "bossEnemy": {
+      "before": 0.48,
+      "after": 0.58
+    }
+  },
+  "build": {
+    "report": "game-art/evidence/ART-PIPELINE-V5-001/V5-Cocos-Build-QA-RECOVERY-016.json",
+    "effectiveSuccess": true,
+    "returnCode": 36,
+    "exitCodeMeaning": "Cocos Creator 3.8.2 documented build-success exit code",
+    "buildSuccessLogged": true,
+    "typescriptErrors": 0,
+    "stderrBytes": 0,
+    "pngCount": 89,
+    "missingMetaCount": 0,
+    "durationSeconds": 36.8
+  },
+  "postScaleFullPlaythrough": {
+    "report": "验收证据/候选战场美术联调-V5-360x780-RECOVERY-016/真人操作完整一局.json",
+    "viewport": "360x780",
+    "pass": true,
+    "final": {
+      "state": "win",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 96,
+      "enemies": 0
+    },
+    "afterRestart": {
+      "state": "ready",
+      "wave": 1,
+      "hp": 100,
+      "towers": 9,
+      "kills": 0
+    },
+    "javascriptErrors": 0,
+    "durationSeconds": 94.1,
+    "screenshots": [
+      "验收证据/候选战场美术联调-V5-360x780-RECOVERY-016/01-玩家进场布塔.png",
+      "验收证据/候选战场美术联调-V5-360x780-RECOVERY-016/99-结局.png",
+      "验收证据/候选战场美术联调-V5-360x780-RECOVERY-016/100-重新开始.png"
+    ]
+  },
+  "postScaleSmoke": {
+    "report": "验收证据/候选战场美术联调-V5-五视口RECOVERY-016/五视口V5输入回归.json",
+    "firstAttempt": {
+      "pass": false,
+      "reason": "CDP WebSocket closed before ready; no viewport tests started; no JS exceptions captured"
+    },
+    "firstAttemptPreserved": "验收证据/候选战场美术联调-V5-五视口RECOVERY-016/五视口V5输入回归-首次运行失败.json",
+    "retry": "Blocked by PC MCP command safety check; no bypass attempted",
+    "passAfterScale": false
+  },
+  "baselineBeforeScale": {
+    "report": "验收证据/ART-PIPELINE-V5-001-恢复验收-RECOVERY-013.md",
+    "fullPlaythroughsPassed": 5,
+    "viewports": [
+      "360x780",
+      "393x852",
+      "540x760",
+      "540x960",
+      "540x1108"
+    ],
+    "note": "These are valid baseline results before the visual-scale change and do not replace post-scale regression."
+  },
+  "visualReview": {
+    "comparison": "验收证据/候选战场美术联调-V5-RECOVERY-016/炮塔敌人比例调整前后对比.jpg",
+    "result": "Tower and enemy silhouettes are more readable; overall battlefield density and user aesthetic approval remain pending."
+  },
+  "pending": [
+    "Post-scale five-viewport smoke and full regression for 393x852, 540x760, 540x960, 540x1108",
+    "User aesthetic approval",
+    "Complete idle/attack/hit/death/upgrade animations",
+    "Formal Prefab/main-scene integration",
+    "Android/WeChat/Douyin device and live join/leave event verification",
+    "1000-tower device performance"
+  ]
+}

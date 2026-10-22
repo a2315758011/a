@@ -1,0 +1,59 @@
+{
+  "status": "REAL_COCOS_LONGSCREEN_SOURCE_PROMOTED_PENDING_NEW_BUILD",
+  "backupDir": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\长屏自动布局合入前备份-v1",
+  "fullTallWin": {
+    "state": "win",
+    "wave": 3,
+    "hp": 100,
+    "kills": 96,
+    "time": 81.3,
+    "towers": 24,
+    "enemies": 0,
+    "spawned": 40,
+    "zoom": 0.68,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "-181,466",
+    "uiTransformH": 960
+  },
+  "afterRestart": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "172,-504",
+    "uiTransformH": 960
+  },
+  "prevalidatedStrictWin": {
+    "state": "win",
+    "wave": 3,
+    "hp": 100,
+    "kills": 96,
+    "time": 80.2,
+    "towers": 24,
+    "enemies": 0,
+    "spawned": 40,
+    "zoom": 0.68
+  },
+  "formalSceneUnchanged": true,
+  "changes": [
+    {
+      "name": "守城控制器.ts",
+      "beforeSHA256": "758a1c244d6fb850ba2fb608703981213c402f6be67db81e427b87f48184cb0c",
+      "afterSHA256": "5ac71b0fe3ffe30f53421ddcb02f579bbce999f132e8e6c6e39e0125a3fb2634"
+    },
+    {
+      "name": "待审战场美术覆盖器.ts",
+      "beforeSHA256": "dc66e863c558f44c514704c27ca244ea3d46cf5e6a8bb9ba7cf6f1291180ecb6",
+      "afterSHA256": "d7a47bca13d27c537aabeb0dc1aef5a4ac16d415464d08e2f4d9dcfa4263e801"
+    }
+  ],
+  "mainGameFilesChanged": false
+}

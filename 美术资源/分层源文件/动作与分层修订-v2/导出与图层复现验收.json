@@ -1,0 +1,65 @@
+{
+  "status": "TECH_QA_PASS_ART_REVIEW_PENDING",
+  "v1Preserved": true,
+  "oraCount": 5,
+  "layers": 29,
+  "animationSets": 7,
+  "exportedFrames": 56,
+  "allFramesReproduceFromLayers": true,
+  "allSetsHaveEightUniqueFrames": true,
+  "zipValid": true,
+  "cocosImported": false,
+  "poseSemanticsReviewed": false,
+  "details": [
+    {
+      "object": "连珠速射塔",
+      "action": "attack",
+      "frameCount": 8,
+      "unique": 8,
+      "reproducible": true
+    },
+    {
+      "object": "熔芯重炮塔",
+      "action": "attack",
+      "frameCount": 8,
+      "unique": 8,
+      "reproducible": true
+    },
+    {
+      "object": "寒霜喷射塔",
+      "action": "attack",
+      "frameCount": 8,
+      "unique": 8,
+      "reproducible": true
+    },
+    {
+      "object": "城防水晶",
+      "action": "shatter",
+      "frameCount": 8,
+      "unique": 8,
+      "reproducible": true
+    },
+    {
+      "object": "兽人小兵",
+      "action": "walk",
+      "frameCount": 8,
+      "unique": 8,
+      "reproducible": true
+    },
+    {
+      "object": "兽人小兵",
+      "action": "attack",
+      "frameCount": 8,
+      "unique": 8,
+      "reproducible": true
+    },
+    {
+      "object": "兽人小兵",
+      "action": "death",
+      "frameCount": 8,
+      "unique": 8,
+      "reproducible": true
+    }
+  ],
+  "archiveSource": "This report is inside the zip, final archive digest resides in 验收证据/LAYER-ART-ANIM-V2-002.md"
+}

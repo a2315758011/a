@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "frames": 56,
+  "oraFrames": 32,
+  "actions": 7,
+  "transparentBorderMin": 11,
+  "touchedCanvasCount": 0,
+  "failedSmallBorderCount": 0,
+  "failures": [],
+  "minMarginByAction": {
+    "兽人小兵/walk": 20,
+    "兽人小兵/attack": 20,
+    "兽人小兵/death": 11,
+    "城防水晶/shatter": 20,
+    "连珠速射塔/attack": 20,
+    "熔芯重炮塔/attack": 25,
+    "寒霜喷射塔/attack": 23
+  },
+  "alphaRecompositionPass": true,
+  "atlasReprojectionPass": true
+}

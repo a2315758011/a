@@ -1,0 +1,64 @@
+{
+  "id": "tower_frost",
+  "name": "寒霜喷射塔",
+  "stage": "MASTER_SAMPLE_NOT_FINAL",
+  "accountId": "3701a471-2d32-4cb2-aab6-8b9980015842",
+  "sourceTaskId": "ART-MASTER-TOWER_FROST-20261012",
+  "idempotencyKey": "live-turret-defense-ART-MASTER-TOWER_FROST-20261012-v05-once",
+  "promptSHA256": "8650046f16d4a4b1c4c1cfc17dcab079f065ee2aa1a52589f93a453e15c602c7",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "submittedAt": "2026-10-12T14:40:22.409230+00:00",
+  "jobId": "9961db1f-4bc8-4a11-acb2-b9fbe08df02b",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "9961db1f-4bc8-4a11-acb2-b9fbe08df02b",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:40:22.486Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-TOWER_FROST-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Original overhead pixel-art 2D fantasy tower-defense mechanical FREEZING SPRAYER turret master. Pale CYAN and silver metal ICE SPRAY NOZZLE, one wide frosty cylindrical cannon pointed toward canvas bottom (south), squat fat mechanical compa",
+        "model": "",
+        "accountId": "3701a471-2d32-4cb2-aab6-8b9980015842",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:01.076900+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\tower_frost-母素材-原始.png",
+  "sha256": "7265e717fc65cbc8defc9b534c6899f91e2f729a74c4a289f6036dbd12d5803c",
+  "size": [
+    2048,
+    2048
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "540a0e7590cb8f173f72f046",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816129154_doubao_work_豆包工作_·_网页账号_3_de346465.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816129154_doubao_work_豆包工作_·_网页账号_3_de346465.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816129154_doubao_work_豆包工作_·_网页账号_3_de346465.png",
+      "name": "1791816129154_doubao_work_豆包工作_·_网页账号_3_de346465.png",
+      "size": 1821164,
+      "mimeType": "image/png"
+    }
+  ]
+}

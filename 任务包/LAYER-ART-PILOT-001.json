@@ -1,0 +1,82 @@
+{
+  "taskId": "LAYER-ART-PILOT-001",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-layered-art-20261018",
+  "status": "CANDIDATE_CREATED_STRUCTURAL_QA_PASS",
+  "reviewMode": "SELF_REVIEW",
+  "deliveryStage": "HOLD_FOR_ART_REVIEW",
+  "dependencies": [
+    "ART-SPEC-001",
+    "PIXEL-SPEC-001"
+  ],
+  "masterInstruction": {
+    "url": "https://github.com/a2315758011/a/blob/main/README.md",
+    "version": "V5.7",
+    "chapters": [
+      "RULE-03",
+      "RULE-06",
+      "RULE-07",
+      "RULE-09",
+      "RULE-10",
+      "RULE-13"
+    ]
+  },
+  "permissions": {
+    "read": [
+      "美术资源/原始生成/**",
+      "美术资源/正式资产/**",
+      "美术资源/透明母素材候选/**",
+      "CocosCreator工程/assets/**"
+    ],
+    "write": [
+      "美术资源/分层源文件/首批原创样板-v1/**",
+      "美术资源/分层源文件/首批原创分层美术包-v1-待审核.zip",
+      "_assistant-temp/制作原生像素分层源文件.py",
+      "_assistant-temp/分层包结构验收.py",
+      "任务包/LAYER-ART-PILOT-001.json",
+      "验收证据/LAYER-ART-PILOT-001-分层包检查.md"
+    ]
+  },
+  "outputs": {
+    "root": "美术资源/分层源文件/首批原创样板-v1",
+    "archive": "美术资源/分层源文件/首批原创分层美术包-v1-待审核.zip",
+    "sha256": "6babad382524c8f13e2d6932419ebfd31920242cf287448412c6a78bb10e024d",
+    "sourceFormats": [
+      "OpenRaster .ora",
+      "independent PNG layer files"
+    ],
+    "entities": [
+      "连珠速射塔",
+      "熔芯重炮塔",
+      "寒霜喷射塔",
+      "城防水晶",
+      "兽人小兵"
+    ],
+    "files": 111,
+    "ora": 5,
+    "realLayers": 29,
+    "animationCandidates": 7
+  },
+  "acceptance": {
+    "archiveZipIntegrity": "PASS",
+    "oraCompositeByteEquality": "PASS_5_OF_5",
+    "layerAlphaAndCanvas": "PASS",
+    "animatedPNGCount": "PASS_7_SETS_OF_8",
+    "animationFrameDuplication": "FAIL_SOME_DUPLICATES",
+    "animationPoseSemantics": "PENDING_MANUAL_AND_ENGINE_REVIEW",
+    "CocosPrefabBinding": "NOT_STARTED",
+    "runtimeRendered": "NOT_VERIFIED",
+    "olderSourceOverwrites": "NONE"
+  },
+  "blockers": [
+    "用户对新增像素画风及造型未签收",
+    "7组动作中有重复帧；动作语义尚待人工审核",
+    "尚未导入 Cocos 正式 Art 目录；不允许称正式资产"
+  ],
+  "handoff": "验收证据/LAYER-ART-PILOT-001-分层包检查.md",
+  "nextActions": [
+    "审核 5 种独立可编辑组件与风格",
+    "修正动作的真实关键姿态、去除重复与不自然位置",
+    "只有样例合格才继续批量化、导入 Cocos Sprite/Animation/Prefab"
+  ]
+}

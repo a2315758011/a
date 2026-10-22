@@ -1,0 +1,115 @@
+{
+  "taskId": "RECOVERY-034",
+  "generatedAt": "2026-10-21T21:28:33.655Z",
+  "reusable": [
+    {
+      "group": "炮塔",
+      "items": [
+        "连珠速射塔",
+        "熔芯重炮塔",
+        "寒霜喷射塔"
+      ],
+      "status": "candidate_qa_pass",
+      "note": "V5 top-down pixel style; layered source PNG + runtime composite; current Cocos binding works"
+    },
+    {
+      "group": "水晶",
+      "items": [
+        "城防能量水晶"
+      ],
+      "status": "candidate_qa_pass",
+      "note": "layered source PNG + runtime composite; procedural idle/hurt/death binding works"
+    },
+    {
+      "group": "UI",
+      "items": [
+        "顶部HUD底板",
+        "主操作按钮",
+        "次操作按钮",
+        "离场按钮",
+        "生命值条外框",
+        "波次徽章",
+        "能量资源图标",
+        "炮塔升级图标"
+      ],
+      "status": "candidate_qa_pass",
+      "note": "main menu and settlement screenshots are coherent; Chinese labels remain Cocos Label"
+    },
+    {
+      "group": "环境",
+      "items": [
+        "无缝战场地砖"
+      ],
+      "status": "candidate_qa_pass",
+      "note": "runtime tiling already works"
+    },
+    {
+      "group": "FX",
+      "items": [
+        "连珠弹道",
+        "连珠枪口闪光",
+        "重炮炮弹",
+        "重炮命中特效",
+        "寒霜弹道",
+        "寒霜命中特效",
+        "水晶受击碎片",
+        "炮塔升级闪光"
+      ],
+      "status": "candidate_runtime_qa_pass",
+      "note": "alpha QA + Cocos import/build + real battle runtime PASS"
+    },
+    {
+      "group": "敌人顶视Master候选",
+      "items": [
+        "兽人小兵 Master A",
+        "兽人首领 Master B"
+      ],
+      "status": "candidate_runtime_qa_pass",
+      "note": "Both strict/top-down replacement masters are loaded and active in real Cocos battle runtime; old oblique enemy composites remain rejected. Layer production is not complete."
+    }
+  ],
+  "rejectOrRemake": [
+    {
+      "group": "旧V5敌人合成图",
+      "items": [
+        "兽人小兵旧合成",
+        "兽人首领旧合成"
+      ],
+      "reason": "oblique/side-ish; violates strict 90-degree overhead camera",
+      "action": "do not promote; replacement top-down Master A/B now used in candidate runtime"
+    },
+    {
+      "group": "Boss Master A",
+      "items": [
+        "RECOVERY-034-TOPDOWN-BOSS-MASTER-A"
+      ],
+      "reason": "visual review: frontal/high-3/4 despite strict prompt",
+      "action": "preserve as failed evidence; Master B replaces it"
+    }
+  ],
+  "missing": [
+    {
+      "item": "V5 editable enemy layer production sheet",
+      "reason": "grunt A and boss B are composite masters; two reference-locked layer jobs B1/B2 failed pre-submit at upload-reference on two ChatGPT accounts; do not fake layer completion"
+    },
+    {
+      "item": "V5 editable source conversion recipe",
+      "reason": "84 ORAs/source-layer PNGs exist, but current V5 runtime layer transforms are not exactly reconstructible from file presence; 12 nearest-neighbor comparisons were 0/12 exact"
+    },
+    {
+      "item": "runtime atlas promotion/binding",
+      "reason": "2048 candidate atlas exists and QA passed, but runtime still uses loose resources; keep unbound until final art sign-off to avoid unnecessary integration risk"
+    },
+    {
+      "item": "Prefab/AnimationClip formal binding",
+      "reason": "candidate runtime overlay is verified; formal Prefab/AnimationClip promotion remains gated by human art sign-off"
+    }
+  ],
+  "gates": {
+    "formalPromotion": "blocked until human art sign-off",
+    "referenceImageLayerGeneration": "blocked: RECOVERY-034-TOPDOWN-BOSS-LAYERS-B1 and B2 both failed pre-submit at upload-reference (Could not find node with given id); no third blind retry",
+    "enemyMasterRuntime": "PASS: grunt Master A and boss Master B loaded/active in natural battle, legacy layers disabled while master active, JS errors 0",
+    "runtimeAtlas": "candidate ready, not bound",
+    "sourceProvenance": "source files present; exact conversion recipe unverified"
+  }
+}

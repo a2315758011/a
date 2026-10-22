@@ -1,0 +1,134 @@
+{
+  "ver": "1.0.26",
+  "importer": "image",
+  "imported": true,
+  "uuid": "77c4dee1-5aec-47e0-984a-e0b0b095e588",
+  "files": [
+    ".json",
+    ".png"
+  ],
+  "subMetas": {
+    "6c48a": {
+      "importer": "texture",
+      "uuid": "77c4dee1-5aec-47e0-984a-e0b0b095e588@6c48a",
+      "displayName": "寒霜喷射塔_寒霜喷射器",
+      "id": "6c48a",
+      "name": "texture",
+      "userData": {
+        "wrapModeS": "clamp-to-edge",
+        "wrapModeT": "clamp-to-edge",
+        "imageUuidOrDatabaseUri": "77c4dee1-5aec-47e0-984a-e0b0b095e588",
+        "isUuid": true,
+        "visible": false,
+        "minfilter": "nearest",
+        "magfilter": "nearest",
+        "mipfilter": "none",
+        "anisotropy": 0
+      },
+      "ver": "1.0.22",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "f9941": {
+      "importer": "sprite-frame",
+      "uuid": "77c4dee1-5aec-47e0-984a-e0b0b095e588@f9941",
+      "displayName": "寒霜喷射塔_寒霜喷射器",
+      "id": "f9941",
+      "name": "spriteFrame",
+      "userData": {
+        "trimType": "auto",
+        "trimThreshold": 1,
+        "rotated": false,
+        "offsetX": 0,
+        "offsetY": 2.5,
+        "trimX": 36,
+        "trimY": 37,
+        "width": 56,
+        "height": 49,
+        "rawWidth": 128,
+        "rawHeight": 128,
+        "borderTop": 0,
+        "borderBottom": 0,
+        "borderLeft": 0,
+        "borderRight": 0,
+        "packable": true,
+        "pixelsToUnit": 100,
+        "pivotX": 0.5,
+        "pivotY": 0.5,
+        "meshType": 0,
+        "vertices": {
+          "rawPosition": [
+            -28,
+            -24.5,
+            0,
+            28,
+            -24.5,
+            0,
+            -28,
+            24.5,
+            0,
+            28,
+            24.5,
+            0
+          ],
+          "indexes": [
+            0,
+            1,
+            2,
+            2,
+            1,
+            3
+          ],
+          "uv": [
+            36,
+            91,
+            92,
+            91,
+            36,
+            42,
+            92,
+            42
+          ],
+          "nuv": [
+            0.28125,
+            0.328125,
+            0.71875,
+            0.328125,
+            0.28125,
+            0.7109375,
+            0.71875,
+            0.7109375
+          ],
+          "minPos": [
+            -28,
+            -24.5,
+            0
+          ],
+          "maxPos": [
+            28,
+            24.5,
+            0
+          ]
+        },
+        "isUuid": true,
+        "imageUuidOrDatabaseUri": "77c4dee1-5aec-47e0-984a-e0b0b095e588@6c48a",
+        "atlasUuid": ""
+      },
+      "ver": "1.0.12",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "type": "sprite-frame",
+    "hasAlpha": true,
+    "fixAlphaTransparencyArtifacts": false,
+    "redirect": "77c4dee1-5aec-47e0-984a-e0b0b095e588@f9941"
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "documentVersion": "0.2-DRAFT",
+  "projectId": "live-turret-defense",
+  "status": "DOCUMENTED_NOT_APPROVED",
+  "reference": {
+    "tapUrl": "https://tap.cn/lqs3Qu7pC",
+    "identityVerified": false,
+    "cameraVerified": false
+  },
+  "renderMode": "dynamic-2d",
+  "artDirection": {
+    "style": "mobile-cartoon",
+    "cameraCandidate": "orthographic-three-quarter-30-to-35-deg",
+    "cameraVerified": false,
+    "lightDirection": "upper-left",
+    "gameplayOverviewRequired": true,
+    "gameplayOverviewPresent": false,
+    "styleNote": "魔法核心晶体仅用于目标物；三座玩家炮塔均为机械或机械魔能炮，不得主视觉做成晶体塔"
+  },
+  "target": {
+    "screen": {
+      "design": [
+        1080,
+        1920
+      ],
+      "secondary": [
+        720,
+        1280
+      ],
+      "ratio": "9:16",
+      "verified": false
+    },
+    "towerDisplayWidthPx": [
+      68,
+      88
+    ],
+    "focusWidthMaxPx": 110,
+    "sourceFramePx": [
+      256,
+      256
+    ],
+    "sourceSpriteGroundPointTopLeft": [
+      128,
+      220
+    ],
+    "cocosAnchor": [
+      0.5,
+      0.140625
+    ],
+    "levelCanvasPolicy": "same-canvas-and-anchor",
+    "atlasCandidate": [
+      1024,
+      2048
+    ],
+    "atlasPaddingPx": 2,
+    "atlasExtrudePx": 1,
+    "labels": {
+      "fontPxAt1080": [
+        22,
+        26
+      ],
+      "separateUI": true
+    }
+  },
+  "composition": {
+    "mapBackground": "independent",
+    "mapTiles": "independent",
+    "towerShadow": "optional-independent-rgba",
+    "towerMechanicalFoundation": "independent-rgba-no-terrain",
+    "towerBody": "independent-rgba",
+    "turretHead": "independent-rgba",
+    "upgradeDetails": "independent-rgba",
+    "projectile": "independent-rgba",
+    "fx": "independent-rgba",
+    "viewerLabel": "independent-ui",
+    "protectedObjectiveBody": "independent-rgba-not-a-tower",
+    "protectedObjectiveBase": "independent-rgba-not-terrain",
+    "protectedObjectiveHpBar": "independent-ui",
+    "protectedObjectiveHitFx": "independent-rgba",
+    "coreSceneArea": "gameplay-location-not-baked-into-objective-sprite"
+  },
+  "transparency": {
+    "runtimeSpritesRequire": "RGBA-PNG-with-real-alpha",
+    "minTransparentCorners": 4,
+    "borderPixelsCompletelyTransparent": 2,
+    "forbid": [
+      "opaque-RGB-as-sprite",
+      "all-255-alpha",
+      "white-matte",
+      "grass-under-tower",
+      "baked-ground-tile",
+      "scene-background",
+      "baked-nickname",
+      "whole-production-sheet-as-runtime"
+    ],
+    "semanticVisualReview": true,
+    "bgPreview": [
+      "light-gray",
+      "dark-gray",
+      "checkerboard",
+      "grass-tile",
+      "stone-tile"
+    ]
+  },
+  "animations": {
+    "idle": {
+      "frames": 6,
+      "fps": 8,
+      "loop": true
+    },
+    "attack": {
+      "frames": 8,
+      "fps": 12,
+      "loop": false,
+      "event": "fire",
+      "damageFromGameplayLogic": true
+    },
+    "upgrade": {
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "event": "level_switch_once"
+    },
+    "hit": {
+      "frames": 4,
+      "fps": 10,
+      "conditional": true
+    },
+    "destroy": {
+      "frames": 8,
+      "fps": 12,
+      "conditional": true
+    }
+  },
+  "levelCountCandidate": 5,
+  "towers": [
+    {
+      "id": "tower_repeater",
+      "name": "连珠速射塔",
+      "role": "fast-single-target",
+      "palette": [
+        "#E9AE47",
+        "#41464F"
+      ],
+      "shape": "short-twin-barrels-and-box-housing",
+      "upgradeByLevel": [
+        "双短枪管和小机匣",
+        "铜护板",
+        "枪管加长与散热槽",
+        "独立弹匣和能量条",
+        "装甲双管与散热光"
+      ]
+    },
+    {
+      "id": "tower_mortar",
+      "name": "熔芯重炮塔",
+      "role": "slow-area-damage",
+      "palette": [
+        "#DA644F",
+        "#4A4140"
+      ],
+      "shape": "one-thick-short-barrel-with-shoulder-armor",
+      "upgradeByLevel": [
+        "单粗炮筒",
+        "炮身加压条",
+        "大炮口与炮膛线",
+        "加厚炮盾与炉芯亮光",
+        "顶级重炮口与红金刻线"
+      ]
+    },
+    {
+      "id": "tower_frost",
+      "name": "寒霜喷射塔",
+      "role": "slowing-support",
+      "palette": [
+        "#64CEE2",
+        "#315568"
+      ],
+      "shape": "mechanical-short-cold-nozzle-and-coils-NO_TALL_CRYSTAL",
+      "upgradeByLevel": [
+        "青蓝双向冷气喷嘴与铁质底架",
+        "喷嘴外侧护板+冷凝管",
+        "双冷凝筒和更宽喷口",
+        "大型线圈与青色冷媒仪表",
+        "重型冰雾双喷管与低温喷流"
+      ],
+      "displayRestriction": "不能使用竖直宝石、水晶塔剪影；晶体大型结构保留给被保护的核心"
+    }
+  ],
+  "tests": [
+    {
+      "id": "ART-QA-01",
+      "type": "machine-and-visual",
+      "requirement": "alpha真实"
+    },
+    {
+      "id": "ART-QA-02",
+      "type": "visual",
+      "requirement": "无草坪/地板/背景污染"
+    },
+    {
+      "id": "ART-QA-03",
+      "type": "engine",
+      "requirement": "塔身底座地图可单独开关"
+    },
+    {
+      "id": "ART-QA-04",
+      "type": "visual",
+      "requirement": "64px剪影可区分"
+    },
+    {
+      "id": "ART-QA-05",
+      "type": "animation",
+      "requirement": "等级变化时锚点不漂移"
+    },
+    {
+      "id": "ART-QA-06",
+      "type": "animation",
+      "requirement": "多帧真实运动"
+    },
+    {
+      "id": "ART-QA-07",
+      "type": "engine",
+      "requirement": "两种地图无需改塔图"
+    },
+    {
+      "id": "ART-QA-08",
+      "type": "device",
+      "requirement": "720/1080p与10/50/100塔性能"
+    },
+    {
+      "id": "ART-QA-09",
+      "type": "build",
+      "requirement": "spriteTrim/pivot/Atlas/manifest"
+    },
+    {
+      "id": "ART-QA-10",
+      "type": "integration",
+      "requirement": "塔/等级/事件和UI一致"
+    },
+    {
+      "id": "CORE-QA-01",
+      "type": "static-data",
+      "requirement": "三座炮塔与目标物ID互异，不分配核心给观众"
+    },
+    {
+      "id": "CORE-QA-02",
+      "type": "art-scene",
+      "requirement": "在场景里明确出现核心与血条，尺寸/剪影明显区别于寒霜机械炮"
+    },
+    {
+      "id": "CORE-QA-03",
+      "type": "runtime",
+      "requirement": "敌人到达核心才触发伤害，核心归零失败，防守至全波清除胜利"
+    },
+    {
+      "id": "CORE-QA-04",
+      "type": "art-runtime",
+      "requirement": "核心独立Alpha和独立地表/底座，完整受击/破碎多帧动画"
+    }
+  ],
+  "gates": {
+    "G0": "BLOCKED-BENCHMARK-AND-LIVE-EVENTS",
+    "ART_SPEC": "DOCUMENTED",
+    "MASTER": "PENDING",
+    "ALPHA_QA": "UNVERIFIED",
+    "RUNTIME_QA": "UNVERIFIED",
+    "MASS_PRODUCTION": "NOT_AUTHORIZED",
+    "CORE_DESIGN": "DOCUMENTED_UNVERIFIED",
+    "CORE_RUNTIME_QA": "UNVERIFIED"
+  },
+  "instruction": {
+    "source": "https://github.com/a2315758011/a/blob/main/README.md",
+    "version": "V5.3",
+    "gitBlobSha": "5d7e40c3a34873314eed9285313332243a9fa6db"
+  },
+  "supersedes": "美术规范/炮塔资源合同-v0.1.json",
+  "revisionReason": "用户指出塔防没有独立保护目标、晶体被误做成第三种炮塔",
+  "protectedObjective": {
+    "assetId": "objective_energy_core",
+    "name": "城防能量水晶",
+    "category": "PROTECTED_OBJECTIVE_NOT_TOWER",
+    "isViewerAssigned": false,
+    "isGiftUpgradable": false,
+    "isRandomTowerCandidate": false,
+    "design": {
+      "shape": "large-faceted-azure-energy-crystal-on-stone-and-metal-pedestal",
+      "uniqueSilhouette": "upright-glowing-crystal-with-stone-rim-and-armored-support-distinct-from-all-cannons",
+      "palette": [
+        "#79E6FC",
+        "#2B7797",
+        "#59626D"
+      ],
+      "positionCandidate": "bottom-center-inside-fortress",
+      "foregroundPriority": "always-legible",
+      "sourceFramePx": [
+        384,
+        384
+      ],
+      "visibleObjectHeightPxAt1080": [
+        140,
+        190
+      ],
+      "pieces": [
+        "水晶主体_RGBA",
+        "固定基座_RGBA",
+        "受击碎纹_RGBA",
+        "护盾特效_RGBA",
+        "破碎特效_RGBA",
+        "核心血条_UI"
+      ],
+      "terrainIsIndependent": true,
+      "neverBakeUI": true
+    },
+    "gameplayCandidate": {
+      "maxHP": 100,
+      "initialHP": 100,
+      "normalMonsterHitDamage": 10,
+      "bossHitDamage": 30,
+      "attackDamageAppliedOncePerValidHit": true,
+      "lossWhenHpEqualsZero": true,
+      "winWhenAllWavesClearAndHpPositive": true,
+      "waveCountCandidate": 3,
+      "allowTowerAttackCore": false,
+      "allowLiveGiftsUpgradeCore": false,
+      "finalEnemyGoal": "reach-and-attack-objective_energy_core",
+      "allNumbersUnverified": true
+    },
+    "animation": {
+      "idle": {
+        "frames": 8,
+        "fps": 8,
+        "loop": true
+      },
+      "damaged": {
+        "frames": 6,
+        "fps": 10,
+        "loop": false
+      },
+      "crackedIdle": {
+        "frames": 8,
+        "fps": 8,
+        "loop": true
+      },
+      "destroyed": {
+        "frames": 12,
+        "fps": 12,
+        "loop": false
+      }
+    },
+    "states": [
+      "完好100-76%",
+      "轻伤75-51%",
+      "重伤50-26%",
+      "濒危25-1%",
+      "摧毁0%"
+    ],
+    "separateFrom": "tower_frost"
+  },
+  "sceneLayoutCandidate": {
+    "ratio": "9:16",
+    "cameraVerified": false,
+    "spawnArea": "upper-playfield",
+    "path": "enemy-route-toward-bottom-center-core",
+    "towerFormation": "two-side-defense-lanes-before-core",
+    "protectedObjective": "bottom-center-in-fortress",
+    "coreHpUi": "top-hud-always-visible",
+    "viewerNameUi": "tower-overlay-individual-avoid-core",
+    "riskNote": "必须先对照真实对标/实际画面核实，然后锁定机位与精确坐标"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "viewports": [
+    [
+      360,
+      780
+    ],
+    [
+      393,
+      852
+    ],
+    [
+      540,
+      760
+    ],
+    [
+      540,
+      960
+    ],
+    [
+      540,
+      1108
+    ],
+    [
+      1080,
+      1920
+    ],
+    [
+      1080,
+      2400
+    ]
+  ],
+  "checks": [
+    "alpha silhouette at 48/64/96px",
+    "tower visual footprint stays compact",
+    "UI labels remain readable and never baked into art",
+    "no sprite is clipped by viewport",
+    "9-tower battle remains readable",
+    "50/100/600 visible unit runtime budget",
+    "touch input remains responsive",
+    "crystal remains visually distinct from frost tower"
+  ]
+}

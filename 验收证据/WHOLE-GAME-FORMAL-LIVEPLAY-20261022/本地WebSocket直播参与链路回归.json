@@ -1,0 +1,738 @@
+{
+  "task": "WHOLE-GAME-FORMAL-LIVEPLAY-20261022",
+  "test": "Douyin live-play local WebSocket participation E2E",
+  "checks": {
+    "standardModeKeepsShop": true,
+    "fixtureUpgradesLoaded": true,
+    "invalidUrlDoesNotPretendAttached": true,
+    "livePlayPolicy": true,
+    "livePlayIgnoresPermanentUpgrades": true,
+    "livePlayHidesEconomyUi": true,
+    "purchaseBlockedWithoutMutation": true,
+    "webSocketConnected": true,
+    "commentCommandsMapped": true,
+    "participationReachedGame": true,
+    "likeAndUnrelatedCommentIgnored": true,
+    "livePlaySettlementNoCurrency": true,
+    "detachStopsSource": true,
+    "noJsErrors": true
+  },
+  "errors": [],
+  "wsPort": 9301,
+  "startedAt": "2026-10-22T19:15:48",
+  "baseline": {
+    "platform": {
+      "runtime": "web",
+      "mode": "standard",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null,
+      "shopAllowed": true,
+      "persistentEconomyAllowed": true,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "standard"
+    },
+    "source": null,
+    "live": {
+      "onlineViewers": 0,
+      "knownViewers": 0,
+      "queueDepth": 0,
+      "processedEvents": 0,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "none",
+      "viewers": []
+    },
+    "profile": {
+      "version": 1,
+      "coins": 500,
+      "upgrades": {
+        "coreShield": 3,
+        "fireControl": 3,
+        "viewerBoost": 2
+      },
+      "stats": {
+        "runs": 4,
+        "wins": 2,
+        "totalKills": 150,
+        "bestKills": 96
+      },
+      "updatedAt": 1
+    },
+    "game": {
+      "state": "ready",
+      "hp": 130,
+      "maxHP": 130,
+      "fire": 1.15,
+      "viewerStart": 3,
+      "lastReward": 0,
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        }
+      ]
+    },
+    "ui": {
+      "menu": true,
+      "shopButton": true,
+      "wallet": true,
+      "feature": "三系炮塔自动攻击\n观众加入增塔 · 礼物驱动升级",
+      "shop": false
+    }
+  },
+  "invalidUrl": {
+    "bad": {
+      "id": "douyin-live-participation-ws",
+      "url": "",
+      "active": false,
+      "connected": false,
+      "received": 0,
+      "mapped": 0,
+      "ignored": 0,
+      "reconnects": 0,
+      "lastError": "invalid-websocket-url"
+    },
+    "p": {
+      "runtime": "web",
+      "mode": "douyin-live-play",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null,
+      "shopAllowed": false,
+      "persistentEconomyAllowed": false,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "explicit-interaction"
+    }
+  },
+  "liveMode": {
+    "platform": {
+      "runtime": "web",
+      "mode": "douyin-live-play",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null,
+      "shopAllowed": false,
+      "persistentEconomyAllowed": false,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "explicit-interaction"
+    },
+    "source": {
+      "id": "douyin-live-participation-ws",
+      "url": "",
+      "active": false,
+      "connected": false,
+      "received": 0,
+      "mapped": 0,
+      "ignored": 0,
+      "reconnects": 0,
+      "lastError": "invalid-websocket-url"
+    },
+    "live": {
+      "onlineViewers": 0,
+      "knownViewers": 0,
+      "queueDepth": 0,
+      "processedEvents": 0,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "none",
+      "viewers": []
+    },
+    "profile": {
+      "version": 1,
+      "coins": 500,
+      "upgrades": {
+        "coreShield": 3,
+        "fireControl": 3,
+        "viewerBoost": 2
+      },
+      "stats": {
+        "runs": 4,
+        "wins": 2,
+        "totalKills": 150,
+        "bestKills": 96
+      },
+      "updatedAt": 1
+    },
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "maxHP": 100,
+      "fire": 1,
+      "viewerStart": 1,
+      "lastReward": 0,
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        }
+      ]
+    },
+    "ui": {
+      "menu": true,
+      "shopButton": false,
+      "wallet": false,
+      "feature": "评论“加入”参与守城\n礼物升级 · 直播玩法不设商城",
+      "shop": false
+    }
+  },
+  "buyBlocked": {
+    "before": {
+      "version": 1,
+      "coins": 500,
+      "upgrades": {
+        "coreShield": 3,
+        "fireControl": 3,
+        "viewerBoost": 2
+      },
+      "stats": {
+        "runs": 4,
+        "wins": 2,
+        "totalKills": 150,
+        "bestKills": 96
+      },
+      "updatedAt": 1
+    },
+    "r": {
+      "ok": false,
+      "reason": "platform-disabled",
+      "id": "coreShield",
+      "level": 3,
+      "coins": 500,
+      "cost": 0
+    },
+    "after": {
+      "version": 1,
+      "coins": 500,
+      "upgrades": {
+        "coreShield": 3,
+        "fireControl": 3,
+        "viewerBoost": 2
+      },
+      "stats": {
+        "runs": 4,
+        "wins": 2,
+        "totalKills": 150,
+        "bestKills": 96
+      },
+      "updatedAt": 1
+    }
+  },
+  "attachReturn": {
+    "id": "douyin-live-participation-ws",
+    "url": "ws://127.0.0.1:9301",
+    "active": true,
+    "connected": false,
+    "received": 0,
+    "mapped": 0,
+    "ignored": 0,
+    "reconnects": 0,
+    "lastError": null
+  },
+  "afterPackets": {
+    "platform": {
+      "runtime": "web",
+      "mode": "douyin-live-play",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": true,
+      "liveEventSourceId": "douyin-live-participation-ws",
+      "shopAllowed": false,
+      "persistentEconomyAllowed": false,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "explicit-interaction"
+    },
+    "source": {
+      "id": "douyin-live-participation-ws",
+      "url": "ws://127.0.0.1:9301",
+      "active": true,
+      "connected": true,
+      "received": 6,
+      "mapped": 4,
+      "ignored": 2,
+      "reconnects": 0,
+      "lastError": null
+    },
+    "live": {
+      "onlineViewers": 1,
+      "knownViewers": 2,
+      "queueDepth": 0,
+      "processedEvents": 4,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 1,
+      "giftPower": 2,
+      "lastEvent": "viewer_leave:qa-b",
+      "viewers": [
+        {
+          "viewerId": "qa-a",
+          "viewerName": "甲观众",
+          "online": true,
+          "joinedAt": 1,
+          "lastSeenAt": 5,
+          "giftCount": 1,
+          "giftPower": 2
+        },
+        {
+          "viewerId": "qa-b",
+          "viewerName": "乙观众",
+          "online": false,
+          "joinedAt": 2,
+          "lastSeenAt": 6,
+          "giftCount": 0,
+          "giftPower": 0
+        }
+      ]
+    },
+    "profile": {
+      "version": 1,
+      "coins": 500,
+      "upgrades": {
+        "coreShield": 3,
+        "fireControl": 3,
+        "viewerBoost": 2
+      },
+      "stats": {
+        "runs": 4,
+        "wins": 2,
+        "totalKills": 150,
+        "bestKills": 96
+      },
+      "updatedAt": 1
+    },
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "maxHP": 100,
+      "fire": 1,
+      "viewerStart": 1,
+      "lastReward": 0,
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        },
+        {
+          "ownerId": "qa-a",
+          "owner": "甲观众",
+          "level": 3
+        }
+      ]
+    },
+    "ui": {
+      "menu": true,
+      "shopButton": false,
+      "wallet": false,
+      "feature": "评论“加入”参与守城\n礼物升级 · 直播玩法不设商城",
+      "shop": false
+    }
+  },
+  "wsStatsBeforeDetach": {
+    "connections": 1,
+    "sent": 6
+  },
+  "settled": {
+    "platform": {
+      "runtime": "web",
+      "mode": "douyin-live-play",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": true,
+      "liveEventSourceId": "douyin-live-participation-ws",
+      "shopAllowed": false,
+      "persistentEconomyAllowed": false,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "explicit-interaction"
+    },
+    "source": {
+      "id": "douyin-live-participation-ws",
+      "url": "ws://127.0.0.1:9301",
+      "active": true,
+      "connected": true,
+      "received": 6,
+      "mapped": 4,
+      "ignored": 2,
+      "reconnects": 0,
+      "lastError": null
+    },
+    "live": {
+      "onlineViewers": 1,
+      "knownViewers": 2,
+      "queueDepth": 0,
+      "processedEvents": 4,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 1,
+      "giftPower": 2,
+      "lastEvent": "viewer_leave:qa-b",
+      "viewers": [
+        {
+          "viewerId": "qa-a",
+          "viewerName": "甲观众",
+          "online": true,
+          "joinedAt": 1,
+          "lastSeenAt": 5,
+          "giftCount": 1,
+          "giftPower": 2
+        },
+        {
+          "viewerId": "qa-b",
+          "viewerName": "乙观众",
+          "online": false,
+          "joinedAt": 2,
+          "lastSeenAt": 6,
+          "giftCount": 0,
+          "giftPower": 0
+        }
+      ]
+    },
+    "profile": {
+      "version": 1,
+      "coins": 500,
+      "upgrades": {
+        "coreShield": 3,
+        "fireControl": 3,
+        "viewerBoost": 2
+      },
+      "stats": {
+        "runs": 4,
+        "wins": 2,
+        "totalKills": 150,
+        "bestKills": 96
+      },
+      "updatedAt": 1
+    },
+    "game": {
+      "state": "lose",
+      "hp": 0,
+      "maxHP": 100,
+      "fire": 1,
+      "viewerStart": 1,
+      "lastReward": 0,
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        },
+        {
+          "ownerId": "qa-a",
+          "owner": "甲观众",
+          "level": 3
+        }
+      ]
+    },
+    "ui": {
+      "menu": true,
+      "shopButton": false,
+      "wallet": false,
+      "feature": "评论“加入”参与守城\n礼物升级 · 直播玩法不设商城",
+      "shop": false
+    }
+  },
+  "detached": {
+    "platform": {
+      "runtime": "web",
+      "mode": "douyin-live-play",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null,
+      "shopAllowed": false,
+      "persistentEconomyAllowed": false,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "explicit-interaction"
+    },
+    "source": null,
+    "live": {
+      "onlineViewers": 1,
+      "knownViewers": 2,
+      "queueDepth": 0,
+      "processedEvents": 4,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 1,
+      "giftPower": 2,
+      "lastEvent": "viewer_leave:qa-b",
+      "viewers": [
+        {
+          "viewerId": "qa-a",
+          "viewerName": "甲观众",
+          "online": true,
+          "joinedAt": 1,
+          "lastSeenAt": 5,
+          "giftCount": 1,
+          "giftPower": 2
+        },
+        {
+          "viewerId": "qa-b",
+          "viewerName": "乙观众",
+          "online": false,
+          "joinedAt": 2,
+          "lastSeenAt": 6,
+          "giftCount": 0,
+          "giftPower": 0
+        }
+      ]
+    },
+    "profile": {
+      "version": 1,
+      "coins": 500,
+      "upgrades": {
+        "coreShield": 3,
+        "fireControl": 3,
+        "viewerBoost": 2
+      },
+      "stats": {
+        "runs": 4,
+        "wins": 2,
+        "totalKills": 150,
+        "bestKills": 96
+      },
+      "updatedAt": 1
+    },
+    "game": {
+      "state": "lose",
+      "hp": 0,
+      "maxHP": 100,
+      "fire": 1,
+      "viewerStart": 1,
+      "lastReward": 0,
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        },
+        {
+          "ownerId": "qa-a",
+          "owner": "甲观众",
+          "level": 3
+        }
+      ]
+    },
+    "ui": {
+      "menu": true,
+      "shopButton": false,
+      "wallet": false,
+      "feature": "评论“加入”参与守城\n礼物升级 · 直播玩法不设商城",
+      "shop": false
+    }
+  },
+  "wsStatsAfterDetach": {
+    "connections": 1,
+    "sent": 6
+  },
+  "result": "PASS",
+  "finishedAt": "2026-10-22T19:15:56"
+}

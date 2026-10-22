@@ -1,0 +1,44 @@
+{
+  "taskId": "ANIMATION-REPAIR-V08-20261021",
+  "owner": "agent-codex-animation-20261021",
+  "impact_required": true,
+  "mode": "dynamic",
+  "status": "IN_PROGRESS",
+  "entrypoints": [
+    "Generation Gateway POST /v1/jobs"
+  ],
+  "upstream": [
+    "V5 art-style.json",
+    "V07 96px orc boss reference"
+  ],
+  "downstream": [
+    "reference upload",
+    "key poses",
+    "frame normalization",
+    "animation preview",
+    "Cocos AnimationClip and existing asset UUID bindings"
+  ],
+  "included": [
+    "preserve original reference snapshot and hash",
+    "new V08 distinct keypose feasibility request",
+    "verify actual attachment and submitted request",
+    "quality review before expanding or promotion"
+  ],
+  "excluded": [
+    "resubmit V06/V07 unknown jobs",
+    "overwrite other agents' scene/character patches",
+    "skip reference silently",
+    "promote unreviewed art"
+  ],
+  "integration_checks": [
+    "real reference upload",
+    "4 distinct articulated attack poses preserving boss identity and topdown pixel style",
+    "real playback and Cocos binding before formal replacement"
+  ],
+  "regression_checks": [
+    "existing formal sprites unchanged until promotion",
+    "no duplicate submissions",
+    "existing gameplay and build after promotion"
+  ],
+  "qualityGate": "No whole-sprite translation/scale/fade as attack/walk/death; no smooth illustrations or false fixed grid cutting"
+}

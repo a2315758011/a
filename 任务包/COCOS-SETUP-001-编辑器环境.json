@@ -1,0 +1,49 @@
+{
+  "taskId": "COCOS-SETUP-001",
+  "projectId": "live-turret-defense",
+  "status": "VERIFIED_ENVIRONMENT_ONLY",
+  "owner": "agent-gpt6-cocos-only-correction-20261013",
+  "reviewMode": "SELF_REVIEW",
+  "taskScope": "Install official Creator 3.8.2 and initialize empty 2D project without touching original HTML/game art",
+  "instructionRefs": [
+    {
+      "url": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.5",
+      "blobSha": "b9019bbb2c4d8ad61a80066763aaf1b377c95ff4",
+      "applicable": [
+        "00",
+        "05",
+        "06",
+        "07",
+        "09",
+        "10",
+        "12",
+        "14"
+      ]
+    }
+  ],
+  "artifacts": [
+    "CocosCreator工程/package.json",
+    "CocosCreator工程/settings/v2/packages/engine.json",
+    "验收证据/COCOS-SETUP-001-编辑器与工程核查.md"
+  ],
+  "evidence": {
+    "editorVersion": "3.8.2",
+    "editorExecutableExists": true,
+    "editorPid": 660416,
+    "editorWindowSeen": true,
+    "projectTemplate": "official empty-2d",
+    "packageExists": true,
+    "settings2dExists": true,
+    "sceneFiles": 0,
+    "playable": false,
+    "bytedanceBuild": false,
+    "downloadArchiveSha256": "2904BC13F6BB8E1F1078023F74EF1BD84F6378264F06EA35AF354CF753D3E9C3"
+  },
+  "dependsOn": [
+    "INS-001"
+  ],
+  "nextTask": "COCOS-MIGRATE-001",
+  "blockedDownstream": "Cocos playable game and Douyin build not yet validated",
+  "handoff": "验收证据/COCOS-SETUP-001-编辑器与工程核查.md"
+}

@@ -1,0 +1,68 @@
+{
+  "taskId": "WHOLE-GAME-FAST-QA-20261022",
+  "project": "live-turret-defense",
+  "owner": "agent-gpt6-fast-gameloop-20261022",
+  "status": "TECHNICAL_QA_PASS_RELEASE_PENDING",
+  "request": "Locate and repair slow workflow; continue finishing formal Cocos game",
+  "actualActions": [
+    "Diagnosed 181.2-second real-time double-ending smoke as major per-cycle latency plus redundant unchanged Cocos rebuilds",
+    "Built 30Hz deterministic-step game-logic QA in one browser JS evaluation; preserved separate real-play acceptance",
+    "Added fingerprint-protected incremental Cocos 3.8.2 build cache and stable single-command harness",
+    "Promoted test scripts from temp to project/自动化测试",
+    "Fixed HUD font density, z-order occlusion, dark text contrast and caption backplates in formal Cocos TS",
+    "Recovered existing same-master top-down grunt/boss into native-resolution three-layer PNGs offline instead of repeating failed reference-upload attempts.",
+    "Fixed runtime enemy renderer precedence: aligned three-layer sprites now take priority; composite master is fallback.",
+    "Fixed incremental Cocos cache to store post-import asset fingerprint and preserve quick/extended evidence separately.",
+    "Built official Cocos Web-Mobile, WeChat Mini Game and Douyin Mini Game outputs; all target builds passed."
+  ],
+  "measured": {
+    "acceleratedGameTimeSeconds": 168.233,
+    "acceleratedEngineJsMs": 25,
+    "latestFastSmokeSeconds": 14.278,
+    "latestExtendedSuiteSeconds": 56.501,
+    "unchangedBuildSeconds": 0,
+    "cocosWebMobileBuild": "PASS",
+    "cocosWebMobileFileCount": 522,
+    "formalNaturalFullPlayBeforeHudPatch": "PASS (not substituted for post-patch physical QA)",
+    "testAfterHudPatch": "quick+extended PASS",
+    "miniGameTargetsAtPreviousBuild": "wechatgame/bytedance-mini-game compile PASS; latest HUD-only patch not yet rebuilt on those two targets",
+    "Android": "not built, Android SDK/NDK not installed in verified workspace",
+    "latestQuickRegressionSeconds": 14.57,
+    "webMobileBuildCacheHitOnExtendedRun": true,
+    "wechatBuild": "PASS; 29.925 s; 526 files",
+    "douyinBuild": "PASS; 20.059 s; 523 files",
+    "enemyLayerRuntime": "PASS: grunt and boss each render three aligned layers, composite master inactive",
+    "layerRecomposition": "PASS: zero pixel mismatch for both masters",
+    "humanArtSignoff": "pending"
+  },
+  "changedFormalFiles": [
+    "CocosCreator工程/assets/脚本/守城控制器.ts",
+    "CocosCreator工程/assets/脚本/待审战场美术覆盖器.ts"
+  ],
+  "addedArtifacts": [
+    "自动化测试/一键高速回归-正式Cocos.py",
+    "自动化测试/build-formal-integration-20261022.cjs",
+    "自动化测试/qa_formal_fast_combat_20261022.py",
+    "自动化测试/qa_formal_platform_socket_fallback_20261022.py",
+    "自动化测试/qa_formal_shop_20261022.py",
+    "自动化测试/qa_formal_shop_effects_20261022.py",
+    "自动化测试/qa_formal_liveplay_20261022.py",
+    "自动化测试/构建微信抖音-正式Cocos.py",
+    "任务包/RECOVERY-037-LOCAL-SEGMENTATION-001.json",
+    "game-art/evidence/RECOVERY-037-LOCAL-SEGMENTATION-001/layer-runtime-qa.json"
+  ],
+  "evidence": [
+    "验收证据/WHOLE-GAME-FAST-COMBAT-20261022/正式Cocos自然双结局高速回归.json",
+    "验收证据/WHOLE-GAME-FAST-REGRESSION-20261022/扩展回归.json",
+    "验收证据/COCOS-MINI-BUILD-20261022/微信抖音正式构建验收.json",
+    "game-art/evidence/RECOVERY-037-LOCAL-SEGMENTATION-001/layer-runtime-qa.json"
+  ],
+  "incomplete": [
+    "Human art sign-off and independently authored keyframed enemy animation strips",
+    "Android SDK/device and signed APK",
+    "WeChat/Douyin actual device and official live-event backend verification",
+    "Final release build and human subjective playtest"
+  ],
+  "handoff": "Use project/自动化测试/一键高速回归-正式Cocos.py by default. --all for extended; only run full 3-minute physical E2E after gameplay/interaction changes or release candidate. Do not replace Cocos with HTML or use sample packets as proof of official live data.",
+  "updatedAt": "2026-10-22T11:18:45.328663+00:00"
+}

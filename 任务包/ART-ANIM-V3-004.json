@@ -1,0 +1,79 @@
+{
+  "taskId": "ART-ANIM-V3-004",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-animation-v3-20261019",
+  "status": "ENGINE_QA_PASS__ART_BLOCKED_EDGE_CLIP",
+  "mode": "SELF_REVIEW",
+  "dependsOn": [
+    "LAYER-ART-ANIM-V2-002",
+    "COCOS-ART-QA-003"
+  ],
+  "instructionRefs": [
+    {
+      "url": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.7",
+      "chapters": [
+        "RULE-03",
+        "RULE-06",
+        "RULE-07",
+        "RULE-10",
+        "RULE-13"
+      ]
+    }
+  ],
+  "scope": "4 failed motions revised; original v1/v2 and official Cocos combat assets unchanged; v3 only candidate and separate Cocos QA project",
+  "deliverables": {
+    "v3Source": "美术资源/分层源文件/动作与分层修订-v3-候选",
+    "archive": "美术资源/分层源文件/分层关键姿态-v3-待审核.zip",
+    "archiveBytes": 570964,
+    "archiveSHA256": "93aa94dc8bd54cad9a84dafa17fcb9f042e6d1b994d1cb8df606f92058fa6385",
+    "editableFrameORA": 32,
+    "editorMasterORA": 5,
+    "frames": 56,
+    "animationGroups": 7,
+    "sourceRecipe": "动作与分层修订-v3-候选/可编辑动作生产配方-v3.py",
+    "engineQA": "美术资源/分层源文件/动作与分层修订-v3-候选/v3引擎资源完整性与视觉待审.json",
+    "screen": "美术资源/分层源文件/动作与分层修订-v3-候选/引擎验收证据/Cocos浏览器CDP场景运行图.png",
+    "screenSHA256": "a4eb80ac1e9df0684073ba2347adf8842305d7e911dcb6d725cf6ea6cfeb9db9",
+    "build": "_assistant-temp/美术v3-Cocos隔离验证工程/build/web-mobile/index.html",
+    "afterBuildFiles": 196
+  },
+  "acceptance": {
+    "oraAll32Recomposable": true,
+    "archiveIndependentUnpackRecipeRebuild32of32": true,
+    "v1v2ArchiveIntegrityRetained": true,
+    "spritePNGImports56of56": true,
+    "nearestFiltering56of56": true,
+    "browserCocosEngine": "3.8.2",
+    "browserWebGL2": true,
+    "engineLoaded56Sprites": true,
+    "javascriptErrors": 0,
+    "headlessEdgeScreenshot": [
+      1056,
+      1748
+    ],
+    "cliBuildLog": "build success",
+    "cliExitCode": 36,
+    "frameTouchedCanvasBorder": 32,
+    "frameBoundaryGate": "FAIL_32_FRAMES_TOUCH_EDGES",
+    "attackAxeShape": "NOT_ACCEPTABLE_AS_FINAL_ACE_HEAD",
+    "deathPose": "REVIEW_UNCONVINCING",
+    "officialMainSceneModified": false,
+    "officialGameArtBinding": false,
+    "douyinWechatAndroidRuntime": "NOT_VERIFIED",
+    "userArtApproval": "NOT_RECEIVED"
+  },
+  "visualFailures": [
+    "兽人斧刃过细，识别度不足；部分姿态看起来像短矛",
+    "32帧兽人动作触碰透明画布边缘，有裁切风险",
+    "死亡终帧仍没有可信的地面接触和完整塌落过程",
+    "行走受力和上半身反向摆动不够自然",
+    "整体审美暂不能升级为商业游戏成品"
+  ],
+  "nextActions": [
+    "保留v3版本和镜头测试证据，不覆盖老正式资产",
+    "v4先做边距+斧刃形状和倒地关键帧，保持角色身份连续",
+    "关键姿态人工审核PASS后再生成插帧、导入Cocos绑定/Prefab",
+    "正式入口与平台测试需另外完成，不准跳过"
+  ]
+}

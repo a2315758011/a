@@ -1,0 +1,52 @@
+{
+  "task": "RECOVERY-028 baseline vs live interaction balance",
+  "durationSeconds": 40.1,
+  "returnCode": 36,
+  "buildSuccessLogged": true,
+  "typescriptErrors": [],
+  "stderrBytes": 0,
+  "entryExists": true,
+  "resourcePngCount": 89,
+  "missingMeta": [],
+  "compiledMarkers": {
+    "receiveLiveEvent": [
+      "assets\\main\\index.js"
+    ],
+    "liveSessionSnapshot": [
+      "assets\\main\\index.js"
+    ],
+    "viewer_join": [
+      "assets\\main\\index.js"
+    ],
+    "viewer_leave": [
+      "assets\\main\\index.js"
+    ],
+    "giftPower": [
+      "assets\\main\\index.js"
+    ],
+    "duplicateEvents": [
+      "assets\\main\\index.js"
+    ]
+  },
+  "allMarkersCompiled": true,
+  "lastLogLines": [
+    "2026-10-21 22:06:57 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----",
+    "",
+    "2026-10-21 22:06:57 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (1ms)",
+    "",
+    "2026-10-21 22:06:57 - debug: adsense-h5g-plugin:(onAfterBuild) in 1 ms ✓, progress: 64%",
+    "",
+    "2026-10-21 22:06:57 - log: Asset DB is resume!",
+    "",
+    "2026-10-21 22:06:57 - debug: builder:build-project-total (8447ms)",
+    "",
+    "2026-10-21 22:06:57 - debug: build success in 8447!",
+    "",
+    "2026-10-21 22:06:57 - debug: [Build Memory track]: builder:build-project-total start:199.80MB, end 249.65MB, increase: 49.86MB",
+    "",
+    "2026-10-21 22:06:57 - debug: ================================ build Task (web-mobile) Finished in (8 s)ms ================================",
+    ""
+  ],
+  "stderrTail": [],
+  "effectiveSuccess": true
+}

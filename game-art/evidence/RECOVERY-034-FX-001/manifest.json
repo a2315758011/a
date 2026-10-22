@@ -1,0 +1,61 @@
+{
+  "task": "RECOVERY-034-FX-001",
+  "providerOutputSha256": "59E6A8CCAEDABB3073419192C453882EBF453F08526DBA3DD7AF58F1B05FDC0C",
+  "files": [
+    {
+      "name": "FX透明拆分QA.json",
+      "bytes": 5857,
+      "sha256": "C4614BB31F620BE3BA76E55264DFDA14E3C3E972CBAB326DC73F775C4888400A"
+    },
+    {
+      "name": "prompt.txt",
+      "bytes": 2155,
+      "sha256": "EBC3C53F8611DDC427215CF7D317882A9E6908E82248A26D291AFF355AAC4957"
+    },
+    {
+      "name": "provider-output.png",
+      "bytes": 1343022,
+      "sha256": "59E6A8CCAEDABB3073419192C453882EBF453F08526DBA3DD7AF58F1B05FDC0C"
+    },
+    {
+      "name": "寒霜命中特效.png",
+      "bytes": 4333,
+      "sha256": "4AE7CDAA84F390B285B98424A8FCBE31D44168CB5114AEAF8455FF44ACA393C0"
+    },
+    {
+      "name": "寒霜弹道.png",
+      "bytes": 1976,
+      "sha256": "8C7DA6A3BFD48E07D890187999D86CF111385511FFBA617DB054EA894ABAA834"
+    },
+    {
+      "name": "水晶受击碎片.png",
+      "bytes": 2939,
+      "sha256": "FEB2E9AAF0630A9756CF8A8E530D7311EFE44192E23057CF00BC072408594080"
+    },
+    {
+      "name": "炮塔升级闪光.png",
+      "bytes": 1979,
+      "sha256": "B83C42C34A09488173FF06AC9077EA729304574336F71E553E190BF65C416D37"
+    },
+    {
+      "name": "连珠弹道.png",
+      "bytes": 1390,
+      "sha256": "13A70AFC3D9EA9F5ED2F3E92368E25FE631E496060972D301CDD7FD7E7C63289"
+    },
+    {
+      "name": "连珠枪口闪光.png",
+      "bytes": 3097,
+      "sha256": "F44A04DEEE578BB83D2357D38BE9CA31C4F71FBB63758490E431C85C7DB99461"
+    },
+    {
+      "name": "重炮命中特效.png",
+      "bytes": 4342,
+      "sha256": "3D35D0A0DFD2D4BA64505544F3234E0848DB67E37058237EA3926C1608E0A022"
+    },
+    {
+      "name": "重炮炮弹.png",
+      "bytes": 3282,
+      "sha256": "A2E3D74A38A019CDCD58C6396B50979454E84AF09E55E671C7DC5EA5FBDE46C2"
+    }
+  ]
+}

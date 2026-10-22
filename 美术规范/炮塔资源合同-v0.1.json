@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "documentVersion": "0.1-DRAFT",
+  "projectId": "live-turret-defense",
+  "status": "DOCUMENTED_NOT_APPROVED",
+  "reference": {
+    "tapUrl": "https://tap.cn/lqs3Qu7pC",
+    "identityVerified": false,
+    "cameraVerified": false
+  },
+  "renderMode": "dynamic-2d",
+  "artDirection": {
+    "style": "mobile-cartoon",
+    "cameraCandidate": "orthographic-three-quarter-30-to-35-deg",
+    "cameraVerified": false,
+    "lightDirection": "upper-left",
+    "gameplayOverviewRequired": true,
+    "gameplayOverviewPresent": false
+  },
+  "target": {
+    "screen": {
+      "design": [
+        1080,
+        1920
+      ],
+      "secondary": [
+        720,
+        1280
+      ],
+      "ratio": "9:16",
+      "verified": false
+    },
+    "towerDisplayWidthPx": [
+      68,
+      88
+    ],
+    "focusWidthMaxPx": 110,
+    "sourceFramePx": [
+      256,
+      256
+    ],
+    "sourceSpriteGroundPointTopLeft": [
+      128,
+      220
+    ],
+    "cocosAnchor": [
+      0.5,
+      0.140625
+    ],
+    "levelCanvasPolicy": "same-canvas-and-anchor",
+    "atlasCandidate": [
+      1024,
+      2048
+    ],
+    "atlasPaddingPx": 2,
+    "atlasExtrudePx": 1,
+    "labels": {
+      "fontPxAt1080": [
+        22,
+        26
+      ],
+      "separateUI": true
+    }
+  },
+  "composition": {
+    "mapBackground": "independent",
+    "mapTiles": "independent",
+    "towerShadow": "optional-independent-rgba",
+    "towerMechanicalFoundation": "independent-rgba-no-terrain",
+    "towerBody": "independent-rgba",
+    "turretHead": "independent-rgba",
+    "upgradeDetails": "independent-rgba",
+    "projectile": "independent-rgba",
+    "fx": "independent-rgba",
+    "viewerLabel": "independent-ui"
+  },
+  "transparency": {
+    "runtimeSpritesRequire": "RGBA-PNG-with-real-alpha",
+    "minTransparentCorners": 4,
+    "borderPixelsCompletelyTransparent": 2,
+    "forbid": [
+      "opaque-RGB-as-sprite",
+      "all-255-alpha",
+      "white-matte",
+      "grass-under-tower",
+      "baked-ground-tile",
+      "scene-background",
+      "baked-nickname",
+      "whole-production-sheet-as-runtime"
+    ],
+    "semanticVisualReview": true,
+    "bgPreview": [
+      "light-gray",
+      "dark-gray",
+      "checkerboard",
+      "grass-tile",
+      "stone-tile"
+    ]
+  },
+  "animations": {
+    "idle": {
+      "frames": 6,
+      "fps": 8,
+      "loop": true
+    },
+    "attack": {
+      "frames": 8,
+      "fps": 12,
+      "loop": false,
+      "event": "fire",
+      "damageFromGameplayLogic": true
+    },
+    "upgrade": {
+      "frames": 10,
+      "fps": 12,
+      "loop": false,
+      "event": "level_switch_once"
+    },
+    "hit": {
+      "frames": 4,
+      "fps": 10,
+      "conditional": true
+    },
+    "destroy": {
+      "frames": 8,
+      "fps": 12,
+      "conditional": true
+    }
+  },
+  "levelCountCandidate": 5,
+  "towers": [
+    {
+      "id": "tower_repeater",
+      "name": "连珠速射塔",
+      "role": "fast-single-target",
+      "palette": [
+        "#E9AE47",
+        "#41464F"
+      ],
+      "shape": "short-twin-barrels-and-box-housing",
+      "upgradeByLevel": [
+        "双短枪管和小机匣",
+        "铜护板",
+        "枪管加长与散热槽",
+        "独立弹匣和能量条",
+        "装甲双管与散热光"
+      ]
+    },
+    {
+      "id": "tower_mortar",
+      "name": "熔芯重炮塔",
+      "role": "slow-area-damage",
+      "palette": [
+        "#DA644F",
+        "#4A4140"
+      ],
+      "shape": "one-thick-short-barrel-with-shoulder-armor",
+      "upgradeByLevel": [
+        "单粗炮筒",
+        "炮身加压条",
+        "大炮口与炮膛线",
+        "加厚炮盾与炉芯亮光",
+        "顶级重炮口与红金刻线"
+      ]
+    },
+    {
+      "id": "tower_frost",
+      "name": "霜晶减速塔",
+      "role": "slowing-support",
+      "palette": [
+        "#64CEE2",
+        "#315568"
+      ],
+      "shape": "tall-crystal-with-ring-emitter",
+      "upgradeByLevel": [
+        "单晶与一圈环",
+        "副晶片",
+        "晶体分叉与第二层环纹",
+        "晶簇外扩和环形粒子",
+        "大主晶与双环结构"
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "id": "ART-QA-01",
+      "type": "machine-and-visual",
+      "requirement": "alpha真实"
+    },
+    {
+      "id": "ART-QA-02",
+      "type": "visual",
+      "requirement": "无草坪/地板/背景污染"
+    },
+    {
+      "id": "ART-QA-03",
+      "type": "engine",
+      "requirement": "塔身底座地图可单独开关"
+    },
+    {
+      "id": "ART-QA-04",
+      "type": "visual",
+      "requirement": "64px剪影可区分"
+    },
+    {
+      "id": "ART-QA-05",
+      "type": "animation",
+      "requirement": "等级变化时锚点不漂移"
+    },
+    {
+      "id": "ART-QA-06",
+      "type": "animation",
+      "requirement": "多帧真实运动"
+    },
+    {
+      "id": "ART-QA-07",
+      "type": "engine",
+      "requirement": "两种地图无需改塔图"
+    },
+    {
+      "id": "ART-QA-08",
+      "type": "device",
+      "requirement": "720/1080p与10/50/100塔性能"
+    },
+    {
+      "id": "ART-QA-09",
+      "type": "build",
+      "requirement": "spriteTrim/pivot/Atlas/manifest"
+    },
+    {
+      "id": "ART-QA-10",
+      "type": "integration",
+      "requirement": "塔/等级/事件和UI一致"
+    }
+  ],
+  "gates": {
+    "G0": "BLOCKED-BENCHMARK-AND-LIVE-EVENTS",
+    "ART_SPEC": "DOCUMENTED",
+    "MASTER": "PENDING",
+    "ALPHA_QA": "UNVERIFIED",
+    "RUNTIME_QA": "UNVERIFIED",
+    "MASS_PRODUCTION": "NOT_AUTHORIZED"
+  },
+  "instruction": {
+    "source": "https://github.com/a2315758011/a/blob/main/README.md",
+    "version": "V5.3",
+    "gitBlobSha": "5d7e40c3a34873314eed9285313332243a9fa6db"
+  }
+}

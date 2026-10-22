@@ -1,0 +1,105 @@
+{
+  "assetId": "td-v5-grunt-offline-layers-001",
+  "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\evidence\\RECOVERY-034-TOPDOWN-ENEMY-MASTER-A\\兽人小兵_顶视MasterA_96.png",
+  "sourceSha256": "190ce82cfaaaa619295ed8d48768fa1d43ff2c40c5747a7be235b6544cd29fbe",
+  "cleanedMagentaPixels": 3,
+  "canvas": [
+    96,
+    96
+  ],
+  "anchor": {
+    "x": 48.0,
+    "y": 74.88,
+    "meaning": "bottom-center ground contact; verify in engine before promotion"
+  },
+  "layers": [
+    {
+      "name": "兽人小兵_身体护甲_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人小兵\\兽人小兵_身体护甲_母图层.png",
+      "size": [
+        96,
+        96
+      ],
+      "bbox": [
+        36,
+        35,
+        64,
+        76
+      ],
+      "opaquePixels": 615,
+      "sha256": "af373dd3442b13c8026454824a977e6af08aa80cd5af005ce64157c156d67afc"
+    },
+    {
+      "name": "兽人小兵_头部双臂_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人小兵\\兽人小兵_头部双臂_母图层.png",
+      "size": [
+        96,
+        96
+      ],
+      "bbox": [
+        9,
+        7,
+        86,
+        67
+      ],
+      "opaquePixels": 2447,
+      "sha256": "509b947f0865d249d5a607ee50daf05d01675052333a69c89b45bbafbde540ca"
+    },
+    {
+      "name": "兽人小兵_武器配件_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人小兵\\兽人小兵_武器配件_母图层.png",
+      "size": [
+        96,
+        96
+      ],
+      "bbox": [
+        11,
+        50,
+        36,
+        89
+      ],
+      "opaquePixels": 401,
+      "sha256": "c4a0b8fc0743820745d55312b752d3a41addf67f7ef2201c023135d06d870697"
+    }
+  ],
+  "detachedBodyComponentsReassigned": [
+    {
+      "area": 22,
+      "centroid": [
+        27.64,
+        20.23
+      ],
+      "to": "head_arms"
+    },
+    {
+      "area": 7,
+      "centroid": [
+        10.71,
+        49.57
+      ],
+      "to": "head_arms"
+    },
+    {
+      "area": 12,
+      "centroid": [
+        75.83,
+        64.33
+      ],
+      "to": "head_arms"
+    },
+    {
+      "area": 1,
+      "centroid": [
+        15.0,
+        80.0
+      ],
+      "to": "weapon_accessory"
+    }
+  ],
+  "composite": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人小兵\\兽人小兵_三层重组.png",
+  "compositeSha256": "719ba6809cec1c2974c31d139bce813fa89a28ae5aff9e32bf1b032e9f0c6c1b",
+  "pixelMismatchCount": 0,
+  "technicalStatus": "PASS_EXACT_RECOMPOSITION",
+  "preview": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-037-LOCAL-SEGMENTATION-001\\兽人小兵\\兽人小兵_三层预览.png",
+  "note": "Editable semantic segmentation derived offline from existing top-down master. Recomposition is pixel-exact after clearing known magenta residue. This is a layer-source candidate, not a completed animation set or human-approved art."
+}

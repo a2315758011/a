@@ -1,0 +1,108 @@
+{
+  "test": "Cocos Creator 3.8.2 real-time mouse-only full playthrough",
+  "states": [
+    {
+      "wallTime": 9.6,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 3.2,
+      "towers": 11,
+      "enemies": 5,
+      "spawned": 5,
+      "zoom": 0.68
+    }
+  ],
+  "consoleErrors": [],
+  "actions": [
+    {
+      "clock": 6.6,
+      "name": "start"
+    },
+    {
+      "clock": 6.8,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 7.0,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 7.2,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 7.4,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 7.6,
+      "name": "zoom_out"
+    },
+    {
+      "clock": 9.3,
+      "name": "drag_camera"
+    },
+    {
+      "clock": 9.5,
+      "name": "recenter"
+    }
+  ],
+  "result": "STRICT_9x16_SCREENSHOT_SMOKE_PASS",
+  "startedAt": "2026-10-19T18:50:13",
+  "initial": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9
+  },
+  "viewport": {
+    "w": 540,
+    "h": 960,
+    "hidden": false
+  },
+  "actualScreenshotSizes": {
+    "00-开局.png": [
+      540,
+      960
+    ],
+    "01-玩家进场布塔.png": [
+      540,
+      960
+    ],
+    "99-实际画面.png": [
+      540,
+      960
+    ]
+  },
+  "afterHumanSetup": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 3.1,
+    "towers": 11,
+    "enemies": 5,
+    "spawned": 5,
+    "zoom": 0.68
+  },
+  "expectedTowersAfterSetup": 11,
+  "final": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 3.2,
+    "towers": 11,
+    "enemies": 5,
+    "spawned": 5,
+    "zoom": 0.68
+  },
+  "durationSeconds": 11.2
+}

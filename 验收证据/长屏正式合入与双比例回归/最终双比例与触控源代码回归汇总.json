@@ -1,0 +1,50 @@
+{
+  "status": "COCOS_PORTRAIT_DESKTOP_QA_PASS__MOBILE_DEVICE_PENDING",
+  "realProject": "CocosCreator工程",
+  "officialBuild": {
+    "logSuccess": true,
+    "exitCode": 36,
+    "files": 366
+  },
+  "formalSourceMatchesLongQAWithoutInspector": true,
+  "officialSceneUnchanged": true,
+  "desktopMousePortaits": [
+    [
+      540,
+      960
+    ],
+    [
+      540,
+      1108
+    ]
+  ],
+  "desktopTouchEmulation": [
+    [
+      540,
+      960
+    ],
+    [
+      540,
+      1108
+    ]
+  ],
+  "screenshotsChecked": 4,
+  "fullHumanPlayStrict9x16": {
+    "win": "win",
+    "kills": 96,
+    "restart": "ready"
+  },
+  "fullHumanPlayTallScreen": {
+    "win": "win",
+    "kills": 96,
+    "restart": "ready"
+  },
+  "localPreviewUrl": "http://127.0.0.1:18688/",
+  "phoneDeviceVerified": false,
+  "wechatDouyinAndroidRuntimeVerified": false,
+  "knownRisk": [
+    "Build exited with code 36 despite log success and runnable output",
+    "Touch input uses browser CDP emulation and is not actual device touch",
+    "V4 sprite art remains pending user approval"
+  ]
+}

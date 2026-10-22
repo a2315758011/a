@@ -1,0 +1,383 @@
+{
+  "task": "WHOLE-GAME-FORMAL-SHOP-EFFECTS-20261022",
+  "test": "synthetic wallet seed -> real UI purchase fireControl/viewerBoost -> reload -> effect",
+  "checks": {
+    "realUiBoughtBoth": true,
+    "bothPersist": true,
+    "fireControlMultiplierApplied": true,
+    "viewerBaseLevelApplied": true,
+    "newViewerTowerStartsLevel2": true
+  },
+  "errors": [],
+  "startedAt": "2026-10-22T19:15:34",
+  "afterPurchases": {
+    "state": "ready",
+    "menu": false,
+    "shop": true,
+    "profile": {
+      "version": 1,
+      "coins": 360,
+      "upgrades": {
+        "coreShield": 0,
+        "fireControl": 1,
+        "viewerBoost": 1
+      },
+      "stats": {
+        "runs": 0,
+        "wins": 0,
+        "totalKills": 0,
+        "bestKills": 0
+      },
+      "updatedAt": 1792667741604
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 40,
+        "canBuy": true
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 1,
+        "maxLevel": 3,
+        "cost": 120,
+        "canBuy": true
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 1,
+        "maxLevel": 2,
+        "cost": 160,
+        "canBuy": true
+      }
+    ],
+    "fire": 1,
+    "viewerStart": 1,
+    "towers": [
+      {
+        "id": "base-1",
+        "level": 1
+      },
+      {
+        "id": "base-2",
+        "level": 1
+      },
+      {
+        "id": "base-3",
+        "level": 1
+      },
+      {
+        "id": "base-4",
+        "level": 1
+      },
+      {
+        "id": "base-5",
+        "level": 1
+      },
+      {
+        "id": "base-6",
+        "level": 1
+      },
+      {
+        "id": "base-7",
+        "level": 1
+      },
+      {
+        "id": "base-8",
+        "level": 1
+      },
+      {
+        "id": "base-9",
+        "level": 1
+      }
+    ],
+    "inputBlocked": true
+  },
+  "afterReload": {
+    "state": "ready",
+    "menu": true,
+    "shop": false,
+    "profile": {
+      "version": 1,
+      "coins": 360,
+      "upgrades": {
+        "coreShield": 0,
+        "fireControl": 1,
+        "viewerBoost": 1
+      },
+      "stats": {
+        "runs": 0,
+        "wins": 0,
+        "totalKills": 0,
+        "bestKills": 0
+      },
+      "updatedAt": 1792667741604
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 40,
+        "canBuy": true
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 1,
+        "maxLevel": 3,
+        "cost": 120,
+        "canBuy": true
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 1,
+        "maxLevel": 2,
+        "cost": 160,
+        "canBuy": true
+      }
+    ],
+    "fire": 1.05,
+    "viewerStart": 2,
+    "towers": [
+      {
+        "id": "base-1",
+        "level": 1
+      },
+      {
+        "id": "base-2",
+        "level": 1
+      },
+      {
+        "id": "base-3",
+        "level": 1
+      },
+      {
+        "id": "base-4",
+        "level": 1
+      },
+      {
+        "id": "base-5",
+        "level": 1
+      },
+      {
+        "id": "base-6",
+        "level": 1
+      },
+      {
+        "id": "base-7",
+        "level": 1
+      },
+      {
+        "id": "base-8",
+        "level": 1
+      },
+      {
+        "id": "base-9",
+        "level": 1
+      }
+    ],
+    "inputBlocked": true
+  },
+  "afterStart": {
+    "state": "running",
+    "menu": false,
+    "shop": false,
+    "profile": {
+      "version": 1,
+      "coins": 360,
+      "upgrades": {
+        "coreShield": 0,
+        "fireControl": 1,
+        "viewerBoost": 1
+      },
+      "stats": {
+        "runs": 0,
+        "wins": 0,
+        "totalKills": 0,
+        "bestKills": 0
+      },
+      "updatedAt": 1792667741604
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 40,
+        "canBuy": true
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 1,
+        "maxLevel": 3,
+        "cost": 120,
+        "canBuy": true
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 1,
+        "maxLevel": 2,
+        "cost": 160,
+        "canBuy": true
+      }
+    ],
+    "fire": 1.05,
+    "viewerStart": 2,
+    "towers": [
+      {
+        "id": "base-1",
+        "level": 1
+      },
+      {
+        "id": "base-2",
+        "level": 1
+      },
+      {
+        "id": "base-3",
+        "level": 1
+      },
+      {
+        "id": "base-4",
+        "level": 1
+      },
+      {
+        "id": "base-5",
+        "level": 1
+      },
+      {
+        "id": "base-6",
+        "level": 1
+      },
+      {
+        "id": "base-7",
+        "level": 1
+      },
+      {
+        "id": "base-8",
+        "level": 1
+      },
+      {
+        "id": "base-9",
+        "level": 1
+      }
+    ],
+    "inputBlocked": false
+  },
+  "joined": {
+    "state": "running",
+    "menu": false,
+    "shop": false,
+    "profile": {
+      "version": 1,
+      "coins": 360,
+      "upgrades": {
+        "coreShield": 0,
+        "fireControl": 1,
+        "viewerBoost": 1
+      },
+      "stats": {
+        "runs": 0,
+        "wins": 0,
+        "totalKills": 0,
+        "bestKills": 0
+      },
+      "updatedAt": 1792667741604
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 40,
+        "canBuy": true
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 1,
+        "maxLevel": 3,
+        "cost": 120,
+        "canBuy": true
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 1,
+        "maxLevel": 2,
+        "cost": 160,
+        "canBuy": true
+      }
+    ],
+    "fire": 1.05,
+    "viewerStart": 2,
+    "towers": [
+      {
+        "id": "base-1",
+        "level": 1
+      },
+      {
+        "id": "base-2",
+        "level": 1
+      },
+      {
+        "id": "base-3",
+        "level": 1
+      },
+      {
+        "id": "base-4",
+        "level": 1
+      },
+      {
+        "id": "base-5",
+        "level": 1
+      },
+      {
+        "id": "base-6",
+        "level": 1
+      },
+      {
+        "id": "base-7",
+        "level": 1
+      },
+      {
+        "id": "base-8",
+        "level": 1
+      },
+      {
+        "id": "base-9",
+        "level": 1
+      },
+      {
+        "id": "sim-10",
+        "level": 2
+      }
+    ],
+    "inputBlocked": false
+  },
+  "result": "PASS",
+  "finishedAt": "2026-10-22T19:15:45"
+}

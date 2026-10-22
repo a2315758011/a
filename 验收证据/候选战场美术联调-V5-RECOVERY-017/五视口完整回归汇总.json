@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "projectId": "live-turret-defense",
+  "taskId": "ART-PIPELINE-V5-001",
+  "recovery": "RECOVERY-017",
+  "createdAt": "2026-10-20T04:34:06.690Z",
+  "target": "候选 V5 隔离 Cocos Creator 3.8.2 工程；仅验证，不替换正式主场景或 Prefab",
+  "candidateBuild": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/build/web-mobile",
+  "summary": {
+    "fiveViewportInputSmoke": {
+      "passed": 5,
+      "total": 5,
+      "consoleErrors": 0,
+      "overallPass": true,
+      "checks": [
+        "exactViewport",
+        "artLoaded",
+        "hudWithinView",
+        "startButton",
+        "viewerAddsOneTower",
+        "restartRestoresInitial"
+      ]
+    },
+    "fiveViewportFullPlaythrough": {
+      "passed": 5,
+      "total": 5,
+      "result": "win",
+      "finalWave": 3,
+      "kills": 96,
+      "coreHp": 100,
+      "towersAfterViewerActions": 24,
+      "restartState": "ready",
+      "towersAfterRestart": 9,
+      "consoleErrors": 0
+    },
+    "formalIntegration": "not performed",
+    "realDeviceAndPlatformValidation": "not performed"
+  },
+  "viewports": [
+    {
+      "width": 360,
+      "height": 780,
+      "inputSmoke": "PASS",
+      "fullPlaythrough": "PASS",
+      "result": "win",
+      "wave": 3,
+      "kills": 96,
+      "hp": 100,
+      "towers": 24,
+      "restartTowers": 9,
+      "source": "验收证据/候选战场美术联调-V5-360x780-RECOVERY-016/真人操作完整一局.json",
+      "note": "本轮比例调整后已在 RECOVERY-016 完成；本轮复用该结果，未重复运行。"
+    },
+    {
+      "width": 393,
+      "height": 852,
+      "inputSmoke": "PASS",
+      "fullPlaythrough": "PASS",
+      "result": "win",
+      "wave": 3,
+      "kills": 96,
+      "hp": 100,
+      "towers": 24,
+      "restartTowers": 9,
+      "durationSeconds": 93.4,
+      "statesSampled": 40,
+      "source": "验收证据/候选战场美术联调-V5-RECOVERY-017-393x852/真人操作完整一局.json"
+    },
+    {
+      "width": 540,
+      "height": 760,
+      "inputSmoke": "PASS",
+      "fullPlaythrough": "PASS",
+      "result": "win",
+      "wave": 3,
+      "kills": 96,
+      "hp": 100,
+      "towers": 24,
+      "restartTowers": 9,
+      "durationSeconds": 93,
+      "statesSampled": 39,
+      "source": "验收证据/候选战场美术联调-V5-RECOVERY-017-540x760/真人操作完整一局.json"
+    },
+    {
+      "width": 540,
+      "height": 960,
+      "inputSmoke": "PASS",
+      "fullPlaythrough": "PASS",
+      "result": "win",
+      "wave": 3,
+      "kills": 96,
+      "hp": 100,
+      "towers": 24,
+      "restartTowers": 9,
+      "durationSeconds": 91.6,
+      "statesSampled": 39,
+      "source": "验收证据/候选战场美术联调-V5-RECOVERY-017-540x960/真人操作完整一局.json"
+    },
+    {
+      "width": 540,
+      "height": 1108,
+      "inputSmoke": "PASS",
+      "fullPlaythrough": "PASS",
+      "result": "win",
+      "wave": 3,
+      "kills": 96,
+      "hp": 100,
+      "towers": 24,
+      "restartTowers": 9,
+      "durationSeconds": 102.7,
+      "statesSampled": 39,
+      "source": "验收证据/候选战场美术联调-V5-RECOVERY-017-540x1108/真人操作完整一局.json",
+      "note": "首轮测试工具 CDP 在 ready 前断开，游戏未启动；失败记录保存在 _assistant-temp/RECOVERY-017-540x1108-failed-attempt/。重新运行后完整通过。"
+    }
+  ],
+  "smokeEvidence": "验收证据/候选战场美术联调-V5-五视口RECOVERY-016/五视口V5输入回归.json",
+  "failedHarnessAttempt": "_assistant-temp/RECOVERY-017-540x1108-failed-attempt/",
+  "testScripts": [
+    "_assistant-temp/cocos_v5_five_viewport_smoke_RECOVERY_016.py",
+    "_assistant-temp/cocos_v5_full_playthrough_393x852_RECOVERY_017.py",
+    "_assistant-temp/cocos_v5_full_playthrough_540x760_scale_RECOVERY_017.py",
+    "_assistant-temp/cocos_v5_full_playthrough_540x960_scale_RECOVERY_017.py",
+    "_assistant-temp/cocos_v5_full_playthrough_540x1108_RECOVERY_017.py"
+  ],
+  "acceptance": {
+    "passed": [
+      "修改后五种目标视口的真实鼠标输入 smoke 5/5",
+      "五种目标视口的完整三波对局 5/5 胜利",
+      "各视口最终水晶 HP 100、96 击杀、24 座炮塔",
+      "各视口重开恢复 ready、第一波、HP100、9 座炮塔、0 击杀",
+      "四个本轮重跑视口控制台异常列表为空"
+    ],
+    "notClaimed": [
+      "正式主场景与 Prefab 已集成",
+      "用户审美签收",
+      "Android、微信、抖音真机验证",
+      "直播观众真实进退场接口",
+      "1000 塔低端手机性能验收"
+    ]
+  }
+}

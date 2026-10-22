@@ -1,0 +1,109 @@
+{
+  "status": "FAIL",
+  "build": "real Cocos Creator 3.8.2 Web-Mobile official project / mobile emulation touch events",
+  "launchScene": "db://assets/场景/候选美术试玩.scene",
+  "screens": [
+    {
+      "target": [
+        540,
+        960
+      ],
+      "status": "PASS_FORMAL_COCOS_RUNTIME_PORTRAIT",
+      "consoleErrors": [],
+      "console": [
+        {
+          "type": "timeEnd",
+          "line": "Init Base: 7.240966796875 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init Infrastructure: 23.197021484375 ms"
+        },
+        {
+          "type": "log",
+          "line": "[PHYSICS2D]: register box2d."
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init SubSystem: 43.0791015625 ms"
+        },
+        {
+          "type": "log",
+          "line": "Cocos Creator v3.8.2"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Init Project: 20.800048828125 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "LoadScene db://assets/场景/候选美术试玩.scene: 18.3701171875 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "InitScene: 0.1298828125 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "AttachPersist: 0.0810546875 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "AutoRelease: 0.111083984375 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Destroy: 0.158935546875 ms"
+        },
+        {
+          "type": "timeEnd",
+          "line": "Activate: 19.10400390625 ms"
+        },
+        {
+          "type": "log",
+          "line": "Success to load scene: db://assets/场景/候选美术试玩.scene"
+        },
+        {
+          "type": "log",
+          "line": "候选可玩战场：5组40帧已载入，已启用SpriteFrame覆盖"
+        }
+      ],
+      "viewport": {
+        "w": 540,
+        "h": 960,
+        "hidden": false
+      },
+      "initialSha": "214372d0c96b25578fd2b41c230131219c5d40afd4dc860608aadfd789dff352",
+      "afterSha": "7639c27d01abfd267c253c773705176df1a2dfcf3fe107d73863669128359668",
+      "visualPixelsChangedSampled": 1164,
+      "bottomButtonRGB": {
+        "start": [
+          92,
+          143,
+          183
+        ],
+        "join": [
+          143,
+          183,
+          147
+        ]
+      },
+      "webgl2": true,
+      "seconds": 8.7
+    },
+    {
+      "target": [
+        540,
+        1108
+      ],
+      "status": "FAIL",
+      "consoleErrors": [],
+      "console": [],
+      "error": "no close frame received or sent",
+      "trace": "grams\\Python\\Python313\\Lib\\site-packages\\websockets\\sync\\connection.py\", line 814, in recv_events\n    data = self.socket.recv(self.recv_bufsize)\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\合入后Cocos双比例触摸事件回归.py\", line 89, in <module>\n    js('document.readyState') # Drain queued CDP events while waiting for Cocos scene load.\n    ~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\合入后Cocos双比例触摸事件回归.py\", line 67, in js\n    v=call('Runtime.evaluate',{'expression':expression,'returnByValue':True})\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\合入后Cocos双比例触摸事件回归.py\", line 54, in call\n    msg=json.loads(ws.recv(timeout=max(.1,until-time.monotonic())))\n                   ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\websockets\\sync\\connection.py\", line 336, in recv\n    raise self.protocol.close_exc from self.recv_exc\nwebsockets.exceptions.ConnectionClosedError: no close frame received or sent\n",
+      "seconds": 1.9
+    }
+  ],
+  "manualHumanFullRunPreviously": true,
+  "phoneDeviceVerified": false
+}

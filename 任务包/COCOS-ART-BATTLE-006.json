@@ -1,0 +1,76 @@
+{
+  "taskId": "COCOS-ART-BATTLE-006",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-cocos-art-integration-20261019",
+  "status": "CANDIDATE_PLAYABLE_ENGINE_QA_PASS__ART_APPROVAL_PENDING",
+  "instruction": {
+    "url": "https://github.com/a2315758011/a/blob/main/README.md",
+    "version": "V5.7",
+    "chapters": [
+      "RULE-03",
+      "RULE-05",
+      "RULE-06",
+      "RULE-07",
+      "RULE-08",
+      "RULE-10",
+      "RULE-13"
+    ]
+  },
+  "dependency": {
+    "sourceTask": "ART-ANIM-V4-005",
+    "sourceStatus": "TECH_QA_PASS_ART_NOT_APPROVED",
+    "approvedFor": "candidate preview only"
+  },
+  "scope": "Cocos Creator 3.8.2 real battle scene with SpriteFrame overlay and same shared gameplay controller, official scene unaltered",
+  "modifiedFiles": [
+    "CocosCreator工程/assets/脚本/守城控制器.ts",
+    "CocosCreator工程/assets/脚本/待审战场美术覆盖器.ts",
+    "CocosCreator工程/assets/脚本/待审战场美术覆盖器.ts.meta",
+    "CocosCreator工程/assets/场景/候选美术试玩.scene",
+    "CocosCreator工程/assets/场景/候选美术试玩.scene.meta",
+    "CocosCreator工程/assets/resources/待审战斗美术-v4/**",
+    "_assistant-temp/候选战场Cocos独立构建工程/**",
+    "_assistant-temp/灰盒与输入回归Cocos工程/**",
+    "验收证据/候选战场美术联调/**",
+    "验收证据/正式灰盒输入回归/**"
+  ],
+  "validation": {
+    "CocosVersion": "3.8.2",
+    "candidateSceneRuntime": "PASS",
+    "originalGrayboxSceneRuntime": "PASS",
+    "CocosBuildWebMobileFiles": {
+      "candidate": 196,
+      "graybox": 25
+    },
+    "sourcePNGMetaImported": 56,
+    "sourceUUIDUnique": 56,
+    "textureMinMag": "nearest",
+    "candidateBattleFrameLoaded": 40,
+    "originalControllerReused": true,
+    "formalSceneSHA256": "d42fc8b8f45e922f900e4bf68504b7df085051abf91dcd81966f5415aaff8fba",
+    "baselineInputBugFixed": "center-origin conversion",
+    "duplicateTouchAndMouseBugFixed": "100ms same-coordinate suppression",
+    "mouseOnlyStartAndViewerTest": "PASS: 9→21 towers, running, 12 clicks",
+    "liveCocosArtScreenshot": "验收证据/候选战场美术联调/02-启动加入12观众.png",
+    "grayboxRegressionScreenshot": "验收证据/正式灰盒输入回归/02-启动加入12观众.png",
+    "browserWebGL2": "PASS",
+    "JavaScriptRuntimeExceptions": 0,
+    "CocosCLIExitCode": 36,
+    "localCocosPreview": "http://127.0.0.1:18688/",
+    "localCocosPreviewHTTP200": true
+  },
+  "notVerified": [
+    "没有用户画风签收，待审美术未晋升为最终游戏美术",
+    "正式炮塔/怪物/水晶 Prefab 尚未绑定（本阶段是动态 Sprite/SpriteFrame）",
+    "兽人攻击/死亡、炮塔Idle等全状态动画尚未全部绑定，当前显示战斗关键动作样例",
+    "1000同时在线炮塔/手机GPU与内存压力尚未实测",
+    "平台抖音进退房实时事件/微信/Android真机尚未接通或验收",
+    "Cocos构建虽然日志build success且运行通过，进程返回代码36仍待定位"
+  ],
+  "handoff": "验收证据/COCOS-ART-BATTLE-006-可玩候选美术与原版回归.md",
+  "nextSteps": [
+    "取得画风签收后建立正式 Prefab 和动画状态机，绑定到同一控制器",
+    "对1000名观众分布、可见节点上限600、极限缩放和低端手机做压力测试",
+    "抖音实时事件接口需另行通过PLAT-002审核"
+  ]
+}

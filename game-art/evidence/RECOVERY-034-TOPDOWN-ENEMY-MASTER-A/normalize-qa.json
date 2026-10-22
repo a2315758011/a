@@ -1,0 +1,39 @@
+{
+  "task": "RECOVERY-034-TOPDOWN-ENEMY-MASTER-A",
+  "sourceSize": [
+    1233,
+    1275
+  ],
+  "sourceBbox": [
+    237,
+    228,
+    1019,
+    1058
+  ],
+  "runtimeSize": [
+    96,
+    96
+  ],
+  "contentBbox": [
+    9,
+    7,
+    86,
+    89
+  ],
+  "alphaMinMax": [
+    0,
+    255
+  ],
+  "transparentRatio": 0.631293,
+  "opaqueRatio": 0.368707,
+  "visibleColorCount": 18,
+  "magentaResidualRatio": 0.000883,
+  "sha256": "190CE82CFAAAA619295ED8D48768FA1D43FF2C40C5747A7BE235B6544CD29FBE",
+  "visualReview": {
+    "camera": "PASS_MANUAL: true overhead read; head crown and shoulder tops visible; no horizon/front-standing pose",
+    "style": "PASS_CANDIDATE_AFTER_NORMALIZATION: finite palette + binary alpha + nearest-neighbor normalization",
+    "identity": "NEW_ORIGINAL_CANDIDATE: no reference image used; not yet an Approved Master",
+    "layerability": "BLOCKED: one composite candidate only; 3-layer editable source must be rebuilt before formal animation promotion"
+  },
+  "technicalPass": true
+}

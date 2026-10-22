@@ -1,0 +1,79 @@
+{
+  "projectId": "live-turret-defense",
+  "sourceVersion": "v2",
+  "sourceFormat": "editable ORA source + procedural independent part keyposes",
+  "frameSize": [
+    96,
+    96
+  ],
+  "filterMode": "POINT_NEAREST",
+  "anchor": [
+    0.5,
+    0.125
+  ],
+  "frameMs": 110,
+  "engineStatus": "NOT_BOUND_TO_COCOS",
+  "actions": [
+    {
+      "object": "连珠速射塔",
+      "state": "attack",
+      "frames": 8,
+      "eventFrame": 2,
+      "poseDescription": "双枪管蓄力/后坐/独立火焰/弹丸/归位",
+      "notes": "逐帧缓存可由分层资产配方重建；游戏伤害仍按规则引擎结算"
+    },
+    {
+      "object": "熔芯重炮塔",
+      "state": "attack",
+      "frames": 8,
+      "eventFrame": 3,
+      "poseDescription": "主炮管蓄力/后坐/独立炮口焰/归位",
+      "notes": "逐帧缓存可由分层资产配方重建；游戏伤害仍按规则引擎结算"
+    },
+    {
+      "object": "寒霜喷射塔",
+      "state": "attack",
+      "frames": 8,
+      "eventFrame": 3,
+      "poseDescription": "喷嘴收缩/独立冰雾/复原",
+      "notes": "逐帧缓存可由分层资产配方重建；游戏伤害仍按规则引擎结算"
+    },
+    {
+      "object": "城防水晶",
+      "state": "shatter",
+      "frames": 8,
+      "eventFrame": 4,
+      "poseDescription": "裂纹发展/六块晶体断裂分离/碎尘下落",
+      "notes": "逐帧缓存可由分层资产配方重建；游戏伤害仍按规则引擎结算"
+    },
+    {
+      "object": "兽人小兵",
+      "state": "walk",
+      "frames": 8,
+      "eventFrame": null,
+      "poseDescription": "左右腿支撑与迈步/手臂摆动/重心小幅调整",
+      "notes": "逐帧缓存可由分层资产配方重建；游戏伤害仍按规则引擎结算"
+    },
+    {
+      "object": "兽人小兵",
+      "state": "attack",
+      "frames": 8,
+      "eventFrame": 4,
+      "poseDescription": "抬臂蓄力/挥斧冲击/武器收回",
+      "notes": "逐帧缓存可由分层资产配方重建；游戏伤害仍按规则引擎结算"
+    },
+    {
+      "object": "兽人小兵",
+      "state": "death",
+      "frames": 8,
+      "eventFrame": null,
+      "poseDescription": "失衡倾倒/武器脱落/头部与躯干各自运动/倒地",
+      "notes": "逐帧缓存可由分层资产配方重建；游戏伤害仍按规则引擎结算"
+    }
+  ],
+  "editingNotes": [
+    "每套源文件.ora均可在支持OpenRaster的编辑器打开并编辑图层",
+    "动作关键姿态由配方按部件变化导出PNG/GIF",
+    "母图与动作帧必须与游戏内原始像素比例匹配"
+  ]
+}

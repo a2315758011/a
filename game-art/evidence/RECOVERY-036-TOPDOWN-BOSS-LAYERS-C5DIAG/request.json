@@ -1,0 +1,35 @@
+{
+  "payload": {
+    "kind": "image",
+    "feature": "character_generation",
+    "prompt": "[RECOVERY036_DIAGNOSTIC_ONLY]\n基于上传的“兽人首领_顶视MasterB”作为严格身份参考，制作一个可编辑分层生产板。不要重新设计角色，不要改变颜色、武器、肩甲、发冠、体型或90°顶视方向。\n\n【目标】\n把同一个兽人首领拆成 EXACTLY THREE 个独立层源，横向从左到右排列：\n1. BODY_ARMOR：身体、腿、胸背护甲、肩部基础结构；不要头部、手臂、盾、战斧。\n2. HEAD_ARMS：头顶/发冠、头部、左臂、右臂；不要身体护甲、腿、盾、战斧。\n3. WEAPON_ACCESSORY：盾牌、战斧以及仅属于武器的装饰；不要身体、头、手臂、腿。\n\n【Reference Lock】\n三个层必须来自同一个参考角色，保持参考图的像素轮廓、尺寸比例、朝向、90° straight-down orthographic camera、有限调色板。禁止变成正面/3/4/等距视角。\n层之间不得重复绘制同一个实体部件；缺失的被遮挡边缘可以做最小合理补全，以便独立动画，但不能改造角色。\n\n【版式】\n16:9 横向生产板，三个等宽区域，从左到右 BODY_ARMOR / HEAD_ARMS / WEAPON_ACCESSORY。\n每个区域中的部件都按同一个128×128逻辑坐标中心对齐，角色锚点一致；三个区域的对象整体尺寸一致。\n背景全板只能是均匀纯色 #FF00FF 品红。\n不要分隔线，不要文字，不要标签，不要数字，不要水印，不要额外角色，不要场景，不要阴影地面。\n原生像素硬边，不要抗锯齿，不要平滑渐变。",
+    "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+    "pool": false,
+    "source": "isolated-refupload-diagnostic-candidate",
+    "sourceProjectId": "live-turret-defense",
+    "sourceTaskId": "RECOVERY-036-TOPDOWN-BOSS-LAYERS-C5-DIAG",
+    "aspectRatio": "16:9",
+    "referenceImages": [
+      {
+        "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\evidence\\RECOVERY-034-TOPDOWN-BOSS-MASTER-B\\兽人首领_顶视MasterB_128.png",
+        "role": "boss-master",
+        "requiredCore": true,
+        "entityId": "boss-orc",
+        "label": "兽人首领_顶视MasterB"
+      }
+    ],
+    "referenceContract": {
+      "strict": true,
+      "requiredCoreCount": 1
+    },
+    "businessContext": {
+      "purpose": "editable-enemy-layers",
+      "referenceUploadFix": "RECOVERY-036-diagnostic",
+      "candidateAsarSha": "7c1f3b502a196d4989514da553c81c94c05e89f72adde48a6992b8585949d004",
+      "runtimeSha": "8e2cd0d4dad6b5b3566afdd9b27de115d4915bfdf5390ea372a8940383462ca9",
+      "adapterSha": "4c10ebc504a6aa895279af5b86ab6111fb5d576bb31b5df552564025724d917f",
+      "referenceSha": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4"
+    }
+  },
+  "referenceSha": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4"
+}

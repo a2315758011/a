@@ -1,0 +1,85 @@
+{
+  "status": "STRICT_9x16_COCOS_PASS",
+  "platform": "Cocos Creator 3.8.2 Edge WebGL2 desktop",
+  "viewport": [
+    540,
+    960
+  ],
+  "actualScreenshots": {
+    "00-开局.png": {
+      "size": [
+        540,
+        960
+      ],
+      "sha256": "82824706626c80b0f949a1245e053d0912ae33f997b16021551a81494e1979e9"
+    },
+    "01-玩家进场布塔.png": {
+      "size": [
+        540,
+        960
+      ],
+      "sha256": "7b12100b198c6e593af0f7d74407fd453b0772129021aabadcae0158a37d4110"
+    },
+    "03-第2波.png": {
+      "size": [
+        540,
+        960
+      ],
+      "sha256": "d6488fcff11f576277bafe674146a68d0c8b948b6589abbee014567b7e10359e"
+    },
+    "04-第3波.png": {
+      "size": [
+        540,
+        960
+      ],
+      "sha256": "d4fe7aaded70e797bdaa6e68a096b6abf7c184c9c2ff1d79956efe6df4b093bb"
+    },
+    "99-结局.png": {
+      "size": [
+        540,
+        960
+      ],
+      "sha256": "fba116f9ba18e7e9d9a46db03fa74d2e0f73e391778862a18363389cc817f433"
+    },
+    "100-重新开始.png": {
+      "size": [
+        540,
+        960
+      ],
+      "sha256": "214372d0c96b25578fd2b41c230131219c5d40afd4dc860608aadfd789dff352"
+    }
+  },
+  "count": 6,
+  "fullGameResult": "win",
+  "final": {
+    "state": "win",
+    "wave": 3,
+    "hp": 100,
+    "kills": 96,
+    "time": 80.2,
+    "towers": 24,
+    "enemies": 0,
+    "spawned": 40,
+    "zoom": 0.68
+  },
+  "afterRestart": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9
+  },
+  "javascriptErrors": 0,
+  "qaSourceMatchesFormalSourceWithoutInspectionHook": true,
+  "formalMainSceneUnchanged": true,
+  "notYetVerified": [
+    "phone device touch and safe-area",
+    "Douyin WeChat Android runtime",
+    "candidate V4 art approval",
+    "phone GPU FPS"
+  ]
+}

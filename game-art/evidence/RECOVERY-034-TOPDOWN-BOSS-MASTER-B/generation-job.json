@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "job": {
+    "id": "2237a8e8-ba8e-40c3-99e2-3ec6db5aa161",
+    "status": "completed",
+    "kind": "image",
+    "feature": "",
+    "createdAt": "2026-10-21T21:12:20.356Z",
+    "startedAt": "2026-10-21T21:12:20.356Z",
+    "completedAt": "2026-10-21T21:27:29.728Z",
+    "source": "workstation-shared-cli",
+    "sourceProjectId": "live-turret-defense",
+    "sourceTaskId": "RECOVERY-034-TOPDOWN-BOSS-MASTER-B",
+    "returnTo": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-034-TOPDOWN-BOSS-MASTER-B\\provider-output.png",
+    "businessContext": null,
+    "request": {
+      "promptPreview": "原创手机塔防游戏 Boss Approved Master 候选，只生成一个兽人首领，不要其他角色，不要场景，不要文字。\n\n【绝对几何视角锁｜最高优先级】\n这是“地图俯视精灵”，不是角色立绘。摄像机必须位于角色头顶正上方，光轴垂直地面，90° straight-down orthographic top view。\n角色头顶是画面最主要可见面；脸、胸口、腹部正面必须几乎不可见。\n只能看到：头冠/头顶、双肩甲上表面、背部上表面、双臂和手中武器的上表面、脚尖少量外露。\n盾牌必须接",
+      "model": "",
+      "accountId": "",
+      "pool": true,
+      "aspectRatio": "1:1",
+      "resolution": null,
+      "duration": null,
+      "referenceCount": 0
+    },
+    "result": {
+      "ok": true,
+      "recoveryOnly": true,
+      "kind": "image",
+      "jobId": "orchestrator-recover:2237a8e8-ba8e-40c3-99e2-3ec6db5aa161",
+      "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+      "platformId": "chatgpt",
+      "conversationId": "6ad92ae0-c2c4-83ec-9967-3497f0f9a22f",
+      "conversationUrl": "https://chatgpt.com/c/6ad92ae0-c2c4-83ec-9967-3497f0f9a22f",
+      "url": "local-image://web-generation/image/1792617232734_chatgpt_2315758011_d5d22b77.png",
+      "urls": [
+        "local-image://web-generation/image/1792617232734_chatgpt_2315758011_d5d22b77.png"
+      ],
+      "businessContext": {
+        "masterTaskId": "gateway-2237a8e8-ba8e-40c3-99e2-3ec6db5aa161",
+        "subTaskId": "2237a8e8-ba8e-40c3-99e2-3ec6db5aa161"
+      },
+      "detached": false,
+      "artifacts": [
+        {
+          "id": "d15ea46891af8d5bd851f7d6",
+          "kind": "image",
+          "localUrl": "local-image://web-generation/image/1792617232734_chatgpt_2315758011_d5d22b77.png",
+          "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1792617232734_chatgpt_2315758011_d5d22b77.png",
+          "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1792617232734_chatgpt_2315758011_d5d22b77.png",
+          "name": "1792617232734_chatgpt_2315758011_d5d22b77.png",
+          "size": 1459536,
+          "mimeType": "image/png"
+        }
+      ],
+      "reconciledFromOrchestrator": true
+    },
+    "error": null,
+    "artifacts": [
+      {
+        "id": "d15ea46891af8d5bd851f7d6",
+        "kind": "image",
+        "localUrl": "local-image://web-generation/image/1792617232734_chatgpt_2315758011_d5d22b77.png",
+        "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1792617232734_chatgpt_2315758011_d5d22b77.png",
+        "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1792617232734_chatgpt_2315758011_d5d22b77.png",
+        "name": "1792617232734_chatgpt_2315758011_d5d22b77.png",
+        "size": 1459536,
+        "mimeType": "image/png"
+      }
+    ]
+  }
+}

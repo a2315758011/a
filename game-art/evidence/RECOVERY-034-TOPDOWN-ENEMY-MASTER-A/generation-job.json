@@ -1,0 +1,72 @@
+{
+  "ok": true,
+  "job": {
+    "id": "7ab8dddf-9170-4646-bd77-101ffd60d253",
+    "status": "completed",
+    "kind": "image",
+    "feature": "character_generation",
+    "createdAt": "2026-10-21T20:38:25.030Z",
+    "startedAt": "2026-10-21T20:38:25.030Z",
+    "completedAt": "2026-10-21T20:40:37.323Z",
+    "source": "workstation-shared-cli",
+    "sourceProjectId": "live-turret-defense",
+    "sourceTaskId": "RECOVERY-034-TOPDOWN-ENEMY-MASTER-A",
+    "returnTo": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\staging\\RECOVERY-034-TOPDOWN-ENEMY-MASTER-A\\provider-output.png",
+    "businessContext": null,
+    "request": {
+      "promptPreview": "原创手机塔防游戏敌人母版小样，只生成一个“兽人小兵”完整角色，不要其他角色，不要场景，不要文字。\n\n【绝对视角锁】\n摄像机必须位于角色正上方，严格 90 度垂直向下的正交俯视（true top-down orthographic）。画面应明显看到头顶、双肩上表面、背部/护甲上表面和武器上表面；脸部只能少量露出或基本不可见。身体沿地面方向自然压缩。禁止正面站立、侧面、3/4 视角、45度俯视、等距/isometric、斜俯视、地平线、透视镜头。\n\n【角色设计】\n绿色皮肤兽人小兵",
+      "model": "",
+      "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+      "pool": false,
+      "aspectRatio": "1:1",
+      "resolution": null,
+      "duration": null,
+      "referenceCount": 0
+    },
+    "result": {
+      "ok": true,
+      "recoveryOnly": true,
+      "kind": "image",
+      "jobId": "orchestrator-recover:7ab8dddf-9170-4646-bd77-101ffd60d253",
+      "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+      "platformId": "chatgpt",
+      "conversationId": "6ad922d6-6478-83ec-870b-8d2f891657e3",
+      "conversationUrl": "https://chatgpt.com/c/6ad922d6-6478-83ec-870b-8d2f891657e3",
+      "url": "local-image://web-generation/image/1792615174202_chatgpt_2315758011_eb3bb96b.png",
+      "urls": [
+        "local-image://web-generation/image/1792615174202_chatgpt_2315758011_eb3bb96b.png"
+      ],
+      "businessContext": {
+        "masterTaskId": "gateway-7ab8dddf-9170-4646-bd77-101ffd60d253",
+        "subTaskId": "7ab8dddf-9170-4646-bd77-101ffd60d253"
+      },
+      "detached": false,
+      "artifacts": [
+        {
+          "id": "72899fb7f8de019935a6d6b1",
+          "kind": "image",
+          "localUrl": "local-image://web-generation/image/1792615174202_chatgpt_2315758011_eb3bb96b.png",
+          "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1792615174202_chatgpt_2315758011_eb3bb96b.png",
+          "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1792615174202_chatgpt_2315758011_eb3bb96b.png",
+          "name": "1792615174202_chatgpt_2315758011_eb3bb96b.png",
+          "size": 1372600,
+          "mimeType": "image/png"
+        }
+      ],
+      "reconciledFromOrchestrator": true
+    },
+    "error": null,
+    "artifacts": [
+      {
+        "id": "72899fb7f8de019935a6d6b1",
+        "kind": "image",
+        "localUrl": "local-image://web-generation/image/1792615174202_chatgpt_2315758011_eb3bb96b.png",
+        "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1792615174202_chatgpt_2315758011_eb3bb96b.png",
+        "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1792615174202_chatgpt_2315758011_eb3bb96b.png",
+        "name": "1792615174202_chatgpt_2315758011_eb3bb96b.png",
+        "size": 1372600,
+        "mimeType": "image/png"
+      }
+    ]
+  }
+}

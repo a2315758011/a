@@ -1,0 +1,221 @@
+{
+  "taskId": "RECOVERY-035",
+  "projectId": "live-turret-defense",
+  "assetId": "td-v5-ui-settlement-panel",
+  "createdAt": "2026-10-22T02:45:35Z",
+  "status": "PASS_WITH_ART_APPROVAL_PENDING",
+  "immutabilityNote": "Provider output and final master are preserved as evidence snapshots with SHA-256; this is hash-based verification, not OS-enforced read-only storage.",
+  "files": [
+    {
+      "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/provider-output.png",
+      "bytes": 1296874,
+      "sha256": "7AD6A7F75B40D08C50BBCCA411104983F5D25A03F77B393DCD434797758E6022"
+    },
+    {
+      "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/master.png",
+      "bytes": 162148,
+      "sha256": "AFC5887638F7F86E3D3AA28E0785BFD0AFE175478937FE79DC0CCF088B24E1DB"
+    },
+    {
+      "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/provider-preview.jpg",
+      "bytes": 12443,
+      "sha256": "91ACAA5A6EEFEEF85EC07E58B8AC85E69DB3BCF5F011ED1FA88F9EE4C59165C8"
+    },
+    {
+      "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/master-preview.jpg",
+      "bytes": 17202,
+      "sha256": "F097D10F3F2D9FD6C6BFAC4B5CCB34D408DD915D89ABFD1EA6A41B1973B7AF21"
+    },
+    {
+      "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/gateway-job.json",
+      "bytes": 3497,
+      "sha256": "BE0C425E9A087576B545676003CA55175675DA4FFE284106F27A171F0B1DC17B"
+    },
+    {
+      "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/alpha-pixel-qa.json",
+      "bytes": 2002,
+      "sha256": "03FA1EDFC40E4E54F6B86E181DB00FC9AD97A765DE146C3BE41C638AF13D40AA"
+    },
+    {
+      "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/cocos-build-qa.json",
+      "bytes": 1929,
+      "sha256": "6AC8C96E269F7FA3534BE05A4F2D661462B20E6C0DBDBD1919A0EE566F11E762"
+    },
+    {
+      "path": "game-art/briefs/RECOVERY-035-UI-PANEL-MASTER-A-prompt.txt",
+      "bytes": 2078,
+      "sha256": "0FA5E9A7CEECA7CB6E5B7B9925BD0A831A521D6FC42DDF5173C9CF6DD744589B"
+    },
+    {
+      "path": "game-art/briefs/RECOVERY-035-UI-PANEL-MASTER-A-design-brief.json",
+      "bytes": 1402,
+      "sha256": "13A40DF0223502EE921F3CE4BD674A154855D9B72DC82DCC810FD92B085B8AFA"
+    },
+    {
+      "path": "game-art/manifest/art-manifest.json",
+      "bytes": 20061,
+      "sha256": "D8BCF3EC4CD372006BC007B87DF1C6DB959630437FF6A95858AA25EF08D3546A"
+    },
+    {
+      "path": "任务包/RECOVERY-035.json",
+      "bytes": 6074,
+      "sha256": "433288A1D1B9A2D0DDF21D18957547D9CE13AA62A88DB22F173C1D0B88AB00B3"
+    },
+    {
+      "path": "任务榜单.md",
+      "bytes": 20007,
+      "sha256": "86E9C40D7AA49B26A762168FDA80121D0D9593F4CE022A6A00074D7C0A11C151"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/RECOVERY-035-结算面板集成与回归.md",
+      "bytes": 2753,
+      "sha256": "089D6E3D2FE3C33C165FB6E77D76B3ECC3B57304BABF7A5CFF35BCC18727C639"
+    },
+    {
+      "path": "任务包/处理RECOVERY-035-结算面板.py",
+      "bytes": 4955,
+      "sha256": "85356FD099BE447DC61910B8F642DA2685E238D1ED503B6F0493F023DC14ED1C"
+    },
+    {
+      "path": "任务包/build_candidate_v5_RECOVERY_035.py",
+      "bytes": 3518,
+      "sha256": "9E7D53CF9F21988322C7B3D96FB21F6CC1724820A414622D102F88B59F0F02D7"
+    },
+    {
+      "path": "任务包/qa_RECOVERY_035_panel_e2e.py",
+      "bytes": 17048,
+      "sha256": "D9F9F3C256613FB827C7968555833FC5D1B2005DF24C654FAA4BF4652F4D93E0"
+    },
+    {
+      "path": "任务包/patch_RECOVERY-035_UI_panel.js",
+      "bytes": 5260,
+      "sha256": "E98EB78D5C21A620405060655543194EF65D67C1BD7FB433BB05B83047AE1189"
+    },
+    {
+      "path": "任务包/patch_qa_RECOVERY_035.js",
+      "bytes": 943,
+      "sha256": "C52C7D0C0C0AB4CC64C8E11B2B43B85F315F7053637BBA079ACA78EE62260D67"
+    },
+    {
+      "path": "任务包/patch_qa_RECOVERY_035_menu_assertion.js",
+      "bytes": 763,
+      "sha256": "A22D05F54B67FEA2C4E8143274DD992D97ACB9DFB6CFE9837F16D6AD25BADDE5"
+    },
+    {
+      "path": "任务包/reconcile_RECOVERY_035_report.py",
+      "bytes": 2911,
+      "sha256": "E3B8ACF5ED9E1035B63F2CB625A425C31293C208C89E1921CB17E30E9C7C4B66"
+    },
+    {
+      "path": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/resources/候选战斗美术-v5-RECOVERY-004/UI/面板/结算面板底板.png",
+      "bytes": 162148,
+      "sha256": "AFC5887638F7F86E3D3AA28E0785BFD0AFE175478937FE79DC0CCF088B24E1DB"
+    },
+    {
+      "path": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/resources/候选战斗美术-v5-RECOVERY-004/UI/面板/结算面板底板.png.meta",
+      "bytes": 2844,
+      "sha256": "E213B1593ACC5DBCFB4E6B52EE859206A419E948BD8AF2BCFC35477722CD1DB9"
+    },
+    {
+      "path": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/脚本/待审战场美术覆盖器.ts",
+      "bytes": 51086,
+      "sha256": "5AFBF67B2D5FC39B0C241809258B8319221EF8EAFDF59F54EF794F0A6A2EDB8E"
+    },
+    {
+      "path": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/V5-Cocos构建-输出-RECOVERY-035.log",
+      "bytes": 74733,
+      "sha256": "EA0E6A5689772FA5D624686F7C7A570CD45BF676304F8F1E3A4E119BD3FE77D2"
+    },
+    {
+      "path": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/V5-Cocos构建-错误-RECOVERY-035.log",
+      "bytes": 0,
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/真实Cocos双结局与五视口回归.json",
+      "bytes": 174923,
+      "sha256": "80D8F13957409CC12276E0FE4EBBE72CAA59579916DD0D5F8BB3A24702A920A3"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/真实Cocos双结局与五视口回归-before-assertion-correction.json",
+      "bytes": 173569,
+      "sha256": "1BA947DE64D57D9997D4A5EC200A1F1CF5F66B4173EC4BB94EF77D6DB78149F6"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/00-main-menu-360x780.png",
+      "bytes": 153618,
+      "sha256": "54585424A660E840B46DFDE529034627AE3D6BCCD3FF0C8683F7DD2816BE27EC"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/01-natural-win-360x780.png",
+      "bytes": 285328,
+      "sha256": "7CC7DADA471AB6FC3B7302BEFE40A7184DF94D96BFF85D652CECA259736FFFFC"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/win-360x780.png",
+      "bytes": 285291,
+      "sha256": "CA8FC262F62A253D87DAEE27E3290EB19DA9EC5F2C4D36B7F616D4453A60881F"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/win-393x852.png",
+      "bytes": 335620,
+      "sha256": "47F736839CE68948CEA86B9C07D47769D2524F456DDE722476D989E527C74E19"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/win-540x760.png",
+      "bytes": 352448,
+      "sha256": "BE471CA16430BB19324164244CD54565236893F90917BA732E2F584203A580DA"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/win-540x960.png",
+      "bytes": 433123,
+      "sha256": "D2853831CF0584342B00AD8C113F981BD4CA9A5E6B787D13F26624BEE163238E"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/win-540x1108.png",
+      "bytes": 489408,
+      "sha256": "3EEC21C43473B54D53DB039CF0785D64B7E5BA59AD99231F52E3BAA1D619806A"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/02-natural-loss-360x780.png",
+      "bytes": 286985,
+      "sha256": "8665CD8C5A3677E082EF65D0364A1BCE7EDD11DFFF8DB03FEEEED35A2D072641"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/loss-360x780.png",
+      "bytes": 287110,
+      "sha256": "D03BE51986870028783EEB52D71B6122E6113934774623600534FCC498734D04"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/loss-393x852.png",
+      "bytes": 337107,
+      "sha256": "8349BDB225BB5FC0148E44BCCFD4290A0E835055687469DDEA29F267B4D55C27"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/loss-540x760.png",
+      "bytes": 355533,
+      "sha256": "34990ECF9FC842CC2F090A65184351331DDB71FB5B285F7CE879F71F905EBF86"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/loss-540x960.png",
+      "bytes": 435497,
+      "sha256": "C13A682C9B453D99090BDB19EF8248AB51E54E34E0A278DE4EE289830CF0A547"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/loss-540x1108.png",
+      "bytes": 493023,
+      "sha256": "381A49A5AB21AB7FE21B47FEE59A7D7A0F570CD7A4CF1546EA792D3B4E616FF8"
+    },
+    {
+      "path": "验收证据/RECOVERY-035-UI-PANEL/03-restart-ready-360x780.png",
+      "bytes": 547743,
+      "sha256": "19F8C71A0C5C350137AD7C07EB92EA1C9055510F19475D0E9D8CEE38F20BD46E"
+    }
+  ],
+  "verification": {
+    "status": "PASS",
+    "verifiedAt": "2026-10-22T02:45:35Z",
+    "fileCount": 41,
+    "mismatches": []
+  }
+}

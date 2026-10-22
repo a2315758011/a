@@ -1,0 +1,121 @@
+{
+  "url": "local-hosted-cocos-build",
+  "console": [
+    {
+      "type": "Log.entryAdded",
+      "line": "<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> is deprecated. Please include <meta name=\"mobile-web-app-capable\" content=\"yes\">"
+    },
+    {
+      "type": "Log.entryAdded",
+      "line": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Base: 11.55078125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Infrastructure: 49.98095703125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "[PHYSICS2D]: register box2d."
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init SubSystem: 47.053955078125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Cocos Creator v3.8.2"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Project: 25.800048828125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "LoadScene db://assets/场景/待审美术演示.scene: 19.02197265625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "InitScene: 0.18505859375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AttachPersist: 0.10595703125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AutoRelease: 0.1171875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Destroy: 0.1591796875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Activate: 27.386962890625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Success to load scene: db://assets/场景/待审美术演示.scene"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "美术样例引擎加载完成 7 组56帧"
+    }
+  ],
+  "errors": [],
+  "logs": [],
+  "navigate": {
+    "frameId": "12916ECDC784B55ECB539B504656E178",
+    "loaderId": "2B5241DF34C7937CBA75A0E3EE167D61"
+  },
+  "dom": {
+    "ready": "complete",
+    "title": "Cocos Creator | turret-art-qa-v4",
+    "bodyText": "",
+    "canvas": [
+      {
+        "w": 1056,
+        "h": 1748,
+        "css": ""
+      }
+    ],
+    "url": "http://127.0.0.1:62728/"
+  },
+  "webgl": {
+    "webgl2": true,
+    "webgl": false
+  },
+  "cc": {
+    "cc": "object",
+    "CocosEngine": "boolean",
+    "sys": "object"
+  },
+  "screenshotBytes": 114708,
+  "requestsTotal": 194,
+  "lastRequests": [
+    "/assets/resources/import/7e/7e7b96c4-6913-4b29-9e18-99887b0d1174.json",
+    "/assets/resources/import/c0/c0d7c0b4-08ea-4c79-8aac-22600024ceda@f9941.json",
+    "/assets/resources/import/de/de493bca-7625-462a-be50-d6ae87cfedbc@f9941.json",
+    "/assets/resources/native/f6/f6fe3350-a15f-4ed1-93ff-5316ac3a984a.png",
+    "/assets/resources/native/8d/8db9ff3e-d927-42fc-a1d2-a776533d3fd4.png",
+    "/assets/resources/import/60/609ce28a-2166-42e5-8d50-e2b192603a42.json",
+    "/assets/resources/import/c0/c0c93c66-e22d-4f59-8555-6f4ed3409dda.json",
+    "/assets/resources/native/24/24a013e4-7fc6-422d-a12c-467796ab7539.png",
+    "/assets/resources/import/c0/c0d7c0b4-08ea-4c79-8aac-22600024ceda.json",
+    "/assets/resources/import/de/de493bca-7625-462a-be50-d6ae87cfedbc.json",
+    "/assets/resources/native/e5/e574f3f8-e9b4-4f11-81b7-37b453d069ae.png",
+    "/assets/resources/native/16/168b9363-e157-4183-8fe1-06fb27cc29a8.png",
+    "/assets/resources/native/4e/4e89a92d-c529-4117-842a-dab027cd5a6d.png",
+    "/assets/resources/native/1b/1bc8b3ac-7e3c-4c69-87ec-9576e0714ee8.png",
+    "/assets/resources/native/a7/a725ff1d-ac88-4563-ad44-ba35daeec269.png",
+    "/assets/resources/native/7e/7e7b96c4-6913-4b29-9e18-99887b0d1174.png",
+    "/assets/resources/native/60/609ce28a-2166-42e5-8d50-e2b192603a42.png",
+    "/assets/resources/native/c0/c0c93c66-e22d-4f59-8555-6f4ed3409dda.png",
+    "/assets/resources/native/de/de493bca-7625-462a-be50-d6ae87cfedbc.png",
+    "/assets/resources/native/c0/c0d7c0b4-08ea-4c79-8aac-22600024ceda.png"
+  ]
+}

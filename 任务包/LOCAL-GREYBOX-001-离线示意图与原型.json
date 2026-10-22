@@ -1,0 +1,77 @@
+{
+  "taskId": "LOCAL-GREYBOX-001",
+  "projectId": "live-turret-defense",
+  "taskVersion": 1,
+  "goal": "不用图片生成，把已验证俯视布局实现为本地可玩白底HTML Canvas与从真实浏览器截图的根目录00-项目玩法总览图.png",
+  "status": "IN_PROGRESS",
+  "plannedOwner": "HTML game-engine prototype",
+  "assignee": "agent-gpt6-greybox-20261012",
+  "reviewMode": "SELF_REVIEW",
+  "attemptId": "LOCAL-GREYBOX-001-20261012-01",
+  "claimedAt": "2026-10-12T06:06:34+08:00",
+  "claimEvidence": "4174 acquire project:live-turret-defense:greybox-html, token stored in active call only",
+  "dependsOn": [
+    "BEN-001",
+    "PIXEL-SPEC-001"
+  ],
+  "scope": "Explicit user override authorizes offline greybox+first real screenshot as prerequisite G0 visual probe; DO NOT mark Douyin LIVE G0 complete.",
+  "readPaths": [
+    "项目索引.md",
+    "任务榜单.md",
+    "美术规范/首图俯视战场布局候选-v0.3.json",
+    "美术规范/俯视像素塔防资源合同-v0.3.json"
+  ],
+  "writeAllowlist": [
+    "白底可玩原型/**",
+    "00-项目玩法总览图.png",
+    "任务包/LOCAL-GREYBOX-001-离线示意图与原型.json",
+    "验收证据/本地灰盒运行与截图验收.md"
+  ],
+  "forbidden": [
+    "No new media generation job",
+    "No actual Douyin permission / account integration",
+    "No modification of existing other projects, gateway, game art V0.1-V0.3",
+    "No false G1 / app publish claim"
+  ],
+  "inputs": {
+    "layout": "美术规范/首图俯视战场布局候选-v0.3.json",
+    "style": "美术规范/俯视像素塔防美术规格-v0.3.md"
+  },
+  "instructionRefs": [
+    {
+      "source": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.3",
+      "blobSha": "5d7e40c3a34873314eed9285313332243a9fa6db",
+      "chapters": [
+        "00",
+        "01",
+        "02",
+        "05",
+        "06",
+        "07",
+        "09",
+        "10",
+        "12",
+        "14"
+      ]
+    }
+  ],
+  "outputs": [
+    "白底可玩原型/打开游戏.html",
+    "白底可玩原型/规则引擎.js",
+    "白底可玩原型/游戏界面.js",
+    "白底可玩原型/测试规则.js",
+    "00-项目玩法总览图.png"
+  ],
+  "acceptance": [
+    "Can open HTML locally offline",
+    "9 tower positions 3 archetypes",
+    "Enemies spawn on 4 directions and move to unique central core",
+    "Wave progression, tower fire, crystal HP, win/loss/restart",
+    "Simulated join/leave/gift+1 controls",
+    "Node deterministic rule tests pass",
+    "Screenshot is real PNG in root and matches white topdown scene"
+  ],
+  "handoff": "接管记录.md",
+  "risk": "Platform entry/exit events unknown; manual simulation only"
+}

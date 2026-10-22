@@ -1,0 +1,131 @@
+{
+  "test": "Cocos Creator 3.8.2 real-time mouse-only full playthrough",
+  "states": [
+    {
+      "wallTime": 8.1,
+      "state": "ready",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 0,
+      "towers": 9,
+      "enemies": 0,
+      "spawned": 0,
+      "zoom": 0.68,
+      "canvasHalf": 554,
+      "viewHeight": 1108
+    },
+    {
+      "wallTime": 10.1,
+      "state": "ready",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 0,
+      "towers": 9,
+      "enemies": 0,
+      "spawned": 0,
+      "zoom": 0.68,
+      "canvasHalf": 554,
+      "viewHeight": 1108
+    },
+    {
+      "wallTime": 12.1,
+      "state": "ready",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 0,
+      "towers": 9,
+      "enemies": 0,
+      "spawned": 0,
+      "zoom": 0.68,
+      "canvasHalf": 554,
+      "viewHeight": 1108
+    },
+    {
+      "wallTime": 14.1,
+      "state": "ready",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 0,
+      "towers": 9,
+      "enemies": 0,
+      "spawned": 0,
+      "zoom": 0.68,
+      "canvasHalf": 554,
+      "viewHeight": 1108
+    }
+  ],
+  "consoleErrors": [],
+  "actions": [
+    {
+      "clock": 5.1,
+      "name": "start"
+    },
+    {
+      "clock": 5.3,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.5,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.7,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 5.9,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 6.1,
+      "name": "zoom_out"
+    },
+    {
+      "clock": 7.8,
+      "name": "drag_camera"
+    },
+    {
+      "clock": 8.0,
+      "name": "recenter"
+    }
+  ],
+  "result": "TIMEOUT",
+  "startedAt": "2026-10-19T18:48:11",
+  "initial": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9,
+    "canvasHalf": 554,
+    "viewHeight": 1108
+  },
+  "viewport": {
+    "w": 540,
+    "h": 1108,
+    "hidden": false
+  },
+  "afterHumanSetup": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.68,
+    "canvasHalf": 554,
+    "viewHeight": 1108
+  },
+  "expectedTowersAfterSetup": 9,
+  "durationSeconds": 20.4
+}

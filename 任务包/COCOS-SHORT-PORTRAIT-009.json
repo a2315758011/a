@@ -1,0 +1,64 @@
+{
+  "taskId": "COCOS-SHORT-PORTRAIT-009",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-shortscreen-20261019",
+  "status": "PASS_DESKTOP_FORMAL_COCOS_5_VIEWPORTS_TOUCH_AND_SHORTSCREEN_FULL_GAME",
+  "date": "2026-10-19",
+  "parentTask": "COCOS-PORTRAIT-ADAPT-008",
+  "modified": [
+    "CocosCreator工程/assets/脚本/守城控制器.ts",
+    "CocosCreator工程/assets/脚本/待审战场美术覆盖器.ts",
+    "_assistant-temp/额外比例短屏Cocos真实运行.py",
+    "_assistant-temp/额外比例短屏触摸Cocos真实运行.py",
+    "_assistant-temp/竖屏完整一局Cocos候选工程/assets/脚本/守城控制器.ts",
+    "_assistant-temp/竖屏完整一局Cocos候选工程/assets/脚本/待审战场美术覆盖器.ts",
+    "_assistant-temp/短屏真人整局QA操作.py"
+  ],
+  "formalBuild": {
+    "successLog": true,
+    "cliExitCode": 36,
+    "webMobileFileCount": 366
+  },
+  "screens": [
+    [
+      540,
+      760
+    ],
+    [
+      393,
+      852
+    ],
+    [
+      360,
+      780
+    ],
+    [
+      540,
+      960
+    ],
+    [
+      540,
+      1108
+    ]
+  ],
+  "checks": {
+    "mouse": 5,
+    "mobileTouchEmulation": 5,
+    "webgl2": true,
+    "jsErrors": 0,
+    "shortScreenFullRun": "win",
+    "kills": 96,
+    "crystalHP": 100,
+    "afterRestart": "ready",
+    "restartTowers": 9,
+    "qaDifference": "read-only inspection hook only"
+  },
+  "unverified": [
+    "真机Android与平台运行",
+    "退出码36根因",
+    "直播进退房真实事件",
+    "正式美术/Prefab",
+    "真机1000炮塔压测"
+  ],
+  "evidence": "验收证据/COCOS-SHORT-PORTRAIT-009-短屏正式引擎与整局回归.md"
+}

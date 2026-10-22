@@ -1,0 +1,82 @@
+{
+  "taskId": "ART-PIPELINE-V5-CANDIDATE-ENEMY-006",
+  "status": "PASS_CANDIDATE_ENEMY_LAYER_META",
+  "assetCount": 8,
+  "uniqueImageUUIDs": 8,
+  "textureFilter": "nearest",
+  "spriteCanvas": "variable-size candidate sprites",
+  "assets": [
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_合成.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_合成.png.meta",
+      "uuid": "6cc7fba5-5c4b-4ef0-b6ad-22f3a39238d9",
+      "sha256": "369cb237b033f031b6c6179343dd81851cf7df37a112fddf7dc3aa58ad446771",
+      "width": 96,
+      "height": 96,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_头部双臂_母图层.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_头部双臂_母图层.png.meta",
+      "uuid": "0f7976dd-12bd-4d27-b164-a9d2184b4ebc",
+      "sha256": "821abaf2a8860101709775b6d6fa1f5607099290afd9e864e8f7f686d78707e8",
+      "width": 544,
+      "height": 544,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_武器配件_母图层.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_武器配件_母图层.png.meta",
+      "uuid": "da3966d3-7e2a-4a74-a840-9b536c5df1b2",
+      "sha256": "b8f332c781f282befcdb890cad2f21b74f7b56cf2c7c575ceef59e8531c60a15",
+      "width": 544,
+      "height": 544,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_身体护甲_母图层.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_身体护甲_母图层.png.meta",
+      "uuid": "c443eeae-82e9-4105-9f87-aef2c19d20bc",
+      "sha256": "9289e09b85f1cb801e8896df3d4b0af645833719269133fc52406e810e46b796",
+      "width": 544,
+      "height": 544,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_合成.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_合成.png.meta",
+      "uuid": "475afb37-848e-4a57-8e9f-d3918abe7a07",
+      "sha256": "896c915a564e42242591e39e4517a509fc66954ec928fef31c9d033f22cb3449",
+      "width": 96,
+      "height": 96,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_头部双臂_母图层.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_头部双臂_母图层.png.meta",
+      "uuid": "11788d72-3684-4e6d-8aa9-2888f268a5a0",
+      "sha256": "7b01d32dd7808ebc0d5da0a72ed0bf0517cea8fb2d120ea7dd6f2e4789ec803f",
+      "width": 544,
+      "height": 544,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_武器配件_母图层.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_武器配件_母图层.png.meta",
+      "uuid": "c96cfa68-0c5b-45a9-b8a2-22fb733be65e",
+      "sha256": "b5516461c50298d2c56ee01f4f90aa2428133d356d2370fb6265f43f0490c20e",
+      "width": 544,
+      "height": 544,
+      "reused": false
+    },
+    {
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_身体护甲_母图层.png",
+      "meta": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_身体护甲_母图层.png.meta",
+      "uuid": "6c61eec7-9911-4b94-b397-4cae13492058",
+      "sha256": "8eb54f59b0064529d47c580907ca91902350b8c1b5a88779c310005123211f16",
+      "width": 544,
+      "height": 544,
+      "reused": false
+    }
+  ]
+}

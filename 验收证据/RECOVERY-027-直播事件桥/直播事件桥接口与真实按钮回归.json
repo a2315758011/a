@@ -1,0 +1,1089 @@
+{
+  "task": "RECOVERY-027",
+  "test": "live event bridge contract + real UI simulation",
+  "checks": {
+    "baseTowersNotLiveViewers": true,
+    "reservedBaseIdRejected": true,
+    "baseTowerProtected": true,
+    "firstJoinAccepted": true,
+    "duplicateJoinRejected": true,
+    "joinCreatesOneTower": true,
+    "repeatViewerNewEventAccepted": true,
+    "repeatViewerNoDuplicateTower": true,
+    "giftAccepted": true,
+    "giftUpgradesCorrectTower": true,
+    "duplicateGiftRejected": true,
+    "duplicateGiftNoSecondUpgrade": true,
+    "leaveAccepted": true,
+    "leaveRemovesMappedTower": true,
+    "offlineGiftAccepted": true,
+    "giftCanImplicitlyRestoreViewer": true,
+    "sessionPersistsAcrossBattleReset": true,
+    "hudShowsLiveCounters": true,
+    "realButtonsUseBridge": true,
+    "queueDrained": true,
+    "onlyExpectedRejectedEvent": true
+  },
+  "events": [
+    {
+      "kind": "ui",
+      "name": "开始守城"
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-reserved-base",
+        "type": "viewer_leave",
+        "viewerId": "base-1",
+        "viewerName": "伪造基础塔",
+        "timestamp": 0,
+        "source": "external"
+      },
+      "accepted": false
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-join-1",
+        "type": "viewer_join",
+        "viewerId": "qa-user-1",
+        "viewerName": "测试观众",
+        "timestamp": 1,
+        "source": "external"
+      },
+      "accepted": true
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-join-1",
+        "type": "viewer_join",
+        "viewerId": "qa-user-1",
+        "viewerName": "测试观众",
+        "timestamp": 1,
+        "source": "external"
+      },
+      "accepted": false
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-join-2",
+        "type": "viewer_join",
+        "viewerId": "qa-user-1",
+        "viewerName": "测试观众",
+        "timestamp": 2,
+        "source": "external"
+      },
+      "accepted": true
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-gift-1",
+        "type": "gift",
+        "viewerId": "qa-user-1",
+        "viewerName": "测试观众",
+        "giftId": "qa",
+        "giftPower": 2,
+        "timestamp": 3,
+        "source": "external"
+      },
+      "accepted": true
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-gift-1",
+        "type": "gift",
+        "viewerId": "qa-user-1",
+        "viewerName": "测试观众",
+        "giftId": "qa",
+        "giftPower": 2,
+        "timestamp": 3,
+        "source": "external"
+      },
+      "accepted": false
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-leave-1",
+        "type": "viewer_leave",
+        "viewerId": "qa-user-1",
+        "viewerName": "测试观众",
+        "timestamp": 4,
+        "source": "external"
+      },
+      "accepted": true
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-gift-2",
+        "type": "gift",
+        "viewerId": "qa-user-1",
+        "viewerName": "测试观众",
+        "giftId": "qa2",
+        "giftPower": 1,
+        "timestamp": 5,
+        "source": "external"
+      },
+      "accepted": true
+    },
+    {
+      "kind": "external",
+      "event": {
+        "eventId": "qa-leave-2",
+        "type": "viewer_leave",
+        "viewerId": "qa-user-1",
+        "viewerName": "测试观众",
+        "timestamp": 6,
+        "source": "external"
+      },
+      "accepted": true
+    },
+    {
+      "kind": "ui",
+      "name": "观众+1"
+    },
+    {
+      "kind": "ui",
+      "name": "升级"
+    },
+    {
+      "kind": "ui",
+      "name": "重开"
+    },
+    {
+      "kind": "ui",
+      "name": "离场"
+    }
+  ],
+  "consoleErrors": [],
+  "startedAt": "2026-10-21T22:07:10",
+  "baseline": {
+    "game": {
+      "state": "running",
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        }
+      ],
+      "inputBlocked": false
+    },
+    "live": {
+      "onlineViewers": 0,
+      "knownViewers": 0,
+      "queueDepth": 0,
+      "processedEvents": 0,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "none",
+      "viewers": []
+    },
+    "hud": "水晶 100/100 · 第 1/3 波 · 塔 9 · 击杀 0 | 在线 0 · 礼物 0 · 观众进场增塔 / 礼物升级",
+    "menu": false,
+    "artReady": true,
+    "artFailed": false
+  },
+  "reservedProbe": {
+    "game": {
+      "state": "running",
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        }
+      ],
+      "inputBlocked": false
+    },
+    "live": {
+      "onlineViewers": 0,
+      "knownViewers": 0,
+      "queueDepth": 0,
+      "processedEvents": 0,
+      "duplicateEvents": 0,
+      "rejectedEvents": 1,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "none",
+      "viewers": []
+    },
+    "hud": "水晶 100/100 · 第 1/3 波 · 塔 9 · 击杀 0 | 在线 0 · 礼物 0 · 观众进场增塔 / 礼物升级",
+    "menu": false,
+    "artReady": true,
+    "artFailed": false
+  },
+  "joined": {
+    "game": {
+      "state": "running",
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        },
+        {
+          "ownerId": "qa-user-1",
+          "owner": "测试观众",
+          "level": 1
+        }
+      ],
+      "inputBlocked": false
+    },
+    "live": {
+      "onlineViewers": 1,
+      "knownViewers": 1,
+      "queueDepth": 0,
+      "processedEvents": 1,
+      "duplicateEvents": 1,
+      "rejectedEvents": 1,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "viewer_join:qa-user-1",
+      "viewers": [
+        {
+          "viewerId": "qa-user-1",
+          "viewerName": "测试观众",
+          "online": true,
+          "joinedAt": 1,
+          "lastSeenAt": 1,
+          "giftCount": 0,
+          "giftPower": 0
+        }
+      ]
+    },
+    "hud": "水晶 100/100 · 第 1/3 波 · 塔 10 · 击杀 0 | 在线 1 · 礼物 0 · 观众进场增塔 / 礼物升级",
+    "menu": false,
+    "artReady": true,
+    "artFailed": false
+  },
+  "sameViewerJoin": {
+    "game": {
+      "state": "running",
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        },
+        {
+          "ownerId": "qa-user-1",
+          "owner": "测试观众",
+          "level": 1
+        }
+      ],
+      "inputBlocked": false
+    },
+    "live": {
+      "onlineViewers": 1,
+      "knownViewers": 1,
+      "queueDepth": 0,
+      "processedEvents": 2,
+      "duplicateEvents": 1,
+      "rejectedEvents": 1,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "viewer_join:qa-user-1",
+      "viewers": [
+        {
+          "viewerId": "qa-user-1",
+          "viewerName": "测试观众",
+          "online": true,
+          "joinedAt": 1,
+          "lastSeenAt": 2,
+          "giftCount": 0,
+          "giftPower": 0
+        }
+      ]
+    },
+    "hud": "水晶 100/100 · 第 1/3 波 · 塔 10 · 击杀 0 | 在线 1 · 礼物 0 · 观众进场增塔 / 礼物升级",
+    "menu": false,
+    "artReady": true,
+    "artFailed": false
+  },
+  "gifted": {
+    "game": {
+      "state": "running",
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        },
+        {
+          "ownerId": "qa-user-1",
+          "owner": "测试观众",
+          "level": 3
+        }
+      ],
+      "inputBlocked": false
+    },
+    "live": {
+      "onlineViewers": 1,
+      "knownViewers": 1,
+      "queueDepth": 0,
+      "processedEvents": 3,
+      "duplicateEvents": 1,
+      "rejectedEvents": 1,
+      "giftEvents": 1,
+      "giftPower": 2,
+      "lastEvent": "gift:qa-user-1",
+      "viewers": [
+        {
+          "viewerId": "qa-user-1",
+          "viewerName": "测试观众",
+          "online": true,
+          "joinedAt": 1,
+          "lastSeenAt": 3,
+          "giftCount": 1,
+          "giftPower": 2
+        }
+      ]
+    },
+    "hud": "水晶 100/100 · 第 1/3 波 · 塔 10 · 击杀 0 | 在线 1 · 礼物 2 · 观众进场增塔 / 礼物升级",
+    "menu": false,
+    "artReady": true,
+    "artFailed": false
+  },
+  "left": {
+    "game": {
+      "state": "running",
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        }
+      ],
+      "inputBlocked": false
+    },
+    "live": {
+      "onlineViewers": 0,
+      "knownViewers": 1,
+      "queueDepth": 0,
+      "processedEvents": 4,
+      "duplicateEvents": 2,
+      "rejectedEvents": 1,
+      "giftEvents": 1,
+      "giftPower": 2,
+      "lastEvent": "viewer_leave:qa-user-1",
+      "viewers": [
+        {
+          "viewerId": "qa-user-1",
+          "viewerName": "测试观众",
+          "online": false,
+          "joinedAt": 1,
+          "lastSeenAt": 4,
+          "giftCount": 1,
+          "giftPower": 2
+        }
+      ]
+    },
+    "hud": "水晶 100/100 · 第 1/3 波 · 塔 9 · 击杀 0 | 在线 0 · 礼物 2 · 观众进场增塔 / 礼物升级",
+    "menu": false,
+    "artReady": true,
+    "artFailed": false
+  },
+  "offlineGiftRejoin": {
+    "game": {
+      "state": "running",
+      "towers": [
+        {
+          "ownerId": "base-1",
+          "owner": "阿风",
+          "level": 1
+        },
+        {
+          "ownerId": "base-2",
+          "owner": "小虎",
+          "level": 1
+        },
+        {
+          "ownerId": "base-3",
+          "owner": "阿宁",
+          "level": 1
+        },
+        {
+          "ownerId": "base-4",
+          "owner": "小北",
+          "level": 1
+        },
+        {
+          "ownerId": "base-5",
+          "owner": "铁柱",
+          "level": 1
+        },
+        {
+          "ownerId": "base-6",
+          "owner": "小云",
+          "level": 1
+        },
+        {
+          "ownerId": "base-7",
+          "owner": "阿亮",
+          "level": 1
+        },
+        {
+          "ownerId": "base-8",
+          "owner": "糖糖",
+          "level": 1
+        },
+        {
+          "ownerId": "base-9",
+          "owner": "小鱼",
+          "level": 1
+        },
+        {
+          "ownerId": "qa-user-1",
+          "owner": "测试观众",
+          "level": 4
+        }
+      ],
+      "inputBlocked": false
+    },
+    "live": {
+      "onlineViewers": 1,
+      "knownViewers": 1,
+      "queueDepth": 0,
+      "processedEvents": 5,
+      "duplicateEvents": 2,
+      "rejectedEvents": 1,
+      "giftEvents": 2,
+      "giftPower": 3,
+      "lastEvent": "gift:qa-user-1",
+      "viewers": [
+        {
+          "viewerId": "qa-user-1",
+          "viewerName": "测试观众",
+          "online": true,
+          "joinedAt": 5,
+          "lastSeenAt": 5,
+          "giftCount": 2,
+          "giftPower": 3
+        }
+      ]
+    },
+    "hud": "水晶 100/100 · 第 1/3 波 · 塔 10 · 击杀 0 | 在线 1 · 礼物 3 · 观众进场增塔 / 礼物升级",
+    "menu": false,
+    "artReady": true,
+    "artFailed": false
+  },
+  "uiFlow": {
+    "join": {
+      "game": {
+        "state": "running",
+        "towers": [
+          {
+            "ownerId": "base-1",
+            "owner": "阿风",
+            "level": 1
+          },
+          {
+            "ownerId": "base-2",
+            "owner": "小虎",
+            "level": 1
+          },
+          {
+            "ownerId": "base-3",
+            "owner": "阿宁",
+            "level": 1
+          },
+          {
+            "ownerId": "base-4",
+            "owner": "小北",
+            "level": 1
+          },
+          {
+            "ownerId": "base-5",
+            "owner": "铁柱",
+            "level": 1
+          },
+          {
+            "ownerId": "base-6",
+            "owner": "小云",
+            "level": 1
+          },
+          {
+            "ownerId": "base-7",
+            "owner": "阿亮",
+            "level": 1
+          },
+          {
+            "ownerId": "base-8",
+            "owner": "糖糖",
+            "level": 1
+          },
+          {
+            "ownerId": "base-9",
+            "owner": "小鱼",
+            "level": 1
+          },
+          {
+            "ownerId": "sim-12",
+            "owner": "观众12",
+            "level": 1
+          }
+        ],
+        "inputBlocked": false
+      },
+      "live": {
+        "onlineViewers": 1,
+        "knownViewers": 2,
+        "queueDepth": 0,
+        "processedEvents": 7,
+        "duplicateEvents": 2,
+        "rejectedEvents": 1,
+        "giftEvents": 2,
+        "giftPower": 3,
+        "lastEvent": "viewer_join:sim-12",
+        "viewers": [
+          {
+            "viewerId": "qa-user-1",
+            "viewerName": "测试观众",
+            "online": false,
+            "joinedAt": 5,
+            "lastSeenAt": 6,
+            "giftCount": 2,
+            "giftPower": 3
+          },
+          {
+            "viewerId": "sim-12",
+            "viewerName": "观众12",
+            "online": true,
+            "joinedAt": 1792591636792,
+            "lastSeenAt": 1792591636792,
+            "giftCount": 0,
+            "giftPower": 0
+          }
+        ]
+      },
+      "hud": "水晶 100/100 · 第 1/3 波 · 塔 10 · 击杀 0 | 在线 1 · 礼物 3 · 观众进场增塔 / 礼物升级",
+      "menu": false,
+      "artReady": true,
+      "artFailed": false
+    },
+    "gift": {
+      "game": {
+        "state": "running",
+        "towers": [
+          {
+            "ownerId": "base-1",
+            "owner": "阿风",
+            "level": 1
+          },
+          {
+            "ownerId": "base-2",
+            "owner": "小虎",
+            "level": 1
+          },
+          {
+            "ownerId": "base-3",
+            "owner": "阿宁",
+            "level": 1
+          },
+          {
+            "ownerId": "base-4",
+            "owner": "小北",
+            "level": 1
+          },
+          {
+            "ownerId": "base-5",
+            "owner": "铁柱",
+            "level": 1
+          },
+          {
+            "ownerId": "base-6",
+            "owner": "小云",
+            "level": 1
+          },
+          {
+            "ownerId": "base-7",
+            "owner": "阿亮",
+            "level": 1
+          },
+          {
+            "ownerId": "base-8",
+            "owner": "糖糖",
+            "level": 1
+          },
+          {
+            "ownerId": "base-9",
+            "owner": "小鱼",
+            "level": 1
+          },
+          {
+            "ownerId": "sim-12",
+            "owner": "观众12",
+            "level": 2
+          }
+        ],
+        "inputBlocked": false
+      },
+      "live": {
+        "onlineViewers": 1,
+        "knownViewers": 2,
+        "queueDepth": 0,
+        "processedEvents": 8,
+        "duplicateEvents": 2,
+        "rejectedEvents": 1,
+        "giftEvents": 3,
+        "giftPower": 4,
+        "lastEvent": "gift:sim-12",
+        "viewers": [
+          {
+            "viewerId": "qa-user-1",
+            "viewerName": "测试观众",
+            "online": false,
+            "joinedAt": 5,
+            "lastSeenAt": 6,
+            "giftCount": 2,
+            "giftPower": 3
+          },
+          {
+            "viewerId": "sim-12",
+            "viewerName": "观众12",
+            "online": true,
+            "joinedAt": 1792591636792,
+            "lastSeenAt": 1792591636976,
+            "giftCount": 1,
+            "giftPower": 1
+          }
+        ]
+      },
+      "hud": "水晶 100/100 · 第 1/3 波 · 塔 10 · 击杀 0 | 在线 1 · 礼物 4 · 观众进场增塔 / 礼物升级",
+      "menu": false,
+      "artReady": true,
+      "artFailed": false
+    },
+    "reset": {
+      "game": {
+        "state": "ready",
+        "towers": [
+          {
+            "ownerId": "base-1",
+            "owner": "阿风",
+            "level": 1
+          },
+          {
+            "ownerId": "base-2",
+            "owner": "小虎",
+            "level": 1
+          },
+          {
+            "ownerId": "base-3",
+            "owner": "阿宁",
+            "level": 1
+          },
+          {
+            "ownerId": "base-4",
+            "owner": "小北",
+            "level": 1
+          },
+          {
+            "ownerId": "base-5",
+            "owner": "铁柱",
+            "level": 1
+          },
+          {
+            "ownerId": "base-6",
+            "owner": "小云",
+            "level": 1
+          },
+          {
+            "ownerId": "base-7",
+            "owner": "阿亮",
+            "level": 1
+          },
+          {
+            "ownerId": "base-8",
+            "owner": "糖糖",
+            "level": 1
+          },
+          {
+            "ownerId": "base-9",
+            "owner": "小鱼",
+            "level": 1
+          },
+          {
+            "ownerId": "sim-12",
+            "owner": "观众12",
+            "level": 2
+          }
+        ],
+        "inputBlocked": false
+      },
+      "live": {
+        "onlineViewers": 1,
+        "knownViewers": 2,
+        "queueDepth": 0,
+        "processedEvents": 8,
+        "duplicateEvents": 2,
+        "rejectedEvents": 1,
+        "giftEvents": 3,
+        "giftPower": 4,
+        "lastEvent": "gift:sim-12",
+        "viewers": [
+          {
+            "viewerId": "qa-user-1",
+            "viewerName": "测试观众",
+            "online": false,
+            "joinedAt": 5,
+            "lastSeenAt": 6,
+            "giftCount": 2,
+            "giftPower": 3
+          },
+          {
+            "viewerId": "sim-12",
+            "viewerName": "观众12",
+            "online": true,
+            "joinedAt": 1792591636792,
+            "lastSeenAt": 1792591636976,
+            "giftCount": 1,
+            "giftPower": 1
+          }
+        ]
+      },
+      "hud": "水晶 100/100 · 第 1/3 波 · 塔 10 · 击杀 0 | 在线 1 · 礼物 4 · 观众进场增塔 / 礼物升级",
+      "menu": false,
+      "artReady": true,
+      "artFailed": false
+    },
+    "leave": {
+      "game": {
+        "state": "ready",
+        "towers": [
+          {
+            "ownerId": "base-1",
+            "owner": "阿风",
+            "level": 1
+          },
+          {
+            "ownerId": "base-2",
+            "owner": "小虎",
+            "level": 1
+          },
+          {
+            "ownerId": "base-3",
+            "owner": "阿宁",
+            "level": 1
+          },
+          {
+            "ownerId": "base-4",
+            "owner": "小北",
+            "level": 1
+          },
+          {
+            "ownerId": "base-5",
+            "owner": "铁柱",
+            "level": 1
+          },
+          {
+            "ownerId": "base-6",
+            "owner": "小云",
+            "level": 1
+          },
+          {
+            "ownerId": "base-7",
+            "owner": "阿亮",
+            "level": 1
+          },
+          {
+            "ownerId": "base-8",
+            "owner": "糖糖",
+            "level": 1
+          },
+          {
+            "ownerId": "base-9",
+            "owner": "小鱼",
+            "level": 1
+          }
+        ],
+        "inputBlocked": false
+      },
+      "live": {
+        "onlineViewers": 0,
+        "knownViewers": 2,
+        "queueDepth": 0,
+        "processedEvents": 9,
+        "duplicateEvents": 2,
+        "rejectedEvents": 1,
+        "giftEvents": 3,
+        "giftPower": 4,
+        "lastEvent": "viewer_leave:sim-12",
+        "viewers": [
+          {
+            "viewerId": "qa-user-1",
+            "viewerName": "测试观众",
+            "online": false,
+            "joinedAt": 5,
+            "lastSeenAt": 6,
+            "giftCount": 2,
+            "giftPower": 3
+          },
+          {
+            "viewerId": "sim-12",
+            "viewerName": "观众12",
+            "online": false,
+            "joinedAt": 1792591636792,
+            "lastSeenAt": 1792591637342,
+            "giftCount": 1,
+            "giftPower": 1
+          }
+        ]
+      },
+      "hud": "水晶 100/100 · 第 1/3 波 · 塔 9 · 击杀 0 | 在线 0 · 礼物 4 · 观众进场增塔 / 礼物升级",
+      "menu": false,
+      "artReady": true,
+      "artFailed": false
+    }
+  },
+  "result": "PASS",
+  "finishedAt": "2026-10-21T22:07:18"
+}

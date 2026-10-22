@@ -1,0 +1,120 @@
+{
+  "url": "local-hosted-cocos-build",
+  "console": [
+    {
+      "type": "Log.entryAdded",
+      "line": "<meta name=\"apple-mobile-web-app-capable\" content=\"yes\"> is deprecated. Please include <meta name=\"mobile-web-app-capable\" content=\"yes\">"
+    },
+    {
+      "type": "Log.entryAdded",
+      "line": "Failed to load resource: the server responded with a status of 404 (File not found)"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Base: 8.22900390625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Infrastructure: 34.85791015625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "[PHYSICS2D]: register box2d."
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init SubSystem: 46.2021484375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Cocos Creator v3.8.2"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Init Project: 19.494140625 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "LoadScene db://assets/场景/守城主场景.scene: 18.991943359375 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "InitScene: 0.14794921875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AttachPersist: 0.094970703125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "AutoRelease: 0.096923828125 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Destroy: 0.1279296875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Activate: 17.16796875 ms"
+    },
+    {
+      "type": "Runtime.consoleAPICalled",
+      "line": "Success to load scene: db://assets/场景/守城主场景.scene"
+    }
+  ],
+  "errors": [],
+  "logs": [],
+  "navigate": {
+    "frameId": "5BB7C79A12BA0EFF30AFF5E9D5116B5D",
+    "loaderId": "39AAC5E5891A86E88E7EAA87BCE54C1A"
+  },
+  "beforeInputScreenshotBytes": 180724,
+  "sentKeyboardActions": "none: mouse only",
+  "clickedButtons": "start + 12 addViewer + zoom out 3 via CDP mouse",
+  "dom": {
+    "ready": "complete",
+    "title": "Cocos Creator | live-turret-greybox-regression",
+    "bodyText": "",
+    "canvas": [
+      {
+        "w": 1056,
+        "h": 1748,
+        "css": ""
+      }
+    ],
+    "url": "http://127.0.0.1:62213/"
+  },
+  "webgl": {
+    "webgl2": true,
+    "webgl": false
+  },
+  "cc": {
+    "cc": "object",
+    "CocosEngine": "boolean",
+    "sys": "object"
+  },
+  "screenshotBytes": 183896,
+  "requestsTotal": 23,
+  "lastRequests": [
+    "/src/system.bundle.js",
+    "/src/import-map.json",
+    "/favicon.ico",
+    "/index.js",
+    "/application.js",
+    "/cocos-js/cc.js",
+    "/cocos-js/_virtual_cc-c0bce2db.js",
+    "/src/settings.json",
+    "/cocos-js/spine.asm-8c7702b2.js",
+    "/cocos-js/spine.js-6d0b02e3.js",
+    "/cocos-js/spine.wasm-d49d250e.js",
+    "/cocos-js/spine-9a8528df.js",
+    "/cocos-js/assets/spine-59f406dc.wasm",
+    "/src/chunks/bundle.js",
+    "/assets/internal/config.json",
+    "/assets/internal/index.js",
+    "/assets/internal/import/0c/0ca60d3e4.json",
+    "/assets/main/config.json",
+    "/assets/main/index.js",
+    "/assets/main/import/d6/d640f6d0-03c5-4a07-a81a-7fbe6dad1af4.json"
+  ]
+}

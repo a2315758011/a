@@ -1,0 +1,39 @@
+{
+  "taskId": "RECOVERY-027",
+  "title": "直播观众数据与事件桥",
+  "status": "PASS_ISOLATED_CANDIDATE",
+  "scope": "隔离候选 Cocos Creator 3.8.2；平台无关事件层与模拟输入。正式 CocosCreator工程 未合入，抖音/微信真实平台事件仍未连接。",
+  "goal": "统一观众加入/离场/礼物升级的数据入口，绑定观众身份与炮塔，支持去重、队列、会话快照，并让直播互动真实改变战斗结果。",
+  "completed": [
+    "新增直播事件桥.ts：viewer_join/viewer_leave/gift、事件ID去重、4096队列上限、4096 seen窗口、观众会话快照与统计",
+    "守城控制器统一接入 receiveLiveEvent/liveSessionSnapshot，现有观众+1/升级/离场按钮全部走同一事件桥",
+    "9座基础炮塔使用 base-* 内部身份，不计入直播在线人数；base-* 被外部事件保留字保护",
+    "观众加入只生成一座 ownerId 对应炮塔；离场只移除对应直播炮塔；礼物按观众累计 giftPower 升级对应炮塔",
+    "直播房间会话跨单局重开/返回主界面保留；在线观众、礼物统计不会因游戏 reset 清零",
+    "HUD 拆分为战况与直播统计，显示在线人数与礼物累计",
+    "战斗平衡调整：漏怪水晶伤害普通24/Boss40，使无人互动有真实失败压力，直播互动可扭转胜负"
+  ],
+  "acceptance": {
+    "build": "PASS: Cocos Creator 3.8.2 Web-Mobile, exit 36 + build success, TypeScript errors 0, stderr 0, 89 PNG meta complete",
+    "bridgeContract": "PASS: 21项事件桥/按钮/会话语义检查全部通过，consoleErrors 0",
+    "noLiveOutcome": "PASS: 当前代码 0 在线观众、9基础塔自然失败；完整双结局回归中第2波 HP0 / 49处理敌人 / 7场上敌人",
+    "supportedOutcome": "PASS: 真实UI 8观众+4礼物，17塔自然3波胜利，HP100，96杀",
+    "settlementFlow": "PASS: 失败后真实“再次守城”恢复；胜利后真实“返回主界面”恢复主界面",
+    "persistence": "PASS: 返回主界面后在线8、礼物4、17塔会话映射保留，下一局可继续",
+    "formalProject": "UNCHANGED: 正式 CocosCreator工程 未修改",
+    "realPlatform": "NOT_VERIFIED: 抖音/微信真实直播事件连接与真机仍未完成"
+  },
+  "evidence": [
+    "game-art/evidence/RECOVERY-027-live-event-build.json",
+    "验收证据/RECOVERY-027-直播事件桥/直播事件桥接口与真实按钮回归.json",
+    "验收证据/RECOVERY-027-直播事件桥/直播互动平衡-4观众2礼物.json",
+    "验收证据/RECOVERY-027-直播事件桥/直播互动平衡-8观众4礼物.json",
+    "验收证据/RECOVERY-027-直播事件桥/直播事件桥-当前代码双结局完整回归.json"
+  ],
+  "blockers": [
+    "V5整体美术仍待用户审美签收，候选工程不能自动合入正式工程",
+    "抖音/微信真实直播事件能力需要官方接口/账号/真机环境继续适配",
+    "Android/微信/抖音真机与1000塔性能尚未验证"
+  ],
+  "next": "优先继续 RECOVERY-028：直播事件适配器接口与 UI 观众信息层（平台无关 adapter contract + viewer name/礼物反馈），保持真实平台 connector 单独门禁。"
+}

@@ -1,0 +1,149 @@
+{
+  "taskId": "RECOVERY-038-ENEMY-LAYER-KEYFRAMES",
+  "result": "PASS",
+  "strategy": "authored layered transform keyframes; preview strips evidence-only; runtime textures remain 3 layers/unit",
+  "frameRate": 9,
+  "frameDurationMs": 110,
+  "records": [
+    {
+      "unit": "grunt",
+      "name": "兽人小兵",
+      "canvas": [
+        96,
+        96
+      ],
+      "actions": [
+        "idle",
+        "walk",
+        "hurt",
+        "attack",
+        "death"
+      ],
+      "frameCount": 8,
+      "sourceLayers": [
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人小兵/兽人小兵_身体护甲_母图层.png",
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人小兵/兽人小兵_头部双臂_母图层.png",
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人小兵/兽人小兵_武器配件_母图层.png"
+      ],
+      "sourceHashes": [
+        "af373dd3442b13c8026454824a977e6af08aa80cd5af005ce64157c156d67afc",
+        "509b947f0865d249d5a607ee50daf05d01675052333a69c89b45bbafbde540ca",
+        "c4a0b8fc0743820745d55312b752d3a41addf67f7ef2201c023135d06d870697"
+      ],
+      "keyframes": "game-art/staging/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人小兵/兽人小兵-layer-keyframes.json",
+      "keyframesSha256": "36c57697d2997d5ca47259261294920dd03d693a297d3814b9c7ff057bc73609",
+      "runtimeKeyframes": "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人/动画/兽人小兵-layer-keyframes.json",
+      "runtimeKeyframesSha256": "36c57697d2997d5ca47259261294920dd03d693a297d3814b9c7ff057bc73609",
+      "previewSheet": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人小兵/兽人小兵_五动作8帧总表.png",
+      "previewSheetSha256": "ba62673074e9f63d25a5a344e419b1fb988fc5ffb0ee5c4c98b0ae258416459f",
+      "previewAlphaRange": [
+        0,
+        255
+      ],
+      "previewActionStrips": {
+        "idle": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人小兵/兽人小兵_idle_8帧预览.png",
+          "sha256": "a39ac2c6bc051b6de79816e0391eecda4a31ff264f341d53c4248295aa50e774",
+          "bytes": 13505
+        },
+        "walk": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人小兵/兽人小兵_walk_8帧预览.png",
+          "sha256": "7246cd3e7179f50f3462dd49f2633b3d559c522382a7895cf121a39bdfac5916",
+          "bytes": 15692
+        },
+        "hurt": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人小兵/兽人小兵_hurt_8帧预览.png",
+          "sha256": "ec26def34cd46ff6754e2f836f1950e61beeec30ba7f6e24874f6f99b2635635",
+          "bytes": 23697
+        },
+        "attack": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人小兵/兽人小兵_attack_8帧预览.png",
+          "sha256": "bb416914fc07988bbccb264522f7af0124a5dd7734ffd5774a5b1416292a3e92",
+          "bytes": 22286
+        },
+        "death": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人小兵/兽人小兵_death_8帧预览.png",
+          "sha256": "f70e970279dd60fff85aea372c860e16cfbdc64dcadd9a3d16865ae10ee2dc4f",
+          "bytes": 30688
+        }
+      },
+      "checks": {
+        "fiveStates": true,
+        "eightFramesEach": true,
+        "sameCanvas": true,
+        "runtimeJsonMatches": true,
+        "integerTranslations": true
+      }
+    },
+    {
+      "unit": "boss",
+      "name": "兽人首领",
+      "canvas": [
+        128,
+        128
+      ],
+      "actions": [
+        "idle",
+        "walk",
+        "hurt",
+        "attack",
+        "death"
+      ],
+      "frameCount": 8,
+      "sourceLayers": [
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人首领/兽人首领_身体护甲_母图层.png",
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人首领/兽人首领_头部双臂_母图层.png",
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人首领/兽人首领_武器配件_母图层.png"
+      ],
+      "sourceHashes": [
+        "a35f585df0f91e0840d5caa74e91568f46ac2b18cb34b29a899fc093791f0a2b",
+        "dc0f31750c6d931cf130a163f50c9704c865f92e6ffc63cce6ce60b3eb427029",
+        "e0c25b31e014382e5e9ec5aebd151b6c88457e752fe6daffdfd0282d2a40be90"
+      ],
+      "keyframes": "game-art/staging/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人首领/兽人首领-layer-keyframes.json",
+      "keyframesSha256": "8702fbf9b5019a47a2001471860c274ee65c619cba6fce54debd8916044a63b2",
+      "runtimeKeyframes": "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人/动画/兽人首领-layer-keyframes.json",
+      "runtimeKeyframesSha256": "8702fbf9b5019a47a2001471860c274ee65c619cba6fce54debd8916044a63b2",
+      "previewSheet": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人首领/兽人首领_五动作8帧总表.png",
+      "previewSheetSha256": "3b6ed37aba2c34a542e605f37b5518fedb22924fca2fc92445abcfed69901a5a",
+      "previewAlphaRange": [
+        0,
+        255
+      ],
+      "previewActionStrips": {
+        "idle": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人首领/兽人首领_idle_8帧预览.png",
+          "sha256": "84d428f8b4f353bb4ff68db0bad083af2850d8b337efabffde02815c5312bb74",
+          "bytes": 19252
+        },
+        "walk": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人首领/兽人首领_walk_8帧预览.png",
+          "sha256": "a175cba3fa77becd8bf60f231a3169a446c89ff418b2f0fa065b25a795f5754c",
+          "bytes": 25054
+        },
+        "hurt": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人首领/兽人首领_hurt_8帧预览.png",
+          "sha256": "d5e0f8bfc6953853f42f7c61a8a11912dfe89c3b06248f0507307664609f7f52",
+          "bytes": 39219
+        },
+        "attack": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人首领/兽人首领_attack_8帧预览.png",
+          "sha256": "e885ccbcb0edbf58e40a5768e7c480047dba870cb8c51f66ee0fce3240ddc1a3",
+          "bytes": 37026
+        },
+        "death": {
+          "path": "game-art/evidence/RECOVERY-038-ENEMY-LAYER-KEYFRAMES/兽人首领/兽人首领_death_8帧预览.png",
+          "sha256": "84bf0e903acabf0e5c0713cd6b40e826ab8f340e1e25a0cd4c4421bd04e69dbd",
+          "bytes": 46777
+        }
+      },
+      "checks": {
+        "fiveStates": true,
+        "eightFramesEach": true,
+        "sameCanvas": true,
+        "runtimeJsonMatches": true,
+        "integerTranslations": true
+      }
+    }
+  ]
+}

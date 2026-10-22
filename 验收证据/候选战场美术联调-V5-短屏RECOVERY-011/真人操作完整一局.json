@@ -1,0 +1,574 @@
+{
+  "test": "Cocos Creator 3.8.2 V5 art candidate real-time mouse-only full playthrough with read-only component inspector",
+  "states": [
+    {
+      "wallTime": 8.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 0,
+      "zoom": 0.68,
+      "gameTime": 5.6999999999999895,
+      "enemies": 10
+    },
+    {
+      "wallTime": 10.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 4,
+      "zoom": 0.68,
+      "gameTime": 7.699999999999982,
+      "enemies": 10
+    },
+    {
+      "wallTime": 12.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 7,
+      "zoom": 0.68,
+      "gameTime": 9.699999999999976,
+      "enemies": 11
+    },
+    {
+      "wallTime": 14.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 11,
+      "zoom": 0.68,
+      "gameTime": 11.666666666666636,
+      "enemies": 11
+    },
+    {
+      "wallTime": 16.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 15,
+      "zoom": 0.68,
+      "gameTime": 13.633333333333296,
+      "enemies": 9
+    },
+    {
+      "wallTime": 18.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 19,
+      "zoom": 0.68,
+      "gameTime": 15.633333333333288,
+      "enemies": 5
+    },
+    {
+      "wallTime": 20.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 22,
+      "zoom": 0.68,
+      "gameTime": 17.63333333333337,
+      "enemies": 2
+    },
+    {
+      "wallTime": 22.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 19.633333333333468,
+      "enemies": 1
+    },
+    {
+      "wallTime": 24.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 21.633333333333567,
+      "enemies": 1
+    },
+    {
+      "wallTime": 26.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 23.633333333333667,
+      "enemies": 1
+    },
+    {
+      "wallTime": 28.5,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "towers": 24,
+      "kills": 23,
+      "zoom": 0.68,
+      "gameTime": 25.6666666666671,
+      "enemies": 1
+    },
+    {
+      "wallTime": 30.5,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 24,
+      "zoom": 0.68,
+      "gameTime": 27.6666666666672,
+      "enemies": 0
+    },
+    {
+      "wallTime": 32.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 24,
+      "zoom": 0.68,
+      "gameTime": 29.766666666667305,
+      "enemies": 4
+    },
+    {
+      "wallTime": 34.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 24,
+      "zoom": 0.68,
+      "gameTime": 31.766666666667405,
+      "enemies": 9
+    },
+    {
+      "wallTime": 36.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 24,
+      "zoom": 0.68,
+      "gameTime": 33.76666666666731,
+      "enemies": 14
+    },
+    {
+      "wallTime": 38.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 28,
+      "zoom": 0.68,
+      "gameTime": 35.7666666666672,
+      "enemies": 15
+    },
+    {
+      "wallTime": 40.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 33,
+      "zoom": 0.68,
+      "gameTime": 37.766666666667085,
+      "enemies": 15
+    },
+    {
+      "wallTime": 42.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 38,
+      "zoom": 0.68,
+      "gameTime": 39.76666666666697,
+      "enemies": 15
+    },
+    {
+      "wallTime": 44.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 42,
+      "zoom": 0.68,
+      "gameTime": 41.76666666666686,
+      "enemies": 14
+    },
+    {
+      "wallTime": 46.6,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 49,
+      "zoom": 0.68,
+      "gameTime": 43.766666666666744,
+      "enemies": 7
+    },
+    {
+      "wallTime": 48.7,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 53,
+      "zoom": 0.68,
+      "gameTime": 45.76666666666663,
+      "enemies": 3
+    },
+    {
+      "wallTime": 50.7,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 55,
+      "zoom": 0.68,
+      "gameTime": 47.76666666666652,
+      "enemies": 1
+    },
+    {
+      "wallTime": 52.7,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 55,
+      "zoom": 0.68,
+      "gameTime": 49.7666666666664,
+      "enemies": 1
+    },
+    {
+      "wallTime": 54.7,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 55,
+      "zoom": 0.68,
+      "gameTime": 51.79999999999962,
+      "enemies": 1
+    },
+    {
+      "wallTime": 56.7,
+      "state": "running",
+      "wave": 2,
+      "hp": 100,
+      "towers": 24,
+      "kills": 55,
+      "zoom": 0.68,
+      "gameTime": 53.79999999999951,
+      "enemies": 1
+    },
+    {
+      "wallTime": 58.7,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 56,
+      "zoom": 0.68,
+      "gameTime": 55.79999999999939,
+      "enemies": 0
+    },
+    {
+      "wallTime": 60.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 56,
+      "zoom": 0.68,
+      "gameTime": 57.899999999999274,
+      "enemies": 6
+    },
+    {
+      "wallTime": 62.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 56,
+      "zoom": 0.68,
+      "gameTime": 59.89999999999916,
+      "enemies": 12
+    },
+    {
+      "wallTime": 64.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 58,
+      "zoom": 0.68,
+      "gameTime": 61.89999999999905,
+      "enemies": 16
+    },
+    {
+      "wallTime": 66.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 64,
+      "zoom": 0.68,
+      "gameTime": 63.89999999999893,
+      "enemies": 16
+    },
+    {
+      "wallTime": 68.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 69,
+      "zoom": 0.68,
+      "gameTime": 65.89999999999883,
+      "enemies": 17
+    },
+    {
+      "wallTime": 70.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 75,
+      "zoom": 0.68,
+      "gameTime": 67.89999999999871,
+      "enemies": 17
+    },
+    {
+      "wallTime": 72.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 80,
+      "zoom": 0.68,
+      "gameTime": 69.8999999999986,
+      "enemies": 16
+    },
+    {
+      "wallTime": 74.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 85,
+      "zoom": 0.68,
+      "gameTime": 71.89999999999849,
+      "enemies": 11
+    },
+    {
+      "wallTime": 76.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 93,
+      "zoom": 0.68,
+      "gameTime": 73.89999999999837,
+      "enemies": 3
+    },
+    {
+      "wallTime": 78.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 95,
+      "zoom": 0.68,
+      "gameTime": 75.89999999999826,
+      "enemies": 1
+    },
+    {
+      "wallTime": 80.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 95,
+      "zoom": 0.68,
+      "gameTime": 77.89999999999814,
+      "enemies": 1
+    },
+    {
+      "wallTime": 82.8,
+      "state": "running",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 95,
+      "zoom": 0.68,
+      "gameTime": 79.89999999999803,
+      "enemies": 1
+    },
+    {
+      "wallTime": 84.8,
+      "state": "win",
+      "wave": 3,
+      "hp": 100,
+      "towers": 24,
+      "kills": 96,
+      "zoom": 0.68,
+      "gameTime": 81.6666666666646,
+      "enemies": 0
+    }
+  ],
+  "consoleErrors": [],
+  "actions": [
+    {
+      "clock": 3.0,
+      "name": "start"
+    },
+    {
+      "clock": 3.2,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 3.4,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 3.6,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 3.7,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 3.9,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.1,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.3,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.5,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.7,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.9,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.1,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.3,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.5,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.7,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.9,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 6.1,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 6.3,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 6.5,
+      "name": "zoom_out"
+    },
+    {
+      "clock": 8.2,
+      "name": "drag_camera"
+    },
+    {
+      "clock": 8.3,
+      "name": "recenter"
+    },
+    {
+      "clock": 85.1,
+      "name": "restart"
+    }
+  ],
+  "result": "win",
+  "startedAt": "2026-10-20T10:56:46",
+  "initial": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "towers": 9,
+    "kills": 0,
+    "zoom": 0.9,
+    "gameTime": 0,
+    "enemies": 0
+  },
+  "viewport": {
+    "w": 540,
+    "h": 760,
+    "hidden": false
+  },
+  "afterHumanSetup": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "towers": 24,
+    "kills": 0,
+    "zoom": 0.68,
+    "gameTime": 5.566666666666657,
+    "enemies": 10
+  },
+  "expectedTowersAfterSetup": 24,
+  "final": {
+    "state": "win",
+    "wave": 3,
+    "hp": 100,
+    "towers": 24,
+    "kills": 96,
+    "zoom": 0.68,
+    "gameTime": 81.6666666666646,
+    "enemies": 0
+  },
+  "afterRestart": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "towers": 9,
+    "kills": 0,
+    "zoom": 0.9,
+    "gameTime": 0,
+    "enemies": 0
+  },
+  "durationSeconds": 87.0
+}

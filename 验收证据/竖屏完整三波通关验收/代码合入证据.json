@@ -1,0 +1,43 @@
+{
+  "status": "CODE_MERGED_AND_TEXT_CHECKED_BUILD_PENDING",
+  "codeFiles": [
+    {
+      "file": "CocosCreator工程\\assets\\脚本\\守城控制器.ts",
+      "oldSHA256": "a732cbc520b1f0e4816bafb29a23d5f1aaabd13bf7e652043d70e703754370d2",
+      "newSHA256": "758a1c244d6fb850ba2fb608703981213c402f6be67db81e427b87f48184cb0c"
+    },
+    {
+      "file": "CocosCreator工程\\assets\\脚本\\待审战场美术覆盖器.ts",
+      "oldSHA256": "75672507f8aa005b7b2fa693d48c23723bb405242193f4ba0aadec2b080cddee",
+      "newSHA256": "dc66e863c558f44c514704c27ca244ea3d46cf5e6a8bb9ba7cf6f1291180ecb6"
+    }
+  ],
+  "sceneSHAUnchanged": true,
+  "fullWin": {
+    "state": "win",
+    "wave": 3,
+    "hp": 100,
+    "kills": 96,
+    "time": 82.5,
+    "towers": 24,
+    "enemies": 0,
+    "spawned": 40,
+    "zoom": 0.9
+  },
+  "reset": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9
+  },
+  "portrait540x960": {
+    "w": 540,
+    "h": 960,
+    "hidden": false
+  }
+}

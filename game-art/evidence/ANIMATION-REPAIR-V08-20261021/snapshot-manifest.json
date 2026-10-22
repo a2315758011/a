@@ -1,0 +1,56 @@
+{
+  "at": "2026-10-21T00:31:09.111Z",
+  "status": "FAILED_BEFORE_SUBMIT_NO_ARTIFACTS",
+  "files": [
+    {
+      "path": "gateway-probe.cjs",
+      "bytes": 121,
+      "sha256": "7e9cb96b524e4c8acd0eb18c2ed60093aef1998d4a359b1d654e1c04bbd66f73"
+    },
+    {
+      "path": "gateway-probe.initial.cjs",
+      "bytes": 3727,
+      "sha256": "406b51be3c0117453de981c6ae3763cddbeccb36bd2add70f5904a4013538ca0"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 3495,
+      "sha256": "dd8f41dd6b3f623bfcbdf991fc3ff809a77a3f49b330291af097a4a80330de8a"
+    },
+    {
+      "path": "job-query.cjs",
+      "bytes": 2207,
+      "sha256": "b4eb9af78edb95246de1d090e6816741ba0b2abc745c8f34934eaf67d301c112"
+    },
+    {
+      "path": "query-regression-results.json",
+      "bytes": 505,
+      "sha256": "52022a68decd8d4cdc234c6ccc1193a7d599b1fb4e6194c84e1ed1aa6e3704ff"
+    },
+    {
+      "path": "query-regression.cjs",
+      "bytes": 2135,
+      "sha256": "5e7e8ae5892d720bed21609dba1bd63b09cfe47dfd0dcc64e76c44ce685870e1"
+    },
+    {
+      "path": "recover-query.cjs",
+      "bytes": 1541,
+      "sha256": "dded4eaec8dc9dc826a660b136d331467a669bae6cafce395904712f821c73d8"
+    },
+    {
+      "path": "reference-boss.png",
+      "bytes": 12735,
+      "sha256": "896c915a564e42242591e39e4517a509fc66954ec928fef31c9d033f22cb3449"
+    },
+    {
+      "path": "request-ledger.json",
+      "bytes": 6575,
+      "sha256": "2fe88536b1a9cdfe2ba369a15b4d8c1a7a5edb1d530e2710695c7b702d7c9587"
+    },
+    {
+      "path": "task-contract.json",
+      "bytes": 1407,
+      "sha256": "77235e1c9700637c1e72cd4b48bb32baa52eb3c87d57fb3eb317b1fadbd86891"
+    }
+  ]
+}

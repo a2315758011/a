@@ -1,0 +1,465 @@
+{
+  "test": "RECOVERY-022 deterministic targeted animation integration checks",
+  "project": "live-turret-defense",
+  "candidate": "候选战场Cocos-V5隔离工程-20261020",
+  "viewport": {
+    "width": 540,
+    "height": 960
+  },
+  "fixturePolicy": "actual mouse input for start/upgrade/restart; synthetic enemy fixtures only for deterministic attack/core-hit/core-defeat visual states; this is not counted as a natural full playthrough",
+  "startedAt": "2026-10-20T14:31:37",
+  "checks": {
+    "actualMouseStart": {
+      "pass": true,
+      "state": {
+        "gameState": "running",
+        "hp": 100,
+        "towerCount": 9,
+        "kills": 0,
+        "lastTowerLevel": 3,
+        "lastClick": "-206,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 0,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "enemyPose": null,
+        "upgradeTimers": 0,
+        "lastUpgradeTimer": 0,
+        "coreHitTimer": 0,
+        "crystalDeathElapsed": 0,
+        "crystalScale": 0.5940000000000001,
+        "crystalTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      }
+    },
+    "actualMouseUpgrade": {
+      "pass": true,
+      "beforeLevel": 3,
+      "after": {
+        "gameState": "running",
+        "hp": 100,
+        "towerCount": 9,
+        "kills": 0,
+        "lastTowerLevel": 4,
+        "lastClick": "-4,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 0,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "enemyPose": null,
+        "upgradeTimers": 1,
+        "lastUpgradeTimer": 0.5206999999992549,
+        "coreHitTimer": 0,
+        "crystalDeathElapsed": 0,
+        "crystalScale": 0.5940000000000001,
+        "crystalTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      }
+    },
+    "enemyAttackPose": {
+      "pass": true,
+      "state": {
+        "gameState": "paused",
+        "hp": 100,
+        "towerCount": 0,
+        "kills": 0,
+        "lastTowerLevel": null,
+        "lastClick": "-4,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 1,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 1,
+          "death": 0
+        },
+        "enemyPose": {
+          "state": "attack",
+          "ghost": false,
+          "rotation": 0,
+          "scaleX": 0.378,
+          "scaleY": 0.378,
+          "tint": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "weaponRotation": -18.615342463426476
+        },
+        "upgradeTimers": 0,
+        "lastUpgradeTimer": 0.38649999999999995,
+        "coreHitTimer": 0,
+        "crystalDeathElapsed": 0,
+        "crystalScale": 0.5940000000000001,
+        "crystalTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      }
+    },
+    "enemyHurtPose": {
+      "pass": true,
+      "state": {
+        "gameState": "paused",
+        "hp": 100,
+        "towerCount": 0,
+        "kills": 0,
+        "lastTowerLevel": null,
+        "lastClick": "-4,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 1,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 1,
+          "attack": 0,
+          "death": 0
+        },
+        "enemyPose": {
+          "state": "hurt",
+          "ghost": false,
+          "rotation": 0,
+          "scaleX": 0.378,
+          "scaleY": 0.378,
+          "tint": {
+            "r": 255,
+            "g": 100,
+            "b": 100
+          },
+          "weaponRotation": -10
+        },
+        "upgradeTimers": 0,
+        "lastUpgradeTimer": 0.38649999999999995,
+        "coreHitTimer": 0,
+        "crystalDeathElapsed": 0,
+        "crystalScale": 0.5940000000000001,
+        "crystalTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      }
+    },
+    "enemyDeathPose": {
+      "pass": true,
+      "state": {
+        "gameState": "paused",
+        "hp": 100,
+        "towerCount": 0,
+        "kills": 0,
+        "lastTowerLevel": null,
+        "lastClick": "-4,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 1,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 1
+        },
+        "enemyPose": {
+          "state": "death",
+          "ghost": true,
+          "rotation": -14.656250000000014,
+          "scaleX": 0.39382875000000006,
+          "scaleY": 0.31468499999999994,
+          "tint": {
+            "r": 175,
+            "g": 175,
+            "b": 175
+          },
+          "weaponRotation": 23.784293638587254
+        },
+        "upgradeTimers": 0,
+        "lastUpgradeTimer": 0.38649999999999995,
+        "coreHitTimer": 0,
+        "crystalDeathElapsed": 0,
+        "crystalScale": 0.5940000000000001,
+        "crystalTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      }
+    },
+    "crystalHitFeedback": {
+      "pass": true,
+      "trigger": {
+        "hp": 94,
+        "state": "paused"
+      },
+      "state": {
+        "gameState": "paused",
+        "hp": 94,
+        "towerCount": 0,
+        "kills": 1,
+        "lastTowerLevel": null,
+        "lastClick": "-4,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 1,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 1,
+          "death": 1
+        },
+        "enemyPose": {
+          "state": "attack",
+          "ghost": true,
+          "rotation": 0,
+          "scaleX": 0.378,
+          "scaleY": 0.378,
+          "tint": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "weaponRotation": -20.021429813925067
+        },
+        "upgradeTimers": 0,
+        "lastUpgradeTimer": 0.4700999999996275,
+        "coreHitTimer": 0.1739000000003725,
+        "crystalDeathElapsed": 0,
+        "crystalScale": 0.5940000000000001,
+        "crystalTint": {
+          "r": 255,
+          "g": 100,
+          "b": 100
+        }
+      }
+    },
+    "crystalDefeatAnimation": {
+      "pass": true,
+      "atDefeat": {
+        "gameState": "lose",
+        "hp": 0,
+        "towerCount": 0,
+        "kills": 1,
+        "lastTowerLevel": null,
+        "lastClick": "-4,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 1,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 1,
+          "death": 1
+        },
+        "enemyPose": {
+          "state": "attack",
+          "ghost": true,
+          "rotation": 0,
+          "scaleX": 0.378,
+          "scaleY": 0.378,
+          "tint": {
+            "r": 255,
+            "g": 255,
+            "b": 255
+          },
+          "weaponRotation": -27.341354690405097
+        },
+        "upgradeTimers": 0,
+        "lastUpgradeTimer": 0.1872999999988824,
+        "coreHitTimer": 0.22309999999962746,
+        "crystalDeathElapsed": 0.01690000000037253,
+        "crystalScale": 0.5829575399997566,
+        "crystalTint": {
+          "r": 175,
+          "g": 175,
+          "b": 175
+        }
+      },
+      "afterAnimation": {
+        "gameState": "lose",
+        "hp": 0,
+        "towerCount": 0,
+        "kills": 1,
+        "lastTowerLevel": null,
+        "lastClick": "-4,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 1,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 1
+        },
+        "enemyPose": {
+          "state": "death",
+          "ghost": true,
+          "rotation": -8.83750000008149,
+          "scaleX": 0.38754450000008805,
+          "scaleY": 0.33982199999964796,
+          "tint": {
+            "r": 175,
+            "g": 175,
+            "b": 175
+          },
+          "weaponRotation": 21.888881166728392
+        },
+        "upgradeTimers": 0,
+        "lastUpgradeTimer": 0.1872999999988824,
+        "coreHitTimer": 0.03959999999962744,
+        "crystalDeathElapsed": 0.20040000000037256,
+        "crystalScale": 0.4630586399997566,
+        "crystalTint": {
+          "r": 175,
+          "g": 175,
+          "b": 175
+        }
+      }
+    },
+    "actualMouseRestart": {
+      "pass": true,
+      "state": {
+        "gameState": "ready",
+        "hp": 100,
+        "towerCount": 9,
+        "kills": 0,
+        "lastTowerLevel": 3,
+        "lastClick": "172,-384",
+        "artReady": true,
+        "artFailed": false,
+        "activeEnemies": 0,
+        "enemyStates": {
+          "walk": 0,
+          "hurt": 0,
+          "attack": 0,
+          "death": 0
+        },
+        "enemyPose": null,
+        "upgradeTimers": 0,
+        "lastUpgradeTimer": 0,
+        "coreHitTimer": 0,
+        "crystalDeathElapsed": 0,
+        "crystalScale": 0.5940000000000001,
+        "crystalTint": {
+          "r": 255,
+          "g": 255,
+          "b": 255
+        }
+      }
+    }
+  },
+  "consoleErrors": [],
+  "networkFailures": [],
+  "screenshots": [
+    {
+      "file": "00-资源加载完成.png",
+      "bytes": 718284
+    },
+    {
+      "file": "01-炮塔升级高亮.png",
+      "bytes": 718151
+    },
+    {
+      "file": "02-敌人攻击姿态.png",
+      "bytes": 702880
+    },
+    {
+      "file": "03-敌人受击姿态.png",
+      "bytes": 702511
+    },
+    {
+      "file": "04-敌人死亡收缩.png",
+      "bytes": 702362
+    },
+    {
+      "file": "05-水晶受击闪红.png",
+      "bytes": 702601
+    },
+    {
+      "file": "06-水晶失败收缩.png",
+      "bytes": 702396
+    },
+    {
+      "file": "07-重开恢复.png",
+      "bytes": 718323
+    }
+  ],
+  "result": "PASS",
+  "initial": {
+    "gameState": "ready",
+    "hp": 100,
+    "towerCount": 9,
+    "kills": 0,
+    "lastTowerLevel": 3,
+    "lastClick": "无",
+    "artReady": true,
+    "artFailed": false,
+    "activeEnemies": 0,
+    "enemyStates": {
+      "walk": 0,
+      "hurt": 0,
+      "attack": 0,
+      "death": 0
+    },
+    "enemyPose": null,
+    "upgradeTimers": 0,
+    "lastUpgradeTimer": 0,
+    "coreHitTimer": 0,
+    "crystalDeathElapsed": 0,
+    "crystalScale": 0.5940000000000001,
+    "crystalTint": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    }
+  },
+  "actions": [
+    {
+      "name": "start",
+      "x": 64,
+      "y": 864,
+      "time": 4.118
+    },
+    {
+      "name": "upgrade",
+      "x": 266,
+      "y": 864,
+      "time": 4.221
+    },
+    {
+      "name": "restart",
+      "x": 442,
+      "y": 864,
+      "time": 6.47
+    }
+  ],
+  "passedChecks": [
+    "actualMouseStart",
+    "actualMouseUpgrade",
+    "enemyAttackPose",
+    "enemyHurtPose",
+    "enemyDeathPose",
+    "crystalHitFeedback",
+    "crystalDefeatAnimation",
+    "actualMouseRestart"
+  ],
+  "failedChecks": [],
+  "durationSeconds": 8.93,
+  "consoleErrorCount": 0,
+  "networkFailureCount": 0
+}

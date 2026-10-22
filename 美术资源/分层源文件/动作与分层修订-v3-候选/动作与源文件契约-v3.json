@@ -1,0 +1,87 @@
+{
+  "projectId": "live-turret-defense",
+  "version": "v3-art-candidate",
+  "format": "editable OpenRaster each frame + independent per-frame components, not baked-only sheet",
+  "camera": "2D_topdown",
+  "pixelCanvas": [
+    96,
+    96
+  ],
+  "frameMs": 110,
+  "origin": "V2 editable original layers + new independent articulation and fracture paths",
+  "approved": false,
+  "actions": [
+    {
+      "actor": "兽人小兵",
+      "name": "walk",
+      "frames": 8,
+      "editableFrames": 8,
+      "eventFrame": null,
+      "semanticReview": "CANDIDATE_VISUAL_REVIEW_PENDING",
+      "path": "兽人小兵\\walk"
+    },
+    {
+      "actor": "兽人小兵",
+      "name": "attack",
+      "frames": 8,
+      "editableFrames": 8,
+      "eventFrame": 4,
+      "semanticReview": "CANDIDATE_VISUAL_REVIEW_PENDING",
+      "path": "兽人小兵\\attack"
+    },
+    {
+      "actor": "兽人小兵",
+      "name": "death",
+      "frames": 8,
+      "editableFrames": 8,
+      "eventFrame": null,
+      "semanticReview": "CANDIDATE_VISUAL_REVIEW_PENDING",
+      "path": "兽人小兵\\death"
+    },
+    {
+      "actor": "城防水晶",
+      "name": "shatter",
+      "frames": 8,
+      "editableFrames": 8,
+      "eventFrame": 5,
+      "semanticReview": "CANDIDATE_VISUAL_REVIEW_PENDING",
+      "path": "城防水晶\\shatter"
+    },
+    {
+      "actor": "连珠速射塔",
+      "name": "attack",
+      "frames": 8,
+      "editableFrames": 0,
+      "sourceOra": "连珠速射塔-可编辑分层.ora",
+      "sourceRecipe": "refer to V2 recipe file",
+      "semanticReview": "REUSED_V2_CANDIDATE",
+      "path": "连珠速射塔\\attack"
+    },
+    {
+      "actor": "熔芯重炮塔",
+      "name": "attack",
+      "frames": 8,
+      "editableFrames": 0,
+      "sourceOra": "熔芯重炮塔-可编辑分层.ora",
+      "sourceRecipe": "refer to V2 recipe file",
+      "semanticReview": "REUSED_V2_CANDIDATE",
+      "path": "熔芯重炮塔\\attack"
+    },
+    {
+      "actor": "寒霜喷射塔",
+      "name": "attack",
+      "frames": 8,
+      "editableFrames": 0,
+      "sourceOra": "寒霜喷射塔-可编辑分层.ora",
+      "sourceRecipe": "refer to V2 recipe file",
+      "semanticReview": "REUSED_V2_CANDIDATE",
+      "path": "寒霜喷射塔\\attack"
+    }
+  ],
+  "rejectedV2Issues": [
+    "orc walk unconvincing planting",
+    "orc axe crossing face",
+    "orc death spinning rigid frame",
+    "crystal unnatural six equal sectors"
+  ]
+}

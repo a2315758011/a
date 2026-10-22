@@ -1,0 +1,21 @@
+{
+  "at": "2026-10-21T00:30:11.036Z",
+  "results": [
+    {
+      "name": "404 on new instance queries original job without POST",
+      "status": "PASS"
+    },
+    {
+      "name": "Unavailable discovery endpoint falls back to original",
+      "status": "PASS"
+    },
+    {
+      "name": "In-memory loss falls back to persistent exact original subtask",
+      "status": "PASS"
+    },
+    {
+      "name": "Unknown and wrong-identity jobs fail closed without resubmission",
+      "status": "PASS"
+    }
+  ]
+}

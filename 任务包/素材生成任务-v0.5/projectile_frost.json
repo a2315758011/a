@@ -1,0 +1,62 @@
+{
+  "id": "projectile_frost",
+  "name": "寒霜射流",
+  "sourceTaskId": "ART-MASTER-PROJECTILE_FROST-20261012",
+  "accountId": "3701a471-2d32-4cb2-aab6-8b9980015842",
+  "promptSHA256": "e75b6f1ce9cbc5fe43b1b83acd8117e61769d8468fc173065b514ba10d4b0848",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "jobId": "4d324d8e-e34e-4a1b-9bcd-dc0c1d11c9a6",
+  "submittedAt": "2026-10-12T14:47:11.748554+00:00",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "4d324d8e-e34e-4a1b-9bcd-dc0c1d11c9a6",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:47:11.877Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-PROJECTILE_FROST-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Generate ONE isolated original 2D top-down native pixel art sprite for a fantasy tower defense mobile game. Subject: single light cyan compressed ice magic blast travelling horizontally, blue short frozen wind streak, pixel art projectile. ",
+        "model": "",
+        "accountId": "3701a471-2d32-4cb2-aab6-8b9980015842",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:00.937810+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\projectile_frost-母素材-原始.png",
+  "sha256": "9f2fce60ec20181ad908186c715802fc819c69f0377cb352920ebcf28d1211ae",
+  "size": [
+    384,
+    384
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "3bc7b7c31c343d3ab85eb0c4",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816515597_doubao_work_豆包工作_·_网页账号_3_1dfc84c1.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816515597_doubao_work_豆包工作_·_网页账号_3_1dfc84c1.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816515597_doubao_work_豆包工作_·_网页账号_3_1dfc84c1.png",
+      "name": "1791816515597_doubao_work_豆包工作_·_网页账号_3_1dfc84c1.png",
+      "size": 79548,
+      "mimeType": "image/png"
+    }
+  ]
+}

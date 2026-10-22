@@ -1,0 +1,50 @@
+{
+  "test": "RECOVERY-022 browser/renderer health check under real mouse input",
+  "startedAt": "2026-10-20T08:33:38.857Z",
+  "requests": [
+    {
+      "url": "/",
+      "status": 200
+    },
+    {
+      "url": "/style.css",
+      "status": 200
+    },
+    {
+      "url": "/src/polyfills.bundle.js",
+      "status": 200
+    },
+    {
+      "url": "/src/system.bundle.js",
+      "status": 200
+    },
+    {
+      "url": "/src/import-map.json",
+      "status": 200
+    },
+    {
+      "url": "/index.js",
+      "status": 200
+    },
+    {
+      "url": "/application.js",
+      "status": 200
+    },
+    {
+      "url": "/cocos-js/cc.js",
+      "status": 200
+    },
+    {
+      "url": "/cocos-js/_virtual_cc-c0bce2db.js",
+      "status": 200
+    }
+  ],
+  "actions": [],
+  "screenshots": [],
+  "error": "Error: timeout Page.captureScreenshot",
+  "edgeExit": null,
+  "result": "ERROR",
+  "stack": "Error: timeout Page.captureScreenshot\n    at Timeout._onTimeout (C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\qa_renderer_health_022.js:15:161)\n    at listOnTimeout (node:internal/timers:605:17)\n    at process.processTimers (node:internal/timers:541:7)",
+  "finishedAt": "2026-10-20T08:33:58.036Z",
+  "requestCount": 9
+}

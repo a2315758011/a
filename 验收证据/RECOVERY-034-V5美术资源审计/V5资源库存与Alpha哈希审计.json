@@ -1,0 +1,4592 @@
+{
+  "task": "RECOVERY-034",
+  "generatedAt": "2026-10-22T04:08:43",
+  "roots": {
+    "candidate-v5": {
+      "exists": true,
+      "pngCount": 17,
+      "totalBytes": 861888
+    },
+    "candidate-formal-v5": {
+      "exists": true,
+      "pngCount": 16,
+      "totalBytes": 166287
+    },
+    "formal-v5": {
+      "exists": true,
+      "pngCount": 16,
+      "totalBytes": 166287
+    },
+    "formal-v4": {
+      "exists": true,
+      "pngCount": 56,
+      "totalBytes": 108006
+    },
+    "formal-layer-test": {
+      "exists": true,
+      "pngCount": 56,
+      "totalBytes": 95717
+    }
+  },
+  "files": [
+    {
+      "root": "candidate-v5",
+      "relative": "UI/图标/波次徽章.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\波次徽章.png",
+      "bytes": 9915,
+      "sha256": "8D0389244376568DF8C661A20B243C6B34B62DE81ABBB8F77EF1075C96FDB988",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.621419,
+        "fullyTransparentRatio": 0.621419,
+        "fullyOpaqueRatio": 0.378581,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        2,
+        12,
+        94,
+        84
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "UI/图标/炮塔升级图标.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\炮塔升级图标.png",
+      "bytes": 12638,
+      "sha256": "80C4CE656E873B9F1F42545183E8654CDE73F82A4166F6B5880D53504871D095",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.430013,
+        "fullyTransparentRatio": 0.430013,
+        "fullyOpaqueRatio": 0.569987,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        4,
+        2,
+        91,
+        94
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "UI/图标/能量水晶图标.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\图标\\能量水晶图标.png",
+      "bytes": 7955,
+      "sha256": "37A6617A635AA2D1236CB2BA7326DA66AF5B4F8725E00908FEAE50FD51CFBE6C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.642361,
+        "fullyTransparentRatio": 0.642361,
+        "fullyOpaqueRatio": 0.357639,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        18,
+        2,
+        78,
+        94
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "UI/按钮/主操作按钮.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\主操作按钮.png",
+      "bytes": 13269,
+      "sha256": "598837ECCFE8B84DBB520531C767E4D940F0FC6F372A7A76E52A1120E6149D4A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        64
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.218066,
+        "fullyTransparentRatio": 0.218066,
+        "fullyOpaqueRatio": 0.781934,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        5,
+        3,
+        155,
+        61
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "UI/按钮/次操作按钮.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\次操作按钮.png",
+      "bytes": 12653,
+      "sha256": "A0968DD5053BC0FE62D6CD3BFC9EE8236F00430524B08A939EC862BABA3E18B9",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        64
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.229004,
+        "fullyTransparentRatio": 0.229004,
+        "fullyOpaqueRatio": 0.770996,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        3,
+        3,
+        157,
+        61
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "UI/按钮/离场按钮.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\按钮\\离场按钮.png",
+      "bytes": 12608,
+      "sha256": "2613AA94731576EF555679FB61CD266FB5FB128FE6011E33A1FD410AA1E7FF67",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        64
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.236816,
+        "fullyTransparentRatio": 0.236816,
+        "fullyOpaqueRatio": 0.763184,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        5,
+        3,
+        154,
+        61
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "UI/面板/HUD顶部底板.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\面板\\HUD顶部底板.png",
+      "bytes": 26746,
+      "sha256": "156842D915F44B0E7CDFDB115CA3E487BB4B71B4DD4CF1FBC4FACF0FD9796BFA",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        256,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.32312,
+        "fullyTransparentRatio": 0.32312,
+        "fullyOpaqueRatio": 0.67688,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        25,
+        4,
+        230,
+        92
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "UI/面板/生命值条外框.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\UI\\面板\\生命值条外框.png",
+      "bytes": 25985,
+      "sha256": "154C3A3F2B9E720102814393EFF84EF7FFAD7C7D1F138BF32AE906149239D0E3",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        256,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.363729,
+        "fullyTransparentRatio": 0.363729,
+        "fullyOpaqueRatio": 0.636271,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        5,
+        6,
+        251,
+        89
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "战斗单位/兽人/兽人小兵_合成.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_合成.png",
+      "bytes": 6418,
+      "sha256": "369CB237B033F031B6C6179343DD81851CF7DF37A112FDDF7DC3AA58AD446771",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.797092,
+        "fullyTransparentRatio": 0.797092,
+        "fullyOpaqueRatio": 0.202908,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        17,
+        25,
+        80,
+        76
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "战斗单位/兽人/兽人小兵_头部双臂_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_头部双臂_母图层.png",
+      "bytes": 57721,
+      "sha256": "821ABAF2A8860101709775B6D6FA1F5607099290AFD9E864E8F7F686D78707E8",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        544,
+        544
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.905763,
+        "fullyTransparentRatio": 0.905763,
+        "fullyOpaqueRatio": 0.094237,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        97,
+        144,
+        447,
+        310
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "战斗单位/兽人/兽人小兵_武器配件_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_武器配件_母图层.png",
+      "bytes": 61992,
+      "sha256": "B8F332C781F282BEFCDB890CAD2F21B74F7B56CF2C7C575CEEF59E8531C60A15",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        544,
+        544
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.896481,
+        "fullyTransparentRatio": 0.896481,
+        "fullyOpaqueRatio": 0.103519,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        123,
+        145,
+        456,
+        369
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "战斗单位/兽人/兽人小兵_身体护甲_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人小兵_身体护甲_母图层.png",
+      "bytes": 62210,
+      "sha256": "9289E09B85F1CB801E8896DF3D4B0AF645833719269133FC52406E810E46B796",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        544,
+        544
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.891645,
+        "fullyTransparentRatio": 0.891645,
+        "fullyOpaqueRatio": 0.108355,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        182,
+        208,
+        366,
+        432
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "战斗单位/兽人/兽人首领_合成.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_合成.png",
+      "bytes": 12735,
+      "sha256": "896C915A564E42242591E39E4517A509FC66954EC928FEF31C9D033F22CB3449",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.562174,
+        "fullyTransparentRatio": 0.562174,
+        "fullyOpaqueRatio": 0.437826,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        6,
+        5,
+        90,
+        77
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "战斗单位/兽人/兽人首领_头部双臂_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_头部双臂_母图层.png",
+      "bytes": 108247,
+      "sha256": "7B01D32DD7808EBC0D5DA0A72ED0BF0517CEA8FB2D120EA7DD6F2E4789EC803F",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        544,
+        544
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.794844,
+        "fullyTransparentRatio": 0.794844,
+        "fullyOpaqueRatio": 0.205156,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        34,
+        27,
+        510,
+        283
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "战斗单位/兽人/兽人首领_武器配件_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_武器配件_母图层.png",
+      "bytes": 147977,
+      "sha256": "B5516461C50298D2C56EE01F4F90AA2428133D356D2370FB6265F43F0490C20E",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        544,
+        544
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.716138,
+        "fullyTransparentRatio": 0.716138,
+        "fullyOpaqueRatio": 0.283862,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        59,
+        59,
+        511,
+        427
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "战斗单位/兽人/兽人首领_身体护甲_母图层.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\战斗单位\\兽人\\兽人首领_身体护甲_母图层.png",
+      "bytes": 150933,
+      "sha256": "8EB54F59B0064529D47C580907CA91902350B8C1B5A88779C310005123211F16",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        544,
+        544
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.693795,
+        "fullyTransparentRatio": 0.693795,
+        "fullyOpaqueRatio": 0.306205,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        100,
+        80,
+        448,
+        438
+      ]
+    },
+    {
+      "root": "candidate-v5",
+      "relative": "环境/战场地砖.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\候选战斗美术-v5-RECOVERY-004\\环境\\战场地砖.png",
+      "bytes": 131886,
+      "sha256": "D784AD44692536DA60D5075D61DA33B128B1DBADCE5DD86D23F1AB720AF0F60F",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        256,
+        256
+      ],
+      "alpha": {
+        "min": 255,
+        "max": 255,
+        "transparentRatio": 0.0,
+        "fullyTransparentRatio": 0.0,
+        "fullyOpaqueRatio": 1.0,
+        "hasUsefulAlpha": false
+      },
+      "bbox": [
+        0,
+        0,
+        256,
+        256
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/水晶/城防水晶.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶.png",
+      "bytes": 12073,
+      "sha256": "90E571C8F305AECBFC89071B116F75CEA118B6B533A4D86D260D077FA6779309",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.737305,
+        "fullyTransparentRatio": 0.737305,
+        "fullyOpaqueRatio": 0.262695,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        22,
+        21,
+        106,
+        112
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/水晶/城防水晶_基座.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_基座.png",
+      "bytes": 12971,
+      "sha256": "B21F5F3B3C10F1EAA449CCD9C623CDAD022715BCF164E91D688E08C125171C86",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.737732,
+        "fullyTransparentRatio": 0.737732,
+        "fullyOpaqueRatio": 0.262268,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        22,
+        21,
+        106,
+        112
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/水晶/城防水晶_晶体.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_晶体.png",
+      "bytes": 6782,
+      "sha256": "D1F0E16F56FA1AB8164D6AD15647931A2595121B5458C5929522EF9646093A3D",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.832397,
+        "fullyTransparentRatio": 0.832397,
+        "fullyOpaqueRatio": 0.167603,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        37,
+        21,
+        91,
+        102
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/水晶/城防水晶_能量符文.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_能量符文.png",
+      "bytes": 4352,
+      "sha256": "EE6F22D131C76CAC13A5E9878B925A92028790808D69C282B1B82EBD5DB3E707",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.922546,
+        "fullyTransparentRatio": 0.922546,
+        "fullyOpaqueRatio": 0.077454,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        23,
+        101,
+        96
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/寒霜喷射塔.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔.png",
+      "bytes": 12815,
+      "sha256": "793117A85BD574ADEC46E5C19EAB0B273D8B2A2CAE7E0FB24743B698DE3BB308",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.726196,
+        "fullyTransparentRatio": 0.726196,
+        "fullyOpaqueRatio": 0.273804,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        24,
+        102,
+        101
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/寒霜喷射塔_主体.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_主体.png",
+      "bytes": 12488,
+      "sha256": "A4550D8A5E72616B940392677ECD8AA0D5EC8A98267D38C7138D57090D575F6C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.733459,
+        "fullyTransparentRatio": 0.733459,
+        "fullyOpaqueRatio": 0.266541,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        26,
+        101,
+        100
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/寒霜喷射塔_寒霜喷射器.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_寒霜喷射器.png",
+      "bytes": 5899,
+      "sha256": "327DBCA2F0B85BE5207ED26B2B6EB11EE49C7142026E469A44EED0499F9F9A4A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.880676,
+        "fullyTransparentRatio": 0.880676,
+        "fullyOpaqueRatio": 0.119324,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        36,
+        37,
+        92,
+        86
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/寒霜喷射塔_底座.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_底座.png",
+      "bytes": 12497,
+      "sha256": "2DAD4F44FA410CE4762BDBE542C4AB034EAE9A558BE673B55D7B7010209DC195",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.735413,
+        "fullyTransparentRatio": 0.735413,
+        "fullyOpaqueRatio": 0.264587,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        24,
+        102,
+        101
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/熔芯重炮塔.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔.png",
+      "bytes": 13459,
+      "sha256": "F67A2A6FDC8D419928DB82060F5D0CBF6AC64C274C816164F9AECBB310AAD4E6",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.70282,
+        "fullyTransparentRatio": 0.70282,
+        "fullyOpaqueRatio": 0.29718,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        22,
+        104,
+        102
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/熔芯重炮塔_主体.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_主体.png",
+      "bytes": 12590,
+      "sha256": "9E4628F433CF39A2DBCF9C4708C43EB937DA542736DC7BC1771234EE2B9F84CA",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.70874,
+        "fullyTransparentRatio": 0.70874,
+        "fullyOpaqueRatio": 0.29126,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        22,
+        104,
+        101
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/熔芯重炮塔_底座.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_底座.png",
+      "bytes": 12675,
+      "sha256": "0F8B7AA4453DEF7F07A72E0CA822904D3101A261FE00AC5611C08BCDFB58801A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.718445,
+        "fullyTransparentRatio": 0.718445,
+        "fullyOpaqueRatio": 0.281555,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        24,
+        104,
+        102
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/熔芯重炮塔_熔芯炮口.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_熔芯炮口.png",
+      "bytes": 7595,
+      "sha256": "D99800337F0E342B8C648D1F1E61B48E9FF62244F34D954BE7FABEB082851F1D",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.836914,
+        "fullyTransparentRatio": 0.836914,
+        "fullyOpaqueRatio": 0.163086,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        34,
+        30,
+        95,
+        90
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/连珠速射塔.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔.png",
+      "bytes": 12151,
+      "sha256": "0B521C815EA7135C4BBBF74244A804B3590ED3E7989E07B53E0ABAB0739F0C3C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.740601,
+        "fullyTransparentRatio": 0.740601,
+        "fullyOpaqueRatio": 0.259399,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        27,
+        26,
+        104,
+        100
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/连珠速射塔_主体.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_主体.png",
+      "bytes": 10243,
+      "sha256": "23A83527B00E5117164A3E14ECF72D9CAD7E57201C9353F41561677CAAE7DF4A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.769104,
+        "fullyTransparentRatio": 0.769104,
+        "fullyOpaqueRatio": 0.230896,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        30,
+        28,
+        102,
+        97
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/连珠速射塔_双炮管.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_双炮管.png",
+      "bytes": 6060,
+      "sha256": "29F516A84B263F3C6B79E201BC504A3E8536442E28B670203C1D164C3166B886",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.880676,
+        "fullyTransparentRatio": 0.880676,
+        "fullyOpaqueRatio": 0.119324,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        39,
+        37,
+        92,
+        87
+      ]
+    },
+    {
+      "root": "candidate-formal-v5",
+      "relative": "战斗单位/炮塔/连珠速射塔_底座.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\候选战场Cocos-V5隔离工程-20261020\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_底座.png",
+      "bytes": 11637,
+      "sha256": "3E95EFEBD55E0C3B108740293ED21AFA390D3CAD43BFDE00CFFA87A14DD7698C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.741211,
+        "fullyTransparentRatio": 0.741211,
+        "fullyOpaqueRatio": 0.258789,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        27,
+        26,
+        104,
+        100
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/水晶/城防水晶.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶.png",
+      "bytes": 12073,
+      "sha256": "90E571C8F305AECBFC89071B116F75CEA118B6B533A4D86D260D077FA6779309",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.737305,
+        "fullyTransparentRatio": 0.737305,
+        "fullyOpaqueRatio": 0.262695,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        22,
+        21,
+        106,
+        112
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/水晶/城防水晶_基座.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_基座.png",
+      "bytes": 12971,
+      "sha256": "B21F5F3B3C10F1EAA449CCD9C623CDAD022715BCF164E91D688E08C125171C86",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.737732,
+        "fullyTransparentRatio": 0.737732,
+        "fullyOpaqueRatio": 0.262268,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        22,
+        21,
+        106,
+        112
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/水晶/城防水晶_晶体.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_晶体.png",
+      "bytes": 6782,
+      "sha256": "D1F0E16F56FA1AB8164D6AD15647931A2595121B5458C5929522EF9646093A3D",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.832397,
+        "fullyTransparentRatio": 0.832397,
+        "fullyOpaqueRatio": 0.167603,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        37,
+        21,
+        91,
+        102
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/水晶/城防水晶_能量符文.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\水晶\\城防水晶_能量符文.png",
+      "bytes": 4352,
+      "sha256": "EE6F22D131C76CAC13A5E9878B925A92028790808D69C282B1B82EBD5DB3E707",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.922546,
+        "fullyTransparentRatio": 0.922546,
+        "fullyOpaqueRatio": 0.077454,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        23,
+        101,
+        96
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/寒霜喷射塔.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔.png",
+      "bytes": 12815,
+      "sha256": "793117A85BD574ADEC46E5C19EAB0B273D8B2A2CAE7E0FB24743B698DE3BB308",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.726196,
+        "fullyTransparentRatio": 0.726196,
+        "fullyOpaqueRatio": 0.273804,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        24,
+        102,
+        101
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/寒霜喷射塔_主体.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_主体.png",
+      "bytes": 12488,
+      "sha256": "A4550D8A5E72616B940392677ECD8AA0D5EC8A98267D38C7138D57090D575F6C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.733459,
+        "fullyTransparentRatio": 0.733459,
+        "fullyOpaqueRatio": 0.266541,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        26,
+        101,
+        100
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/寒霜喷射塔_寒霜喷射器.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_寒霜喷射器.png",
+      "bytes": 5899,
+      "sha256": "327DBCA2F0B85BE5207ED26B2B6EB11EE49C7142026E469A44EED0499F9F9A4A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.880676,
+        "fullyTransparentRatio": 0.880676,
+        "fullyOpaqueRatio": 0.119324,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        36,
+        37,
+        92,
+        86
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/寒霜喷射塔_底座.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\寒霜喷射塔_底座.png",
+      "bytes": 12497,
+      "sha256": "2DAD4F44FA410CE4762BDBE542C4AB034EAE9A558BE673B55D7B7010209DC195",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.735413,
+        "fullyTransparentRatio": 0.735413,
+        "fullyOpaqueRatio": 0.264587,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        24,
+        102,
+        101
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/熔芯重炮塔.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔.png",
+      "bytes": 13459,
+      "sha256": "F67A2A6FDC8D419928DB82060F5D0CBF6AC64C274C816164F9AECBB310AAD4E6",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.70282,
+        "fullyTransparentRatio": 0.70282,
+        "fullyOpaqueRatio": 0.29718,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        22,
+        104,
+        102
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/熔芯重炮塔_主体.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_主体.png",
+      "bytes": 12590,
+      "sha256": "9E4628F433CF39A2DBCF9C4708C43EB937DA542736DC7BC1771234EE2B9F84CA",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.70874,
+        "fullyTransparentRatio": 0.70874,
+        "fullyOpaqueRatio": 0.29126,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        22,
+        104,
+        101
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/熔芯重炮塔_底座.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_底座.png",
+      "bytes": 12675,
+      "sha256": "0F8B7AA4453DEF7F07A72E0CA822904D3101A261FE00AC5611C08BCDFB58801A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.718445,
+        "fullyTransparentRatio": 0.718445,
+        "fullyOpaqueRatio": 0.281555,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        26,
+        24,
+        104,
+        102
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/熔芯重炮塔_熔芯炮口.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\熔芯重炮塔_熔芯炮口.png",
+      "bytes": 7595,
+      "sha256": "D99800337F0E342B8C648D1F1E61B48E9FF62244F34D954BE7FABEB082851F1D",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.836914,
+        "fullyTransparentRatio": 0.836914,
+        "fullyOpaqueRatio": 0.163086,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        34,
+        30,
+        95,
+        90
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/连珠速射塔.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔.png",
+      "bytes": 12151,
+      "sha256": "0B521C815EA7135C4BBBF74244A804B3590ED3E7989E07B53E0ABAB0739F0C3C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.740601,
+        "fullyTransparentRatio": 0.740601,
+        "fullyOpaqueRatio": 0.259399,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        27,
+        26,
+        104,
+        100
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/连珠速射塔_主体.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_主体.png",
+      "bytes": 10243,
+      "sha256": "23A83527B00E5117164A3E14ECF72D9CAD7E57201C9353F41561677CAAE7DF4A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.769104,
+        "fullyTransparentRatio": 0.769104,
+        "fullyOpaqueRatio": 0.230896,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        30,
+        28,
+        102,
+        97
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/连珠速射塔_双炮管.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_双炮管.png",
+      "bytes": 6060,
+      "sha256": "29F516A84B263F3C6B79E201BC504A3E8536442E28B670203C1D164C3166B886",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.880676,
+        "fullyTransparentRatio": 0.880676,
+        "fullyOpaqueRatio": 0.119324,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        39,
+        37,
+        92,
+        87
+      ]
+    },
+    {
+      "root": "formal-v5",
+      "relative": "战斗单位/炮塔/连珠速射塔_底座.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\正式战斗美术-v5\\战斗单位\\炮塔\\连珠速射塔_底座.png",
+      "bytes": 11637,
+      "sha256": "3E95EFEBD55E0C3B108740293ED21AFA390D3CAD43BFDE00CFFA87A14DD7698C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        128,
+        128
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.741211,
+        "fullyTransparentRatio": 0.741211,
+        "fullyOpaqueRatio": 0.258789,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        27,
+        26,
+        104,
+        100
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/attack/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\attack\\帧001.png",
+      "bytes": 1981,
+      "sha256": "8605B72A165EC14C0B5B2088B642B10DB6A4AD7DF05AEBB0F12FCA4A69D79853",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.819922,
+        "fullyTransparentRatio": 0.819922,
+        "fullyOpaqueRatio": 0.180078,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        118,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/attack/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\attack\\帧002.png",
+      "bytes": 1916,
+      "sha256": "D2E77B25AB0F80B1A0BB99C6ACE5CF85A00DBF8C7BE370CD20059A534C19CCAB",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.819488,
+        "fullyTransparentRatio": 0.819488,
+        "fullyOpaqueRatio": 0.180512,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        122,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/attack/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\attack\\帧003.png",
+      "bytes": 2013,
+      "sha256": "C95B86ECC326AF99F93D9FDFAAE6F3EAD393FC21B3EF44D1620045CF0E438878",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.821224,
+        "fullyTransparentRatio": 0.821224,
+        "fullyOpaqueRatio": 0.178776,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        125,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/attack/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\attack\\帧004.png",
+      "bytes": 2065,
+      "sha256": "999E4D8D648A4B3A0A5D0654AA91A32DC066F47E27C655FF3CEFAC0B89CFBE3C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.818707,
+        "fullyTransparentRatio": 0.818707,
+        "fullyOpaqueRatio": 0.181293,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        130,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/attack/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\attack\\帧005.png",
+      "bytes": 2109,
+      "sha256": "67DB942F1A89759AF1045C5E764953BACDB08FAA969E431895FA312788327D17",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.809722,
+        "fullyTransparentRatio": 0.809722,
+        "fullyOpaqueRatio": 0.190278,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        46,
+        23,
+        131,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/attack/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\attack\\帧006.png",
+      "bytes": 2066,
+      "sha256": "21EE3C17B3C40969830C4AEB187A451C356DE3BD5AF9ED875C94FB21B74606A1",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.812109,
+        "fullyTransparentRatio": 0.812109,
+        "fullyOpaqueRatio": 0.187891,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        47,
+        23,
+        138,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/attack/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\attack\\帧007.png",
+      "bytes": 1939,
+      "sha256": "958C195011E0A4166BC8B2393EE3C864B15B04D0853A8F9733B04D68F25820A3",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.821137,
+        "fullyTransparentRatio": 0.821137,
+        "fullyOpaqueRatio": 0.178863,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        23,
+        125,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/attack/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\attack\\帧008.png",
+      "bytes": 1997,
+      "sha256": "4A008B20DF2EC06FD0EF98EB7D37FD21125AD33BE9350F39B53659C57B99A311",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.817101,
+        "fullyTransparentRatio": 0.817101,
+        "fullyOpaqueRatio": 0.182899,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        119,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/death/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\death\\帧001.png",
+      "bytes": 1971,
+      "sha256": "64C48F15C5D131CC41EDDEF06D618A99F84D35890F0ACFB88270FF865403754A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.829427,
+        "fullyTransparentRatio": 0.829427,
+        "fullyOpaqueRatio": 0.170573,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        47,
+        17,
+        119,
+        96
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/death/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\death\\帧002.png",
+      "bytes": 2021,
+      "sha256": "B75609C94191057F1EC176C82EF8F3F56043E7DE1ADB2D6C50CB6B50D34C03C6",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.82691,
+        "fullyTransparentRatio": 0.82691,
+        "fullyOpaqueRatio": 0.17309,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        123,
+        96
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/death/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\death\\帧003.png",
+      "bytes": 2247,
+      "sha256": "E3C25E0109975BBFEA6DE008795A9C7030CD2E07E89999D655C81B7BB2B69439",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.823438,
+        "fullyTransparentRatio": 0.823438,
+        "fullyOpaqueRatio": 0.176563,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        50,
+        23,
+        130,
+        96
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/death/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\death\\帧004.png",
+      "bytes": 2557,
+      "sha256": "0933EFABEE9F54C29D4337C49C5694F9CC11D2EBB5E30C219D532ECE16E1749A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.815148,
+        "fullyTransparentRatio": 0.815148,
+        "fullyOpaqueRatio": 0.184852,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        54,
+        24,
+        149,
+        97
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/death/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\death\\帧005.png",
+      "bytes": 2476,
+      "sha256": "8A375D47EEC82CF335556141ECFC1C5695CEDC3C1FB042B4DD8862B6F098BDED",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.84605,
+        "fullyTransparentRatio": 0.84605,
+        "fullyOpaqueRatio": 0.15395,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        56,
+        29,
+        128,
+        111
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/death/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\death\\帧006.png",
+      "bytes": 2417,
+      "sha256": "291C3557542BBC6029A6A76B8EF59797E15B2934251EEFA3738637C80304DAED",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.846224,
+        "fullyTransparentRatio": 0.846224,
+        "fullyOpaqueRatio": 0.153776,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        56,
+        39,
+        137,
+        111
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/death/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\death\\帧007.png",
+      "bytes": 2364,
+      "sha256": "97725736991213F965702736169DF4B011C7229155670FC2CB7442DA91662B8A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.842839,
+        "fullyTransparentRatio": 0.842839,
+        "fullyOpaqueRatio": 0.157161,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        55,
+        45,
+        146,
+        113
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/death/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\death\\帧008.png",
+      "bytes": 2223,
+      "sha256": "63F1E81CDC4FCDA2525CF9519864678B94EC553EF99CC46B57C7AB2748DAEE72",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.84349,
+        "fullyTransparentRatio": 0.84349,
+        "fullyOpaqueRatio": 0.15651,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        54,
+        47,
+        146,
+        114
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/walk/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\walk\\帧001.png",
+      "bytes": 1965,
+      "sha256": "D4303AC75922A7422FEF97E868A93568E501DF1BEDAA4200B7BABFFD82447ED6",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.817752,
+        "fullyTransparentRatio": 0.817752,
+        "fullyOpaqueRatio": 0.182248,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        120,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/walk/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\walk\\帧002.png",
+      "bytes": 1931,
+      "sha256": "68EEDD7ED3A4033921A230F0682F3125A36E3B2C85EACE6B63AE6F0D2ADBD004",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.819792,
+        "fullyTransparentRatio": 0.819792,
+        "fullyOpaqueRatio": 0.180208,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        121,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/walk/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\walk\\帧003.png",
+      "bytes": 1995,
+      "sha256": "F970C4ED0CB210FFD7E0A97EA0066340E602791BEB9F55193CA9C793D3C9E59B",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.821962,
+        "fullyTransparentRatio": 0.821962,
+        "fullyOpaqueRatio": 0.178038,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        47,
+        20,
+        121,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/walk/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\walk\\帧004.png",
+      "bytes": 1996,
+      "sha256": "455F345A07599A0A1FD90856DB5951E216059F0060D7AD7A4BBA3F11F016EA04",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.817014,
+        "fullyTransparentRatio": 0.817014,
+        "fullyOpaqueRatio": 0.182986,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        45,
+        20,
+        120,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/walk/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\walk\\帧005.png",
+      "bytes": 1974,
+      "sha256": "FD10C10477BBAC698606BC074F8011F1E6BB0B27D707383CD547062A7DC76716",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.814583,
+        "fullyTransparentRatio": 0.814583,
+        "fullyOpaqueRatio": 0.185417,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        44,
+        20,
+        120,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/walk/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\walk\\帧006.png",
+      "bytes": 1986,
+      "sha256": "DB9EB453CBE77985BCCC67F904912646AABAF4D978AF740D841561FCDB6A3856",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.817665,
+        "fullyTransparentRatio": 0.817665,
+        "fullyOpaqueRatio": 0.182335,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        46,
+        20,
+        119,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/walk/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\walk\\帧007.png",
+      "bytes": 1991,
+      "sha256": "4F03AF93FE79C6489419BFC17C757013404A16882BBD519AD453C68C45D7499C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.823438,
+        "fullyTransparentRatio": 0.823438,
+        "fullyOpaqueRatio": 0.176563,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        47,
+        20,
+        119,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "兽人小兵/walk/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\兽人小兵\\walk\\帧008.png",
+      "bytes": 1947,
+      "sha256": "787F177E7198928F205D156D3E67738313D530B908BDAB6B3504C87B7AF3F5F6",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.820486,
+        "fullyTransparentRatio": 0.820486,
+        "fullyOpaqueRatio": 0.179514,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        48,
+        20,
+        120,
+        105
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "城防水晶/shatter/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\城防水晶\\shatter\\帧001.png",
+      "bytes": 1754,
+      "sha256": "DC05E32B5FF96732B5A136FC4B15690599B62D028165F89961E4391A17DE7E19",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.816753,
+        "fullyTransparentRatio": 0.816753,
+        "fullyOpaqueRatio": 0.183247,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        44,
+        23,
+        118,
+        108
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "城防水晶/shatter/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\城防水晶\\shatter\\帧002.png",
+      "bytes": 1800,
+      "sha256": "342679960B600A0377E1AC5926A5387F52629107D5251340839F10BB09DB6912",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.816753,
+        "fullyTransparentRatio": 0.816753,
+        "fullyOpaqueRatio": 0.183247,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        44,
+        23,
+        118,
+        108
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "城防水晶/shatter/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\城防水晶\\shatter\\帧003.png",
+      "bytes": 1993,
+      "sha256": "64DB0CFD6EA4C01A4BF8DBE491B682C945C011D2A8C4E313380781B3B136F06A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.816753,
+        "fullyTransparentRatio": 0.816753,
+        "fullyOpaqueRatio": 0.183247,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        44,
+        23,
+        118,
+        108
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "城防水晶/shatter/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\城防水晶\\shatter\\帧004.png",
+      "bytes": 2388,
+      "sha256": "9CBC28EEB415CD0E7F8F091394ADE67CF08A7803C10727A392B63E68C5AA2358",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.823568,
+        "fullyTransparentRatio": 0.823568,
+        "fullyOpaqueRatio": 0.176432,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        44,
+        21,
+        118,
+        108
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "城防水晶/shatter/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\城防水晶\\shatter\\帧005.png",
+      "bytes": 2417,
+      "sha256": "14E1B8A9703FE75CD25A79720A654F7FB9325BE886AA824BD84E3F9604829568",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.832292,
+        "fullyTransparentRatio": 0.832292,
+        "fullyOpaqueRatio": 0.167708,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        44,
+        20,
+        118,
+        108
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "城防水晶/shatter/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\城防水晶\\shatter\\帧006.png",
+      "bytes": 2540,
+      "sha256": "66999B11FA477DB6369C816525E6D330A812420295141D997133F40F3D40F052",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.833681,
+        "fullyTransparentRatio": 0.833681,
+        "fullyOpaqueRatio": 0.166319,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        44,
+        20,
+        118,
+        113
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "城防水晶/shatter/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\城防水晶\\shatter\\帧007.png",
+      "bytes": 2553,
+      "sha256": "A5E3972E6004D98B9AD2547BB749785FD810E35501CA52951145F846148557BA",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.823698,
+        "fullyTransparentRatio": 0.823698,
+        "fullyOpaqueRatio": 0.176302,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        44,
+        20,
+        119,
+        116
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "城防水晶/shatter/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\城防水晶\\shatter\\帧008.png",
+      "bytes": 1699,
+      "sha256": "163F3DB6EF8D234A4775413C5636DB3E663FCC58826E3D2B065C3E0159F260CB",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.87092,
+        "fullyTransparentRatio": 0.87092,
+        "fullyOpaqueRatio": 0.12908,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        42,
+        43,
+        119,
+        116
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "寒霜喷射塔/attack/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\寒霜喷射塔\\attack\\帧001.png",
+      "bytes": 1650,
+      "sha256": "BF20189E258A0FFC652BB2773F085779E0C8269568DD1D3CC05BD821D9AC61A1",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.843446,
+        "fullyTransparentRatio": 0.843446,
+        "fullyOpaqueRatio": 0.156554,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        30,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "寒霜喷射塔/attack/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\寒霜喷射塔\\attack\\帧002.png",
+      "bytes": 1647,
+      "sha256": "01227BC6F7A3733F7ED2868E176433806CD9C294B223103C9BC8B1FEC325D727",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.842101,
+        "fullyTransparentRatio": 0.842101,
+        "fullyOpaqueRatio": 0.157899,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        29,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "寒霜喷射塔/attack/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\寒霜喷射塔\\attack\\帧003.png",
+      "bytes": 1726,
+      "sha256": "5720482872AE0FF7AEC6E8F0BA3FCAC0CC99C92CA0D92AD28ECA43388E436798",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.840755,
+        "fullyTransparentRatio": 0.840755,
+        "fullyOpaqueRatio": 0.159245,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        28,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "寒霜喷射塔/attack/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\寒霜喷射塔\\attack\\帧004.png",
+      "bytes": 1731,
+      "sha256": "1DF1F8EB366B15776B2A5C128AAF0686A76FDB45F7E0A7509C9C441FF0E1A69B",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.845833,
+        "fullyTransparentRatio": 0.845833,
+        "fullyOpaqueRatio": 0.154167,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        27,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "寒霜喷射塔/attack/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\寒霜喷射塔\\attack\\帧005.png",
+      "bytes": 1740,
+      "sha256": "CB8EA4BA1F6A289F3CBB4F21E7916B2D3957F6988B48F0D6515A4F5EAB3351D8",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.845486,
+        "fullyTransparentRatio": 0.845486,
+        "fullyOpaqueRatio": 0.154514,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        23,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "寒霜喷射塔/attack/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\寒霜喷射塔\\attack\\帧006.png",
+      "bytes": 1739,
+      "sha256": "6E7C149CE91F6FCBFA350DB455E0B2CB070A9D1DFA9892AA95C65823C78EFBA8",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.845182,
+        "fullyTransparentRatio": 0.845182,
+        "fullyOpaqueRatio": 0.154818,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        24,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "寒霜喷射塔/attack/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\寒霜喷射塔\\attack\\帧007.png",
+      "bytes": 1752,
+      "sha256": "E4F16B404387DED2993BB939D1ED9091E0A632617E0DF460EEEB7B10FC3D09B8",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.844141,
+        "fullyTransparentRatio": 0.844141,
+        "fullyOpaqueRatio": 0.155859,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        28,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "寒霜喷射塔/attack/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\寒霜喷射塔\\attack\\帧008.png",
+      "bytes": 1708,
+      "sha256": "1B334D0A9EE46AEF9E55AE72C98119B446E7A726AA136E2064E47F0505CC6747",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.843446,
+        "fullyTransparentRatio": 0.843446,
+        "fullyOpaqueRatio": 0.156554,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        30,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "熔芯重炮塔/attack/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\熔芯重炮塔\\attack\\帧001.png",
+      "bytes": 1640,
+      "sha256": "5195EFC992BFB33B7A4534ACA60CF80968DDF3AE77BBB25A5E7BAB681D2F560F",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.849175,
+        "fullyTransparentRatio": 0.849175,
+        "fullyOpaqueRatio": 0.150825,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        30,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "熔芯重炮塔/attack/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\熔芯重炮塔\\attack\\帧002.png",
+      "bytes": 1668,
+      "sha256": "10B66CF233FF42C65FDE5096D1AC1C55EA386A327CAE3D4425DB14EEED1FDFCE",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.847569,
+        "fullyTransparentRatio": 0.847569,
+        "fullyOpaqueRatio": 0.152431,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        29,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "熔芯重炮塔/attack/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\熔芯重炮塔\\attack\\帧003.png",
+      "bytes": 1681,
+      "sha256": "3A3E341F9D4C60CBE42C29A44E6808C84A6312FCDB53F855476604F8CF789E9D",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.844531,
+        "fullyTransparentRatio": 0.844531,
+        "fullyOpaqueRatio": 0.155469,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        27,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "熔芯重炮塔/attack/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\熔芯重炮塔\\attack\\帧004.png",
+      "bytes": 1688,
+      "sha256": "481771E8FD01A752874BDDA82F9AFC9240F8665C96B827A9EF81747C2323D77B",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.858854,
+        "fullyTransparentRatio": 0.858854,
+        "fullyOpaqueRatio": 0.141146,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        30,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "熔芯重炮塔/attack/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\熔芯重炮塔\\attack\\帧005.png",
+      "bytes": 1741,
+      "sha256": "BEF10A95B0CEAFB86E5A99F64FD7EC064414B3B32B669AA6DAE830F35208A493",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.854514,
+        "fullyTransparentRatio": 0.854514,
+        "fullyOpaqueRatio": 0.145486,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        28,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "熔芯重炮塔/attack/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\熔芯重炮塔\\attack\\帧006.png",
+      "bytes": 1724,
+      "sha256": "7FDCF3AA343EF36236E3A179A64115EA9710B8A8047A26950BC2E787A21D3AF0",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.848003,
+        "fullyTransparentRatio": 0.848003,
+        "fullyOpaqueRatio": 0.151997,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        25,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "熔芯重炮塔/attack/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\熔芯重炮塔\\attack\\帧007.png",
+      "bytes": 1714,
+      "sha256": "FBA20982E7C3014FAE4E4992438510BC028AD8DA69E29FBF3AFB955D20B61145",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.850564,
+        "fullyTransparentRatio": 0.850564,
+        "fullyOpaqueRatio": 0.149436,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        30,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "熔芯重炮塔/attack/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\熔芯重炮塔\\attack\\帧008.png",
+      "bytes": 1662,
+      "sha256": "6DB365BA41872D8904917DCC54AA3B7C7D71DCD507CBE3DEC6D0EBA47649ECC8",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.849175,
+        "fullyTransparentRatio": 0.849175,
+        "fullyOpaqueRatio": 0.150825,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        30,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "连珠速射塔/attack/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\连珠速射塔\\attack\\帧001.png",
+      "bytes": 1636,
+      "sha256": "EDCE45E66E7BFEB4A4965F0FDB14998D6E0252DBDEC7650A3DD3BA61B5411BCF",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.849479,
+        "fullyTransparentRatio": 0.849479,
+        "fullyOpaqueRatio": 0.150521,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        27,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "连珠速射塔/attack/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\连珠速射塔\\attack\\帧002.png",
+      "bytes": 1647,
+      "sha256": "D48E6081227A782BC286D40ABD35401CC8C48D6D9E34BFB81FB86D5F6C90B45D",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.848003,
+        "fullyTransparentRatio": 0.848003,
+        "fullyOpaqueRatio": 0.151997,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        26,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "连珠速射塔/attack/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\连珠速射塔\\attack\\帧003.png",
+      "bytes": 1715,
+      "sha256": "22E8226C704DD8DE8E0623565477956F50E2784AF99E50BA17C968FCBE5AA6EB",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.843142,
+        "fullyTransparentRatio": 0.843142,
+        "fullyOpaqueRatio": 0.156858,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        20,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "连珠速射塔/attack/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\连珠速射塔\\attack\\帧004.png",
+      "bytes": 1654,
+      "sha256": "81C468D287B845E76F4ED2BEB5E2156359C7CD17B21FAC0F7AE4D2BF51EBC978",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.853863,
+        "fullyTransparentRatio": 0.853863,
+        "fullyOpaqueRatio": 0.146137,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        20,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "连珠速射塔/attack/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\连珠速射塔\\attack\\帧005.png",
+      "bytes": 1734,
+      "sha256": "86A6414EDC32748F358A6D4FEE185F4A684BB74BC8DFB82707C9B29208FB4591",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.850174,
+        "fullyTransparentRatio": 0.850174,
+        "fullyOpaqueRatio": 0.149826,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        20,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "连珠速射塔/attack/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\连珠速射塔\\attack\\帧006.png",
+      "bytes": 1732,
+      "sha256": "047C4C19BF4ABCF86B9B1A2ABE80F832E1FCC95E82F66A63B8963AB24D0B2EB7",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.848741,
+        "fullyTransparentRatio": 0.848741,
+        "fullyOpaqueRatio": 0.151259,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        20,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "连珠速射塔/attack/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\连珠速射塔\\attack\\帧007.png",
+      "bytes": 1688,
+      "sha256": "E16939E5F731B8A27BECCC5436EFD2B9FF84F39D2CF472F970AA279B5E6B1DD4",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.849132,
+        "fullyTransparentRatio": 0.849132,
+        "fullyOpaqueRatio": 0.150868,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        20,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-v4",
+      "relative": "连珠速射塔/attack/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审战斗美术-v4\\连珠速射塔\\attack\\帧008.png",
+      "bytes": 1698,
+      "sha256": "8507C3F1EF0BF9F3F724F4E3E4AA192A4C056A98C03030C3D491C6BBB81F9A4E",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        160,
+        144
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.847656,
+        "fullyTransparentRatio": 0.847656,
+        "fullyOpaqueRatio": 0.152344,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        51,
+        20,
+        110,
+        104
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/attack/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\attack\\帧001.png",
+      "bytes": 1617,
+      "sha256": "C9B82DF5D3335913D42EFB4FB4EBF1E1ECA53CAF917BDC1988BB1BEE3F35FDA9",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.581923,
+        "fullyTransparentRatio": 0.581923,
+        "fullyOpaqueRatio": 0.418077,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/attack/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\attack\\帧002.png",
+      "bytes": 1645,
+      "sha256": "01C9EEE3A5380DAE5B98704361DEA874FDA0DEB305B830A21E30805AA9D274F5",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.603299,
+        "fullyTransparentRatio": 0.603299,
+        "fullyOpaqueRatio": 0.396701,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/attack/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\attack\\帧003.png",
+      "bytes": 1696,
+      "sha256": "C65CFCCFF833B8FB69FA84C19E3BD68B42881752EE700593785A96FFC6C1E653",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.619249,
+        "fullyTransparentRatio": 0.619249,
+        "fullyOpaqueRatio": 0.380751,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/attack/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\attack\\帧004.png",
+      "bytes": 1830,
+      "sha256": "7DD250A7104331FA34C48BA26943CE317A6D601E5C0A90999A6DA22DE4F07636",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.610243,
+        "fullyTransparentRatio": 0.610243,
+        "fullyOpaqueRatio": 0.389757,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/attack/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\attack\\帧005.png",
+      "bytes": 1854,
+      "sha256": "76CB29F1DA82C9262C0F3BEC7E31035AFA7BA6D654BDC4A2D80B03FEDFFFE0D2",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.585612,
+        "fullyTransparentRatio": 0.585612,
+        "fullyOpaqueRatio": 0.414388,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/attack/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\attack\\帧006.png",
+      "bytes": 1932,
+      "sha256": "7754AA6A80A9C94E5F32568CDFE7FBB65939ED3159A1E1E15CB835ACB2023664",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.569878,
+        "fullyTransparentRatio": 0.569878,
+        "fullyOpaqueRatio": 0.430122,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/attack/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\attack\\帧007.png",
+      "bytes": 1740,
+      "sha256": "F0416FD63F3A94CA616A8680AEB9B444D248327A2D7E4543BF51C85275015910",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.569553,
+        "fullyTransparentRatio": 0.569553,
+        "fullyOpaqueRatio": 0.430447,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        93,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/attack/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\attack\\帧008.png",
+      "bytes": 1531,
+      "sha256": "4F9BE1D017ED9E98B3B53D824742BAA6EE443E67B66656E2C8C05B62703C5466",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.578234,
+        "fullyTransparentRatio": 0.578234,
+        "fullyOpaqueRatio": 0.421766,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        95,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/death/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\death\\帧001.png",
+      "bytes": 1531,
+      "sha256": "4F9BE1D017ED9E98B3B53D824742BAA6EE443E67B66656E2C8C05B62703C5466",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.578234,
+        "fullyTransparentRatio": 0.578234,
+        "fullyOpaqueRatio": 0.421766,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        95,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/death/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\death\\帧002.png",
+      "bytes": 1708,
+      "sha256": "FE1C5E18CF921D3E4181A7D7B809EAA596FB1D14CEAB7CF1F7478CE4E106030F",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.574761,
+        "fullyTransparentRatio": 0.574761,
+        "fullyOpaqueRatio": 0.425239,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/death/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\death\\帧003.png",
+      "bytes": 1885,
+      "sha256": "2DE43212B4B01ADC6EF5E928104D8B3EA719A7844E7A87D7491151672B3EC620",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.576172,
+        "fullyTransparentRatio": 0.576172,
+        "fullyOpaqueRatio": 0.423828,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        14,
+        2,
+        96,
+        77
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/death/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\death\\帧004.png",
+      "bytes": 1994,
+      "sha256": "526581E0E57EE88E5AC24B35FCF9626BB78F4590F5CC661A0D0F3A1340D0052B",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.587999,
+        "fullyTransparentRatio": 0.587999,
+        "fullyOpaqueRatio": 0.412001,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        4,
+        96,
+        78
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/death/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\death\\帧005.png",
+      "bytes": 2165,
+      "sha256": "FF637346DD904C2F868168400FA153C1A2D350693EE37F238CF03341720A08EE",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.602973,
+        "fullyTransparentRatio": 0.602973,
+        "fullyOpaqueRatio": 0.397027,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        12,
+        5,
+        96,
+        87
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/death/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\death\\帧006.png",
+      "bytes": 2200,
+      "sha256": "FAB6E4BB89DF87630D52CC3BB12B3D09BC6F6163998E2058738E7120111CFDA9",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.597005,
+        "fullyTransparentRatio": 0.597005,
+        "fullyOpaqueRatio": 0.402995,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        9,
+        10,
+        96,
+        88
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/death/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\death\\帧007.png",
+      "bytes": 2229,
+      "sha256": "A671BBE166F566250DBEDE7348102A1C74FD5A5CF1344345FD569CFEB2F35909",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.559462,
+        "fullyTransparentRatio": 0.559462,
+        "fullyOpaqueRatio": 0.440538,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        7,
+        14,
+        96,
+        95
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/death/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\death\\帧008.png",
+      "bytes": 2080,
+      "sha256": "636E3EEDC9575D7E11E78931DC6DC150025DACCABB1B50A5C587FC86625E4494",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.54069,
+        "fullyTransparentRatio": 0.54069,
+        "fullyOpaqueRatio": 0.45931,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        4,
+        16,
+        96,
+        96
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/walk/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\walk\\帧001.png",
+      "bytes": 1688,
+      "sha256": "E2F03C1780738235CB3F6CAC0D230F7C54497E36132B0E7556B911FFE0CE1740",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.586914,
+        "fullyTransparentRatio": 0.586914,
+        "fullyOpaqueRatio": 0.413086,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        17,
+        4,
+        96,
+        78
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/walk/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\walk\\帧002.png",
+      "bytes": 1686,
+      "sha256": "D44AFC12B7D7CFE9070E28E34F7F78106CC61DAF3B5B957A126F01B7C2DF03E7",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.581923,
+        "fullyTransparentRatio": 0.581923,
+        "fullyOpaqueRatio": 0.418077,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        16,
+        4,
+        96,
+        78
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/walk/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\walk\\帧003.png",
+      "bytes": 1653,
+      "sha256": "6F1AF1B60885E638FE5A9FD49F9B20096F32ADAEDAA8CB606077918BBCEE28D1",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.576606,
+        "fullyTransparentRatio": 0.576606,
+        "fullyOpaqueRatio": 0.423394,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        81
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/walk/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\walk\\帧004.png",
+      "bytes": 1609,
+      "sha256": "DFEDA4CB8FA59F6A074DB8E91A1F3E29FA9249AEE15211CAB4D726AAAA6BDE3B",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.57997,
+        "fullyTransparentRatio": 0.57997,
+        "fullyOpaqueRatio": 0.42003,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        14,
+        3,
+        94,
+        77
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/walk/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\walk\\帧005.png",
+      "bytes": 1725,
+      "sha256": "69146D6311576FCEFC0D871871D838F60E0CC3256BDAEBB20D4FB223DE344308",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.586806,
+        "fullyTransparentRatio": 0.586806,
+        "fullyOpaqueRatio": 0.413194,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        13,
+        4,
+        90,
+        78
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/walk/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\walk\\帧006.png",
+      "bytes": 1631,
+      "sha256": "8174A2B3C97ACC6B47367AC6C10237B2C7EAE9254D81BA549DD102F8BF3993BC",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.586046,
+        "fullyTransparentRatio": 0.586046,
+        "fullyOpaqueRatio": 0.413954,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        14,
+        4,
+        92,
+        76
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/walk/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\walk\\帧007.png",
+      "bytes": 1615,
+      "sha256": "F5C9068CA88808A1B0645D3399376CE13BA119D9F267EEF2EFDA42B1A9A15E28",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.578451,
+        "fullyTransparentRatio": 0.578451,
+        "fullyOpaqueRatio": 0.421549,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        14,
+        3,
+        94,
+        80
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "兽人小兵/walk/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\兽人小兵\\walk\\帧008.png",
+      "bytes": 1649,
+      "sha256": "5D95910B859A54DEF099B69DC83923EE9BFF6F0D2D7D91718564D360F6A04209",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.576931,
+        "fullyTransparentRatio": 0.576931,
+        "fullyOpaqueRatio": 0.423069,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        15,
+        3,
+        96,
+        77
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "城防水晶/shatter/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\城防水晶\\shatter\\帧001.png",
+      "bytes": 1605,
+      "sha256": "691B045900002D39A9CBD554E40F2CEEC403B1285CF8209AB365B2B9109B9E7A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.541884,
+        "fullyTransparentRatio": 0.541884,
+        "fullyOpaqueRatio": 0.458116,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        12,
+        3,
+        86,
+        88
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "城防水晶/shatter/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\城防水晶\\shatter\\帧002.png",
+      "bytes": 1679,
+      "sha256": "5B4A0B73F9A8674C34C3D3DF4FB7D2DCE1FCE34FEE92D477BFA62D6EC13ABBB6",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.550564,
+        "fullyTransparentRatio": 0.541884,
+        "fullyOpaqueRatio": 0.449436,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        12,
+        3,
+        86,
+        88
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "城防水晶/shatter/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\城防水晶\\shatter\\帧003.png",
+      "bytes": 1815,
+      "sha256": "40A2E6DC1B41E5A710802C426DADDD3B8C34389046C635A4DD72BEC1A7ADC161",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.549696,
+        "fullyTransparentRatio": 0.541884,
+        "fullyOpaqueRatio": 0.450304,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        12,
+        3,
+        86,
+        88
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "城防水晶/shatter/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\城防水晶\\shatter\\帧004.png",
+      "bytes": 2035,
+      "sha256": "BEE1A148F1084E0AC87011731E2D2E64450FEFA39B3B1FE5AF87711C064BA9B4",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.548937,
+        "fullyTransparentRatio": 0.541884,
+        "fullyOpaqueRatio": 0.451063,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        12,
+        3,
+        86,
+        88
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "城防水晶/shatter/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\城防水晶\\shatter\\帧005.png",
+      "bytes": 2145,
+      "sha256": "9E2B0B17130BCFFD1B5C2A4464171CB0F80E8446DD468990EDE9942A34972CCC",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.550456,
+        "fullyTransparentRatio": 0.550456,
+        "fullyOpaqueRatio": 0.449544,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        12,
+        1,
+        86,
+        88
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "城防水晶/shatter/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\城防水晶\\shatter\\帧006.png",
+      "bytes": 2183,
+      "sha256": "F836CE146B20B527517974246E94CA077A2A910B29AC1D31B43D6A5D1E84791E",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.571072,
+        "fullyTransparentRatio": 0.571072,
+        "fullyOpaqueRatio": 0.428928,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        12,
+        0,
+        86,
+        88
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "城防水晶/shatter/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\城防水晶\\shatter\\帧007.png",
+      "bytes": 2205,
+      "sha256": "F35D7156202F2DB09C1DBFA3CE18B247038DA6FAC957AC426838F72250FADCDD",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.590929,
+        "fullyTransparentRatio": 0.590929,
+        "fullyOpaqueRatio": 0.409071,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        12,
+        0,
+        86,
+        93
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "城防水晶/shatter/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\城防水晶\\shatter\\帧008.png",
+      "bytes": 2179,
+      "sha256": "490516A1E62D47E0D76DB0800686843C969CD6696E8783C8A644215B2AFD1E2C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.560004,
+        "fullyTransparentRatio": 0.560004,
+        "fullyOpaqueRatio": 0.439996,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        9,
+        0,
+        88,
+        96
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "寒霜喷射塔/attack/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\寒霜喷射塔\\attack\\帧001.png",
+      "bytes": 1518,
+      "sha256": "252F8A70FFDE74DD8BDEF805099A81D0A56B0BB4578C58A46C6EAF8D2E725386",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.608615,
+        "fullyTransparentRatio": 0.608615,
+        "fullyOpaqueRatio": 0.391385,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        10,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "寒霜喷射塔/attack/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\寒霜喷射塔\\attack\\帧002.png",
+      "bytes": 1514,
+      "sha256": "10073758F0500B98C984FFF612BA61E5D355AE3B2E0FAA0F0F554FCA4A84A76D",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.605252,
+        "fullyTransparentRatio": 0.605252,
+        "fullyOpaqueRatio": 0.394748,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        9,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "寒霜喷射塔/attack/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\寒霜喷射塔\\attack\\帧003.png",
+      "bytes": 1574,
+      "sha256": "30CAA5A9BBF9C41F7C3D32C861503C896F155ED07ADC37DF4DF7F5F4A0C1CFE0",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.601888,
+        "fullyTransparentRatio": 0.601888,
+        "fullyOpaqueRatio": 0.398112,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        8,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "寒霜喷射塔/attack/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\寒霜喷射塔\\attack\\帧004.png",
+      "bytes": 1591,
+      "sha256": "D94625AB3F8C699928C26D4366CD1760F9CF041A2088A0FE04951DB80BAE07B8",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.614583,
+        "fullyTransparentRatio": 0.614583,
+        "fullyOpaqueRatio": 0.385417,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        7,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "寒霜喷射塔/attack/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\寒霜喷射塔\\attack\\帧005.png",
+      "bytes": 1594,
+      "sha256": "24C24BF611C7305B4F7BB8703B23D29AFC9AAB1832DE199D3E66B2A9790BC91F",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.613715,
+        "fullyTransparentRatio": 0.613715,
+        "fullyOpaqueRatio": 0.386285,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        3,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "寒霜喷射塔/attack/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\寒霜喷射塔\\attack\\帧006.png",
+      "bytes": 1597,
+      "sha256": "68779BDF056FE907AEDB8FC87E8C35A2BC7FBD7D9ED1BE3CC40B67091483F674",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.612956,
+        "fullyTransparentRatio": 0.612956,
+        "fullyOpaqueRatio": 0.387044,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        4,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "寒霜喷射塔/attack/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\寒霜喷射塔\\attack\\帧007.png",
+      "bytes": 1597,
+      "sha256": "E7FC24EDE695C7063CE299D06E8AAE0048702A3D008FC6038004AA11239C721C",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.610352,
+        "fullyTransparentRatio": 0.610352,
+        "fullyOpaqueRatio": 0.389648,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        8,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "寒霜喷射塔/attack/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\寒霜喷射塔\\attack\\帧008.png",
+      "bytes": 1570,
+      "sha256": "098472AB4A089CE0173620F37CD37DB74CE99EBC05D939D1E1982B50E8C5073A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.608615,
+        "fullyTransparentRatio": 0.608615,
+        "fullyOpaqueRatio": 0.391385,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        10,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "熔芯重炮塔/attack/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\熔芯重炮塔\\attack\\帧001.png",
+      "bytes": 1470,
+      "sha256": "8FA3876E5ED6E9348F468AC4BA15CC405C23987F428CD942D7501F89102D1891",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.622938,
+        "fullyTransparentRatio": 0.622938,
+        "fullyOpaqueRatio": 0.377062,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        10,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "熔芯重炮塔/attack/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\熔芯重炮塔\\attack\\帧002.png",
+      "bytes": 1501,
+      "sha256": "E3ED63EA599659B0A6972966799D3F21B3902C6A884300F49D13823D831A1E49",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.618924,
+        "fullyTransparentRatio": 0.618924,
+        "fullyOpaqueRatio": 0.381076,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        9,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "熔芯重炮塔/attack/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\熔芯重炮塔\\attack\\帧003.png",
+      "bytes": 1504,
+      "sha256": "947F12BFE4BF091D0876695CFE6CA8D22E6C5913BC58D7F40117C1B5BEEF0841",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.611328,
+        "fullyTransparentRatio": 0.611328,
+        "fullyOpaqueRatio": 0.388672,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        7,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "熔芯重炮塔/attack/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\熔芯重炮塔\\attack\\帧004.png",
+      "bytes": 1516,
+      "sha256": "9D4DD4DEDA07CD2F7D6EF507D6CF036F4225C49A711BD78CBECA8E1D3B30FB12",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.647135,
+        "fullyTransparentRatio": 0.647135,
+        "fullyOpaqueRatio": 0.352865,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        10,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "熔芯重炮塔/attack/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\熔芯重炮塔\\attack\\帧005.png",
+      "bytes": 1589,
+      "sha256": "1EC044C8B3D05A030F4A9198921BE4E746E7D9D1D47EDF89BE490A3EA81263C5",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.636285,
+        "fullyTransparentRatio": 0.636285,
+        "fullyOpaqueRatio": 0.363715,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        8,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "熔芯重炮塔/attack/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\熔芯重炮塔\\attack\\帧006.png",
+      "bytes": 1554,
+      "sha256": "06B0DE7519C7DCC509C79517B10E568B69354F8B154386AE87F644A513AAE7D5",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.620009,
+        "fullyTransparentRatio": 0.620009,
+        "fullyOpaqueRatio": 0.379991,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        5,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "熔芯重炮塔/attack/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\熔芯重炮塔\\attack\\帧007.png",
+      "bytes": 1552,
+      "sha256": "3F5D089AF62B415A44E7A6B1E7598F245C2D9E09B380E7FE957533EFB3488469",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.626411,
+        "fullyTransparentRatio": 0.626411,
+        "fullyOpaqueRatio": 0.373589,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        10,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "熔芯重炮塔/attack/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\熔芯重炮塔\\attack\\帧008.png",
+      "bytes": 1497,
+      "sha256": "7D72C4C84CF37456143D079166FADE91AEF6A6A5DE00F550926F5C9DD0918613",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.622938,
+        "fullyTransparentRatio": 0.622938,
+        "fullyOpaqueRatio": 0.377062,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        10,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "连珠速射塔/attack/帧001.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\连珠速射塔\\attack\\帧001.png",
+      "bytes": 1482,
+      "sha256": "4CAD300E213F850A4280F0046A67EC7766B49B07D2358BE0D1E78273D86D1E91",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.623698,
+        "fullyTransparentRatio": 0.623698,
+        "fullyOpaqueRatio": 0.376302,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        7,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "连珠速射塔/attack/帧002.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\连珠速射塔\\attack\\帧002.png",
+      "bytes": 1473,
+      "sha256": "01281DEDB854CE41B89FEC83FAF7DF1671AF2E10318267ACA7ABA3C97742AC3A",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.620009,
+        "fullyTransparentRatio": 0.620009,
+        "fullyOpaqueRatio": 0.379991,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        6,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "连珠速射塔/attack/帧003.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\连珠速射塔\\attack\\帧003.png",
+      "bytes": 1548,
+      "sha256": "5FC1A1585E104DF52A17DF36B506D1EA4B04188732B246DA916CBD725F9920A5",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.607856,
+        "fullyTransparentRatio": 0.607856,
+        "fullyOpaqueRatio": 0.392144,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        0,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "连珠速射塔/attack/帧004.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\连珠速射塔\\attack\\帧004.png",
+      "bytes": 1509,
+      "sha256": "C877AD0BCF339EA90549655A6ABF99C02D3BF885CA43B482143ECAD85593B148",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.634657,
+        "fullyTransparentRatio": 0.634657,
+        "fullyOpaqueRatio": 0.365343,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        0,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "连珠速射塔/attack/帧005.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\连珠速射塔\\attack\\帧005.png",
+      "bytes": 1586,
+      "sha256": "B5976A7B69F3B79D500B87673C65815FB20C8ED9E134FEF99F9729BBAC440173",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.625434,
+        "fullyTransparentRatio": 0.625434,
+        "fullyOpaqueRatio": 0.374566,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        0,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "连珠速射塔/attack/帧006.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\连珠速射塔\\attack\\帧006.png",
+      "bytes": 1562,
+      "sha256": "EDBDBE038A0CCF89D8EA83C77D5FD65C115F83D1A3511E6E0D9949EE86EB50FF",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.621853,
+        "fullyTransparentRatio": 0.621853,
+        "fullyOpaqueRatio": 0.378147,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        0,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "连珠速射塔/attack/帧007.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\连珠速射塔\\attack\\帧007.png",
+      "bytes": 1537,
+      "sha256": "A7D348DF5D736A304B2F42F782A7BA395C432FDC773B0CC8876E90E359C83B63",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.62283,
+        "fullyTransparentRatio": 0.62283,
+        "fullyOpaqueRatio": 0.37717,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        0,
+        78,
+        84
+      ]
+    },
+    {
+      "root": "formal-layer-test",
+      "relative": "连珠速射塔/attack/帧008.png",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\CocosCreator工程\\assets\\resources\\待审核-分层动画测试\\连珠速射塔\\attack\\帧008.png",
+      "bytes": 1543,
+      "sha256": "6607694300120E1ED7BCC59CA44832A801C1E2B77236D3BF1B3B9C2C04DFF4E6",
+      "metaExists": true,
+      "format": "PNG",
+      "mode": "RGBA",
+      "size": [
+        96,
+        96
+      ],
+      "alpha": {
+        "min": 0,
+        "max": 255,
+        "transparentRatio": 0.619141,
+        "fullyTransparentRatio": 0.619141,
+        "fullyOpaqueRatio": 0.380859,
+        "hasUsefulAlpha": true
+      },
+      "bbox": [
+        19,
+        0,
+        78,
+        84
+      ]
+    }
+  ],
+  "candidateVsFormal": {
+    "same": [
+      "战斗单位/水晶/城防水晶.png",
+      "战斗单位/水晶/城防水晶_基座.png",
+      "战斗单位/水晶/城防水晶_晶体.png",
+      "战斗单位/水晶/城防水晶_能量符文.png",
+      "战斗单位/炮塔/寒霜喷射塔.png",
+      "战斗单位/炮塔/寒霜喷射塔_主体.png",
+      "战斗单位/炮塔/寒霜喷射塔_寒霜喷射器.png",
+      "战斗单位/炮塔/寒霜喷射塔_底座.png",
+      "战斗单位/炮塔/熔芯重炮塔.png",
+      "战斗单位/炮塔/熔芯重炮塔_主体.png",
+      "战斗单位/炮塔/熔芯重炮塔_底座.png",
+      "战斗单位/炮塔/熔芯重炮塔_熔芯炮口.png",
+      "战斗单位/炮塔/连珠速射塔.png",
+      "战斗单位/炮塔/连珠速射塔_主体.png",
+      "战斗单位/炮塔/连珠速射塔_双炮管.png",
+      "战斗单位/炮塔/连珠速射塔_底座.png"
+    ],
+    "different": [],
+    "candidateOnly": [],
+    "formalOnly": []
+  },
+  "hardQaFailures": [],
+  "categoryCounts": [
+    {
+      "root": "candidate-formal-v5",
+      "category": "战斗单位",
+      "count": 16
+    },
+    {
+      "root": "candidate-v5",
+      "category": "UI",
+      "count": 8
+    },
+    {
+      "root": "candidate-v5",
+      "category": "战斗单位",
+      "count": 8
+    },
+    {
+      "root": "candidate-v5",
+      "category": "环境",
+      "count": 1
+    },
+    {
+      "root": "formal-v5",
+      "category": "战斗单位",
+      "count": 16
+    }
+  ]
+}

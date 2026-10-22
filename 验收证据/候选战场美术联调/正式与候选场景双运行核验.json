@@ -1,0 +1,57 @@
+{
+  "status": "CANDIDATE_COCOS_PLAYABLE_QA_PASS_FORMAL_ART_PENDING",
+  "build": "Cocos Creator 3.8.2 Web-Mobile compiled, NOT stand-alone HTML replacement",
+  "testedScenes": {
+    "candidate": {
+      "logSceneLoaded": true,
+      "buildSuccessLogged": true,
+      "buildExitCode": 36,
+      "buildFiles": 196,
+      "webgl2": true,
+      "JSExceptions": 0,
+      "clicks": "start + 12 addViewer + zoom out 3 via CDP mouse",
+      "screenshotSize": [
+        1056,
+        1748
+      ],
+      "screenshotBeforeSHA256": "ba8318ded6911334734b3c4092c2c4699d2d5908011f71e5ee97a5d6d041d847",
+      "screenshotAfterSHA256": "9b1f5a4cdbe456b47d6ab68664da9fb063826f652ff99d8687accfc68803e563",
+      "visuallyChanged": true
+    },
+    "graybox": {
+      "logSceneLoaded": true,
+      "buildSuccessLogged": true,
+      "buildExitCode": 36,
+      "buildFiles": 25,
+      "webgl2": true,
+      "JSExceptions": 0,
+      "clicks": "start + 12 addViewer + zoom out 3 via CDP mouse",
+      "screenshotSize": [
+        1056,
+        1748
+      ],
+      "screenshotBeforeSHA256": "104ec1dd5aac03f6aebbd4984a4b0207abbe725140bf2055bc9a77d4beb788fc",
+      "screenshotAfterSHA256": "4806c28aeaea4bd560045ef537e8bf6817d304b74eaf45d339222f6700f416d1",
+      "visuallyChanged": true
+    }
+  },
+  "artPNG": 56,
+  "artImageMeta": 56,
+  "uniqueUUIDs": 56,
+  "minMagNearestSourceConfig": true,
+  "formalMainSceneSHAUnchanged": true,
+  "battleOriginalControllerReused": true,
+  "newArtOverlayOnlyOnCandidateScene": true,
+  "metadata": "56 art images imported into pending resources path; all source bytes equal V4",
+  "userObservedBehavior": {
+    "candidate": "manual screenshot inspection: start → running, 9→21 towers, 12 kills, 3 zoom taps, visible orcs and projectiles",
+    "graybox": "manual screenshot inspection: start → running, 9→21 towers, 14 kills, 3 zoom taps",
+    "note": "end screenshots observed after ~10 seconds, kills may vary by timing/random spawn"
+  },
+  "localPreview": "http://127.0.0.1:18688/",
+  "formalPrefabsCreated": false,
+  "artStyleApproved": false,
+  "wechatDouyinAndroidTested": false,
+  "1000RealConcurrentTowersStressTested": false,
+  "knownBuildWarning": "Cocos CLI process exit code 36 despite build success and runtime pass"
+}

@@ -1,0 +1,460 @@
+{
+  "task": "WHOLE-GAME-FORMAL-SHOP-20261022",
+  "test": "five viewport real shop open/close/layout",
+  "viewports": [
+    {
+      "target": [
+        360,
+        780
+      ],
+      "shopPoint": [
+        180,
+        471
+      ],
+      "startPoint": [
+        180,
+        527
+      ],
+      "checks": {
+        "shopEntryInBounds": true,
+        "startInBounds": true,
+        "mainMenuEconomyLabels": true,
+        "realOpen": true,
+        "threeProducts": true,
+        "row_coreShield_inBounds": true,
+        "row_fireControl_inBounds": true,
+        "row_viewerBoost_inBounds": true,
+        "closeInBounds": true,
+        "realClose": true
+      },
+      "before": {
+        "wallet": "守城币 0",
+        "shopLabel": "战备商店",
+        "profile": {
+          "version": 1,
+          "coins": 0,
+          "upgrades": {
+            "coreShield": 0,
+            "fireControl": 0,
+            "viewerBoost": 0
+          },
+          "stats": {
+            "runs": 0,
+            "wins": 0,
+            "totalKills": 0,
+            "bestKills": 0
+          },
+          "updatedAt": 1792667720104
+        }
+      },
+      "shop": {
+        "title": "战备商店",
+        "wallet": "守城币 0",
+        "message": "永久战备在下一局生效",
+        "rows": [
+          {
+            "id": "coreShield",
+            "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+            "button": "购买 40",
+            "interactable": false
+          },
+          {
+            "id": "fireControl",
+            "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+            "button": "购买 60",
+            "interactable": false
+          },
+          {
+            "id": "viewerBoost",
+            "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+            "button": "购买 80",
+            "interactable": false
+          }
+        ]
+      },
+      "productPoints": [
+        [
+          180,
+          342
+        ],
+        [
+          180,
+          423
+        ],
+        [
+          180,
+          505
+        ]
+      ],
+      "closePoint": [
+        180,
+        587
+      ],
+      "pass": true
+    },
+    {
+      "target": [
+        393,
+        852
+      ],
+      "shopPoint": [
+        196,
+        515
+      ],
+      "startPoint": [
+        196,
+        576
+      ],
+      "checks": {
+        "shopEntryInBounds": true,
+        "startInBounds": true,
+        "mainMenuEconomyLabels": true,
+        "realOpen": true,
+        "threeProducts": true,
+        "row_coreShield_inBounds": true,
+        "row_fireControl_inBounds": true,
+        "row_viewerBoost_inBounds": true,
+        "closeInBounds": true,
+        "realClose": true
+      },
+      "before": {
+        "wallet": "守城币 0",
+        "shopLabel": "战备商店",
+        "profile": {
+          "version": 1,
+          "coins": 0,
+          "upgrades": {
+            "coreShield": 0,
+            "fireControl": 0,
+            "viewerBoost": 0
+          },
+          "stats": {
+            "runs": 0,
+            "wins": 0,
+            "totalKills": 0,
+            "bestKills": 0
+          },
+          "updatedAt": 1792667723036
+        }
+      },
+      "shop": {
+        "title": "战备商店",
+        "wallet": "守城币 0",
+        "message": "永久战备在下一局生效",
+        "rows": [
+          {
+            "id": "coreShield",
+            "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+            "button": "购买 40",
+            "interactable": false
+          },
+          {
+            "id": "fireControl",
+            "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+            "button": "购买 60",
+            "interactable": false
+          },
+          {
+            "id": "viewerBoost",
+            "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+            "button": "购买 80",
+            "interactable": false
+          }
+        ]
+      },
+      "productPoints": [
+        [
+          196,
+          374
+        ],
+        [
+          196,
+          462
+        ],
+        [
+          196,
+          551
+        ]
+      ],
+      "closePoint": [
+        196,
+        641
+      ],
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        760
+      ],
+      "shopPoint": [
+        270,
+        502
+      ],
+      "startPoint": [
+        270,
+        586
+      ],
+      "checks": {
+        "shopEntryInBounds": true,
+        "startInBounds": true,
+        "mainMenuEconomyLabels": true,
+        "realOpen": true,
+        "threeProducts": true,
+        "row_coreShield_inBounds": true,
+        "row_fireControl_inBounds": true,
+        "row_viewerBoost_inBounds": true,
+        "closeInBounds": true,
+        "realClose": true
+      },
+      "before": {
+        "wallet": "守城币 0",
+        "shopLabel": "战备商店",
+        "profile": {
+          "version": 1,
+          "coins": 0,
+          "upgrades": {
+            "coreShield": 0,
+            "fireControl": 0,
+            "viewerBoost": 0
+          },
+          "stats": {
+            "runs": 0,
+            "wins": 0,
+            "totalKills": 0,
+            "bestKills": 0
+          },
+          "updatedAt": 1792667725953
+        }
+      },
+      "shop": {
+        "title": "战备商店",
+        "wallet": "守城币 0",
+        "message": "永久战备在下一局生效",
+        "rows": [
+          {
+            "id": "coreShield",
+            "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+            "button": "购买 40",
+            "interactable": false
+          },
+          {
+            "id": "fireControl",
+            "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+            "button": "购买 60",
+            "interactable": false
+          },
+          {
+            "id": "viewerBoost",
+            "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+            "button": "购买 80",
+            "interactable": false
+          }
+        ]
+      },
+      "productPoints": [
+        [
+          270,
+          308
+        ],
+        [
+          270,
+          430
+        ],
+        [
+          270,
+          552
+        ]
+      ],
+      "closePoint": [
+        270,
+        675
+      ],
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        960
+      ],
+      "shopPoint": [
+        270,
+        602
+      ],
+      "startPoint": [
+        270,
+        686
+      ],
+      "checks": {
+        "shopEntryInBounds": true,
+        "startInBounds": true,
+        "mainMenuEconomyLabels": true,
+        "realOpen": true,
+        "threeProducts": true,
+        "row_coreShield_inBounds": true,
+        "row_fireControl_inBounds": true,
+        "row_viewerBoost_inBounds": true,
+        "closeInBounds": true,
+        "realClose": true
+      },
+      "before": {
+        "wallet": "守城币 0",
+        "shopLabel": "战备商店",
+        "profile": {
+          "version": 1,
+          "coins": 0,
+          "upgrades": {
+            "coreShield": 0,
+            "fireControl": 0,
+            "viewerBoost": 0
+          },
+          "stats": {
+            "runs": 0,
+            "wins": 0,
+            "totalKills": 0,
+            "bestKills": 0
+          },
+          "updatedAt": 1792667728869
+        }
+      },
+      "shop": {
+        "title": "战备商店",
+        "wallet": "守城币 0",
+        "message": "永久战备在下一局生效",
+        "rows": [
+          {
+            "id": "coreShield",
+            "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+            "button": "购买 40",
+            "interactable": false
+          },
+          {
+            "id": "fireControl",
+            "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+            "button": "购买 60",
+            "interactable": false
+          },
+          {
+            "id": "viewerBoost",
+            "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+            "button": "购买 80",
+            "interactable": false
+          }
+        ]
+      },
+      "productPoints": [
+        [
+          270,
+          408
+        ],
+        [
+          270,
+          530
+        ],
+        [
+          270,
+          652
+        ]
+      ],
+      "closePoint": [
+        270,
+        775
+      ],
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        1108
+      ],
+      "shopPoint": [
+        270,
+        676
+      ],
+      "startPoint": [
+        270,
+        760
+      ],
+      "checks": {
+        "shopEntryInBounds": true,
+        "startInBounds": true,
+        "mainMenuEconomyLabels": true,
+        "realOpen": true,
+        "threeProducts": true,
+        "row_coreShield_inBounds": true,
+        "row_fireControl_inBounds": true,
+        "row_viewerBoost_inBounds": true,
+        "closeInBounds": true,
+        "realClose": true
+      },
+      "before": {
+        "wallet": "守城币 0",
+        "shopLabel": "战备商店",
+        "profile": {
+          "version": 1,
+          "coins": 0,
+          "upgrades": {
+            "coreShield": 0,
+            "fireControl": 0,
+            "viewerBoost": 0
+          },
+          "stats": {
+            "runs": 0,
+            "wins": 0,
+            "totalKills": 0,
+            "bestKills": 0
+          },
+          "updatedAt": 1792667731786
+        }
+      },
+      "shop": {
+        "title": "战备商店",
+        "wallet": "守城币 0",
+        "message": "永久战备在下一局生效",
+        "rows": [
+          {
+            "id": "coreShield",
+            "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+            "button": "购买 40",
+            "interactable": false
+          },
+          {
+            "id": "fireControl",
+            "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+            "button": "购买 60",
+            "interactable": false
+          },
+          {
+            "id": "viewerBoost",
+            "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+            "button": "购买 80",
+            "interactable": false
+          }
+        ]
+      },
+      "productPoints": [
+        [
+          270,
+          482
+        ],
+        [
+          270,
+          604
+        ],
+        [
+          270,
+          726
+        ]
+      ],
+      "closePoint": [
+        270,
+        849
+      ],
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "startedAt": "2026-10-22T19:15:15",
+  "overallPass": true,
+  "finishedAt": "2026-10-22T19:15:33"
+}

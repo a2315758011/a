@@ -1,0 +1,85 @@
+{
+  "taskId": "GAME-OVERVIEW-001",
+  "projectId": "live-turret-defense",
+  "reference": {
+    "tap": "https://www.taptap.cn/app/714518",
+    "referenceVerified": true,
+    "sourceScreenshot": "https://img-tc.tapimg.com/market/images/c0c3ce84262295a82dc9cd2463104423.png/_tap_screenshot.jpg"
+  },
+  "style": "original-topdown-native-pixel-art",
+  "prompt": "制作一张原创手机抖音直播互动塔防游戏的正式“局内玩法总览”概念图。**9:16竖屏单幅完整游戏内实际视角的像素画，1080×1920**。参考机制是公开游戏《兽人领地》(Orcdom)：真正的**正上方俯视像素2D**而不是斜45度等距，不照搬该游戏任何现有素材、地形、角色或UI。创建有自身辨识度的新世界“直播炮塔守城”。场景中央是一颗**唯一的被保护的浅蓝色大型多面能量主晶体**，坐落在简单石质金属祭台上，发出稳定蓝色光，清楚区别于防御塔；核心上方显示清晰的生命值和“守护核心 86/100”，地形草甸、石砖、遗迹、浅浅的防御设施是独立背景。核心外围**自由摆放**十几座小型像素炮塔，每种明确区分：双短枪管黄色连珠速射塔；单粗圆炮口红色熔芯重炮塔；青蓝色矮胖金属喷管寒霜喷射塔（切勿画成水晶高塔），每座显示一个中文示例昵称与等级，昵称在独立UI标签层而非塔图。兽人小兵和一个比较高大的Boss**从四面八方**涌来朝中央水晶移动，有明显四方推进关系和红血条，速射子弹、炮弹橙红范围爆炸、淡蓝冰雾减速三个效果互不混淆。真实像素风，小型生动Sprite感，清晰1px方格轮廓，有限调色板、像素阴影，不要3D、不要圆滑高清矢量风、不出现宣传海报/手机样机。保留大量可以看清单位和路的战斗场地；顶部极简中文HUD：“第 03/08 波”、“核心 86/100”，小地图或四向敌人风险提示；下方仅薄薄一条直播互动说明和虚构示例昵称“阿风 Lv3”“小虎 Lv2”“阿宁 Lv1”。建筑、水晶、草地应在概念图中组成完整场景，但为正式开发要拆成独立透明PNG；本图是**玩法总览图，不是可直接提取游戏素材的精灵图**。画面必须让不了解项目的人一眼知道观众拥有自己的炮塔、防守唯一中央水晶、怪从四面来，最好清晰中文但少排版文字。",
+  "sourceProjectId": "live-turret-defense",
+  "sourceTaskId": "GAME-OVERVIEW-001",
+  "kind": "image",
+  "feature": "freedom_image",
+  "jobStatus": "BLOCKED_MEDIA",
+  "idempotencyKey": "live-turret-defense-GAME-OVERVIEW-001-art-v0.3-once",
+  "expectedOutput": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\00-项目玩法总览图.png",
+  "afterGeneration": "inspect existing job id, save PNG exact path, test 1080x1920 and gameplay semantic; never blindly resubmit",
+  "userApprovedToProceed": true,
+  "jobId": "67404b60-3ac2-43a9-b1df-334790c1bafa",
+  "providerResponse": {
+    "ok": true,
+    "job": {
+      "id": "67404b60-3ac2-43a9-b1df-334790c1bafa",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-11T17:43:20.365Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "GAME-OVERVIEW-001",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "制作一张原创手机抖音直播互动塔防游戏的正式“局内玩法总览”概念图。**9:16竖屏单幅完整游戏内实际视角的像素画，1080×1920**。参考机制是公开游戏《兽人领地》(Orcdom)：真正的**正上方俯视像素2D**而不是斜45度等距，不照搬该游戏任何现有素材、地形、角色或UI。创建有自身辨识度的新世界“直播炮塔守城”。场景中央是一颗**唯一的被保护的浅蓝色大型多面能量主晶体**，坐落在简单石质金属祭台上，发出稳定蓝色光，清楚区别于防御塔；核心上方显示清晰的生命值和“守护核",
+        "model": "",
+        "accountId": "",
+        "pool": true,
+        "aspectRatio": null,
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "originalJobResult": {
+    "jobId": "67404b60-3ac2-43a9-b1df-334790c1bafa",
+    "status": "failed",
+    "errorCode": "NO_ROUTE_AFTER_PRE_SUBMIT_FAILURE",
+    "failedAccountPlatform": "hunyuan-3d",
+    "stage": "page-load",
+    "submitted": false,
+    "submitLocked": false
+  },
+  "retryPlan": {
+    "status": "FAILED_PRE_SUBMIT",
+    "reason": "Original task definitely not submitted, pool erroneously routed image to 3D provider. New attempt must bind explicit Doubao image provider.",
+    "requestedProviderId": "web:76de72ac-8c37-45ec-84b6-5048c2de09c3:freedom_image",
+    "requestedAccountId": "76de72ac-8c37-45ec-84b6-5048c2de09c3",
+    "idempotencyKey": "live-turret-defense-GAME-OVERVIEW-001-art-v0.3-doubao-only-pre-submit-retry1",
+    "jobId": "a613ac7a-1c89-4cce-abf7-4acffd4d7120",
+    "noMoreAutomaticRetries": true,
+    "errorCode": "DISPATCH_EXECUTION_FAILED",
+    "failureStage": "execute",
+    "submitted": false,
+    "submitLocked": false,
+    "platformId": "doubao",
+    "issue": "requested account image_generate capability was not explicitly confirmed, model submission never happened"
+  },
+  "remaining": "Only repair/capability-verification of existing shared image route, or explicitly authorized alternative. Do not create third job unverified.",
+  "validation": {
+    "firstJobSubmitted": false,
+    "secondJobSubmitted": false,
+    "mediaOutputFiles": [],
+    "expectedOutputExists": false,
+    "gameplayImageGate": "BLOCKED_MEDIA",
+    "benchmarkVerified": true,
+    "pixelLayoutStaticTest": "PASS"
+  }
+}

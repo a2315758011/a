@@ -1,0 +1,61 @@
+{
+  "taskId": "COCOS-PORTRAIT-ADAPT-008",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-longscreen-integration-20261019",
+  "status": "PASS_DESKTOP_COCOS_DUAL_PORTRAIT_WITH_TOUCH_EMULATION",
+  "parentTask": "COCOS-PORTRAIT-E2E-007",
+  "engine": "Cocos Creator 3.8.2",
+  "modified": [
+    "CocosCreator工程/assets/脚本/守城控制器.ts",
+    "CocosCreator工程/assets/脚本/待审战场美术覆盖器.ts",
+    "_assistant-temp/Cocos候选试玩服务.py"
+  ],
+  "evidence": [
+    "验收证据/长屏自适应三波完整局验收/真人操作完整一局.json",
+    "验收证据/严格9比16截图校正后三波通关/真人操作完整一局.json",
+    "验收证据/长屏正式合入与双比例回归/代码合入前置验收.json",
+    "验收证据/长屏正式合入与双比例回归/合入后正式Cocos构建结果.json",
+    "验收证据/长屏正式合入与双比例回归/正式Cocos双竖屏浏览器输入与截图验收.json",
+    "验收证据/长屏正式合入与双比例回归/移动触控事件回归/移动触摸事件与截图验收.json",
+    "验收证据/长屏正式合入与双比例回归/移动触控事件回归-长屏独立复验/移动触摸事件与截图验收.json",
+    "验收证据/长屏正式合入与双比例回归/最终双比例与触控源代码回归汇总.json"
+  ],
+  "validated": {
+    "realBuildLog": "build success",
+    "CocosCLIExit": 36,
+    "webMobileFiles": 366,
+    "officialSceneUnchanged": true,
+    "testedViewport": [
+      [
+        540,
+        960
+      ],
+      [
+        540,
+        1108
+      ]
+    ],
+    "mouseInputPass": true,
+    "browserTouchEmulationPass": true,
+    "webGL2Pass": true,
+    "jsErrors": 0,
+    "longPortraitFullPlaythrough": {
+      "win": true,
+      "kills": 96,
+      "restart": true
+    },
+    "strict9x16FullPlaythrough": {
+      "win": true,
+      "kills": 96,
+      "restart": true
+    },
+    "localPreviewHTTP200": true
+  },
+  "notYetVerified": [
+    "Android实体真机触摸、安全区、热启动及帧率",
+    "微信和抖音小游戏正式构建及直播观众事件",
+    "V4美术用户审美签收、正式Prefab动画状态",
+    "非典型短屏的全面适配"
+  ],
+  "handOff": "验收证据/COCOS-PORTRAIT-ADAPT-008-长屏触摸与正式引擎.md"
+}

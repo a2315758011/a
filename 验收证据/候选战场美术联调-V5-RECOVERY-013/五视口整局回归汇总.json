@@ -1,0 +1,432 @@
+{
+  "taskId": "ART-PIPELINE-V5-001",
+  "recovery": "RECOVERY-013",
+  "owner": "agent-gpt6-art-recovery-20261020",
+  "projectId": "live-turret-defense",
+  "recordedAt": "2026-10-20T11:29:12+0800",
+  "candidateOnly": true,
+  "formalMainSceneModified": false,
+  "build": {
+    "report": "game-art\\evidence\\ART-PIPELINE-V5-001\\V5-Cocos-Build-QA-RECOVERY-010.json",
+    "effectiveSuccess": true,
+    "returnCode": 36,
+    "buildSuccessLogged": true,
+    "typescriptErrors": 0,
+    "stderrBytes": 0,
+    "pngCount": 89,
+    "missingMetaCount": 0
+  },
+  "fiveViewportSmoke": {
+    "report": "验收证据\\候选战场美术联调-V5-五视口RECOVERY-013\\五视口V5输入回归.json",
+    "overallPass": true,
+    "viewportCount": 5,
+    "passed": 5,
+    "javascriptErrors": 0,
+    "badResponses": [
+      {
+        "url": "http://127.0.0.1:52590/favicon.ico",
+        "status": 404
+      }
+    ]
+  },
+  "fullPlaythroughs": [
+    {
+      "viewport": "540x760",
+      "script": "cocos_v5_full_playthrough_540x760_RECOVERY_011.py",
+      "evidence": "验收证据\\候选战场美术联调-V5-短屏RECOVERY-011\\真人操作完整一局.json",
+      "actualViewport": {
+        "w": 540,
+        "h": 760,
+        "hidden": false
+      },
+      "result": "win",
+      "initial": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "afterSetup": {
+        "state": "running",
+        "wave": 1,
+        "hp": 100,
+        "towers": 24,
+        "kills": 0,
+        "zoom": 0.68,
+        "gameTime": 5.566666666666657,
+        "enemies": 10
+      },
+      "final": {
+        "state": "win",
+        "wave": 3,
+        "hp": 100,
+        "towers": 24,
+        "kills": 96,
+        "zoom": 0.68,
+        "gameTime": 81.6666666666646,
+        "enemies": 0
+      },
+      "afterRestart": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "durationSeconds": 87.0,
+      "javascriptErrors": 0,
+      "exception": null,
+      "screenshots": [
+        {
+          "path": "验收证据\\候选战场美术联调-V5-短屏RECOVERY-011\\00-开局.png",
+          "exists": true,
+          "bytes": 40405
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-短屏RECOVERY-011\\01-玩家进场布塔.png",
+          "exists": true,
+          "bytes": 518807
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-短屏RECOVERY-011\\99-结局.png",
+          "exists": true,
+          "bytes": 521579
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-短屏RECOVERY-011\\100-重新开始.png",
+          "exists": true,
+          "bytes": 568750
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "540x960",
+      "script": "cocos_v5_full_playthrough_540x960_RECOVERY_011.py",
+      "evidence": "验收证据\\候选战场美术联调-V5-540x960-RECOVERY-011\\真人操作完整一局.json",
+      "actualViewport": {
+        "w": 540,
+        "h": 960,
+        "hidden": false
+      },
+      "result": "win",
+      "initial": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "afterSetup": {
+        "state": "running",
+        "wave": 1,
+        "hp": 100,
+        "towers": 24,
+        "kills": 0,
+        "zoom": 0.68,
+        "gameTime": 5.5333333333333234,
+        "enemies": 10
+      },
+      "final": {
+        "state": "win",
+        "wave": 3,
+        "hp": 100,
+        "towers": 24,
+        "kills": 96,
+        "zoom": 0.68,
+        "gameTime": 80.23333333333134,
+        "enemies": 0
+      },
+      "afterRestart": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "durationSeconds": 89.1,
+      "javascriptErrors": 0,
+      "exception": null,
+      "screenshots": [
+        {
+          "path": "验收证据\\候选战场美术联调-V5-540x960-RECOVERY-011\\00-开局.png",
+          "exists": true,
+          "bytes": 41264
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-540x960-RECOVERY-011\\01-玩家进场布塔.png",
+          "exists": true,
+          "bytes": 640495
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-540x960-RECOVERY-011\\99-结局.png",
+          "exists": true,
+          "bytes": 642015
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-540x960-RECOVERY-011\\100-重新开始.png",
+          "exists": true,
+          "bytes": 710220
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "360x780",
+      "script": "cocos_v5_full_playthrough_360x780_RECOVERY_013.py",
+      "evidence": "验收证据\\候选战场美术联调-V5-360x780-RECOVERY-013\\真人操作完整一局.json",
+      "actualViewport": {
+        "w": 360,
+        "h": 780,
+        "hidden": false
+      },
+      "result": "win",
+      "initial": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "afterSetup": {
+        "state": "running",
+        "wave": 1,
+        "hp": 100,
+        "towers": 24,
+        "kills": 0,
+        "zoom": 0.68,
+        "gameTime": 5.566666666666657,
+        "enemies": 10
+      },
+      "final": {
+        "state": "win",
+        "wave": 3,
+        "hp": 100,
+        "towers": 24,
+        "kills": 96,
+        "zoom": 0.68,
+        "gameTime": 81.36666666666461,
+        "enemies": 0
+      },
+      "afterRestart": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "durationSeconds": 91.0,
+      "javascriptErrors": 0,
+      "exception": null,
+      "screenshots": [
+        {
+          "path": "验收证据\\候选战场美术联调-V5-360x780-RECOVERY-013\\00-开局.png",
+          "exists": true,
+          "bytes": 23480
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-360x780-RECOVERY-013\\01-玩家进场布塔.png",
+          "exists": true,
+          "bytes": 368214
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-360x780-RECOVERY-013\\99-结局.png",
+          "exists": true,
+          "bytes": 367293
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-360x780-RECOVERY-013\\100-重新开始.png",
+          "exists": true,
+          "bytes": 546077
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "393x852",
+      "script": "cocos_v5_full_playthrough_393x852_RECOVERY_014.py",
+      "evidence": "验收证据\\候选战场美术联调-V5-393x852-RECOVERY-014\\真人操作完整一局.json",
+      "actualViewport": {
+        "w": 393,
+        "h": 852,
+        "hidden": false
+      },
+      "result": "win",
+      "initial": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "afterSetup": {
+        "state": "running",
+        "wave": 1,
+        "hp": 100,
+        "towers": 24,
+        "kills": 0,
+        "zoom": 0.68,
+        "gameTime": 5.5333333333333234,
+        "enemies": 10
+      },
+      "final": {
+        "state": "win",
+        "wave": 3,
+        "hp": 100,
+        "towers": 24,
+        "kills": 96,
+        "zoom": 0.68,
+        "gameTime": 80.86666666666464,
+        "enemies": 0
+      },
+      "afterRestart": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "durationSeconds": 93.1,
+      "javascriptErrors": 0,
+      "exception": null,
+      "screenshots": [
+        {
+          "path": "验收证据\\候选战场美术联调-V5-393x852-RECOVERY-014\\00-开局.png",
+          "exists": true,
+          "bytes": 27466
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-393x852-RECOVERY-014\\01-玩家进场布塔.png",
+          "exists": true,
+          "bytes": 524907
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-393x852-RECOVERY-014\\99-结局.png",
+          "exists": true,
+          "bytes": 524778
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-393x852-RECOVERY-014\\100-重新开始.png",
+          "exists": true,
+          "bytes": 646946
+        }
+      ],
+      "pass": true
+    },
+    {
+      "viewport": "540x1108",
+      "script": "cocos_v5_full_playthrough_540x1108_RECOVERY_015.py",
+      "evidence": "验收证据\\候选战场美术联调-V5-540x1108-RECOVERY-015\\真人操作完整一局.json",
+      "actualViewport": {
+        "w": 540,
+        "h": 1108,
+        "hidden": false
+      },
+      "result": "win",
+      "initial": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "afterSetup": {
+        "state": "running",
+        "wave": 1,
+        "hp": 100,
+        "towers": 24,
+        "kills": 0,
+        "zoom": 0.68,
+        "gameTime": 5.59999999999999,
+        "enemies": 10
+      },
+      "final": {
+        "state": "win",
+        "wave": 3,
+        "hp": 100,
+        "towers": 24,
+        "kills": 96,
+        "zoom": 0.68,
+        "gameTime": 80.16666666666468,
+        "enemies": 0
+      },
+      "afterRestart": {
+        "state": "ready",
+        "wave": 1,
+        "hp": 100,
+        "towers": 9,
+        "kills": 0,
+        "zoom": 0.9,
+        "gameTime": 0,
+        "enemies": 0
+      },
+      "durationSeconds": 91.8,
+      "javascriptErrors": 0,
+      "exception": null,
+      "screenshots": [
+        {
+          "path": "验收证据\\候选战场美术联调-V5-540x1108-RECOVERY-015\\00-开局.png",
+          "exists": true,
+          "bytes": 41865
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-540x1108-RECOVERY-015\\01-玩家进场布塔.png",
+          "exists": true,
+          "bytes": 731598
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-540x1108-RECOVERY-015\\99-结局.png",
+          "exists": true,
+          "bytes": 732008
+        },
+        {
+          "path": "验收证据\\候选战场美术联调-V5-540x1108-RECOVERY-015\\100-重新开始.png",
+          "exists": true,
+          "bytes": 816205
+        }
+      ],
+      "pass": true
+    }
+  ],
+  "contactSheet": {
+    "path": "验收证据\\候选战场美术联调-V5-RECOVERY-013\\三视口实战截图接触表.jpg",
+    "exists": true,
+    "bytes": 82234
+  },
+  "pending": [
+    "用户美术审美签收",
+    "敌人/炮塔完整待机、攻击、受击、死亡和升级动画",
+    "正式Prefab/主场景集成",
+    "Android/微信/抖音真机与直播进退场接口",
+    "1000塔设备性能"
+  ],
+  "overallPass": true
+}

@@ -1,0 +1,29 @@
+{
+  "label": "six-seconds-running",
+  "wallSeconds": 12.44,
+  "sample": {
+    "game": {
+      "state": "ready",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 0,
+      "towers": 9,
+      "enemies": 0,
+      "spawned": 0,
+      "zoom": 0.9
+    },
+    "frameProbe": 377,
+    "screen": {
+      "w": 540,
+      "h": 926,
+      "hidden": false
+    }
+  },
+  "metrics": {
+    "Nodes": 137,
+    "ScriptDuration": 0.421737,
+    "TaskDuration": 1.371262,
+    "JSHeapUsedSize": 17009940
+  }
+}

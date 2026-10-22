@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "requiredFor": [
+    "all unit layers",
+    "icons",
+    "buttons",
+    "panels"
+  ],
+  "backgroundKey": "#FF00FF",
+  "method": "edge-connected chroma key with tolerance; only background-connected magenta pixels may be removed",
+  "hardGates": {
+    "rgba": true,
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixelRatioMin": 0.08,
+    "opaquePixelRatioMin": 0.05,
+    "magentaResidualMaxRatio": 0.002,
+    "edgeTouchingAssetPixels": 0
+  },
+  "failure": "If the generated background is not separable, mark failed and regenerate with a new task ID; never pass opaque background as a runtime sprite."
+}

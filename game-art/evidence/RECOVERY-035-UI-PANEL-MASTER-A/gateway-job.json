@@ -1,0 +1,73 @@
+{
+  "httpStatus": 200,
+  "job": {
+    "id": "e5e90483-d544-4e55-a3c7-2463294afec6",
+    "status": "completed",
+    "kind": "image",
+    "feature": "freedom_image",
+    "createdAt": "2026-10-22T02:26:18.516Z",
+    "startedAt": "2026-10-22T02:26:18.516Z",
+    "completedAt": "2026-10-22T02:27:56.447Z",
+    "source": "workstation-shared-cli",
+    "sourceProjectId": "live-turret-defense",
+    "sourceTaskId": "RECOVERY-035-UI-PANEL-MASTER-A",
+    "returnTo": "Desktop/deliverable/AI小游戏实战营/AI小游戏制作工程文件/直播炮塔守城/game-art/staging/RECOVERY-035-UI-PANEL-MASTER-A",
+    "businessContext": null,
+    "request": {
+      "promptPreview": "Create ONE isolated production UI asset for the original mobile game “直播炮塔守城”.\n\nCANVAS / SHAPE CONTRACT\n- Use a square 1:1 production canvas with a single tall settlement-panel silhouette centered inside it.\n- The panel itself must have an ",
+      "model": "",
+      "accountId": "",
+      "pool": true,
+      "aspectRatio": "1:1",
+      "resolution": "1024",
+      "duration": null,
+      "referenceCount": 0
+    },
+    "result": {
+      "ok": true,
+      "recoveryOnly": true,
+      "kind": "image",
+      "jobId": "orchestrator-recover:e5e90483-d544-4e55-a3c7-2463294afec6",
+      "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+      "platformId": "chatgpt",
+      "conversationId": "6ad9746f-77e4-83ec-b8c9-f747ae05955f",
+      "conversationUrl": "https://chatgpt.com/c/6ad9746f-77e4-83ec-b8c9-f747ae05955f",
+      "url": "local-image://web-generation/image/1792636075443_chatgpt_2315758011_993e3976.png",
+      "urls": [
+        "local-image://web-generation/image/1792636075443_chatgpt_2315758011_993e3976.png"
+      ],
+      "businessContext": {
+        "masterTaskId": "gateway-e5e90483-d544-4e55-a3c7-2463294afec6",
+        "subTaskId": "e5e90483-d544-4e55-a3c7-2463294afec6"
+      },
+      "detached": false,
+      "artifacts": [
+        {
+          "id": "3164f7cb0cab868886aa2ead",
+          "kind": "image",
+          "localUrl": "local-image://web-generation/image/1792636075443_chatgpt_2315758011_993e3976.png",
+          "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1792636075443_chatgpt_2315758011_993e3976.png",
+          "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1792636075443_chatgpt_2315758011_993e3976.png",
+          "name": "1792636075443_chatgpt_2315758011_993e3976.png",
+          "size": 1296874,
+          "mimeType": "image/png"
+        }
+      ],
+      "reconciledFromOrchestrator": true
+    },
+    "error": null,
+    "artifacts": [
+      {
+        "id": "3164f7cb0cab868886aa2ead",
+        "kind": "image",
+        "localUrl": "local-image://web-generation/image/1792636075443_chatgpt_2315758011_993e3976.png",
+        "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1792636075443_chatgpt_2315758011_993e3976.png",
+        "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1792636075443_chatgpt_2315758011_993e3976.png",
+        "name": "1792636075443_chatgpt_2315758011_993e3976.png",
+        "size": 1296874,
+        "mimeType": "image/png"
+      }
+    ]
+  },
+  "polledAt": "2026-10-22T02:27:56.448Z"
+}

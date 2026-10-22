@@ -1,0 +1,64 @@
+{
+  "id": "objective_energy_core",
+  "name": "城防能量水晶",
+  "stage": "MASTER_SAMPLE_NOT_FINAL",
+  "accountId": "538465cc-e184-4e38-bdcd-684ab15a7bbf",
+  "sourceTaskId": "ART-MASTER-OBJECTIVE_ENERGY_CORE-20261012",
+  "idempotencyKey": "live-turret-defense-ART-MASTER-OBJECTIVE_ENERGY_CORE-20261012-v05-once",
+  "promptSHA256": "f5fbc08241717a0b70e2c763f74778f401266b9661ff465e2f202f125f1155cd",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "submittedAt": "2026-10-12T14:40:22.409484+00:00",
+  "jobId": "1e6fb536-234d-4e03-88d0-0eeabe0a851e",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "1e6fb536-234d-4e03-88d0-0eeabe0a851e",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:40:22.613Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-OBJECTIVE_ENERGY_CORE-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Original 2D top-down pixel-art crystal DEFENSE OBJECTIVE asset. A SINGLE large luminous CYAN BLUE tall faceted energy gem emerging from a compact golden brass and gray mechanical socket BASE belonging to the same OBJECT (not grassy ground),",
+        "model": "",
+        "accountId": "538465cc-e184-4e38-bdcd-684ab15a7bbf",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:00.860515+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\objective_energy_core-母素材-原始.png",
+  "sha256": "fd34eb79041561ef3ec739c0d079d9d60a42d7831db5bdfb3aa8af8885dc52b3",
+  "size": [
+    2048,
+    2048
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "a9984500b693584fe10d68e9",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816148662_doubao_work_豆包工作_·_网页账号_5_cceb0d9a.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816148662_doubao_work_豆包工作_·_网页账号_5_cceb0d9a.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816148662_doubao_work_豆包工作_·_网页账号_5_cceb0d9a.png",
+      "name": "1791816148662_doubao_work_豆包工作_·_网页账号_5_cceb0d9a.png",
+      "size": 1491789,
+      "mimeType": "image/png"
+    }
+  ]
+}

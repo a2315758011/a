@@ -1,0 +1,17 @@
+{
+  "taskId": "RECOVERY-036-TOPDOWN-BOSS-LAYERS-C6-V5-REAL",
+  "jobId": "1192d22d-018f-472f-a00d-0050b1d29795",
+  "status": "failed",
+  "error": {
+    "code": "UPLOAD_NOT_OBSERVED",
+    "stage": "upload-reference",
+    "message": "网页生成失败：2315758011：文件设置后没有确认全部新附件已就绪",
+    "submitted": false,
+    "submitLocked": false
+  },
+  "result": null,
+  "artifactCount": 0,
+  "artifactCopies": [],
+  "referenceSha": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4",
+  "evidence": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\game-art\\evidence\\RECOVERY-036-TOPDOWN-BOSS-LAYERS-C6-V5-REAL"
+}

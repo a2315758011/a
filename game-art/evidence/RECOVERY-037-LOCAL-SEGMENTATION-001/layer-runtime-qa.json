@@ -1,0 +1,383 @@
+{
+  "taskId": "RECOVERY-037-LOCAL-SEGMENTATION-001",
+  "timestamp": "2026-10-22T11:17:51.648789+00:00",
+  "result": "PASS_TECHNICAL_QA_HUMAN_ART_SIGNOFF_PENDING",
+  "records": [
+    {
+      "assetId": "td-v5-grunt-offline-layers-001",
+      "name": "兽人小兵",
+      "technicalResult": "PASS",
+      "sourceMaster": "game-art/evidence/RECOVERY-034-TOPDOWN-ENEMY-MASTER-A/兽人小兵_顶视MasterA_96.png",
+      "sourceMasterSha256": "190ce82cfaaaa619295ed8d48768fa1d43ff2c40c5747a7be235b6544cd29fbe",
+      "cleanedMaster": "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人小兵/兽人小兵_顶视母版_清边.png",
+      "cleanedMasterSha256": "719ba6809cec1c2974c31d139bce813fa89a28ae5aff9e32bf1b032e9f0c6c1b",
+      "cleanedMagentaPixels": 3,
+      "canvas": [
+        96,
+        96
+      ],
+      "anchor": {
+        "x": 48.0,
+        "y": 74.88,
+        "meaning": "bottom-center ground contact; verify in engine before promotion"
+      },
+      "layers": [
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人小兵/兽人小兵_身体护甲_母图层.png",
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人小兵/兽人小兵_头部双臂_母图层.png",
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人小兵/兽人小兵_武器配件_母图层.png"
+      ],
+      "runtimeLayers": [
+        "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人/兽人小兵_身体护甲_母图层.png",
+        "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人/兽人小兵_头部双臂_母图层.png",
+        "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人/兽人小兵_武器配件_母图层.png"
+      ],
+      "layerHashes": [
+        "af373dd3442b13c8026454824a977e6af08aa80cd5af005ce64157c156d67afc",
+        "509b947f0865d249d5a607ee50daf05d01675052333a69c89b45bbafbde540ca",
+        "c4a0b8fc0743820745d55312b752d3a41addf67f7ef2201c023135d06d870697"
+      ],
+      "runtimeHashes": [
+        "af373dd3442b13c8026454824a977e6af08aa80cd5af005ce64157c156d67afc",
+        "509b947f0865d249d5a607ee50daf05d01675052333a69c89b45bbafbde540ca",
+        "c4a0b8fc0743820745d55312b752d3a41addf67f7ef2201c023135d06d870697"
+      ],
+      "layerMeta": [
+        {
+          "file": "兽人小兵_身体护甲_母图层.png",
+          "rawSize": [
+            96,
+            96
+          ],
+          "sourceSize": [
+            96,
+            96
+          ],
+          "canvasMatches": true,
+          "nearest": true,
+          "image": {
+            "size": [
+              96,
+              96
+            ],
+            "bytes": 1664,
+            "sha256": "af373dd3442b13c8026454824a977e6af08aa80cd5af005ce64157c156d67afc",
+            "binaryAlpha": true,
+            "transparentRgbResidue": 0,
+            "opaqueMagenta": 0
+          }
+        },
+        {
+          "file": "兽人小兵_头部双臂_母图层.png",
+          "rawSize": [
+            96,
+            96
+          ],
+          "sourceSize": [
+            96,
+            96
+          ],
+          "canvasMatches": true,
+          "nearest": true,
+          "image": {
+            "size": [
+              96,
+              96
+            ],
+            "bytes": 5536,
+            "sha256": "509b947f0865d249d5a607ee50daf05d01675052333a69c89b45bbafbde540ca",
+            "binaryAlpha": true,
+            "transparentRgbResidue": 0,
+            "opaqueMagenta": 0
+          }
+        },
+        {
+          "file": "兽人小兵_武器配件_母图层.png",
+          "rawSize": [
+            96,
+            96
+          ],
+          "sourceSize": [
+            96,
+            96
+          ],
+          "canvasMatches": true,
+          "nearest": true,
+          "image": {
+            "size": [
+              96,
+              96
+            ],
+            "bytes": 1416,
+            "sha256": "c4a0b8fc0743820745d55312b752d3a41addf67f7ef2201c023135d06d870697",
+            "binaryAlpha": true,
+            "transparentRgbResidue": 0,
+            "opaqueMagenta": 0
+          }
+        }
+      ],
+      "composite": "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人小兵/兽人小兵_三层重组.png",
+      "compositeSha256": "719ba6809cec1c2974c31d139bce813fa89a28ae5aff9e32bf1b032e9f0c6c1b",
+      "pixelMismatchCount": 0,
+      "checks": {
+        "exactRecomposition": true,
+        "runtimeFilesMatchSources": true,
+        "binaryAlpha": true,
+        "cleanTransparentPixels": true,
+        "spriteMetaCanvasMatches": true,
+        "nearestNeighbor": true,
+        "runtimeLayerMode": true,
+        "bossLayerMode": true,
+        "naturalWin": true,
+        "naturalLose": true,
+        "restart": true
+      }
+    },
+    {
+      "assetId": "td-v5-boss-offline-layers-001",
+      "name": "兽人首领",
+      "technicalResult": "PASS",
+      "sourceMaster": "game-art/evidence/RECOVERY-034-TOPDOWN-BOSS-MASTER-B/兽人首领_顶视MasterB_128.png",
+      "sourceMasterSha256": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4",
+      "cleanedMaster": "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人首领/兽人首领_顶视母版_清边.png",
+      "cleanedMasterSha256": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4",
+      "cleanedMagentaPixels": 0,
+      "canvas": [
+        128,
+        128
+      ],
+      "anchor": {
+        "x": 64.0,
+        "y": 99.84,
+        "meaning": "bottom-center ground contact; verify in engine before promotion"
+      },
+      "layers": [
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人首领/兽人首领_身体护甲_母图层.png",
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人首领/兽人首领_头部双臂_母图层.png",
+        "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人首领/兽人首领_武器配件_母图层.png"
+      ],
+      "runtimeLayers": [
+        "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人/兽人首领_身体护甲_母图层.png",
+        "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人/兽人首领_头部双臂_母图层.png",
+        "CocosCreator工程/assets/resources/候选战斗美术-v5-RECOVERY-004/战斗单位/兽人/兽人首领_武器配件_母图层.png"
+      ],
+      "layerHashes": [
+        "a35f585df0f91e0840d5caa74e91568f46ac2b18cb34b29a899fc093791f0a2b",
+        "dc0f31750c6d931cf130a163f50c9704c865f92e6ffc63cce6ce60b3eb427029",
+        "e0c25b31e014382e5e9ec5aebd151b6c88457e752fe6daffdfd0282d2a40be90"
+      ],
+      "runtimeHashes": [
+        "a35f585df0f91e0840d5caa74e91568f46ac2b18cb34b29a899fc093791f0a2b",
+        "dc0f31750c6d931cf130a163f50c9704c865f92e6ffc63cce6ce60b3eb427029",
+        "e0c25b31e014382e5e9ec5aebd151b6c88457e752fe6daffdfd0282d2a40be90"
+      ],
+      "layerMeta": [
+        {
+          "file": "兽人首领_身体护甲_母图层.png",
+          "rawSize": [
+            128,
+            128
+          ],
+          "sourceSize": [
+            128,
+            128
+          ],
+          "canvasMatches": true,
+          "nearest": true,
+          "image": {
+            "size": [
+              128,
+              128
+            ],
+            "bytes": 3252,
+            "sha256": "a35f585df0f91e0840d5caa74e91568f46ac2b18cb34b29a899fc093791f0a2b",
+            "binaryAlpha": true,
+            "transparentRgbResidue": 0,
+            "opaqueMagenta": 0
+          }
+        },
+        {
+          "file": "兽人首领_头部双臂_母图层.png",
+          "rawSize": [
+            128,
+            128
+          ],
+          "sourceSize": [
+            128,
+            128
+          ],
+          "canvasMatches": true,
+          "nearest": true,
+          "image": {
+            "size": [
+              128,
+              128
+            ],
+            "bytes": 6969,
+            "sha256": "dc0f31750c6d931cf130a163f50c9704c865f92e6ffc63cce6ce60b3eb427029",
+            "binaryAlpha": true,
+            "transparentRgbResidue": 0,
+            "opaqueMagenta": 0
+          }
+        },
+        {
+          "file": "兽人首领_武器配件_母图层.png",
+          "rawSize": [
+            128,
+            128
+          ],
+          "sourceSize": [
+            128,
+            128
+          ],
+          "canvasMatches": true,
+          "nearest": true,
+          "image": {
+            "size": [
+              128,
+              128
+            ],
+            "bytes": 3812,
+            "sha256": "e0c25b31e014382e5e9ec5aebd151b6c88457e752fe6daffdfd0282d2a40be90",
+            "binaryAlpha": true,
+            "transparentRgbResidue": 0,
+            "opaqueMagenta": 0
+          }
+        }
+      ],
+      "composite": "game-art/staging/RECOVERY-037-LOCAL-SEGMENTATION-001/兽人首领/兽人首领_三层重组.png",
+      "compositeSha256": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4",
+      "pixelMismatchCount": 0,
+      "checks": {
+        "exactRecomposition": true,
+        "runtimeFilesMatchSources": true,
+        "binaryAlpha": true,
+        "cleanTransparentPixels": true,
+        "spriteMetaCanvasMatches": true,
+        "nearestNeighbor": true,
+        "runtimeLayerMode": true,
+        "bossLayerMode": true,
+        "naturalWin": true,
+        "naturalLose": true,
+        "restart": true
+      }
+    }
+  ],
+  "fastRegression": {
+    "result": "PASS",
+    "checks": {
+      "startupReady": true,
+      "fifteenViewersJoined": true,
+      "naturalWin96Kills": true,
+      "roomSessionRetained": true,
+      "roomObserversLeave": true,
+      "naturalLoseZeroHp": true,
+      "restartResets": true,
+      "artReady": true,
+      "enemyLayersRuntimeActive": true,
+      "bossLayersRuntimeActive": true,
+      "simulationAcceleratedAtLeast30x": true,
+      "noQARunErrors": true,
+      "noJsErrors": true
+    },
+    "probe": {
+      "state": "running",
+      "time": 3.9999999999999956,
+      "wave": 1,
+      "controllerEnemies": 8,
+      "ready": true,
+      "failed": false,
+      "enemyPool": 3,
+      "activeEnemies": 3,
+      "bossLayer": {
+        "present": true,
+        "masterActive": false,
+        "activeLayers": 3
+      },
+      "examples": [
+        {
+          "kind": "grunt",
+          "masterActive": false,
+          "activeLayers": 3,
+          "layerNames": [
+            "身体护甲",
+            "头部双臂",
+            "武器配件"
+          ]
+        },
+        {
+          "kind": "grunt",
+          "masterActive": false,
+          "activeLayers": 3,
+          "layerNames": [
+            "身体护甲",
+            "头部双臂",
+            "武器配件"
+          ]
+        },
+        {
+          "kind": "boss",
+          "masterActive": false,
+          "activeLayers": 3,
+          "layerNames": [
+            "身体护甲",
+            "头部双臂",
+            "武器配件"
+          ]
+        }
+      ]
+    }
+  },
+  "extendedRegression": {
+    "result": "PASS",
+    "tests": [
+      {
+        "script": "qa_formal_fast_combat_20261022.py",
+        "exitCode": 0,
+        "seconds": 7.045
+      },
+      {
+        "script": "qa_formal_platform_socket_fallback_20261022.py",
+        "exitCode": 0,
+        "seconds": 7.651
+      },
+      {
+        "script": "qa_formal_shop_20261022.py",
+        "exitCode": 0,
+        "seconds": 18.652
+      },
+      {
+        "script": "qa_formal_shop_effects_20261022.py",
+        "exitCode": 0,
+        "seconds": 12.259
+      },
+      {
+        "script": "qa_formal_liveplay_20261022.py",
+        "exitCode": 0,
+        "seconds": 10.662
+      }
+    ]
+  },
+  "miniBuild": {
+    "result": "PASS",
+    "targets": [
+      {
+        "platform": "wechatgame",
+        "result": "PASS",
+        "seconds": 29.925,
+        "fileCount": 526
+      },
+      {
+        "platform": "bytedance-mini-game",
+        "result": "PASS",
+        "seconds": 20.059,
+        "fileCount": 523
+      }
+    ]
+  },
+  "backup": "game-art/evidence/RECOVERY-037-LOCAL-SEGMENTATION-001/original-candidate-assets",
+  "limitations": [
+    "candidate art, not approved master",
+    "procedural animation transforms only; authored keyframe sprite strips pending",
+    "Android signed build and official live backend device tests pending"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "task": "RECOVERY-034-TOPDOWN-BOSS-MASTER-B",
+  "sourceSize": [
+    1254,
+    1254
+  ],
+  "sourceBbox": [
+    47,
+    219,
+    1202,
+    977
+  ],
+  "runtimeSize": [
+    128,
+    128
+  ],
+  "contentBbox": [
+    8,
+    27,
+    120,
+    101
+  ],
+  "alphaMinMax": [
+    0,
+    255
+  ],
+  "transparentRatio": 0.749023,
+  "opaqueRatio": 0.250977,
+  "visibleColorCount": 28,
+  "magentaResidualRatio": 0.0,
+  "sha256": "D817AFE9DEAF6FA3B44610F48CDAAA1233F78A592AC077CBACC47E1371C249B4",
+  "visualReview": {
+    "camera": "PASS_CANDIDATE_MANUAL: materially overhead; crown/shoulder tops dominate; face is mostly occluded; shield is angled rather than full frontal",
+    "style": "PASS_CANDIDATE_AFTER_NORMALIZATION: finite palette + binary alpha + nearest-neighbor normalization",
+    "identity": "NEW_ORIGINAL_CANDIDATE_B; generated after Master A camera rejection",
+    "layerability": "PENDING: composite master only; reference-locked layer production sheet required before formal animation promotion"
+  },
+  "technicalPass": true
+}

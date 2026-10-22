@@ -1,0 +1,57 @@
+{
+  "taskId": "BEN-001",
+  "projectId": "live-turret-defense",
+  "status": "VERIFIED",
+  "assignee": null,
+  "dependsOn": [],
+  "input": "https://tap.cn/lqs3Qu7pC",
+  "inputHash": "UNKNOWN",
+  "instructionRefs": [
+    {
+      "absolutePath": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.1",
+      "blobSha": "13816e8bb3f780515c7826b175285fa20df2861d",
+      "sha256": "UNKNOWN",
+      "chapters": [
+        "00",
+        "01",
+        "02",
+        "09",
+        "10",
+        "12",
+        "14"
+      ]
+    }
+  ],
+  "allowedRead": [
+    "项目索引.md",
+    "对标与平台核查.md"
+  ],
+  "writeAllowlist": [
+    "对标与平台核查.md",
+    "验收证据/对标调查/"
+  ],
+  "resource": "project:live-turret-defense:benchmark",
+  "acceptance": "核对准确游戏、镜头与玩法、来源、相关画面；区分事实与推断；保留原始链接与证据",
+  "blockedBy": null,
+  "nextAction": "后续美术/玩法读取V0.3，完成首张真实玩法总览图，不重做BEN-001",
+  "forbidden": [
+    "不猜游戏名",
+    "不未验收提前开发玩法或美术"
+  ],
+  "handoff": "对标实际玩法与截图核实-v0.3.md",
+  "actualResult": {
+    "identity": "兽人领地 Orcdom",
+    "url": "https://www.taptap.cn/app/714518",
+    "verifiedSource": "TapTap plus Steam Store/Demo",
+    "camera": "top-down",
+    "visualStyle": "pixel-art",
+    "freePlacement": true,
+    "attacksFromAllSides": true,
+    "protectCrystal": true,
+    "proof": "对标实际玩法与截图核实-v0.3.md",
+    "reviewMode": "SELF_REVIEW",
+    "sourceScreenshotUrl": "https://img-tc.tapimg.com/market/images/c0c3ce84262295a82dc9cd2463104423.png/_tap_screenshot.jpg"
+  },
+  "updatedAt": "2026-10-12"
+}

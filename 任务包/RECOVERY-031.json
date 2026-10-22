@@ -1,0 +1,60 @@
+{
+  "taskId": "RECOVERY-031",
+  "title": "微信/抖音/Android平台构建探测与适配层",
+  "status": "PLATFORM_PROBE_PASS_DEVICE_PENDING_ANDROID_SDK_BLOCKED",
+  "scope": "隔离候选 Cocos Creator 3.8.2；正式 CocosCreator工程 未修改",
+  "completed": [
+    "平台适配器.ts 已存在并由守城控制器统一暴露 platformSnapshot/attachLiveEventSource/detachLiveEventSource",
+    "当前代码 wechatgame CLI build PASS：exit36/build success/TS0/stderr0/293 files，平台适配器与直播源接口已编译进产物",
+    "当前代码 bytedance-mini-game CLI build PASS：exit36/build success/TS0/stderr0/291 files，平台适配器与直播源接口已编译进产物",
+    "当前代码 web-mobile exit36/build success/288 files；stderr 仅为 Cocos 登录服务器 timeout，产物中平台适配层已编译",
+    "Web 真实运行平台适配层 PASS：runtime=web、storageAvailable=true、默认不伪装SDK、mock事件源 attach->直播桥->detach 全通过",
+    "Web 五视口商店/主界面真实输入回归 5/5 PASS，JS errors 0",
+    "Android 规范 packages.android configPath 已越过旧的 required 参数错误，现明确失败为找不到 Android NDK/SDK 路径",
+    "本机 JDK17 存在；ANDROID_HOME/ANDROID_SDK_ROOT/NDK_HOME 均为空，sdkmanager/ndk-build 不在 PATH；仅 adb 位于 C:/platform-tools"
+  ],
+  "platformStatus": {
+    "web": {
+      "build": "BUILD_PASS_WITH_EXTERNAL_LOGIN_WARNING",
+      "runtime": "BROWSER_QA_PASS"
+    },
+    "wechat": {
+      "build": "BUILD_PASS",
+      "runtime": "DEVICE_PENDING",
+      "appidFromGeneratedConfig": "wx6ac3f5090a6b99c5"
+    },
+    "douyin": {
+      "build": "BUILD_PASS",
+      "runtime": "DEVICE_ACCOUNT_PENDING",
+      "generatedAppid": "testappId"
+    },
+    "android": {
+      "build": "PLATFORM_SDK_BLOCKED",
+      "runtime": "DEVICE_PENDING",
+      "blocker": "Android SDK/NDK not installed/configured"
+    }
+  },
+  "acceptance": {
+    "actualPlatformNamesConfirmed": true,
+    "wechatBuildProbe": true,
+    "douyinBuildProbe": true,
+    "androidBuildProbe": true,
+    "unifiedPlatformAbstraction": true,
+    "webRegression": true,
+    "classificationsExplicit": true
+  },
+  "blockers": [
+    "Android SDK/NDK 未安装/配置，不能生成 Android 原生工程或 APK",
+    "微信小游戏尚未在微信开发者工具/授权真机运行",
+    "抖音小游戏产物 appid 仍为 testappId，尚未绑定真实抖音小游戏账号并在开发者工具/真机运行",
+    "真实抖音/微信直播事件源仍未接入；平台适配层不会伪造该能力",
+    "V5整体美术仍待用户审美签收，候选代码不得自动合入正式工程"
+  ],
+  "evidence": [
+    "验收证据/RECOVERY-031-平台构建/当前代码四平台CLI构建探测.json",
+    "验收证据/RECOVERY-031-平台构建/平台适配层Web运行时回归.json",
+    "验收证据/RECOVERY-030-商店与存档/商店五视口真实输入回归.json",
+    "验收证据/RECOVERY-031-平台构建与适配层回归.md"
+  ],
+  "nextAction": "RECOVERY-032：在不影响其他项目的前提下补齐 Android SDK/NDK 本地构建环境并生成可安装 APK；同时保留微信/抖音开发者工具与真实账号/真机为独立 DEVICE_PENDING 门禁。"
+}

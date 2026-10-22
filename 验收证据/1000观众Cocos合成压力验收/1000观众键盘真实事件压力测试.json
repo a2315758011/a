@@ -1,0 +1,143 @@
+{
+  "status": "FAIL",
+  "targetViewerEvents": 1000,
+  "records": [
+    {
+      "label": "baseline-9-towers",
+      "wallSeconds": 6.12,
+      "sample": {
+        "game": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "kills": 0,
+          "time": 0,
+          "towers": 9,
+          "enemies": 0,
+          "spawned": 0,
+          "zoom": 0.9
+        },
+        "frameProbe": 0,
+        "screen": {
+          "w": 540,
+          "h": 926,
+          "hidden": false
+        }
+      },
+      "metrics": {
+        "Nodes": 103,
+        "ScriptDuration": 0.144061,
+        "TaskDuration": 0.950672,
+        "JSHeapUsedSize": 18406508
+      }
+    },
+    {
+      "label": "100-viewer-join-keypresses",
+      "wallSeconds": 6.32,
+      "sample": {
+        "game": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "kills": 0,
+          "time": 0,
+          "towers": 9,
+          "enemies": 0,
+          "spawned": 0,
+          "zoom": 0.9
+        },
+        "frameProbe": 11,
+        "screen": {
+          "w": 540,
+          "h": 926,
+          "hidden": false
+        }
+      },
+      "metrics": {
+        "Nodes": 132,
+        "ScriptDuration": 0.173715,
+        "TaskDuration": 1.012497,
+        "JSHeapUsedSize": 15779312
+      }
+    },
+    {
+      "label": "ready-stress",
+      "wallSeconds": 6.4,
+      "sample": {
+        "game": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "kills": 0,
+          "time": 0,
+          "towers": 9,
+          "enemies": 0,
+          "spawned": 0,
+          "zoom": 0.9
+        },
+        "frameProbe": 16,
+        "screen": {
+          "w": 540,
+          "h": 926,
+          "hidden": false
+        }
+      },
+      "metrics": {
+        "Nodes": 142,
+        "ScriptDuration": 0.188983,
+        "TaskDuration": 1.036276,
+        "JSHeapUsedSize": 16706440
+      }
+    },
+    {
+      "label": "six-seconds-running",
+      "wallSeconds": 12.44,
+      "sample": {
+        "game": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "kills": 0,
+          "time": 0,
+          "towers": 9,
+          "enemies": 0,
+          "spawned": 0,
+          "zoom": 0.9
+        },
+        "frameProbe": 377,
+        "screen": {
+          "w": 540,
+          "h": 926,
+          "hidden": false
+        }
+      },
+      "metrics": {
+        "Nodes": 137,
+        "ScriptDuration": 0.421737,
+        "TaskDuration": 1.371262,
+        "JSHeapUsedSize": 17009940
+      }
+    }
+  ],
+  "errors": [
+    {
+      "type": "JOIN_COUNT_MISMATCH",
+      "step": 100,
+      "expected": 109,
+      "actual": 9
+    }
+  ],
+  "notes": "Web-Mobile via Cocos3.8.2; Edge SwiftShader; true CDP keyboard events",
+  "finalState": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9
+  },
+  "durationSeconds": 15.57
+}

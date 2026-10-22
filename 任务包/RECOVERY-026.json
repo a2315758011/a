@@ -1,0 +1,39 @@
+{
+  "taskId": "RECOVERY-026",
+  "title": "主界面到战斗到结算的完整纵向切片",
+  "status": "CANDIDATE_QA_PASS_ART_APPROVAL_PENDING",
+  "scope": "隔离候选 Cocos Creator 3.8.2 工程；正式 CocosCreator工程 未修改",
+  "completed": [
+    "启动主界面与输入阻断",
+    "真实开始守城进入running",
+    "自然胜利结算返回主界面",
+    "返回主界面后数据与输入状态恢复",
+    "第二局自然失败与再次守城",
+    "五视口主界面真实输入5/5",
+    "构建成功，TS错误0，JS错误0",
+    "实际截图视觉复核通过"
+  ],
+  "acceptance": {
+    "build": true,
+    "verticalSlice": true,
+    "naturalWin": true,
+    "naturalLoss": true,
+    "returnMenu": true,
+    "restart": true,
+    "fiveViewport": true,
+    "consoleErrors": 0,
+    "formalProjectUntouched": true
+  },
+  "blockers": [
+    "V5整体美术用户签收",
+    "Android/微信/抖音真机",
+    "真实直播事件",
+    "1000塔低端设备性能"
+  ],
+  "evidence": [
+    "game-art/evidence/RECOVERY-026-main-menu-build.json",
+    "验收证据/RECOVERY-026-主界面纵向切片/纵向切片真实鼠标双结局回归.json",
+    "验收证据/RECOVERY-026-主界面纵向切片/主界面五视口真实输入回归.json",
+    "验收证据/RECOVERY-026-主界面完整纵向切片.md"
+  ]
+}

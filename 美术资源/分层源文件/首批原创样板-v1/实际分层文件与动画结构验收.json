@@ -1,0 +1,122 @@
+{
+  "status": "STRUCTURAL_PASS_MOTION_SEMANTICS_PENDING",
+  "editables": 5,
+  "totalRealLayers": 29,
+  "allORAStructurallyValid": true,
+  "existingFormalAssetFoldersUntouched": true,
+  "NOT_COCOS_IMPORTED": true,
+  "spritesReviewedByHuman": false,
+  "entries": [
+    {
+      "asset": "连珠速射塔",
+      "ora": "美术资源\\分层源文件\\首批原创样板-v1\\连珠速射塔\\连珠速射塔-可编辑分层.ora",
+      "oraSHA256": "0b64d79ce778ff18bdba53d067f02540e3e7156d747d859865b474f3f5362cb4",
+      "layers": 6,
+      "transparentPixels": 5748,
+      "opaquePixels": 3468,
+      "ORADecompressedAndRecomposedMatchesPreview": true,
+      "animations": [
+        {
+          "action": "attack",
+          "gifFrames": 6,
+          "pngFrames": 8,
+          "uniquePNGFrames": 4,
+          "adjacentDuplicatePairs": 2,
+          "semanticStatus": "NOT_VISUALLY_APPROVED"
+        }
+      ]
+    },
+    {
+      "asset": "熔芯重炮塔",
+      "ora": "美术资源\\分层源文件\\首批原创样板-v1\\熔芯重炮塔\\熔芯重炮塔-可编辑分层.ora",
+      "oraSHA256": "7adb2ee5b282bf0fae8e56dbb8e496701756b2a3f68e45b6a344c0e15838d67b",
+      "layers": 5,
+      "transparentPixels": 5741,
+      "opaquePixels": 3475,
+      "ORADecompressedAndRecomposedMatchesPreview": true,
+      "animations": [
+        {
+          "action": "attack",
+          "gifFrames": 7,
+          "pngFrames": 8,
+          "uniquePNGFrames": 6,
+          "adjacentDuplicatePairs": 1,
+          "semanticStatus": "NOT_VISUALLY_APPROVED"
+        }
+      ]
+    },
+    {
+      "asset": "寒霜喷射塔",
+      "ora": "美术资源\\分层源文件\\首批原创样板-v1\\寒霜喷射塔\\寒霜喷射塔-可编辑分层.ora",
+      "oraSHA256": "bb63c6de643a5eb33d482acfcad13e7e79516a3456696ea41424f29d8597adc5",
+      "layers": 6,
+      "transparentPixels": 5609,
+      "opaquePixels": 3607,
+      "ORADecompressedAndRecomposedMatchesPreview": true,
+      "animations": [
+        {
+          "action": "attack",
+          "gifFrames": 7,
+          "pngFrames": 8,
+          "uniquePNGFrames": 5,
+          "adjacentDuplicatePairs": 1,
+          "semanticStatus": "NOT_VISUALLY_APPROVED"
+        }
+      ]
+    },
+    {
+      "asset": "城防水晶",
+      "ora": "美术资源\\分层源文件\\首批原创样板-v1\\城防水晶\\城防水晶-可编辑分层.ora",
+      "oraSHA256": "f4ffa020b191b52ed47d70684b2da69098e17d1b6c4172116c75c0ddc5ff6938",
+      "layers": 5,
+      "transparentPixels": 4994,
+      "opaquePixels": 4222,
+      "ORADecompressedAndRecomposedMatchesPreview": true,
+      "animations": [
+        {
+          "action": "shatter",
+          "gifFrames": 5,
+          "pngFrames": 8,
+          "uniquePNGFrames": 5,
+          "adjacentDuplicatePairs": 3,
+          "semanticStatus": "NOT_VISUALLY_APPROVED"
+        }
+      ]
+    },
+    {
+      "asset": "兽人小兵",
+      "ora": "美术资源\\分层源文件\\首批原创样板-v1\\兽人小兵\\兽人小兵-可编辑分层.ora",
+      "oraSHA256": "6c498d7e005d78e1809cfc5f0c9de1d41bf7239aecab98e482fa546f22bf4b5b",
+      "layers": 7,
+      "transparentPixels": 5329,
+      "opaquePixels": 3887,
+      "ORADecompressedAndRecomposedMatchesPreview": true,
+      "animations": [
+        {
+          "action": "walk",
+          "gifFrames": 8,
+          "pngFrames": 8,
+          "uniquePNGFrames": 7,
+          "adjacentDuplicatePairs": 0,
+          "semanticStatus": "NOT_VISUALLY_APPROVED"
+        },
+        {
+          "action": "attack",
+          "gifFrames": 8,
+          "pngFrames": 8,
+          "uniquePNGFrames": 7,
+          "adjacentDuplicatePairs": 0,
+          "semanticStatus": "NOT_VISUALLY_APPROVED"
+        },
+        {
+          "action": "death",
+          "gifFrames": 6,
+          "pngFrames": 8,
+          "uniquePNGFrames": 6,
+          "adjacentDuplicatePairs": 2,
+          "semanticStatus": "NOT_VISUALLY_APPROVED"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "test": "Cocos Creator 3.8.2 real-time mouse-only full playthrough",
+  "states": [],
+  "consoleErrors": [],
+  "actions": [],
+  "result": "NOT_RUN",
+  "startedAt": "2026-10-19T18:52:05",
+  "exception": "ConnectionClosedError(None, None, None)",
+  "stack": "Traceback (most recent call last):\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\websockets\\sync\\connection.py\", line 814, in recv_events\n    data = self.socket.recv(self.recv_bufsize)\nConnectionAbortedError: [WinError 10053] 你的主机中的软件中止了一个已建立的连接。\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\Cocos长屏交互坐标遥测.py\", line 82, in <module>\n    q=state()\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\Cocos长屏交互坐标遥测.py\", line 62, in state\n    def state():return evaljs('typeof globalThis.__towerQA===\"function\"?globalThis.__towerQA():null')\n                       ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\Cocos长屏交互坐标遥测.py\", line 59, in evaljs\n    response=call('Runtime.evaluate',{'expression':text,'returnByValue':True},timeout=9)\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\Cocos长屏交互坐标遥测.py\", line 49, in call\n    msg=json.loads(sock.recv(timeout=max(.05,deadline-time.monotonic())))\n                   ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\websockets\\sync\\connection.py\", line 336, in recv\n    raise self.protocol.close_exc from self.recv_exc\nwebsockets.exceptions.ConnectionClosedError: no close frame received or sent\n",
+  "durationSeconds": 2.5
+}

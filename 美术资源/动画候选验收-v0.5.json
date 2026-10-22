@@ -1,0 +1,422 @@
+{
+  "status": "CANDIDATE_NOT_FINAL",
+  "contractVersion": "0.4",
+  "source": "win-unpacked-mcp-generated-master, procedural sprite-motion processing",
+  "assets": [
+    {
+      "id": "tower_repeater",
+      "name": "连珠速射塔",
+      "sourceId": "tower_repeater",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "待机",
+          "frameCount": 6,
+          "frameDurationMs": 125,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 6,
+          "frameDir": "美术资源\\正式资产\\tower\\连珠速射塔\\待机",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "攻击",
+          "frameCount": 8,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\tower\\连珠速射塔\\攻击",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "升级",
+          "frameCount": 10,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 10,
+          "frameDir": "美术资源\\正式资产\\tower\\连珠速射塔\\升级",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\tower_repeater.png",
+      "sourceSha256": "0b0a4955850b3c10370770688485ab60b800fc7d0a3750cc6054dadbd4302d5b"
+    },
+    {
+      "id": "tower_mortar",
+      "name": "熔芯重炮塔",
+      "sourceId": "tower_mortar",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "待机",
+          "frameCount": 6,
+          "frameDurationMs": 125,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 6,
+          "frameDir": "美术资源\\正式资产\\tower\\熔芯重炮塔\\待机",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "攻击",
+          "frameCount": 8,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\tower\\熔芯重炮塔\\攻击",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "升级",
+          "frameCount": 10,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 10,
+          "frameDir": "美术资源\\正式资产\\tower\\熔芯重炮塔\\升级",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\tower_mortar.png",
+      "sourceSha256": "24169681a7c9d9ad17dca4a0a9e456ff0230621429ed96151cc50ac6bfe916ac"
+    },
+    {
+      "id": "tower_frost",
+      "name": "寒霜喷射塔",
+      "sourceId": "tower_frost",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "待机",
+          "frameCount": 6,
+          "frameDurationMs": 125,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 6,
+          "frameDir": "美术资源\\正式资产\\tower\\寒霜喷射塔\\待机",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "攻击",
+          "frameCount": 8,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\tower\\寒霜喷射塔\\攻击",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "升级",
+          "frameCount": 10,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 10,
+          "frameDir": "美术资源\\正式资产\\tower\\寒霜喷射塔\\升级",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\tower_frost.png",
+      "sourceSha256": "7265e717fc65cbc8defc9b534c6899f91e2f729a74c4a289f6036dbd12d5803c"
+    },
+    {
+      "id": "objective_energy_core",
+      "name": "城防能量水晶",
+      "sourceId": "objective_energy_core",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "待机",
+          "frameCount": 6,
+          "frameDurationMs": 125,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 6,
+          "frameDir": "美术资源\\正式资产\\core\\城防能量水晶\\待机",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "受击",
+          "frameCount": 4,
+          "frameDurationMs": 100,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 4,
+          "frameDir": "美术资源\\正式资产\\core\\城防能量水晶\\受击",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "破碎",
+          "frameCount": 8,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\core\\城防能量水晶\\破碎",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\objective_energy_core.png",
+      "sourceSha256": "fd34eb79041561ef3ec739c0d079d9d60a42d7831db5bdfb3aa8af8885dc52b3"
+    },
+    {
+      "id": "enemy_orc",
+      "name": "兽人小兵",
+      "sourceId": "enemy_orc_grunt",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "行走",
+          "frameCount": 8,
+          "frameDurationMs": 100,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\enemy\\兽人小兵\\行走",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "攻击",
+          "frameCount": 8,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\enemy\\兽人小兵\\攻击",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "死亡",
+          "frameCount": 8,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\enemy\\兽人小兵\\死亡",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\enemy_orc.png",
+      "sourceSha256": "0b24f141a11ee1e382b2571092465c901b17bf598ee86ab1b52b42655a861c05"
+    },
+    {
+      "id": "enemy_boss",
+      "name": "兽人首领",
+      "sourceId": "enemy_orc_boss",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "行走",
+          "frameCount": 8,
+          "frameDurationMs": 100,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\enemy\\兽人首领\\行走",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "攻击",
+          "frameCount": 8,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\enemy\\兽人首领\\攻击",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        },
+        {
+          "action": "死亡",
+          "frameCount": 8,
+          "frameDurationMs": 83,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\enemy\\兽人首领\\死亡",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\enemy_boss.png",
+      "sourceSha256": "faac0dc084dd5b7f2a28c71561dda15f2722590f683c17e7e860b12fac6a4702"
+    },
+    {
+      "id": "projectile_repeater",
+      "name": "速射弹丸",
+      "sourceId": "projectile_repeater",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "飞行",
+          "frameCount": 6,
+          "frameDurationMs": 67,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "uniqueFramePayloads": 6,
+          "frameDir": "美术资源\\正式资产\\projectile\\速射弹丸\\飞行",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\projectile_repeater.png",
+      "sourceSha256": "a6142c222c4704973cda13eec5339e64320af0f7ae47ac1d38deb6abf7e8908e"
+    },
+    {
+      "id": "projectile_mortar",
+      "name": "重炮弹丸",
+      "sourceId": "projectile_mortar",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "飞行",
+          "frameCount": 6,
+          "frameDurationMs": 67,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "uniqueFramePayloads": 6,
+          "frameDir": "美术资源\\正式资产\\projectile\\重炮弹丸\\飞行",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\projectile_mortar.png",
+      "sourceSha256": "eb91f55c14b60db0acec654bf8ce79d620cc75eefd2140c531cd62c4e6886041"
+    },
+    {
+      "id": "projectile_frost",
+      "name": "寒霜射流",
+      "sourceId": "projectile_frost",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "飞行",
+          "frameCount": 6,
+          "frameDurationMs": 67,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "uniqueFramePayloads": 6,
+          "frameDir": "美术资源\\正式资产\\projectile\\寒霜射流\\飞行",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\projectile_frost.png",
+      "sourceSha256": "9f2fce60ec20181ad908186c715802fc819c69f0377cb352920ebcf28d1211ae"
+    },
+    {
+      "id": "fx_explosion",
+      "name": "爆炸特效",
+      "sourceId": "fx_explosion",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "爆炸",
+          "frameCount": 10,
+          "frameDurationMs": 67,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "uniqueFramePayloads": 10,
+          "frameDir": "美术资源\\正式资产\\fx\\爆炸特效\\爆炸",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\fx_explosion.png",
+      "sourceSha256": "0be4aba1f9ab77c64bba3ca81f2aad4a8b115d0cd3d0df1bf5fc4f09048278b0"
+    },
+    {
+      "id": "fx_frost",
+      "name": "冰雾特效",
+      "sourceId": "fx_frost",
+      "sourceExists": true,
+      "actions": [
+        {
+          "action": "减速",
+          "frameCount": 8,
+          "frameDurationMs": 100,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "uniqueFramePayloads": 8,
+          "frameDir": "美术资源\\正式资产\\fx\\冰雾特效\\减速",
+          "semanticReview": "PENDING",
+          "engineImport": "PENDING"
+        }
+      ],
+      "transparentMaster": "美术资源\\透明母素材候选\\fx_frost.png",
+      "sourceSha256": "64d162237b8ee8231fec4f46176e14d6de43f7538b406dfebafeed6506854e44"
+    }
+  ],
+  "processedAssets": 11,
+  "actionsCreated": 23,
+  "framesCreated": 174,
+  "warnings": [
+    "Source angles and pixel style are not approved. Animation is procedurally derived, NOT individually web-generated frame art. Do not mark final/G2 passed until actual game import and visual review."
+  ]
+}

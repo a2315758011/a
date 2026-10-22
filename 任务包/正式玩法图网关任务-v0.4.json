@@ -1,0 +1,67 @@
+{
+  "status": "OUTPUT_COPIED_PENDING_VISUAL_REVIEW",
+  "jobId": "1d6024db-fabe-466e-bb49-951b87e9c35a",
+  "idempotencyKey": "live-turret-defense-GAME-OVERVIEW-002-original-native-pixel-art-v04-once",
+  "providerId": "web:d3b71ce4-d61e-4adc-8f08-3c28262b6e48:freedom_image",
+  "sourceTaskId": "GAME-OVERVIEW-002",
+  "promptSha256": "22434603c0cc5b4dc2a71ef057e1e488afab5c9246b8184938d28652a555fb33",
+  "submittedAt": "2026-10-12T13:25:13.809115+00:00",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "1d6024db-fabe-466e-bb49-951b87e9c35a",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T13:25:13.814Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "GAME-OVERVIEW-002",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "请生成一张真正用于手机游戏内玩法审查的原创 2D 像素风局内截图，不是白底结构示意图！抖音直播互动塔防《直播炮塔守城》，单幅9:16竖屏完整游戏画面。严格正上方俯视正交镜头，原生逐像素轮廓，清楚的像素草地、碎石、断墙遗迹、独特原创建筑和战斗视觉，不使用高清三维渲染、等距45度斜视、写实模型或海报排版。可见视口只是远大于屏幕的完整地图中的一个相机窗口，镜头以中央独立能量水晶为中心，地面空间可持续容纳成百上千座观众炮塔，不把总地图限制成一屏。中间唯一被保护的蓝色晶体HP显示86/",
+        "model": "",
+        "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+        "pool": false,
+        "aspectRatio": null,
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\玩法总览图-真实网页生成-v0.4.png",
+  "preview": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\玩法总览图-审图缩略.jpg",
+  "result": {
+    "format": "PNG",
+    "mode": "RGB",
+    "size": [
+      1520,
+      2720
+    ],
+    "fileBytes": 6981940,
+    "sha256": "e7a3cde3df1c1306e8c35cd31a3b4a1c9d2c05b9aa8bd0563b29647d0aaa90d8"
+  },
+  "jobFinalStatus": "completed",
+  "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+  "originalFile": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791811561255_doubao_豆包_·_网页账号_5_73d3e24b.png",
+  "artifacts": [
+    {
+      "id": "b44e408cb229413c2cc883c2",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791811561255_doubao_豆包_·_网页账号_5_73d3e24b.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791811561255_doubao_豆包_·_网页账号_5_73d3e24b.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791811561255_doubao_豆包_·_网页账号_5_73d3e24b.png",
+      "name": "1791811561255_doubao_豆包_·_网页账号_5_73d3e24b.png",
+      "size": 6981940,
+      "mimeType": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,617 @@
+{
+  "schema": "turret-art-contract/0.4",
+  "projectId": "live-turret-defense",
+  "status": "PENDING_MEDIA_G0",
+  "style": "native-topdown-pixel-2d-original",
+  "displayTarget": [
+    1080,
+    1920
+  ],
+  "cameraRule": "visible camera viewport != total map; allow 1000+ units on world map via scrolling/chunking",
+  "sourceRule": "all generated media through win-unpacked shared MCP gateway",
+  "reference": "美术规范/俯视像素塔防资源合同-v0.3.json",
+  "assets": [
+    {
+      "id": "tower_repeater",
+      "name": "连珠速射塔",
+      "kind": "tower",
+      "canvas": [
+        64,
+        64
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "待机": {
+          "frameDurationMs": 125,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/连珠速射塔/待机/帧001.png",
+            "美术资源/正式资产/tower/连珠速射塔/待机/帧002.png",
+            "美术资源/正式资产/tower/连珠速射塔/待机/帧003.png",
+            "美术资源/正式资产/tower/连珠速射塔/待机/帧004.png",
+            "美术资源/正式资产/tower/连珠速射塔/待机/帧005.png",
+            "美术资源/正式资产/tower/连珠速射塔/待机/帧006.png"
+          ],
+          "event": null
+        },
+        "攻击": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/连珠速射塔/攻击/帧001.png",
+            "美术资源/正式资产/tower/连珠速射塔/攻击/帧002.png",
+            "美术资源/正式资产/tower/连珠速射塔/攻击/帧003.png",
+            "美术资源/正式资产/tower/连珠速射塔/攻击/帧004.png",
+            "美术资源/正式资产/tower/连珠速射塔/攻击/帧005.png",
+            "美术资源/正式资产/tower/连珠速射塔/攻击/帧006.png",
+            "美术资源/正式资产/tower/连珠速射塔/攻击/帧007.png",
+            "美术资源/正式资产/tower/连珠速射塔/攻击/帧008.png"
+          ],
+          "event": "fire"
+        },
+        "升级": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧001.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧002.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧003.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧004.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧005.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧006.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧007.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧008.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧009.png",
+            "美术资源/正式资产/tower/连珠速射塔/升级/帧010.png"
+          ],
+          "event": "level_switch_once"
+        }
+      }
+    },
+    {
+      "id": "tower_mortar",
+      "name": "熔芯重炮塔",
+      "kind": "tower",
+      "canvas": [
+        64,
+        64
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "待机": {
+          "frameDurationMs": 125,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/熔芯重炮塔/待机/帧001.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/待机/帧002.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/待机/帧003.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/待机/帧004.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/待机/帧005.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/待机/帧006.png"
+          ],
+          "event": null
+        },
+        "攻击": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/熔芯重炮塔/攻击/帧001.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/攻击/帧002.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/攻击/帧003.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/攻击/帧004.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/攻击/帧005.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/攻击/帧006.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/攻击/帧007.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/攻击/帧008.png"
+          ],
+          "event": "fire"
+        },
+        "升级": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧001.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧002.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧003.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧004.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧005.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧006.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧007.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧008.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧009.png",
+            "美术资源/正式资产/tower/熔芯重炮塔/升级/帧010.png"
+          ],
+          "event": "level_switch_once"
+        }
+      }
+    },
+    {
+      "id": "tower_frost",
+      "name": "寒霜喷射塔",
+      "kind": "tower",
+      "canvas": [
+        64,
+        64
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "待机": {
+          "frameDurationMs": 125,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/寒霜喷射塔/待机/帧001.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/待机/帧002.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/待机/帧003.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/待机/帧004.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/待机/帧005.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/待机/帧006.png"
+          ],
+          "event": null
+        },
+        "攻击": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/寒霜喷射塔/攻击/帧001.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/攻击/帧002.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/攻击/帧003.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/攻击/帧004.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/攻击/帧005.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/攻击/帧006.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/攻击/帧007.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/攻击/帧008.png"
+          ],
+          "event": "fire"
+        },
+        "升级": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧001.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧002.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧003.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧004.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧005.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧006.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧007.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧008.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧009.png",
+            "美术资源/正式资产/tower/寒霜喷射塔/升级/帧010.png"
+          ],
+          "event": "level_switch_once"
+        }
+      }
+    },
+    {
+      "id": "objective_energy_core",
+      "name": "城防能量水晶",
+      "kind": "core",
+      "canvas": [
+        96,
+        96
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "待机": {
+          "frameDurationMs": 125,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/core/城防能量水晶/待机/帧001.png",
+            "美术资源/正式资产/core/城防能量水晶/待机/帧002.png",
+            "美术资源/正式资产/core/城防能量水晶/待机/帧003.png",
+            "美术资源/正式资产/core/城防能量水晶/待机/帧004.png",
+            "美术资源/正式资产/core/城防能量水晶/待机/帧005.png",
+            "美术资源/正式资产/core/城防能量水晶/待机/帧006.png"
+          ],
+          "event": null
+        },
+        "受击": {
+          "frameDurationMs": 100,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/core/城防能量水晶/受击/帧001.png",
+            "美术资源/正式资产/core/城防能量水晶/受击/帧002.png",
+            "美术资源/正式资产/core/城防能量水晶/受击/帧003.png",
+            "美术资源/正式资产/core/城防能量水晶/受击/帧004.png"
+          ],
+          "event": null
+        },
+        "破碎": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/core/城防能量水晶/破碎/帧001.png",
+            "美术资源/正式资产/core/城防能量水晶/破碎/帧002.png",
+            "美术资源/正式资产/core/城防能量水晶/破碎/帧003.png",
+            "美术资源/正式资产/core/城防能量水晶/破碎/帧004.png",
+            "美术资源/正式资产/core/城防能量水晶/破碎/帧005.png",
+            "美术资源/正式资产/core/城防能量水晶/破碎/帧006.png",
+            "美术资源/正式资产/core/城防能量水晶/破碎/帧007.png",
+            "美术资源/正式资产/core/城防能量水晶/破碎/帧008.png"
+          ],
+          "event": null
+        }
+      }
+    },
+    {
+      "id": "enemy_orc",
+      "name": "兽人小兵",
+      "kind": "enemy",
+      "canvas": [
+        32,
+        32
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "行走": {
+          "frameDurationMs": 100,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/enemy/兽人小兵/行走/帧001.png",
+            "美术资源/正式资产/enemy/兽人小兵/行走/帧002.png",
+            "美术资源/正式资产/enemy/兽人小兵/行走/帧003.png",
+            "美术资源/正式资产/enemy/兽人小兵/行走/帧004.png",
+            "美术资源/正式资产/enemy/兽人小兵/行走/帧005.png",
+            "美术资源/正式资产/enemy/兽人小兵/行走/帧006.png",
+            "美术资源/正式资产/enemy/兽人小兵/行走/帧007.png",
+            "美术资源/正式资产/enemy/兽人小兵/行走/帧008.png"
+          ],
+          "event": null
+        },
+        "攻击": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/enemy/兽人小兵/攻击/帧001.png",
+            "美术资源/正式资产/enemy/兽人小兵/攻击/帧002.png",
+            "美术资源/正式资产/enemy/兽人小兵/攻击/帧003.png",
+            "美术资源/正式资产/enemy/兽人小兵/攻击/帧004.png",
+            "美术资源/正式资产/enemy/兽人小兵/攻击/帧005.png",
+            "美术资源/正式资产/enemy/兽人小兵/攻击/帧006.png",
+            "美术资源/正式资产/enemy/兽人小兵/攻击/帧007.png",
+            "美术资源/正式资产/enemy/兽人小兵/攻击/帧008.png"
+          ],
+          "event": "fire"
+        },
+        "死亡": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/enemy/兽人小兵/死亡/帧001.png",
+            "美术资源/正式资产/enemy/兽人小兵/死亡/帧002.png",
+            "美术资源/正式资产/enemy/兽人小兵/死亡/帧003.png",
+            "美术资源/正式资产/enemy/兽人小兵/死亡/帧004.png",
+            "美术资源/正式资产/enemy/兽人小兵/死亡/帧005.png",
+            "美术资源/正式资产/enemy/兽人小兵/死亡/帧006.png",
+            "美术资源/正式资产/enemy/兽人小兵/死亡/帧007.png",
+            "美术资源/正式资产/enemy/兽人小兵/死亡/帧008.png"
+          ],
+          "event": null
+        }
+      }
+    },
+    {
+      "id": "enemy_boss",
+      "name": "兽人首领",
+      "kind": "enemy",
+      "canvas": [
+        64,
+        64
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "行走": {
+          "frameDurationMs": 100,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/enemy/兽人首领/行走/帧001.png",
+            "美术资源/正式资产/enemy/兽人首领/行走/帧002.png",
+            "美术资源/正式资产/enemy/兽人首领/行走/帧003.png",
+            "美术资源/正式资产/enemy/兽人首领/行走/帧004.png",
+            "美术资源/正式资产/enemy/兽人首领/行走/帧005.png",
+            "美术资源/正式资产/enemy/兽人首领/行走/帧006.png",
+            "美术资源/正式资产/enemy/兽人首领/行走/帧007.png",
+            "美术资源/正式资产/enemy/兽人首领/行走/帧008.png"
+          ],
+          "event": null
+        },
+        "攻击": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/enemy/兽人首领/攻击/帧001.png",
+            "美术资源/正式资产/enemy/兽人首领/攻击/帧002.png",
+            "美术资源/正式资产/enemy/兽人首领/攻击/帧003.png",
+            "美术资源/正式资产/enemy/兽人首领/攻击/帧004.png",
+            "美术资源/正式资产/enemy/兽人首领/攻击/帧005.png",
+            "美术资源/正式资产/enemy/兽人首领/攻击/帧006.png",
+            "美术资源/正式资产/enemy/兽人首领/攻击/帧007.png",
+            "美术资源/正式资产/enemy/兽人首领/攻击/帧008.png"
+          ],
+          "event": "fire"
+        },
+        "死亡": {
+          "frameDurationMs": 83,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.125
+          ],
+          "frames": [
+            "美术资源/正式资产/enemy/兽人首领/死亡/帧001.png",
+            "美术资源/正式资产/enemy/兽人首领/死亡/帧002.png",
+            "美术资源/正式资产/enemy/兽人首领/死亡/帧003.png",
+            "美术资源/正式资产/enemy/兽人首领/死亡/帧004.png",
+            "美术资源/正式资产/enemy/兽人首领/死亡/帧005.png",
+            "美术资源/正式资产/enemy/兽人首领/死亡/帧006.png",
+            "美术资源/正式资产/enemy/兽人首领/死亡/帧007.png",
+            "美术资源/正式资产/enemy/兽人首领/死亡/帧008.png"
+          ],
+          "event": null
+        }
+      }
+    },
+    {
+      "id": "projectile_repeater",
+      "name": "速射弹丸",
+      "kind": "projectile",
+      "canvas": [
+        24,
+        24
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "飞行": {
+          "frameDurationMs": 67,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "frames": [
+            "美术资源/正式资产/projectile/速射弹丸/飞行/帧001.png",
+            "美术资源/正式资产/projectile/速射弹丸/飞行/帧002.png",
+            "美术资源/正式资产/projectile/速射弹丸/飞行/帧003.png",
+            "美术资源/正式资产/projectile/速射弹丸/飞行/帧004.png",
+            "美术资源/正式资产/projectile/速射弹丸/飞行/帧005.png",
+            "美术资源/正式资产/projectile/速射弹丸/飞行/帧006.png"
+          ],
+          "event": null
+        }
+      }
+    },
+    {
+      "id": "projectile_mortar",
+      "name": "重炮弹丸",
+      "kind": "projectile",
+      "canvas": [
+        24,
+        24
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "飞行": {
+          "frameDurationMs": 67,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "frames": [
+            "美术资源/正式资产/projectile/重炮弹丸/飞行/帧001.png",
+            "美术资源/正式资产/projectile/重炮弹丸/飞行/帧002.png",
+            "美术资源/正式资产/projectile/重炮弹丸/飞行/帧003.png",
+            "美术资源/正式资产/projectile/重炮弹丸/飞行/帧004.png",
+            "美术资源/正式资产/projectile/重炮弹丸/飞行/帧005.png",
+            "美术资源/正式资产/projectile/重炮弹丸/飞行/帧006.png"
+          ],
+          "event": null
+        }
+      }
+    },
+    {
+      "id": "projectile_frost",
+      "name": "寒霜射流",
+      "kind": "projectile",
+      "canvas": [
+        48,
+        48
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "飞行": {
+          "frameDurationMs": 67,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "frames": [
+            "美术资源/正式资产/projectile/寒霜射流/飞行/帧001.png",
+            "美术资源/正式资产/projectile/寒霜射流/飞行/帧002.png",
+            "美术资源/正式资产/projectile/寒霜射流/飞行/帧003.png",
+            "美术资源/正式资产/projectile/寒霜射流/飞行/帧004.png",
+            "美术资源/正式资产/projectile/寒霜射流/飞行/帧005.png",
+            "美术资源/正式资产/projectile/寒霜射流/飞行/帧006.png"
+          ],
+          "event": null
+        }
+      }
+    },
+    {
+      "id": "fx_explosion",
+      "name": "爆炸特效",
+      "kind": "fx",
+      "canvas": [
+        96,
+        96
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "爆炸": {
+          "frameDurationMs": 67,
+          "loop": false,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "frames": [
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧001.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧002.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧003.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧004.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧005.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧006.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧007.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧008.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧009.png",
+            "美术资源/正式资产/fx/爆炸特效/爆炸/帧010.png"
+          ],
+          "event": null
+        }
+      }
+    },
+    {
+      "id": "fx_frost",
+      "name": "冰雾特效",
+      "kind": "fx",
+      "canvas": [
+        96,
+        96
+      ],
+      "transparent": true,
+      "forbidBakedGround": true,
+      "forbidBakedNicknames": true,
+      "previewStatus": "PENDING",
+      "animations": {
+        "减速": {
+          "frameDurationMs": 100,
+          "loop": true,
+          "anchor": [
+            0.5,
+            0.5
+          ],
+          "frames": [
+            "美术资源/正式资产/fx/冰雾特效/减速/帧001.png",
+            "美术资源/正式资产/fx/冰雾特效/减速/帧002.png",
+            "美术资源/正式资产/fx/冰雾特效/减速/帧003.png",
+            "美术资源/正式资产/fx/冰雾特效/减速/帧004.png",
+            "美术资源/正式资产/fx/冰雾特效/减速/帧005.png",
+            "美术资源/正式资产/fx/冰雾特效/减速/帧006.png",
+            "美术资源/正式资产/fx/冰雾特效/减速/帧007.png",
+            "美术资源/正式资产/fx/冰雾特效/减速/帧008.png"
+          ],
+          "event": null
+        }
+      }
+    }
+  ],
+  "validation": {
+    "requirePngDecode": true,
+    "requireRGBA": true,
+    "requireTransparentCorners": true,
+    "requireUniformCanvasPerAction": true,
+    "requireSemanticReview": true,
+    "require2BackgroundOverlay": true,
+    "requireActualGameLoad": true
+  },
+  "notes": "This manifest specifies expected deliverables; no sprite is marked generated or verified."
+}

@@ -1,0 +1,9 @@
+Create ONE isolated production UI asset for the original mobile pixel-art tower-defense game “直播炮塔守城”, strictly matching the existing V5 art bible:
+- native hand-authored pixel-art look, strict orthographic front-facing UI asset, crisp 3-pixel clusters, nearest-neighbor edges, no anti-aliasing, no smooth vector gradients, no 3D perspective;
+- a single tall rounded-rectangle game settlement modal FRAME only, approximately 4:5 portrait proportions, centered, complete silhouette fully inside canvas;
+- compact beveled dark charcoal stone / gunmetal construction, deep navy inset plate (#18283B / #273E56), restrained brass-gold corner guards (#C78D3B / #F0C46B), small cyan energy highlights (#42D8EE / #83F6FF), tiny rivets and restrained carved pixel details;
+- wide clean empty interior with a flat dark surface and enough negative space for later Cocos Chinese labels and score numbers; border readable at 360px mobile width, corners not overly ornate, frame not bulky;
+- one cohesive object only, symmetrical, consistent thickness, transparent-ready clean outer silhouette;
+- background must be a perfectly uniform solid chroma-key magenta #FF00FF, no texture, no floor, no scene, no additional props;
+- absolutely no text, no letters, no numbers, no icons, no buttons, no logos, no watermark, no drop shadow or glow outside the frame.
+This is a UI component master asset, not a full screen mockup or sprite sheet. The Chinese labels and functional buttons will be separate Cocos layers.

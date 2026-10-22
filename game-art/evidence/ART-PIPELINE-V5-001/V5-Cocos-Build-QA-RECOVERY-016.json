@@ -1,0 +1,35 @@
+{
+  "startedAt": "2026-10-20T11:33:12",
+  "durationSeconds": 36.8,
+  "returnCode": 36,
+  "exitCodeMeaning": "36 is Cocos Creator documented build-success exit code",
+  "effectiveSuccess": true,
+  "buildSuccessLogged": true,
+  "typescriptErrors": [],
+  "errorLogBytes": 0,
+  "stdoutBytes": 68164,
+  "entryExists": true,
+  "entryMtime": "2026-10-20T11:33:48",
+  "resourcePngCount": 89,
+  "missingMeta": [],
+  "candidateResourceStrings": {
+    "enemyLayers": true,
+    "ui": true,
+    "ground": true
+  },
+  "lastLogLines": [
+    "2026-10-20 11:33:48 - debug: adsense-h5g-plugin:(onAfterBuild) in 1 ms ✓, progress: 64%",
+    "",
+    "2026-10-20 11:33:48 - log: Asset DB is resume!",
+    "",
+    "2026-10-20 11:33:48 - debug: builder:build-project-total (8959ms)",
+    "",
+    "2026-10-20 11:33:48 - debug: build success in 8959!",
+    "",
+    "2026-10-20 11:33:48 - debug: [Build Memory track]: builder:build-project-total start:195.18MB, end 251.64MB, increase: 56.46MB",
+    "",
+    "2026-10-20 11:33:48 - debug: ================================ build Task (web-mobile) Finished in (8 s)ms ================================",
+    ""
+  ],
+  "stderrTail": []
+}

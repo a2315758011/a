@@ -1,0 +1,28 @@
+{
+  "status": "TECH_PASS_ART_APPROVAL_PENDING",
+  "CocosVersion": "3.8.2",
+  "spriteFrameImported": 56,
+  "renderedAnimations": 7,
+  "zeroJSExceptions": true,
+  "transparentMarginMinPx": 11,
+  "touchingEdge": 0,
+  "editablePoseORA": 32,
+  "masterORA": 5,
+  "spritesheetPNG": 7,
+  "zipSHA256": "17b25b1dca9d449f8898146b310394c4c48e0d185cc8b8dad48eabdd9c1d7094",
+  "zipBytes": 599241,
+  "isolatedArchiveRegeneratedFrames": 56,
+  "cocosBuildLoggedSuccess": true,
+  "buildExitCode": 36,
+  "webMobileFiles": 196,
+  "screenshotResolution": [
+    1056,
+    1748
+  ],
+  "screenshotSHA256": "277bfd429fe877cca8888e7222314f95c4098ba05045feea7e152a917888208a",
+  "officialGameUnchanged": true,
+  "artStyleApproval": false,
+  "motionQualityFinalApproval": false,
+  "CocosFormalPrefabBinding": false,
+  "platformDouyinWechatAndroidVerified": false
+}

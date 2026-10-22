@@ -1,0 +1,544 @@
+{
+  "taskId": "ART-PIPELINE-V5-RECOVERY-005",
+  "createdAt": "2026-10-20",
+  "status": "PARTIAL_QA",
+  "inputs": [
+    {
+      "type": "enemy-layer-sheet",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\原始生成\\战斗分层\\兽人\\V5_敌人图层母图-RECOVERY-005.png",
+      "sha256": "7779d6afa42b64225e10d887207ef6de32473b072f87cbe134d68c79cd9f2932",
+      "size": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "type": "ui-skin-sheet",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\原始生成\\UI皮肤\\V5_UI皮肤母图-RECOVERY-004.png",
+      "sha256": "ae72680ce848d1d75c6d5413bda2e3cc3c7611385f530f981e91e6165c9580b3",
+      "size": [
+        1774,
+        887
+      ]
+    },
+    {
+      "type": "ground-tile",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\原始生成\\地砖\\V5_无缝地砖母图-RECOVERY-003.png",
+      "sha256": "93cac068f1d807aad6771f5bac017d6b7295613daed27c3b454baa8c5e9a057a",
+      "size": [
+        1254,
+        1254
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset": "兽人小兵",
+      "layer": "身体护甲",
+      "kind": "兽人",
+      "sourceRect": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\兽人\\兽人小兵_身体护甲_母图层.png",
+      "sourceSha256": "9289e09b85f1cb801e8896df3d4b0af645833719269133fc52406e810e46b796",
+      "qa": {
+        "width": 544,
+        "height": 544,
+        "transparentRatio": 0.89165,
+        "opaqueRatio": 0.10835,
+        "bbox": [
+          182,
+          208,
+          366,
+          432
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "兽人小兵",
+      "layer": "头部双臂",
+      "kind": "兽人",
+      "sourceRect": [
+        512,
+        0,
+        1024,
+        512
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\兽人\\兽人小兵_头部双臂_母图层.png",
+      "sourceSha256": "821abaf2a8860101709775b6d6fa1f5607099290afd9e864e8f7f686d78707e8",
+      "qa": {
+        "width": 544,
+        "height": 544,
+        "transparentRatio": 0.90576,
+        "opaqueRatio": 0.09424,
+        "bbox": [
+          97,
+          144,
+          447,
+          310
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "兽人小兵",
+      "layer": "武器配件",
+      "kind": "兽人",
+      "sourceRect": [
+        1024,
+        0,
+        1536,
+        512
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\兽人\\兽人小兵_武器配件_母图层.png",
+      "sourceSha256": "b8f332c781f282befcdb890cad2f21b74f7b56cf2c7c575ceef59e8531c60a15",
+      "qa": {
+        "width": 544,
+        "height": 544,
+        "transparentRatio": 0.89648,
+        "opaqueRatio": 0.10352,
+        "bbox": [
+          123,
+          145,
+          456,
+          369
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "兽人首领",
+      "layer": "身体护甲",
+      "kind": "兽人",
+      "sourceRect": [
+        0,
+        512,
+        512,
+        1024
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\兽人\\兽人首领_身体护甲_母图层.png",
+      "sourceSha256": "8eb54f59b0064529d47c580907ca91902350b8c1b5a88779c310005123211f16",
+      "qa": {
+        "width": 544,
+        "height": 544,
+        "transparentRatio": 0.6938,
+        "opaqueRatio": 0.3062,
+        "bbox": [
+          100,
+          80,
+          448,
+          438
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "兽人首领",
+      "layer": "头部双臂",
+      "kind": "兽人",
+      "sourceRect": [
+        512,
+        512,
+        1024,
+        1024
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\兽人\\兽人首领_头部双臂_母图层.png",
+      "sourceSha256": "7b01d32dd7808ebc0d5da0a72ed0bf0517cea8fb2d120ea7dd6f2e4789ec803f",
+      "qa": {
+        "width": 544,
+        "height": 544,
+        "transparentRatio": 0.79484,
+        "opaqueRatio": 0.20516,
+        "bbox": [
+          34,
+          27,
+          510,
+          283
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "兽人首领",
+      "layer": "武器配件",
+      "kind": "兽人",
+      "sourceRect": [
+        1024,
+        512,
+        1536,
+        1024
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\兽人\\兽人首领_武器配件_母图层.png",
+      "sourceSha256": "b5516461c50298d2c56ee01f4f90aa2428133d356d2370fb6265f43f0490c20e",
+      "qa": {
+        "width": 544,
+        "height": 544,
+        "transparentRatio": 0.71614,
+        "opaqueRatio": 0.28386,
+        "bbox": [
+          59,
+          59,
+          511,
+          427
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "兽人小兵",
+      "layer": "composite-preview",
+      "kind": "兽人",
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\兽人\\兽人小兵_合成预览_母图.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\战斗单位\\兽人\\兽人小兵.png",
+      "sourceSha256": "7df59e733c1253fb8de392f057c70c706b261193caa7b998297a9380efa57a90",
+      "runtimeSha256": "369cb237b033f031b6c6179343dd81851cf7df37a112fddf7dc3aa58ad446771",
+      "qa": {
+        "width": 544,
+        "height": 544,
+        "transparentRatio": 0.79626,
+        "opaqueRatio": 0.20374,
+        "bbox": [
+          97,
+          144,
+          456,
+          432
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "兽人首领",
+      "layer": "composite-preview",
+      "kind": "兽人",
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\兽人\\兽人首领_合成预览_母图.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\战斗单位\\兽人\\兽人首领.png",
+      "sourceSha256": "726c7b44666f39784f1b5af8e4521b1a33eab53283e7de03a1564a821824cf60",
+      "runtimeSha256": "896c915a564e42242591e39e4517a509fc66954ec928fef31c9d033f22cb3449",
+      "qa": {
+        "width": 544,
+        "height": 544,
+        "transparentRatio": 0.56079,
+        "opaqueRatio": 0.43921,
+        "bbox": [
+          34,
+          27,
+          511,
+          438
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "HUD顶部底板",
+      "layer": "single",
+      "kind": "UI-面板",
+      "sourceRect": [
+        0,
+        0,
+        444,
+        444
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\UI\\HUD顶部底板_母图层.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\UI\\面板\\HUD顶部底板.png",
+      "sourceSha256": "9143356228d409dfe5b7a0d2b753eda17d00999f81e007f68be4e845f9be0895",
+      "runtimeSha256": "156842d915f44b0e7cdfdb115ca3e487bb4b71b4dd4cf1fbc4facf0fd9796bfa",
+      "qa": {
+        "width": 476,
+        "height": 476,
+        "transparentRatio": 0.69822,
+        "opaqueRatio": 0.30178,
+        "bbox": [
+          31,
+          174,
+          448,
+          353
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "主操作按钮",
+      "layer": "single",
+      "kind": "UI-按钮",
+      "sourceRect": [
+        444,
+        0,
+        887,
+        444
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\UI\\主操作按钮_母图层.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\UI\\按钮\\主操作按钮.png",
+      "sourceSha256": "9c324794225d5ab015752916eb25cdbc841d141d7cec880bbf1c9a5158affce8",
+      "runtimeSha256": "598837eccfe8b84dbb520531c767e4d940f0fc6f372a7a76e52a1120e6149d4a",
+      "qa": {
+        "width": 476,
+        "height": 476,
+        "transparentRatio": 0.72735,
+        "opaqueRatio": 0.27265,
+        "bbox": [
+          29,
+          181,
+          447,
+          343
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "次操作按钮",
+      "layer": "single",
+      "kind": "UI-按钮",
+      "sourceRect": [
+        887,
+        0,
+        1330,
+        444
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\UI\\次操作按钮_母图层.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\UI\\按钮\\次操作按钮.png",
+      "sourceSha256": "821be6a7cc9072aaec1034ae080aa281522398b26de53c31d03c9823b0f225a1",
+      "runtimeSha256": "a0968dd5053bc0fe62d6cd3bfc9ee8236f00430524b08a939ec862baba3e18b9",
+      "qa": {
+        "width": 476,
+        "height": 476,
+        "transparentRatio": 0.74176,
+        "opaqueRatio": 0.25824,
+        "bbox": [
+          29,
+          184,
+          447,
+          341
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "离场按钮",
+      "layer": "single",
+      "kind": "UI-按钮",
+      "sourceRect": [
+        1330,
+        0,
+        1774,
+        444
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\UI\\离场按钮_母图层.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\UI\\按钮\\离场按钮.png",
+      "sourceSha256": "f49cef782c86aa85238744495dcf7244cf8e0634cd0f65f9122cb3348655300f",
+      "runtimeSha256": "2613aa94731576ef555679fb61cd266fb5fb128fe6011e33a1fd410aa1e7ff67",
+      "qa": {
+        "width": 476,
+        "height": 476,
+        "transparentRatio": 0.73136,
+        "opaqueRatio": 0.26864,
+        "bbox": [
+          30,
+          183,
+          448,
+          346
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "生命值条外框",
+      "layer": "single",
+      "kind": "UI-面板",
+      "sourceRect": [
+        0,
+        444,
+        444,
+        887
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\UI\\生命值条外框_母图层.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\UI\\面板\\生命值条外框.png",
+      "sourceSha256": "18a8af3d9ee0adad4da8bcd3e0ec9fef39e8b39363b3bf694992bf7db088a290",
+      "runtimeSha256": "154c3a3f2b9e720102814393eff84ef7ffad7c7d1f138bf32ae906149239d0e3",
+      "qa": {
+        "width": 476,
+        "height": 476,
+        "transparentRatio": 0.79354,
+        "opaqueRatio": 0.20646,
+        "bbox": [
+          35,
+          154,
+          460,
+          299
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "波次徽章",
+      "layer": "single",
+      "kind": "UI-图标",
+      "sourceRect": [
+        444,
+        444,
+        887,
+        887
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\UI\\波次徽章_母图层.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\UI\\图标\\波次徽章.png",
+      "sourceSha256": "5561c635e253ab308062784c9ab51d12fbaa1354d8576d240a0b020e1fee4cd1",
+      "runtimeSha256": "8d0389244376568df8c661a20b243c6b34b62de81abbb8f77ef1075c96fdb988",
+      "qa": {
+        "width": 476,
+        "height": 476,
+        "transparentRatio": 0.66714,
+        "opaqueRatio": 0.33286,
+        "bbox": [
+          16,
+          41,
+          446,
+          377
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "能量水晶图标",
+      "layer": "single",
+      "kind": "UI-图标",
+      "sourceRect": [
+        887,
+        444,
+        1330,
+        887
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\UI\\能量水晶图标_母图层.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\UI\\图标\\能量水晶图标.png",
+      "sourceSha256": "6a899f08925f3a1372587c2189ac701f5df8498110d1e6019663d7bb387d6a29",
+      "runtimeSha256": "37a6617a635aa2d1236cb2ba7326da66af5b4f8725e00908feae50fd51cfbe6c",
+      "qa": {
+        "width": 476,
+        "height": 476,
+        "transparentRatio": 0.84934,
+        "opaqueRatio": 0.15066,
+        "bbox": [
+          166,
+          72,
+          361,
+          365
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "炮塔升级图标",
+      "layer": "single",
+      "kind": "UI-图标",
+      "sourceRect": [
+        1330,
+        444,
+        1774,
+        887
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\UI\\炮塔升级图标_母图层.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\UI\\图标\\炮塔升级图标.png",
+      "sourceSha256": "21768445d103cfc5fc39255e571001be168e308790a9163e19c2542c26d83a4e",
+      "runtimeSha256": "80c4ce656e873b9f1f42545183e8654cde73f82a4166f6b5880d53504871d095",
+      "qa": {
+        "width": 476,
+        "height": 476,
+        "transparentRatio": 0.75008,
+        "opaqueRatio": 0.24992,
+        "bbox": [
+          99,
+          63,
+          382,
+          363
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0.0,
+        "pass": true
+      },
+      "approved": false
+    },
+    {
+      "asset": "战场地砖",
+      "kind": "环境",
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\环境\\战场地砖_母图.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\环境\\战场地砖.png",
+      "sourceSha256": "319de3c01e649a7c51574a6104d53506bb79c725267f369b0f777e658ce603b2",
+      "seamless": {
+        "leftRightMeanAbsDiff": 6.12,
+        "topBottomMeanAbsDiff": 6.53,
+        "pass": true
+      },
+      "approved": false
+    }
+  ],
+  "checks": [
+    {
+      "id": "ENEMY-SPLIT",
+      "pass": true,
+      "cells": 6
+    },
+    {
+      "id": "UI-SPLIT",
+      "pass": true,
+      "cells": 8
+    },
+    {
+      "id": "GROUND-SEAM",
+      "pass": true,
+      "leftRightMeanAbsDiff": 6.12,
+      "topBottomMeanAbsDiff": 6.53
+    }
+  ],
+  "notes": [
+    "Only source sheets saved on the Windows workstation are processed.",
+    "Flat magenta removal uses edge-connected flood fill, not whole-image color replacement.",
+    "Any failed alpha/silhouette check stays a candidate and must not be wired into formal gameplay."
+  ],
+  "summary": {
+    "checksPassed": 3,
+    "checksTotal": 3,
+    "assetsProcessed": 17,
+    "allFamiliesReady": true
+  }
+}

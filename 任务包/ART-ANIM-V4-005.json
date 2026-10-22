@@ -1,0 +1,75 @@
+{
+  "taskId": "ART-ANIM-V4-005",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-art-v4-20261019",
+  "status": "TECH_QA_PASS_ART_NOT_APPROVED",
+  "reviewMode": "SELF_REVIEW",
+  "dependsOn": [
+    "ART-ANIM-V3-004"
+  ],
+  "instructionRefs": [
+    {
+      "url": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.7",
+      "chapters": [
+        "RULE-03",
+        "RULE-06",
+        "RULE-07",
+        "RULE-10",
+        "RULE-13"
+      ]
+    }
+  ],
+  "purpose": "Correct v3 32 edge-clipped frames by redrawing/recomposing expanded canvas. Keep 5 editable source masters, 32 per-pose ORA, 56 PNG, 7 sprite sheets, isolated Cocos QA, zero replacement of main scene.",
+  "deliverables": {
+    "sourceDir": "美术资源/分层源文件/动作与分层修订-v4-候选",
+    "package": "美术资源/分层源文件/分层动作母图与可编辑源-v4-待审核.zip",
+    "packageBytes": 599241,
+    "packageSHA256": "17b25b1dca9d449f8898146b310394c4c48e0d185cc8b8dad48eabdd9c1d7094",
+    "sourceFrameSize": [
+      160,
+      144
+    ],
+    "frameDurationMs": 110,
+    "baseLayerORA": 5,
+    "frameEditORA": 32,
+    "spriteSheets": 7,
+    "PNGFrames": 56,
+    "actions": 7,
+    "isolatedCocosQA": "_assistant-temp/美术v4-Cocos隔离验证工程",
+    "screenshot": "美术资源/分层源文件/动作与分层修订-v4-候选/引擎验收证据/Cocos浏览器CDP场景运行图.png",
+    "QA": "美术资源/分层源文件/动作与分层修订-v4-候选/V4最终资源与引擎实测.json",
+    "evidence": "验收证据/ART-ANIM-V4-005-分层图集与引擎验收.md"
+  },
+  "validation": {
+    "all56AlphaMarginsAtLeast11": true,
+    "zeroBorderHits": true,
+    "all32EditableORARecomposePixelExact": true,
+    "all7FourByTwoSheetsCropMatchAll56": true,
+    "archiveStandaloneRebuild56of56": true,
+    "extractedORACount": 37,
+    "nearestFiltering56of56": true,
+    "CocosBuildLog": "build success",
+    "CocosBuilderExitCode": 36,
+    "CocosWebMobileBuildFiles": 196,
+    "CocosWebGL2Runtime": "PASS",
+    "spriteFramesLoaded56of56": true,
+    "javascriptExceptions": 0,
+    "userWindowsGUIShown": true,
+    "officialSceneAndControllerSHAUnchanged": true,
+    "artisticQuality": "PENDING_STYLE_APPROVAL",
+    "deathPoseArtReview": "PENDING_MANUAL",
+    "officialGamePrefabIntegrated": false,
+    "douyinWechatAndroidQA": false
+  },
+  "knownIssues": [
+    "Broad-blade axe silhouette improved but last-frame death pose may still need art-director polish and handoff review",
+    "UI and world camera pipeline remain untouched; formal prefab binding and game integration not in scope",
+    "CocosBuilder GUI CLI exits 36 although build log and WebGL runtime pass"
+  ],
+  "nextActions": [
+    "Review v4 source and play GIFs, decide if art style is acceptable",
+    "Only after acceptance convert to production art and bind Prefab at actual game scale",
+    "Verify gameplay, big map/tower count performance and Douyin/WeChat target devices separately"
+  ]
+}

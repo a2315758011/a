@@ -1,0 +1,60 @@
+{
+  "url": "localhost only",
+  "buildDir": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\美术候选Cocos隔离构建工程\\build\\web-mobile",
+  "edge": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+  "result": {
+    "exit": 0,
+    "stderrTail": "ser_importer_utils_win.cc:163] QQBrowser user data path not found.\n[95924:95560:1019/003222.284:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.\n[95924:95560:1019/003222.296:ERROR:chrome\\browser\\task_manager\\providers\\fallback_task_provider.cc:126] Every renderer should have at least one task provided by a primary task provider. If a \"Renderer\" fallback task is shown, it is a bug. If you have repro steps, please file a new bug and tag it as a dependency of crbug.com/739782.\n10459 bytes written to file C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\分层源文件\\动画引擎验收隔离\\Cocos候选场景-Edge实际截图.png\n[95924:85720:1019/003223.656:ERROR:components\\sync\\engine\\get_updates_processor.cc:418] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_ABORTED)\n[95924:96600:1019/003223.966:ERROR:chrome\\browser\\edge_windows_user_activity\\windows_user_activity_register.cc:672] hr failed: 无效的窗口句柄。 (0x80070578)\n",
+    "stdoutTail": ""
+  },
+  "HTTPFilesRequested": 24,
+  "HTTP404": [
+    "/favicon.ico"
+  ],
+  "sampleRequests": [
+    "/",
+    "/style.css",
+    "/src/polyfills.bundle.js",
+    "/src/system.bundle.js",
+    "/src/import-map.json",
+    "/favicon.ico",
+    "/index.js",
+    "/application.js",
+    "/cocos-js/cc.js",
+    "/cocos-js/_virtual_cc-c0bce2db.js",
+    "/src/settings.json",
+    "/cocos-js/spine.asm-8c7702b2.js",
+    "/cocos-js/spine.js-6d0b02e3.js",
+    "/cocos-js/spine.wasm-d49d250e.js",
+    "/cocos-js/spine-9a8528df.js",
+    "/cocos-js/assets/spine-59f406dc.wasm",
+    "/src/chunks/bundle.js",
+    "/assets/internal/config.json",
+    "/assets/internal/index.js",
+    "/assets/internal/import/0c/0ca60d3e4.json"
+  ],
+  "screenshotExists": true,
+  "image": {
+    "dimensions": [
+      1080,
+      1920
+    ],
+    "bytes": 10459,
+    "sha256": "6cd490899345e3f48dd0a2a9fb0ff4910cb6ac5d239eaa5b603f481830869c95",
+    "colorVariety": 7,
+    "extrema": [
+      [
+        0,
+        51
+      ],
+      [
+        0,
+        51
+      ],
+      [
+        0,
+        51
+      ]
+    ]
+  }
+}

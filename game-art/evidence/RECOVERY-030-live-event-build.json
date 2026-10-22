@@ -1,0 +1,58 @@
+{
+  "task": "RECOVERY-030 shop persistence vertical slice",
+  "durationSeconds": 34.16,
+  "returnCode": 36,
+  "buildSuccessLogged": true,
+  "typescriptErrors": [],
+  "stderrBytes": 0,
+  "entryExists": true,
+  "resourcePngCount": 89,
+  "missingMeta": [],
+  "compiledMarkers": {
+    "玩家档案仓库": [
+      "assets\\main\\index.js"
+    ],
+    "profileSnapshot": [
+      "assets\\main\\index.js"
+    ],
+    "shopCatalog": [
+      "assets\\main\\index.js"
+    ],
+    "buyShopItem": [
+      "assets\\main\\index.js"
+    ],
+    "战备商店": [
+      "assets\\main\\index.js"
+    ],
+    "守城币": [
+      "assets\\main\\index.js"
+    ],
+    "openShop": [
+      "assets\\main\\index.js"
+    ],
+    "buyCoreShield": [
+      "assets\\main\\index.js"
+    ]
+  },
+  "allMarkersCompiled": true,
+  "lastLogLines": [
+    "2026-10-21 22:25:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----",
+    "",
+    "2026-10-21 22:25:56 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (1ms)",
+    "",
+    "2026-10-21 22:25:56 - debug: adsense-h5g-plugin:(onAfterBuild) in 1 ms ✓, progress: 64%",
+    "",
+    "2026-10-21 22:25:56 - log: Asset DB is resume!",
+    "",
+    "2026-10-21 22:25:56 - debug: builder:build-project-total (9998ms)",
+    "",
+    "2026-10-21 22:25:57 - debug: build success in 9998!",
+    "",
+    "2026-10-21 22:25:57 - debug: [Build Memory track]: builder:build-project-total start:197.38MB, end 251.93MB, increase: 54.55MB",
+    "",
+    "2026-10-21 22:25:57 - debug: ================================ build Task (web-mobile) Finished in (10 s)ms ================================",
+    ""
+  ],
+  "stderrTail": [],
+  "effectiveSuccess": true
+}

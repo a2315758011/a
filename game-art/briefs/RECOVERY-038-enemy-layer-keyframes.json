@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "taskId": "RECOVERY-038-ENEMY-LAYER-KEYFRAMES",
+  "frameRate": 9,
+  "frameDurationMs": 110,
+  "frameCount": 8,
+  "runtimeStrategy": "three RGBA source layers + authored transform keyframes JSON; preview strips are not runtime textures",
+  "states": [
+    "idle",
+    "walk",
+    "hurt",
+    "attack",
+    "death"
+  ],
+  "interpolation": "step",
+  "pixelRules": {
+    "integerTranslation": true,
+    "nearestNeighbor": true,
+    "antiAlias": false,
+    "rotationPreviewResample": "nearest"
+  },
+  "layerOrder": [
+    "bodyArmor",
+    "headArms",
+    "weaponAccessory"
+  ],
+  "notes": [
+    "Runtime transforms are sampled from fixed authored keyframes; no procedural sine/cos animation is required.",
+    "Hurt/death tint can remain a runtime color effect; keyframe data defines pose and opacity.",
+    "Death is one-shot; idle/walk/attack may loop; hurt is one-shot/retriggerable."
+  ]
+}

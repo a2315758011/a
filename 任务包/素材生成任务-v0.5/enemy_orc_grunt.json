@@ -1,0 +1,64 @@
+{
+  "id": "enemy_orc_grunt",
+  "name": "兽人突袭者",
+  "stage": "MASTER_SAMPLE_NOT_FINAL",
+  "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+  "sourceTaskId": "ART-MASTER-ENEMY_ORC_GRUNT-20261012",
+  "idempotencyKey": "live-turret-defense-ART-MASTER-ENEMY_ORC_GRUNT-20261012-v05-once",
+  "promptSHA256": "86b2001b5c1897f322c3c8c4db4c87739d8a534f6e971fdd3978116d5a952db2",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "submittedAt": "2026-10-12T14:40:43.522516+00:00",
+  "jobId": "d0b57ddb-dc59-4b0b-88f2-a875f5b93615",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "d0b57ddb-dc59-4b0b-88f2-a875f5b93615",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:40:43.569Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-ENEMY_ORC_GRUNT-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Single independent original green ORC GRUNT unit for top-down 2D pixel-art tower-defense. Stocky small fantasy orc, green face, two small tusks, ragged brown leather armor, one iron cleaver held in his right hand, clear recognizable two leg",
+        "model": "",
+        "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:00.722689+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\enemy_orc_grunt-母素材-原始.png",
+  "sha256": "0b24f141a11ee1e382b2571092465c901b17bf598ee86ab1b52b42655a861c05",
+  "size": [
+    2048,
+    2048
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "081ad0541967ee0c317bb761",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816098171_doubao_豆包_·_网页账号_5_e463e422.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816098171_doubao_豆包_·_网页账号_5_e463e422.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816098171_doubao_豆包_·_网页账号_5_e463e422.png",
+      "name": "1791816098171_doubao_豆包_·_网页账号_5_e463e422.png",
+      "size": 1281382,
+      "mimeType": "image/png"
+    }
+  ]
+}

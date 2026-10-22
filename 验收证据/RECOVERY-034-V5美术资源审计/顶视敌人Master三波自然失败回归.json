@@ -1,0 +1,19 @@
+{
+  "task": "RECOVERY-034",
+  "test": "9座基础塔 + 顶视敌人Master A/B 三波自然结局",
+  "executedBy": "qa_base9_natural_outcome_RECOVERY_027.py on current RECOVERY-034 build",
+  "result": "PASS",
+  "terminal": {
+    "state": "lose",
+    "hp": 0,
+    "wave": 3,
+    "towers": 9,
+    "kills": 74,
+    "enemies": 22,
+    "time": 87.46666666666427,
+    "online": 0,
+    "menu": false
+  },
+  "jsErrors": 0,
+  "note": "This is a real natural long-run result after top-down enemy Master binding. Outcome changed from earlier balance snapshots because current game systems differ; no balance values were modified by RECOVERY-034."
+}

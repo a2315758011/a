@@ -1,0 +1,36 @@
+{
+  "status": "COCOS_QA_RUNTIME_PASS__ART_REVIEW_PENDING",
+  "projectId": "live-turret-defense",
+  "cocos": "3.8.2",
+  "assetVersion": "v2 candidate",
+  "PNGs": 56,
+  "PNGContentByteEqualSource": true,
+  "spritesImportedWithSpriteFrameSubmeta": 56,
+  "nearestMinMagFilter": 56,
+  "mainSceneUnchanged": true,
+  "mainControllerUnchanged": true,
+  "debugBuilderLog": "build success",
+  "debugBuilderProcessExitCode": 36,
+  "buildFiles": 196,
+  "browserConsoleLoad": "7 groups / 56 frames",
+  "javascriptExceptions": 0,
+  "HTTP404": [
+    "/favicon.ico"
+  ],
+  "webgl2": true,
+  "screenshotDimensions": [
+    1056,
+    1748
+  ],
+  "screenshotSHA256": "6bfe6f500944c8ce99a3ce50251a6e3cf23e47d7e5d4ad74a81da6cb1e1a3ba1",
+  "gameMainSceneArtBound": false,
+  "mobileDouyinValidation": false,
+  "styleApproved": false,
+  "files": {
+    "qaScene": "CocosCreator工程/assets/场景/待审美术演示.scene",
+    "controller": "CocosCreator工程/assets/脚本/待审美术测试控制器.ts",
+    "textures": "CocosCreator工程/assets/resources/待审核-分层动画测试",
+    "build": "_assistant-temp/美术候选Cocos隔离构建工程/build/web-mobile/index.html",
+    "browserEvidence": "美术资源/分层源文件/动画引擎验收隔离/Cocos浏览器CDP场景运行图.png"
+  }
+}

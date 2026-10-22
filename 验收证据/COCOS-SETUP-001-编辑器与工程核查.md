@@ -1,0 +1,15 @@
+# COCOS-SETUP-001｜用户要求仅用 Cocos Creator 的纠偏验证
+- 日期：2026-10-13（工作站时区 +08）
+- 项目：直播炮塔守城，projectId=live-turret-defense
+- 用户原需求：必须使用 Cocos Creator 制作和预览；HTML 是不合要求的临时辅助，禁止再次冒充正式游戏。
+- 实测前状态：只安装 CocosDashboard 2.2.2，未找到 CocosCreator.exe；游戏目录没有 CocosCreator 工程。
+- 已通过官方原始 zip 下载编辑器：来源 https://download.cocos.com/CocosCreator/v3.8.2/CocosCreator-v3.8.2-win-011206.zip
+- 下载文件：_assistant-temp/CocosInstaller/CocosCreator-v3.8.2-win-011206.zip；字节=1036041788；SHA256=2904BC13F6BB8E1F1078023F74EF1BD84F6378264F06EA35AF354CF753D3E9C3。
+- 安装目录：C:\Users\ide0007\.CocosCreator\Creator\3.8.2\；已真实找到 CocosCreator.exe；完整打包提取无错误日志。
+- 初始化目录：CocosCreator工程/，逐文件复制官方 resources/templates/empty-2d，保留 .creator/default-meta.json、profiles、settings、tsconfig.json 和 package.json；仅修改 package.json 项目名为 live-turret-defense，中文文件夹不被替换。
+- GUI 真实启动：CocosCreator.exe --project "...\直播炮塔守城\CocosCreator工程"；PID 660416，实测进程存活，Windows窗口标题 Cocos Creator 3.8.2。
+- 结果核对：project/package.json存在、settings/v2/packages/engine.json存在，正确 2D 模板；项目 .scene 文件数量=0。
+- 验收边界：**只完成编辑器安装与项目空模板初始化**。没有可玩的Cocos场景、没有完成 TypeScript 玩法迁移、没有 Web-Mobile 预览、更没有 bytedance-mini-game 抖音构建验收。G0 / G1 / G2 依旧原状态，禁止称已可玩。
+- 旧的 白底可玩原型 目录没有修改；从此不能以旧 HTML 原型替代正式 Cocos 验收。
+- 并发隔离：没有修改其他Agent使用的美术资源目录，也没有改 win-unpacked 网关、隧道或任何总指令文件。
+- 后续责任任务：COCOS-MIGRATE-001 需在 G0 所要求前置门槛得到真实处理后，构建 Cocos Scene + TypeScript 规则 + world camera + 双向触控；通过 Creator真实预览、输入胜负回归再申请抖音构建。

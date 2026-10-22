@@ -1,0 +1,13 @@
+{
+  "task": "WHOLE-GAME-FAST-REGRESSION-20261022",
+  "timestamp": "2026-10-22T15:00:42.478882+00:00",
+  "sourceFingerprint": "d217d2be0312e7a24d425dcb5defcad6fadea038a1749ad7370125286a1d77d2",
+  "sourceFiles": 418,
+  "reusedBuild": true,
+  "build": null,
+  "tests": [],
+  "result": "FAIL",
+  "error": "Command '['C:\\\\Users\\\\ide0007\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe', 'C:\\\\Users\\\\ide0007\\\\Desktop\\\\deliverable\\\\AI小游戏实战营\\\\AI小游戏制作工程文件\\\\直播炮塔守城\\\\自动化测试\\\\qa_formal_fast_combat_20261022.py']' timed out after 70 seconds",
+  "stack": "PE,stderr=subprocess.PIPE,\n                     text=True,encoding=\"utf8\",errors=\"replace\",timeout=limit)\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py\", line 556, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py\", line 1222, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py\", line 1646, in _communicate\n    raise TimeoutExpired(self.args, orig_timeout)\nsubprocess.TimeoutExpired: Command '['C:\\\\Users\\\\ide0007\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe', 'C:\\\\Users\\\\ide0007\\\\Desktop\\\\deliverable\\\\AI小游戏实战营\\\\AI小游戏制作工程文件\\\\直播炮塔守城\\\\自动化测试\\\\qa_formal_fast_combat_20261022.py']' timed out after 70 seconds\n",
+  "totalSeconds": 71.785
+}

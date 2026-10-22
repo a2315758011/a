@@ -1,0 +1,71 @@
+{
+  "taskId": "RECOVERY-035",
+  "assetId": "td-v5-ui-settlement-panel",
+  "status": "PASS",
+  "source": {
+    "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/provider-output.png",
+    "sha256": "7AD6A7F75B40D08C50BBCCA411104983F5D25A03F77B393DCD434797758E6022",
+    "bytes": 1296874,
+    "size": [
+      1254,
+      1254
+    ],
+    "mode": "RGB"
+  },
+  "keying": {
+    "rule": "R>125, B>125, G<145, abs(R-B)<130; no magenta is part of approved panel palette",
+    "keyPixels": 578426,
+    "sourcePixels": 1572516,
+    "bbox": [
+      161,
+      40,
+      1093,
+      1197
+    ],
+    "cropSize": [
+      932,
+      1157
+    ],
+    "bboxAspectRatio": 0.80553
+  },
+  "master": {
+    "path": "game-art/evidence/RECOVERY-035-UI-PANEL-MASTER-A/master.png",
+    "sha256": "AFC5887638F7F86E3D3AA28E0785BFD0AFE175478937FE79DC0CCF088B24E1DB",
+    "bytes": 162148,
+    "size": [
+      512,
+      636
+    ],
+    "mode": "RGBA",
+    "alphaMin": 0,
+    "alphaMax": 255,
+    "transparentPixels": 25562,
+    "transparentRatio": 0.0785,
+    "opaquePixels": 300070,
+    "semiTransparentPixels": 0,
+    "uniqueOpaqueRgbColors": 48,
+    "paletteLimit": 48,
+    "residualMagentaOpaquePixels": 0,
+    "centerPixelAlpha": 255,
+    "cornerAlphas": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "runtime": {
+    "path": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/resources/候选战斗美术-v5-RECOVERY-004/UI/面板/结算面板底板.png",
+    "sha256": "AFC5887638F7F86E3D3AA28E0785BFD0AFE175478937FE79DC0CCF088B24E1DB",
+    "bytes": 162148
+  },
+  "method": "immutable provider source -> magenta key -> crop silhouette -> 48-color no-dither palette reduction -> nearest-neighbor 512x636 RGBA master",
+  "timestamp": "2026-10-22T10:31:13",
+  "gates": {
+    "realAlpha": true,
+    "panelInteriorOpaque": true,
+    "noOpaqueMagentaFringe": true,
+    "pixelPaletteBound": true,
+    "runtimeCopyHashMatches": true
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "test": "Cocos Creator 3.8.2 real-time mouse-only full playthrough",
+  "states": [
+    {
+      "wallTime": 7.1,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 3.1,
+      "towers": 11,
+      "enemies": 5,
+      "spawned": 5,
+      "zoom": 0.68
+    }
+  ],
+  "consoleErrors": [],
+  "actions": [
+    {
+      "clock": 4.1,
+      "name": "start"
+    },
+    {
+      "clock": 4.3,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.5,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 4.7,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 4.9,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 5.1,
+      "name": "zoom_out"
+    },
+    {
+      "clock": 6.8,
+      "name": "drag_camera"
+    },
+    {
+      "clock": 7.0,
+      "name": "recenter"
+    }
+  ],
+  "result": "PORTRAIT_INPUT_PASS",
+  "startedAt": "2026-10-19T18:42:18",
+  "initial": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9
+  },
+  "viewport": {
+    "w": 540,
+    "h": 1142,
+    "hidden": false
+  },
+  "afterHumanSetup": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 3,
+    "towers": 11,
+    "enemies": 5,
+    "spawned": 5,
+    "zoom": 0.68
+  },
+  "expectedTowersAfterSetup": 11,
+  "final": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 3.1,
+    "towers": 11,
+    "enemies": 5,
+    "spawned": 5,
+    "zoom": 0.68
+  },
+  "durationSeconds": 9.3
+}

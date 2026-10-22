@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "output": "CocosCreator工程/assets/resources/正式战斗美术-v5/图集",
+  "size": 2048,
+  "padding": 2,
+  "extrude": 1,
+  "trimTransparentEdges": true,
+  "rotate": false,
+  "filter": "nearest",
+  "separateGroups": [
+    "tower",
+    "enemy",
+    "core",
+    "projectile-fx",
+    "ui"
+  ],
+  "mobileCompression": [
+    "ETC2",
+    "ASTC"
+  ],
+  "storeSourceLayers": true
+}

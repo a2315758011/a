@@ -1,0 +1,631 @@
+{
+  "taskId": "ART-PIPELINE-V5-001",
+  "createdAt": "2026-10-19",
+  "status": "PARTIAL_QA",
+  "inputs": [
+    {
+      "type": "tower-layer-sheet",
+      "path": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\原始生成\\战斗分层\\1792420074315_chatgpt_2315758011_34e58822.png",
+      "sha256": "df1422f2f518c3f699cc156a9ecd306d5caec379fc0e5b3bd306585dada4ec22",
+      "size": [
+        1672,
+        941
+      ]
+    }
+  ],
+  "assets": [
+    {
+      "asset": "连珠速射塔",
+      "layer": "底座",
+      "kind": "炮塔",
+      "sourceRect": [
+        0,
+        0,
+        418,
+        340
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\连珠速射塔_底座_母图层.png",
+      "sourceSha256": "ad47a409c6f8120b18f54f48e78761d39cf17d66818301b01e29e6fc246a74ee",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.68704,
+        "opaqueRatio": 0.31296,
+        "bbox": [
+          96,
+          52,
+          364,
+          312
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "熔芯重炮塔",
+      "layer": "底座",
+      "kind": "炮塔",
+      "sourceRect": [
+        418,
+        0,
+        836,
+        340
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\熔芯重炮塔_底座_母图层.png",
+      "sourceSha256": "8a8cbf884994e459d369c038b1a0338aa97d96ded6b9852d841b6d6c7a484bb6",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.65912,
+        "opaqueRatio": 0.34088,
+        "bbox": [
+          90,
+          44,
+          367,
+          321
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "寒霜喷射塔",
+      "layer": "底座",
+      "kind": "炮塔",
+      "sourceRect": [
+        836,
+        0,
+        1254,
+        340
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\寒霜喷射塔_底座_母图层.png",
+      "sourceSha256": "e9ba8a63bffcdb6eb98cedcd519c240a209d3619d5826a3fe281fab1d34f0a13",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.68075,
+        "opaqueRatio": 0.31925,
+        "bbox": [
+          91,
+          46,
+          359,
+          317
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "城防水晶",
+      "layer": "基座",
+      "kind": "水晶",
+      "sourceRect": [
+        1254,
+        0,
+        1672,
+        340
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\水晶\\城防水晶_基座_母图层.png",
+      "sourceSha256": "9cd86ad3677a085723d796ac559fd244abb3f6e76defd299c30ef0589ce14031",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.68333,
+        "opaqueRatio": 0.31667,
+        "bbox": [
+          77,
+          35,
+          373,
+          356
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "连珠速射塔",
+      "layer": "主体",
+      "kind": "炮塔",
+      "sourceRect": [
+        0,
+        340,
+        418,
+        640
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\连珠速射塔_主体_母图层.png",
+      "sourceSha256": "7fa237402e0cdf322c71c06d667c76224b370ab4a76b5826b036becc13c83726",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.72013,
+        "opaqueRatio": 0.27987,
+        "bbox": [
+          104,
+          59,
+          357,
+          303
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "熔芯重炮塔",
+      "layer": "主体",
+      "kind": "炮塔",
+      "sourceRect": [
+        418,
+        340,
+        836,
+        640
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\熔芯重炮塔_主体_母图层.png",
+      "sourceSha256": "1ad493acc2a5bf00b42165d06866297da44af4a02587e2b9bc4dfe87a0d17ba7",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.64946,
+        "opaqueRatio": 0.35054,
+        "bbox": [
+          91,
+          40,
+          365,
+          315
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "寒霜喷射塔",
+      "layer": "主体",
+      "kind": "炮塔",
+      "sourceRect": [
+        836,
+        340,
+        1254,
+        640
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\寒霜喷射塔_主体_母图层.png",
+      "sourceSha256": "c23f34a570e8c58cd94e113728e5e0b1953d80bb55955ddcd4a228d19fac3dc3",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.67823,
+        "opaqueRatio": 0.32177,
+        "bbox": [
+          93,
+          52,
+          356,
+          312
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "城防水晶",
+      "layer": "晶体",
+      "kind": "水晶",
+      "sourceRect": [
+        1254,
+        340,
+        1672,
+        640
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\水晶\\城防水晶_晶体_母图层.png",
+      "sourceSha256": "e56f6eb8e6ae1fd09207d4eb37867daed85836bf7b7d7040b4f670574d142a1e",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.79739,
+        "opaqueRatio": 0.20261,
+        "bbox": [
+          129,
+          36,
+          320,
+          318
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "连珠速射塔",
+      "layer": "双炮管",
+      "kind": "炮塔",
+      "sourceRect": [
+        0,
+        640,
+        418,
+        941
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\连珠速射塔_双炮管_母图层.png",
+      "sourceSha256": "eaa6dd8a63824a201020c037fb7d59971859972f6c75a254d5e3a629e9fd3ea1",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.85623,
+        "opaqueRatio": 0.14377,
+        "bbox": [
+          137,
+          91,
+          322,
+          265
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "熔芯重炮塔",
+      "layer": "熔芯炮口",
+      "kind": "炮塔",
+      "sourceRect": [
+        418,
+        640,
+        836,
+        941
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\熔芯重炮塔_熔芯炮口_母图层.png",
+      "sourceSha256": "be8f964074210944b88a0c9771951c309dc6bf34d36e11abd9cbb4e822e6dc85",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.80366,
+        "opaqueRatio": 0.19634,
+        "bbox": [
+          120,
+          68,
+          334,
+          277
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "寒霜喷射塔",
+      "layer": "寒霜喷射器",
+      "kind": "炮塔",
+      "sourceRect": [
+        836,
+        640,
+        1254,
+        941
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\寒霜喷射塔_寒霜喷射器_母图层.png",
+      "sourceSha256": "8f3b275c424aa91f86a7aa260b4d379238e5c8cf53940457a49d8dfbe56ce21d",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.85544,
+        "opaqueRatio": 0.14456,
+        "bbox": [
+          126,
+          91,
+          324,
+          265
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "城防水晶",
+      "layer": "能量符文",
+      "kind": "水晶",
+      "sourceRect": [
+        1254,
+        640,
+        1672,
+        941
+      ],
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\水晶\\城防水晶_能量符文_母图层.png",
+      "sourceSha256": "6b97e91e58fc8990e67d5dcb8bddf4db181d1cd6a446b5808c375dec18cd0684",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.90625,
+        "opaqueRatio": 0.09375,
+        "bbox": [
+          92,
+          43,
+          355,
+          300
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      }
+    },
+    {
+      "asset": "连珠速射塔",
+      "layer": "composite-preview",
+      "kind": "炮塔",
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\连珠速射塔_合成预览_母图.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\战斗单位\\炮塔\\连珠速射塔.png",
+      "sourceSha256": "5725297c5cf8de75e7558c5c7a72dc8e170bfc27011246f8603314391bfabe8a",
+      "runtimeSha256": "0b521c815ea7135c4bbbf74244a804b3590ed3e7989e07b53e0abab0739f0c3c",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.68632,
+        "opaqueRatio": 0.31368,
+        "bbox": [
+          96,
+          52,
+          364,
+          312
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      },
+      "runtimeQa": {
+        "width": 128,
+        "height": 128,
+        "transparentRatio": 0.7406,
+        "opaqueRatio": 0.2594,
+        "bbox": [
+          27,
+          26,
+          104,
+          100
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      },
+      "runtimeSize": [
+        128,
+        128
+      ],
+      "approved": false
+    },
+    {
+      "asset": "熔芯重炮塔",
+      "layer": "composite-preview",
+      "kind": "炮塔",
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\熔芯重炮塔_合成预览_母图.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\战斗单位\\炮塔\\熔芯重炮塔.png",
+      "sourceSha256": "3ce547de7df4439afd6c310909773debedf3120e7a58d4451d56174d492b6fc1",
+      "runtimeSha256": "f67a2a6fdc8d419928db82060f5d0cbf6ac64c274c816164f9aecbb310aad4e6",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.64073,
+        "opaqueRatio": 0.35927,
+        "bbox": [
+          90,
+          40,
+          367,
+          321
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      },
+      "runtimeQa": {
+        "width": 128,
+        "height": 128,
+        "transparentRatio": 0.70282,
+        "opaqueRatio": 0.29718,
+        "bbox": [
+          26,
+          22,
+          104,
+          102
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      },
+      "runtimeSize": [
+        128,
+        128
+      ],
+      "approved": false
+    },
+    {
+      "asset": "寒霜喷射塔",
+      "layer": "composite-preview",
+      "kind": "炮塔",
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\炮塔\\寒霜喷射塔_合成预览_母图.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\战斗单位\\炮塔\\寒霜喷射塔.png",
+      "sourceSha256": "56db74170fa481e1f69c963237f53054b0a31e96c47dcfa0e10a2da977ac7678",
+      "runtimeSha256": "793117a85bd574adec46e5c19eab0b273d8b2a2cae7e0fb24743b698de3bb308",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.66821,
+        "opaqueRatio": 0.33179,
+        "bbox": [
+          91,
+          46,
+          359,
+          317
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      },
+      "runtimeQa": {
+        "width": 128,
+        "height": 128,
+        "transparentRatio": 0.7262,
+        "opaqueRatio": 0.2738,
+        "bbox": [
+          26,
+          24,
+          102,
+          101
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      },
+      "runtimeSize": [
+        128,
+        128
+      ],
+      "approved": false
+    },
+    {
+      "asset": "城防水晶",
+      "layer": "composite-preview",
+      "kind": "水晶",
+      "sourcePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\分层源文件\\水晶\\城防水晶_合成预览_母图.png",
+      "runtimePath": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\运行时素材\\战斗单位\\水晶\\城防水晶.png",
+      "sourceSha256": "f9675aa5217f72f56da3d5924f48705437714759a2a2ea8f009ac48c1d77a22c",
+      "runtimeSha256": "90e571c8f305aecbfc89071b116f75cea118b6b533a4d86d260d077fa6779309",
+      "qa": {
+        "width": 450,
+        "height": 372,
+        "transparentRatio": 0.68244,
+        "opaqueRatio": 0.31756,
+        "bbox": [
+          77,
+          35,
+          373,
+          356
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      },
+      "runtimeQa": {
+        "width": 128,
+        "height": 128,
+        "transparentRatio": 0.7373,
+        "opaqueRatio": 0.2627,
+        "bbox": [
+          22,
+          21,
+          106,
+          112
+        ],
+        "contentTouchesCanvasEdge": false,
+        "residualMagentaRatio": 0,
+        "pass": true
+      },
+      "runtimeSize": [
+        128,
+        128
+      ],
+      "approved": false
+    }
+  ],
+  "checks": [
+    {
+      "id": "TOWER-SPLIT",
+      "source": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\重制批次-v0.7\\原始生成\\战斗分层\\1792420074315_chatgpt_2315758011_34e58822.png",
+      "pass": true,
+      "cells": 12
+    },
+    {
+      "id": "ENEMY-SPLIT",
+      "pass": false,
+      "reason": "Enemy sheet not available yet."
+    },
+    {
+      "id": "UI-SPLIT",
+      "pass": false,
+      "reason": "UI sheet not available yet."
+    },
+    {
+      "id": "GROUND-SEAM",
+      "pass": false,
+      "reason": "Ground tile not available yet."
+    }
+  ],
+  "notes": [
+    "Only source sheets saved on the Windows workstation are processed.",
+    "Flat magenta removal uses edge-connected flood fill, not whole-image color replacement.",
+    "Any failed alpha/silhouette check stays a candidate and must not be wired into formal gameplay."
+  ],
+  "summary": {
+    "checksPassed": 1,
+    "checksTotal": 4,
+    "assetsProcessed": 16,
+    "allFamiliesReady": false,
+    "gameplayCandidateValidated": true,
+    "formalArtApproved": false,
+    "missingFamilies": [
+      "enemy-layer-sheet",
+      "ui-skin-sheet",
+      "ground-tile"
+    ]
+  },
+  "integrationValidation": {
+    "validatedAt": "2026-10-20",
+    "isolatedProject": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020",
+    "build": {
+      "cocosCreator": "3.8.2",
+      "buildSuccessLogged": true,
+      "exitCode": 36,
+      "stderrBytes": 0,
+      "files": 244,
+      "entryExists": true,
+      "resourceConfigPaths": 216,
+      "resourceUuids": 217,
+      "v5LayerResourcesFound": 12
+    },
+    "runtime": {
+      "scene": "候选美术试玩.scene",
+      "webgl2": true,
+      "javascriptExceptions": 0,
+      "loadedLog": "9个炮塔图层、3个水晶图层、8帧兽人已载入；已启用分层美术预览",
+      "httpFailures": [
+        {
+          "status": 404,
+          "url": "/favicon.ico",
+          "impact": "浏览器附带请求，不是游戏资源"
+        }
+      ]
+    },
+    "fullPlaythrough": {
+      "result": "win",
+      "viewport": [
+        540,
+        960
+      ],
+      "durationSeconds": 88.4,
+      "finalWave": 3,
+      "kills": 96,
+      "crystalHp": 100,
+      "towersAfter15ViewerAdds": 24,
+      "afterRestart": {
+        "state": "ready",
+        "wave": 1,
+        "kills": 0,
+        "crystalHp": 100,
+        "towers": 9
+      }
+    },
+    "sourceProtection": {
+      "formalMainSceneUnchanged": true,
+      "formalMainSceneSha256": "d42fc8b8f45e922f900e4bf68504b7df085051abf91dcd81966f5415aaff8fba",
+      "formalSceneModified": false
+    },
+    "limitations": [
+      "V5 UI skin and ground tile are not integrated",
+      "V5 enemy-layer sheet job record is missing and no project artifact exists; V4 8-frame orc walk was loaded instead",
+      "V5 art not user-approved",
+      "540x760 with V5 candidate not retested",
+      "Android/WeChat/Douyin and live event integrations not tested",
+      "Cocos CLI exit code 36 unresolved"
+    ]
+  }
+}

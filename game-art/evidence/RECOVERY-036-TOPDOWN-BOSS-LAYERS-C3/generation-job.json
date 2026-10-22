@@ -1,0 +1,48 @@
+{
+  "id": "eb5b78b6-45df-4a04-ba16-2e32783eca9a",
+  "status": "failed",
+  "kind": "image",
+  "feature": "character_generation",
+  "createdAt": "2026-10-22T05:48:02.987Z",
+  "startedAt": "2026-10-22T05:48:02.987Z",
+  "completedAt": "2026-10-22T05:50:58.713Z",
+  "source": "isolated-refupload-v2-candidate",
+  "sourceProjectId": "live-turret-defense",
+  "sourceTaskId": "RECOVERY-036-TOPDOWN-BOSS-LAYERS-C3",
+  "returnTo": null,
+  "businessContext": {
+    "purpose": "editable-enemy-layers",
+    "referenceUploadFix": "RECOVERY-036-v2",
+    "candidateAsarSha": "03c547b085d6cb0c38a12425fa5e4942f68c051bca4bd76b3602aafb1454cbd6",
+    "runtimeSha": "38446fdbbf809fd576a8896fd5fc21aee27d2f9a5770d6ded4d10183cde545b0",
+    "adapterSha": "06fffd23ba79b60b6b518e15ea9fa4914b013e88705b5ca91e29e3a0c78056de",
+    "referenceSha": "d817afe9deaf6fa3b44610f48cdaaa1233f78a592ac077cbacc47e1371c249b4"
+  },
+  "request": {
+    "promptPreview": "基于上传的“兽人首领_顶视MasterB”作为严格身份参考，制作一个可编辑分层生产板。不要重新设计角色，不要改变颜色、武器、肩甲、发冠、体型或90°顶视方向。\n\n【目标】\n把同一个兽人首领拆成 EXACTLY THREE 个独立层源，横向从左到右排列：\n1. BODY_ARMOR：身体、腿、胸背护甲、肩部基础结构；不要头部、手臂、盾、战斧。\n2. HEAD_ARMS：头顶/发冠、头部、左臂、右臂；不要身体护甲、腿、盾、战斧。\n3. WEAPON_ACCESSORY：盾牌、战斧",
+    "model": "",
+    "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+    "pool": false,
+    "aspectRatio": "16:9",
+    "resolution": null,
+    "duration": null,
+    "referenceCount": 1
+  },
+  "result": null,
+  "error": {
+    "name": "Error",
+    "message": "网页生成失败：2315758011：提示词已写入，但发送按钮未就绪；当前任务未发送",
+    "code": "SUBMIT_BUTTON_NOT_READY",
+    "stage": "submit-script",
+    "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+    "accountName": "",
+    "platformId": "chatgpt",
+    "platformLabel": "",
+    "submitted": false,
+    "submitLocked": false,
+    "submittedUrl": "",
+    "chatId": "",
+    "failures": []
+  },
+  "artifacts": []
+}

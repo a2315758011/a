@@ -1,0 +1,64 @@
+{
+  "test": "simulation-driven enemy attack approach and crystal-hit follow-up",
+  "fixture": "one synthetic enemy enters the live simulation at radius 75; controller tick/target movement/damage path remains enabled",
+  "result": "PASS",
+  "consoleErrors": [],
+  "startedAt": "2026-10-20T14:46:07",
+  "initial": {
+    "state": "running",
+    "hp": 100,
+    "enemyCount": 1,
+    "distance": 75,
+    "coreHitTimer": 0,
+    "coreTint": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    }
+  },
+  "attackDuringRunning": {
+    "pass": true,
+    "observation": {
+      "state": "running",
+      "hp": 100,
+      "distance": 75,
+      "enemyAnim": "attack",
+      "enemyGhost": false,
+      "weaponRotation": 2.933592884681143,
+      "coreHitTimer": 0
+    }
+  },
+  "crystalHitViaTick": {
+    "pass": true,
+    "trigger": {
+      "state": "running",
+      "hp": 94,
+      "distance": null,
+      "coreHitTimer": 0.20689999999850986
+    },
+    "afterFeedback": {
+      "state": "paused",
+      "hp": 94,
+      "enemyCount": 0,
+      "distance": null,
+      "coreHitTimer": 0.1565999999977648,
+      "coreTint": {
+        "r": 255,
+        "g": 100,
+        "b": 100
+      }
+    }
+  },
+  "screenshots": [
+    {
+      "file": "08-敌人接近水晶攻击实战路径.png",
+      "bytes": 703061
+    },
+    {
+      "file": "09-攻击后水晶受击反馈.png",
+      "bytes": 702600
+    }
+  ],
+  "durationSeconds": 6.2,
+  "consoleErrorCount": 0
+}

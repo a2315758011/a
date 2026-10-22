@@ -1,0 +1,184 @@
+{
+  "task": "WHOLE-GAME-FORMAL-PLATFORM-ADAPTER-20261022",
+  "test": "platform adapter web runtime and live-source contract",
+  "checks": {
+    "webRuntime": true,
+    "storageAvailable": true,
+    "sdkNotPretendedOnWeb": true,
+    "noSourceByDefault": true,
+    "sourceAttached": true,
+    "eventReachedBridge": true,
+    "sourceDetached": true,
+    "miniGameSocketTaskUsed": true,
+    "miniGameSocketTaskCloses": true
+  },
+  "errors": [],
+  "startedAt": "2026-10-22T19:15:07",
+  "baseline": {
+    "platform": {
+      "runtime": "web",
+      "mode": "standard",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null,
+      "shopAllowed": true,
+      "persistentEconomyAllowed": true,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "standard"
+    },
+    "live": {
+      "onlineViewers": 0,
+      "knownViewers": 0,
+      "queueDepth": 0,
+      "processedEvents": 0,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "none",
+      "viewers": []
+    },
+    "towers": 9,
+    "menu": true
+  },
+  "afterAttach": {
+    "runtime": "web",
+    "mode": "standard",
+    "platformSdkAvailable": false,
+    "storageAvailable": true,
+    "liveEventSourceAttached": true,
+    "liveEventSourceId": "qa-mock-source",
+    "shopAllowed": true,
+    "persistentEconomyAllowed": true,
+    "generalRoomPresenceAvailable": false,
+    "participationModel": "standard"
+  },
+  "afterEvent": {
+    "l": {
+      "onlineViewers": 1,
+      "knownViewers": 1,
+      "queueDepth": 0,
+      "processedEvents": 1,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "viewer_join:platform-qa-user",
+      "viewers": [
+        {
+          "viewerId": "platform-qa-user",
+          "viewerName": "平台测试观众",
+          "online": true,
+          "joinedAt": 1792667713468,
+          "lastSeenAt": 1792667713468,
+          "giftCount": 0,
+          "giftPower": 0
+        }
+      ]
+    },
+    "towers": 10,
+    "p": {
+      "runtime": "web",
+      "mode": "standard",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": true,
+      "liveEventSourceId": "qa-mock-source",
+      "shopAllowed": true,
+      "persistentEconomyAllowed": true,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "standard"
+    }
+  },
+  "afterDetach": {
+    "p": {
+      "runtime": "web",
+      "mode": "standard",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null,
+      "shopAllowed": true,
+      "persistentEconomyAllowed": true,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "standard"
+    },
+    "stops": 1
+  },
+  "miniGameSocketFallback": {
+    "p": {
+      "runtime": "douyin",
+      "mode": "douyin-live-play",
+      "platformSdkAvailable": true,
+      "storageAvailable": true,
+      "liveEventSourceAttached": true,
+      "liveEventSourceId": "douyin-live-participation-ws",
+      "shopAllowed": false,
+      "persistentEconomyAllowed": false,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "explicit-interaction"
+    },
+    "s": {
+      "id": "douyin-live-participation-ws",
+      "url": "wss://qa.invalid/live",
+      "active": true,
+      "connected": true,
+      "received": 1,
+      "mapped": 1,
+      "ignored": 0,
+      "reconnects": 0,
+      "lastError": null
+    },
+    "l": {
+      "onlineViewers": 1,
+      "knownViewers": 2,
+      "queueDepth": 0,
+      "processedEvents": 3,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "viewer_join:qa-mini-viewer",
+      "viewers": [
+        {
+          "viewerId": "platform-qa-user",
+          "viewerName": "平台测试观众",
+          "online": false,
+          "joinedAt": 1792667713468,
+          "lastSeenAt": 1792667713570,
+          "giftCount": 0,
+          "giftPower": 0
+        },
+        {
+          "viewerId": "qa-mini-viewer",
+          "viewerName": "小程序模拟观众",
+          "online": true,
+          "joinedAt": 1792667713570,
+          "lastSeenAt": 1792667713570,
+          "giftCount": 0,
+          "giftPower": 0
+        }
+      ]
+    },
+    "towers": 10
+  },
+  "miniGameSocketDetached": {
+    "closed": true,
+    "p": {
+      "runtime": "web",
+      "mode": "douyin-live-play",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null,
+      "shopAllowed": false,
+      "persistentEconomyAllowed": false,
+      "generalRoomPresenceAvailable": false,
+      "participationModel": "explicit-interaction"
+    },
+    "source": null
+  },
+  "result": "PASS",
+  "finishedAt": "2026-10-22T19:15:14"
+}

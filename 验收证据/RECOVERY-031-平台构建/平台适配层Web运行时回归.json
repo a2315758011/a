@@ -1,0 +1,89 @@
+{
+  "task": "RECOVERY-031",
+  "test": "platform adapter web runtime and live-source contract",
+  "checks": {
+    "webRuntime": true,
+    "storageAvailable": true,
+    "sdkNotPretendedOnWeb": true,
+    "noSourceByDefault": true,
+    "sourceAttached": true,
+    "eventReachedBridge": true,
+    "sourceDetached": true
+  },
+  "errors": [],
+  "startedAt": "2026-10-22T03:38:37",
+  "baseline": {
+    "platform": {
+      "runtime": "web",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null
+    },
+    "live": {
+      "onlineViewers": 0,
+      "knownViewers": 0,
+      "queueDepth": 0,
+      "processedEvents": 0,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "none",
+      "viewers": []
+    },
+    "towers": 9,
+    "menu": true
+  },
+  "afterAttach": {
+    "runtime": "web",
+    "platformSdkAvailable": false,
+    "storageAvailable": true,
+    "liveEventSourceAttached": true,
+    "liveEventSourceId": "qa-mock-source"
+  },
+  "afterEvent": {
+    "l": {
+      "onlineViewers": 1,
+      "knownViewers": 1,
+      "queueDepth": 0,
+      "processedEvents": 1,
+      "duplicateEvents": 0,
+      "rejectedEvents": 0,
+      "giftEvents": 0,
+      "giftPower": 0,
+      "lastEvent": "viewer_join:platform-qa-user",
+      "viewers": [
+        {
+          "viewerId": "platform-qa-user",
+          "viewerName": "平台测试观众",
+          "online": true,
+          "joinedAt": 1792611522432,
+          "lastSeenAt": 1792611522432,
+          "giftCount": 0,
+          "giftPower": 0
+        }
+      ]
+    },
+    "towers": 10,
+    "p": {
+      "runtime": "web",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": true,
+      "liveEventSourceId": "qa-mock-source"
+    }
+  },
+  "afterDetach": {
+    "p": {
+      "runtime": "web",
+      "platformSdkAvailable": false,
+      "storageAvailable": true,
+      "liveEventSourceAttached": false,
+      "liveEventSourceId": null
+    },
+    "stops": 1
+  },
+  "result": "PASS",
+  "finishedAt": "2026-10-22T03:38:43"
+}

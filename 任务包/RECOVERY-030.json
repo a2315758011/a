@@ -1,0 +1,30 @@
+{
+  "taskId": "RECOVERY-030",
+  "title": "商店、守城币与本地存档完整链路",
+  "status": "CANDIDATE_QA_PASS",
+  "scope": "隔离候选 Cocos Creator 3.8.2；正式 CocosCreator工程 未修改",
+  "completed": [
+    "新增独立玩家档案仓库：守城币、永久升级、统计、本地存档、云同步接口占位",
+    "结算奖励=击杀数+胜利额外50，终态只结算一次",
+    "主界面新增守城币余额和战备商店真实入口",
+    "商店三项：水晶护盾/火控芯片/直播增幅，含等级、费用、余额不足和满级状态",
+    "真实鼠标自然结算→返回主界面→商店购买→页面刷新→档案保持→下一局效果生效",
+    "水晶护盾Lv1下一局100HP→110HP",
+    "火控芯片Lv1下一局伤害倍率1.05",
+    "直播增幅Lv1使新观众塔从2级起步",
+    "localStorage持久化通过；云适配器默认未配置，不伪造远端服务器",
+    "商店五种竖屏入口/商品/返回真实点击5/5通过",
+    "Cocos Web-Mobile build success，Creator exit36，TS错误0，stderr0"
+  ],
+  "evidence": [
+    "game-art/evidence/RECOVERY-030-live-event-build.json",
+    "验收证据/RECOVERY-030-商店与存档/商店存档真实鼠标端到端回归.json",
+    "验收证据/RECOVERY-030-商店与存档/商店五视口真实输入回归.json",
+    "验收证据/RECOVERY-030-商店与存档/火控与直播增幅效果回归.json"
+  ],
+  "pending": [
+    "真实账号云存档后端尚未接入",
+    "正式Cocos工程仍受V5整体美术签收门禁",
+    "Android/微信/抖音真机持久化需平台构建后复测"
+  ]
+}

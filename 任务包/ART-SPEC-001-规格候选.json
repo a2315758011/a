@@ -1,0 +1,78 @@
+{
+  "taskId": "ART-SPEC-001",
+  "projectId": "live-turret-defense",
+  "taskVersion": 1,
+  "goal": "根据用户选定方案A制定三款基础炮塔可实施、可测试、禁止带地板的美术规格候选",
+  "userDecision": "方案A",
+  "status": "IMPLEMENTED",
+  "plannedOwner": "2D游戏美术总管",
+  "assignee": "agent-gpt6-turret-art-spec-20261012",
+  "reviewMode": "SELF_REVIEW",
+  "attemptId": "ART-SPEC-001-20261012-01",
+  "dependsOn": [],
+  "note": "用户单独授权方案A规格候选; 正式美术生产仍依赖BEN-001和G0",
+  "instructionRefs": [
+    {
+      "absolutePath": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.3",
+      "gitBlobSha": "5d7e40c3a34873314eed9285313332243a9fa6db",
+      "sha256": "NOT_SNAPSHOTTED",
+      "chapters": [
+        "00",
+        "01",
+        "03",
+        "04",
+        "08",
+        "09",
+        "10",
+        "12",
+        "13",
+        "14"
+      ]
+    }
+  ],
+  "inputArtifacts": [
+    "项目索引.md",
+    "立项规则草案.md",
+    "对标与平台核查.md"
+  ],
+  "writeAllowlist": [
+    "美术规范/*",
+    "任务包/ART-SPEC-001-规格候选.json",
+    "任务榜单.md",
+    "项目索引.md",
+    "接管记录.md",
+    "工程目录说明.md",
+    "验收证据/方案A静态与机器验收.md"
+  ],
+  "resourceLocks": [
+    "project:live-turret-defense:art-spec",
+    "project:live-turret-defense:project-index",
+    "project:live-turret-defense:task-board",
+    "project:live-turret-defense:handoff"
+  ],
+  "outputs": [
+    "美术规范/三款基础炮塔-正式美术规格候选-v0.1.md",
+    "美术规范/炮塔资源合同-v0.1.json",
+    "美术规范/透明资源验收.py",
+    "美术规范/透明资源验收清单.md"
+  ],
+  "evidence": [
+    "验收证据/方案A静态与机器验收.md"
+  ],
+  "acceptance": {
+    "filePresent": "VERIFIED",
+    "jsonSyntax": "PENDING_EXPLICIT_TEST",
+    "alphaValidatorSelfTest": "PASS",
+    "semanticArtPreview": "UNVERIFIED",
+    "engineRuntime": "UNVERIFIED",
+    "conceptUserSignoff": "UNVERIFIED"
+  },
+  "nextAction": "准确解析TapTap原对标；完成首张正式项目玩法总览图，验证视角与布局；不提前展开15个完整炮塔形态",
+  "forbidden": [
+    "不动其他项目资源",
+    "不从参考宣传图直接切人物当Sprite",
+    "不把白底或地表画进透明塔图"
+  ],
+  "handoff": "接管记录.md"
+}

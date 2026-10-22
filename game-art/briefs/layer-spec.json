@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "anchor": {
+    "towers": [
+      0.5,
+      0.25
+    ],
+    "crystal": [
+      0.5,
+      0.5
+    ],
+    "orc": [
+      0.5,
+      0.2
+    ]
+  },
+  "layers": {
+    "turret": [
+      "shadow",
+      "base",
+      "body",
+      "barrel-or-emitter",
+      "muzzle-flash"
+    ],
+    "crystal": [
+      "shadow",
+      "plinth",
+      "crystal-core",
+      "energy-glow",
+      "damage-shards"
+    ],
+    "orc": [
+      "shadow",
+      "body-armor",
+      "head",
+      "arm-left",
+      "arm-right",
+      "weapon",
+      "hit-fx"
+    ]
+  },
+  "rules": [
+    "Source layers remain independent PNGs and editable in ORA-compatible project files.",
+    "Layer pivots must remain stable across all animation states.",
+    "Do not bake UI labels or viewer names into sprites.",
+    "Runtime composite may animate barrel recoil, emitter pulse, head/weapon swing and body bob without resampling source textures."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "taskId": "RECOVERY-033",
+  "title": "抖音直播小玩法参与事件源与合规模式",
+  "status": "CANDIDATE_QA_PASS_REAL_PLATFORM_PENDING",
+  "scope": "隔离候选 Cocos Creator 3.8.2；正式工程未修改",
+  "completed": [
+    "WebSocket直播参与事件源接入控制器公开接口",
+    "评论加入/888/退出和礼物映射",
+    "无关评论与点赞不误消费",
+    "douyin-live-play模式禁商店/永久战备/守城币奖励",
+    "无URL不伪连且stop后不重连",
+    "Web/微信/抖音三平台当前代码构建通过",
+    "本地WebSocket端到端14/14检查PASS，JS错误0",
+    "普通模式RECOVERY-030商店/存档/五视口全部回归PASS"
+  ],
+  "blockers": [
+    "真实抖音账号与直播小玩法能力审批未获得",
+    "真实平台服务端回调/WSS endpoint未接入",
+    "抖音真实开发者工具/真机/直播间未验收",
+    "V5美术仍待用户签收，正式工程未合入"
+  ],
+  "evidence": [
+    "验收证据/RECOVERY-033-抖音直播参与事件源/当前代码三平台构建回归.json",
+    "验收证据/RECOVERY-033-抖音直播参与事件源/本地WebSocket直播参与链路回归.json",
+    "验收证据/RECOVERY-033-抖音直播参与事件源与合规模式.md",
+    "验收证据/RECOVERY-030-商店与存档/商店存档真实鼠标端到端回归.json",
+    "验收证据/RECOVERY-030-商店与存档/商店五视口真实输入回归.json"
+  ]
+}

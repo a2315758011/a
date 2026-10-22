@@ -1,0 +1,26 @@
+Create ONE isolated production UI asset for the original mobile game “直播炮塔守城”.
+
+CANVAS / SHAPE CONTRACT
+- Use a square 1:1 production canvas with a single tall settlement-panel silhouette centered inside it.
+- The panel itself must have an approximately 4:5 portrait ratio, occupy about 72–76% of canvas width and 88–92% of canvas height, and remain fully inside the canvas with visible pure-magenta margins on every side.
+- Exactly ONE complete rounded-rectangle settlement modal body. No second panel, no sprite sheet, no full-screen mockup.
+- Straight-on orthographic UI surface only; no perspective, no room, no scene.
+- Symmetrical construction and consistent border thickness.
+- The panel interior is opaque dark navy, deliberately empty for Cocos Creator to render Chinese labels, score text, and separate buttons.
+- A subtle shallow header inset at the top and one restrained horizontal divider below it are allowed; no buttons or icons.
+
+LOCKED V5 ART STYLE
+- Hand-authored-looking native pixel art, crisp 3-pixel clusters, nearest-neighbor edges, no anti-aliasing, no smooth vector gradients.
+- Compact carved charcoal stone and gunmetal frame.
+- Main interior navy #18283B / #273E56.
+- Restrained brass-gold edging #C78D3B / #F0C46B.
+- Tiny cyan energy accents #42D8EE / #83F6FF, used sparingly.
+- Selective dark 1–2 pixel outline; mobile-readable at a rendered width of about 440 pixels.
+- Premium, disciplined, handcrafted game UI; no glossy web-dashboard styling and no excessive ornamental filigree.
+
+BACKGROUND / EXTRACTION CONTRACT
+- Entire background outside the panel must be perfectly uniform solid chroma-key magenta #FF00FF.
+- No texture, grid, floor, cast shadow, glow, particles, vignette, or gradient outside the panel.
+- No text, letters, numbers, glyphs, icons, characters, logos, watermark, or extra objects.
+- Do not bake title, score, buttons, or any Chinese words into the art.
+- Keep the panel’s outer silhouette clean and isolated. This is a reusable Runtime UI component master, not a full-screen mockup or sprite sheet.

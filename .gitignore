@@ -1,0 +1,22 @@
+# Project-local transient files
+/_assistant-temp/
+
+# Cocos Creator generated/cache output
+/CocosCreator工程/library/
+/CocosCreator工程/temp/
+/CocosCreator工程/local/
+/CocosCreator工程/build/
+/CocosCreator工程/profiles/
+/CocosCreator工程/node_modules/
+/CocosCreator工程/native/engine/android/**/assets/
+
+# IDE / OS
+**/.vscode/
+**/.idea/
+**/.DS_Store
+**/Thumbs.db
+
+# Logs and transient reports
+*.log
+*.tmp
+*.bak

@@ -1,0 +1,170 @@
+{
+  "test": "Cocos Creator 3.8.2 real-time mouse-only full playthrough",
+  "states": [
+    {
+      "wallTime": 7.7,
+      "state": "running",
+      "wave": 1,
+      "hp": 100,
+      "kills": 0,
+      "time": 3.2,
+      "towers": 11,
+      "enemies": 5,
+      "spawned": 5,
+      "zoom": 0.68,
+      "canvasHalf": 554,
+      "viewHeight": 1108,
+      "lastClick": "-181,468",
+      "uiTransformH": 960
+    }
+  ],
+  "consoleErrors": [],
+  "actions": [
+    {
+      "clock": 4.7,
+      "name": "start"
+    },
+    {
+      "clock": 4.9,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.1,
+      "name": "viewer_add"
+    },
+    {
+      "clock": 5.3,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 5.5,
+      "name": "upgrade_last_tower"
+    },
+    {
+      "clock": 5.6,
+      "name": "zoom_out"
+    },
+    {
+      "clock": 7.4,
+      "name": "drag_camera"
+    },
+    {
+      "clock": 7.5,
+      "name": "recenter"
+    }
+  ],
+  "result": "PORTRAIT_INPUT_PASS",
+  "startedAt": "2026-10-19T18:57:32",
+  "initial": {
+    "state": "ready",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "无",
+    "uiTransformH": 960
+  },
+  "viewport": {
+    "w": 540,
+    "h": 1108,
+    "hidden": false
+  },
+  "afterStart": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0.2,
+    "towers": 9,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "-206,-473",
+    "uiTransformH": 960
+  },
+  "afterViewer": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 0.6,
+    "towers": 11,
+    "enemies": 0,
+    "spawned": 0,
+    "zoom": 0.9,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "-105,-473",
+    "uiTransformH": 960
+  },
+  "afterZoom": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 1.2,
+    "towers": 11,
+    "enemies": 1,
+    "spawned": 1,
+    "zoom": 0.68,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "137,468",
+    "uiTransformH": 960
+  },
+  "afterRecenter": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 3.1,
+    "towers": 11,
+    "enemies": 5,
+    "spawned": 5,
+    "zoom": 0.68,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "-181,468",
+    "uiTransformH": 960
+  },
+  "afterHumanSetup": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 3.1,
+    "towers": 11,
+    "enemies": 5,
+    "spawned": 5,
+    "zoom": 0.68,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "-181,468",
+    "uiTransformH": 960
+  },
+  "expectedTowersAfterSetup": 11,
+  "final": {
+    "state": "running",
+    "wave": 1,
+    "hp": 100,
+    "kills": 0,
+    "time": 3.2,
+    "towers": 11,
+    "enemies": 5,
+    "spawned": 5,
+    "zoom": 0.68,
+    "canvasHalf": 554,
+    "viewHeight": 1108,
+    "lastClick": "-181,468",
+    "uiTransformH": 960
+  },
+  "durationSeconds": 9.8
+}

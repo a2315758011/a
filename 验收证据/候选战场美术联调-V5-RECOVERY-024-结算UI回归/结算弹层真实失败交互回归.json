@@ -1,0 +1,7296 @@
+{
+  "test": "RECOVERY-024 real-input V5 natural defeat, settlement overlay and restart",
+  "method": "Real mouse actions only; read-only in-page observer samples animation states every 40ms; isolated candidate build; no controller/game state writes",
+  "startedAt": "2026-10-20T19:13:11",
+  "actions": [
+    {
+      "atSeconds": 4.568,
+      "name": "离场-减少炮塔",
+      "x": 247,
+      "y": 716
+    },
+    {
+      "atSeconds": 4.69,
+      "name": "离场-减少炮塔",
+      "x": 247,
+      "y": 716
+    },
+    {
+      "atSeconds": 4.814,
+      "name": "离场-减少炮塔",
+      "x": 247,
+      "y": 716
+    },
+    {
+      "atSeconds": 4.94,
+      "name": "离场-减少炮塔",
+      "x": 247,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.066,
+      "name": "离场-减少炮塔",
+      "x": 247,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.188,
+      "name": "离场-减少炮塔",
+      "x": 247,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.314,
+      "name": "离场-减少炮塔",
+      "x": 247,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.438,
+      "name": "离场-减少炮塔",
+      "x": 247,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.568,
+      "name": "升级-剩余炮塔",
+      "x": 179,
+      "y": 716
+    },
+    {
+      "atSeconds": 5.747,
+      "name": "开始守城",
+      "x": 44,
+      "y": 716
+    },
+    {
+      "atSeconds": 31.545,
+      "name": "结算弹层-再次守城",
+      "x": 180,
+      "y": 517
+    }
+  ],
+  "hostSamples": [
+    {
+      "atSeconds": 5.85,
+      "latest": {
+        "at": 5125.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0.06666666666666667
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 1,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 6.05,
+      "latest": {
+        "at": 5325.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0.26666666666666666
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 1,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 6.25,
+      "latest": {
+        "at": 5524.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0.4666666666666666
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 6.45,
+      "latest": {
+        "at": 5720.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0.6666666666666666
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 6.65,
+      "latest": {
+        "at": 5923.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0.8666666666666666
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 6.86,
+      "latest": {
+        "at": 6125.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 1,
+          "time": 1.0666666666666667
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 7.06,
+      "latest": {
+        "at": 6325.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 1,
+          "time": 1.2666666666666673
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 7.26,
+      "latest": {
+        "at": 6524.599999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 2,
+          "time": 1.466666666666668
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 7.46,
+      "latest": {
+        "at": 6724,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 2,
+          "time": 1.6666666666666685
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 7.66,
+      "latest": {
+        "at": 6925.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 2,
+          "time": 1.8666666666666691
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 7.87,
+      "latest": {
+        "at": 7125.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 3,
+          "time": 2.066666666666669
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 8.07,
+      "latest": {
+        "at": 7324.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 3,
+          "time": 2.2666666666666684
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 8.27,
+      "latest": {
+        "at": 7521.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 4,
+          "time": 2.4666666666666677
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 8.47,
+      "latest": {
+        "at": 7724.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 4,
+          "time": 2.666666666666667
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 8.67,
+      "latest": {
+        "at": 7924.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 4,
+          "time": 2.8666666666666663
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 8.87,
+      "latest": {
+        "at": 8125.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 5,
+          "time": 3.0666666666666655
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 9.08,
+      "latest": {
+        "at": 8325.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 5,
+          "time": 3.266666666666665
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 9.28,
+      "latest": {
+        "at": 8525.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 6,
+          "time": 3.466666666666664
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 9.48,
+      "latest": {
+        "at": 8725.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 6,
+          "time": 3.6666666666666634
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 9.68,
+      "latest": {
+        "at": 8922,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 6,
+          "time": 3.8666666666666627
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 9.88,
+      "latest": {
+        "at": 9123.599999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 7,
+          "time": 4.066666666666662
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 10.09,
+      "latest": {
+        "at": 9323.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 7,
+          "time": 4.266666666666661
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 10.29,
+      "latest": {
+        "at": 9525.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 8,
+          "time": 4.466666666666661
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 10.49,
+      "latest": {
+        "at": 9725.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 8,
+          "time": 4.66666666666666
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 10.69,
+      "latest": {
+        "at": 9963.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 9,
+          "time": 4.933333333333326
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 10.89,
+      "latest": {
+        "at": 10168.599999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 9,
+          "time": 5.099999999999992
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 11.09,
+      "latest": {
+        "at": 10369.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 9,
+          "time": 5.299999999999991
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 11.3,
+      "latest": {
+        "at": 10570.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 10,
+          "time": 5.49999999999999
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 11.5,
+      "latest": {
+        "at": 10772.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 10,
+          "time": 5.733333333333323
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 11.7,
+      "latest": {
+        "at": 10973.599999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 11,
+          "time": 5.933333333333322
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 11.9,
+      "latest": {
+        "at": 11162.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 11,
+          "time": 6.099999999999988
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 12.1,
+      "latest": {
+        "at": 11365.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 11,
+          "time": 6.299999999999987
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 12.3,
+      "latest": {
+        "at": 11560.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 12,
+          "time": 6.53333333333332
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 1,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 12.5,
+      "latest": {
+        "at": 11769,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 12,
+          "time": 6.699999999999986
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 12.71,
+      "latest": {
+        "at": 11972.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 13,
+          "time": 6.9333333333333185
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 12.91,
+      "latest": {
+        "at": 12161.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 13,
+          "time": 7.0999999999999845
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 13.11,
+      "latest": {
+        "at": 12364,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 13,
+          "time": 7.299999999999984
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 13.31,
+      "latest": {
+        "at": 12566.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 14,
+          "time": 7.499999999999983
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 13.51,
+      "latest": {
+        "at": 12767.599999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 14,
+          "time": 7.699999999999982
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 13.72,
+      "latest": {
+        "at": 12969,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 14,
+          "time": 7.899999999999982
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 13.92,
+      "latest": {
+        "at": 13168,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 15,
+          "time": 8.133333333333315
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 3,
+          "states": {
+            "walk": 3,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 14.12,
+      "latest": {
+        "at": 13369.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 15,
+          "time": 8.299999999999981
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 3,
+          "states": {
+            "walk": 3,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 14.32,
+      "latest": {
+        "at": 13574.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 16,
+          "time": 8.533333333333314
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 3,
+          "states": {
+            "walk": 3,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 14.52,
+      "latest": {
+        "at": 13760.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 15,
+          "time": 8.733333333333313
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 4,
+          "states": {
+            "walk": 4,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 14.72,
+      "latest": {
+        "at": 13962.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 15,
+          "time": 8.899999999999979
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 4,
+          "states": {
+            "walk": 4,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 14.93,
+      "latest": {
+        "at": 14165.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 16,
+          "time": 9.099999999999978
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 4,
+          "states": {
+            "walk": 4,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 15.13,
+      "latest": {
+        "at": 14409.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 16,
+          "time": 9.366666666666644
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 5,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 15.33,
+      "latest": {
+        "at": 14608.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 17,
+          "time": 9.566666666666643
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 5,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 15.54,
+      "latest": {
+        "at": 14802.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 17,
+          "time": 9.766666666666643
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 5,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 15.74,
+      "latest": {
+        "at": 15004.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 18,
+          "time": 9.966666666666642
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 5,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 15.94,
+      "latest": {
+        "at": 15206.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 18,
+          "time": 10.166666666666641
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 5,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 16.14,
+      "latest": {
+        "at": 15405.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 18,
+          "time": 10.36666666666664
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 6,
+          "states": {
+            "walk": 6,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 16.34,
+      "latest": {
+        "at": 15607.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 19,
+          "time": 10.533333333333307
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 6,
+          "states": {
+            "walk": 6,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 16.56,
+      "latest": {
+        "at": 15807.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 19,
+          "time": 10.733333333333306
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 6,
+          "states": {
+            "walk": 6,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 16.76,
+      "latest": {
+        "at": 16042.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 20,
+          "time": 10.966666666666638
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 7,
+          "states": {
+            "walk": 7,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 16.96,
+      "latest": {
+        "at": 16241.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 20,
+          "time": 11.19999999999997
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 7,
+          "states": {
+            "walk": 7,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 17.17,
+      "latest": {
+        "at": 16442.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 20,
+          "time": 11.39999999999997
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 17.37,
+      "latest": {
+        "at": 16641.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 1,
+          "enemies": 21,
+          "time": 11.59999999999997
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 1
+    },
+    {
+      "atSeconds": 17.7,
+      "latest": {
+        "at": 16846,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 20,
+          "time": 11.666666666666636
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 7,
+            "hurt": 0,
+            "attack": 0,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 2
+    },
+    {
+      "atSeconds": 17.91,
+      "latest": {
+        "at": 17173.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 21,
+          "time": 12.099999999999968
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 2
+    },
+    {
+      "atSeconds": 18.2,
+      "latest": {
+        "at": 17363.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 21,
+          "time": 12.299999999999967
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 7,
+            "hurt": 1,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 3
+    },
+    {
+      "atSeconds": 18.4,
+      "latest": {
+        "at": 17641.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 12.599999999999966
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 3
+    },
+    {
+      "atSeconds": 18.6,
+      "latest": {
+        "at": 17841.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 12.766666666666632
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 8,
+            "hurt": 1,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 3
+    },
+    {
+      "atSeconds": 18.8,
+      "latest": {
+        "at": 18042.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 12.999999999999964
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 3
+    },
+    {
+      "atSeconds": 19.01,
+      "latest": {
+        "at": 18242,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 13.199999999999964
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 3
+    },
+    {
+      "atSeconds": 19.21,
+      "latest": {
+        "at": 18441.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 13.399999999999963
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 9,
+            "hurt": 1,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 3
+    },
+    {
+      "atSeconds": 19.41,
+      "latest": {
+        "at": 18681.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 13.633333333333296
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 3
+    },
+    {
+      "atSeconds": 19.73,
+      "latest": {
+        "at": 18882.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 13.833333333333295
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 11,
+          "states": {
+            "walk": 9,
+            "hurt": 1,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 4
+    },
+    {
+      "atSeconds": 19.93,
+      "latest": {
+        "at": 19208.5,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 14.133333333333294
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 4
+    },
+    {
+      "atSeconds": 20.13,
+      "latest": {
+        "at": 19408.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 14.366666666666626
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 9,
+            "hurt": 1,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 4
+    },
+    {
+      "atSeconds": 20.43,
+      "latest": {
+        "at": 19608,
+        "game": {
+          "state": "running",
+          "hp": 94,
+          "wave": 1,
+          "towers": 1,
+          "kills": 3,
+          "enemies": 21,
+          "time": 14.533333333333292
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.08990000000223519,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 6
+    },
+    {
+      "atSeconds": 20.63,
+      "latest": {
+        "at": 19892.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 88,
+          "wave": 1,
+          "towers": 1,
+          "kills": 4,
+          "enemies": 20,
+          "time": 14.833333333333291
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 2,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.14049999999999999,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 7
+    },
+    {
+      "atSeconds": 20.83,
+      "latest": {
+        "at": 20081.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 88,
+          "wave": 1,
+          "towers": 1,
+          "kills": 5,
+          "enemies": 19,
+          "time": 15.03333333333329
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 14,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 2,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 7
+    },
+    {
+      "atSeconds": 21.03,
+      "latest": {
+        "at": 20282.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 88,
+          "wave": 1,
+          "towers": 1,
+          "kills": 5,
+          "enemies": 19,
+          "time": 15.23333333333329
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 13,
+          "states": {
+            "walk": 11,
+            "hurt": 0,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 7
+    },
+    {
+      "atSeconds": 21.24,
+      "latest": {
+        "at": 20483.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 76,
+          "wave": 1,
+          "towers": 1,
+          "kills": 7,
+          "enemies": 17,
+          "time": 15.43333333333329
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 13,
+          "states": {
+            "walk": 11,
+            "hurt": 0,
+            "attack": 0,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.20699999999999996,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 9
+    },
+    {
+      "atSeconds": 21.44,
+      "latest": {
+        "at": 20685,
+        "game": {
+          "state": "running",
+          "hp": 76,
+          "wave": 1,
+          "towers": 1,
+          "kills": 7,
+          "enemies": 17,
+          "time": 15.633333333333288
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 14,
+          "states": {
+            "walk": 12,
+            "hurt": 0,
+            "attack": 0,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.007199999999254893,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 9
+    },
+    {
+      "atSeconds": 21.64,
+      "latest": {
+        "at": 20887.5,
+        "game": {
+          "state": "running",
+          "hp": 76,
+          "wave": 1,
+          "towers": 1,
+          "kills": 7,
+          "enemies": 17,
+          "time": 15.833333333333288
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 13,
+          "states": {
+            "walk": 12,
+            "hurt": 0,
+            "attack": 0,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 9
+    },
+    {
+      "atSeconds": 21.84,
+      "latest": {
+        "at": 21088.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 76,
+          "wave": 1,
+          "towers": 1,
+          "kills": 7,
+          "enemies": 17,
+          "time": 16.03333333333329
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 10,
+            "hurt": 1,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 9
+    },
+    {
+      "atSeconds": 22.05,
+      "latest": {
+        "at": 21321.5,
+        "game": {
+          "state": "running",
+          "hp": 76,
+          "wave": 1,
+          "towers": 1,
+          "kills": 7,
+          "enemies": 17,
+          "time": 16.266666666666634
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 9
+    },
+    {
+      "atSeconds": 22.25,
+      "latest": {
+        "at": 21525.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 76,
+          "wave": 1,
+          "towers": 1,
+          "kills": 7,
+          "enemies": 17,
+          "time": 16.466666666666644
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 9,
+            "hurt": 1,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 9
+    },
+    {
+      "atSeconds": 22.45,
+      "latest": {
+        "at": 21725.5,
+        "game": {
+          "state": "running",
+          "hp": 76,
+          "wave": 1,
+          "towers": 1,
+          "kills": 7,
+          "enemies": 17,
+          "time": 16.666666666666654
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 9
+    },
+    {
+      "atSeconds": 22.65,
+      "latest": {
+        "at": 21925.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 70,
+          "wave": 1,
+          "towers": 1,
+          "kills": 8,
+          "enemies": 16,
+          "time": 16.866666666666664
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.10640000000223518,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 10
+    },
+    {
+      "atSeconds": 22.85,
+      "latest": {
+        "at": 22126.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 64,
+          "wave": 1,
+          "towers": 1,
+          "kills": 10,
+          "enemies": 14,
+          "time": 17.066666666666674
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 0,
+            "death": 3
+          },
+          "ghosts": 3,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.10610000000149011,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 11
+    },
+    {
+      "atSeconds": 23.06,
+      "latest": {
+        "at": 22324.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 64,
+          "wave": 1,
+          "towers": 1,
+          "kills": 10,
+          "enemies": 14,
+          "time": 17.266666666666683
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 10,
+            "hurt": 0,
+            "attack": 0,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 11
+    },
+    {
+      "atSeconds": 23.26,
+      "latest": {
+        "at": 22525,
+        "game": {
+          "state": "running",
+          "hp": 64,
+          "wave": 1,
+          "towers": 1,
+          "kills": 10,
+          "enemies": 14,
+          "time": 17.466666666666693
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 11
+    },
+    {
+      "atSeconds": 23.46,
+      "latest": {
+        "at": 22721.5,
+        "game": {
+          "state": "running",
+          "hp": 64,
+          "wave": 1,
+          "towers": 1,
+          "kills": 10,
+          "enemies": 14,
+          "time": 17.666666666666703
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 11,
+          "states": {
+            "walk": 9,
+            "hurt": 1,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 11
+    },
+    {
+      "atSeconds": 23.66,
+      "latest": {
+        "at": 22921.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 64,
+          "wave": 1,
+          "towers": 1,
+          "kills": 10,
+          "enemies": 14,
+          "time": 17.866666666666713
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 11,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 11
+    },
+    {
+      "atSeconds": 23.86,
+      "latest": {
+        "at": 23125.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 64,
+          "wave": 1,
+          "towers": 1,
+          "kills": 10,
+          "enemies": 14,
+          "time": 18.066666666666723
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 11,
+          "states": {
+            "walk": 9,
+            "hurt": 1,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 11
+    },
+    {
+      "atSeconds": 24.07,
+      "latest": {
+        "at": 23325,
+        "game": {
+          "state": "running",
+          "hp": 58,
+          "wave": 1,
+          "towers": 1,
+          "kills": 11,
+          "enemies": 13,
+          "time": 18.266666666666733
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 11,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.19019999999925494,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 12
+    },
+    {
+      "atSeconds": 24.27,
+      "latest": {
+        "at": 23524.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 52,
+          "wave": 1,
+          "towers": 1,
+          "kills": 12,
+          "enemies": 12,
+          "time": 18.466666666666743
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 11,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 0,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.08949999999999998,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 13
+    },
+    {
+      "atSeconds": 24.47,
+      "latest": {
+        "at": 23724.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 52,
+          "wave": 1,
+          "towers": 1,
+          "kills": 12,
+          "enemies": 12,
+          "time": 18.666666666666753
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 11,
+          "states": {
+            "walk": 8,
+            "hurt": 1,
+            "attack": 0,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 13
+    },
+    {
+      "atSeconds": 24.67,
+      "latest": {
+        "at": 23924.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 52,
+          "wave": 1,
+          "towers": 1,
+          "kills": 12,
+          "enemies": 12,
+          "time": 18.866666666666763
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 13
+    },
+    {
+      "atSeconds": 24.87,
+      "latest": {
+        "at": 24123.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 52,
+          "wave": 1,
+          "towers": 1,
+          "kills": 12,
+          "enemies": 12,
+          "time": 19.066666666666773
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 13
+    },
+    {
+      "atSeconds": 25.08,
+      "latest": {
+        "at": 24325.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 52,
+          "wave": 1,
+          "towers": 1,
+          "kills": 12,
+          "enemies": 12,
+          "time": 19.266666666666783
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 6,
+            "hurt": 1,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 13
+    },
+    {
+      "atSeconds": 25.28,
+      "latest": {
+        "at": 24525.599999997765,
+        "game": {
+          "state": "running",
+          "hp": 52,
+          "wave": 1,
+          "towers": 1,
+          "kills": 12,
+          "enemies": 12,
+          "time": 19.466666666666793
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 7,
+            "hurt": 0,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 13
+    },
+    {
+      "atSeconds": 25.48,
+      "latest": {
+        "at": 24725,
+        "game": {
+          "state": "running",
+          "hp": 52,
+          "wave": 1,
+          "towers": 1,
+          "kills": 12,
+          "enemies": 12,
+          "time": 19.666666666666803
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 7,
+            "hurt": 1,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 13
+    },
+    {
+      "atSeconds": 25.68,
+      "latest": {
+        "at": 24925.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 46,
+          "wave": 1,
+          "towers": 1,
+          "kills": 13,
+          "enemies": 11,
+          "time": 19.866666666666813
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.15699999999999995,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 14
+    },
+    {
+      "atSeconds": 25.89,
+      "latest": {
+        "at": 25124,
+        "game": {
+          "state": "running",
+          "hp": 40,
+          "wave": 1,
+          "towers": 1,
+          "kills": 14,
+          "enemies": 10,
+          "time": 20.066666666666823
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 0,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.038900000002235216,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 15
+    },
+    {
+      "atSeconds": 26.09,
+      "latest": {
+        "at": 25325.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 40,
+          "wave": 1,
+          "towers": 1,
+          "kills": 15,
+          "enemies": 9,
+          "time": 20.266666666666833
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 11,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 1,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 15
+    },
+    {
+      "atSeconds": 26.29,
+      "latest": {
+        "at": 25525.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 40,
+          "wave": 1,
+          "towers": 1,
+          "kills": 15,
+          "enemies": 9,
+          "time": 20.466666666666843
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 8,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 15
+    },
+    {
+      "atSeconds": 26.49,
+      "latest": {
+        "at": 25725.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 40,
+          "wave": 1,
+          "towers": 1,
+          "kills": 15,
+          "enemies": 9,
+          "time": 20.666666666666853
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 7,
+            "hurt": 0,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 15
+    },
+    {
+      "atSeconds": 26.69,
+      "latest": {
+        "at": 25964.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 40,
+          "wave": 1,
+          "towers": 1,
+          "kills": 15,
+          "enemies": 9,
+          "time": 20.900000000000198
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 7,
+            "hurt": 0,
+            "attack": 2,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 15
+    },
+    {
+      "atSeconds": 26.9,
+      "latest": {
+        "at": 26168.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 34,
+          "wave": 1,
+          "towers": 1,
+          "kills": 16,
+          "enemies": 8,
+          "time": 21.100000000000207
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 3,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.04019999999925493,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 16
+    },
+    {
+      "atSeconds": 27.1,
+      "latest": {
+        "at": 26371.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 28,
+          "wave": 1,
+          "towers": 1,
+          "kills": 17,
+          "enemies": 7,
+          "time": 21.300000000000217
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 9,
+          "states": {
+            "walk": 4,
+            "hurt": 1,
+            "attack": 2,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.2066000000014901,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 17
+    },
+    {
+      "atSeconds": 27.3,
+      "latest": {
+        "at": 26573.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 28,
+          "wave": 1,
+          "towers": 1,
+          "kills": 17,
+          "enemies": 7,
+          "time": 21.533333333333562
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 2,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.006100000001490059,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 17
+    },
+    {
+      "atSeconds": 27.51,
+      "latest": {
+        "at": 26761.5,
+        "game": {
+          "state": "running",
+          "hp": 28,
+          "wave": 1,
+          "towers": 1,
+          "kills": 17,
+          "enemies": 7,
+          "time": 21.700000000000237
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 2,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 17
+    },
+    {
+      "atSeconds": 27.71,
+      "latest": {
+        "at": 26963.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 16,
+          "wave": 1,
+          "towers": 1,
+          "kills": 19,
+          "enemies": 5,
+          "time": 21.933333333333582
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 7,
+          "states": {
+            "walk": 4,
+            "hurt": 1,
+            "attack": 0,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.20620000000298022,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 19
+    },
+    {
+      "atSeconds": 27.91,
+      "latest": {
+        "at": 27167.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 16,
+          "wave": 1,
+          "towers": 1,
+          "kills": 19,
+          "enemies": 5,
+          "time": 22.100000000000257
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 7,
+          "states": {
+            "walk": 5,
+            "hurt": 0,
+            "attack": 0,
+            "death": 2
+          },
+          "ghosts": 2,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.006800000000745009,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 19
+    },
+    {
+      "atSeconds": 28.11,
+      "latest": {
+        "at": 27372.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 16,
+          "wave": 1,
+          "towers": 1,
+          "kills": 20,
+          "enemies": 4,
+          "time": 22.333333333333602
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 7,
+          "states": {
+            "walk": 4,
+            "hurt": 0,
+            "attack": 0,
+            "death": 3
+          },
+          "ghosts": 3,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 19
+    },
+    {
+      "atSeconds": 28.32,
+      "latest": {
+        "at": 27562.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 16,
+          "wave": 1,
+          "towers": 1,
+          "kills": 20,
+          "enemies": 4,
+          "time": 22.500000000000277
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 5,
+          "states": {
+            "walk": 3,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 19
+    },
+    {
+      "atSeconds": 28.52,
+      "latest": {
+        "at": 27768.5,
+        "game": {
+          "state": "running",
+          "hp": 16,
+          "wave": 1,
+          "towers": 1,
+          "kills": 20,
+          "enemies": 4,
+          "time": 22.733333333333622
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 4,
+          "states": {
+            "walk": 3,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 19
+    },
+    {
+      "atSeconds": 28.72,
+      "latest": {
+        "at": 28001.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 16,
+          "wave": 1,
+          "towers": 1,
+          "kills": 20,
+          "enemies": 4,
+          "time": 22.933333333333632
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 4,
+          "states": {
+            "walk": 3,
+            "hurt": 1,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 19
+    },
+    {
+      "atSeconds": 28.92,
+      "latest": {
+        "at": 28203.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 16,
+          "wave": 1,
+          "towers": 1,
+          "kills": 20,
+          "enemies": 4,
+          "time": 23.166666666666977
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 4,
+          "states": {
+            "walk": 3,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 19
+    },
+    {
+      "atSeconds": 29.13,
+      "latest": {
+        "at": 28405.79999999702,
+        "game": {
+          "state": "running",
+          "hp": 10,
+          "wave": 1,
+          "towers": 1,
+          "kills": 21,
+          "enemies": 3,
+          "time": 23.366666666666987
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 4,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.07269999999925492,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 20
+    },
+    {
+      "atSeconds": 29.33,
+      "latest": {
+        "at": 28607.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 10,
+          "wave": 1,
+          "towers": 1,
+          "kills": 21,
+          "enemies": 3,
+          "time": 23.566666666666997
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 4,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 20
+    },
+    {
+      "atSeconds": 29.53,
+      "latest": {
+        "at": 28808.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 10,
+          "wave": 1,
+          "towers": 1,
+          "kills": 21,
+          "enemies": 3,
+          "time": 23.766666666667007
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 3,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 20
+    },
+    {
+      "atSeconds": 29.74,
+      "latest": {
+        "at": 29009.199999999255,
+        "game": {
+          "state": "running",
+          "hp": 10,
+          "wave": 1,
+          "towers": 1,
+          "kills": 21,
+          "enemies": 3,
+          "time": 23.93333333333368
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 3,
+          "states": {
+            "walk": 2,
+            "hurt": 1,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 20
+    },
+    {
+      "atSeconds": 29.94,
+      "latest": {
+        "at": 29208,
+        "game": {
+          "state": "running",
+          "hp": 10,
+          "wave": 1,
+          "towers": 1,
+          "kills": 21,
+          "enemies": 3,
+          "time": 24.13333333333369
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 3,
+          "states": {
+            "walk": 2,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 20
+    },
+    {
+      "atSeconds": 30.14,
+      "latest": {
+        "at": 29408.89999999851,
+        "game": {
+          "state": "running",
+          "hp": 4,
+          "wave": 1,
+          "towers": 1,
+          "kills": 22,
+          "enemies": 2,
+          "time": 24.3333333333337
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 3,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.03999999999999996,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 21
+    },
+    {
+      "atSeconds": 30.34,
+      "latest": {
+        "at": 29601,
+        "game": {
+          "state": "running",
+          "hp": 4,
+          "wave": 1,
+          "towers": 1,
+          "kills": 22,
+          "enemies": 2,
+          "time": 24.566666666667047
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 3,
+          "states": {
+            "walk": 1,
+            "hurt": 1,
+            "attack": 0,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 21
+    },
+    {
+      "atSeconds": 30.54,
+      "latest": {
+        "at": 29804.39999999851,
+        "game": {
+          "state": "running",
+          "hp": 4,
+          "wave": 1,
+          "towers": 1,
+          "kills": 22,
+          "enemies": 2,
+          "time": 24.73333333333372
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 21
+    },
+    {
+      "atSeconds": 30.75,
+      "latest": {
+        "at": 30006.099999997765,
+        "game": {
+          "state": "running",
+          "hp": 4,
+          "wave": 1,
+          "towers": 1,
+          "kills": 22,
+          "enemies": 2,
+          "time": 24.93333333333373
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 21
+    },
+    {
+      "atSeconds": 31.03,
+      "latest": {
+        "at": 30208.89999999851,
+        "game": {
+          "state": "lose",
+          "hp": 0,
+          "wave": 1,
+          "towers": 1,
+          "kills": 23,
+          "enemies": 1,
+          "time": 24.966666666667066
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.04009999999776479,
+          "coreHit": true,
+          "crystalDeathElapsed": 0.19990000000223518,
+          "crystalScale": [
+            0.4633853399985396,
+            0.4633853399985396
+          ],
+          "crystalColor": [
+            175,
+            175,
+            175,
+            255
+          ]
+        },
+        "ui": {
+          "visible": true,
+          "title": "守城失败",
+          "subtitle": "城防水晶已被突破",
+          "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+          "button": "再次守城",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 23
+    },
+    {
+      "atSeconds": 31.11,
+      "latest": {
+        "at": 30364,
+        "game": {
+          "state": "lose",
+          "hp": 0,
+          "wave": 1,
+          "towers": 1,
+          "kills": 23,
+          "enemies": 1,
+          "time": 24.966666666667066
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0.36670000000298025,
+          "crystalScale": [
+            0.35439821999805277,
+            0.35439821999805277
+          ],
+          "crystalColor": [
+            175,
+            175,
+            175,
+            255
+          ]
+        },
+        "ui": {
+          "visible": true,
+          "title": "守城失败",
+          "subtitle": "城防水晶已被突破",
+          "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+          "button": "再次守城",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 23
+    },
+    {
+      "atSeconds": 31.2,
+      "latest": {
+        "at": 30441.29999999702,
+        "game": {
+          "state": "lose",
+          "hp": 0,
+          "wave": 1,
+          "towers": 1,
+          "kills": 23,
+          "enemies": 1,
+          "time": 24.966666666667066
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0.4331000000014901,
+          "crystalScale": [
+            0.3110124599990264,
+            0.3110124599990264
+          ],
+          "crystalColor": [
+            175,
+            175,
+            175,
+            255
+          ]
+        },
+        "ui": {
+          "visible": true,
+          "title": "守城失败",
+          "subtitle": "城防水晶已被突破",
+          "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+          "button": "再次守城",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 23
+    },
+    {
+      "atSeconds": 31.28,
+      "latest": {
+        "at": 30521.79999999702,
+        "game": {
+          "state": "lose",
+          "hp": 0,
+          "wave": 1,
+          "towers": 1,
+          "kills": 23,
+          "enemies": 1,
+          "time": 24.966666666667066
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 1,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0.5171000000014901,
+          "crystalScale": [
+            0.25612685999902635,
+            0.25612685999902635
+          ],
+          "crystalColor": [
+            175,
+            175,
+            175,
+            255
+          ]
+        },
+        "ui": {
+          "visible": true,
+          "title": "守城失败",
+          "subtitle": "城防水晶已被突破",
+          "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+          "button": "再次守城",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 23
+    },
+    {
+      "atSeconds": 31.37,
+      "latest": {
+        "at": 30642,
+        "game": {
+          "state": "lose",
+          "hp": 0,
+          "wave": 1,
+          "towers": 1,
+          "kills": 23,
+          "enemies": 1,
+          "time": 24.966666666667066
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 1,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0.63410000000149,
+          "crystalScale": [
+            0.1796790599990264,
+            0.1796790599990264
+          ],
+          "crystalColor": [
+            175,
+            175,
+            175,
+            255
+          ]
+        },
+        "ui": {
+          "visible": true,
+          "title": "守城失败",
+          "subtitle": "城防水晶已被突破",
+          "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+          "button": "再次守城",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 23
+    },
+    {
+      "atSeconds": 31.54,
+      "latest": {
+        "at": 30724.79999999702,
+        "game": {
+          "state": "lose",
+          "hp": 0,
+          "wave": 1,
+          "towers": 1,
+          "kills": 23,
+          "enemies": 1,
+          "time": 24.966666666667066
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 1,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0.716900000002235,
+          "crystalScale": [
+            0.14850000000000002,
+            0.14850000000000002
+          ],
+          "crystalColor": [
+            175,
+            175,
+            175,
+            255
+          ]
+        },
+        "ui": {
+          "visible": true,
+          "title": "守城失败",
+          "subtitle": "城防水晶已被突破",
+          "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+          "button": "再次守城",
+          "buttonEnabled": true
+        }
+      },
+      "eventCount": 24
+    }
+  ],
+  "events": [
+    {
+      "kind": "upgrade",
+      "snapshot": {
+        "at": 4883,
+        "game": {
+          "state": "ready",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 0,
+          "states": {
+            "walk": 0,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 1,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      }
+    },
+    {
+      "kind": "death",
+      "snapshot": {
+        "at": 16736.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 20,
+          "time": 11.666666666666636
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 7,
+            "hurt": 0,
+            "attack": 0,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      }
+    },
+    {
+      "kind": "hurt",
+      "snapshot": {
+        "at": 17285.29999999702,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 21,
+          "time": 12.2333333333333
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 8,
+          "states": {
+            "walk": 7,
+            "hurt": 1,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      }
+    },
+    {
+      "kind": "attack",
+      "snapshot": {
+        "at": 18726,
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1,
+          "kills": 2,
+          "enemies": 22,
+          "time": 13.666666666666629
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 10,
+          "states": {
+            "walk": 9,
+            "hurt": 0,
+            "attack": 1,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            255,
+            255,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      }
+    },
+    {
+      "kind": "coreHit",
+      "snapshot": {
+        "at": 19488.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 94,
+          "wave": 1,
+          "towers": 1,
+          "kills": 3,
+          "enemies": 21,
+          "time": 14.433333333333293
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 9,
+            "hurt": 1,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.207,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      }
+    },
+    {
+      "kind": "hpDrop",
+      "snapshot": {
+        "at": 19488.699999999255,
+        "game": {
+          "state": "running",
+          "hp": 94,
+          "wave": 1,
+          "towers": 1,
+          "kills": 3,
+          "enemies": 21,
+          "time": 14.433333333333293
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 12,
+          "states": {
+            "walk": 9,
+            "hurt": 1,
+            "attack": 1,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.207,
+          "coreHit": true,
+          "crystalDeathElapsed": 0,
+          "crystalScale": [
+            0.5940000000000001,
+            0.5940000000000001
+          ],
+          "crystalColor": [
+            255,
+            100,
+            100,
+            255
+          ]
+        },
+        "ui": {
+          "visible": false,
+          "title": "label",
+          "subtitle": "label",
+          "stats": "label",
+          "button": "label",
+          "buttonEnabled": true
+        }
+      },
+      "damage": 6
+    },
+    {
+      "kind": "lose",
+      "snapshot": {
+        "at": 30042.5,
+        "game": {
+          "state": "lose",
+          "hp": 0,
+          "wave": 1,
+          "towers": 1,
+          "kills": 23,
+          "enemies": 1,
+          "time": 24.966666666667066
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 2,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 1
+          },
+          "ghosts": 1,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0.20589999999850986,
+          "coreHit": true,
+          "crystalDeathElapsed": 0.03410000000149012,
+          "crystalScale": [
+            0.5717190599990264,
+            0.5717190599990264
+          ],
+          "crystalColor": [
+            175,
+            175,
+            175,
+            255
+          ]
+        },
+        "ui": {
+          "visible": true,
+          "title": "守城失败",
+          "subtitle": "城防水晶已被突破",
+          "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+          "button": "再次守城",
+          "buttonEnabled": true
+        }
+      }
+    },
+    {
+      "kind": "coreDefeat",
+      "snapshot": {
+        "at": 30724.79999999702,
+        "game": {
+          "state": "lose",
+          "hp": 0,
+          "wave": 1,
+          "towers": 1,
+          "kills": 23,
+          "enemies": 1,
+          "time": 24.966666666667066
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "active": 1,
+          "states": {
+            "walk": 1,
+            "hurt": 0,
+            "attack": 0,
+            "death": 0
+          },
+          "ghosts": 0,
+          "upgradingTowers": 0,
+          "coreHitTimer": 0,
+          "coreHit": false,
+          "crystalDeathElapsed": 0.716900000002235,
+          "crystalScale": [
+            0.14850000000000002,
+            0.14850000000000002
+          ],
+          "crystalColor": [
+            175,
+            175,
+            175,
+            255
+          ]
+        },
+        "ui": {
+          "visible": true,
+          "title": "守城失败",
+          "subtitle": "城防水晶已被突破",
+          "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+          "button": "再次守城",
+          "buttonEnabled": true
+        }
+      }
+    }
+  ],
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "screenshots": [
+    {
+      "file": "00-资源就绪.png",
+      "bytes": 548406,
+      "sha256": "F785A187ACB04DFDE6763F3EFCC492F54DDC5ECC4038CC9E209B1B709F83249E"
+    },
+    {
+      "file": "01-单塔升级反馈.png",
+      "bytes": 544127,
+      "sha256": "A322EEF75D9A6F7A35DAC79B8A9BB49014F3077E7F5BC249A77BAB376B41B890"
+    },
+    {
+      "file": "04-敌人死亡状态.png",
+      "bytes": 547860,
+      "sha256": "2B5FDDC9AA7932000E6E79A4915771421021A936CDC9D34400035A53DF90F82C"
+    },
+    {
+      "file": "03-敌人受击状态.png",
+      "bytes": 547930,
+      "sha256": "02BF332235E4A8DD5C83FFADC07A8D9CA19D84CBE8526A6C828AAC716146E544"
+    },
+    {
+      "file": "02-敌人攻击状态.png",
+      "bytes": 548589,
+      "sha256": "2B99974D3B8C033DF57A54D5FBCBF0106BFF74EC323447B0018EEFDF86E20996"
+    },
+    {
+      "file": "05-水晶受击状态.png",
+      "bytes": 548684,
+      "sha256": "6C3BFA3507302B11FFC119967DABFD3B59C1BE7BF61296F6831F75783FA0E3A4"
+    },
+    {
+      "file": "06-水晶失败动画.png",
+      "bytes": 259018,
+      "sha256": "C8B35EAD347C06E14F1102AC900E56B247DFD07F80B5A897F73FB92659B7E82E"
+    },
+    {
+      "file": "06-水晶失败动画-完整.png",
+      "bytes": 258730,
+      "sha256": "9CD1FBF38C93108C684B22E31F023CB6126EA978977F7F28BB84B5CF0AF428BA"
+    },
+    {
+      "file": "07-重开后.png",
+      "bytes": 548359,
+      "sha256": "504CA5B05F6F052731B6322C831A6728809AFDBCACBE02B1923ACACD34595AA4"
+    }
+  ],
+  "result": "PASS",
+  "initial": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "pool": 0,
+      "active": 0,
+      "towerPool": 9,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "upgradeTimers": [],
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    "ui": {
+      "visible": false,
+      "title": "label",
+      "subtitle": "label",
+      "stats": "label",
+      "button": "label",
+      "buttonEnabled": true
+    }
+  },
+  "viewport": {
+    "width": 360,
+    "height": 780,
+    "hidden": false
+  },
+  "observerInstalled": {
+    "ok": true,
+    "intervalMs": 40
+  },
+  "afterRemove": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 1,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "pool": 0,
+      "active": 0,
+      "towerPool": 9,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "upgradeTimers": [],
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    "ui": {
+      "visible": false,
+      "title": "label",
+      "subtitle": "label",
+      "stats": "label",
+      "button": "label",
+      "buttonEnabled": true
+    }
+  },
+  "upgradeState": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 1,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "pool": 0,
+      "active": 0,
+      "towerPool": 9,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 1,
+      "upgradeTimers": [
+        0.5726000000014901
+      ],
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    "ui": {
+      "visible": false,
+      "title": "label",
+      "subtitle": "label",
+      "stats": "label",
+      "button": "label",
+      "buttonEnabled": true
+    }
+  },
+  "coverageFlags": {
+    "upgrade": true,
+    "death": true,
+    "hurt": true,
+    "attack": true,
+    "coreHit": true,
+    "lose": true,
+    "coreDefeat": true
+  },
+  "latest": {
+    "at": 30724.79999999702,
+    "game": {
+      "state": "lose",
+      "hp": 0,
+      "wave": 1,
+      "towers": 1,
+      "kills": 23,
+      "enemies": 1,
+      "time": 24.966666666667066
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "active": 1,
+      "states": {
+        "walk": 1,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0.716900000002235,
+      "crystalScale": [
+        0.14850000000000002,
+        0.14850000000000002
+      ],
+      "crystalColor": [
+        175,
+        175,
+        175,
+        255
+      ]
+    },
+    "ui": {
+      "visible": true,
+      "title": "守城失败",
+      "subtitle": "城防水晶已被突破",
+      "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+      "button": "再次守城",
+      "buttonEnabled": true
+    }
+  },
+  "final": {
+    "at": 30803.5,
+    "game": {
+      "state": "lose",
+      "hp": 0,
+      "wave": 1,
+      "towers": 1,
+      "kills": 23,
+      "enemies": 1,
+      "time": 24.966666666667066
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "active": 1,
+      "states": {
+        "walk": 1,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0.8003000000007447,
+      "crystalScale": [
+        0.14850000000000002,
+        0.14850000000000002
+      ],
+      "crystalColor": [
+        175,
+        175,
+        175,
+        255
+      ]
+    },
+    "ui": {
+      "visible": true,
+      "title": "守城失败",
+      "subtitle": "城防水晶已被突破",
+      "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+      "button": "再次守城",
+      "buttonEnabled": true
+    }
+  },
+  "afterRestart": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0
+    },
+    "art": {
+      "ready": true,
+      "failed": false,
+      "pool": 15,
+      "active": 0,
+      "towerPool": 9,
+      "states": {
+        "walk": 0,
+        "hurt": 0,
+        "attack": 0,
+        "death": 0
+      },
+      "ghosts": 0,
+      "upgradingTowers": 0,
+      "upgradeTimers": [],
+      "coreHitTimer": 0,
+      "coreHit": false,
+      "crystalDeathElapsed": 0,
+      "crystalScale": [
+        0.5940000000000001,
+        0.5940000000000001
+      ],
+      "crystalColor": [
+        255,
+        255,
+        255,
+        255
+      ]
+    },
+    "ui": {
+      "visible": false,
+      "title": "守城失败",
+      "subtitle": "城防水晶已被突破",
+      "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+      "button": "再次守城",
+      "buttonEnabled": true
+    }
+  },
+  "coverage": {
+    "upgrade": true,
+    "attack": true,
+    "hurt": true,
+    "death": true,
+    "coreHit": true,
+    "coreDefeat": true,
+    "settlementOverlay": true,
+    "restart": true,
+    "overlayHiddenAfterRestart": true
+  },
+  "durationSeconds": 36.79,
+  "finishedAt": "2026-10-20T19:13:48",
+  "summary": {
+    "hostPollCount": 128,
+    "events": [
+      "upgrade",
+      "death",
+      "hurt",
+      "attack",
+      "coreHit",
+      "hpDrop",
+      "lose",
+      "coreDefeat"
+    ],
+    "coverage": {
+      "upgrade": true,
+      "attack": true,
+      "hurt": true,
+      "death": true,
+      "coreHit": true,
+      "coreDefeat": true,
+      "settlementOverlay": true,
+      "restart": true,
+      "overlayHiddenAfterRestart": true
+    },
+    "coverageFlags": {
+      "upgrade": true,
+      "death": true,
+      "hurt": true,
+      "attack": true,
+      "coreHit": true,
+      "lose": true,
+      "coreDefeat": true
+    },
+    "consoleErrorCount": 0,
+    "lastGame": {
+      "state": "lose",
+      "hp": 0,
+      "wave": 1,
+      "towers": 1,
+      "kills": 23,
+      "enemies": 1,
+      "time": 24.966666666667066
+    },
+    "settlementUI": {
+      "visible": true,
+      "title": "守城失败",
+      "subtitle": "城防水晶已被突破",
+      "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+      "button": "再次守城",
+      "buttonEnabled": true
+    },
+    "restartUI": {
+      "visible": false,
+      "title": "守城失败",
+      "subtitle": "城防水晶已被突破",
+      "stats": "本局击退 23 只兽人\n抵达第 1 波 · 水晶 0/100",
+      "button": "再次守城",
+      "buttonEnabled": true
+    }
+  }
+}

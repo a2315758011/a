@@ -1,0 +1,60 @@
+{
+  "taskId": "PIXEL-SPEC-001",
+  "projectId": "live-turret-defense",
+  "status": "IMPLEMENTED",
+  "assignee": "agent-gpt6-orcdom-overview-20261012",
+  "reviewMode": "SELF_REVIEW",
+  "dependsOn": [
+    "BEN-001"
+  ],
+  "verifiedReference": "https://www.taptap.cn/app/714518",
+  "instructionRefs": [
+    {
+      "source": "https://github.com/a2315758011/a/blob/main/README.md",
+      "version": "V5.3",
+      "blobSha": "5d7e40c3a34873314eed9285313332243a9fa6db",
+      "chapters": [
+        "00",
+        "01",
+        "02",
+        "03",
+        "04",
+        "09",
+        "10",
+        "12",
+        "13",
+        "14"
+      ]
+    }
+  ],
+  "outputs": [
+    "对标实际玩法与截图核实-v0.3.md",
+    "美术规范/俯视像素塔防美术规格-v0.3.md",
+    "美术规范/俯视像素塔防资源合同-v0.3.json",
+    "美术规范/首图俯视战场布局候选-v0.3.json",
+    "美术规范/验证俯视布局.py"
+  ],
+  "validation": {
+    "benchmarkIdentity": "PASS",
+    "nativePixelTopdown": "SOURCE_VERIFIED",
+    "layoutStatic": "PASS",
+    "imagePng": "BLOCKED_MEDIA",
+    "runtime": "UNVERIFIED"
+  },
+  "mediaJobs": [
+    {
+      "id": "67404b60-3ac2-43a9-b1df-334790c1bafa",
+      "status": "failed",
+      "submitted": false,
+      "code": "NO_ROUTE_AFTER_PRE_SUBMIT_FAILURE"
+    },
+    {
+      "id": "a613ac7a-1c89-4cce-abf7-4acffd4d7120",
+      "status": "failed",
+      "submitted": false,
+      "code": "DISPATCH_EXECUTION_FAILED"
+    }
+  ],
+  "handoff": "接管记录.md",
+  "nextAction": "先在统一网关确认真实图片能力与账号，再恢复GAME-OVERVIEW-001；PLAT-002尚待官方入退房真实事件实测；禁止G0下游开工"
+}

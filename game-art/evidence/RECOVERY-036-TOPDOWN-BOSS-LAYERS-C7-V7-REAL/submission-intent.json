@@ -1,0 +1,11 @@
+{
+  "taskId": "RECOVERY-036-TOPDOWN-BOSS-LAYERS-C7-V7-REAL",
+  "createdAt": "2026-10-22T08:19:31.543Z",
+  "state": "created",
+  "sourceTaskId": "RECOVERY-036-TOPDOWN-BOSS-LAYERS-C7-V7-REAL",
+  "payloadSha256": "81cf01e10d32d2e811db1d3671186c72d2d802dd70c9584ec7d4766e0eeaaff7",
+  "note": "If create response is ambiguous, do not resubmit; reconcile by sourceTaskId and the saved gateway/database state.",
+  "jobId": "ddd2d6e9-cc1a-4c33-8c8f-328b83b3b7ad",
+  "httpStatus": 202,
+  "updatedAt": "2026-10-22T08:19:31.549Z"
+}

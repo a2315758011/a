@@ -1,0 +1,591 @@
+{
+  "task": "RECOVERY-029",
+  "method": "desktop Edge Web-Mobile 4x CPU throttled stress; public live-event API; real menu/zoom clicks; no direct tower writes",
+  "measureSeconds": 12.0,
+  "startedAt": "2026-10-21T22:12:08",
+  "scenarios": [
+    {
+      "targetTowers": 1000,
+      "viewerEvents": 991,
+      "viewport": [
+        540,
+        960
+      ],
+      "consoleErrors": [],
+      "consoleWarnings": [],
+      "transientReadErrors": [
+        "Uncaught"
+      ],
+      "ready": {
+        "game": {
+          "state": "ready",
+          "hp": 100,
+          "wave": 1,
+          "towers": 9,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0,
+          "zoom": 0.9
+        },
+        "live": {
+          "online": 0,
+          "known": 0,
+          "queue": 0,
+          "processed": 0,
+          "rejected": 0
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "maxVisible": 600,
+          "pool": 9,
+          "active": 9,
+          "artRoot": false
+        },
+        "memory": {
+          "used": 34920895,
+          "total": 41260143,
+          "limit": 4294705152
+        }
+      },
+      "injectionSubmit": {
+        "accepted": 991,
+        "snap": {
+          "onlineViewers": 0,
+          "knownViewers": 0,
+          "queueDepth": 991,
+          "processedEvents": 0,
+          "duplicateEvents": 0,
+          "rejectedEvents": 0,
+          "giftEvents": 0,
+          "giftPower": 0,
+          "lastEvent": "none",
+          "viewers": []
+        }
+      },
+      "populationSeconds": 0.203,
+      "populated": {
+        "game": {
+          "state": "ready",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1000,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0,
+          "zoom": 0.9
+        },
+        "live": {
+          "online": 991,
+          "known": 991,
+          "queue": 0,
+          "processed": 991,
+          "rejected": 0
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "maxVisible": 600,
+          "pool": 31,
+          "active": 31,
+          "artRoot": false
+        },
+        "memory": {
+          "used": 28581403,
+          "total": 40311919,
+          "limit": 4294705152
+        }
+      },
+      "preMeasure": {
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 1,
+          "towers": 1000,
+          "kills": 0,
+          "enemies": 0,
+          "time": 0.6666666666666666,
+          "zoom": 0.48
+        },
+        "live": {
+          "online": 991,
+          "known": 991,
+          "queue": 0,
+          "processed": 991,
+          "rejected": 0
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "maxVisible": 600,
+          "pool": 196,
+          "active": 196,
+          "artRoot": true
+        },
+        "memory": {
+          "used": 35631723,
+          "total": 45372691,
+          "limit": 4294705152
+        }
+      },
+      "screenshot": {
+        "file": "1000塔-缩小视野.jpg",
+        "bytes": 128821,
+        "sha256": "B11A8C2340AF00C74BEC4C3668ED4B91DA92058CA539ABB98F0A5D94C9AD3150"
+      },
+      "postMeasure": {
+        "game": {
+          "state": "running",
+          "hp": 100,
+          "wave": 2,
+          "towers": 1000,
+          "kills": 24,
+          "enemies": 0,
+          "time": 12.999999999999964,
+          "zoom": 0.48
+        },
+        "live": {
+          "online": 991,
+          "known": 991,
+          "queue": 0,
+          "processed": 991,
+          "rejected": 0
+        },
+        "art": {
+          "ready": true,
+          "failed": false,
+          "maxVisible": 600,
+          "pool": 196,
+          "active": 196,
+          "artRoot": true
+        },
+        "memory": {
+          "used": 38834022,
+          "total": 67267870,
+          "limit": 4294705152
+        }
+      },
+      "samples": [
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 0,
+            "enemies": 0,
+            "time": 0.8333333333333333,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 31635894,
+            "total": 47310110,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 2,
+            "enemies": 0,
+            "time": 1.8333333333333357,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 39868138,
+            "total": 50205982,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 4,
+            "enemies": 0,
+            "time": 2.8666666666666663,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 36176326,
+            "total": 49806622,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 6,
+            "enemies": 0,
+            "time": 3.8666666666666627,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 34213210,
+            "total": 49646878,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 8,
+            "enemies": 0,
+            "time": 4.899999999999992,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 32840722,
+            "total": 49487134,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 10,
+            "enemies": 0,
+            "time": 5.899999999999989,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 39109510,
+            "total": 50126110,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 12,
+            "enemies": 0,
+            "time": 6.899999999999985,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 35899590,
+            "total": 49806622,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 14,
+            "enemies": 0,
+            "time": 7.899999999999982,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 40003638,
+            "total": 50650398,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 17,
+            "enemies": 0,
+            "time": 8.933333333333312,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 38872450,
+            "total": 56519966,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 19,
+            "enemies": 0,
+            "time": 9.933333333333309,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 33887354,
+            "total": 64429342,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 21,
+            "enemies": 0,
+            "time": 10.933333333333305,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 47427606,
+            "total": 66049310,
+            "limit": 4294705152
+          }
+        },
+        {
+          "game": {
+            "state": "running",
+            "hp": 100,
+            "wave": 1,
+            "towers": 1000,
+            "kills": 23,
+            "enemies": 0,
+            "time": 11.933333333333302,
+            "zoom": 0.48
+          },
+          "live": {
+            "online": 991,
+            "known": 991,
+            "queue": 0,
+            "processed": 991,
+            "rejected": 0
+          },
+          "art": {
+            "ready": true,
+            "failed": false,
+            "maxVisible": 600,
+            "pool": 196,
+            "active": 196,
+            "artRoot": true
+          },
+          "memory": {
+            "used": 42863810,
+            "total": 67747102,
+            "limit": 4294705152
+          }
+        }
+      ],
+      "perf": {
+        "frames": 688,
+        "samples": 687,
+        "elapsedMs": 12157.200000001118,
+        "avgFrameMs": 17.68500727802038,
+        "p50": 16.700000000000728,
+        "p95": 33.399999999999636,
+        "p99": 33.5,
+        "max": 33.5,
+        "over33": 39,
+        "over50": 0,
+        "over100": 0
+      },
+      "wallSeconds": 12.137,
+      "gameTimeDelta": 12.333,
+      "simulationRatio": 1.016,
+      "fps": 56.59,
+      "queryLatencyMs": {
+        "avg": 16.18,
+        "p95": 22.2,
+        "max": 22.57
+      },
+      "passConditions": {
+        "targetTowerCount": true,
+        "queueDrained": true,
+        "noRejectedEvents": true,
+        "artPoolBounded": true,
+        "noConsoleErrors": true,
+        "simulationRatioAtLeast085": true,
+        "fpsAtLeast30": true
+      },
+      "result": "PASS",
+      "durationSeconds": 25.7
+    }
+  ],
+  "overallPass": true,
+  "finishedAt": "2026-10-21T22:12:36"
+}

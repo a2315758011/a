@@ -1,0 +1,33 @@
+{
+  "startedAt": "2026-10-20T09:25:47",
+  "durationSeconds": 16.14,
+  "returnCode": 36,
+  "buildSuccessLogged": true,
+  "typescriptErrors": [],
+  "errorLogBytes": 0,
+  "stdoutBytes": 67641,
+  "entryExists": true,
+  "entryMtime": "2026-10-20T09:26:03",
+  "resourcePngCount": 89,
+  "missingMeta": [],
+  "candidateResourceStrings": {
+    "enemyLayers": true,
+    "ui": true,
+    "ground": true
+  },
+  "lastLogLines": [
+    "2026-10-20 09:26:03 - debug: adsense-h5g-plugin:(onAfterBuild) in 0 ms ✓, progress: 64%",
+    "",
+    "2026-10-20 09:26:03 - log: Asset DB is resume!",
+    "",
+    "2026-10-20 09:26:03 - debug: builder:build-project-total (6629ms)",
+    "",
+    "2026-10-20 09:26:03 - debug: build success in 6629!",
+    "",
+    "2026-10-20 09:26:03 - debug: [Build Memory track]: builder:build-project-total start:273.57MB, end 258.35MB, increase: -15583.00KB",
+    "",
+    "2026-10-20 09:26:03 - debug: ================================ build Task (web-mobile) Finished in (6 s)ms ================================",
+    ""
+  ],
+  "stderrTail": []
+}

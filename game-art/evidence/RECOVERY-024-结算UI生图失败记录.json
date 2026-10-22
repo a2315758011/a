@@ -1,0 +1,19 @@
+{
+  "taskId": "RECOVERY-024-settlement-panel",
+  "projectId": "live-turret-defense",
+  "attemptedAt": "2026-10-20T10:51:04.253Z",
+  "gatewayRuntimeFile": "Desktop/deliverable/.infra/GENERATION_GATEWAY_RUNTIME.json",
+  "gatewayBaseUrl": "http://127.0.0.1:18130",
+  "gatewayJobId": "869b6e0c-0b92-40ab-b28b-10b3c1485a1d",
+  "status": "failed",
+  "stage": "mode-prepare",
+  "errorCode": "NO_ROUTE_AFTER_PRE_SUBMIT_FAILURE",
+  "errorMessage": "网页生成失败：豆包工作 · 网页账号 6：豆包网页没有切换到豆包工作模式",
+  "submitted": false,
+  "submitLocked": false,
+  "artifacts": [],
+  "intendedOutput": "game-art/candidate-ui/RECOVERY-024/结算面板底板.png",
+  "outputExists": false,
+  "retryPolicy": "NO_RETRY. Do not resubmit this same asset task after mode-prepare failure; follow project policy for MODE_NOT_READY/page-load failures.",
+  "impact": "No image artifact was generated. Formal Cocos project and isolated candidate source were not changed."
+}

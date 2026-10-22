@@ -1,0 +1,230 @@
+{
+  "task": "RECOVERY-026",
+  "test": "five viewport main-menu smoke",
+  "viewports": [
+    {
+      "target": [
+        360,
+        780
+      ],
+      "before": {
+        "vw": 540,
+        "vh": 1170,
+        "start": [
+          0,
+          -200
+        ],
+        "viewer": [
+          -103,
+          -489
+        ],
+        "title": "直播炮塔守城",
+        "startText": "开始守城",
+        "state": "ready",
+        "towers": 9,
+        "inputBlocked": true,
+        "hud": false,
+        "art": false
+      },
+      "screenStart": [
+        180,
+        523
+      ],
+      "checks": {
+        "labels": true,
+        "startInBounds": true,
+        "menuOwnsInput": true,
+        "hiddenBattleBlocked": true,
+        "realStart": true
+      },
+      "afterStart": {
+        "state": "running",
+        "menu": false,
+        "inputBlocked": false,
+        "hud": true,
+        "towers": 9
+      },
+      "pass": true
+    },
+    {
+      "target": [
+        393,
+        852
+      ],
+      "before": {
+        "vw": 540,
+        "vh": 1170.6870229007634,
+        "start": [
+          0,
+          -200
+        ],
+        "viewer": [
+          -103,
+          -489.3435114503817
+        ],
+        "title": "直播炮塔守城",
+        "startText": "开始守城",
+        "state": "ready",
+        "towers": 9,
+        "inputBlocked": true,
+        "hud": false,
+        "art": false
+      },
+      "screenStart": [
+        196,
+        572
+      ],
+      "checks": {
+        "labels": true,
+        "startInBounds": true,
+        "menuOwnsInput": true,
+        "hiddenBattleBlocked": true,
+        "realStart": true
+      },
+      "afterStart": {
+        "state": "running",
+        "menu": false,
+        "inputBlocked": false,
+        "hud": true,
+        "towers": 9
+      },
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        760
+      ],
+      "before": {
+        "vw": 540,
+        "vh": 760,
+        "start": [
+          0,
+          -200
+        ],
+        "viewer": [
+          -103,
+          -284
+        ],
+        "title": "直播炮塔守城",
+        "startText": "开始守城",
+        "state": "ready",
+        "towers": 9,
+        "inputBlocked": true,
+        "hud": false,
+        "art": false
+      },
+      "screenStart": [
+        270,
+        580
+      ],
+      "checks": {
+        "labels": true,
+        "startInBounds": true,
+        "menuOwnsInput": true,
+        "hiddenBattleBlocked": true,
+        "realStart": true
+      },
+      "afterStart": {
+        "state": "running",
+        "menu": false,
+        "inputBlocked": false,
+        "hud": true,
+        "towers": 9
+      },
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        960
+      ],
+      "before": {
+        "vw": 540,
+        "vh": 960,
+        "start": [
+          0,
+          -200
+        ],
+        "viewer": [
+          -103,
+          -384
+        ],
+        "title": "直播炮塔守城",
+        "startText": "开始守城",
+        "state": "ready",
+        "towers": 9,
+        "inputBlocked": true,
+        "hud": false,
+        "art": false
+      },
+      "screenStart": [
+        270,
+        680
+      ],
+      "checks": {
+        "labels": true,
+        "startInBounds": true,
+        "menuOwnsInput": true,
+        "hiddenBattleBlocked": true,
+        "realStart": true
+      },
+      "afterStart": {
+        "state": "running",
+        "menu": false,
+        "inputBlocked": false,
+        "hud": true,
+        "towers": 9
+      },
+      "pass": true
+    },
+    {
+      "target": [
+        540,
+        1108
+      ],
+      "before": {
+        "vw": 540,
+        "vh": 1108,
+        "start": [
+          0,
+          -200
+        ],
+        "viewer": [
+          -103,
+          -458
+        ],
+        "title": "直播炮塔守城",
+        "startText": "开始守城",
+        "state": "ready",
+        "towers": 9,
+        "inputBlocked": true,
+        "hud": false,
+        "art": false
+      },
+      "screenStart": [
+        270,
+        754
+      ],
+      "checks": {
+        "labels": true,
+        "startInBounds": true,
+        "menuOwnsInput": true,
+        "hiddenBattleBlocked": true,
+        "realStart": true
+      },
+      "afterStart": {
+        "state": "running",
+        "menu": false,
+        "inputBlocked": false,
+        "hud": true,
+        "towers": 9
+      },
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "startedAt": "2026-10-21T22:11:04",
+  "finishedAt": "2026-10-21T22:11:29",
+  "overallPass": true
+}

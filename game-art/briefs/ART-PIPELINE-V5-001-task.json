@@ -1,0 +1,554 @@
+{
+  "taskId": "ART-PIPELINE-V5-001",
+  "projectId": "live-turret-defense",
+  "owner": "agent-gpt6-art-recovery-20261020",
+  "status": "CANDIDATE_RUNTIME_QA_PASS_ART_APPROVAL_PENDING",
+  "impact_required": true,
+  "goal": "Use the existing shared image-generation router to create a consistent original pixel-art asset set, split into editable layers/transparent runtime sprites, import into Cocos Creator, bind into the actual playable scene and verify a complete round.",
+  "instructionRefs": [
+    "2d-game-art-director skill",
+    "project-orchestrator ARCHITECTURE-IMPACT-PROTOCOL V2"
+  ],
+  "resourceLocks": [
+    "project:live-turret-defense:art-assets-v5",
+    "project:live-turret-defense:cocos-resources-v5",
+    "project:live-turret-defense:candidate-art-overlay-v5",
+    "project:live-turret-defense:cocos-v5-qa",
+    "project:live-turret-defense:task-board"
+  ],
+  "impact_contract": {
+    "entrypoints": [
+      "CocosCreator工程/assets/场景/守城主场景.scene",
+      "CocosCreator工程/assets/场景/候选美术试玩.scene",
+      "CocosCreator工程/assets/脚本/守城控制器.ts"
+    ],
+    "upstream": [
+      "workstation shared Generation Gateway feature freedom_image",
+      "locked reference image game-art/evidence/ART-PIPELINE-V5-001/references/玩法总览图-v0.4.png",
+      "existing controller candidateArtState() and gameplay state"
+    ],
+    "downstream": [
+      "Cocos resources import database",
+      "Cocos sprite/render overlay",
+      "portrait battle viewport",
+      "tower/enemy/core renderer"
+    ],
+    "included_scenarios": [
+      "desktop Cocos WebGL2 9:16 gameplay",
+      "short-screen 540x760",
+      "tower attack visuals",
+      "orc movement visuals",
+      "core HP and restart"
+    ],
+    "excluded_scenarios": [
+      "Android/WeChat/Douyin live account platform integration remains separate because it needs device/platform credentials"
+    ],
+    "integration_checks": [
+      {
+        "id": "GEN-001",
+        "description": "Each source image job returns a real local artifact and records provider job id/hash."
+      },
+      {
+        "id": "ALPHA-001",
+        "description": "Split layer PNGs are RGBA and pass alpha/magenta-edge QA."
+      },
+      {
+        "id": "COCOS-IMPORT-001",
+        "description": "Cocos Creator imports V5 PNGs with unique metadata and resource loads."
+      },
+      {
+        "id": "COCOS-RUNTIME-001",
+        "description": "Actual Cocos scene shows V5 assets at correct scale and top-down orientation."
+      },
+      {
+        "id": "GAME-E2E-001",
+        "description": "Mouse/touch can start battle, add viewer/tower, survive to win/lose, and restart."
+      }
+    ],
+    "regression_checks": [
+      {
+        "id": "REG-INPUT-001",
+        "description": "No duplicate touch/mouse tower additions."
+      },
+      {
+        "id": "REG-VIEWPORT-001",
+        "description": "360x780,393x852,540x760,540x960,540x1108 remain supported."
+      },
+      {
+        "id": "REG-CORE-001",
+        "description": "Core crystal remains the sole protected objective; frost tower is not confused with the core."
+      },
+      {
+        "id": "REG-ART-001",
+        "description": "Old V4 source and original greybox scene remain recoverable."
+      }
+    ]
+  },
+  "generationJobs": [
+    {
+      "taskId": "ART-PIPELINE-V5-TOWER-LAYERS",
+      "sheetId": "td-v5-tower-layer-sheet",
+      "status": "COMPLETED_ARTIFACT_SAVED",
+      "providerCapabilityVerified": true,
+      "providerId": "web:cdf18b92-a371-48e2-8121-c9fd466d0816:freedom_image",
+      "providerJobId": "f2db3723-23f3-4853-8685-611433b20aad",
+      "accountId": "cdf18b92-a371-48e2-8121-c9fd466d0816",
+      "platformId": "chatgpt",
+      "artifactPath": "美术资源/重制批次-v0.7/原始生成/战斗分层/1792420074315_chatgpt_2315758011_34e58822.png",
+      "artifactSha256": "df1422f2f518c3f699cc156a9ecd306d5caec379fc0e5b3bd306585dada4ec22",
+      "completedAt": "2026-10-19T16:09:23.662Z",
+      "lastKnownStatus": "completed",
+      "currentLookupHttp": 404,
+      "artifactFoundInProject": true
+    },
+    {
+      "taskId": "ART-PIPELINE-V5-ENEMY-LAYERS",
+      "sheetId": "td-v5-enemy-layer-sheet",
+      "status": "ORPHANED_JOB_RECORD_MISSING",
+      "providerCapabilityVerified": true,
+      "providerId": "web:538465cc-e184-4e38-bdcd-684ab15a7bbf:freedom_image",
+      "providerJobId": "de3262ec-791a-45fa-b60f-613431a5aa78",
+      "accountId": "538465cc-e184-4e38-bdcd-684ab15a7bbf",
+      "platformId": "doubao_work",
+      "conversationUrl": "https://www.doubao.com/chat/38448186503881986",
+      "currentLookupHttp": 404,
+      "lastKnownStatus": "waiting-result",
+      "artifactFoundInProject": false
+    },
+    {
+      "taskId": "ART-PIPELINE-V5-UI",
+      "sheetId": "td-v5-ui-sheet",
+      "status": "ORPHANED_JOB_RECORD_MISSING",
+      "providerCapabilityVerified": true,
+      "providerId": "web:538465cc-e184-4e38-bdcd-684ab15a7bbf:freedom_image",
+      "providerJobId": "71b7ae88-8df2-4458-8733-eedf386c08e4",
+      "accountId": "538465cc-e184-4e38-bdcd-684ab15a7bbf",
+      "platformId": "doubao_work",
+      "conversationUrl": "https://www.doubao.com/chat/38448140786440706",
+      "currentLookupHttp": 404,
+      "lastKnownStatus": "waiting-result",
+      "artifactFoundInProject": false
+    },
+    {
+      "taskId": "ART-PIPELINE-V5-GROUND-TILE",
+      "sheetId": "td-v5-ground-tile",
+      "status": "ORPHANED_JOB_RECORD_MISSING",
+      "providerCapabilityVerified": true,
+      "providerId": "web:538465cc-e184-4e38-bdcd-684ab15a7bbf:freedom_image",
+      "providerJobId": "c8608d18-6f97-414a-99c2-3617386d0f1a",
+      "accountId": "538465cc-e184-4e38-bdcd-684ab15a7bbf",
+      "platformId": "doubao_work",
+      "conversationUrl": "https://www.doubao.com/chat/local_9730814024119706",
+      "currentLookupHttp": 404,
+      "lastKnownStatus": "waiting-result",
+      "artifactFoundInProject": false
+    }
+  ],
+  "acceptance": "Do not call complete until generated assets are local, processed, imported and visible in the real Cocos runtime with gameplay regression evidence.",
+  "validation": {
+    "cocosCreatorVersion": "3.8.2",
+    "isolatedProject": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020",
+    "build": {
+      "buildSuccessLogged": true,
+      "exitCode": 36,
+      "stderrBytes": 0,
+      "outputFiles": 244,
+      "entryExists": true,
+      "v5ResourcePathsVerified": 12,
+      "allV5PngsAndMetas": 16,
+      "allUniqueImageUuids": true,
+      "exitCodeMeaning": "Cocos Creator 3.8.2 official CLI docs define exit code 36 as build success; 32 invalid parameters, 34 build failure.",
+      "effectiveSuccess": true,
+      "typescriptErrors": 0,
+      "resourcePngCount": 89,
+      "resourceMetaCount": 89,
+      "missingMetaCount": 0,
+      "uniqueImageUuidCount": 89,
+      "invalidMetaCount": 0,
+      "candidateLocalPngs": 17,
+      "candidateLocalMetas": 17,
+      "candidateFamilies": {
+        "UI": 8,
+        "战斗单位": 8,
+        "环境": 1
+      },
+      "evidence": "game-art/evidence/ART-PIPELINE-V5-001/V5-Cocos-Build-QA-RECOVERY-010.json"
+    },
+    "runtime": {
+      "scene": "候选美术试玩.scene",
+      "webgl2": true,
+      "javascriptExceptions": 0,
+      "httpFailures": [
+        {
+          "status": 404,
+          "url": "/favicon.ico",
+          "impact": "non-game optional browser request"
+        }
+      ],
+      "v5LoadLog": "9个炮塔图层、3个水晶图层、8帧兽人已载入；已启用分层美术预览",
+      "artReady": true,
+      "artFailed": false,
+      "loadedV5Families": [
+        "炮塔/水晶既有图层",
+        "敌人分层/合成",
+        "UI皮肤",
+        "地面纹理"
+      ],
+      "evidence": [
+        "验收证据/候选战场美术联调-V5-短屏RECOVERY-011/01-玩家进场布塔.png",
+        "验收证据/候选战场美术联调-V5-540x960-RECOVERY-011/01-玩家进场布塔.png"
+      ]
+    },
+    "fullPlaythrough": {
+      "result": "win",
+      "viewport": [
+        540,
+        760
+      ],
+      "wave": 3,
+      "kills": 96,
+      "crystalHp": 100,
+      "towersAfterViewerAdds": 24,
+      "afterRestart": {
+        "state": "ready",
+        "wave": 1,
+        "kills": 0,
+        "crystalHp": 100,
+        "towers": 9
+      },
+      "durationSeconds": 176.1,
+      "viewports": [
+        {
+          "viewport": [
+            540,
+            760
+          ],
+          "status": "PASS",
+          "result": "win",
+          "wave": 3,
+          "kills": 96,
+          "crystalHp": 100,
+          "towers": 24,
+          "afterRestart": {
+            "state": "ready",
+            "wave": 1,
+            "hp": 100,
+            "towers": 9,
+            "kills": 0,
+            "zoom": 0.9,
+            "gameTime": 0,
+            "enemies": 0
+          },
+          "durationSeconds": 87,
+          "consoleErrors": 0,
+          "evidence": "验收证据/候选战场美术联调-V5-短屏RECOVERY-011/真人操作完整一局.json"
+        },
+        {
+          "viewport": [
+            540,
+            960
+          ],
+          "status": "PASS",
+          "result": "win",
+          "wave": 3,
+          "kills": 96,
+          "crystalHp": 100,
+          "towers": 24,
+          "afterRestart": {
+            "state": "ready",
+            "wave": 1,
+            "hp": 100,
+            "towers": 9,
+            "kills": 0,
+            "zoom": 0.9,
+            "gameTime": 0,
+            "enemies": 0
+          },
+          "durationSeconds": 89.1,
+          "consoleErrors": 0,
+          "evidence": "验收证据/候选战场美术联调-V5-540x960-RECOVERY-011/真人操作完整一局.json"
+        }
+      ]
+    },
+    "notTestedWithV5": [
+      "360x780",
+      "393x852",
+      "540x1108",
+      "Android real device",
+      "WeChat mini-game packaging/runtime",
+      "Douyin mini-game packaging/runtime",
+      "live viewer entry/exit platform events",
+      "1000 tower performance"
+    ],
+    "formalMainSceneUnchanged": true,
+    "formalArtApproved": false
+  },
+  "evidence": [
+    "game-art/evidence/ART-PIPELINE-V5-001/V5透明分层处理与QA.json",
+    "game-art/evidence/ART-PIPELINE-V5-001/V5素材尺寸与导入审计.json",
+    "验收证据/候选战场美术联调-V5/Cocos浏览器CDP运行错误诊断.json",
+    "验收证据/候选战场美术联调-V5/真人操作完整一局.json",
+    "验收证据/候选战场美术联调-V5/99-结局.png",
+    "验收证据/候选战场美术联调-V5/100-重新开始.png",
+    "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/V5-Cocos构建输出.log",
+    "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/V5-Cocos构建错误.log",
+    "game-art/evidence/ART-PIPELINE-V5-001/V5-Cocos-Build-QA-RECOVERY-010.json",
+    "验收证据/候选战场美术联调-V5-短屏RECOVERY-011/真人操作完整一局.json",
+    "验收证据/候选战场美术联调-V5-短屏RECOVERY-011/00-开局.png",
+    "验收证据/候选战场美术联调-V5-短屏RECOVERY-011/01-玩家进场布塔.png",
+    "验收证据/候选战场美术联调-V5-短屏RECOVERY-011/99-结局.png",
+    "验收证据/候选战场美术联调-V5-短屏RECOVERY-011/100-重新开始.png",
+    "验收证据/候选战场美术联调-V5-540x960-RECOVERY-011/真人操作完整一局.json",
+    "验收证据/候选战场美术联调-V5-540x960-RECOVERY-011/01-玩家进场布塔.png",
+    "验收证据/候选战场美术联调-V5-540x960-RECOVERY-011/99-结局.png",
+    "验收证据/候选战场美术联调-V5-540x960-RECOVERY-011/100-重新开始.png"
+  ],
+  "blockers": [
+    "正式美术审美签收仍待用户确认；锁定参考图未随早期炮塔生成任务上传，风格一致性不能宣称已获批准。",
+    "正式主场景和 Prefab 尚未替换；当前 V5 仍是隔离候选工程。",
+    "敌人三层母图目前是静态部件并带轻微呼吸/武器摆动；完整待机、攻击、受击、死亡及升级动画尚未完成。",
+    "Android、微信/抖音小游戏、直播观众进退场平台事件与 1000 塔性能均未验证。",
+    "早期供应商生成 jobId 仍不可查询（404）；当前本地候选资源已存在并加载成功，不重复提交旧 jobId。"
+  ],
+  "modifiedFiles": [
+    "任务包/处理V5母图并生成透明分层.py",
+    "任务包/审计V5素材比例.py",
+    "_assistant-temp/cocos_v5_full_playthrough_20261020.py",
+    "_assistant-temp/cocos_v5_runtime_diagnostics_20261020.py",
+    "美术资源/重制批次-v0.7/分层源文件/**",
+    "美术资源/重制批次-v0.7/运行时素材/**",
+    "CocosCreator工程/assets/resources/正式战斗美术-v5/**",
+    "game-art/evidence/ART-PIPELINE-V5-001/**",
+    "验收证据/候选战场美术联调-V5/**",
+    "game-art/briefs/ART-PIPELINE-V5-001-task.json",
+    "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/**",
+    "_assistant-temp/ART-PIPELINE-V5-001-duplicate-recovery-20261020.png",
+    "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/脚本/守城控制器.ts",
+    "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/脚本/待审战场美术覆盖器.ts",
+    "_assistant-temp/build_candidate_v5_recovery_010.py",
+    "_assistant-temp/cocos_v5_full_playthrough_540x760_RECOVERY_011.py",
+    "_assistant-temp/cocos_v5_full_playthrough_540x960_RECOVERY_011.py",
+    "_assistant-temp/cocos_v5_five_viewport_smoke_RECOVERY_012.py",
+    "验收证据/候选战场美术联调-V5-五视口RECOVERY-012/五视口V5输入回归.json"
+  ],
+  "nextSteps": [
+    "对照锁定玩法参考图进行候选美术审查；未获审美签收前继续保持隔离。",
+    "审美签收后再通过最小资源锁将合格资源整理为正式 Prefab/资源，并运行正式工程回归。",
+    "为敌人和炮塔补齐真实动画状态与攻击特效，同时保留可编辑母图层。",
+    "补跑 V5 的 360x780、393x852、540x1108 专项视口测试；精确 540x760 与 540x960 完整对局已通过。",
+    "后续分别验收 Android 真机、微信/抖音小游戏构建、直播观众事件和大规模炮塔性能。"
+  ],
+  "updatedAt": "2026-10-20T03:03:21.155Z",
+  "processAudit": {
+    "lockedReferenceImage": "game-art/evidence/ART-PIPELINE-V5-001/references/玩法总览图-v0.4.png",
+    "referenceImageExists": true,
+    "referenceImagePassedToTowerGeneration": false,
+    "impact": "The tower sheet looks consistent as standalone pixel art, but it was not generated with the task's locked reference image; visual identity alignment remains a process gap and must not be called fully approved.",
+    "duplicateRecovery": {
+      "duplicatePath": "_assistant-temp/ART-PIPELINE-V5-001-duplicate-recovery-20261020.png",
+      "sameSha256AsCanonical": "df1422f2f518c3f699cc156a9ecd306d5caec379fc0e5b3bd306585dada4ec22",
+      "action": "Moved duplicate out of raw generation directory; retained, not deleted."
+    }
+  },
+  "notes": [
+    "V5 runtime sprite sizing uses aspect-fit into 128x128, not direct stretch; all 12 Cocos layer PNGs match the aspect-fit source conversion exactly.",
+    "Formal main scene remains unchanged. All V5 gameplay verification was performed in a separate isolated Cocos project.",
+    "Enemy/UI/ground generation job records are no longer queryable; current job endpoints return 404 job_not_found. No duplicate re-submission was made.",
+    "Tower generation did not pass the locked reference image to the provider, so style approval remains pending even though the standalone candidate rendered correctly.",
+    "2026-10-20 RECOVERY-010：官方文档确认 Cocos Creator 3.8.2 CLI 退出码 36 即构建成功；构建门禁已正确接受 36，日志 success、TS 错误0、stderr0、资源元数据完整。",
+    "2026-10-20 RECOVERY-011：V5 候选 HUD 文字对比度/位置修复后，精确 540x760 与 540x960 两个视口均真实鼠标操作完整三波通关，96 杀、HP100、重开恢复9塔，JS异常0。",
+    "2026-10-20 RECOVERY-012：五视口 smoke harness 未到达 ready，记录为测试工具失败；不将其计入产品回归 PASS。"
+  ],
+  "recoveryAttempts": [
+    {
+      "taskId": "ART-PIPELINE-V5-ENEMY-LAYERS-RECOVERY-002",
+      "sheetId": "td-v5-enemy-layer-sheet-recovery-002",
+      "asset": "enemy-layer-sheet",
+      "status": "FAILED_PRE_SUBMIT",
+      "sourceProjectId": "live-turret-defense",
+      "referenceImage": "game-art/evidence/ART-PIPELINE-V5-001/references/玩法总览图-v0.4.png",
+      "submitPolicy": "exactly one real submission; if outcome is unknown, query by returned jobId and do not resubmit this taskId",
+      "preparedAt": "2026-10-20",
+      "jobId": "034373b9-8e14-4c32-bbc7-c5b52088fb4e",
+      "errorStage": "page-load",
+      "submitted": false,
+      "submitLocked": false,
+      "retryTaskId": "ART-PIPELINE-V5-ENEMY-LAYERS-RECOVERY-003"
+    },
+    {
+      "taskId": "ART-PIPELINE-V5-UI-RECOVERY-002",
+      "sheetId": "td-v5-ui-sheet-recovery-002",
+      "asset": "ui-sheet",
+      "status": "FAILED_PRE_SUBMIT",
+      "sourceProjectId": "live-turret-defense",
+      "referenceImage": "game-art/evidence/ART-PIPELINE-V5-001/references/玩法总览图-v0.4.png",
+      "submitPolicy": "exactly one real submission; if outcome is unknown, query by returned jobId and do not resubmit this taskId",
+      "preparedAt": "2026-10-20",
+      "jobId": "45c38a0b-9a4f-4e99-9602-010dc2787124",
+      "errorStage": "upload-reference",
+      "submitted": false,
+      "submitLocked": false,
+      "retryTaskId": "ART-PIPELINE-V5-UI-RECOVERY-003"
+    },
+    {
+      "taskId": "ART-PIPELINE-V5-GROUND-TILE-RECOVERY-002",
+      "sheetId": "td-v5-ground-tile-recovery-002",
+      "asset": "ground-tile-atlas",
+      "status": "FAILED_PRE_SUBMIT",
+      "sourceProjectId": "live-turret-defense",
+      "referenceImage": "game-art/evidence/ART-PIPELINE-V5-001/references/玩法总览图-v0.4.png",
+      "submitPolicy": "exactly one real submission; if outcome is unknown, query by returned jobId and do not resubmit this taskId",
+      "preparedAt": "2026-10-20",
+      "jobId": "03fcfd1b-5e9d-4f43-b88b-80e84c76d8e3",
+      "errorStage": "upload-reference",
+      "submitted": false,
+      "submitLocked": false,
+      "retryTaskId": "ART-PIPELINE-V5-GROUND-TILE-RECOVERY-003"
+    },
+    {
+      "taskId": "ART-PIPELINE-V5-ENEMY-LAYERS-RECOVERY-003",
+      "sheetId": "td-v5-enemy-layer-sheet-recovery-003",
+      "asset": "enemy-layer-sheet",
+      "sourceProjectId": "live-turret-defense",
+      "feature": "character_generation",
+      "jobId": "a21b68ee-1c35-43d0-b3e7-5ec5be9ecf87",
+      "status": "QUEUED",
+      "referenceImage": null,
+      "referencePolicy": "Reference image upload failed before submit on prior attempts; this retry uses the approved style JSON in the prompt instead.",
+      "submittedAt": "2026-10-20T00:28Z",
+      "submitPolicy": "One real submission only; poll exact jobId; never retry after submitted=true."
+    },
+    {
+      "taskId": "ART-PIPELINE-V5-UI-RECOVERY-003",
+      "sheetId": "td-v5-ui-sheet-recovery-003",
+      "asset": "ui-sheet",
+      "sourceProjectId": "live-turret-defense",
+      "feature": "freedom_image",
+      "jobId": "44cc10e4-27ff-480c-9804-72d20a05b76d",
+      "status": "QUEUED",
+      "referenceImage": null,
+      "referencePolicy": "Reference image upload failed before submit on prior attempts; this retry uses the approved style JSON in the prompt instead.",
+      "submittedAt": "2026-10-20T00:28Z",
+      "submitPolicy": "One real submission only; poll exact jobId; never retry after submitted=true."
+    },
+    {
+      "taskId": "ART-PIPELINE-V5-GROUND-TILE-RECOVERY-003",
+      "sheetId": "td-v5-ground-tile-recovery-003",
+      "asset": "ground-tile-atlas",
+      "sourceProjectId": "live-turret-defense",
+      "feature": "scene_generation",
+      "jobId": "07fdff20-031d-49f8-bad1-71b023e5c860",
+      "status": "QUEUED",
+      "referenceImage": null,
+      "referencePolicy": "Reference image upload failed before submit on prior attempts; this retry uses the approved style JSON in the prompt instead.",
+      "submittedAt": "2026-10-20T00:28Z",
+      "submitPolicy": "One real submission only; poll exact jobId; never retry after submitted=true."
+    }
+  ],
+  "localRecovery": {
+    "recordedAt": "2026-10-20T03:03:21.153Z",
+    "candidateProject": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020",
+    "assetRoot": "_assistant-temp/候选战场Cocos-V5隔离工程-20261020/assets/resources/候选战斗美术-v5-RECOVERY-004",
+    "localAssetCount": 17,
+    "localMetaCount": 17,
+    "families": {
+      "UI": 8,
+      "战斗单位": 8,
+      "环境": 1
+    },
+    "allResourcePngs": 89,
+    "allResourceMetas": 89,
+    "uniqueImageUuids": 89,
+    "providerJobsRemainOrphaned": true,
+    "oldJobIdsResubmitted": false,
+    "hudFixes": [
+      "候选HUD标题/副标题改为高对比文字色",
+      "标题、血条框、副标题重新分层排布"
+    ],
+    "fullPlaythroughs": [
+      {
+        "viewport": [
+          540,
+          760
+        ],
+        "status": "PASS",
+        "result": "win",
+        "wave": 3,
+        "kills": 96,
+        "crystalHp": 100,
+        "towers": 24,
+        "afterRestart": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "towers": 9,
+          "kills": 0,
+          "zoom": 0.9,
+          "gameTime": 0,
+          "enemies": 0
+        },
+        "durationSeconds": 87,
+        "consoleErrors": 0,
+        "evidence": "验收证据/候选战场美术联调-V5-短屏RECOVERY-011/真人操作完整一局.json"
+      },
+      {
+        "viewport": [
+          540,
+          960
+        ],
+        "status": "PASS",
+        "result": "win",
+        "wave": 3,
+        "kills": 96,
+        "crystalHp": 100,
+        "towers": 24,
+        "afterRestart": {
+          "state": "ready",
+          "wave": 1,
+          "hp": 100,
+          "towers": 9,
+          "kills": 0,
+          "zoom": 0.9,
+          "gameTime": 0,
+          "enemies": 0
+        },
+        "durationSeconds": 89.1,
+        "consoleErrors": 0,
+        "evidence": "验收证据/候选战场美术联调-V5-540x960-RECOVERY-011/真人操作完整一局.json"
+      }
+    ],
+    "formalMainSceneTouched": false
+  },
+  "testHarnessFailures": [
+    {
+      "at": "2026-10-20T03:03:21.155Z",
+      "task": "V5 five-viewport smoke RECOVERY-012",
+      "status": "FAILED_HARNESS_STARTUP",
+      "testedViewports": [],
+      "expectedViewports": [
+        [
+          360,
+          780
+        ],
+        [
+          393,
+          852
+        ],
+        [
+          540,
+          760
+        ],
+        [
+          540,
+          960
+        ],
+        [
+          540,
+          1108
+        ]
+      ],
+      "detail": "Harness did not reach ready; its temporary Edge profile cleanup encountered a file lock. No five-viewport PASS is claimed. Exact 540x760 and 540x960 full-playthrough tests passed separately.",
+      "evidence": "验收证据/候选战场美术联调-V5-五视口RECOVERY-012/五视口V5输入回归.json"
+    }
+  ]
+}

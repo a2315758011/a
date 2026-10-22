@@ -1,0 +1,62 @@
+{
+  "id": "projectile_mortar",
+  "name": "重炮弹丸",
+  "sourceTaskId": "ART-MASTER-PROJECTILE_MORTAR-20261012",
+  "accountId": "b362bb9f-d46d-44cc-9a0c-811bd0afb728",
+  "promptSHA256": "c7f8b87baa05a5bb77f9f0f75d7bb867ba5417885929b5b96c715ad8ecdd1c6d",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "jobId": "4ee422ce-062f-443e-8ae4-46aded7f47e6",
+  "submittedAt": "2026-10-12T14:47:11.748223+00:00",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "4ee422ce-062f-443e-8ae4-46aded7f47e6",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:47:11.975Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-PROJECTILE_MORTAR-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Generate ONE isolated original 2D top-down native pixel art sprite for a fantasy tower defense mobile game. Subject: single hefty red-bronze cannonball with ember orange core, overhead flat pixel sprite, one fireball projectile not an explo",
+        "model": "",
+        "accountId": "b362bb9f-d46d-44cc-9a0c-811bd0afb728",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:00.958096+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\projectile_mortar-母素材-原始.png",
+  "sha256": "eb91f55c14b60db0acec654bf8ce79d620cc75eefd2140c531cd62c4e6886041",
+  "size": [
+    2048,
+    2048
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "8ff55161e1fffedfa4051c4a",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816509039_doubao_work_豆包工作_·_网页账号_2_fbbdb77a.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816509039_doubao_work_豆包工作_·_网页账号_2_fbbdb77a.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816509039_doubao_work_豆包工作_·_网页账号_2_fbbdb77a.png",
+      "name": "1791816509039_doubao_work_豆包工作_·_网页账号_2_fbbdb77a.png",
+      "size": 1077914,
+      "mimeType": "image/png"
+    }
+  ]
+}

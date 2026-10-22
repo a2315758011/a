@@ -1,0 +1,954 @@
+{
+  "task": "RECOVERY-030",
+  "test": "natural settlement -> shop purchase -> reload -> permanent upgrade effect",
+  "actions": [
+    {
+      "t": 3.26,
+      "name": "开始守城",
+      "x": 180,
+      "y": 527
+    },
+    {
+      "t": 91.69,
+      "name": "返回主界面",
+      "x": 180,
+      "y": 534
+    },
+    {
+      "t": 92.1,
+      "name": "打开战备商店",
+      "x": 180,
+      "y": 471
+    },
+    {
+      "t": 92.53,
+      "name": "购买水晶护盾",
+      "x": 180,
+      "y": 342
+    },
+    {
+      "t": 92.88,
+      "name": "余额不足时尝试火控芯片",
+      "x": 180,
+      "y": 423
+    },
+    {
+      "t": 93.25,
+      "name": "关闭商店",
+      "x": 180,
+      "y": 587
+    },
+    {
+      "t": 95.94,
+      "name": "刷新后开始下一局",
+      "x": 180,
+      "y": 527
+    }
+  ],
+  "checks": {
+    "freshProfile": true,
+    "catalogHasThreeItems": true,
+    "cloudAdapterNotFaked": true,
+    "walletStartsZero": true,
+    "baselineStarts100HP": true,
+    "settlementRewardOnce": true,
+    "settlementShowsReward": true,
+    "rewardNotDuplicatedAcrossFrames": true,
+    "menuWalletMatchesReward": true,
+    "shopShowsBalanceAndCoreCost": true,
+    "corePurchaseDeductsCoins": true,
+    "insufficientPurchaseBlocked": true,
+    "localStorageWritten": true,
+    "profilePersistsAfterReload": true,
+    "cloudStillNotConfiguredAfterReload": true,
+    "coreShieldEffectAppliedNextRun": true
+  },
+  "consoleErrors": [],
+  "consoleWarnings": [],
+  "screenshots": [
+    {
+      "file": "00-新档案主界面.png",
+      "bytes": 52123,
+      "sha256": "81E78045CF5E2F513B77211C5A72817BA7EEE00896C218CE4C71CA3E8B3766B7"
+    },
+    {
+      "file": "01-自然结算发放守城币.png",
+      "bytes": 220754,
+      "sha256": "ADE2AB5B77F3AA83A2B67B5771D65B8940EB237A857A8DCD651D26E7DA1C04FF"
+    },
+    {
+      "file": "02-战备商店购买前.png",
+      "bytes": 120590,
+      "sha256": "FDF48FB94C90DE24655570E141E77442E20C434A429C3CCB7B09C2FE21231CCC"
+    },
+    {
+      "file": "03-购买护盾后.png",
+      "bytes": 120057,
+      "sha256": "1CC4DC2D34FC8163017E6055B8E3BEE06CE68152A3D9C8A0B2A9B04CB35D361D"
+    },
+    {
+      "file": "04-刷新后档案仍在.png",
+      "bytes": 153618,
+      "sha256": "765039F51405C2EF8CF0AFC43CC67CCDCEC46B7F99EA75E34E8EC80984336585"
+    },
+    {
+      "file": "05-护盾升级下一局110生命.png",
+      "bytes": 547696,
+      "sha256": "68510D49316FBEC63D5BF276541D318980C455C63FD1F446CDD59C9DB9C174BD"
+    }
+  ],
+  "startedAt": "2026-10-22T04:00:49",
+  "result": "PASS",
+  "transientReadErrors": [
+    "Uncaught",
+    "Uncaught"
+  ],
+  "initial": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "maxHP": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": true,
+      "lastReward": 0
+    },
+    "profile": {
+      "version": 1,
+      "coins": 0,
+      "upgrades": {
+        "coreShield": 0,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 0,
+        "wins": 0,
+        "totalKills": 0,
+        "bestKills": 0
+      },
+      "updatedAt": 1792612854296
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 40,
+        "canBuy": false
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 60,
+        "canBuy": false
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 0,
+        "maxLevel": 2,
+        "cost": 80,
+        "canBuy": false
+      }
+    ],
+    "cloudConfigured": false,
+    "menu": {
+      "active": true,
+      "wallet": "守城币 0",
+      "start": "开始守城"
+    },
+    "shop": {
+      "active": false,
+      "wallet": "守城币 0",
+      "message": "永久战备在下一局生效",
+      "rows": [
+        {
+          "id": "coreShield",
+          "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+          "button": "购买 40",
+          "interactable": false
+        },
+        {
+          "id": "fireControl",
+          "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+          "button": "购买 60",
+          "interactable": false
+        },
+        {
+          "id": "viewerBoost",
+          "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+          "button": "购买 80",
+          "interactable": false
+        }
+      ]
+    },
+    "settlement": {
+      "active": false,
+      "title": "label",
+      "stats": "label"
+    },
+    "localRaw": null
+  },
+  "firstSettlement": {
+    "game": {
+      "state": "lose",
+      "hp": 0,
+      "maxHP": 100,
+      "wave": 3,
+      "towers": 9,
+      "kills": 69,
+      "enemies": 27,
+      "time": 87.03333333333096,
+      "inputBlocked": false,
+      "lastReward": 69
+    },
+    "profile": {
+      "version": 1,
+      "coins": 69,
+      "upgrades": {
+        "coreShield": 0,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612941829
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 40,
+        "canBuy": true
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 60,
+        "canBuy": true
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 0,
+        "maxLevel": 2,
+        "cost": 80,
+        "canBuy": false
+      }
+    ],
+    "cloudConfigured": false,
+    "menu": {
+      "active": false,
+      "wallet": "守城币 0",
+      "start": "开始守城"
+    },
+    "shop": {
+      "active": false,
+      "wallet": "守城币 0",
+      "message": "永久战备在下一局生效",
+      "rows": [
+        {
+          "id": "coreShield",
+          "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+          "button": "购买 40",
+          "interactable": false
+        },
+        {
+          "id": "fireControl",
+          "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+          "button": "购买 60",
+          "interactable": false
+        },
+        {
+          "id": "viewerBoost",
+          "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+          "button": "购买 80",
+          "interactable": false
+        }
+      ]
+    },
+    "settlement": {
+      "active": true,
+      "title": "守城失败",
+      "stats": "本局击退 69 只兽人\n抵达第 3 波 · 水晶 0/100\n奖励 +69 守城币 · 余额 69"
+    },
+    "localRaw": "{\"version\":1,\"coins\":69,\"upgrades\":{\"coreShield\":0,\"fireControl\":0,\"viewerBoost\":0},\"stats\":{\"runs\":1,\"wins\":0,\"totalKills\":69,\"bestKills\":69},\"updatedAt\":1792612941829}"
+  },
+  "afterReturnMenu": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "maxHP": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": true,
+      "lastReward": 0
+    },
+    "profile": {
+      "version": 1,
+      "coins": 69,
+      "upgrades": {
+        "coreShield": 0,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612941829
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 40,
+        "canBuy": true
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 60,
+        "canBuy": true
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 0,
+        "maxLevel": 2,
+        "cost": 80,
+        "canBuy": false
+      }
+    ],
+    "cloudConfigured": false,
+    "menu": {
+      "active": true,
+      "wallet": "守城币 69",
+      "start": "开始守城"
+    },
+    "shop": {
+      "active": false,
+      "wallet": "守城币 0",
+      "message": "永久战备在下一局生效",
+      "rows": [
+        {
+          "id": "coreShield",
+          "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+          "button": "购买 40",
+          "interactable": false
+        },
+        {
+          "id": "fireControl",
+          "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+          "button": "购买 60",
+          "interactable": false
+        },
+        {
+          "id": "viewerBoost",
+          "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+          "button": "购买 80",
+          "interactable": false
+        }
+      ]
+    },
+    "settlement": {
+      "active": false,
+      "title": "守城失败",
+      "stats": "本局击退 69 只兽人\n抵达第 3 波 · 水晶 0/100\n奖励 +69 守城币 · 余额 69"
+    },
+    "localRaw": "{\"version\":1,\"coins\":69,\"upgrades\":{\"coreShield\":0,\"fireControl\":0,\"viewerBoost\":0},\"stats\":{\"runs\":1,\"wins\":0,\"totalKills\":69,\"bestKills\":69},\"updatedAt\":1792612941829}"
+  },
+  "shopBeforePurchase": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "maxHP": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": true,
+      "lastReward": 0
+    },
+    "profile": {
+      "version": 1,
+      "coins": 69,
+      "upgrades": {
+        "coreShield": 0,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612941829
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 40,
+        "canBuy": true
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 60,
+        "canBuy": true
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 0,
+        "maxLevel": 2,
+        "cost": 80,
+        "canBuy": false
+      }
+    ],
+    "cloudConfigured": false,
+    "menu": {
+      "active": false,
+      "wallet": "守城币 69",
+      "start": "开始守城"
+    },
+    "shop": {
+      "active": true,
+      "wallet": "守城币 69",
+      "message": "永久战备在下一局生效",
+      "rows": [
+        {
+          "id": "coreShield",
+          "info": "水晶护盾  Lv.0/3\n每级开局水晶 +10 生命",
+          "button": "购买 40",
+          "interactable": true
+        },
+        {
+          "id": "fireControl",
+          "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+          "button": "购买 60",
+          "interactable": true
+        },
+        {
+          "id": "viewerBoost",
+          "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+          "button": "购买 80",
+          "interactable": false
+        }
+      ]
+    },
+    "settlement": {
+      "active": false,
+      "title": "守城失败",
+      "stats": "本局击退 69 只兽人\n抵达第 3 波 · 水晶 0/100\n奖励 +69 守城币 · 余额 69"
+    },
+    "localRaw": "{\"version\":1,\"coins\":69,\"upgrades\":{\"coreShield\":0,\"fireControl\":0,\"viewerBoost\":0},\"stats\":{\"runs\":1,\"wins\":0,\"totalKills\":69,\"bestKills\":69},\"updatedAt\":1792612941829}"
+  },
+  "afterCorePurchase": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "maxHP": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": true,
+      "lastReward": 0
+    },
+    "profile": {
+      "version": 1,
+      "coins": 29,
+      "upgrades": {
+        "coreShield": 1,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612943796
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 1,
+        "maxLevel": 3,
+        "cost": 80,
+        "canBuy": false
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 60,
+        "canBuy": false
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 0,
+        "maxLevel": 2,
+        "cost": 80,
+        "canBuy": false
+      }
+    ],
+    "cloudConfigured": false,
+    "menu": {
+      "active": false,
+      "wallet": "守城币 29",
+      "start": "开始守城"
+    },
+    "shop": {
+      "active": true,
+      "wallet": "守城币 29",
+      "message": "购买成功 · 下一局生效",
+      "rows": [
+        {
+          "id": "coreShield",
+          "info": "水晶护盾  Lv.1/3\n每级开局水晶 +10 生命",
+          "button": "购买 80",
+          "interactable": false
+        },
+        {
+          "id": "fireControl",
+          "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+          "button": "购买 60",
+          "interactable": false
+        },
+        {
+          "id": "viewerBoost",
+          "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+          "button": "购买 80",
+          "interactable": false
+        }
+      ]
+    },
+    "settlement": {
+      "active": false,
+      "title": "守城失败",
+      "stats": "本局击退 69 只兽人\n抵达第 3 波 · 水晶 0/100\n奖励 +69 守城币 · 余额 69"
+    },
+    "localRaw": "{\"version\":1,\"coins\":29,\"upgrades\":{\"coreShield\":1,\"fireControl\":0,\"viewerBoost\":0},\"stats\":{\"runs\":1,\"wins\":0,\"totalKills\":69,\"bestKills\":69},\"updatedAt\":1792612943796}"
+  },
+  "afterInsufficientClick": {
+    "game": {
+      "state": "ready",
+      "hp": 100,
+      "maxHP": 100,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": true,
+      "lastReward": 0
+    },
+    "profile": {
+      "version": 1,
+      "coins": 29,
+      "upgrades": {
+        "coreShield": 1,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612943796
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 1,
+        "maxLevel": 3,
+        "cost": 80,
+        "canBuy": false
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 60,
+        "canBuy": false
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 0,
+        "maxLevel": 2,
+        "cost": 80,
+        "canBuy": false
+      }
+    ],
+    "cloudConfigured": false,
+    "menu": {
+      "active": false,
+      "wallet": "守城币 29",
+      "start": "开始守城"
+    },
+    "shop": {
+      "active": true,
+      "wallet": "守城币 29",
+      "message": "购买成功 · 下一局生效",
+      "rows": [
+        {
+          "id": "coreShield",
+          "info": "水晶护盾  Lv.1/3\n每级开局水晶 +10 生命",
+          "button": "购买 80",
+          "interactable": false
+        },
+        {
+          "id": "fireControl",
+          "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+          "button": "购买 60",
+          "interactable": false
+        },
+        {
+          "id": "viewerBoost",
+          "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+          "button": "购买 80",
+          "interactable": false
+        }
+      ]
+    },
+    "settlement": {
+      "active": false,
+      "title": "守城失败",
+      "stats": "本局击退 69 只兽人\n抵达第 3 波 · 水晶 0/100\n奖励 +69 守城币 · 余额 69"
+    },
+    "localRaw": "{\"version\":1,\"coins\":29,\"upgrades\":{\"coreShield\":1,\"fireControl\":0,\"viewerBoost\":0},\"stats\":{\"runs\":1,\"wins\":0,\"totalKills\":69,\"bestKills\":69},\"updatedAt\":1792612943796}"
+  },
+  "afterReload": {
+    "game": {
+      "state": "ready",
+      "hp": 110,
+      "maxHP": 110,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0,
+      "inputBlocked": true,
+      "lastReward": 0
+    },
+    "profile": {
+      "version": 1,
+      "coins": 29,
+      "upgrades": {
+        "coreShield": 1,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612943796
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 1,
+        "maxLevel": 3,
+        "cost": 80,
+        "canBuy": false
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 60,
+        "canBuy": false
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 0,
+        "maxLevel": 2,
+        "cost": 80,
+        "canBuy": false
+      }
+    ],
+    "cloudConfigured": false,
+    "menu": {
+      "active": true,
+      "wallet": "守城币 29",
+      "start": "开始守城"
+    },
+    "shop": {
+      "active": false,
+      "wallet": "守城币 29",
+      "message": "永久战备在下一局生效",
+      "rows": [
+        {
+          "id": "coreShield",
+          "info": "水晶护盾  Lv.1/3\n每级开局水晶 +10 生命",
+          "button": "购买 80",
+          "interactable": false
+        },
+        {
+          "id": "fireControl",
+          "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+          "button": "购买 60",
+          "interactable": false
+        },
+        {
+          "id": "viewerBoost",
+          "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+          "button": "购买 80",
+          "interactable": false
+        }
+      ]
+    },
+    "settlement": {
+      "active": false,
+      "title": "label",
+      "stats": "label"
+    },
+    "localRaw": "{\"version\":1,\"coins\":29,\"upgrades\":{\"coreShield\":1,\"fireControl\":0,\"viewerBoost\":0},\"stats\":{\"runs\":1,\"wins\":0,\"totalKills\":69,\"bestKills\":69},\"updatedAt\":1792612943796}"
+  },
+  "secondRun": {
+    "game": {
+      "state": "running",
+      "hp": 110,
+      "maxHP": 110,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0.3,
+      "inputBlocked": false,
+      "lastReward": 0
+    },
+    "profile": {
+      "version": 1,
+      "coins": 29,
+      "upgrades": {
+        "coreShield": 1,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612943796
+    },
+    "catalog": [
+      {
+        "id": "coreShield",
+        "name": "水晶护盾",
+        "description": "每级开局水晶 +10 生命",
+        "level": 1,
+        "maxLevel": 3,
+        "cost": 80,
+        "canBuy": false
+      },
+      {
+        "id": "fireControl",
+        "name": "火控芯片",
+        "description": "每级全塔伤害 +5%",
+        "level": 0,
+        "maxLevel": 3,
+        "cost": 60,
+        "canBuy": false
+      },
+      {
+        "id": "viewerBoost",
+        "name": "直播增幅",
+        "description": "每级观众塔起始等级 +1",
+        "level": 0,
+        "maxLevel": 2,
+        "cost": 80,
+        "canBuy": false
+      }
+    ],
+    "cloudConfigured": false,
+    "menu": {
+      "active": false,
+      "wallet": "守城币 29",
+      "start": "开始守城"
+    },
+    "shop": {
+      "active": false,
+      "wallet": "守城币 29",
+      "message": "永久战备在下一局生效",
+      "rows": [
+        {
+          "id": "coreShield",
+          "info": "水晶护盾  Lv.1/3\n每级开局水晶 +10 生命",
+          "button": "购买 80",
+          "interactable": false
+        },
+        {
+          "id": "fireControl",
+          "info": "火控芯片  Lv.0/3\n每级全塔伤害 +5%",
+          "button": "购买 60",
+          "interactable": false
+        },
+        {
+          "id": "viewerBoost",
+          "info": "直播增幅  Lv.0/2\n每级观众塔起始等级 +1",
+          "button": "购买 80",
+          "interactable": false
+        }
+      ]
+    },
+    "settlement": {
+      "active": false,
+      "title": "label",
+      "stats": "label"
+    },
+    "localRaw": "{\"version\":1,\"coins\":29,\"upgrades\":{\"coreShield\":1,\"fireControl\":0,\"viewerBoost\":0},\"stats\":{\"runs\":1,\"wins\":0,\"totalKills\":69,\"bestKills\":69},\"updatedAt\":1792612943796}"
+  },
+  "durationSeconds": 97.29,
+  "finishedAt": "2026-10-22T04:02:28",
+  "summary": {
+    "result": "PASS",
+    "checks": {
+      "freshProfile": true,
+      "catalogHasThreeItems": true,
+      "cloudAdapterNotFaked": true,
+      "walletStartsZero": true,
+      "baselineStarts100HP": true,
+      "settlementRewardOnce": true,
+      "settlementShowsReward": true,
+      "rewardNotDuplicatedAcrossFrames": true,
+      "menuWalletMatchesReward": true,
+      "shopShowsBalanceAndCoreCost": true,
+      "corePurchaseDeductsCoins": true,
+      "insufficientPurchaseBlocked": true,
+      "localStorageWritten": true,
+      "profilePersistsAfterReload": true,
+      "cloudStillNotConfiguredAfterReload": true,
+      "coreShieldEffectAppliedNextRun": true
+    },
+    "firstSettlement": {
+      "state": "lose",
+      "hp": 0,
+      "maxHP": 100,
+      "wave": 3,
+      "towers": 9,
+      "kills": 69,
+      "enemies": 27,
+      "time": 87.03333333333096,
+      "inputBlocked": false,
+      "lastReward": 69
+    },
+    "profileAfterPurchase": {
+      "version": 1,
+      "coins": 29,
+      "upgrades": {
+        "coreShield": 1,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612943796
+    },
+    "profileAfterReload": {
+      "version": 1,
+      "coins": 29,
+      "upgrades": {
+        "coreShield": 1,
+        "fireControl": 0,
+        "viewerBoost": 0
+      },
+      "stats": {
+        "runs": 1,
+        "wins": 0,
+        "totalKills": 69,
+        "bestKills": 69
+      },
+      "updatedAt": 1792612943796
+    },
+    "secondRun": {
+      "state": "running",
+      "hp": 110,
+      "maxHP": 110,
+      "wave": 1,
+      "towers": 9,
+      "kills": 0,
+      "enemies": 0,
+      "time": 0.3,
+      "inputBlocked": false,
+      "lastReward": 0
+    },
+    "consoleErrorCount": 0
+  }
+}

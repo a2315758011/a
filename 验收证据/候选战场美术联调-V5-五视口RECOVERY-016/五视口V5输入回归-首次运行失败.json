@@ -1,0 +1,14 @@
+{
+  "test": "V5 scale iteration 5 viewport smoke; CDP resize; actual mouse input; no direct state mutation",
+  "startedAt": "2026-10-20T11:34:31",
+  "viewports": [],
+  "consoleErrors": [],
+  "networkFailures": [],
+  "badResponses": [],
+  "readinessDiagnosticError": "ConnectionClosedError(None, None, None)",
+  "lastProbeError": "ConnectionClosedError(None, None, None)",
+  "exception": "RuntimeError('Cocos candidate did not reach ready; diagnostic=null; lastProbe=ConnectionClosedError(None, None, None)')",
+  "stack": "Traceback (most recent call last):\n  File \"C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\cocos_v5_five_viewport_smoke_RECOVERY_016.py\", line 86, in <module>\n    raise RuntimeError(\"Cocos candidate did not reach ready; diagnostic=\"+json.dumps(report.get(\"readinessDiagnostic\"),ensure_ascii=False)+\"; lastProbe=\"+str(last_probe_error))\nRuntimeError: Cocos candidate did not reach ready; diagnostic=null; lastProbe=ConnectionClosedError(None, None, None)\n",
+  "durationSeconds": 35.9,
+  "overallPass": false
+}

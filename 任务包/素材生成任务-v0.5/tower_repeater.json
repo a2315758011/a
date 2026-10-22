@@ -1,0 +1,64 @@
+{
+  "id": "tower_repeater",
+  "name": "连珠速射塔",
+  "stage": "MASTER_SAMPLE_NOT_FINAL",
+  "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+  "sourceTaskId": "ART-MASTER-TOWER_REPEATER-20261012",
+  "idempotencyKey": "live-turret-defense-ART-MASTER-TOWER_REPEATER-20261012-v05-once",
+  "promptSHA256": "74c0669b054b7b8154eb29476fd1f15aa8bf4d099c17d38275f92de911324f8c",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "submittedAt": "2026-10-12T14:40:22.408493+00:00",
+  "jobId": "08e59d7b-1a9b-4254-94fc-79195f168640",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "08e59d7b-1a9b-4254-94fc-79195f168640",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:40:22.670Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-TOWER_REPEATER-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "An original small top-down 2D pixel-art tower-defense unit MASTER character sprite only: a YELLOW brass and polished copper MECHANICAL rapid-fire twin-barrel sentry turret, visible from true overhead slightly seeing both barrel openings poi",
+        "model": "",
+        "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:01.169804+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\tower_repeater-母素材-原始.png",
+  "sha256": "0b0a4955850b3c10370770688485ab60b800fc7d0a3750cc6054dadbd4302d5b",
+  "size": [
+    2048,
+    2048
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "c17bf69bd638eee74c387420",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816086051_doubao_豆包_·_网页账号_5_8fa35c99.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816086051_doubao_豆包_·_网页账号_5_8fa35c99.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816086051_doubao_豆包_·_网页账号_5_8fa35c99.png",
+      "name": "1791816086051_doubao_豆包_·_网页账号_5_8fa35c99.png",
+      "size": 1626552,
+      "mimeType": "image/png"
+    }
+  ]
+}

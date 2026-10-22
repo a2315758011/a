@@ -1,0 +1,62 @@
+{
+  "id": "projectile_repeater",
+  "name": "速射弹丸",
+  "sourceTaskId": "ART-MASTER-PROJECTILE_REPEATER-20261012",
+  "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+  "promptSHA256": "f743273f91c008286a807d935284ecb7a6c6106b976b1dd50f513380dff2ef5c",
+  "status": "MASTER_COPIED_PENDING_REVIEW",
+  "jobId": "f344b2b4-aaa6-4bdf-a031-67e63d802f18",
+  "submittedAt": "2026-10-12T14:47:11.747978+00:00",
+  "http": 202,
+  "response": {
+    "ok": true,
+    "job": {
+      "id": "f344b2b4-aaa6-4bdf-a031-67e63d802f18",
+      "status": "queued",
+      "kind": "image",
+      "feature": "freedom_image",
+      "createdAt": "2026-10-12T14:47:11.824Z",
+      "startedAt": null,
+      "completedAt": null,
+      "source": "external",
+      "sourceProjectId": "live-turret-defense",
+      "sourceTaskId": "ART-MASTER-PROJECTILE_REPEATER-20261012",
+      "returnTo": null,
+      "businessContext": null,
+      "request": {
+        "promptPreview": "Generate ONE isolated original 2D top-down native pixel art sprite for a fantasy tower defense mobile game. Subject: tiny warm golden one-pixel-outline rapid turret bullet, short elongated yellow projectile seen directly from above, neat ga",
+        "model": "",
+        "accountId": "d3b71ce4-d61e-4adc-8f08-3c28262b6e48",
+        "pool": false,
+        "aspectRatio": "1:1",
+        "resolution": null,
+        "duration": null,
+        "referenceCount": 0
+      },
+      "result": null,
+      "error": null,
+      "artifacts": []
+    }
+  },
+  "lastQueriedStatus": "completed",
+  "lastQueriedAt": "2026-10-12T14:53:01.012442+00:00",
+  "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\美术资源\\原始生成\\批量母素材\\projectile_repeater-母素材-原始.png",
+  "sha256": "a6142c222c4704973cda13eec5339e64320af0f7ae47ac1d38deb6abf7e8908e",
+  "size": [
+    2048,
+    2048
+  ],
+  "mode": "RGB",
+  "artifacts": [
+    {
+      "id": "4487300eabba424b122becfa",
+      "kind": "image",
+      "localUrl": "local-image://web-generation/image/1791816472657_doubao_豆包_·_网页账号_5_671a444c.png",
+      "path": "C:\\Users\\ide0007\\AppData\\Roaming\\魔因漫创-profiles\\default-58d22b804dd3\\workspace-data\\media\\web-generation\\image\\1791816472657_doubao_豆包_·_网页账号_5_671a444c.png",
+      "fileUrl": "file:///C:/Users/ide0007/AppData/Roaming/魔因漫创-profiles/default-58d22b804dd3/workspace-data/media/web-generation/image/1791816472657_doubao_豆包_·_网页账号_5_671a444c.png",
+      "name": "1791816472657_doubao_豆包_·_网页账号_5_671a444c.png",
+      "size": 431544,
+      "mimeType": "image/png"
+    }
+  ]
+}
