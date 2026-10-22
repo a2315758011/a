@@ -112,7 +112,8 @@ export class 待审战场美术覆盖器 extends Component {
     this.controller=this.node.getComponent(守城控制器);
     if(!this.controller){console.error('候选V5美术未找到守城控制器');return;}
     this.controller.useCandidateArt=false;
-    this.scheduleOnce(()=>profiler.hideStats(),.2);
+    profiler.hideStats();
+    this.scheduleOnce(()=>profiler.hideStats(),.35);
     this.groundRoot=new Node('V5地面纹理层');
     this.groundRoot.layer=Layers.Enum.UI_2D;
     this.node.addChild(this.groundRoot);
@@ -596,15 +597,17 @@ export class 待审战场美术覆盖器 extends Component {
     this.mainMenuTitle.node.setPosition(0,0,0);
     this.mainMenuCrystal.node.setPosition(0,panelHeight/2-196,0);
     this.mainMenuSubtitle.node.setPosition(0,42,0);
-    this.mainMenuFeature.node.setPosition(0,-38,0);
-    this.mainMenuWallet.node.setPosition(0,-112,0);
-    this.mainMenuShopSprite.node.getComponent(UITransform)!.setContentSize(220,58);
-    this.mainMenuShopSprite.node.setPosition(0,-panelHeight/2+188,0);
-    this.mainMenuShopLabel.node.getComponent(UITransform)!.setContentSize(200,44);
+    this.mainMenuFeature.node.getComponent(UITransform)!.setContentSize(Math.min(420,panelWidth-44),80);
+    this.mainMenuFeature.node.setPosition(0,-30,0);
+    this.mainMenuWallet.node.getComponent(UITransform)!.setContentSize(Math.min(300,panelWidth-70),36);
+    this.mainMenuWallet.node.setPosition(0,-100,0);
+    this.mainMenuShopSprite.node.getComponent(UITransform)!.setContentSize(210,52);
+    this.mainMenuShopSprite.node.setPosition(0,-panelHeight/2+158,0);
+    this.mainMenuShopLabel.node.getComponent(UITransform)!.setContentSize(190,36);
     this.mainMenuShopLabel.node.setPosition(0,0,0);
-    this.mainMenuStartSprite.node.getComponent(UITransform)!.setContentSize(240,76);
-    this.mainMenuStartSprite.node.setPosition(0,-panelHeight/2+104,0);
-    this.mainMenuStartLabel.node.getComponent(UITransform)!.setContentSize(220,52);
+    this.mainMenuStartSprite.node.getComponent(UITransform)!.setContentSize(230,68);
+    this.mainMenuStartSprite.node.setPosition(0,-panelHeight/2+96,0);
+    this.mainMenuStartLabel.node.getComponent(UITransform)!.setContentSize(210,44);
     this.mainMenuStartLabel.node.setPosition(0,0,0);
     const g=this.mainMenuGraphics;
     g.clear();
