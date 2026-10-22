@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "purpose": "分镜自动调用入口的动态规则索引。所有执行端每次分镜任务都必须从默认分支读取此清单，再读取清单内全部规则文件的最新版本。",
+  "repository": "a2315758011/a",
+  "branch": "main",
+  "entry_path": "剧本转分镜自动调用指令",
+  "rules": [
+    {
+      "path": "剧本转分镜指令",
+      "role": "编写规则",
+      "required": true
+    },
+    {
+      "path": "剧本转分镜自检指令",
+      "role": "独立审核、修复与复检规则",
+      "required": true
+    }
+  ],
+  "update_contract": "修改现有规则文件时，执行端必须读取 main 分支最新内容，不得固定旧版本。新增或废弃规则文件时，必须同步更新本清单。清单或任一 required 文件无法读取时，禁止宣称正式分镜验收通过。",
+  "gate": {
+    "fail_closed": true,
+    "p0_allowed": 0,
+    "p1_allowed": 0,
+    "must_distinguish": [
+      "规则读取状态",
+      "分镜文本审核状态",
+      "程序校验状态",
+      "实际视频生成测试状态"
+    ]
+  }
+}
