@@ -3,7 +3,7 @@ name: storyboard-director-cn
 description: 中文AI短剧、漫剧、真人短视频的剧本转分镜与独立质检技能。当用户给出剧本、要求生成/继续/修改/审核分镜，或检查视频生成段落、人物道具动作连续性时调用。内置完整V2.8编写与审核规则，离线可用。
 compatibility: 需要支持读取SKILL.md及同目录引用文件的AI客户端；不依赖GitHub、联网、MCP或登录。Node.js仅用于可选SCG程序校验。
 metadata:
-  version: "1.0.0"
+  version: "1.0.1"
   source_version: "V2.8"
   language: "zh-CN"
 ---
@@ -50,4 +50,5 @@ node scripts/分镜SCG校验器-V1.js tests/分镜SCG回归样例-V1.json
 - [SCG 数据契约](references/分镜SCG数据契约-V1.md)
 - [SCG 可选程序校验器](scripts/分镜SCG校验器-V1.js)
 - [SCG 回归案例](tests/分镜SCG回归样例-V1.json)
+- [穿帮专项回归与样片验收](references/分镜穿帮专项回归样例-V1.md)
 - [安装与操作说明](README.md)

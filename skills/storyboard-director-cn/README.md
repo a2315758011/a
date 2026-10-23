@@ -1,4 +1,4 @@
-# 学员分镜导演技能包 · V2.8 离线版
+# 学员分镜导演技能包 · V2.8 离线版（发行 1.0.1）
 
 这是一个符合 Agent Skills 基本目录约定的技能包，包含 `SKILL.md`、两份**完整 V2.8** 规则原文、SCG 数据契约、可选 Node.js 校验器与回归样例。不需要 GitHub 插件、MCP 或网络连接来读取已安装的规则。
 
@@ -17,7 +17,8 @@ storyboard-director-cn/
 ├─ references/
 │  ├─ 剧本转分镜指令.md
 │  ├─ 剧本转分镜自检指令.md
-│  └─ 分镜SCG数据契约-V1.md
+│  ├─ 分镜SCG数据契约-V1.md
+│  └─ 分镜穿帮专项回归样例-V1.md
 ├─ scripts/
 │  └─ 分镜SCG校验器-V1.js
 └─ tests/
