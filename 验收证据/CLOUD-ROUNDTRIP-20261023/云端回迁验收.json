@@ -1,0 +1,65 @@
+{
+  "task": "CLOUD-ROUNDTRIP-20261023",
+  "project": "live-turret-defense",
+  "sourceBranch": "live-turret-defense-cloud-20261023",
+  "sourceCommit": "b3259e561d0326fd7fe95752cc01f3aba4ad590e",
+  "clonePath": "_assistant-temp/cloud-roundtrip-20261023",
+  "results": {
+    "clone": {
+      "status": "PASS",
+      "filesChecked": 2131,
+      "commit": "b3259e561d0326fd7fe95752cc01f3aba4ad590e"
+    },
+    "cocosWebMobile": {
+      "status": "PASS",
+      "editor": "Cocos Creator 3.8.2",
+      "durationMs": 50703,
+      "exitCode": 36,
+      "buildSuccessLogged": true,
+      "entryExists": true,
+      "fileCount": 524,
+      "typescriptErrors": 0
+    },
+    "wechatMiniGame": {
+      "status": "PASS",
+      "durationSeconds": 40.089,
+      "fileCount": 528
+    },
+    "douyinMiniGame": {
+      "status": "PASS",
+      "durationSeconds": 17.65,
+      "fileCount": 525
+    },
+    "runtimeRegression": {
+      "status": "PASS",
+      "durationSeconds": 5.114,
+      "checks": {
+        "menuLayoutSeparated": true,
+        "authoredKeyframesLoaded": true,
+        "authoredKeyframesApplied": true,
+        "threeLayerRuntime": true,
+        "naturalWin96": true,
+        "sessionRetained": true,
+        "naturalLoss": true,
+        "restartReset": true,
+        "artHealthy": true,
+        "qaRunErrors": true,
+        "jsErrors": true
+      },
+      "javascriptErrors": 0
+    }
+  },
+  "evidenceFiles": [
+    "release-ui-regression.json",
+    "主界面-360x780-修复后.png",
+    "战斗-360x780-修复后.png",
+    "微信抖音正式构建验收.json"
+  ],
+  "remaining": [
+    "Android SDK/NDK与APK构建",
+    "微信/抖音真机验收",
+    "官方直播后端授权接入",
+    "正式美术签收",
+    "最终真人完整游玩验收"
+  ]
+}

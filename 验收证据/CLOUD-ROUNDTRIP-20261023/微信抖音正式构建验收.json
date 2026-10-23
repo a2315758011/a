@@ -1,0 +1,44 @@
+{
+  "task": "COCOS-WECHAT-DOUYIN-MINI-BUILD-20261022",
+  "timestamp": "2026-10-23T02:10:06.599560+00:00",
+  "sourceFingerprint": "a010e87b6d3084ee0e8fe6a8ffa9ef2f6d0ef09a59c9241b48a025d8b9616a91",
+  "sourceFiles": 416,
+  "targets": [
+    {
+      "platform": "wechatgame",
+      "label": "微信小游戏",
+      "exitCode": 36,
+      "result": "PASS",
+      "seconds": 40.089,
+      "buildSuccessLogged": true,
+      "artifactValid": true,
+      "fileCount": 528,
+      "typescriptErrors": [],
+      "stdoutTail": "s-service:(onAfterCompressSettings) start..., progress: 58%\n\n2026-10-23 10:10:46 - debug: // ---- build task cocos-service：onAfterCompressSettings ----\n\n2026-10-23 10:10:46 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (3ms)\n\n2026-10-23 10:10:46 - debug: cocos-service:(onAfterCompressSettings) in 3 ms ✓, progress: 60%\n\n2026-10-23 10:10:46 - debug: wechatgame:(onAfterBuild) start..., progress: 60%\n\n2026-10-23 10:10:46 - debug: // ---- build task wechatgame：onAfterBuild ----\n\n2026-10-23 10:10:46 - debug: // ---- build task wechatgame：onAfterBuild ---- (170ms)\n\n2026-10-23 10:10:46 - debug: wechatgame:(onAfterBuild) in 170 ms ✓, progress: 62%\n\n2026-10-23 10:10:46 - debug: cocos-service:(onAfterBuild) start..., progress: 62%\n\n2026-10-23 10:10:46 - debug: // ---- build task cocos-service：onAfterBuild ----\n\n2026-10-23 10:10:46 - debug: // ---- build task cocos-service：onAfterBuild ---- (2ms)\n\n2026-10-23 10:10:46 - debug: cocos-service:(onAfterBuild) in 2 ms ✓, progress: 64%\n\n2026-10-23 10:10:46 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 64%\n\n2026-10-23 10:10:46 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----\n\n2026-10-23 10:10:46 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (1ms)\n\n2026-10-23 10:10:46 - debug: adsense-h5g-plugin:(onAfterBuild) in 1 ms ✓, progress: 67%\n\n2026-10-23 10:10:46 - log: Asset DB is resume!\n\n2026-10-23 10:10:46 - debug: builder:build-project-total (9962ms)\n\n2026-10-23 10:10:46 - debug: build success in 9962!\n\n2026-10-23 10:10:46 - debug: [Build Memory track]: builder:build-project-total start:200.70MB, end 252.17MB, increase: 51.47MB\n\n2026-10-23 10:10:46 - debug: ================================ build Task (wechatgame) Finished in (10 s)ms ================================\n\n",
+      "stderrTail": "",
+      "fingerprint": "a010e87b6d3084ee0e8fe6a8ffa9ef2f6d0ef09a59c9241b48a025d8b9616a91",
+      "fresh": true,
+      "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\cloud-roundtrip-20261023\\CocosCreator工程\\build\\wechatgame"
+    },
+    {
+      "platform": "bytedance-mini-game",
+      "label": "抖音小游戏",
+      "exitCode": 36,
+      "result": "PASS",
+      "seconds": 17.65,
+      "buildSuccessLogged": true,
+      "artifactValid": true,
+      "fileCount": 525,
+      "typescriptErrors": [],
+      "stdoutTail": ".., progress: 56%\n\n2026-10-23 10:11:04 - debug: // ---- build task cocos-service：onAfterCompressSettings ----\n\n2026-10-23 10:11:04 - debug: // ---- build task cocos-service：onAfterCompressSettings ---- (2ms)\n\n2026-10-23 10:11:04 - debug: cocos-service:(onAfterCompressSettings) in 2 ms ✓, progress: 58%\n\n2026-10-23 10:11:04 - debug: bytedance-mini-game:(onAfterBuild) start..., progress: 58%\n\n2026-10-23 10:11:04 - debug: // ---- build task bytedance-mini-game：onAfterBuild ----\n\n2026-10-23 10:11:04 - debug: // ---- build task bytedance-mini-game：onAfterBuild ---- (24ms)\n\n2026-10-23 10:11:04 - debug: bytedance-mini-game:(onAfterBuild) in 24 ms ✓, progress: 60%\n\n2026-10-23 10:11:04 - debug: cocos-service:(onAfterBuild) start..., progress: 60%\n\n2026-10-23 10:11:04 - debug: // ---- build task cocos-service：onAfterBuild ----\n\n2026-10-23 10:11:04 - debug: // ---- build task cocos-service：onAfterBuild ---- (3ms)\n\n2026-10-23 10:11:04 - debug: cocos-service:(onAfterBuild) in 3 ms ✓, progress: 62%\n\n2026-10-23 10:11:04 - debug: adsense-h5g-plugin:(onAfterBuild) start..., progress: 62%\n\n2026-10-23 10:11:04 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ----\n\n2026-10-23 10:11:04 - debug: // ---- build task adsense-h5g-plugin：onAfterBuild ---- (1ms)\n\n2026-10-23 10:11:04 - debug: adsense-h5g-plugin:(onAfterBuild) in 1 ms ✓, progress: 64%\n\n2026-10-23 10:11:04 - log: Asset DB is resume!\n\n2026-10-23 10:11:04 - debug: builder:build-project-total (6440ms)\n\n2026-10-23 10:11:04 - debug: build success in 6440!\n\n2026-10-23 10:11:04 - debug: [Build Memory track]: builder:build-project-total start:264.64MB, end 332.66MB, increase: 68.02MB\n\n2026-10-23 10:11:04 - debug: ================================ build Task (bytedance-mini-game) Finished in (6 s)ms ================================\n\n",
+      "stderrTail": "",
+      "fingerprint": "a010e87b6d3084ee0e8fe6a8ffa9ef2f6d0ef09a59c9241b48a025d8b9616a91",
+      "fresh": true,
+      "output": "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\_assistant-temp\\cloud-roundtrip-20261023\\CocosCreator工程\\build\\bytedance-mini-game"
+    }
+  ],
+  "result": "PASS",
+  "sourceFingerprintAfterBuild": "a010e87b6d3084ee0e8fe6a8ffa9ef2f6d0ef09a59c9241b48a025d8b9616a91",
+  "sourceFilesAfterBuild": 416,
+  "totalSeconds": 58.346
+}
