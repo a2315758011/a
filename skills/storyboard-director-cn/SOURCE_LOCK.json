@@ -1,0 +1,40 @@
+{
+  "package": "storyboard-director-cn",
+  "date": "2026-10-23",
+  "version": "1.0.0",
+  "source_repo": "a2315758011/a",
+  "branch": "main",
+  "source_version": "V2.8",
+  "files": [
+    {
+      "package_path": "references/剧本转分镜指令.md",
+      "source_path": "剧本转分镜指令",
+      "git_blob_sha": "c7040c698c94e42db923375e3b6f40608bb4820c",
+      "characters": 21611
+    },
+    {
+      "package_path": "references/剧本转分镜自检指令.md",
+      "source_path": "剧本转分镜自检指令",
+      "git_blob_sha": "5175968440dc5146aca7c71dcad178796401cf38",
+      "characters": 14012
+    },
+    {
+      "package_path": "references/分镜SCG数据契约-V1.md",
+      "source_path": "分镜SCG数据契约-V1.md",
+      "git_blob_sha": "016e8830ea1a6f5db590a4c591eb2912c6b126d0",
+      "characters": 2191
+    },
+    {
+      "package_path": "scripts/分镜SCG校验器-V1.js",
+      "source_path": "分镜SCG校验器-V1.js",
+      "git_blob_sha": "3e1e7d4b951193dd7a76551d965ef6298b17204b",
+      "characters": 5822
+    },
+    {
+      "package_path": "tests/分镜SCG回归样例-V1.json",
+      "source_path": "分镜SCG回归样例-V1.json",
+      "git_blob_sha": "fed738efdf79514f72313b98e65671896407330a",
+      "characters": 15834
+    }
+  ]
+}
