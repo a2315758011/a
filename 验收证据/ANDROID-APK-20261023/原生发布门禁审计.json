@@ -1,0 +1,61 @@
+{
+  "task": "ANDROID-APK-20261023",
+  "date": "2026-10-23",
+  "status": "BLOCKED_COCOS_ANDROID_SDK_PATH_HOOK",
+  "platform": "android",
+  "engine": "Cocos Creator 3.8.2",
+  "sdk": {
+    "apiLevels": [
+      33,
+      34,
+      35,
+      36,
+      "37.0"
+    ],
+    "buildTools": [
+      "34.0.0",
+      "36.0.0",
+      "37.0.0"
+    ],
+    "ndk": "23.1.7779620",
+    "cmake": "3.22.1",
+    "jdk": "17",
+    "prerequisitesReady": true
+  },
+  "reproduced": {
+    "cocosExitCode": 34,
+    "buildSuccessLogMisleading": true,
+    "hook": "android:onAfterInit",
+    "error": "找不到 Android NDK/SDK 路径",
+    "nativeAndroidProjectBuilt": false,
+    "apkCount": 0
+  },
+  "optimizedRegression": {
+    "tool": "自动化测试/build_android_qa_20261023.cjs",
+    "sameFingerprintSkipsRetry": true,
+    "forcedRetryAllowed": true,
+    "changedConfigInvalidatesFailure": true,
+    "unitTest": "自动化测试/qa_android_build_failure_cache_20261023.py",
+    "unitTestStatus": "PASS",
+    "launchesDuringCacheTest": 0
+  },
+  "coreGameRetest": {
+    "engine": "Cocos Creator 3.8.2 Web-Mobile real browser",
+    "status": "PASS",
+    "durationSeconds": 5.889,
+    "menuSeparated": true,
+    "threeLayerKeyframes": true,
+    "naturalWin96": true,
+    "naturalLoss": true,
+    "restart": true,
+    "jsErrors": 0
+  },
+  "pending": [
+    "Cocos Creator Android extension build hook or real GUI developer paths still reject installed SDK/NDK",
+    "Generate native Gradle project and debug APK",
+    "ADB install/run on actual device",
+    "WeChat/Douyin device+official live authorization",
+    "Final art signoff"
+  ],
+  "truthfulCompletion": false
+}

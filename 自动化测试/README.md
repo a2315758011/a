@@ -20,6 +20,17 @@
 
 分别构建 wechatgame 与 bytedance-mini-game，检查真实构建日志和导出产物。按 Cocos 源资产指纹缓存；源码变更后会重建对应目标。报告在 验收证据/COCOS-MINI-BUILD-20261022/微信抖音正式构建验收.json。
 
+## Android 原生构建状态与高速失败缓存（2026-10-23）
+
+工作站已复核并安装兼容工具链：共享 SDK 的 API 33/34（另有 35–37）、Build-Tools 34（另有 36/37）、NDK r23b、CMake 3.22.1、JDK 17。配置仅用于 Android 开发，不代表 APK 已生成。原生 Cocos Creator 3.8.2 的 Android 构建在 `android:onAfterInit` 返回“找不到 Android NDK/SDK 路径”，CLI 退出码 **34（失败）**；错误路径试过完整 configPath、Editor Profile 层级和版本兼容性检查。Creator 失败后仍可能输出 `build success` 字样，**不得单凭该字样判断成功**。
+
+- `node 自动化测试/build_android_qa_20261023.cjs`：默认先检查构建环境指纹，相同签名的已复现插件错误直接返回 `BLOCKED_KNOWN_COCOS_PLUGIN_ERROR`（退出码 2），不会重复启动 Creator。
+- `node 自动化测试/build_android_qa_20261023.cjs --check-cache`：只查看是否命中阻塞缓存（不启动 Creator）。
+- `node 自动化测试/build_android_qa_20261023.cjs --force`：修复插件配置或工具链后才使用，强制重新启动真正的 Cocos Android 构建；不可把已有失败标记为通过。
+- `python 自动化测试/qa_android_build_failure_cache_20261023.py`：测试“未变化命中、配置变化失效、还原后恢复”，不启动 Creator；`python 自动化测试/qa_android_sdk_detection_20261023.py` 检查 SDK 空目录假阳性。
+
+本次原生结果为 **BLOCKED**：APK 0，真实 Android 安装及游戏流程未验收。完整失败调试日志留本机 `验收证据/ANDROID-APK-20261023/`；GitHub 只提交去除敏感运行参数的状态摘要。项目 GUI 的尝试性全局和工程 Profile 改动已按备份回滚，避免影响其他 Cocos 工程。
+
 ## 慢速发布验收（仅发布候选或交互核心修改后）
 
 运行：python 自动化测试/qa_formal_full_game_e2e_20261022.py

@@ -32,6 +32,7 @@ sdk=first_existing([
     Path(os.environ["ANDROID_SDK_ROOT"]) if os.environ.get("ANDROID_SDK_ROOT") else USER/"__missing__",
     Path(os.environ["ANDROID_HOME"]) if os.environ.get("ANDROID_HOME") else USER/"__missing__",
     USER/"AppData/Local/Android/Sdk",
+    USER/"Desktop/deliverable/_assistant-temp/android-sdk",
     USER/"Android/Sdk",
 ])
 sdk_components={"cmdlineTools":False,"platforms":[],"buildTools":[],"licensesPresent":False}
