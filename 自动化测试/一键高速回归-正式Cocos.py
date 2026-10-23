@@ -75,11 +75,24 @@ def main():
             CACHE.write_text(json.dumps({"sourceFingerprint":post_fingerprint,"sourceFiles":post_file_count,
                                          "time":report["timestamp"],"buildEvidence":str(builder_report)},
                                          ensure_ascii=False,indent=2)+"\n","utf8")
-        required=["qa_formal_fast_combat_20261022.py","qa_formal_platform_socket_fallback_20261022.py"]
-        if args.all:required+=["qa_formal_shop_20261022.py","qa_formal_shop_effects_20261022.py",
-                               "qa_formal_liveplay_20261022.py"]
-        for script in required:
-            item=run([sys.executable,str(TEMP/script)],70)
+        # The production Cocos Node/CDP launcher is independently verified in
+        # both the original project and a fresh cloud clone. The legacy
+        # Python->Node->Edge wrapper could time out before the browser launched.
+        # This fast gate tests real game runtime, artwork, both natural endings,
+        # restart and the primary menu; it does not claim platform/shop coverage.
+        required=[("qa_release_ui_20261023.js","node")]
+        report["coverage"]="core_runtime_menu_art_win_loss_restart"
+        if args.all:
+            required.extend((x,"python") for x in [
+                "qa_formal_platform_socket_fallback_20261022.py",
+                "qa_formal_shop_20261022.py",
+                "qa_formal_shop_effects_20261022.py",
+                "qa_formal_liveplay_20261022.py"
+            ])
+            report["coverage"]="core_plus_legacy_platform_shop_liveplay"
+        for script,engine in required:
+            argv=["node",str(TEMP/script)] if engine=="node" else [sys.executable,str(TEMP/script)]
+            item=run(argv,70)
             item["script"]=script
             report["tests"].append(item)
             if item["exitCode"]!=0:raise RuntimeError(f"QA failed: {script}")

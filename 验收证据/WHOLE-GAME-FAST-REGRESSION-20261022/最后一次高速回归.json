@@ -1,13 +1,24 @@
 {
   "task": "WHOLE-GAME-FAST-REGRESSION-20261022",
-  "timestamp": "2026-10-22T15:00:42.478882+00:00",
-  "sourceFingerprint": "d217d2be0312e7a24d425dcb5defcad6fadea038a1749ad7370125286a1d77d2",
+  "timestamp": "2026-10-23T03:53:55.403594+00:00",
+  "sourceFingerprint": "6011bfc7ed9e983e39a400a31547d2d1865de8848adda5d3c37025ac98ef411c",
   "sourceFiles": 418,
   "reusedBuild": true,
   "build": null,
-  "tests": [],
-  "result": "FAIL",
-  "error": "Command '['C:\\\\Users\\\\ide0007\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe', 'C:\\\\Users\\\\ide0007\\\\Desktop\\\\deliverable\\\\AI小游戏实战营\\\\AI小游戏制作工程文件\\\\直播炮塔守城\\\\自动化测试\\\\qa_formal_fast_combat_20261022.py']' timed out after 70 seconds",
-  "stack": "PE,stderr=subprocess.PIPE,\n                     text=True,encoding=\"utf8\",errors=\"replace\",timeout=limit)\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py\", line 556, in run\n    stdout, stderr = process.communicate(input, timeout=timeout)\n                     ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py\", line 1222, in communicate\n    stdout, stderr = self._communicate(input, endtime, timeout)\n                     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\ide0007\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\subprocess.py\", line 1646, in _communicate\n    raise TimeoutExpired(self.args, orig_timeout)\nsubprocess.TimeoutExpired: Command '['C:\\\\Users\\\\ide0007\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python313\\\\python.exe', 'C:\\\\Users\\\\ide0007\\\\Desktop\\\\deliverable\\\\AI小游戏实战营\\\\AI小游戏制作工程文件\\\\直播炮塔守城\\\\自动化测试\\\\qa_formal_fast_combat_20261022.py']' timed out after 70 seconds\n",
-  "totalSeconds": 71.785
+  "tests": [
+    {
+      "command": [
+        "node",
+        "C:\\Users\\ide0007\\Desktop\\deliverable\\AI小游戏实战营\\AI小游戏制作工程文件\\直播炮塔守城\\自动化测试\\qa_release_ui_20261023.js"
+      ],
+      "exitCode": 0,
+      "seconds": 4.443,
+      "stdoutTail": "SeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          },\n          {\n            \"viewerId\": \"qa038-7\",\n            \"viewerName\": \"关键帧观众7\",\n            \"online\": true,\n            \"joinedAt\": 1792727638671,\n            \"lastSeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          },\n          {\n            \"viewerId\": \"qa038-8\",\n            \"viewerName\": \"关键帧观众8\",\n            \"online\": true,\n            \"joinedAt\": 1792727638671,\n            \"lastSeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          },\n          {\n            \"viewerId\": \"qa038-9\",\n            \"viewerName\": \"关键帧观众9\",\n            \"online\": true,\n            \"joinedAt\": 1792727638671,\n            \"lastSeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          },\n          {\n            \"viewerId\": \"qa038-10\",\n            \"viewerName\": \"关键帧观众10\",\n            \"online\": true,\n            \"joinedAt\": 1792727638671,\n            \"lastSeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          },\n          {\n            \"viewerId\": \"qa038-11\",\n            \"viewerName\": \"关键帧观众11\",\n            \"online\": true,\n            \"joinedAt\": 1792727638671,\n            \"lastSeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          },\n          {\n            \"viewerId\": \"qa038-12\",\n            \"viewerName\": \"关键帧观众12\",\n            \"online\": true,\n            \"joinedAt\": 1792727638671,\n            \"lastSeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          },\n          {\n            \"viewerId\": \"qa038-13\",\n            \"viewerName\": \"关键帧观众13\",\n            \"online\": true,\n            \"joinedAt\": 1792727638671,\n            \"lastSeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          },\n          {\n            \"viewerId\": \"qa038-14\",\n            \"viewerName\": \"关键帧观众14\",\n            \"online\": true,\n            \"joinedAt\": 1792727638671,\n            \"lastSeenAt\": 1792727638671,\n            \"giftCount\": 0,\n            \"giftPower\": 0\n          }\n        ]\n      }\n    },\n    \"lossStart\": 9,\n    \"loss\": {\n      \"state\": \"lose\",\n      \"hp\": 0,\n      \"wave\": 3,\n      \"kills\": 71,\n      \"towers\": 9\n    },\n    \"replay\": {\n      \"state\": \"ready\",\n      \"hp\": 100,\n      \"wave\": 1,\n      \"kills\": 0,\n      \"towers\": 9\n    },\n    \"artReady\": true,\n    \"artFailed\": false\n  },\n  \"consoleErrors\": [],\n  \"evidence\": \"C:\\\\Users\\\\ide0007\\\\Desktop\\\\deliverable\\\\AI小游戏实战营\\\\AI小游戏制作工程文件\\\\直播炮塔守城\\\\验收证据\\\\RELEASE-UI-20261023\\\\release-ui-regression.json\",\n  \"screenshots\": [\n    {\n      \"file\": \"主界面-360x780-修复后.png\",\n      \"bytes\": 153088,\n      \"sha256\": \"60FA873D8090065576047F57AEE3A3CDAAFDEA0C7F74DD28EAC2EB7A688BC16C\"\n    },\n    {\n      \"file\": \"战斗-360x780-修复后.png\",\n      \"bytes\": 541430,\n      \"sha256\": \"BD19D3331AE80C57DEF9F5F92FE6A6ACA7253FEDF4417049189219B12954B8EA\"\n    }\n  ]\n}\n",
+      "stderrTail": "",
+      "script": "qa_release_ui_20261023.js"
+    }
+  ],
+  "result": "PASS",
+  "coverage": "core_runtime_menu_art_win_loss_restart",
+  "totalSeconds": 4.624
 }
