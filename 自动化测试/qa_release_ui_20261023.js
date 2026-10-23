@@ -1,5 +1,5 @@
 const fs=require('fs'),path=require('path'),os=require('os'),http=require('http'),net=require('net'),cp=require('child_process'),crypto=require('crypto');
-const ROOT='C:/Users/ide0007/Desktop/deliverable/AI小游戏实战营/AI小游戏制作工程文件/直播炮塔守城';
+const ROOT=path.resolve(__dirname,'..');
 const BUILD=path.join(ROOT,'CocosCreator工程/build/web-mobile');
 const OUT=path.join(ROOT,'验收证据/RELEASE-UI-20261023');
 fs.mkdirSync(OUT,{recursive:true});
