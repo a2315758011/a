@@ -1,0 +1,40 @@
+{
+  "project": "live-turret-defense",
+  "task": "ANDROID-WEB-DEVICE-20261023",
+  "date": "2026-10-23",
+  "device": {
+    "model": "NX669J",
+    "android": "12",
+    "abi": "arm64-v8a",
+    "adbConnected": true,
+    "display": "1080x2400"
+  },
+  "androidBuild": {
+    "jdk17": true,
+    "sdkDirectoryExists": true,
+    "sdkPlatformsReady": false,
+    "sdkBuildToolsReady": false,
+    "sdkManagerPresent": false,
+    "ndkReady": false,
+    "androidSdkLicensesPresent": false,
+    "apkCreated": false,
+    "apkInstalled": false
+  },
+  "androidSdkDetectionTests": {
+    "emptySdkCorrectlyBlocked": true,
+    "platformAndBuildToolsFixturePassed": true,
+    "ndkFixturePassed": true,
+    "result": "PASS"
+  },
+  "mobileWebSmoke": {
+    "formalCocosBuildUsed": true,
+    "loopbackServerStatus": 200,
+    "adbReverseConfigured": true,
+    "browserIntentLaunched": true,
+    "visualAndTouchTestPassed": false,
+    "reason": "Screen entered Doze/charging overlay; ADB screenshots were black or showed charging logo; no proof of Cocos canvas rendering or touch/gameplay on physical phone."
+  },
+  "deliveryState": "PARTIAL; SDK and NDK require official licensed packages; real phone game rendering not verified.",
+  "protectedScope": "No existing phone apps stopped or data erased; no unrelated network tunnels modified.",
+  "followUp": "After authorized SDK components are available, build real Cocos Android APK, install it on detected device, test one actual gameplay loop."
+}

@@ -34,6 +34,14 @@ sdk=first_existing([
     USER/"AppData/Local/Android/Sdk",
     USER/"Android/Sdk",
 ])
+sdk_components={"cmdlineTools":False,"platforms":[],"buildTools":[],"licensesPresent":False}
+if sdk:
+    base=Path(sdk)
+    managers=list((base/"cmdline-tools").glob("*/bin/sdkmanager.bat")) if (base/"cmdline-tools").is_dir() else []
+    sdk_components["cmdlineTools"]=bool(managers or (base/"tools/bin/sdkmanager.bat").is_file())
+    sdk_components["platforms"]=sorted(x.name for x in (base/"platforms").iterdir() if x.is_dir() and (x/"android.jar").is_file()) if (base/"platforms").is_dir() else []
+    sdk_components["buildTools"]=sorted(x.name for x in (base/"build-tools").iterdir() if x.is_dir() and (x/"aapt.exe").is_file() and (x/"zipalign.exe").is_file()) if (base/"build-tools").is_dir() else []
+    sdk_components["licensesPresent"]=(base/"licenses"/"android-sdk-license").is_file()
 ndk=None
 if sdk:
     base=Path(sdk)
@@ -88,6 +96,7 @@ result={
     "javaHome":java_home,
     "javaPath":java,
     "androidSdkPath":sdk,
+    "androidSdkComponents":sdk_components,
     "androidNdkPath":ndk,
     "adbPath":adb,
     "devices":devices,
@@ -106,8 +115,8 @@ result={
 result["gates"]={
     "androidDeviceConnected":bool(selected),
     "androidJdkReady":bool(java),
-    "androidSdkReady":bool(sdk),
-    "androidNdkReady":bool(ndk),
+    "androidSdkReady":bool(sdk_components["platforms"] and sdk_components["buildTools"]),
+    "androidNdkReady":bool(ndk and (Path(ndk)/"ndk-build.cmd").is_file() and (Path(ndk)/"source.properties").is_file()),
     "androidBuildArtifact":builds["android"]["exists"] and builds["android"]["files"]>5,
     "wechatBuildArtifact":builds["wechatgame"]["exists"] and builds["wechatgame"]["files"]>0,
     "douyinBuildArtifact":builds["bytedance-mini-game"]["exists"] and builds["bytedance-mini-game"]["files"]>0,
