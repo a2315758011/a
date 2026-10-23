@@ -1,0 +1,31 @@
+# 学员分镜导演技能包 · V2.8 离线版
+
+这是一个符合 Agent Skills 基本目录约定的技能包，包含 `SKILL.md`、两份**完整 V2.8** 规则原文、SCG 数据契约、可选 Node.js 校验器与回归样例。不需要 GitHub 插件、MCP 或网络连接来读取已安装的规则。
+
+## 安装方法
+- **支持 Agent Skills 的 AI 工具**：解压 ZIP，复制完整的 `storyboard-director-cn` 文件夹到该工具的 Skills 安装目录；或使用该工具提供的技能包导入功能。文件夹名必须保留为 `storyboard-director-cn`。该格式符合开放规范，但不同工具具体安装入口不一样。
+- **仓库方式**：文件同步公开在 https://github.com/a2315758011/a/tree/main/skills/storyboard-director-cn 。支持扫描标准 `skills/` 目录的安装器可直接从仓库导入。
+- **普通 AI 聊天，没有 Skills 安装功能**：将解压后的 `SKILL.md`、`references/剧本转分镜指令.md`、`references/剧本转分镜自检指令.md` 作为文件上传到同一对话（如果平台支持批量上传）。发送 ZIP 本身未必能让模型读取 ZIP 内的所有文件；该场景需要上传解压文件或粘贴全文。把网址交给没有联网读取能力的 AI 不会自动变为技能。
+- **开始使用**：提供剧本并说“按分镜导演技能编写并独立自检，修复 P0/P1 后交付完整分镜”。只审不修则明确说“只审核不修改”。
+
+## 结构
+```
+storyboard-director-cn/
+├─ SKILL.md
+├─ README.md
+├─ SOURCE_LOCK.json
+├─ references/
+│  ├─ 剧本转分镜指令.md
+│  ├─ 剧本转分镜自检指令.md
+│  └─ 分镜SCG数据契约-V1.md
+├─ scripts/
+│  └─ 分镜SCG校验器-V1.js
+└─ tests/
+   └─ 分镜SCG回归样例-V1.json
+```
+
+## 安全与版本
+- 两份规则包含完整正文，没有替换成网页链接，也没有删改专业门禁。
+- 本包从公开仓库 `a2315758011/a` 的 `main` 分支快照生成，规则版本 **V2.8**，来源 SHA 在 SOURCE_LOCK.json。
+- 这是**快照**，不会自动随着 GitHub 更新。教师更新两份原文后要重新打包，学员重新安装才能使用新版。
+- 无 Node.js 时仍可文字审核，但不可声称跑过 SCG 程序检测；无原剧本时不能宣称剧情覆盖通过；没有真实生成视频时不能宣称成片已测试。
