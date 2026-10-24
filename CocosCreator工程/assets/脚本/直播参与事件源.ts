@@ -4,6 +4,7 @@ import { 直播事件源接口 } from './平台适配器';
 export interface 直播参与事件源配置 {
   url:string;
   id?:string;
+  source?:'douyin'|'wechat'|'external';
   joinCommands?:ReadonlyArray<string>;
   leaveCommands?:ReadonlyArray<string>;
   reconnectBaseMs?:number;
@@ -13,6 +14,7 @@ export interface 直播参与事件源配置 {
 export interface 直播参与事件源快照 {
   id:string;
   url:string;
+  source:'douyin'|'wechat'|'external';
   active:boolean;
   connected:boolean;
   received:number;
@@ -37,6 +39,7 @@ export interface 直播参与事件源快照 {
 export class WebSocket直播参与事件源 implements 直播事件源接口 {
   public readonly id:string;
   private readonly url:string;
+  private readonly source:'douyin'|'wechat'|'external';
   private readonly joinCommands:Set<string>;
   private readonly leaveCommands:Set<string>;
   private readonly reconnectBaseMs:number;
@@ -57,6 +60,8 @@ export class WebSocket直播参与事件源 implements 直播事件源接口 {
   constructor(config:直播参与事件源配置){
     this.url=String(config.url||'').trim();
     this.id=String(config.id||'douyin-live-participation-ws').trim()||'douyin-live-participation-ws';
+    const inferred=this.id.toLowerCase().includes('wechat')?'wechat':this.id.toLowerCase().includes('douyin')?'douyin':'external';
+    this.source=config.source||inferred;
     this.joinCommands=new Set((config.joinCommands||['加入','888']).map(x=>this.normalizeCommand(x)).filter(Boolean));
     this.leaveCommands=new Set((config.leaveCommands||['退出']).map(x=>this.normalizeCommand(x)).filter(Boolean));
     this.reconnectBaseMs=Math.max(200,Math.min(10000,Math.floor(Number(config.reconnectBaseMs)||500)));
@@ -91,7 +96,7 @@ export class WebSocket直播参与事件源 implements 直播事件源接口 {
 
   public snapshot():直播参与事件源快照 {
     return {
-      id:this.id,url:this.url,active:this.active,connected:this.connected,
+      id:this.id,url:this.url,source:this.source,active:this.active,connected:this.connected,
       received:this.received,mapped:this.mapped,ignored:this.ignored,
       reconnects:this.reconnects,lastError:this.lastError
     };
@@ -139,10 +144,11 @@ export class WebSocket直播参与事件源 implements 直播事件源接口 {
     };
     try{
       // Prefer the mini-game SocketTask API where available.
-      const platformApi=(g.tt&&typeof g.tt.connectSocket==='function')?g.tt:
-        ((g.wx&&typeof g.wx.connectSocket==='function')?g.wx:null);
-      if(platformApi){
-        ws=platformApi.connectSocket!({url:this.url});
+      const platformApi=this.source==='wechat'?g.wx:this.source==='douyin'?g.tt:
+        ((g.tt&&typeof g.tt.connectSocket==='function')?g.tt:g.wx);
+      const socketApi=platformApi&&typeof platformApi.connectSocket==='function'?platformApi:null;
+      if(socketApi){
+        ws=socketApi.connectSocket!({url:this.url});
         if(!ws||typeof ws.onOpen!=='function'||typeof ws.onMessage!=='function'||
            typeof ws.onError!=='function'||typeof ws.onClose!=='function'){
           throw new Error('platform-socket-task-unavailable');
@@ -187,7 +193,7 @@ export class WebSocket直播参与事件源 implements 直播事件源接口 {
     const base={
       eventId,viewerId,viewerName,
       timestamp:this.firstNumber(data,root,['timestamp','ts','time'])||Date.now(),
-      source:'douyin' as const
+      source:this.source
     };
     if(type==='participation_join'){
       return {...base,type:'viewer_join'};
