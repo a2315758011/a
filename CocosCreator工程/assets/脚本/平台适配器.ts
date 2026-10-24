@@ -23,10 +23,7 @@ export interface 直播事件源接口 {
   stop():void;
 }
 
-/**
- * 平台差异只允许从这里向上暴露。
- * 微信/抖音真实直播 API 需由单独事件源实现后挂接；本类不伪造平台事件。
- */
+/** 平台差异统一入口；不会把缺失的原生 SDK 误报成已接入的直播平台能力。 */
 export class 平台适配器 {
   private source:直播事件源接口|null=null;
   private mode:平台运行模式='standard';
@@ -41,8 +38,8 @@ export class 平台适配器 {
     return {
       runtime,
       mode:this.mode,
-      platformSdkAvailable:runtime==='wechat'||runtime==='douyin'||runtime==='android'||runtime==='native',
-      storageAvailable:this.storageAvailable(),
+      platformSdkAvailable:this.platformSdkAvailable(runtime),
+      storageAvailable:this.storageAvailable(runtime),
       liveEventSourceAttached:this.source!==null,
       liveEventSourceId:this.source?.id||null,
       shopAllowed:!livePlay,
@@ -55,7 +52,8 @@ export class 平台适配器 {
   public attachLiveSource(source:直播事件源接口,emit:(event:直播事件)=>boolean):void {
     this.detachLiveSource();
     this.source=source;
-    source.start(emit);
+    try{source.start(emit);}
+    catch(error){this.source=null;throw error;}
   }
 
   public detachLiveSource():void {
@@ -76,15 +74,32 @@ export class 平台适配器 {
     return 'web';
   }
 
-  private storageAvailable():boolean {
+  private platformSdkAvailable(runtime:运行平台):boolean {
+    const g=globalThis as unknown as {wx?:{getSystemInfoSync?:unknown};tt?:{getSystemInfoSync?:unknown}};
+    if(runtime==='wechat')return typeof g.wx?.getSystemInfoSync==='function';
+    if(runtime==='douyin')return typeof g.tt?.getSystemInfoSync==='function';
+    return false;
+  }
+
+  private storageAvailable(runtime:运行平台):boolean {
     try{
       const key='__live_turret_storage_probe__';
+      const g=globalThis as unknown as {
+        wx?:{setStorageSync?:(key:string,value:string)=>void;getStorageSync?:(key:string)=>unknown;removeStorageSync?:(key:string)=>void};
+        tt?:{setStorageSync?:(key:string,value:string)=>void;getStorageSync?:(key:string)=>unknown;removeStorageSync?:(key:string)=>void};
+      };
+      const platform=runtime==='wechat'?g.wx:runtime==='douyin'?g.tt:null;
+      if(platform){
+        if(typeof platform.setStorageSync!=='function'||typeof platform.getStorageSync!=='function'||typeof platform.removeStorageSync!=='function')return false;
+        platform.setStorageSync(key,'1');
+        const ok=platform.getStorageSync(key)==='1';
+        platform.removeStorageSync(key);
+        return ok;
+      }
       sys.localStorage.setItem(key,'1');
       const ok=sys.localStorage.getItem(key)==='1';
       sys.localStorage.removeItem(key);
       return ok;
-    }catch{
-      return false;
-    }
+    }catch{return false;}
   }
 }
