@@ -1,5 +1,5 @@
 {
-  "version": "4.0",
+  "version": "4.0.1",
   "cases": [
     {
       "id": "PASS-完整两镜",
@@ -388,7 +388,8 @@
                 "end_ms": 4000,
                 "shown_count": 13,
                 "min_per_person_ms": 500,
-                "presentation": "sequential_visible"
+                "presentation": "sequential_visible",
+                "duration_status": "measured"
               }
             ]
           }
@@ -503,6 +504,113 @@
       },
       "expected_errors": [
         "T11"
+      ]
+    },
+    {
+      "id": "REVIEW-动作估算阈值",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 1000,
+                "end_ms": 1300,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "estimated",
+                "requires_visible": true
+              },
+              {
+                "id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 4000,
+                "end_ms": 7000,
+                "requires": [
+                  "pick"
+                ],
+                "exclusive": true,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [],
+      "expected_warnings": [
+        "W01",
+        "W04"
+      ]
+    },
+    {
+      "id": "REVIEW-13人3秒估算展示负载",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "board",
+                "start_ms": 1000,
+                "end_ms": 4000,
+                "shown_count": 13,
+                "min_per_person_ms": 500,
+                "presentation": "sequential_visible",
+                "duration_status": "estimated"
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [],
+      "expected_warnings": [
+        "W05"
       ]
     }
   ]
