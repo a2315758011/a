@@ -3,7 +3,7 @@
   "purpose": "分镜自动调用入口的动态规则索引。每次分镜任务必须从默认分支读取清单，再读取所有 required 规则全文。",
   "repository": "a2315758011/a",
   "branch": "main",
-  "release_version": "4.0.0-layered",
+  "release_version": "4.0.1-layered-rc2",
   "entry_path": "剧本转分镜自动调用指令",
   "rules": [
     {
@@ -39,7 +39,7 @@
       "role": "通过/失败回归案例，用于实际运行测试"
     }
   ],
-  "update_contract": "V4 layered：完整读取基础两规则和 V4 两规则，既有 SCG/source/资产权威规则仍有效。线上 main 清单生效后，分发时同步学员 V4 全文与技能包，所有快照须核对 SHA。严禁把原有 ZIP V2.8.1 宣称 V4。候选分支未合并时只能说候选已准备。",
+  "update_contract": "V4 layered：完整读取基础两规则和 V4 两规则，既有 SCG/source/资产权威规则仍有效。线上 main 清单生效后，分发时同步学员 V4 全文与技能包，所有快照须核对 SHA。严禁把原有 ZIP V2.8.1 宣称 V4。候选分支未合并时只能说候选已准备。 比较验收未完成前不得合并到 main；V4.0 RC2 仍为候选。",
   "gate": {
     "fail_closed": true,
     "p0_allowed": 0,
