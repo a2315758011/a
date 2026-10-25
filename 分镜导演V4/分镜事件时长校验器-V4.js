@@ -33,15 +33,21 @@ function validate(data) {
       seenEvent.add(e.id);byId.set(e.id,e);
       if(!num(e.start_ms)||!num(e.end_ms)||e.end_ms<=e.start_ms){fail('T01',tag,'事件区间非法');continue;}
       if(e.start_ms<start||e.end_ms>end)fail('T04',tag,'事件超出集范围');
-      if(num(e.min_duration_ms)&&e.end_ms-e.start_ms<e.min_duration_ms)fail('T05',tag,'事件'+(e.end_ms-e.start_ms)+'ms 小于已提供的最小时长 '+e.min_duration_ms+'ms');
-      if(e.duration_status!=='measured'&&e.min_duration_ms!==undefined)warn('W01',tag,'最小时长未标 measured；此数值只能用于候选预估，不能视为实测');
+      if(num(e.min_duration_ms)&&e.end_ms-e.start_ms<e.min_duration_ms){
+        if(e.duration_status==='measured'||e.duration_status==='hard_constraint')fail('T05',tag,'事件'+(e.end_ms-e.start_ms)+'ms 小于已测量/硬约束最小时长 '+e.min_duration_ms+'ms');
+        else warn('W04',tag,'事件短于估算阈值；转 NEEDS_REVIEW，不把估算冒充硬性实测失败');
+      }
+      if(e.duration_status!=='measured'&&e.duration_status!=='hard_constraint'&&e.min_duration_ms!==undefined)warn('W01',tag,'最小时长未标 measured；此数值只能用于候选预估，不能视为实测');
       if(e.requires_visible===true){
         const covers=shots.some(s=>s.events_visible?.includes(e.id)&&s.start_ms<e.end_ms&&s.end_ms>e.start_ms);
         if(!covers)fail('T06',tag,'关键事件未有可观察镜头证据');
       }
       if(num(e.shown_count)&&num(e.min_per_person_ms)&&e.presentation==='sequential_visible'){
         const required=e.shown_count*e.min_per_person_ms;
-        if(e.end_ms-e.start_ms<required)fail('T07',tag,'逐人可见动作需要至少 '+required+'ms；当前 '+(e.end_ms-e.start_ms)+'ms');
+        if(e.end_ms-e.start_ms<required){
+          if(e.duration_status==='measured'||e.duration_status==='hard_constraint')fail('T07',tag,'逐人可见动作需要至少 '+required+'ms；当前 '+(e.end_ms-e.start_ms)+'ms');
+          else warn('W05',tag,'逐人可见展示负载超过估算窗口；转 NEEDS_REVIEW，需实测/导演改为蒙太奇或群像锚点');
+        }
       }
       if(e.presentation==='montage'&&e.shown_count>1 && !e.montage_explanation)warn('W02',tag,'蒙太奇需说明其是省略展示，不代表逐人完整拍摄');
     }
