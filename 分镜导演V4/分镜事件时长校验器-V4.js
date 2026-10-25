@@ -81,7 +81,7 @@ if(require.main===module){
     for(const t of tests){const got=validate(t.data||t),codes=[...new Set(got.errors.map(e=>e.code))].sort();
       const expected=(t.expected_errors||[]).slice().sort();
       const pass=!('expected_errors' in t)||JSON.stringify(codes)===JSON.stringify(expected);
-      if(!pass)mismatch++;
+      if(!pass || (!('expected_errors' in t) && !got.ok)) mismatch++;
       console.log(JSON.stringify({case:t.id||'input',pass,ok:got.ok,codes,expected:('expected_errors' in t)?expected:undefined,errors:got.errors,warnings:got.warnings},null,2));
     }process.exit(mismatch?1:0);
   }catch(e){console.error('校验异常: '+e.message);process.exit(2);}
