@@ -1,11 +1,11 @@
 {
   "package": "storyboard-director-cn",
   "date": "2026-10-26",
-  "version": "2.0.0-rc.1",
+  "version": "2.0.0-rc.2",
   "status": "candidate-not-main",
   "source_repo": "a2315758011/a",
   "branch": "feature/storyboard-director-v4-20261026",
-  "source_version": "V4.0-layered-over-V2.8.3",
+  "source_version": "V4.0.1-layered-over-V2.8.3",
   "files": [
     {
       "package_path": "references/剧本转分镜指令.md",
