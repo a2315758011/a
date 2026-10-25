@@ -1,28 +1,59 @@
 {
   "package": "storyboard-director-cn",
-  "date": "2026-10-23",
-  "version": "1.0.2",
+  "date": "2026-10-26",
+  "version": "2.0.0-rc.2",
+  "status": "candidate-not-main",
   "source_repo": "a2315758011/a",
-  "branch": "main",
-  "source_version": "V2.8.1",
+  "branch": "feature/storyboard-director-v4-20261026",
+  "source_version": "V4.0.1-layered-over-V2.8.3",
   "files": [
     {
+      "package_path": "SKILL.md",
+      "source_path": "SKILL.md",
+      "git_blob_sha": "ea7df1c57c0252a3d370fa9d9451c53db1f6e907",
+      "characters": 1332
+    },
+    {
+      "package_path": "README.md",
+      "source_path": "README.md",
+      "git_blob_sha": "654b8265c453009d182ea68c7ce43c4e3c17fe71",
+      "characters": 625
+    },
+    {
       "package_path": "references/剧本转分镜指令.md",
-      "source_path": "剧本转分镜指令",
-      "git_blob_sha": "5a046f761a19fef0e235aff2f49eeb161e0e5b45",
-      "characters": 24828
+      "source_path": "剧本转分镜指令.md",
+      "git_blob_sha": "cb8a4febf1e9538eb10172134a43370bf814aa29",
+      "characters": 31928
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
-      "source_path": "剧本转分镜自检指令",
-      "git_blob_sha": "0b94f4142e6493726be3b3b7778ff50d5dbae293",
-      "characters": 15795
+      "source_path": "剧本转分镜自检指令.md",
+      "git_blob_sha": "0ec8a7d7aca84aa06e692526ecb075d736571acc",
+      "characters": 18262
+    },
+    {
+      "package_path": "references/剧本转分镜指令-V4.md",
+      "source_path": "分镜导演V4/02_导演创作/剧本转分镜指令-V4.md",
+      "git_blob_sha": "7386b6f8cd20b527fe82839ccc699ccb51636c4d",
+      "characters": 7680
+    },
+    {
+      "package_path": "references/剧本转分镜自检指令-V4.md",
+      "source_path": "分镜导演V4/03_独立质检/剧本转分镜自检指令-V4.md",
+      "git_blob_sha": "76ee47facffe09bafd741704c24af62fae84fd2e",
+      "characters": 2976
     },
     {
       "package_path": "references/分镜SCG数据契约-V1.md",
       "source_path": "分镜SCG数据契约-V1.md",
       "git_blob_sha": "016e8830ea1a6f5db590a4c591eb2912c6b126d0",
       "characters": 2191
+    },
+    {
+      "package_path": "references/分镜穿帮专项回归样例-V1.md",
+      "source_path": "分镜穿帮专项回归样例-V1.md",
+      "git_blob_sha": "35dc1d04769b4c015764e7adad1742e4dd3fa8e3",
+      "characters": 1913
     },
     {
       "package_path": "scripts/分镜SCG校验器-V1.js",
@@ -37,10 +68,16 @@
       "characters": 15834
     },
     {
-      "package_path": "references/分镜穿帮专项回归样例-V1.md",
-      "source_path": "分镜穿帮专项回归样例-V1.md",
-      "git_blob_sha": "35dc1d04769b4c015764e7adad1742e4dd3fa8e3",
-      "characters": 1913
+      "package_path": "scripts/分镜事件时长校验器-V4.js",
+      "source_path": "分镜导演V4/04_程序校验/分镜事件时长校验器-V4.js",
+      "git_blob_sha": "96be9475858a22598d7a8be5190ed15f2033f862",
+      "characters": 5561
+    },
+    {
+      "package_path": "tests/分镜时间回归样例-V4.json",
+      "source_path": "分镜导演V4/05_测试样例/分镜时间回归样例-V4.json",
+      "git_blob_sha": "d6e8c9f6e41af78c0f76c1b1203e9f0b0376c2d4",
+      "characters": 14755
     }
   ]
 }
