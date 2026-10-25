@@ -10,15 +10,15 @@
 
 ## 在线规则权威源
 仓库：https://github.com/a2315758011/a
-统一入口：https://github.com/a2315758011/a/blob/main/AGENTS.md
-动态清单：https://raw.githubusercontent.com/a2315758011/a/main/分镜规则清单.json
-基础编写规则：https://raw.githubusercontent.com/a2315758011/a/main/剧本转分镜指令
-基础自检规则：https://raw.githubusercontent.com/a2315758011/a/main/剧本转分镜自检指令
-V4导演规则：https://raw.githubusercontent.com/a2315758011/a/main/分镜导演V4/02_导演创作/剧本转分镜指令-V4.md
-V4独立验收：https://raw.githubusercontent.com/a2315758011/a/main/分镜导演V4/03_独立质检/剧本转分镜自检指令-V4.md
-V4时间校验器：https://raw.githubusercontent.com/a2315758011/a/main/分镜导演V4/04_程序校验/分镜事件时长校验器-V4.js
-V4回归样例：https://raw.githubusercontent.com/a2315758011/a/main/分镜导演V4/05_测试样例/分镜时间回归样例-V4.json
-离线完整规则：https://raw.githubusercontent.com/a2315758011/a/main/学员分镜双规则完整版-V4.0.md
+统一入口：https://github.com/a2315758011/a/blob/feature/storyboard-director-v4-20261026/AGENTS.md
+动态清单：https://raw.githubusercontent.com/a2315758011/a/feature/storyboard-director-v4-20261026/分镜规则清单.json
+基础编写规则：https://raw.githubusercontent.com/a2315758011/a/feature/storyboard-director-v4-20261026/剧本转分镜指令
+基础自检规则：https://raw.githubusercontent.com/a2315758011/a/feature/storyboard-director-v4-20261026/剧本转分镜自检指令
+V4导演规则：https://raw.githubusercontent.com/a2315758011/a/feature/storyboard-director-v4-20261026/分镜导演V4/02_导演创作/剧本转分镜指令-V4.md
+V4独立验收：https://raw.githubusercontent.com/a2315758011/a/feature/storyboard-director-v4-20261026/分镜导演V4/03_独立质检/剧本转分镜自检指令-V4.md
+V4时间校验器：https://raw.githubusercontent.com/a2315758011/a/feature/storyboard-director-v4-20261026/分镜导演V4/04_程序校验/分镜事件时长校验器-V4.js
+V4回归样例：https://raw.githubusercontent.com/a2315758011/a/feature/storyboard-director-v4-20261026/分镜导演V4/05_测试样例/分镜时间回归样例-V4.json
+离线完整规则：https://raw.githubusercontent.com/a2315758011/a/feature/storyboard-director-v4-20261026/学员分镜双规则完整版-V4.0.md
 
 ## A. 规则加载（必须真实读取）
 1. 读取 AGENTS.md 和分镜规则清单.json，记录实际版本/读取时间/来源。
@@ -46,3 +46,6 @@ V4回归样例：https://raw.githubusercontent.com/a2315758011/a/main/分镜导�
 
 ## E. 学员离线模式
 学员不需要 GitHub 插件、MCP 或 API Key。下载并把“学员分镜双规则完整版-V4.0.md”作为附件上传给 AI，再上传剧本并说“开始分镜”。只发网址不保证模型读到全文。旧版 V2.8.1 ZIP 是历史快照，不能称为 V4.0；没有重打包验证前，不要用旧 ZIP 代替 V4 离线完整版。
+
+
+> 候选状态说明：当前文件位于 feature/storyboard-director-v4-20261026 分支，在线引用有意指向该候选分支以便试用。main 正式规则尚未更新；合并前须完成全74镜事件级审核和真实动态预演。正式合并时需把本文件的候选分支链接统一切回 main。
