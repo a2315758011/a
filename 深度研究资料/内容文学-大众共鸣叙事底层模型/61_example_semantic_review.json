@@ -1,0 +1,21 @@
+{
+  "candidate_id": "X0005",
+  "classification": "character_belief",
+  "decision": "approve",
+  "confidence": 0.86,
+  "target_domain": "knowledge",
+  "target_state_id": null,
+  "owner": "母亲",
+  "before": null,
+  "proposed_after": {
+    "belief": "女儿嫁出去以后心就不在家了",
+    "truth_status": "unverified"
+  },
+  "transition_class": "retain",
+  "evidence": [
+    "E02S01#L5"
+  ],
+  "reason": "这是母亲对女儿动机的主观判断，不是客观世界事实。",
+  "canon_safe": true,
+  "review_required": false
+}
