@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "episode_state_delta_v1",
+  "title": "Episode State Delta V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "episode",
+    "from_canon_version",
+    "to_canon_version",
+    "changes",
+    "rewards",
+    "commitments"
+  ],
+  "properties": {
+    "episode": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "from_canon_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "to_canon_version": {
+      "type": "integer",
+      "minimum": 2
+    },
+    "changes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "change_id",
+          "domain",
+          "target",
+          "operation",
+          "before",
+          "after",
+          "transition_class",
+          "evidence"
+        ],
+        "properties": {
+          "change_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "domain": {
+            "enum": [
+              "world",
+              "knowledge",
+              "boundary",
+              "relationship",
+              "competence",
+              "identity",
+              "resource",
+              "arc"
+            ]
+          },
+          "target": {
+            "type": "string",
+            "minLength": 1
+          },
+          "operation": {
+            "enum": [
+              "create",
+              "update",
+              "remove"
+            ]
+          },
+          "before": {},
+          "after": {},
+          "transition_class": {
+            "enum": [
+              "retain",
+              "relapse",
+              "revision",
+              "strategy",
+              "reset"
+            ]
+          },
+          "cause": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "state_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "irreversible": {
+            "type": "boolean",
+            "default": false
+          }
+        }
+      }
+    },
+    "rewards": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "scene_id",
+          "channel",
+          "magnitude",
+          "description"
+        ],
+        "properties": {
+          "scene_id": {
+            "type": "string"
+          },
+          "channel": {
+            "enum": [
+              "C1_outcome",
+              "C2_relationship",
+              "C3_agency",
+              "C4_meaning",
+              "C5_competence"
+            ]
+          },
+          "magnitude": {
+            "enum": [
+              "L1",
+              "L2",
+              "L3"
+            ]
+          },
+          "description": {
+            "type": "string",
+            "minLength": 1
+          },
+          "persists": {
+            "type": "boolean",
+            "default": true
+          }
+        }
+      }
+    },
+    "commitments": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "opened",
+        "paid",
+        "abandoned"
+      ],
+      "properties": {
+        "opened": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "promise"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "promise": {
+                "type": "string"
+              },
+              "expected_payoff_window": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          }
+        },
+        "paid": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "abandoned": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "reason"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
