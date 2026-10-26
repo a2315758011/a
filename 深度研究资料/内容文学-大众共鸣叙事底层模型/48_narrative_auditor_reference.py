@@ -33,6 +33,19 @@ def audit(state, delta, scene=None):
     chars = _chars(state)
     world = _world(state)
 
+    # Parser/extractor output is draft material. It must never commit directly.
+    for ch in delta.get("changes", []):
+        if ch.get("review_required") is True:
+            blockers.append({"rule_id":"R000","target":ch.get("change_id"),"evidence":"unreviewed change candidate"})
+    for r in delta.get("rewards", []):
+        if r.get("review_required") is True:
+            blockers.append({"rule_id":"R000","target":r.get("scene_id"),"evidence":"unreviewed reward candidate"})
+    for item in delta.get("commitments", {}).get("opened", []):
+        if item.get("review_required") is True:
+            blockers.append({"rule_id":"R000","target":item.get("id"),"evidence":"unreviewed commitment candidate"})
+    if scene and scene.get("review_required") is True:
+        blockers.append({"rule_id":"R000","target":scene.get("scene_id"),"evidence":"unreviewed scene contract"})
+
     for ch in delta.get("changes", []):
         cls = ch.get("transition_class")
         domain = ch.get("domain")
