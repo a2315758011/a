@@ -1,6 +1,6 @@
 {
   "package": "manju-director-cn",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "date": "2026-10-26",
   "source_repo": "a2315758011/a",
   "branch": "main",
@@ -15,16 +15,16 @@
     {
       "package_path": "references/剧本转分镜指令.md",
       "source_path": "剧本转分镜指令",
-      "git_blob_sha": "f5c45343d079ce27efdcb223c8c25aff1e589395",
-      "characters": 35454
+      "git_blob_sha": "44736c61af0c340f34ca1afc572e97baacb04d01",
+      "characters": 36444
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
       "source_path": "剧本转分镜自检指令",
-      "git_blob_sha": "fbfa6e6388899c44621d8aab1f0b6f79e4c28bf7",
-      "characters": 20440
+      "git_blob_sha": "0b7dbaeea4e724b900860191a49df6e009c5c912",
+      "characters": 21053
     }
   ],
-  "source_rule_revision": "V2.8.7 rendered visual preview gate",
-  "source_version": "V2.8.7"
+  "source_rule_revision": "SVG purpose: action, prop, blocking, and position schematic only",
+  "source_version": "V2.8.8"
 }
