@@ -123,6 +123,10 @@
       "items": {
         "type": "string"
       }
+    },
+    "review_required": {
+      "type": "boolean",
+      "default": false
     }
   }
 }
