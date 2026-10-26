@@ -1,6 +1,6 @@
 {
   "package": "manju-director-cn",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "date": "2026-10-26",
   "source_repo": "a2315758011/a",
   "branch": "main",
@@ -15,13 +15,16 @@
     {
       "package_path": "references/剧本转分镜指令.md",
       "source_path": "剧本转分镜指令",
-      "git_blob_sha": "ec51f57ef0b77ada4cc49e677aacdac2070174d2"
+      "git_blob_sha": "4968946285b4c83ac6b6ef99768bfcdff1c02fa7",
+      "characters": 34952
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
       "source_path": "剧本转分镜自检指令",
-      "git_blob_sha": "d6c5e93a8278866a877bbdc792e5c7fc2195bef3"
+      "git_blob_sha": "4d053408b611f0fc9c2c7b0ba42ddbd6cc0c7bf4",
+      "characters": 20054
     }
   ],
-  "source_rule_revision": "V2.8.5 reference five-shot-scale crop gate"
+  "source_rule_revision": "V2.8.6 SVG actual camera crop and drawing gate",
+  "source_version": "V2.8.6"
 }
