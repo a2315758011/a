@@ -1,0 +1,36 @@
+{
+  "scene_id": "E02S03",
+  "episode": 2,
+  "before_state_refs": [
+    "B1",
+    "A1",
+    "K1"
+  ],
+  "trigger": "母亲哭着说自己只有女儿可靠，弟弟同时以加班为由要求林晚继续陪护整周。",
+  "choice": "林晚只答应完成今天，并坚持明天由弟弟接班。",
+  "opposition": "母亲指责她变冷血，弟弟说她既然更会照顾人就应该多承担。",
+  "consequence": "林晚失眠且内疚，但没有撤回决定；弟弟必须开始安排自己的时间。",
+  "state_changes": [
+    "D1"
+  ],
+  "reward_channels": [
+    "C3_agency",
+    "C4_meaning"
+  ],
+  "after_state_refs": [
+    "B1:stable",
+    "A1:stage4-tested"
+  ],
+  "hook": {
+    "present": true,
+    "question": "当费用问题出现时，林晚还能否维持同一条边界？"
+  },
+  "commitments_opened": [
+    "K2"
+  ],
+  "commitments_paid": [],
+  "risk_flags": [],
+  "visual_state_delta": [
+    "林晚离开病房时仍穿工作服，母亲留在病床，弟弟站在走廊接电话。"
+  ]
+}
