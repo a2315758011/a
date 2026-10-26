@@ -102,6 +102,10 @@
           "irreversible": {
             "type": "boolean",
             "default": false
+          },
+          "review_required": {
+            "type": "boolean",
+            "default": false
           }
         }
       }
@@ -144,6 +148,10 @@
           "persists": {
             "type": "boolean",
             "default": true
+          },
+          "review_required": {
+            "type": "boolean",
+            "default": false
           }
         }
       }
@@ -177,6 +185,10 @@
                   "string",
                   "null"
                 ]
+              },
+              "review_required": {
+                "type": "boolean",
+                "default": false
               }
             }
           }
