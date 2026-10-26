@@ -9,14 +9,14 @@
     {
       "package_path": "references/剧本转分镜指令.md",
       "source_path": "剧本转分镜指令",
-      "git_blob_sha": "9b4ae5e7ca0c724a228d3700483f1029a4f8b8d8",
-      "characters": 35120
+      "git_blob_sha": "a99ff46195a48bce189fcf3c1116bd13d2d28c4d",
+      "characters": 35111
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
       "source_path": "剧本转分镜自检指令",
-      "git_blob_sha": "ef3f7e73ba17919a48ffc5597eda6cf6a4de652b",
-      "characters": 20725
+      "git_blob_sha": "6ee3fa78ba6dc9374254c96f697dcd64e091fabd",
+      "characters": 20726
     },
     {
       "package_path": "references/分镜SCG数据契约-V1.md",
