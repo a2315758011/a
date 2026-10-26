@@ -1,6 +1,6 @@
 {
   "package": "manju-director-cn",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "date": "2026-10-26",
   "source_repo": "a2315758011/a",
   "branch": "main",
@@ -15,16 +15,16 @@
     {
       "package_path": "references/剧本转分镜指令.md",
       "source_path": "剧本转分镜指令",
-      "git_blob_sha": "44736c61af0c340f34ca1afc572e97baacb04d01",
-      "characters": 36444
+      "git_blob_sha": "29d07f677b80dbdf2f1905418df1d99c63fb2981",
+      "characters": 37680
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
       "source_path": "剧本转分镜自检指令",
-      "git_blob_sha": "0b7dbaeea4e724b900860191a49df6e009c5c912",
-      "characters": 21053
+      "git_blob_sha": "e8b0d3d3be0ba2555185e497bf91dc3a3849b013",
+      "characters": 21892
     }
   ],
-  "source_rule_revision": "SVG purpose: action, prop, blocking, and position schematic only",
-  "source_version": "V2.8.8"
+  "source_rule_revision": "Dual-close-up spatial continuity prompt pollution preflight",
+  "source_version": "V2.8.9"
 }
