@@ -1,22 +1,22 @@
 {
   "package": "storyboard-director-cn",
   "date": "2026-10-26",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "source_repo": "a2315758011/a",
   "branch": "main",
-  "source_version": "V2.8.9",
+  "source_version": "V2.9.1",
   "files": [
     {
       "package_path": "references/剧本转分镜指令.md",
       "source_path": "剧本转分镜指令",
-      "git_blob_sha": "29d07f677b80dbdf2f1905418df1d99c63fb2981",
-      "characters": 37680
+      "git_blob_sha": "51b6fa4b5bdf19950b7dcac2ebd3b12af7502df1",
+      "characters": 39585
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
       "source_path": "剧本转分镜自检指令",
-      "git_blob_sha": "e8b0d3d3be0ba2555185e497bf91dc3a3849b013",
-      "characters": 21892
+      "git_blob_sha": "bed3bc6a4f4a41f60f8ace82fe1a04e6b0f96013",
+      "characters": 23192
     },
     {
       "package_path": "references/分镜SCG数据契约-V1.md",
@@ -43,5 +43,5 @@
       "characters": 1913
     }
   ],
-  "source_rule_revision": "Dual-close-up spatial continuity prompt pollution preflight"
+  "source_rule_revision": "Spatial state ledger, shot constraint compilation, uncertainty labels, cross-shot state regression"
 }
