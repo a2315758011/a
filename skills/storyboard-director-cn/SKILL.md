@@ -3,7 +3,7 @@ name: storyboard-director-cn
 description: 中文AI短剧、漫剧、真人短视频的剧本转分镜与独立质检技能。当用户给出剧本、要求生成/继续/修改/审核分镜，或检查视频生成段落、人物道具动作连续性时调用。内置完整V2.8.7编写与审核规则，离线可用。
 compatibility: 需要支持读取SKILL.md及同目录引用文件的AI客户端；不依赖GitHub、联网、MCP或登录。Node.js仅用于可选SCG程序校验。
 metadata:
-  version: "1.0.7"
+  version: "1.0.8"
   source_version: "V2.8.7"
   language: "zh-CN"
 ---
@@ -59,3 +59,7 @@ node scripts/分镜SCG校验器-V1.js tests/分镜SCG回归样例-V1.json
 - [SCG 回归案例](tests/分镜SCG回归样例-V1.json)
 - [穿帮专项回归与样片验收](references/分镜穿帮专项回归样例-V1.md)
 - [安装与操作说明](README.md)
+
+## 双人近景空间连续性门禁（V2.8.9）
+
+原本距离较远的两个人不能为了“双人近景/过肩”突然出现在一起。先读取人物站位、距离、上一镜尾态、机位轴线；同框不可实现时改用单人近景、画外人物、正反打或远景。没有走位动作却出现位置跳变，独立自检判 P0，修复全部受影响镜头，再交付完整修订稿。SVG 仅作位置、动作与道具辅助记录，画不清可省略。
