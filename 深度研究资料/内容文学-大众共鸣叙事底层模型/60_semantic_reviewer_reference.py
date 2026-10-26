@@ -13,7 +13,7 @@ import json
 import sys
 from pathlib import Path
 
-BELIEF_PREFIXES = ["我觉得","我认为","我知道你","你总是","你从来","肯定","一定是","我看你"]
+BELIEF_PREFIXES = ["我觉得","我认为","我就知道","我知道你","你总是","你从来","肯定","一定是","我看你"]
 EMOTION_CUES = ["我恨你","我烦死","我受够了","我讨厌你","气死我了","我再也不想见你"]
 COMMITMENT_CUES = ["我会","我答应","我保证","明天我","下次我","以后我会","我一定会"]
 STATE_CUES = {
