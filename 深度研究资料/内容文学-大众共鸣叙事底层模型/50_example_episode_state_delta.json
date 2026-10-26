@@ -1,0 +1,79 @@
+{
+  "episode": 2,
+  "from_canon_version": 1,
+  "to_canon_version": 2,
+  "changes": [
+    {
+      "change_id": "D1",
+      "domain": "boundary",
+      "target": "linwan:B1",
+      "operation": "update",
+      "before": {
+        "strength": "developing",
+        "rule": "每周最多两天陪护"
+      },
+      "after": {
+        "strength": "stable",
+        "rule": "每周最多两天陪护，母亲哭泣也不撤回"
+      },
+      "transition_class": "retain",
+      "cause": "母亲哭泣和弟弟指责构成第一次高压测试",
+      "evidence": [
+        "E02S03: 林晚明确说‘我今天留下，明天轮到你’并离开医院"
+      ],
+      "state_id": "B1",
+      "irreversible": false
+    },
+    {
+      "change_id": "D2",
+      "domain": "relationship",
+      "target": "linhai:caregiving",
+      "operation": "update",
+      "before": {
+        "responsibility": "口头承认但没有排班"
+      },
+      "after": {
+        "responsibility": "正式承担三晚陪护"
+      },
+      "transition_class": "revision",
+      "cause": "林晚拒绝继续兜底，迫使弟弟面对实际责任",
+      "evidence": [
+        "E02S04: 林海在护士站登记三晚陪护"
+      ],
+      "state_id": "R_LW_LH",
+      "irreversible": false
+    }
+  ],
+  "rewards": [
+    {
+      "scene_id": "E02S03",
+      "channel": "C3_agency",
+      "magnitude": "L2",
+      "description": "林晚在母亲哭泣后仍没有撤回两天陪护边界",
+      "persists": true
+    },
+    {
+      "scene_id": "E02S04",
+      "channel": "C2_relationship",
+      "magnitude": "L1",
+      "description": "弟弟第一次把照护责任写进实际排班",
+      "persists": true
+    }
+  ],
+  "commitments": {
+    "opened": [
+      {
+        "id": "K2",
+        "promise": "住院费用需要在姐弟之间明确分摊",
+        "expected_payoff_window": "E03-E05"
+      }
+    ],
+    "paid": [
+      "K1"
+    ],
+    "abandoned": []
+  },
+  "notes": [
+    "本集不通过反派打脸完成回报，而是通过边界保留与责任重分配完成。"
+  ]
+}
