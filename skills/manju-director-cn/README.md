@@ -9,7 +9,7 @@
 - `references/AIGC人物资产指令.md`：漫剧人物、场景和资产规则原文。
 - `SOURCE_LOCK.json`：原始文件 Git blob SHA 与版本锁定。
 
-没有小游戏、通用工程、逆向、安全攻防或无关领域规则。
+只保留漫剧制作所需的三份权威规则。
 
 ## 使用
 支持 Agent Skills 的 AI 可导入整个文件夹，必须连同 references 一起保存。普通 ChatGPT 不保证直接安装技能 ZIP；可将 SKILL.md 内容用于自定义 GPT 指令，将所需 references 作为 Knowledge 上传。是否有 Skills 安装功能以账号和产品实际界面为准。
