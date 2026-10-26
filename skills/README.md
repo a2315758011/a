@@ -1,14 +1,14 @@
 # 技能目录
 
-本目录中的每个技能包必须遵循 [SKILL_UPDATE_PROTOCOL.md](./SKILL_UPDATE_PROTOCOL.md)。
+本仓库的 Skills 统一遵循 [SKILL_UPDATE_PROTOCOL.md](./SKILL_UPDATE_PROTOCOL.md)。
 
-## 更新原则
+**版本维护顺序：先修订和验收权威指令 → 冻结源文件 SHA → 更新对应 Skill 与 references → 检查一致性 → 验收后发布。**
 
-**先审定并修订权威指令源，完成规则验收并冻结版本，再更新对应 Skill。** 如果源指令存在缺陷，不得只修改技能描述掩盖问题。
+## 漫剧专项
 
-## 技能包目录
+- [manju-director-cn](./manju-director-cn/)：AI 漫剧专用，剧本转分镜、独立自检、自动修复、重新输出完整修订终稿及人物/场景/道具资产规则。
+- [storyboard-director-cn](./storyboard-director-cn/)：既有分镜导演与独立自检技能，保留其原有版本和程序校验资产。
 
-- `manju-director-cn/`：**仅用于 AI 漫剧**，包含剧本转分镜、人物/场景/道具资产、独立自检、自动修复、完整修订稿重写与复检。不包含小游戏或通用工程规则。
-- `storyboard-director-cn/`：中文短剧/漫剧分镜导演与独立质检技能，包含 SCG 数据契约和可选校验器。
+**说明：** 错误创建的跨领域 `ai-production-director-cn` 已撤回；不得在漫剧 Skill 中混入小游戏或通用软件工程规则。
 
-每个技能的 `SOURCE_LOCK.json` 记录权威来源及版本。技能包是版本快照，不会自动随仓库更新。
+已安装在学员设备上的 Skills 属于快照；仓库更新不会自动替换本地技能。
