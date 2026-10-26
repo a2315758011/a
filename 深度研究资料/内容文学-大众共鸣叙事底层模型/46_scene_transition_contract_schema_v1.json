@@ -1,0 +1,128 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "scene_transition_contract_v1",
+  "title": "Scene Transition Contract V1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scene_id",
+    "episode",
+    "before_state_refs",
+    "trigger",
+    "choice",
+    "opposition",
+    "consequence",
+    "state_changes",
+    "reward_channels",
+    "after_state_refs",
+    "hook"
+  ],
+  "properties": {
+    "scene_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "episode": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "before_state_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "trigger": {
+      "type": "string",
+      "minLength": 1
+    },
+    "choice": {
+      "type": "string",
+      "minLength": 1
+    },
+    "opposition": {
+      "type": "string",
+      "minLength": 1
+    },
+    "consequence": {
+      "type": "string",
+      "minLength": 1
+    },
+    "state_changes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reward_channels": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "C1_outcome",
+          "C2_relationship",
+          "C3_agency",
+          "C4_meaning",
+          "C5_competence"
+        ]
+      }
+    },
+    "after_state_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "hook": {
+      "type": "object",
+      "required": [
+        "present",
+        "question"
+      ],
+      "properties": {
+        "present": {
+          "type": "boolean"
+        },
+        "question": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "commitments_opened": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "commitments_paid": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "risk_flags": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "possible_padding",
+          "knowledge_leak",
+          "canon_conflict",
+          "reset",
+          "reward_reversal",
+          "commitment_debt",
+          "global_reward_gap"
+        ]
+      }
+    },
+    "visual_state_delta": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
