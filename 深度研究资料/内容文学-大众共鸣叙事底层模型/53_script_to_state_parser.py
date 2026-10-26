@@ -271,7 +271,7 @@ def compile_against_state(state: Dict[str,Any], extracted: Dict[str,Any]) -> Dic
     }
 
 def self_test():
-    sample="""第1集 边界测试
+    sample="""# 第2集：边界测试
 场景1 医院
 护士：今晚需要一位家属陪护。
 母亲：你弟弟工作忙，你就多陪几天吧。
@@ -281,15 +281,23 @@ def self_test():
 场景2 走廊
 林晚终于意识到，拒绝不等于不爱。
 她决定明天照常去上班。
+场景3 电梯口
+母亲给林晚发来一条语音：“医药费你弟弟最近手头紧，你先垫一下吧。”
+林晚没有回复。
 """
     out=extract(sample)
+    assert out["episodes"][0]["episode"] == 2
+    assert len(out["scene_contracts"]) == 3
     assert any(x["name"]=="林晚" for x in out["characters"])
+    assert "母亲给林晚发来一条语音" not in [x["name"] for x in out["characters"]]
     assert any(x["kind"]=="boundary" for x in out["candidates"])
     assert any("C3_agency" in x["reward_channels"] for x in out["scene_contracts"])
-    compiled=compile_against_state({"canon_version":1,"episode":0},out)
+    compiled=compile_against_state({"canon_version":1,"episode":1},out)
+    assert compiled["episode"] == 2
     assert compiled["to_canon_version"]==2
     assert compiled["changes"]
     print(json.dumps({
+        "episode":out["episodes"][0]["episode"],
         "characters":[x["name"] for x in out["characters"]],
         "candidate_count":len(out["candidates"]),
         "scene_count":len(out["scene_contracts"]),
