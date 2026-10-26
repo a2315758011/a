@@ -1,6 +1,6 @@
 {
   "package": "manju-director-cn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "date": "2026-10-26",
   "source_repo": "a2315758011/a",
   "branch": "main",
@@ -15,12 +15,13 @@
     {
       "package_path": "references/剧本转分镜指令.md",
       "source_path": "剧本转分镜指令",
-      "git_blob_sha": "ab7549b22c86a58eef639d646e4cdbae072d0d16"
+      "git_blob_sha": "436a0376f3a6d0aa1e21519b22f674116684db82"
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
       "source_path": "剧本转分镜自检指令",
-      "git_blob_sha": "661971517c9feadef4152a881bb03f605f533a8e"
+      "git_blob_sha": "cb05c5454c864e32d10ccdd151386613b2ea682a"
     }
-  ]
+  ],
+  "source_rule_revision": "V2.8.4 framing and orientation gate"
 }
