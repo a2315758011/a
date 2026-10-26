@@ -1,6 +1,6 @@
 {
   "package": "manju-director-cn",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "date": "2026-10-26",
   "source_repo": "a2315758011/a",
   "branch": "main",
@@ -15,16 +15,16 @@
     {
       "package_path": "references/剧本转分镜指令.md",
       "source_path": "剧本转分镜指令",
-      "git_blob_sha": "65d451b82f525a9dea7b874de9710f46219e78dc",
-      "characters": 40943
+      "git_blob_sha": "9b4ae5e7ca0c724a228d3700483f1029a4f8b8d8",
+      "characters": 35120
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
       "source_path": "剧本转分镜自检指令",
-      "git_blob_sha": "fb04296677b63f04e7eacf78101e615b2741476c",
-      "characters": 24070
+      "git_blob_sha": "ef3f7e73ba17919a48ffc5597eda6cf6a4de652b",
+      "characters": 20725
     }
   ],
-  "source_rule_revision": "Proactive script inference, causal gap detection, spatial state ledger and continuity regression",
-  "source_version": "V2.10.0"
+  "source_rule_revision": "Storyboard-director inference, visual beat coverage, shot feasibility, prompt contamination; no SVG deliverable",
+  "source_version": "V2.10.1"
 }
