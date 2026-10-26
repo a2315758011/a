@@ -1,0 +1,432 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "narrative_state_v1",
+  "title": "Narrative State Ledger V1",
+  "type": "object",
+  "required": [
+    "project",
+    "canon_version",
+    "timeline",
+    "characters",
+    "relationships",
+    "open_commitments",
+    "arc_states",
+    "reward_state"
+  ],
+  "properties": {
+    "project": {
+      "type": "string"
+    },
+    "canon_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "episode": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "timeline": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "event_id",
+          "time_order",
+          "fact",
+          "status"
+        ],
+        "properties": {
+          "event_id": {
+            "type": "string"
+          },
+          "time_order": {
+            "type": "number"
+          },
+          "fact": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "canon",
+              "draft",
+              "hypothetical",
+              "retracted"
+            ]
+          },
+          "witnesses": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "source_scene": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "characters": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "knowledge",
+          "identity",
+          "boundaries",
+          "completed_learning",
+          "unresolved_learning"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "knowledge": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "fact_id",
+                "state"
+              ],
+              "properties": {
+                "fact_id": {
+                  "type": "string"
+                },
+                "state": {
+                  "enum": [
+                    "known",
+                    "unknown",
+                    "partial",
+                    "misunderstood"
+                  ]
+                },
+                "learned_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "corrected_at": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                }
+              }
+            }
+          },
+          "identity": {
+            "type": "object",
+            "properties": {
+              "current": {
+                "type": "string"
+              },
+              "old": {
+                "type": "string"
+              },
+              "fear": {
+                "type": "string"
+              },
+              "desire": {
+                "type": "string"
+              },
+              "shame": {
+                "type": "string"
+              },
+              "defense": {
+                "type": "string"
+              }
+            }
+          },
+          "boundaries": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "boundary_id",
+                "rule",
+                "strength"
+              ],
+              "properties": {
+                "boundary_id": {
+                  "type": "string"
+                },
+                "rule": {
+                  "type": "string"
+                },
+                "strength": {
+                  "enum": [
+                    "fragile",
+                    "developing",
+                    "stable"
+                  ]
+                },
+                "established_at": {
+                  "type": "string"
+                },
+                "relapse_conditions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "reset_forbidden": {
+                  "type": "boolean"
+                }
+              }
+            }
+          },
+          "competence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "resources": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "completed_learning": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "unresolved_learning": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "forbidden_resets": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "a",
+          "b",
+          "trust",
+          "power_balance",
+          "current_status"
+        ],
+        "properties": {
+          "a": {
+            "type": "string"
+          },
+          "b": {
+            "type": "string"
+          },
+          "trust": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 5
+          },
+          "intimacy": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 5
+          },
+          "power_balance": {
+            "type": "string"
+          },
+          "current_status": {
+            "type": "string"
+          },
+          "explicit_commitments": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "unresolved_conflicts": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "open_commitments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "promise",
+          "created_at",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "promise": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string"
+          },
+          "expected_payoff_window": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "open",
+              "partially_paid",
+              "paid",
+              "abandoned"
+            ]
+          },
+          "payoff_scene": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "abandoned_reason": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "arc_states": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "arc_id",
+          "owner",
+          "stage",
+          "irreversible_changes"
+        ],
+        "properties": {
+          "arc_id": {
+            "type": "string"
+          },
+          "owner": {
+            "type": "string"
+          },
+          "false_belief": {
+            "type": "string"
+          },
+          "wound": {
+            "type": "string"
+          },
+          "stage": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 7
+          },
+          "completed_turns": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "pending_turns": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "irreversible_changes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "forbidden_repetition": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "reward_state": {
+      "type": "object",
+      "required": [
+        "last_reward_episode",
+        "channels",
+        "global_reward_gap"
+      ],
+      "properties": {
+        "last_reward_episode": {
+          "type": "integer"
+        },
+        "channels": {
+          "type": "object",
+          "properties": {
+            "outcome": {
+              "type": "integer"
+            },
+            "relationship": {
+              "type": "integer"
+            },
+            "agency": {
+              "type": "integer"
+            },
+            "meaning": {
+              "type": "integer"
+            },
+            "competence": {
+              "type": "integer"
+            }
+          }
+        },
+        "global_reward_gap": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "reward_debt_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "hypothetical_branches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "branch_id",
+          "proposal"
+        ],
+        "properties": {
+          "branch_id": {
+            "type": "string"
+          },
+          "proposal": {
+            "type": "string"
+          },
+          "must_not_pollute_canon": {
+            "const": true
+          }
+        }
+      }
+    }
+  }
+}
