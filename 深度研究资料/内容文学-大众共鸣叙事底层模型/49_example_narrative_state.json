@@ -1,0 +1,237 @@
+{
+  "project": "边界之后的坏女儿_状态化编剧示例",
+  "canon_version": 1,
+  "episode": 1,
+  "timeline": [
+    {
+      "event_id": "W0",
+      "time_order": 0,
+      "fact": "父亲已去世三年",
+      "status": "canon",
+      "witnesses": [
+        "linwan",
+        "mother",
+        "linhai"
+      ],
+      "source_scene": "BACKSTORY",
+      "mutable": false
+    },
+    {
+      "event_id": "W1",
+      "time_order": 1,
+      "fact": "母亲因急性病住院，需要一周照护安排",
+      "status": "canon",
+      "witnesses": [
+        "linwan",
+        "mother",
+        "linhai"
+      ],
+      "source_scene": "E01S01",
+      "mutable": true
+    }
+  ],
+  "characters": [
+    {
+      "id": "linwan",
+      "name": "林晚",
+      "knowledge": [
+        {
+          "fact_id": "W0",
+          "state": "known",
+          "learned_at": "BACKSTORY",
+          "corrected_at": null
+        },
+        {
+          "fact_id": "W1",
+          "state": "known",
+          "learned_at": "E01S01",
+          "corrected_at": null
+        }
+      ],
+      "identity": {
+        "current": "我可以爱家人，但不必承担全部责任",
+        "old": "懂事的人必须承担全部",
+        "fear": "只要拒绝家人，我就是坏女儿",
+        "desire": "既不抛弃家人，也不再失去自己",
+        "shame": "害怕别人觉得自己冷血自私",
+        "defense": "先答应全部，再独自承受"
+      },
+      "boundaries": [
+        {
+          "boundary_id": "B1",
+          "rule": "住院陪护每周最多两天，其余由弟弟和护工共同承担",
+          "strength": "developing",
+          "established_at": "E01S04",
+          "relapse_conditions": [
+            "母亲哭泣",
+            "亲戚指责不孝",
+            "弟弟以工作忙为由退出"
+          ],
+          "reset_forbidden": true
+        }
+      ],
+      "competence": [
+        "能识别母亲的内疚施压",
+        "能提出责任分工方案"
+      ],
+      "resources": [
+        "稳定工作",
+        "可承担部分护工费用"
+      ],
+      "completed_learning": [
+        "拒绝不等于不爱"
+      ],
+      "unresolved_learning": [
+        "承受母亲失望而不撤回边界"
+      ],
+      "forbidden_resets": [
+        "无解释恢复全天陪护",
+        "再次替弟弟承担全部照护"
+      ]
+    },
+    {
+      "id": "mother",
+      "name": "母亲",
+      "knowledge": [
+        {
+          "fact_id": "W1",
+          "state": "known",
+          "learned_at": "E01S01",
+          "corrected_at": null
+        }
+      ],
+      "identity": {
+        "current": "习惯把女儿视为最可靠照护者",
+        "old": "",
+        "fear": "被孩子抛下",
+        "desire": "获得确定照护",
+        "shame": "承认自己偏向依赖女儿",
+        "defense": "用委屈和牺牲叙事施压"
+      },
+      "boundaries": [],
+      "competence": [],
+      "resources": [
+        "医保",
+        "部分储蓄"
+      ],
+      "completed_learning": [],
+      "unresolved_learning": [
+        "接受照护责任可以被分配"
+      ],
+      "forbidden_resets": []
+    },
+    {
+      "id": "linhai",
+      "name": "林海",
+      "knowledge": [
+        {
+          "fact_id": "W1",
+          "state": "known",
+          "learned_at": "E01S01",
+          "corrected_at": null
+        }
+      ],
+      "identity": {
+        "current": "默认姐姐会兜底",
+        "old": "",
+        "fear": "承担责任影响工作",
+        "desire": "尽量少承担照护",
+        "shame": "承认自己长期依赖姐姐",
+        "defense": "强调客观忙碌"
+      },
+      "boundaries": [],
+      "competence": [],
+      "resources": [
+        "工作收入",
+        "可轮夜班"
+      ],
+      "completed_learning": [],
+      "unresolved_learning": [
+        "承担自己应负的家庭责任"
+      ],
+      "forbidden_resets": []
+    }
+  ],
+  "relationships": [
+    {
+      "a": "linwan",
+      "b": "mother",
+      "trust": 4,
+      "intimacy": 4,
+      "power_balance": "母亲仍有较强情绪权力，正在重新平衡",
+      "current_status": "相爱但边界冲突升级",
+      "explicit_commitments": [
+        "林晚承诺每周陪护两天"
+      ],
+      "unresolved_conflicts": [
+        "母亲是否接受女儿不是唯一照护者"
+      ]
+    },
+    {
+      "a": "linwan",
+      "b": "linhai",
+      "trust": 2,
+      "intimacy": 3,
+      "power_balance": "责任长期向姐姐倾斜",
+      "current_status": "开始谈判重新分工",
+      "explicit_commitments": [],
+      "unresolved_conflicts": [
+        "弟弟是否真正承担照护"
+      ]
+    }
+  ],
+  "open_commitments": [
+    {
+      "id": "K1",
+      "promise": "本周内必须明确母亲住院期间的实际照护分工",
+      "created_at": "E01S02",
+      "expected_payoff_window": "E02-E03",
+      "status": "open",
+      "payoff_scene": null,
+      "abandoned_reason": null,
+      "overdue": false
+    }
+  ],
+  "arc_states": [
+    {
+      "arc_id": "A1",
+      "owner": "linwan",
+      "false_belief": "只要家人失望，就证明我的边界是错的",
+      "wound": "长期以承担全部责任换取好女儿身份",
+      "stage": 4,
+      "completed_turns": [
+        "说出第一次明确拒绝",
+        "承认拒绝不等于不爱"
+      ],
+      "pending_turns": [
+        "在母亲哭泣时不撤回边界",
+        "让弟弟承担真实后果"
+      ],
+      "irreversible_changes": [
+        "已经明确提出照护上限"
+      ],
+      "forbidden_repetition": [
+        "重新从零学习‘可以拒绝家人’"
+      ]
+    }
+  ],
+  "reward_state": {
+    "last_reward_episode": 1,
+    "channels": {
+      "outcome": 0,
+      "relationship": 0,
+      "agency": 1,
+      "meaning": 1,
+      "competence": 0
+    },
+    "global_reward_gap": 0,
+    "reward_debt_notes": []
+  },
+  "hypothetical_branches": [
+    {
+      "branch_id": "H1",
+      "proposal": "林晚完全断亲并离开城市",
+      "must_not_pollute_canon": true
+    }
+  ]
+}
