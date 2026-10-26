@@ -19,9 +19,9 @@ import sys
 from pathlib import Path
 from typing import Dict, List, Any, Tuple
 
-EP_RE = re.compile(r"^(?:第\s*)?(\d+)\s*(?:集|话|章)\s*[:：]?(.*)$")
+EP_RE = re.compile(r"^(?:#{1,6}\\s*)?(?:第\\s*)?(\\d+)\\s*(?:集|话|章)\\s*[:：]?(.*)$")
 SCENE_RE = re.compile(r"^(?:场景|镜头|SCENE|Scene)\s*([A-Za-z0-9._-]+)?\s*[:：-]?\s*(.*)$")
-DIALOGUE_RE = re.compile(r"^([\u4e00-\u9fffA-Za-z0-9_·]{1,20})\s*[:：]\s*(.+)$")
+DIALOGUE_RE = re.compile(r"^([\\u4e00-\\u9fffA-Za-z0-9_·]{1,8})\\s*[:：]\\s*(.+)$")
 BRACKET_RE = re.compile(r"^[（(【\[].*[）)】\]]$")
 
 CUES = {
