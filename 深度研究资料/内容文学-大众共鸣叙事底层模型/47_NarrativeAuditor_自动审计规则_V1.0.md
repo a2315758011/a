@@ -14,6 +14,13 @@ CANVAS：https://aclanthology.org/2026.findings-emnlp.92/
 
 ## 二、硬阻断规则
 
+### R000 Unreviewed Candidate
+任何 Delta change / reward / opened commitment 或 Scene Contract 仍带 review_required=true：
+BLOCK。
+
+解析器只能提出候选；未经语义审查的候选绝不能进入 Canon。
+
+
 ### R001 Canon Version
 to_canon_version 必须等于 from_canon_version + 1，且 from 必须等于当前 Canon 版本。否则 BLOCK。
 
