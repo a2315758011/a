@@ -141,7 +141,7 @@ def apply_reviews(state, extracted, bundle):
             "choice":scene.get("choice",""),
             "opposition":scene.get("opposition",""),
             "consequence":scene.get("consequence",""),
-            "state_changes":[x for x in sr.get("state_change_candidate_ids",[]) if x in candidate_by_id],
+            "state_changes":["APPROVED_"+x for x in sr.get("state_change_candidate_ids",[]) if x in candidate_by_id],
             "reward_channels":channels,
             "after_state_refs":scene.get("after_state_refs",[]),
             "hook":{
