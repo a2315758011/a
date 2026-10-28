@@ -20,8 +20,9 @@ CREATE TABLE IF NOT EXISTS events (
 CREATE INDEX IF NOT EXISTS idx_project_events ON events(project_id, received_at DESC);
 CREATE INDEX IF NOT EXISTS idx_project_task ON events(project_id, task_id, received_at DESC);
 CREATE TABLE IF NOT EXISTS sources (
-  source_id TEXT PRIMARY KEY,
+  source_id TEXT NOT NULL,
   project_id TEXT NOT NULL,
-  last_seen_at TEXT NOT NULL
+  last_seen_at TEXT NOT NULL,
+  PRIMARY KEY(project_id, source_id)
 );
 CREATE INDEX IF NOT EXISTS idx_source_project ON sources(project_id);
