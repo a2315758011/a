@@ -25,6 +25,7 @@ jobs:
         env:
           D1_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
         run: |
+          test -n "$D1_ID" || (echo "::error::请配置 CLOUDFLARE_D1_DATABASE_ID" && exit 1)
           python - <<'PY'
           import os
           from pathlib import Path
@@ -42,25 +43,33 @@ jobs:
           TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           D1_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+          WRITE_TOKEN: ${{ secrets.TASK_OBSERVATORY_WRITE_TOKEN }}
+          READ_TOKEN: ${{ secrets.TASK_OBSERVATORY_READ_TOKEN }}
         run: |
           test -n "$TOKEN" || (echo "::error::请在 cloud-production 环境配置 CLOUDFLARE_API_TOKEN" && exit 1)
           test -n "$ACCOUNT" || (echo "::error::请配置 CLOUDFLARE_ACCOUNT_ID" && exit 1)
           test -n "$D1_ID" || (echo "::error::请配置 CLOUDFLARE_D1_DATABASE_ID" && exit 1)
       - name: 迁移远端数据库
         if: inputs.migrate_database
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: cloud-task-observatory/cloudflare
           command: d1 execute zh-task-observatory --remote --file schema.sql --config wrangler.ci.generated.toml
-      - name: 部署 Worker 与中文网页
-        uses: cloudflare/wrangler-action@v3
+      - name: 部署 Worker、中文网页与受保护口令
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: cloud-task-observatory/cloudflare
           command: deploy --config wrangler.ci.generated.toml
+          secrets: |
+            WRITE_TOKEN
+            READ_TOKEN
+        env:
+          WRITE_TOKEN: ${{ secrets.TASK_OBSERVATORY_WRITE_TOKEN }}
+          READ_TOKEN: ${{ secrets.TASK_OBSERVATORY_READ_TOKEN }}
       - name: 删除临时配置
         if: always()
         run: rm -f cloud-task-observatory/cloudflare/wrangler.ci.generated.toml
