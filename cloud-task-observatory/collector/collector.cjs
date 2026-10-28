@@ -32,7 +32,7 @@ function snapshot(root,projectId,sourceId,opts={}){
    // 未知时间不伪称执行过。只有有可验证 status 文件时才上报。
    if(!date||!s.status)continue;
    const sourceKey=[projectId,sourceId,t.task_id,runId,status,date].join('|');
-   const seq=Number.parseInt(sha(sourceKey).slice(0,12),16);
+   const seq=Date.parse(date); // 毫秒时间戳单调排序，不能用哈希伪造任务序号
    output.push({eventId:sha(sourceKey).slice(0,40),projectId,sourceId,runId,taskId:t.task_id,
      seq,status,occurredAt:date,title:safe(t.title||t.task_id,150),owner:safe(s.owner||t.owner_hint,80),
      dependencies:Array.isArray(t.dependencies)?t.dependencies.filter(x=>allow.test(x)).slice(0,100):[],
