@@ -44,19 +44,19 @@
     },
     {
       "package_path": "references/分镜事件时间数据契约-V1.md",
-      "source_path": "分镜事件时间数据契约-V1.md",
+      "source_path": "skills/storyboard-director-cn/references/分镜事件时间数据契约-V1.md",
       "git_blob_sha": "c21fa189e568a9026a1b2845d3ee89318291f142",
       "characters": 1948
     },
     {
       "package_path": "scripts/分镜事件时长校验器-V1.js",
-      "source_path": "分镜事件时长校验器-V1.js",
+      "source_path": "skills/storyboard-director-cn/scripts/分镜事件时长校验器-V1.js",
       "git_blob_sha": "c3cc4c6f265bd48ebe7cbad03e0b975fe1db59df",
       "characters": 7939
     },
     {
       "package_path": "tests/分镜事件时长回归样例-V1.json",
-      "source_path": "分镜事件时长回归样例-V1.json",
+      "source_path": "skills/storyboard-director-cn/tests/分镜事件时长回归样例-V1.json",
       "git_blob_sha": "dfe045601ec253abbca818448676a4fac19eeba1",
       "characters": 21346
     }
