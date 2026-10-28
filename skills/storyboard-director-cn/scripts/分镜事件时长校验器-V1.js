@@ -65,6 +65,7 @@ function validate(rawData) {
     const seenShot=new Set(),seenEvent=new Set();
     let cursor=start;
     for (const s of shots) {
+      if (!s || typeof s !== 'object' || Array.isArray(s)) { fail('T00', id, 'shot 必须是对象'); continue; }
       const tag=id+'/'+s.id;
       if(seenShot.has(s.id))fail('T02',tag,'重复镜号');seenShot.add(s.id);
       if(!num(s.start_ms)||!num(s.end_ms)||s.end_ms<=s.start_ms) {fail('T01',tag,'镜头时间无效');continue;}
@@ -75,6 +76,7 @@ function validate(rawData) {
     if(cursor!==end)fail('T03',id,'末镜时间 '+cursor+' 不等于集结束 '+end);
     const byId=new Map();
     for(const e of events){
+      if (!e || typeof e !== 'object' || Array.isArray(e)) { fail('T00', id, 'event 必须是对象'); continue; }
       const tag=id+'/'+e.id;
       if(!e.id||seenEvent.has(e.id))fail('T02',tag,'事件ID缺失/重复');
       seenEvent.add(e.id);byId.set(e.id,e);
@@ -99,6 +101,7 @@ function validate(rawData) {
       if(e.presentation==='montage'&&e.shown_count>1 && !e.montage_explanation)warn('W02',tag,'蒙太奇需说明其是省略展示，不代表逐人完整拍摄');
     }
     for(const e of events){
+      if (!e || typeof e !== 'object' || Array.isArray(e)) continue;
       for(const dep of e.requires||[]){
         const prior=byId.get(dep);
         if(!prior){fail('T08',id+'/'+e.id,'缺依赖事件 '+dep);continue;}
@@ -108,6 +111,7 @@ function validate(rawData) {
     const overlaps=(a,b)=>a.start_ms<b.end_ms&&b.start_ms<a.end_ms;
     for(let i=0;i<events.length;i++)for(let j=i+1;j<events.length;j++){
       const a=events[i],b=events[j];
+      if (!a || !b || typeof a !== 'object' || typeof b !== 'object') continue;
       if(!num(a.start_ms)||!num(a.end_ms)||!num(b.start_ms)||!num(b.end_ms)||!overlaps(a,b))continue;
       const common=(a.actor_ids||[]).filter(x=>(b.actor_ids||[]).includes(x));
       if(common.length && (a.exclusive===true||b.exclusive===true) &&
@@ -117,7 +121,7 @@ function validate(rawData) {
       const shared=(a.exclusive_resources||[]).filter(x=>(b.exclusive_resources||[]).includes(x));
       if(shared.length)fail('T11',id+'/'+a.id+'+'+b.id,'独占道具/机构 '+shared.join(',')+' 同时被占用');
     }
-    for(const e of events.filter(e=>e.continuous_hold===true)){
+    for(const e of events.filter(e=>e && typeof e === 'object' && e.continuous_hold===true)){
       if(!(e.exclusive===true||e.hold_can_coexist===true))warn('W03',id+'/'+e.id,'持续操作应声明是否排他，不能默认可同时战斗');
       if(e.engagement_event_id){
         const latch=byId.get(e.engagement_event_id);
