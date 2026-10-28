@@ -1,7 +1,7 @@
 {
   "package": "storyboard-director-cn",
-  "date": "2026-10-26",
-  "version": "2.0.0-rc.2",
+  "date": "2026-10-28",
+  "version": "2.0.1-rc3",
   "status": "candidate-not-main",
   "source_repo": "a2315758011/a",
   "branch": "feature/storyboard-director-v4-20261026",
@@ -34,14 +34,14 @@
     {
       "package_path": "references/剧本转分镜指令-V4.md",
       "source_path": "分镜导演V4/02_导演创作/剧本转分镜指令-V4.md",
-      "git_blob_sha": "7386b6f8cd20b527fe82839ccc699ccb51636c4d",
-      "characters": 7680
+      "git_blob_sha": "4b49fbc642c4a7bbefb89e254cc4866a10bda153",
+      "characters": 9475
     },
     {
       "package_path": "references/剧本转分镜自检指令-V4.md",
       "source_path": "分镜导演V4/03_独立质检/剧本转分镜自检指令-V4.md",
-      "git_blob_sha": "76ee47facffe09bafd741704c24af62fae84fd2e",
-      "characters": 2976
+      "git_blob_sha": "126019b5e30aba235cdd1906967daec267920ba5",
+      "characters": 4538
     },
     {
       "package_path": "references/分镜SCG数据契约-V1.md",
