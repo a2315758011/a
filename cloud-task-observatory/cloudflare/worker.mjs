@@ -5,6 +5,25 @@ const CORS = {'Cache-Control':'no-store','X-Content-Type-Options':'nosniff'};
 function reply(data,status=200){return new Response(JSON.stringify(data),{status,headers:{...CORS,'Content-Type':'application/json; charset=utf-8'}})}
 function authorized(req,token){if(typeof token!=='string'||token.length<24)return false;const value=req.headers.get('authorization')||'';return value==='Bearer '+token}
 function safeString(v,n=300){return typeof v==='string'?v.slice(0,n):''}
+async function boundedJson(request,maxBytes){
+ const reader=request.body?.getReader();
+ if(!reader)throw Object.assign(new Error('缺少请求体'),{httpStatus:400});
+ const decoder=new TextDecoder('utf-8',{fatal:true});
+ let size=0,text='';
+ try{
+  while(true){
+   const {done,value}=await reader.read();if(done)break;
+   size+=value.byteLength;
+   if(size>maxBytes)throw Object.assign(new Error('请求超过限制'),{httpStatus:413});
+   text+=decoder.decode(value,{stream:true});
+  }
+  text+=decoder.decode();
+  return JSON.parse(text);
+ }catch(e){
+  if(e?.httpStatus)throw e;
+  throw Object.assign(new Error('无效JSON'),{httpStatus:400});
+ }finally{try{await reader.cancel()}catch{}}
+}
 function validEvent(e){
  if(!e||typeof e!=='object'||Array.isArray(e))return '事件格式错误';
  for(const k of ['eventId','projectId','taskId','runId','sourceId'])if(!IDs.test(e[k]||''))return '无效字段 '+k;
@@ -50,7 +69,7 @@ export default {async fetch(request,env){
  if(pathname==='/api/health')return reply({ok:true,cloud:true});
  if(pathname==='/api/heartbeat'&&request.method==='POST'){
   if(!authorized(request,env.WRITE_TOKEN))return reply({error:'写入权限不足'},401);
-  let body;try{body=await request.json()}catch{return reply({error:'无效JSON'},400)}
+  let body;try{body=await boundedJson(request,4096)}catch(e){return reply({error:e.message},e.httpStatus||400)}
   if(!body||!IDs.test(body.sourceId||'')||!IDs.test(body.projectId||''))return reply({error:'来源编号错误'},400);
   const now=new Date().toISOString();
   try{await env.DB.prepare(`INSERT INTO sources(source_id,project_id,last_seen_at) VALUES(?,?,?)
@@ -60,8 +79,8 @@ export default {async fetch(request,env){
  if(pathname==='/api/events'&&request.method==='POST'){
   if(!authorized(request,env.WRITE_TOKEN))return reply({error:'写入权限不足'},401);
   if(Number(request.headers.get('content-length')||0)>100000)return reply({error:'请求过大'},413);
-  let body;try{body=await request.json()}catch{return reply({error:'无效JSON'},400)}
-  if(!body||!Array.isArray(body.events)||body.events.length>50)return reply({error:'每批1至50个事件'},400);
+  let body;try{body=await boundedJson(request,100000)}catch(e){return reply({error:e.message},e.httpStatus||400)}
+  if(!body||!Array.isArray(body.events)||body.events.length<1||body.events.length>50)return reply({error:'每批1至50个事件'},400);
   for(const e of body.events){const err=validEvent(e);if(err)return reply({error:err},400)}
   try{for(const e of body.events)await store(env.DB,e);return reply({ok:true,received:body.events.length})}
   catch(e){return reply({error:'云端写入失败'},500)}
