@@ -7,6 +7,7 @@ on:
       - "skills/storyboard-director-cn/tests/**"
       - "分镜SCG校验器-V1.js"
       - "分镜SCG回归样例-V1.json"
+      - ".github/workflows/storyboard-regression.yml"
   push:
     branches:
       - "feature/storyboard-director-v4-20261026"
@@ -15,6 +16,7 @@ on:
       - "skills/storyboard-director-cn/tests/**"
       - "分镜SCG校验器-V1.js"
       - "分镜SCG回归样例-V1.json"
+      - ".github/workflows/storyboard-regression.yml"
 
 permissions:
   contents: read
