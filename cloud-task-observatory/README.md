@@ -32,6 +32,8 @@
 
 采集器不会修改原任务数据。它只读取 `.project-orchestrator/tasks` 和 `.project-orchestrator/status` 中有真实更新时间的任务，并使用事件唯一 ID 去重。状态文件没有更新时间时不会冒称正在执行。网络中断时，先将事件写入本地队列；恢复联网后按批次补发。心跳接口独立发送，避免任务无变化时误判采集器离线。
 
+**隐私默认值**：任务标题会先做基础脱敏；恢复文字/错误细节默认不上传，必须显式启用 `ALLOW_RECOVERY_TEXT=true`。这仍不是绝对的个人信息识别器，项目名称和任务标题本身也应避免包含秘密。
+
 **现阶段自动采集范围**：已接入 Project Orchestrator 的任务。未接入的 AI 聊天操作、浏览器点击或其他软件运行过程，不能自动完整监控。后续需要针对每一种执行器接入事件适配器，不能宣称已经捕获全部 AI 活动。
 
 ## GitHub 自动部署入口（已加入仓库）
@@ -46,7 +48,7 @@
 | 环境机密 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare 账户标识 |
 | 环境机密 | `TASK_OBSERVATORY_WRITE_TOKEN` | 本地采集器上传事件使用的随机强口令 |
 | 环境机密 | `TASK_OBSERVATORY_READ_TOKEN` | 看板读取状态使用的另一条随机强口令 |
-| 环境变量 | `CLOUDFLARE_D1_DATABASE_ID` | 已创建的 `zh-task-observatory` 数据库 ID |
+| 云端资源 | 无需手动填数据库 ID | 部署流程会在 Cloudflare 账户中查找；不存在时自动创建 `zh-task-observatory`。令牌需有 D1 读取/写入权限。 |
 
 读写口令必须是不同的随机字符串，至少 32 个字符。不要把口令发到聊天、源码或运行日志中。
 
@@ -57,14 +59,13 @@
 正式版使用 Cloudflare Workers + D1。官方配置说明：
 https://developers.cloudflare.com/workers/static-assets/binding/
 
-1. 使用已经授权的 Cloudflare 账户创建 D1 数据库 `zh-task-observatory`。
-2. 将云端返回的真实数据库 ID 填入 `cloudflare/wrangler.toml`，替换唯一占位值。
-3. 在 `cloudflare` 目录执行 `npx wrangler d1 execute zh-task-observatory --file=schema.sql --remote`，初始化远端数据库。
-4. 通过 `npx wrangler secret put WRITE_TOKEN` 与 `npx wrangler secret put READ_TOKEN` 分别配置长度至少 24 字符的不同随机口令。**不允许提交到 GitHub**。
-5. 在 `cloudflare` 目录执行 `npx wrangler deploy`，记录真实生成的 HTTPS 地址，并验证 `/api/health`、写入权限与读取权限。
-6. 本地采集器运行前设置 `PROJECT_ROOT`、`PROJECT_ID`、`SOURCE_ID`、`CLOUD_URL`、`WRITE_TOKEN`。首次验证用 `node collector/collector.cjs --once`；长期采集使用 `--loop`，由现有受管进程管理机制监督，而不是额外新建公网隧道。
-7. 在正式网址输入读取口令（当前仅保存在浏览器会话中），查看项目任务。模拟数据显示必须通过“查看演示”主动打开。
-8. 进行断线恢复和另一台电脑查看的端到端验收，确认云端数据与真实本地状态一致。
+1. 在 GitHub 的 `cloud-production` 环境添加 Cloudflare API Token、账户 ID，以及两条不同的随机强口令。Cloudflare Token 至少需要账户级 D1 读取/写入与 Workers 脚本编辑权限。
+2. 打开 Actions → “部署云端任务看板” → Run workflow。首次部署保留“执行远端数据库建表”选项。
+3. 工作流会查找或创建 D1 数据库、生成仅存在于运行器的临时配置、迁移数据库、写入 Worker 加密口令并发布中文网页。数据库 ID 不会提交到 GitHub。
+4. 记录 Cloudflare 返回的真实 HTTPS 地址，检查 `/api/health`，再用读取口令检查 `/api/status?project=solo-ai-company`；未通过这两项不能认为已上线。
+5. 本地采集器运行前设置 `PROJECT_ROOT`、`PROJECT_ID`、`SOURCE_ID`、`CLOUD_URL`、`WRITE_TOKEN`。默认只上传最小任务元数据；如确需上传恢复文字，才显式设置 `ALLOW_RECOVERY_TEXT=true`，且必须先确认文本不含隐私。首次验证用 `node collector/collector.cjs --once`；长期采集使用 `--loop`，由现有受管进程管理机制监督，而不是额外新建公网隧道。
+6. 在正式网址输入读取口令（仅保存在当前浏览器会话中），查看项目任务。模拟数据显示必须通过“查看演示”主动打开。
+7. 进行断线恢复和另一台电脑查看的端到端验收，确认云端数据与真实本地状态一致。
 
 **绝不能将 READ_TOKEN / WRITE_TOKEN 写入浏览器 HTML、GitHub 仓库或命令输出日志。** 正式运行建议使用经审核的凭据注入与访问控制。
 
