@@ -1,0 +1,35 @@
+name: Storyboard Regression
+
+on:
+  pull_request:
+    paths:
+      - "skills/storyboard-director-cn/scripts/**"
+      - "skills/storyboard-director-cn/tests/**"
+      - "分镜SCG校验器-V1.js"
+      - "分镜SCG回归样例-V1.json"
+  push:
+    branches:
+      - "feature/storyboard-director-v4-20261026"
+    paths:
+      - "skills/storyboard-director-cn/scripts/**"
+      - "skills/storyboard-director-cn/tests/**"
+      - "分镜SCG校验器-V1.js"
+      - "分镜SCG回归样例-V1.json"
+
+permissions:
+  contents: read
+
+jobs:
+  storyboard-regression:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - name: Run SCG regression cases
+        run: node skills/storyboard-director-cn/scripts/分镜SCG校验器-V1.js skills/storyboard-director-cn/tests/分镜SCG回归样例-V1.json
+      - name: Run V4 event-time regression cases
+        run: node skills/storyboard-director-cn/scripts/分镜事件时长校验器-V4.js skills/storyboard-director-cn/tests/分镜时间回归样例-V4.json
