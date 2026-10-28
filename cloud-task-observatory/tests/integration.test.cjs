@@ -60,6 +60,15 @@ test('默认不上传恢复详情，并对任务文本进行脱敏',()=>{const r
  const detailed=snapshot(root,'demo','win-agent',{includeRecoveryText:true});
  assert.equal(detailed[0].resumePoint,'继续测试');
  }finally{fs.rmSync(root,{recursive:true,force:true})}});
+test('采集事件序号必须由真实更新时间决定',()=>{const root=fixture();try{
+ const items=snapshot(root,'demo','agent');
+ assert.equal(items.length,1);
+ assert.equal(items[0].seq,Date.parse('2026-10-28T00:00:00Z'));
+ const statusPath=path.join(root,'.project-orchestrator','status','A.json');
+ fs.writeFileSync(statusPath,JSON.stringify({task_id:'A',status:'VERIFIED',updated_at:'2026-10-28T01:00:00Z'}));
+ const newer=snapshot(root,'demo','agent')[0];
+ assert.ok(newer.seq>items[0].seq);
+ }finally{fs.rmSync(root,{recursive:true,force:true})}});
 test('断线先保存队列，下次联网再补发，不能重复',async()=>{const root=fixture();try{const cfg={root,projectId:'demo',sourceId:'win-agent',spoolFile:path.join(root,'spool.json')};const offline=await tick(cfg);assert.equal(offline.queued,1);const calls=[];const fake=async(url,opts)=>{calls.push(url);return {ok:true,status:200,json:async()=>({ok:true})}};const online=await tick({...cfg,url:'https://unit.test',token:'w'.repeat(32)},fake);assert.equal(online.sent,1);assert.equal(online.queued,0);const again=await tick({...cfg,url:'https://unit.test',token:'w'.repeat(32)},fake);assert.equal(again.sent,0);assert.equal(calls.filter(x=>x.endsWith('/api/events')).length,1)}finally{fs.rmSync(root,{recursive:true,force:true})}});
 test('无Content-Length的超大JSON应被流式拒绝',async()=>{
  const {default:w}=await worker(),env=fakeServer();
