@@ -5,6 +5,7 @@ on:
     paths:
       - 'cloud-task-observatory/**'
       - '.github/workflows/cloud-task-observatory-test.yml'
+      - '.github/workflows/部署云端任务看板.yml'
   pull_request:
     paths:
       - 'cloud-task-observatory/**'
@@ -16,6 +17,8 @@ jobs:
     steps:
       - name: 下载仓库
         uses: actions/checkout@v4
+      - name: 校验 GitHub 工作流 YAML 语法
+        run: npx --yes prettier@3 --parser yaml .github/workflows/部署云端任务看板.yml > /dev/null
       - name: 安装 Node.js
         uses: actions/setup-node@v4
         with:
