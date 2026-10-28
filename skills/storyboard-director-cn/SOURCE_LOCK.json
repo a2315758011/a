@@ -57,8 +57,8 @@
     {
       "package_path": "tests/分镜事件时长回归样例-V1.json",
       "source_path": "skills/storyboard-director-cn/tests/分镜事件时长回归样例-V1.json",
-      "git_blob_sha": "f0462760c33ccc0b5c1847256035c99bbe6203c3",
-      "characters": 24288
+      "git_blob_sha": "8f735c71e57c5b892b92ea160cb92097713f6715",
+      "characters": 31543
     }
   ],
   "source_rule_revision": "Director-led shot design, visual beat coverage, action-chain readability, framing/body orientation, spatial continuity, independent audit, text-first delivery, and optional structured temporal validation for high-risk event sequences"

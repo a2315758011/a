@@ -1025,6 +1025,275 @@
           }
         ]
       }
+    },
+    {
+      "id": "PASS-V3.2-E3-03-稳息后逆息顺序",
+      "expected_errors": [],
+      "data": {
+        "episodes": [
+          {
+            "id": "E3-03",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "SH-E3-03-01",
+                "start_ms": 0,
+                "end_ms": 2000,
+                "events_visible": [
+                  "sword_windup"
+                ]
+              },
+              {
+                "id": "SH-E3-03-02",
+                "start_ms": 2000,
+                "end_ms": 3000,
+                "events_visible": [
+                  "steady_breath"
+                ]
+              },
+              {
+                "id": "SH-E3-03-03",
+                "start_ms": 3000,
+                "end_ms": 5000,
+                "events_visible": [
+                  "reverse_trajectory"
+                ]
+              },
+              {
+                "id": "SH-E3-03-04",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "rescue"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "sword_windup",
+                "actor_ids": [
+                  "lin",
+                  "duan"
+                ],
+                "start_ms": 0,
+                "end_ms": 2000,
+                "requires_visible": true
+              },
+              {
+                "id": "steady_breath",
+                "actor_ids": [
+                  "lin"
+                ],
+                "start_ms": 2000,
+                "end_ms": 3000,
+                "exclusive": true,
+                "requires": [
+                  "sword_windup"
+                ],
+                "requires_visible": true
+              },
+              {
+                "id": "reverse_trajectory",
+                "actor_ids": [
+                  "lin"
+                ],
+                "start_ms": 3000,
+                "end_ms": 5000,
+                "exclusive": true,
+                "requires": [
+                  "steady_breath"
+                ],
+                "min_duration_ms": 2000,
+                "duration_status": "hard_constraint",
+                "requires_visible": true
+              },
+              {
+                "id": "rescue",
+                "actor_ids": [
+                  "ahe",
+                  "lin"
+                ],
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "requires": [
+                  "reverse_trajectory"
+                ],
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REVIEW-V3.2-E3-06-双手压闸时长定义",
+      "expected_errors": [],
+      "expected_warnings": [
+        "W01",
+        "W04"
+      ],
+      "data": {
+        "episodes": [
+          {
+            "id": "E3-06",
+            "start_ms": 50000,
+            "end_ms": 80000,
+            "shots": [
+              {
+                "id": "SH-E3-06-01",
+                "start_ms": 50000,
+                "end_ms": 53000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-06-02",
+                "start_ms": 53000,
+                "end_ms": 55000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-06-03",
+                "start_ms": 55000,
+                "end_ms": 57000,
+                "events_visible": [
+                  "two_hand_load"
+                ]
+              },
+              {
+                "id": "SH-E3-06-04",
+                "start_ms": 57000,
+                "end_ms": 60000,
+                "events_visible": [
+                  "two_hand_load"
+                ]
+              },
+              {
+                "id": "SH-E3-07-01",
+                "start_ms": 60000,
+                "end_ms": 63000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-07-02",
+                "start_ms": 63000,
+                "end_ms": 64000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-07-03",
+                "start_ms": 64000,
+                "end_ms": 67000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-07-04",
+                "start_ms": 67000,
+                "end_ms": 70000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-08-01",
+                "start_ms": 70000,
+                "end_ms": 73000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-08-02",
+                "start_ms": 73000,
+                "end_ms": 76000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-08-03",
+                "start_ms": 76000,
+                "end_ms": 79000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-08-04",
+                "start_ms": 79000,
+                "end_ms": 80000,
+                "events_visible": []
+              }
+            ],
+            "events": [
+              {
+                "id": "two_hand_load",
+                "actor_ids": [
+                  "duan"
+                ],
+                "start_ms": 57000,
+                "end_ms": 80000,
+                "exclusive": true,
+                "continuous_hold": true,
+                "min_duration_ms": 30000,
+                "duration_status": "estimated",
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REVIEW-V3.2-E3-07-13人登船与轮椅",
+      "expected_errors": [],
+      "expected_warnings": [
+        "W05"
+      ],
+      "data": {
+        "episodes": [
+          {
+            "id": "E3-07",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "SH-E3-07-01",
+                "start_ms": 0,
+                "end_ms": 3000,
+                "events_visible": [
+                  "patient_boarding"
+                ]
+              },
+              {
+                "id": "SH-E3-07-02",
+                "start_ms": 3000,
+                "end_ms": 4000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-07-03",
+                "start_ms": 4000,
+                "end_ms": 7000,
+                "events_visible": []
+              },
+              {
+                "id": "SH-E3-07-04",
+                "start_ms": 7000,
+                "end_ms": 10000,
+                "events_visible": []
+              }
+            ],
+            "events": [
+              {
+                "id": "patient_boarding",
+                "actor_ids": [
+                  "patients"
+                ],
+                "start_ms": 0,
+                "end_ms": 3000,
+                "shown_count": 13,
+                "min_per_person_ms": 500,
+                "presentation": "sequential_visible",
+                "duration_status": "estimated",
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
