@@ -894,6 +894,53 @@
       "expected_errors": [
         "T00"
       ]
+    },
+    {
+      "id": "PASS-合法并行事件不误报",
+      "expected_errors": [],
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": []
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": []
+              }
+            ],
+            "events": [
+              {
+                "id": "speaker",
+                "actor_ids": [
+                  "A"
+                ],
+                "start_ms": 1000,
+                "end_ms": 4000,
+                "exclusive": true
+              },
+              {
+                "id": "observer",
+                "actor_ids": [
+                  "B"
+                ],
+                "start_ms": 2000,
+                "end_ms": 4500,
+                "exclusive": true
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
