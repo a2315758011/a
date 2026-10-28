@@ -74,7 +74,7 @@ https://developers.cloudflare.com/workers/static-assets/binding/
 Windows 工作站 Node.js 对 GitHub 上的源码副本运行：
 
 - JavaScript 语法检查通过。
-- Node.js 核心回归测试 **11/11 PASS**（包含默认隐私最小化和脱敏验证）。
+- Node.js 核心回归测试 **14/14 PASS**（包含默认隐私最小化、脱敏、超大请求保护和HTTPS心跳保护）。
 - 未授权读、未授权写被正确拒绝。
 - 重复事件提交不会重复记录。
 - 后补的旧任务事件不会把已经验收的新状态倒退。
@@ -84,7 +84,7 @@ Windows 工作站 Node.js 对 GitHub 上的源码副本运行：
 - 中文网页脚本语法、中文操作按钮、仅公开 public 静态文件配置通过。
 
 GitHub Actions 最近一次通过记录：
-https://github.com/a2315758011/a/actions/runs/40636821484
+https://github.com/a2315758011/a/actions/runs/40637273095
 
 以上是**本地开发测试与 GitHub 云端 CI 测试**，不是 Cloudflare 线上运行和真实浏览器交互验收。
 
@@ -103,3 +103,10 @@ https://github.com/a2315758011/a/actions/runs/40636821484
 https://github.com/a2315758011/a/tree/feature/cloud-task-observatory-v0/cloud-task-observatory
 
 你只需要继续用中文说明想添加或修改的功能，AI 负责修改、提交、测试和保留回滚记录。
+
+## 安全回归补充（2026-10-28）
+
+- 云端接收 JSON 时以真实数据流字节数限制请求大小，不信任客户端提供的 Content-Length。
+- 心跳与事件上传均要求 HTTPS（本机 localhost 调试例外），避免明文泄漏上传口令。
+- 禁止空事件批次，异常请求不会被当作成功状态上报。
+- GitHub Actions 新增三项安全负例测试，最新 CI 全部通过；**Cloudflare 真实部署仍未执行**。
