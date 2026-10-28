@@ -3,7 +3,7 @@ name: storyboard-director-cn
 description: 面向中文AI短剧、AI漫剧、真人短视频的分镜编写与独立质检。当用户要求生成、继续、修改、审核或修复分镜时调用。离线内含完整主指令与自检规则 V2.10.1。
 compatibility: 支持读取本技能目录及 references 文件的 AI 客户端；无需 GitHub、联网、MCP 或登录。Node.js 用于可选的 SCG 校验，以及高风险动作时序的结构化事件校验。
 metadata:
-  version: "1.1.3"
+  version: "1.1.4"
   source_version: "V2.10.1"
   language: "zh-CN"
 ---

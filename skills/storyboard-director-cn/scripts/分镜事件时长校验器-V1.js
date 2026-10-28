@@ -64,16 +64,17 @@ function validate(rawData) {
     if (!Array.isArray(shots)||!Array.isArray(events)){fail('T00',id,'shots/events 应为数组');continue;}
     const seenShot=new Set(),seenEvent=new Set();
     let cursor=start;
+    let timelineReliable=true;
     for (const s of shots) {
-      if (!s || typeof s !== 'object' || Array.isArray(s)) { fail('T00', id, 'shot 必须是对象'); continue; }
+      if (!s || typeof s !== 'object' || Array.isArray(s)) { fail('T00', id, 'shot 必须是对象'); timelineReliable=false; continue; }
       const tag=id+'/'+s.id;
       if(seenShot.has(s.id))fail('T02',tag,'重复镜号');seenShot.add(s.id);
-      if(!num(s.start_ms)||!num(s.end_ms)||s.end_ms<=s.start_ms) {fail('T01',tag,'镜头时间无效');continue;}
+      if(!num(s.start_ms)||!num(s.end_ms)||s.end_ms<=s.start_ms) {fail('T01',tag,'镜头时间无效');timelineReliable=false;continue;}
       if(s.start_ms!==cursor)fail('T03',tag,'镜头有空档/重叠，预计起点 '+cursor+' 实际 '+s.start_ms);
       if(s.start_ms<start||s.end_ms>end)fail('T04',tag,'镜头超出集范围');
       cursor=s.end_ms;
     }
-    if(cursor!==end)fail('T03',id,'末镜时间 '+cursor+' 不等于集结束 '+end);
+    if(timelineReliable && cursor!==end)fail('T03',id,'末镜时间 '+cursor+' 不等于集结束 '+end);
     const byId=new Map();
     for(const e of events){
       if (!e || typeof e !== 'object' || Array.isArray(e)) { fail('T00', id, 'event 必须是对象'); continue; }

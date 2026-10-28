@@ -13,8 +13,8 @@
 
 ## 推荐：学员优先使用已安装技能（无需链接读取）
 
-- **可安装技能目录**：[storyboard-director-cn](skills/storyboard-director-cn/SKILL.md)，Skill V1.1.3；内置权威主规则与自检规则 V2.10.1，并包含 SCG 和事件时间轴结构化校验器及回归样例。
-- **离线规则包**：[学员分镜双规则完整版.md](学员分镜双规则完整版.md)，规则 V2.10.1；不依赖 GitHub，但不包含程序校验器。历史 ZIP V2.8.1 已过期，不得作为当前 Skill 安装包。需要程序校验时，安装/下载整个 `skills/storyboard-director-cn/` 目录（Skill V1.1.3），并核对 `SOURCE_LOCK.json`。
+- **可安装技能目录**：[storyboard-director-cn](skills/storyboard-director-cn/SKILL.md)，Skill V1.1.4；内置权威主规则与自检规则 V2.10.1，并包含 SCG 和事件时间轴结构化校验器及回归样例。
+- **离线规则包**：[学员分镜双规则完整版.md](学员分镜双规则完整版.md)，规则 V2.10.1；不依赖 GitHub，但不包含程序校验器。历史 ZIP V2.8.1 已过期，不得作为当前 Skill 安装包。需要程序校验时，安装/下载整个 `skills/storyboard-director-cn/` 目录（Skill V1.1.4），并核对 `SOURCE_LOCK.json`。
 - **只有未提供技能安装功能时**，才使用后文 A2 手动上传两份原文或完整规则包的兼容方法；ZIP 作为聊天附件是否能自动解压，取决于平台，不能假定所有平台都支持。
 - 安装的技能是带来源 SHA 的快照，不会随教师仓库自动更新。教师修改两份主规则后须重打包、更新技能版本，并让学员重新安装。不得把“技能已安装”等同于“在线最新版已核验”。
 
