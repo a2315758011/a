@@ -57,6 +57,11 @@ async function tick(cfg,fetcher=fetch){
  if(cache.queued.length>10000)throw Error('离线队列超过10000条：需要检查连接，已保留原队列');
  writeAtomic(file,cache); // 先落盘后上传，避免崩溃丢失事件
  if(!cfg.url||!cfg.token)return {queued:cache.queued.length,sent:0,offline:true};
+ const heartbeat=new URL('/api/heartbeat',cfg.url);
+ const heartbeatResult=await fetcher(heartbeat.toString(),{method:'POST',
+  headers:{'Content-Type':'application/json','Authorization':'Bearer '+cfg.token},
+  body:JSON.stringify({sourceId:cfg.sourceId,projectId:cfg.projectId}),signal:AbortSignal.timeout(12000)});
+ if(!heartbeatResult.ok)throw Error('云端心跳提交失败 HTTP '+heartbeatResult.status);
  let sent=0;
  while(cache.queued.length){
   const batch=cache.queued.slice(0,50);
