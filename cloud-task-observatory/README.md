@@ -74,7 +74,7 @@ https://developers.cloudflare.com/workers/static-assets/binding/
 Windows 工作站 Node.js 对 GitHub 上的源码副本运行：
 
 - JavaScript 语法检查通过。
-- Node.js 核心回归测试 **14/14 PASS**（包含默认隐私最小化、脱敏、超大请求保护和HTTPS心跳保护）。
+- Node.js 核心回归测试 **17/17 PASS**（包含默认隐私最小化、脱敏、超大请求保护和HTTPS心跳保护）。
 - 未授权读、未授权写被正确拒绝。
 - 重复事件提交不会重复记录。
 - 后补的旧任务事件不会把已经验收的新状态倒退。
@@ -84,7 +84,7 @@ Windows 工作站 Node.js 对 GitHub 上的源码副本运行：
 - 中文网页脚本语法、中文操作按钮、仅公开 public 静态文件配置通过。
 
 GitHub Actions 最近一次通过记录：
-https://github.com/a2315758011/a/actions/runs/40637273095
+https://github.com/a2315758011/a/actions/runs/40637609710
 
 以上是**本地开发测试与 GitHub 云端 CI 测试**，不是 Cloudflare 线上运行和真实浏览器交互验收。
 
@@ -110,3 +110,12 @@ https://github.com/a2315758011/a/tree/feature/cloud-task-observatory-v0/cloud-ta
 - 心跳与事件上传均要求 HTTPS（本机 localhost 调试例外），避免明文泄漏上传口令。
 - 禁止空事件批次，异常请求不会被当作成功状态上报。
 - GitHub Actions 新增三项安全负例测试，最新 CI 全部通过；**Cloudflare 真实部署仍未执行**。
+
+## 数据可靠性与断线展示更新（2026-10-28）
+
+- 云端批次事件提交使用 Cloudflare D1 `batch()` 事务提交，拒绝数据库半失败时返回成功确认。
+- 同一批来自不同采集器的任务事件分别更新对应采集源心跳。
+- 每个任务快照带有来源编号；采集源超过 90 秒没有心跳时，原“执行中”任务显示为“最后记录：执行中（采集已断开）”。
+- 蓝色流动动画由对应来源心跳控制，采集器断线时停止流动，不将断线前的执行状态冒充实时状态。
+- GitHub Actions 新增数据库失败、跨采集源以及前端离线显示回归，最新 **17/17 PASS**：https://github.com/a2315758011/a/actions/runs/40637609710 。
+- 目前仍缺少已授权 Cloudflare 生产环境，以上仅为代码级与 GitHub CI 验收，未通过公网云端端到端测试。
