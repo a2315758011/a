@@ -3,7 +3,12 @@ on:
   push:
     branches: [feature/cloud-task-observatory-v0]
     paths:
-      - 'cloud-task-observatory/**'
+      - 'cloud-task-observatory/cloudflare/**'
+      - 'cloud-task-observatory/collector/**'
+      - 'cloud-task-observatory/public/**'
+      - 'cloud-task-observatory/tests/**'
+      - 'cloud-task-observatory/index.html'
+      - 'cloud-task-observatory/snapshot.json'
       - '.github/workflows/cloud-task-observatory-test.yml'
       - '.github/workflows/部署云端任务看板.yml'
   pull_request:
