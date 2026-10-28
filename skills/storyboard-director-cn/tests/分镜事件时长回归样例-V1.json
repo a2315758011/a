@@ -1,0 +1,899 @@
+{
+  "version": "1.0.0",
+  "cases": [
+    {
+      "id": "PASS-完整两镜",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 1000,
+                "end_ms": 3000,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "measured",
+                "requires_visible": true
+              },
+              {
+                "id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 4000,
+                "end_ms": 7000,
+                "requires": [
+                  "pick"
+                ],
+                "exclusive": true,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": []
+    },
+    {
+      "id": "FAIL-动作太短",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 1000,
+                "end_ms": 1300,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "measured",
+                "requires_visible": true
+              },
+              {
+                "id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 4000,
+                "end_ms": 7000,
+                "requires": [
+                  "pick"
+                ],
+                "exclusive": true,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T05"
+      ]
+    },
+    {
+      "id": "FAIL-关键事件未在画面",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": []
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 1000,
+                "end_ms": 3000,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "measured",
+                "requires_visible": true
+              },
+              {
+                "id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 4000,
+                "end_ms": 7000,
+                "requires": [
+                  "pick"
+                ],
+                "exclusive": true,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T06"
+      ]
+    },
+    {
+      "id": "FAIL-镜头空档",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5200,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 1000,
+                "end_ms": 3000,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "measured",
+                "requires_visible": true
+              },
+              {
+                "id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 4000,
+                "end_ms": 7000,
+                "requires": [
+                  "pick"
+                ],
+                "exclusive": true,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T03"
+      ]
+    },
+    {
+      "id": "FAIL-排他事件重叠",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 1000,
+                "end_ms": 3000,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "measured",
+                "requires_visible": true
+              },
+              {
+                "id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 2500,
+                "end_ms": 7000,
+                "requires": [],
+                "exclusive": true,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T10"
+      ]
+    },
+    {
+      "id": "FAIL-依赖尚未完成",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 1000,
+                "end_ms": 3000,
+                "exclusive": false,
+                "min_duration_ms": 700,
+                "duration_status": "measured",
+                "requires_visible": true
+              },
+              {
+                "id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 2500,
+                "end_ms": 7000,
+                "requires": [
+                  "pick"
+                ],
+                "exclusive": false,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T09"
+      ]
+    },
+    {
+      "id": "FAIL-13人3秒逐一过门",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "board",
+                "start_ms": 1000,
+                "end_ms": 4000,
+                "shown_count": 13,
+                "min_per_person_ms": 500,
+                "presentation": "sequential_visible",
+                "duration_status": "measured"
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T07"
+      ]
+    },
+    {
+      "id": "FAIL-30秒持续压闸提前8秒",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "latch",
+                "actor_ids": [
+                  "d"
+                ],
+                "start_ms": 0,
+                "end_ms": 8000,
+                "exclusive": true
+              },
+              {
+                "id": "hold",
+                "actor_ids": [
+                  "d"
+                ],
+                "start_ms": 0,
+                "end_ms": 10000,
+                "exclusive": true,
+                "continuous_hold": true,
+                "engagement_event_id": "latch"
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T10",
+        "T12"
+      ]
+    },
+    {
+      "id": "FAIL-独占机关冲突",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "A",
+                "start_ms": 0,
+                "end_ms": 6000,
+                "exclusive_resources": [
+                  "gate"
+                ]
+              },
+              {
+                "id": "B",
+                "start_ms": 4000,
+                "end_ms": 8000,
+                "exclusive_resources": [
+                  "gate"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T11"
+      ]
+    },
+    {
+      "id": "REVIEW-动作估算阈值",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 1000,
+                "end_ms": 1300,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "estimated",
+                "requires_visible": true
+              },
+              {
+                "id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "start_ms": 4000,
+                "end_ms": 7000,
+                "requires": [
+                  "pick"
+                ],
+                "exclusive": true,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [],
+      "expected_warnings": [
+        "W01",
+        "W04"
+      ]
+    },
+    {
+      "id": "REVIEW-13人3秒估算展示负载",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 5000,
+                "events_visible": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "start_ms": 5000,
+                "end_ms": 10000,
+                "events_visible": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "id": "board",
+                "start_ms": 1000,
+                "end_ms": 4000,
+                "shown_count": 13,
+                "min_per_person_ms": 500,
+                "presentation": "sequential_visible",
+                "duration_status": "estimated"
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [],
+      "expected_warnings": [
+        "W05"
+      ]
+    },
+    {
+      "id": "PASS-主线字段-完整两镜",
+      "data": {
+        "episodes": [
+          {
+            "episode_id": "EP-CAN",
+            "time_start_ms": 0,
+            "time_end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "time_start_ms": 0,
+                "time_end_ms": 5000,
+                "visible_event_ids": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "time_start_ms": 5000,
+                "time_end_ms": 10000,
+                "visible_event_ids": [
+                  "give"
+                ]
+              }
+            ],
+            "events": [
+              {
+                "event_id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "event_start_ms": 1000,
+                "event_end_ms": 3000,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "measured",
+                "requires_visible": true
+              },
+              {
+                "event_id": "give",
+                "actor_ids": [
+                  "a"
+                ],
+                "event_start_ms": 4000,
+                "event_end_ms": 7000,
+                "requires": [
+                  "pick"
+                ],
+                "exclusive": true,
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": []
+    },
+    {
+      "id": "FAIL-主线字段-镜头空档",
+      "data": {
+        "episodes": [
+          {
+            "episode_id": "EP-CAN",
+            "time_start_ms": 0,
+            "time_end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "time_start_ms": 0,
+                "time_end_ms": 5000
+              },
+              {
+                "id": "S02",
+                "time_start_ms": 5200,
+                "time_end_ms": 10000
+              }
+            ],
+            "events": []
+          }
+        ]
+      },
+      "expected_errors": [
+        "T03"
+      ]
+    },
+    {
+      "id": "FAIL-主线字段-持续操作先于接合",
+      "data": {
+        "episodes": [
+          {
+            "episode_id": "EP-CAN",
+            "time_start_ms": 0,
+            "time_end_ms": 40000,
+            "shots": [
+              {
+                "id": "S01",
+                "time_start_ms": 0,
+                "time_end_ms": 20000
+              },
+              {
+                "id": "S02",
+                "time_start_ms": 20000,
+                "time_end_ms": 40000
+              }
+            ],
+            "events": [
+              {
+                "event_id": "latch",
+                "actor_ids": [
+                  "a"
+                ],
+                "event_start_ms": 1000,
+                "event_end_ms": 8000,
+                "exclusive": false
+              },
+              {
+                "event_id": "hold",
+                "actor_ids": [
+                  "a"
+                ],
+                "event_start_ms": 0,
+                "event_end_ms": 30000,
+                "exclusive": false,
+                "hold_can_coexist": true,
+                "continuous_hold": true,
+                "engagement_event_id": "latch"
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T12"
+      ]
+    },
+    {
+      "id": "FAIL-主线字段-实测动作太短",
+      "data": {
+        "episodes": [
+          {
+            "episode_id": "EP-CAN",
+            "time_start_ms": 0,
+            "time_end_ms": 10000,
+            "shots": [
+              {
+                "id": "S01",
+                "time_start_ms": 0,
+                "time_end_ms": 5000,
+                "visible_event_ids": [
+                  "pick"
+                ]
+              },
+              {
+                "id": "S02",
+                "time_start_ms": 5000,
+                "time_end_ms": 10000
+              }
+            ],
+            "events": [
+              {
+                "event_id": "pick",
+                "actor_ids": [
+                  "a"
+                ],
+                "event_start_ms": 1000,
+                "event_end_ms": 1300,
+                "exclusive": true,
+                "min_duration_ms": 700,
+                "duration_status": "measured",
+                "requires_visible": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T05"
+      ]
+    },
+    {
+      "id": "FAIL-episodes-not-array",
+      "data": {
+        "episodes": {
+          "not": "an array"
+        }
+      },
+      "expected_errors": [
+        "T00"
+      ]
+    },
+    {
+      "id": "FAIL-null-episode",
+      "data": {
+        "episodes": [
+          null
+        ]
+      },
+      "expected_errors": [
+        "T00"
+      ]
+    },
+    {
+      "id": "FAIL-null-shot",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 1000,
+            "shots": [
+              null
+            ],
+            "events": []
+          }
+        ]
+      },
+      "expected_errors": [
+        "T00"
+      ]
+    },
+    {
+      "id": "FAIL-null-event",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 1000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 1000,
+                "events_visible": []
+              }
+            ],
+            "events": [
+              null
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T00"
+      ]
+    },
+    {
+      "id": "FAIL-null-event-with-peer",
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 1000,
+            "shots": [
+              {
+                "id": "S01",
+                "start_ms": 0,
+                "end_ms": 1000,
+                "events_visible": []
+              }
+            ],
+            "events": [
+              null,
+              {
+                "id": "E1",
+                "start_ms": 0,
+                "end_ms": 500,
+                "actor_ids": [
+                  "A"
+                ],
+                "exclusive": true
+              }
+            ]
+          }
+        ]
+      },
+      "expected_errors": [
+        "T00"
+      ]
+    }
+  ]
+}
