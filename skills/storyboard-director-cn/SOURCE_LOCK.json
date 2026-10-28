@@ -1,7 +1,7 @@
 {
   "package": "storyboard-director-cn",
-  "date": "2026-10-27",
-  "version": "1.1.2",
+  "date": "2026-10-28",
+  "version": "1.1.3",
   "source_repo": "a2315758011/a",
   "branch": "main",
   "source_version": "V2.10.1",
@@ -41,7 +41,25 @@
       "source_path": "分镜穿帮专项回归样例-V1.md",
       "git_blob_sha": "35dc1d04769b4c015764e7adad1742e4dd3fa8e3",
       "characters": 1913
+    },
+    {
+      "package_path": "references/分镜事件时间数据契约-V1.md",
+      "source_path": "分镜事件时间数据契约-V1.md",
+      "git_blob_sha": "c21fa189e568a9026a1b2845d3ee89318291f142",
+      "characters": 1948
+    },
+    {
+      "package_path": "scripts/分镜事件时长校验器-V1.js",
+      "source_path": "分镜事件时长校验器-V1.js",
+      "git_blob_sha": "03913e30c63a8f84d6b0984f72a366a267218213",
+      "characters": 7551
+    },
+    {
+      "package_path": "tests/分镜事件时长回归样例-V1.json",
+      "source_path": "分镜事件时长回归样例-V1.json",
+      "git_blob_sha": "454c341073aa801bd6ce956463d6af3a8c9b7291",
+      "characters": 19587
     }
   ],
-  "source_rule_revision": "Director-led shot design, visual beat coverage, action-chain readability, framing/body orientation, spatial continuity, independent audit and text-first delivery"
+  "source_rule_revision": "Director-led shot design, visual beat coverage, action-chain readability, framing/body orientation, spatial continuity, independent audit, text-first delivery, and optional structured temporal validation for high-risk event sequences"
 }
