@@ -6,9 +6,18 @@ const sleep=ms=>new Promise(r=>setTimeout(r,ms));
 const allow=/^[\w.:-]{1,100}$/;
 const KNOWN=new Set(['PENDING','READY','IN_PROGRESS','IMPLEMENTED','VERIFIED','COMPLETED','FAILED','BLOCKED','NEEDS_ATTENTION','CANCELLED','UNKNOWN']);
 function readJSON(p,fallback=null){try{return JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''))}catch{return fallback}}
-function safe(v,n=200){return String(v||'').slice(0,n)}
+function safe(v,n=200){return redact(String(v||'').slice(0,n))}
+function redact(value){
+ return String(value)
+  .replace(/\bBearer\s+[A-Za-z0-9._~+\/-]+=*/gi,'Bearer [已隐藏]')
+  .replace(/\b(api[_-]?key|access[_-]?token|refresh[_-]?token|password|passwd|secret|write_token|read_token)\s*[:=]\s*[^\s,;]+/gi,'$1=[已隐藏]')
+  .replace(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}/g,'[邮箱]')
+  .replace(/https?:\/\/[^\s"'<>]+/gi,'[链接]')
+  .replace(/[A-Za-z]:\\[^\s"'<>|]+/g,'[本地路径]')
+  .replace(/\b(?:\+?\d[\d ()-]{7,}\d)\b/g,'[号码]');
+}
 function sha(v){return crypto.createHash('sha256').update(v).digest('hex')}
-function snapshot(root,projectId,sourceId){
+function snapshot(root,projectId,sourceId,opts={}){
  const folder=path.join(root,'.project-orchestrator');
  const tasksDir=path.join(folder,'tasks'),statusDir=path.join(folder,'status');
  if(!fs.existsSync(tasksDir)||!fs.existsSync(statusDir))throw Error('未找到项目任务及状态目录');
@@ -27,8 +36,8 @@ function snapshot(root,projectId,sourceId){
    output.push({eventId:sha(sourceKey).slice(0,40),projectId,sourceId,runId,taskId:t.task_id,
      seq,status,occurredAt:date,title:safe(t.title||t.task_id,150),owner:safe(s.owner||t.owner_hint,80),
      dependencies:Array.isArray(t.dependencies)?t.dependencies.filter(x=>allow.test(x)).slice(0,100):[],
-     message:safe(s.last_successful_step||s.last_step||s.current_blocker||'',400),
-     resumePoint:safe(s.resume_point,400),
+     message:opts.includeRecoveryText?safe(s.last_successful_step||s.last_step||s.current_blocker||'',400):'',
+     resumePoint:opts.includeRecoveryText?safe(s.resume_point,400):'',
      evidence:[] // 不上传原始日志及本机证据路径
    });
  }
@@ -52,7 +61,7 @@ async function tick(cfg,fetcher=fetch){
  const file=cfg.spoolFile, cache=readJSON(file,{version:1,queued:[],sent:[]});
  if(!Array.isArray(cache.queued)||!Array.isArray(cache.sent))throw Error('队列文件损坏，拒绝覆盖');
  const known=new Set([...cache.queued.map(x=>x.eventId),...cache.sent]);
- const current=snapshot(cfg.root,cfg.projectId,cfg.sourceId);
+ const current=snapshot(cfg.root,cfg.projectId,cfg.sourceId,{includeRecoveryText:cfg.allowRecoveryText});
  for(const item of current)if(!known.has(item.eventId)){cache.queued.push(item);known.add(item.eventId)}
  if(cache.queued.length>10000)throw Error('离线队列超过10000条：需要检查连接，已保留原队列');
  writeAtomic(file,cache); // 先落盘后上传，避免崩溃丢失事件
@@ -77,7 +86,7 @@ async function tick(cfg,fetcher=fetch){
 function config(env=process.env){
  const root=env.PROJECT_ROOT,projectId=env.PROJECT_ID,sourceId=env.SOURCE_ID||'win-agent';
  if(!root||!projectId||!allow.test(projectId)||!allow.test(sourceId))throw Error('必须配置 PROJECT_ROOT、PROJECT_ID 和合法 SOURCE_ID');
- return {root:path.resolve(root),projectId,sourceId,url:env.CLOUD_URL,token:env.WRITE_TOKEN,
+ return {root:path.resolve(root),projectId,sourceId,url:env.CLOUD_URL,token:env.WRITE_TOKEN,allowRecoveryText:env.ALLOW_RECOVERY_TEXT==='true',
  spoolFile:path.resolve(env.SPOOL_FILE||path.join(root,'.task-observatory','queue.json'))};
 }
 async function main(){
