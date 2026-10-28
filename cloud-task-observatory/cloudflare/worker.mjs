@@ -27,7 +27,7 @@ async function store(db,e){
  await db.prepare(`INSERT OR IGNORE INTO events(event_id,project_id,task_id,run_id,source_id,seq,status,occurred_at,received_at,title,owner,dependencies_json,message,resume_point,evidence_json)
  VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`).bind(x.eventId,x.projectId,x.taskId,x.runId,x.sourceId,x.seq,x.status,x.occurredAt,received,x.title,x.owner,JSON.stringify(x.dependencies),x.message,x.resumePoint,JSON.stringify(x.evidence)).run();
  await db.prepare(`INSERT INTO sources(source_id,project_id,last_seen_at) VALUES(?,?,?)
- ON CONFLICT(source_id) DO UPDATE SET project_id=excluded.project_id,last_seen_at=excluded.last_seen_at`).bind(x.sourceId,x.projectId,received).run();
+ ON CONFLICT(project_id,source_id) DO UPDATE SET project_id=excluded.project_id,last_seen_at=excluded.last_seen_at`).bind(x.sourceId,x.projectId,received).run();
  return x;
 }
 async function getSnapshot(db,projectId){
@@ -54,7 +54,7 @@ export default {async fetch(request,env){
   if(!body||!IDs.test(body.sourceId||'')||!IDs.test(body.projectId||''))return reply({error:'来源编号错误'},400);
   const now=new Date().toISOString();
   try{await env.DB.prepare(`INSERT INTO sources(source_id,project_id,last_seen_at) VALUES(?,?,?)
- ON CONFLICT(source_id) DO UPDATE SET project_id=excluded.project_id,last_seen_at=excluded.last_seen_at`).bind(body.sourceId,body.projectId,now).run();
+ ON CONFLICT(project_id,source_id) DO UPDATE SET project_id=excluded.project_id,last_seen_at=excluded.last_seen_at`).bind(body.sourceId,body.projectId,now).run();
   return reply({ok:true,receivedAt:now})}catch{return reply({error:'心跳保存失败'},500)}
  }
  if(pathname==='/api/events'&&request.method==='POST'){
