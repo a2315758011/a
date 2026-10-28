@@ -11,6 +11,6 @@ database_name = "zh-task-observatory"
 database_id = "请替换为实际数据库ID"
 
 [assets]
-directory = "../"
+directory = "../public"
 binding = "ASSETS"
 run_worker_first = ["/api/*"]
