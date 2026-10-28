@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "projectId": "example-project",
+  "updatedAt": "2026-10-28T04:00:00.000Z",
+  "demo": true,
+  "tasks": [
+    {
+      "id": "PLAN-01",
+      "title": "需求与恢复协议",
+      "status": "VERIFIED",
+      "dependencies": [],
+      "owner": "AI architect",
+      "updatedAt": "2026-10-28T03:30:00Z",
+      "lastSuccess": "协议测试",
+      "evidence": [
+        "tests/protocol.log"
+      ]
+    },
+    {
+      "id": "BUILD-01",
+      "title": "实现采集器",
+      "status": "IN_PROGRESS",
+      "dependencies": [
+        "PLAN-01"
+      ],
+      "owner": "AI engineer",
+      "updatedAt": "2026-10-28T03:50:00Z",
+      "lastSuccess": "单元测试",
+      "resumePoint": "继续采集器接口与断线重传"
+    },
+    {
+      "id": "TEST-01",
+      "title": "浏览器自动化验收",
+      "status": "PENDING",
+      "dependencies": [
+        "BUILD-01"
+      ],
+      "owner": "QA",
+      "resumePoint": "等待 BUILD-01 验收"
+    },
+    {
+      "id": "DEPLOY-01",
+      "title": "云端部署",
+      "status": "PENDING",
+      "dependencies": [
+        "TEST-01"
+      ],
+      "owner": "DevOps",
+      "resumePoint": "等待 TEST-01 验收"
+    }
+  ],
+  "events": [
+    {
+      "at": "2026-10-28T03:30:00Z",
+      "taskId": "PLAN-01",
+      "type": "verified",
+      "message": "协议测试完成"
+    },
+    {
+      "at": "2026-10-28T03:50:00Z",
+      "taskId": "BUILD-01",
+      "type": "heartbeat",
+      "message": "采集器开发中"
+    }
+  ]
+}
