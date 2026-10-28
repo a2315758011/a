@@ -48,6 +48,15 @@ async function getSnapshot(db,projectId){
 export default {async fetch(request,env){
  const url=new URL(request.url);const pathname=url.pathname;
  if(pathname==='/api/health')return reply({ok:true,cloud:true});
+ if(pathname==='/api/heartbeat'&&request.method==='POST'){
+  if(!authorized(request,env.WRITE_TOKEN))return reply({error:'写入权限不足'},401);
+  let body;try{body=await request.json()}catch{return reply({error:'无效JSON'},400)}
+  if(!body||!IDs.test(body.sourceId||'')||!IDs.test(body.projectId||''))return reply({error:'来源编号错误'},400);
+  const now=new Date().toISOString();
+  try{await env.DB.prepare(`INSERT INTO sources(source_id,project_id,last_seen_at) VALUES(?,?,?)
+ ON CONFLICT(source_id) DO UPDATE SET project_id=excluded.project_id,last_seen_at=excluded.last_seen_at`).bind(body.sourceId,body.projectId,now).run();
+  return reply({ok:true,receivedAt:now})}catch{return reply({error:'心跳保存失败'},500)}
+ }
  if(pathname==='/api/events'&&request.method==='POST'){
   if(!authorized(request,env.WRITE_TOKEN))return reply({error:'写入权限不足'},401);
   if(Number(request.headers.get('content-length')||0)>100000)return reply({error:'请求过大'},413);
