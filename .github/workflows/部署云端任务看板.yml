@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
     inputs:
       migrate_database:
-        description: 首次部署时是否执行数据库建表
+        description: 是否先执行远端数据库建表（首次部署勾选）
         required: true
         type: boolean
         default: true
@@ -20,12 +20,42 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: 生成临时配置
-        working-directory: cloud-task-observatory/cloudflare
+      - name: 检查部署权限与口令
+        shell: bash
         env:
-          D1_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          WRITE_TOKEN: ${{ secrets.TASK_OBSERVATORY_WRITE_TOKEN }}
+          READ_TOKEN: ${{ secrets.TASK_OBSERVATORY_READ_TOKEN }}
         run: |
-          test -n "$D1_ID" || (echo "::error::请配置 CLOUDFLARE_D1_DATABASE_ID" && exit 1)
+          set -euo pipefail
+          test -n "$TOKEN" || (echo "::error::请在 cloud-production 环境配置 CLOUDFLARE_API_TOKEN" && exit 1)
+          test -n "$ACCOUNT" || (echo "::error::请配置 CLOUDFLARE_ACCOUNT_ID" && exit 1)
+          test -n "$WRITE_TOKEN" || (echo "::error::请配置 TASK_OBSERVATORY_WRITE_TOKEN" && exit 1)
+          test -n "$READ_TOKEN" || (echo "::error::请配置 TASK_OBSERVATORY_READ_TOKEN" && exit 1)
+          test "$WRITE_TOKEN" != "$READ_TOKEN" || (echo "::error::读写口令必须不同" && exit 1)
+          test "${#WRITE_TOKEN}" -ge 32 || (echo "::error::写入口令至少32个字符" && exit 1)
+          test "${#READ_TOKEN}" -ge 32 || (echo "::error::读取口令至少32个字符" && exit 1)
+      - name: 查找或创建云端数据库
+        shell: bash
+        env:
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          api="https://api.cloudflare.com/client/v4/accounts/$ACCOUNT/d1/database"
+          listed="$(curl --fail --silent --show-error "$api?name=zh-task-observatory&per_page=100" -H "Authorization: Bearer $TOKEN")"
+          id="$(printf '%s' "$listed" | jq -r '.result[]? | select(.name=="zh-task-observatory") | .uuid' | head -n 1)"
+          if [ -z "$id" ] || [ "$id" = "null" ]; then
+            created="$(curl --fail --silent --show-error -X POST "$api" -H "Authorization: Bearer $TOKEN" -H 'Content-Type: application/json' --data '{"name":"zh-task-observatory","primary_location_hint":"apac"}')"
+            id="$(printf '%s' "$created" | jq -r '.result.uuid // empty')"
+          fi
+          [[ "$id" =~ ^[0-9a-fA-F-]{36}$ ]] || { echo "::error::云端数据库查询或创建失败，请检查 D1 读写权限"; exit 1; }
+          echo "D1_ID=$id" >> "$GITHUB_ENV"
+          echo "云端数据库已准备就绪（不输出数据库凭据）"
+      - name: 生成临时部署配置
+        working-directory: cloud-task-observatory/cloudflare
+        run: |
           python - <<'PY'
           import os
           from pathlib import Path
@@ -33,29 +63,12 @@ jobs:
           text = source.read_text(encoding='utf-8')
           marker = 'database_id = "请替换为实际数据库ID"'
           if text.count(marker) != 1:
-              raise SystemExit('数据库 ID 占位符异常，停止部署')
+              raise SystemExit('数据库 ID 占位符不符合预期，停止部署')
           target = Path('wrangler.ci.generated.toml')
           target.write_text(text.replace(marker, 'database_id = "' + os.environ['D1_ID'] + '"'), encoding='utf-8')
-          print('临时配置已生成，不会提交到仓库')
+          print('已生成临时配置；数据库 ID 不会提交到仓库')
           PY
-      - name: 检查必要配置
-        env:
-          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          D1_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
-          WRITE_TOKEN: ${{ secrets.TASK_OBSERVATORY_WRITE_TOKEN }}
-          READ_TOKEN: ${{ secrets.TASK_OBSERVATORY_READ_TOKEN }}
-        run: |
-          set -euo pipefail
-          test -n "$TOKEN" || (echo "::error::请在 cloud-production 环境配置 CLOUDFLARE_API_TOKEN" && exit 1)
-          test -n "$ACCOUNT" || (echo "::error::请配置 CLOUDFLARE_ACCOUNT_ID" && exit 1)
-          test -n "$D1_ID" || (echo "::error::请配置 CLOUDFLARE_D1_DATABASE_ID" && exit 1)
-          test -n "$WRITE_TOKEN" || (echo "::error::请配置 TASK_OBSERVATORY_WRITE_TOKEN" && exit 1)
-          test -n "$READ_TOKEN" || (echo "::error::请配置 TASK_OBSERVATORY_READ_TOKEN" && exit 1)
-          test "$WRITE_TOKEN" != "$READ_TOKEN" || (echo "::error::读写口令必须不同" && exit 1)
-          test "${#WRITE_TOKEN}" -ge 32 || (echo "::error::写入口令至少32个字符" && exit 1)
-          test "${#READ_TOKEN}" -ge 32 || (echo "::error::读取口令至少32个字符" && exit 1)
-      - name: 迁移远端数据库
+      - name: 初始化远端数据库
         if: inputs.migrate_database
         uses: cloudflare/wrangler-action@v4
         with:
@@ -63,7 +76,7 @@ jobs:
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
           workingDirectory: cloud-task-observatory/cloudflare
           command: d1 execute zh-task-observatory --remote --file schema.sql --config wrangler.ci.generated.toml
-      - name: 部署 Worker、中文网页与受保护口令
+      - name: 部署 Worker、中文网页与加密口令
         uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -76,6 +89,6 @@ jobs:
         env:
           WRITE_TOKEN: ${{ secrets.TASK_OBSERVATORY_WRITE_TOKEN }}
           READ_TOKEN: ${{ secrets.TASK_OBSERVATORY_READ_TOKEN }}
-      - name: 删除临时配置
+      - name: 删除临时部署配置
         if: always()
         run: rm -f cloud-task-observatory/cloudflare/wrangler.ci.generated.toml
