@@ -3,6 +3,7 @@
 // AI 分镜 V4：镜头时码 + 人物/道具事件区间的可执行审计。
 // 输入是人工/AI从已确认分镜提取的结构化事件，不对普通中文稿假装“自动理解”。
 const fs=require('fs');
+// Regression: warning expectations are asserted by the runner.
 function validate(data) {
   const errors=[], warnings=[];
   const fail=(code,at,detail)=>errors.push({code,at,detail});
