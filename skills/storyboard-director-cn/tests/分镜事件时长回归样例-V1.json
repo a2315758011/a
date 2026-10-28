@@ -1137,83 +1137,83 @@
         "episodes": [
           {
             "id": "E3-06",
-            "start_ms": 0,
+            "start_ms": 50000,
             "end_ms": 80000,
             "shots": [
               {
                 "id": "SH-E3-06-01",
-                "start_ms": 0,
-                "end_ms": 3000,
+                "start_ms": 50000,
+                "end_ms": 53000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-06-02",
-                "start_ms": 3000,
-                "end_ms": 5000,
+                "start_ms": 53000,
+                "end_ms": 55000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-06-03",
-                "start_ms": 5000,
-                "end_ms": 7000,
+                "start_ms": 55000,
+                "end_ms": 57000,
                 "events_visible": [
                   "two_hand_load"
                 ]
               },
               {
                 "id": "SH-E3-06-04",
-                "start_ms": 7000,
-                "end_ms": 10000,
+                "start_ms": 57000,
+                "end_ms": 60000,
                 "events_visible": [
                   "two_hand_load"
                 ]
               },
               {
                 "id": "SH-E3-07-01",
-                "start_ms": 10000,
-                "end_ms": 13000,
+                "start_ms": 60000,
+                "end_ms": 63000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-07-02",
-                "start_ms": 13000,
-                "end_ms": 14000,
+                "start_ms": 63000,
+                "end_ms": 64000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-07-03",
-                "start_ms": 14000,
-                "end_ms": 17000,
+                "start_ms": 64000,
+                "end_ms": 67000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-07-04",
-                "start_ms": 17000,
-                "end_ms": 20000,
+                "start_ms": 67000,
+                "end_ms": 70000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-08-01",
-                "start_ms": 20000,
-                "end_ms": 23000,
+                "start_ms": 70000,
+                "end_ms": 73000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-08-02",
-                "start_ms": 23000,
-                "end_ms": 26000,
+                "start_ms": 73000,
+                "end_ms": 76000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-08-03",
-                "start_ms": 26000,
-                "end_ms": 29000,
+                "start_ms": 76000,
+                "end_ms": 79000,
                 "events_visible": []
               },
               {
                 "id": "SH-E3-08-04",
-                "start_ms": 29000,
-                "end_ms": 30000,
+                "start_ms": 79000,
+                "end_ms": 80000,
                 "events_visible": []
               }
             ],
@@ -1223,8 +1223,8 @@
                 "actor_ids": [
                   "duan"
                 ],
-                "start_ms": 7000,
-                "end_ms": 30000,
+                "start_ms": 57000,
+                "end_ms": 80000,
                 "exclusive": true,
                 "continuous_hold": true,
                 "min_duration_ms": 30000,
