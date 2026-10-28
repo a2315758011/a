@@ -49,9 +49,14 @@ function writeAtomic(filename,data){
  fs.writeFileSync(temp,JSON.stringify(data,null,2),'utf8');
  fs.renameSync(temp,filename);
 }
+function validatedEndpoint(base,endpoint){
+ const target=new URL(endpoint,base);
+ if(target.username||target.password||!['https:','http:'].includes(target.protocol))throw Error('无效云端地址');
+ if(target.protocol!=='https:'&&!['127.0.0.1','localhost'].includes(target.hostname))throw Error('仅允许 HTTPS 云端或本机测试接口');
+ return target;
+}
 async function transmit(url,token,events,fetcher=fetch){
- const target=new URL('/api/events',url);
- if(target.protocol!=='https:' && target.hostname!=='127.0.0.1' && target.hostname!=='localhost')throw Error('仅允许 HTTPS 云端或本机测试接口');
+ const target=validatedEndpoint(url,'/api/events');
  const res=await fetcher(target.toString(),{method:'POST',headers:{'Content-Type':'application/json','Authorization':'Bearer '+token},
   body:JSON.stringify({events}),signal:AbortSignal.timeout(12000)});
  if(!res.ok)throw Error('云端拒绝数据 HTTP '+res.status);
@@ -66,7 +71,7 @@ async function tick(cfg,fetcher=fetch){
  if(cache.queued.length>10000)throw Error('离线队列超过10000条：需要检查连接，已保留原队列');
  writeAtomic(file,cache); // 先落盘后上传，避免崩溃丢失事件
  if(!cfg.url||!cfg.token)return {queued:cache.queued.length,sent:0,offline:true};
- const heartbeat=new URL('/api/heartbeat',cfg.url);
+ const heartbeat=validatedEndpoint(cfg.url,'/api/heartbeat');
  const heartbeatResult=await fetcher(heartbeat.toString(),{method:'POST',
   headers:{'Content-Type':'application/json','Authorization':'Bearer '+cfg.token},
   body:JSON.stringify({sourceId:cfg.sourceId,projectId:cfg.projectId}),signal:AbortSignal.timeout(12000)});
