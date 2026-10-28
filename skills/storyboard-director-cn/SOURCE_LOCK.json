@@ -70,8 +70,8 @@
     {
       "package_path": "scripts/分镜事件时长校验器-V4.js",
       "source_path": "分镜导演V4/04_程序校验/分镜事件时长校验器-V4.js",
-      "git_blob_sha": "acf5f008ca4255f6ab024142f7c2a78aee1ecd23",
-      "characters": 6073
+      "git_blob_sha": "1126d4d984609d700d07aa99b664d464a2ea952e",
+      "characters": 6137
     },
     {
       "package_path": "tests/分镜时间回归样例-V4.json",
