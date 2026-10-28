@@ -31,7 +31,7 @@ async function store(db,e){
  return x;
 }
 async function getSnapshot(db,projectId){
- const out=await db.prepare('SELECT * FROM events WHERE project_id=? ORDER BY received_at DESC LIMIT 2000').bind(projectId).all();
+ const out=await db.prepare('SELECT * FROM events WHERE project_id=? ORDER BY occurred_at DESC, seq DESC, received_at DESC LIMIT 2000').bind(projectId).all();
  const rows=out.results||[]; const tasks=new Map();const seenSeq=new Map();
  // 以同一来源同一 run 的序号为主，跨 run 以收到时间排序（每条记录保留）。
  for(const r of rows){const key=r.task_id;if(!tasks.has(key))tasks.set(key,{
