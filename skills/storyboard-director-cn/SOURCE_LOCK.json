@@ -1,9 +1,9 @@
 {
   "package": "storyboard-director-cn",
   "date": "2026-10-28",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "source_repo": "a2315758011/a",
-  "branch": "main",
+  "branch": "fix/storyboard-dispatch-temporal-check-20261028",
   "source_version": "V2.10.1",
   "files": [
     {
