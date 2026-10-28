@@ -40,14 +40,22 @@ function normalize(e){return {
  dependencies:(e.dependencies||[]),message:safeString(e.message,600),resumePoint:safeString(e.resumePoint,500),
  evidence:(e.evidence||[]).map(x=>safeString(x,180))
 }}
-async function store(db,e){
- const x=normalize(e),received=new Date().toISOString();
- // 唯一事件 ID + 来源/执行序号保证断线重放幂等；重放不能覆盖已有事件。
- await db.prepare(`INSERT OR IGNORE INTO events(event_id,project_id,task_id,run_id,source_id,seq,status,occurred_at,received_at,title,owner,dependencies_json,message,resume_point,evidence_json)
- VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`).bind(x.eventId,x.projectId,x.taskId,x.runId,x.sourceId,x.seq,x.status,x.occurredAt,received,x.title,x.owner,JSON.stringify(x.dependencies),x.message,x.resumePoint,JSON.stringify(x.evidence)).run();
- await db.prepare(`INSERT INTO sources(source_id,project_id,last_seen_at) VALUES(?,?,?)
- ON CONFLICT(project_id,source_id) DO UPDATE SET project_id=excluded.project_id,last_seen_at=excluded.last_seen_at`).bind(x.sourceId,x.projectId,received).run();
- return x;
+function eventStatement(db,e,received){
+ const x=normalize(e);
+ return db.prepare(`INSERT OR IGNORE INTO events(event_id,project_id,task_id,run_id,source_id,seq,status,occurred_at,received_at,title,owner,dependencies_json,message,resume_point,evidence_json)
+ VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)`).bind(x.eventId,x.projectId,x.taskId,x.runId,x.sourceId,x.seq,x.status,x.occurredAt,received,x.title,x.owner,JSON.stringify(x.dependencies),x.message,x.resumePoint,JSON.stringify(x.evidence));
+}
+function sourceStatement(db,projectId,sourceId,received){
+ return db.prepare(`INSERT INTO sources(source_id,project_id,last_seen_at) VALUES(?,?,?)
+ ON CONFLICT(project_id,source_id) DO UPDATE SET last_seen_at=excluded.last_seen_at`).bind(sourceId,projectId,received);
+}
+async function storeBatch(db,events){
+ const received=new Date().toISOString();
+ const statements=events.map(e=>eventStatement(db,e,received));
+ const sourceKeys=new Set(events.map(e=>e.projectId+'|'+e.sourceId));
+ for(const key of sourceKeys){const [projectId,sourceId]=key.split('|');statements.push(sourceStatement(db,projectId,sourceId,received))}
+ // Cloudflare D1 batch 在单个事务中执行；任何失败时不返回成功确认。
+ await db.batch(statements);
 }
 async function getSnapshot(db,projectId){
  const out=await db.prepare('SELECT * FROM events WHERE project_id=? ORDER BY occurred_at DESC, seq DESC, received_at DESC LIMIT 2000').bind(projectId).all();
@@ -72,8 +80,7 @@ export default {async fetch(request,env){
   let body;try{body=await boundedJson(request,4096)}catch(e){return reply({error:e.message},e.httpStatus||400)}
   if(!body||!IDs.test(body.sourceId||'')||!IDs.test(body.projectId||''))return reply({error:'来源编号错误'},400);
   const now=new Date().toISOString();
-  try{await env.DB.prepare(`INSERT INTO sources(source_id,project_id,last_seen_at) VALUES(?,?,?)
- ON CONFLICT(project_id,source_id) DO UPDATE SET project_id=excluded.project_id,last_seen_at=excluded.last_seen_at`).bind(body.sourceId,body.projectId,now).run();
+  try{await sourceStatement(env.DB,body.projectId,body.sourceId,now).run();
   return reply({ok:true,receivedAt:now})}catch{return reply({error:'心跳保存失败'},500)}
  }
  if(pathname==='/api/events'&&request.method==='POST'){
@@ -82,7 +89,7 @@ export default {async fetch(request,env){
   let body;try{body=await boundedJson(request,100000)}catch(e){return reply({error:e.message},e.httpStatus||400)}
   if(!body||!Array.isArray(body.events)||body.events.length<1||body.events.length>50)return reply({error:'每批1至50个事件'},400);
   for(const e of body.events){const err=validEvent(e);if(err)return reply({error:err},400)}
-  try{for(const e of body.events)await store(env.DB,e);return reply({ok:true,received:body.events.length})}
+  try{await storeBatch(env.DB,body.events);return reply({ok:true,received:body.events.length})}
   catch(e){return reply({error:'云端写入失败'},500)}
  }
  if(pathname==='/api/status'&&request.method==='GET'){
