@@ -51,14 +51,14 @@
     {
       "package_path": "scripts/分镜事件时长校验器-V1.js",
       "source_path": "分镜事件时长校验器-V1.js",
-      "git_blob_sha": "03913e30c63a8f84d6b0984f72a366a267218213",
-      "characters": 7551
+      "git_blob_sha": "c3cc4c6f265bd48ebe7cbad03e0b975fe1db59df",
+      "characters": 7939
     },
     {
       "package_path": "tests/分镜事件时长回归样例-V1.json",
       "source_path": "分镜事件时长回归样例-V1.json",
-      "git_blob_sha": "454c341073aa801bd6ce956463d6af3a8c9b7291",
-      "characters": 19587
+      "git_blob_sha": "dfe045601ec253abbca818448676a4fac19eeba1",
+      "characters": 21346
     }
   ],
   "source_rule_revision": "Director-led shot design, visual beat coverage, action-chain readability, framing/body orientation, spatial continuity, independent audit, text-first delivery, and optional structured temporal validation for high-risk event sequences"
