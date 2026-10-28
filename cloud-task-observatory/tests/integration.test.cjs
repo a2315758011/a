@@ -9,7 +9,7 @@ function fakeServer(){
  const db={prepare(sql){let args=[];return {bind(...vals){args=vals;return this},async run(){
  if(sql.includes('INSERT OR IGNORE INTO events')){if(!rows.some(r=>r.event_id===args[0]||(r.project_id===args[1]&&r.source_id===args[4]&&r.run_id===args[3]&&r.seq===args[5])))rows.push({event_id:args[0],project_id:args[1],task_id:args[2],run_id:args[3],source_id:args[4],seq:args[5],status:args[6],occurred_at:args[7],received_at:args[8],title:args[9],owner:args[10],dependencies_json:args[11],message:args[12],resume_point:args[13],evidence_json:args[14]})}
  if(sql.includes('INSERT INTO sources'))sources.set(args[0],{source_id:args[0],project_id:args[1],last_seen_at:args[2]});return {success:true};
- },async all(){if(sql.includes('FROM sources'))return {results:[...sources.values()].filter(s=>s.project_id===args[0])};return {results:rows.filter(r=>r.project_id===args[0]).slice().reverse()}}}}};
+ },async all(){if(sql.includes('FROM sources'))return {results:[...sources.values()].filter(s=>s.project_id===args[0])};return {results:rows.filter(r=>r.project_id===args[0]).slice().sort((a,b)=>b.occurred_at.localeCompare(a.occurred_at)||b.seq-a.seq||b.received_at.localeCompare(a.received_at))}}}}};
  return {DB:db,WRITE_TOKEN:'w'.repeat(32),READ_TOKEN:'r'.repeat(32),ASSETS:{fetch:async()=>new Response('网页内容')} ,rows,sources};
 }
 function evt(){return {eventId:'ev-1',projectId:'demo',taskId:'A',runId:'run-1',sourceId:'win-agent',seq:1,status:'IN_PROGRESS',occurredAt:'2026-10-28T00:00:00Z',title:'工作任务',dependencies:[]}}
@@ -17,6 +17,13 @@ test('事件必须具备合法任务编号与状态',async()=>{const {validEvent
 test('未经授权禁止读取私人任务',async()=>{const {default:w}=await worker(),env=fakeServer();const r=await w.fetch(new Request('https://unit.test/api/status?project=demo'),env);assert.equal(r.status,401)});
 test('未经授权禁止写入任务',async()=>{const {default:w}=await worker(),env=fakeServer();const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',body:JSON.stringify({events:[evt()]})}),env);assert.equal(r.status,401)});
 test('合法事件可查询；重复上报幂等',async()=>{const {default:w}=await worker(),env=fakeServer();for(let i=0;i<2;i++){const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({events:[evt()]})}),env);assert.equal(r.status,200)}assert.equal(env.rows.length,1);const r=await w.fetch(new Request('https://unit.test/api/status?project=demo',{headers:{Authorization:'Bearer '+env.READ_TOKEN}}),env);const d=await r.json();assert.equal(d.tasks[0].id,'A');assert.equal(d.tasks[0].status,'IN_PROGRESS')});
+test('断线后补发旧事件，不得覆盖较新的任务状态',async()=>{const {default:w}=await worker(),env=fakeServer();
+ const newer={...evt(),eventId:'newer',seq:2,status:'VERIFIED',occurredAt:'2026-10-28T02:00:00Z'};
+ const older={...evt(),eventId:'older',seq:1,status:'IN_PROGRESS',occurredAt:'2026-10-28T01:00:00Z'};
+ for(const event of [newer,older]){const res=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({events:[event]})}),env);assert.equal(res.status,200)}
+ const res=await w.fetch(new Request('https://unit.test/api/status?project=demo',{headers:{Authorization:'Bearer '+env.READ_TOKEN}}),env);
+ const data=await res.json();assert.equal(data.tasks[0].status,'VERIFIED');
+});
 test('无效事件必须完整拒绝',async()=>{const {default:w}=await worker(),env=fakeServer();const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({events:[evt(),{...evt(),eventId:'bad2',status:'WRONG'}]})}),env);assert.equal(r.status,400);assert.equal(env.rows.length,0)});
 test('无状态改变时仍更新心跳',async()=>{const {default:w}=await worker(),env=fakeServer();const r=await w.fetch(new Request('https://unit.test/api/heartbeat',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({projectId:'demo',sourceId:'win-agent'})}),env);assert.equal(r.status,200);assert.equal(env.sources.size,1)});
 test('采集器读取真实状态而非虚构验收',()=>{const root=fixture();try{const arr=snapshot(root,'demo','win-agent');assert.equal(arr.length,1);assert.equal(arr[0].status,'IN_PROGRESS');assert.deepEqual(arr[0].evidence,[])}finally{fs.rmSync(root,{recursive:true,force:true})}});
