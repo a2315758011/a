@@ -41,4 +41,22 @@ test('默认不上传恢复详情，并对任务文本进行脱敏',()=>{const r
  assert.equal(detailed[0].resumePoint,'继续测试');
  }finally{fs.rmSync(root,{recursive:true,force:true})}});
 test('断线先保存队列，下次联网再补发，不能重复',async()=>{const root=fixture();try{const cfg={root,projectId:'demo',sourceId:'win-agent',spoolFile:path.join(root,'spool.json')};const offline=await tick(cfg);assert.equal(offline.queued,1);const calls=[];const fake=async(url,opts)=>{calls.push(url);return {ok:true,status:200,json:async()=>({ok:true})}};const online=await tick({...cfg,url:'https://unit.test',token:'w'.repeat(32)},fake);assert.equal(online.sent,1);assert.equal(online.queued,0);const again=await tick({...cfg,url:'https://unit.test',token:'w'.repeat(32)},fake);assert.equal(again.sent,0);assert.equal(calls.filter(x=>x.endsWith('/api/events')).length,1)}finally{fs.rmSync(root,{recursive:true,force:true})}});
+test('无Content-Length的超大JSON应被流式拒绝',async()=>{
+ const {default:w}=await worker(),env=fakeServer();
+ const oversized=JSON.stringify({events:[{...evt(),message:'x'.repeat(105000)}]});
+ const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN},body:oversized}),env);
+ assert.equal(r.status,413);assert.equal(env.rows.length,0);
+});
+test('不接受空事件批次',async()=>{
+ const {default:w}=await worker(),env=fakeServer();
+ const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN},body:JSON.stringify({events:[]})}),env);
+ assert.equal(r.status,400);
+});
+test('心跳不得向公网HTTP发送上传口令',async()=>{
+ const root=fixture();try{
+ let calls=0;const cfg={root,projectId:'demo',sourceId:'win-agent',spoolFile:path.join(root,'spool.json'),url:'http://example.org',token:'some-private-write-token'};
+ await assert.rejects(tick(cfg,async()=>{calls++;return {ok:true}}),/HTTPS/);
+ assert.equal(calls,0);assert.equal(JSON.parse(fs.readFileSync(cfg.spoolFile,'utf8')).queued.length,1);
+ }finally{fs.rmSync(root,{recursive:true,force:true})}
+});
 test('公网HTTP明文上报必须拒绝',async()=>{await assert.rejects(transmit('http://example.org','secret',[evt()],async()=>({ok:true})),/HTTPS/)});
