@@ -5,7 +5,7 @@
   "status": "candidate-not-main",
   "source_repo": "a2315758011/a",
   "branch": "feature/storyboard-director-v4-20261026",
-  "source_version": "V4.0.1-layered-over-V2.8.3",
+  "source_version": "V4.0.1-layered-over-V2.10.1",
   "files": [
     {
       "package_path": "SKILL.md",
@@ -22,14 +22,14 @@
     {
       "package_path": "references/剧本转分镜指令.md",
       "source_path": "剧本转分镜指令.md",
-      "git_blob_sha": "cb8a4febf1e9538eb10172134a43370bf814aa29",
-      "characters": 31928
+      "git_blob_sha": "a99ff46195a48bce189fcf3c1116bd13d2d28c4d",
+      "characters": 35111
     },
     {
       "package_path": "references/剧本转分镜自检指令.md",
       "source_path": "剧本转分镜自检指令.md",
-      "git_blob_sha": "0ec8a7d7aca84aa06e692526ecb075d736571acc",
-      "characters": 18262
+      "git_blob_sha": "6ee3fa78ba6dc9374254c96f697dcd64e091fabd",
+      "characters": 20726
     },
     {
       "package_path": "references/剧本转分镜指令-V4.md",
@@ -70,8 +70,8 @@
     {
       "package_path": "scripts/分镜事件时长校验器-V4.js",
       "source_path": "分镜导演V4/04_程序校验/分镜事件时长校验器-V4.js",
-      "git_blob_sha": "96be9475858a22598d7a8be5190ed15f2033f862",
-      "characters": 5561
+      "git_blob_sha": "acf5f008ca4255f6ab024142f7c2a78aee1ecd23",
+      "characters": 6073
     },
     {
       "package_path": "tests/分镜时间回归样例-V4.json",
