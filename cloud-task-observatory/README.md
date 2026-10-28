@@ -54,7 +54,7 @@
 
 首次部署时在 Actions → “部署云端任务看板” → Run workflow，勾选“首次部署时是否执行数据库建表”。正式地址只有工作流成功后才会出现在部署日志/Cloudflare Worker 列表中。在部署成功之前，不存在可供确认的正式在线地址。
 
-## 工程师部署步骤（用户无需亲自操作）
+## 正式部署步骤（仅需一次云端授权）
 
 正式版使用 Cloudflare Workers + D1。官方配置说明：
 https://developers.cloudflare.com/workers/static-assets/binding/
@@ -74,7 +74,7 @@ https://developers.cloudflare.com/workers/static-assets/binding/
 Windows 工作站 Node.js 对 GitHub 上的源码副本运行：
 
 - JavaScript 语法检查通过。
-- Node.js 核心回归测试 **10/10 PASS**。
+- Node.js 核心回归测试 **11/11 PASS**（包含默认隐私最小化和脱敏验证）。
 - 未授权读、未授权写被正确拒绝。
 - 重复事件提交不会重复记录。
 - 后补的旧任务事件不会把已经验收的新状态倒退。
@@ -83,7 +83,10 @@ Windows 工作站 Node.js 对 GitHub 上的源码副本运行：
 - 使用 SQLite 实际执行 D1 建表 SQL，通过跨项目采集器心跳隔离检查。
 - 中文网页脚本语法、中文操作按钮、仅公开 public 静态文件配置通过。
 
-以上是**本地开发测试**，不是 Cloudflare 线上运行和真实浏览器交互验收。
+GitHub Actions 最近一次通过记录：
+https://github.com/a2315758011/a/actions/runs/40636821484
+
+以上是**本地开发测试与 GitHub 云端 CI 测试**，不是 Cloudflare 线上运行和真实浏览器交互验收。
 
 ## 还没有完成的验收
 
