@@ -46,9 +46,15 @@ jobs:
           WRITE_TOKEN: ${{ secrets.TASK_OBSERVATORY_WRITE_TOKEN }}
           READ_TOKEN: ${{ secrets.TASK_OBSERVATORY_READ_TOKEN }}
         run: |
+          set -euo pipefail
           test -n "$TOKEN" || (echo "::error::请在 cloud-production 环境配置 CLOUDFLARE_API_TOKEN" && exit 1)
           test -n "$ACCOUNT" || (echo "::error::请配置 CLOUDFLARE_ACCOUNT_ID" && exit 1)
           test -n "$D1_ID" || (echo "::error::请配置 CLOUDFLARE_D1_DATABASE_ID" && exit 1)
+          test -n "$WRITE_TOKEN" || (echo "::error::请配置 TASK_OBSERVATORY_WRITE_TOKEN" && exit 1)
+          test -n "$READ_TOKEN" || (echo "::error::请配置 TASK_OBSERVATORY_READ_TOKEN" && exit 1)
+          test "$WRITE_TOKEN" != "$READ_TOKEN" || (echo "::error::读写口令必须不同" && exit 1)
+          test "${#WRITE_TOKEN}" -ge 32 || (echo "::error::写入口令至少32个字符" && exit 1)
+          test "${#READ_TOKEN}" -ge 32 || (echo "::error::读取口令至少32个字符" && exit 1)
       - name: 迁移远端数据库
         if: inputs.migrate_database
         uses: cloudflare/wrangler-action@v4
