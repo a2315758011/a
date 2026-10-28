@@ -34,6 +34,24 @@
 
 **现阶段自动采集范围**：已接入 Project Orchestrator 的任务。未接入的 AI 聊天操作、浏览器点击或其他软件运行过程，不能自动完整监控。后续需要针对每一种执行器接入事件适配器，不能宣称已经捕获全部 AI 活动。
 
+## GitHub 自动部署入口（已加入仓库）
+
+仓库已加入手动触发的部署工作流：`.github/workflows/部署云端任务看板.yml`。它会先检查凭据，再运行数据库迁移、写入 Worker 密文、发布网页和接口。它不会自动在每次代码提交时发布生产版本。
+
+部署前仅需在 GitHub 仓库的 **Settings → Environments → cloud-production** 配置以下项目：
+
+| 类型 | 名称 | 作用 |
+| --- | --- | --- |
+| 环境机密 | `CLOUDFLARE_API_TOKEN` | 仅限本 Worker 与 D1 所需权限的 Cloudflare API 令牌 |
+| 环境机密 | `CLOUDFLARE_ACCOUNT_ID` | Cloudflare 账户标识 |
+| 环境机密 | `TASK_OBSERVATORY_WRITE_TOKEN` | 本地采集器上传事件使用的随机强口令 |
+| 环境机密 | `TASK_OBSERVATORY_READ_TOKEN` | 看板读取状态使用的另一条随机强口令 |
+| 环境变量 | `CLOUDFLARE_D1_DATABASE_ID` | 已创建的 `zh-task-observatory` 数据库 ID |
+
+读写口令必须是不同的随机字符串，至少 32 个字符。不要把口令发到聊天、源码或运行日志中。
+
+首次部署时在 Actions → “部署云端任务看板” → Run workflow，勾选“首次部署时是否执行数据库建表”。正式地址只有工作流成功后才会出现在部署日志/Cloudflare Worker 列表中。在部署成功之前，不存在可供确认的正式在线地址。
+
 ## 工程师部署步骤（用户无需亲自操作）
 
 正式版使用 Cloudflare Workers + D1。官方配置说明：
