@@ -27,5 +27,18 @@ test('断线后补发旧事件，不得覆盖较新的任务状态',async()=>{co
 test('无效事件必须完整拒绝',async()=>{const {default:w}=await worker(),env=fakeServer();const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({events:[evt(),{...evt(),eventId:'bad2',status:'WRONG'}]})}),env);assert.equal(r.status,400);assert.equal(env.rows.length,0)});
 test('无状态改变时仍更新心跳',async()=>{const {default:w}=await worker(),env=fakeServer();const r=await w.fetch(new Request('https://unit.test/api/heartbeat',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({projectId:'demo',sourceId:'win-agent'})}),env);assert.equal(r.status,200);assert.equal(env.sources.size,1)});
 test('采集器读取真实状态而非虚构验收',()=>{const root=fixture();try{const arr=snapshot(root,'demo','win-agent');assert.equal(arr.length,1);assert.equal(arr[0].status,'IN_PROGRESS');assert.deepEqual(arr[0].evidence,[])}finally{fs.rmSync(root,{recursive:true,force:true})}});
+test('默认不上传恢复详情，并对任务文本进行脱敏',()=>{const root=fixture();try{
+ const taskPath=path.join(root,'.project-orchestrator','tasks','A.json');
+ const task=JSON.parse(fs.readFileSync(taskPath,'utf8'));
+ task.title='检查 token=superSecretValue 联系 person@example.com 路径 C:\\Users\\private\\note.txt';
+ fs.writeFileSync(taskPath,JSON.stringify(task));
+ const normal=snapshot(root,'demo','win-agent');
+ assert.equal(normal[0].message,'');assert.equal(normal[0].resumePoint,'');
+ assert.ok(!normal[0].title.includes('superSecretValue'));
+ assert.ok(!normal[0].title.includes('person@example.com'));
+ assert.ok(!normal[0].title.includes('C:\\Users\\private'));
+ const detailed=snapshot(root,'demo','win-agent',{includeRecoveryText:true});
+ assert.equal(detailed[0].resumePoint,'继续测试');
+ }finally{fs.rmSync(root,{recursive:true,force:true})}});
 test('断线先保存队列，下次联网再补发，不能重复',async()=>{const root=fixture();try{const cfg={root,projectId:'demo',sourceId:'win-agent',spoolFile:path.join(root,'spool.json')};const offline=await tick(cfg);assert.equal(offline.queued,1);const calls=[];const fake=async(url,opts)=>{calls.push(url);return {ok:true,status:200,json:async()=>({ok:true})}};const online=await tick({...cfg,url:'https://unit.test',token:'w'.repeat(32)},fake);assert.equal(online.sent,1);assert.equal(online.queued,0);const again=await tick({...cfg,url:'https://unit.test',token:'w'.repeat(32)},fake);assert.equal(again.sent,0);assert.equal(calls.filter(x=>x.endsWith('/api/events')).length,1)}finally{fs.rmSync(root,{recursive:true,force:true})}});
 test('公网HTTP明文上报必须拒绝',async()=>{await assert.rejects(transmit('http://example.org','secret',[evt()],async()=>({ok:true})),/HTTPS/)});
