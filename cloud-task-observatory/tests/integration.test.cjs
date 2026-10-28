@@ -6,9 +6,15 @@ async function worker(){return import('../cloudflare/worker.mjs')}
 function fixture(){const root=fs.mkdtempSync(path.join(__dirname,'..','_assistant-temp-test-'));const base=path.join(root,'.project-orchestrator');fs.mkdirSync(path.join(base,'tasks'),{recursive:true});fs.mkdirSync(path.join(base,'status'));fs.writeFileSync(path.join(base,'tasks','A.json'),JSON.stringify({task_id:'A',title:'工作任务',dependencies:[]}));fs.writeFileSync(path.join(base,'status','A.json'),JSON.stringify({task_id:'A',status:'IN_PROGRESS',updated_at:'2026-10-28T00:00:00Z',resume_point:'继续测试'}));return root}
 function fakeServer(){
  const rows=[],sources=new Map();
- const db={prepare(sql){let args=[];return {bind(...vals){args=vals;return this},async run(){
+ const db={async batch(statements){
+   // 原子模拟：先保存快照，失败时回滚；测试事务语义。
+   const before=rows.slice(),beforeSources=new Map(sources);
+   try{for(const statement of statements)await statement.run()}
+   catch(e){rows.splice(0,rows.length,...before);sources.clear();for(const [k,v] of beforeSources)sources.set(k,v);throw e}
+   return statements.map(()=>({success:true}));
+ },prepare(sql){let args=[];return {bind(...vals){args=vals;return this},async run(){
  if(sql.includes('INSERT OR IGNORE INTO events')){if(!rows.some(r=>r.event_id===args[0]||(r.project_id===args[1]&&r.source_id===args[4]&&r.run_id===args[3]&&r.seq===args[5])))rows.push({event_id:args[0],project_id:args[1],task_id:args[2],run_id:args[3],source_id:args[4],seq:args[5],status:args[6],occurred_at:args[7],received_at:args[8],title:args[9],owner:args[10],dependencies_json:args[11],message:args[12],resume_point:args[13],evidence_json:args[14]})}
- if(sql.includes('INSERT INTO sources'))sources.set(args[0],{source_id:args[0],project_id:args[1],last_seen_at:args[2]});return {success:true};
+ if(sql.includes('INSERT INTO sources'))sources.set(args[1]+'|'+args[0],{source_id:args[0],project_id:args[1],last_seen_at:args[2]});return {success:true};
  },async all(){if(sql.includes('FROM sources'))return {results:[...sources.values()].filter(s=>s.project_id===args[0])};return {results:rows.filter(r=>r.project_id===args[0]).slice().sort((a,b)=>b.occurred_at.localeCompare(a.occurred_at)||b.seq-a.seq||b.received_at.localeCompare(a.received_at))}}}}};
  return {DB:db,WRITE_TOKEN:'w'.repeat(32),READ_TOKEN:'r'.repeat(32),ASSETS:{fetch:async()=>new Response('网页内容')} ,rows,sources};
 }
@@ -23,6 +29,20 @@ test('断线后补发旧事件，不得覆盖较新的任务状态',async()=>{co
  for(const event of [newer,older]){const res=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({events:[event]})}),env);assert.equal(res.status,200)}
  const res=await w.fetch(new Request('https://unit.test/api/status?project=demo',{headers:{Authorization:'Bearer '+env.READ_TOKEN}}),env);
  const data=await res.json();assert.equal(data.tasks[0].status,'VERIFIED');
+});
+test('云端数据库中途失败必须拒绝整批确认',async()=>{
+ const {default:w}=await worker(),env=fakeServer();
+ const original=env.DB.batch.bind(env.DB);
+ env.DB.batch=async(statements)=>{throw new Error('数据库故障')};
+ const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN},body:JSON.stringify({events:[evt()]})}),env);
+ assert.equal(r.status,500);assert.equal(env.rows.length,0);
+ env.DB.batch=original;
+});
+test('多个采集源同一批次只写各自心跳',async()=>{
+ const {default:w}=await worker(),env=fakeServer();
+ const e1=evt(),e2={...evt(),eventId:'ev-2',sourceId:'second-agent',seq:2};
+ const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN},body:JSON.stringify({events:[e1,e2]})}),env);
+ assert.equal(r.status,200);assert.equal(env.sources.size,2);assert.equal(env.rows.length,2);
 });
 test('无效事件必须完整拒绝',async()=>{const {default:w}=await worker(),env=fakeServer();const r=await w.fetch(new Request('https://unit.test/api/events',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({events:[evt(),{...evt(),eventId:'bad2',status:'WRONG'}]})}),env);assert.equal(r.status,400);assert.equal(env.rows.length,0)});
 test('无状态改变时仍更新心跳',async()=>{const {default:w}=await worker(),env=fakeServer();const r=await w.fetch(new Request('https://unit.test/api/heartbeat',{method:'POST',headers:{Authorization:'Bearer '+env.WRITE_TOKEN,'Content-Type':'application/json'},body:JSON.stringify({projectId:'demo',sourceId:'win-agent'})}),env);assert.equal(r.status,200);assert.equal(env.sources.size,1)});
