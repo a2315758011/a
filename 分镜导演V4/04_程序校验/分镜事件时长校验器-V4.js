@@ -86,9 +86,14 @@ if(require.main===module){
   try {const x=JSON.parse(fs.readFileSync(file,'utf8'));const tests=Array.isArray(x.cases)?x.cases:[{id:'input',data:x}];let mismatch=0;
     for(const t of tests){const got=validate(t.data||t),codes=[...new Set(got.errors.map(e=>e.code))].sort();
       const expected=(t.expected_errors||[]).slice().sort();
-      const pass=!('expected_errors' in t)||JSON.stringify(codes)===JSON.stringify(expected);
+      const warningCodes=[...new Set(got.warnings.map(w=>w.code))].sort();
+      const expectedWarnings=(t.expected_warnings||[]).slice().sort();
+      // Assert warning expectations too; previously expected_warnings in fixtures were silently ignored.
+      const errorsMatch=(!('expected_errors' in t)||JSON.stringify(codes)===JSON.stringify(expected));
+      const warningsMatch=(!('expected_warnings' in t)||JSON.stringify(warningCodes)===JSON.stringify(expectedWarnings));
+      const pass=errorsMatch&&warningsMatch;
       if(!pass || (!('expected_errors' in t) && !got.ok)) mismatch++;
-      console.log(JSON.stringify({case:t.id||'input',pass,ok:got.ok,codes,expected:('expected_errors' in t)?expected:undefined,errors:got.errors,warnings:got.warnings},null,2));
+      console.log(JSON.stringify({case:t.id||'input',pass,ok:got.ok,codes,expected:('expected_errors' in t)?expected:undefined,warningCodes,expectedWarnings:('expected_warnings' in t)?expectedWarnings:undefined,errors:got.errors,warnings:got.warnings},null,2));
     }process.exit(mismatch?1:0);
   }catch(e){console.error('校验异常: '+e.message);process.exit(2);}
 }
