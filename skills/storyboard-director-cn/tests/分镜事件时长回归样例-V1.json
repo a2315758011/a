@@ -941,6 +941,90 @@
           }
         ]
       }
+    },
+    {
+      "id": "FAIL-S067-22秒低于30秒硬约束",
+      "expected_errors": [
+        "T05"
+      ],
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 40000,
+            "shots": [
+              {
+                "id": "S066",
+                "start_ms": 0,
+                "end_ms": 20000
+              },
+              {
+                "id": "S067",
+                "start_ms": 20000,
+                "end_ms": 40000
+              }
+            ],
+            "events": [
+              {
+                "id": "S067-hold",
+                "actor_ids": [
+                  "A"
+                ],
+                "start_ms": 1000,
+                "end_ms": 23000,
+                "exclusive": true,
+                "continuous_hold": true,
+                "min_duration_ms": 30000,
+                "duration_status": "hard_constraint"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "REVIEW-S068-13人逐一可见3秒",
+      "expected_errors": [],
+      "expected_warnings": [
+        "W01",
+        "W05"
+      ],
+      "data": {
+        "episodes": [
+          {
+            "id": "EP01",
+            "start_ms": 0,
+            "end_ms": 10000,
+            "shots": [
+              {
+                "id": "S067",
+                "start_ms": 0,
+                "end_ms": 5000
+              },
+              {
+                "id": "S068",
+                "start_ms": 5000,
+                "end_ms": 10000
+              }
+            ],
+            "events": [
+              {
+                "id": "S068-board",
+                "actor_ids": [
+                  "A"
+                ],
+                "start_ms": 1000,
+                "end_ms": 4000,
+                "shown_count": 13,
+                "min_per_person_ms": 500,
+                "presentation": "sequential_visible",
+                "duration_status": "estimated"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }
