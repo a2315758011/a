@@ -7,7 +7,7 @@ compatibility: 需要能读取同目录 references 的 AI 客户端；Node.js �
 # 分镜导演技能 V4.0
 
 ## 强制读取顺序
-1. 读取 references/剧本转分镜指令.md 全文（基础规则 V2.8.3，保留 source、SCG、资产和状态门禁）。
+1. 读取 references/剧本转分镜指令.md 全文（基础规则 V2.10.1，保留 source、SCG、资产和状态门禁）。
 2. 读取 references/剧本转分镜自检指令.md 全文（基础自检规则）。
 3. 读取 references/剧本转分镜指令-V4.md 全文（导演决策、空间调度、战斗、情绪和时间事件图）。
 4. 读取 references/剧本转分镜自检指令-V4.md 全文（独立验收门禁）。
