@@ -1,0 +1,66 @@
+name: 部署云端任务看板
+on:
+  workflow_dispatch:
+    inputs:
+      migrate_database:
+        description: 首次部署时是否执行数据库建表
+        required: true
+        type: boolean
+        default: true
+permissions:
+  contents: read
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: cloud-production
+    steps:
+      - name: 下载源码
+        uses: actions/checkout@v4
+      - name: 安装 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: 生成临时配置
+        working-directory: cloud-task-observatory/cloudflare
+        env:
+          D1_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+        run: |
+          python - <<'PY'
+          import os
+          from pathlib import Path
+          source = Path('wrangler.toml')
+          text = source.read_text(encoding='utf-8')
+          marker = 'database_id = "请替换为实际数据库ID"'
+          if text.count(marker) != 1:
+              raise SystemExit('数据库 ID 占位符异常，停止部署')
+          target = Path('wrangler.ci.generated.toml')
+          target.write_text(text.replace(marker, 'database_id = "' + os.environ['D1_ID'] + '"'), encoding='utf-8')
+          print('临时配置已生成，不会提交到仓库')
+          PY
+      - name: 检查必要配置
+        env:
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          D1_ID: ${{ vars.CLOUDFLARE_D1_DATABASE_ID }}
+        run: |
+          test -n "$TOKEN" || (echo "::error::请在 cloud-production 环境配置 CLOUDFLARE_API_TOKEN" && exit 1)
+          test -n "$ACCOUNT" || (echo "::error::请配置 CLOUDFLARE_ACCOUNT_ID" && exit 1)
+          test -n "$D1_ID" || (echo "::error::请配置 CLOUDFLARE_D1_DATABASE_ID" && exit 1)
+      - name: 迁移远端数据库
+        if: inputs.migrate_database
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: cloud-task-observatory/cloudflare
+          command: d1 execute zh-task-observatory --remote --file schema.sql --config wrangler.ci.generated.toml
+      - name: 部署 Worker 与中文网页
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          workingDirectory: cloud-task-observatory/cloudflare
+          command: deploy --config wrangler.ci.generated.toml
+      - name: 删除临时配置
+        if: always()
+        run: rm -f cloud-task-observatory/cloudflare/wrangler.ci.generated.toml
