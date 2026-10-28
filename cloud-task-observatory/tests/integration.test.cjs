@@ -3,7 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const {createRequire}=require('node:module');
 const {snapshot,tick,transmit}=require('../collector/collector.cjs');
 async function worker(){return import('../cloudflare/worker.mjs')}
-function fixture(){const root=fs.mkdtempSync(path.join(os.tmpdir(),'zh-monitor-'));const base=path.join(root,'.project-orchestrator');fs.mkdirSync(path.join(base,'tasks'),{recursive:true});fs.mkdirSync(path.join(base,'status'));fs.writeFileSync(path.join(base,'tasks','A.json'),JSON.stringify({task_id:'A',title:'工作任务',dependencies:[]}));fs.writeFileSync(path.join(base,'status','A.json'),JSON.stringify({task_id:'A',status:'IN_PROGRESS',updated_at:'2026-10-28T00:00:00Z',resume_point:'继续测试'}));return root}
+function fixture(){const root=fs.mkdtempSync(path.join(__dirname,'..','_assistant-temp-test-'));const base=path.join(root,'.project-orchestrator');fs.mkdirSync(path.join(base,'tasks'),{recursive:true});fs.mkdirSync(path.join(base,'status'));fs.writeFileSync(path.join(base,'tasks','A.json'),JSON.stringify({task_id:'A',title:'工作任务',dependencies:[]}));fs.writeFileSync(path.join(base,'status','A.json'),JSON.stringify({task_id:'A',status:'IN_PROGRESS',updated_at:'2026-10-28T00:00:00Z',resume_point:'继续测试'}));return root}
 function fakeServer(){
  const rows=[],sources=new Map();
  const db={prepare(sql){let args=[];return {bind(...vals){args=vals;return this},async run(){
