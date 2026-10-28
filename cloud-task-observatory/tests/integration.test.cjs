@@ -79,4 +79,16 @@ test('心跳不得向公网HTTP发送上传口令',async()=>{
  assert.equal(calls,0);assert.equal(JSON.parse(fs.readFileSync(cfg.spoolFile,'utf8')).queued.length,1);
  }finally{fs.rmSync(root,{recursive:true,force:true})}
 });
+test('前端来源离线判定、动画暂停逻辑可加载',()=>{
+ const vm=require('node:vm');
+ const html=fs.readFileSync(path.join(__dirname,'..','public','index.html'),'utf8');
+ const source=html.split('<script>')[1]?.split('</script>')[0];
+ assert.ok(source,'中文网页脚本存在');new vm.Script(source);
+ const sandbox={snapshot:{sources:[{sourceId:'agent-A',lastSeenAt:new Date().toISOString()}]},Date,translate:s=>s};
+ vm.runInNewContext(source.slice(source.indexOf('function sourceOnline('),source.indexOf('function draw(data){')),sandbox);
+ assert.equal(sandbox.sourceOnline({sourceId:'agent-A'}),true);
+ assert.equal(sandbox.sourceOnline({sourceId:'agent-missing'}),false);
+ assert.equal(sandbox.visibleStatus({status:'IN_PROGRESS',sourceId:'agent-missing'}),'最后记录：执行中（采集已断开）');
+ assert.ok(source.includes("sourceOnline(t,data)?'active':''"),'动态线必须根据来源心跳控制');
+});
 test('公网HTTP明文上报必须拒绝',async()=>{await assert.rejects(transmit('http://example.org','secret',[evt()],async()=>({ok:true})),/HTTPS/)});
