@@ -3,17 +3,17 @@
   "purpose": "分镜自动调用入口的动态规则索引。每次分镜任务必须从默认分支读取清单，再读取所有 required 规则全文。",
   "repository": "a2315758011/a",
   "branch": "main",
-  "release_version": "4.0.1-layered-rc2",
+  "release_version": "4.0.1-layered-rc3-over-V2.10.1",
   "entry_path": "剧本转分镜自动调用指令",
   "rules": [
     {
       "path": "剧本转分镜指令",
-      "role": "基础编写规则 V2.8.3（必须完整保留）",
+      "role": "基础编写规则 V2.10.1（必须完整保留）",
       "required": true
     },
     {
       "path": "剧本转分镜自检指令",
-      "role": "基础审核、SCG 与资产状态规则 V2.8.3（必须完整保留）",
+      "role": "基础审核、SCG 与资产状态规则 V2.10.1（必须完整保留）",
       "required": true
     },
     {
@@ -39,7 +39,7 @@
       "role": "通过/失败回归案例，用于实际运行测试"
     }
   ],
-  "update_contract": "V4 layered：完整读取基础两规则和 V4 两规则，既有 SCG/source/资产权威规则仍有效。线上 main 清单生效后，分发时同步学员 V4 全文与技能包，所有快照须核对 SHA。严禁把原有 ZIP V2.8.1 宣称 V4。候选分支未合并时只能说候选已准备。 比较验收未完成前不得合并到 main；V4.0 RC2 仍为候选。",
+  "update_contract": "V4 layered RC3：完整读取 main V2.10.1 基础两规则和 V4 两规则；候选版本不得覆盖 main，合并前须完成基线对照、事件级时间账本与真实动态预演。Skill、SOURCE_LOCK、离线包必须同步 SHA。",
   "gate": {
     "fail_closed": true,
     "p0_allowed": 0,
@@ -57,9 +57,9 @@
   },
   "delivery": {
     "online_mode": "从当前目标分支的清单读取全部 required 规则；分支候选需要明确 ref，合并后按 main 动态加载；不足四份则报阻断",
-    "offline_mode": "无联网/GitHub 的学员上传独立完整 V4 规则包，含原文 V2.8.3 两份及 V4 增量两份",
+    "offline_mode": "无联网/GitHub 的学员上传独立完整 V4 规则包，含 main V2.10.1 两份完整规则与 V4 增量两份",
     "offline_bundle_path": "学员分镜双规则完整版-V4.0.md",
-    "offline_provenance": "当前两份基础规则全文与 V4 两份增量规则组成的快照；没有在线读取时标记在线最新版未核验。",
+    "offline_provenance": "快照基础规则 V2.10.1（main blob SHA 已记录）与 V4 两份增量规则组成；离线使用时仍标记在线最新版未核验。",
     "no_tools_policy": "无法读取外部 URL 不等于无效规则；已上传完整离线正文时继续执行可完成任务；程序/视频未运行不得假称测试通过。"
   }
 }
