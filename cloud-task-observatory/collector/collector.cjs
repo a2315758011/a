@@ -10,7 +10,7 @@ function safe(v,n=200){return redact(String(v||'').slice(0,n))}
 function redact(value){
  return String(value)
   .replace(/\bBearer\s+[A-Za-z0-9._~+\/-]+=*/gi,'Bearer [已隐藏]')
-  .replace(/\b(api[_-]?key|access[_-]?token|refresh[_-]?token|password|passwd|secret|write_token|read_token)\s*[:=]\s*[^\s,;]+/gi,'$1=[已隐藏]')
+  .replace(/\b(token|api[_-]?key|access[_-]?token|refresh[_-]?token|password|passwd|secret|write_token|read_token)\s*[:=]\s*[^\s,;]+/gi,'$1=[已隐藏]')
   .replace(/[\w.+-]+@[\w.-]+\.[A-Za-z]{2,}/g,'[邮箱]')
   .replace(/https?:\/\/[^\s"'<>]+/gi,'[链接]')
   .replace(/[A-Za-z]:\\[^\s"'<>|]+/g,'[本地路径]')
