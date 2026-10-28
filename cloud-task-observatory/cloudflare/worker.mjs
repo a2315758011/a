@@ -63,7 +63,7 @@ async function getSnapshot(db,projectId){
  // 以同一来源同一 run 的序号为主，跨 run 以收到时间排序（每条记录保留）。
  for(const r of rows){const key=r.task_id;if(!tasks.has(key))tasks.set(key,{
  id:r.task_id,title:r.title||r.task_id,status:r.status,owner:r.owner,dependencies:JSON.parse(r.dependencies_json||'[]'),
- updatedAt:r.received_at,occurredAt:r.occurred_at,resumePoint:r.resume_point,message:r.message,evidence:JSON.parse(r.evidence_json||'[]'),runId:r.run_id
+ updatedAt:r.received_at,occurredAt:r.occurred_at,sourceId:r.source_id,resumePoint:r.resume_point,message:r.message,evidence:JSON.parse(r.evidence_json||'[]'),runId:r.run_id
  });}
  const sources=(await db.prepare('SELECT * FROM sources WHERE project_id=?').bind(projectId).all()).results||[];
  const latest=sources.map(x=>x.last_seen_at).sort().at(-1)||null;
