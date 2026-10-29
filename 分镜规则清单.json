@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "purpose": "分镜自动调用入口的动态规则索引。所有执行端每次分镜任务都必须从默认分支读取此清单，再读取清单内全部规则文件的最新版本。",
-  "repository": "a2315758011/a",
+  "repository": "a2315758011/AIGC",
   "branch": "main",
   "entry_path": "剧本转分镜自动调用指令",
   "rules": [
@@ -70,5 +70,9 @@
       "schema": "skills/storyboard-director-cn/references/分镜事件时间数据契约-V1.md",
       "limits": "仅校验人工/AI提取并复核的结构化事件账本；不解析普通中文稿，不验证生成视频"
     }
-  ]
+  ],
+  "migrated_from": "a2315758011/a",
+  "old_repo_rule_files_are_redirects": true,
+  "canonical_manifest_url": "https://raw.githubusercontent.com/a2315758011/AIGC/main/分镜规则清单.json",
+  "notice": "权威分镜文件已迁往 AIGC。请按 repository 字段从 AIGC 加载规则全文；旧 a 仓库中的同名文件仅包含跳转提示。"
 }
