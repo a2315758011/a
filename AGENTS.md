@@ -28,7 +28,7 @@
 
 - 仓库入口：https://github.com/a2315758011/a
 - 此入口：https://github.com/a2315758011/a/blob/main/AGENTS.md
-- 影视资产原始文本：https://raw.githubusercontent.com/a2315758011/a/main/AIGC%E4%BA%BA%E7%89%A9%E8%B5%84%E4%BA%A7%E6%8C%87%E4%BB%A4
+- 影视资产原始文本：https://raw.githubusercontent.com/a2315758011/AIGC/main/AIGC%E4%BA%BA%E7%89%A9%E8%B5%84%E4%BA%A7%E6%8C%87%E4%BB%A4
 - 游戏规则：https://github.com/a2315758011/a/blob/main/README.md
 - 通用全能力工程执行指令：https://github.com/a2315758011/a/blob/main/AI%E5%85%A8%E8%83%BD%E5%8A%9B%E8%87%AA%E4%B8%BB%E5%B7%A5%E7%A8%8B%E6%89%A7%E8%A1%8C%E6%80%BB%E6%8C%87%E4%BB%A4.md
 - 通用任务理解与最小范围执行指令：https://github.com/a2315758011/a/blob/main/AI%E9%80%9A%E7%94%A8%E4%BB%BB%E5%8A%A1%E7%90%86%E8%A7%A3%E4%B8%8E%E6%9C%80%E5%B0%8F%E8%8C%83%E5%9B%B4%E6%89%A7%E8%A1%8C%E6%8C%87%E4%BB%A4.md
