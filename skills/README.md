@@ -1,9 +1,15 @@
-# Skill 目录迁移说明
+# Skill 目录
 
-**剧本转分镜及 AI 漫剧导演两个专业 Skill 已迁移至 [AIGC](https://github.com/a2315758011/AIGC/tree/main/skills)。**
+本目录保存可复用的专业技能入口和规则。各游戏项目的源码、角色、场景、道具、动画、关卡和测试证据应存放在各自项目目录，不与通用 Skill 混放。
 
-- [分镜导演完整技能（含 references / scripts / tests）](https://github.com/a2315758011/AIGC/tree/main/skills/storyboard-director-cn)
-- [AI 漫剧导演完整技能](https://github.com/a2315758011/AIGC/tree/main/skills/manju-director-cn)
-- [技能更新治理协议](https://github.com/a2315758011/AIGC/blob/main/skills/SKILL_UPDATE_PROTOCOL.md)
+## 小游戏开发工作室
 
-本仓库保留其他领域规则。旧 Skill 版本在 Git 历史中可追溯，但不应作为最新分镜规则入口。
+- [小游戏开发工作室 Skill](./小游戏开发工作室/SKILL.md)：小游戏总导演、策划、程序、美术、动画、关卡、UI、音频、测试和发布的统一路由。
+- [软件工具链清单](./小游戏开发工作室/软件工具链清单.md)：引擎、程序、美术、地图、音频、测试软件及选型原则。
+- [能力矩阵与验收标准](./小游戏开发工作室/能力矩阵与验收标准.md)：专业能力、G0—G4 门禁、真实测试和交付证据。
+
+## 其他技能来源
+
+剧本转分镜及 AI 漫剧导演专业 Skill 已迁移至 [AIGC 仓库](https://github.com/a2315758011/AIGC/tree/main/skills)。本仓库保留游戏制作规则及其通用入口。
+
+技能更新遵循本目录的 [技能更新治理协议](./SKILL_UPDATE_PROTOCOL.md)。
